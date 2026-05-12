@@ -1,9 +1,11 @@
 import type { ReactNode } from "react";
+import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
-import { setRequestLocale, getMessages } from "next-intl/server";
+import { setRequestLocale, getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { locales, type Locale } from "@/lib/i18n";
+import { SITE_URL, SITE_NAME, OG_LOCALE_MAP } from "@/lib/site";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
 import { SkipLink } from "@/components/layout/skip-link";
 import "../globals.css";
@@ -22,6 +24,45 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "metadata" });
+
+  const languages = Object.fromEntries(
+    locales.map((l) => [l === "en" ? "en" : `${l}-CH`, `${SITE_URL}/${l}`])
+  );
+
+  return {
+    metadataBase: new URL(SITE_URL),
+    title: t("title"),
+    description: t("description"),
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      url: `${SITE_URL}/${locale}`,
+      siteName: SITE_NAME,
+      locale: OG_LOCALE_MAP[locale] ?? "fr_CH",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
+    },
+    alternates: {
+      canonical: `${SITE_URL}/${locale}`,
+      languages: {
+        ...languages,
+        "x-default": `${SITE_URL}/fr`,
+      },
+    },
+  };
+}
+
 // Next 15.5 enforces that `params` is typed with a plain string here; we
 // narrow to Locale at runtime via the locales.includes guard.
 export default async function LocaleLayout({
@@ -36,6 +77,25 @@ export default async function LocaleLayout({
 
   setRequestLocale(locale);
   const messages = await getMessages();
+
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: SITE_NAME,
+    url: SITE_URL,
+    logo: `${SITE_URL}/logos/carebond-logo.png`,
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "CH",
+      addressLocality: "Genève",
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: "contact@carebond.ch",
+      contactType: "customer support",
+      availableLanguage: ["French", "German", "Italian", "English"],
+    },
+  };
 
   return (
     <html lang={locale} className={outfit.variable}>
@@ -52,6 +112,10 @@ export default async function LocaleLayout({
           </header>
           {children}
         </NextIntlClientProvider>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
       </body>
     </html>
   );

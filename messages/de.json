@@ -19,5 +19,9 @@
   },
   "common": {
     "skipLink": "Zum Hauptinhalt"
+  },
+  "metadata": {
+    "title": "CareBond — Schweizer Pflegeplattform",
+    "description": "Schweizer Pflegeplattform für Patienten, Angehörige und Pflegepersonal. DSG-konform, Hosting in der Schweiz, entwickelt für Pflegeheime, Spitex, Spitäler und Kliniken."
   }
 }

@@ -19,5 +19,9 @@
   },
   "common": {
     "skipLink": "Aller au contenu principal"
+  },
+  "metadata": {
+    "title": "CareBond — Plateforme de soins suisse",
+    "description": "Plateforme de soins suisse pour patients, familles et soignants. Conforme nLPD, hébergement Suisse, conçue pour les EMS, Spitex, hôpitaux et cliniques."
   }
 }

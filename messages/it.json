@@ -19,5 +19,9 @@
   },
   "common": {
     "skipLink": "Vai al contenuto principale"
+  },
+  "metadata": {
+    "title": "CareBond — Piattaforma di cura svizzera",
+    "description": "Piattaforma di cura svizzera per pazienti, famiglie e personale sanitario. Conforme alla LPD, hosting in Svizzera, sviluppata per case di cura, Spitex, ospedali e cliniche."
   }
 }
