@@ -6,22 +6,36 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint .",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.14.0",
+    "next": "15.5.18",
+    "next-intl": "^4.11.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.18"
+    "react-hook-form": "^7.75.0",
+    "resend": "^6.12.3",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/eslint": "^9.6.1",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.18",
-    "@eslint/eslintrc": "^3"
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "prettier": "^3.8.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
