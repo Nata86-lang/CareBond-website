@@ -1,26 +1,60 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Brand colors (BRAND_GUIDELINES.md §1) */
+  --color-brand-blue: #3f8ef3;
+  --color-brand-navy: #0a1b39;
+  --color-brand-mint: #e3f8e5;
+  --color-brand-orange: #f2640e;
+  --color-brand-error: #e63946;
+
+  /* Neutrals — these override Tailwind 4 defaults intentionally because
+     the brand spec uses a different palette than Tailwind's oklch scale.
+     Keys not listed here keep Tailwind defaults. */
+  --color-neutral-50: #fafbfc;
+  --color-neutral-100: #f5f5f5;
+  --color-neutral-200: #e7e8eb;
+  --color-neutral-300: #9da4b0;
+  --color-neutral-500: #6c7688;
+  --color-neutral-600: #565656;
+  --color-neutral-700: #444444;
+
+  /* Typography (Outfit self-hosted via next/font/google in layout) */
+  --font-sans:
+    var(--font-outfit), system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Component primitives */
+  --radius: 0.5rem;
+  --shadow-emphasis-blue: 0 4px 16px rgb(63 142 243 / 0.18);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Per-locale hyphenation (I18N_SETUP.md §5) */
+[lang="fr"] {
+  hyphens: auto;
+  hyphenate-character: "-";
+}
+[lang="de"] {
+  hyphens: auto;
+  word-break: break-word;
+}
+[lang="it"] {
+  hyphens: auto;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Reduced motion (BRAND_GUIDELINES.md §8) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: var(--color-brand-navy);
+  font-family: var(--font-sans);
 }
