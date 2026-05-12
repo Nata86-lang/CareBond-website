@@ -32,6 +32,12 @@
   "common": {
     "skipLink": "Zum Hauptinhalt"
   },
+  "error": {
+    "title": "Etwas ist schiefgelaufen.",
+    "subtitle": "Ein unerwarteter Fehler ist aufgetreten. Sie können es erneut versuchen oder zur Startseite zurückkehren.",
+    "retry": "Erneut versuchen",
+    "home": "Zur Startseite"
+  },
   "footer": {
     "tagline": "Die Schweizer Pflegeplattform für Patienten, Angehörige und Pflegepersonal.",
     "navAriaLabel": "Fusszeile",

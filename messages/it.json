@@ -32,6 +32,12 @@
   "common": {
     "skipLink": "Vai al contenuto principale"
   },
+  "error": {
+    "title": "Qualcosa è andato storto.",
+    "subtitle": "Si è verificato un errore imprevisto. Puoi riprovare o tornare alla home.",
+    "retry": "Riprova",
+    "home": "Torna alla home"
+  },
   "footer": {
     "tagline": "La piattaforma di cura svizzera per pazienti, famiglie e personale sanitario.",
     "navAriaLabel": "Piè di pagina",

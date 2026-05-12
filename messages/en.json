@@ -32,6 +32,12 @@
   "common": {
     "skipLink": "Skip to main content"
   },
+  "error": {
+    "title": "Something went wrong.",
+    "subtitle": "An unexpected error occurred. You can try again or return to home.",
+    "retry": "Try again",
+    "home": "Back to home"
+  },
   "footer": {
     "tagline": "The Swiss care platform for patients, families, and care teams.",
     "navAriaLabel": "Footer",
