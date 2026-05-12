@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { LanguageSwitcher } from "./language-switcher";
 import { SolutionsDropdown } from "./solutions-dropdown";
+import { MobileNav } from "./mobile-nav";
 
 const NAV_ITEMS = ["features", "compliance", "about", "contact"] as const;
 
@@ -65,10 +66,11 @@ export function Header({ locale }: { locale: string }) {
           <LanguageSwitcher />
           <Link
             href={`/${locale}/contact`}
-            className="inline-flex min-h-12 items-center rounded-lg bg-brand-blue-strong px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors duration-150 hover:bg-[#1d4ed8] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue motion-reduce:transition-none"
+            className="hidden min-h-12 items-center rounded-lg bg-brand-blue-strong px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors duration-150 hover:bg-[#1d4ed8] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue motion-reduce:transition-none md:inline-flex"
           >
             {t("nav.demo")}
           </Link>
+          <MobileNav locale={locale} />
         </div>
       </div>
     </header>

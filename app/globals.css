@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
 
 @theme {
   /* Brand colors (BRAND_GUIDELINES.md §1) */
@@ -24,7 +28,7 @@
   --color-neutral-600: #565656;
   --color-neutral-700: #444444;
 
-  /* Typography (Outfit self-hosted via next/font/google in layout) */
+  /* Typography (Outfit self-hosted via next/font/google in [locale] layout) */
   --font-sans: var(--font-outfit), system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
   /* Component primitives */
@@ -57,8 +61,108 @@
   }
 }
 
-body {
-  background-color: white;
-  color: var(--color-brand-navy);
-  font-family: var(--font-sans);
+/* shadcn/ui token mappings (added during commit 3 shadcn init).
+   Map shadcn's expected --background, --primary, etc. to our brand tokens
+   so that copy-pasted shadcn primitives (Sheet, Dialog, Button, ...) pick
+   up CareBond colors automatically. Sidebar tokens kept at shadcn defaults
+   because we don't render a sidebar; they exist so the @theme inline below
+   has something to reference. */
+@theme inline {
+  --font-heading: var(--font-sans);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  /* Surfaces */
+  --background: #ffffff;
+  --foreground: var(--color-brand-navy);
+  --card: #ffffff;
+  --card-foreground: var(--color-brand-navy);
+  --popover: #ffffff;
+  --popover-foreground: var(--color-brand-navy);
+
+  /* Interactive primary (CTA) — uses the AA-compliant blue */
+  --primary: var(--color-brand-blue-strong);
+  --primary-foreground: #ffffff;
+
+  /* Subtle surfaces and inactive states */
+  --secondary: var(--color-neutral-100);
+  --secondary-foreground: var(--color-brand-navy);
+  --muted: var(--color-neutral-100);
+  --muted-foreground: var(--color-neutral-600);
+  --accent: var(--color-neutral-100);
+  --accent-foreground: var(--color-brand-navy);
+
+  /* Status */
+  --destructive: var(--color-brand-error);
+
+  /* Form / focus */
+  --border: var(--color-neutral-200);
+  --input: var(--color-neutral-200);
+  --ring: var(--color-brand-blue);
+
+  /* Charts kept at neutral defaults — no data viz on the marketing site yet */
+  --chart-1: oklch(0.87 0 0);
+  --chart-2: oklch(0.556 0 0);
+  --chart-3: oklch(0.439 0 0);
+  --chart-4: oklch(0.371 0 0);
+  --chart-5: oklch(0.269 0 0);
+
+  /* Sidebar tokens — shadcn requires them even when not rendered */
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+/* shadcn's .dark theme intentionally omitted — dark mode is not in scope
+   for V1 per BRAND_GUIDELINES. If we ship dark mode in V2, define .dark
+   here with brand-appropriate values, not shadcn's oklch defaults. */
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans);
+  }
 }

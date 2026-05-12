@@ -15,7 +15,9 @@
   },
   "header": {
     "logoAriaLabel": "CareBond — Startseite",
-    "navAriaLabel": "Hauptnavigation"
+    "navAriaLabel": "Hauptnavigation",
+    "mobileMenuOpen": "Menü öffnen",
+    "mobileMenuClose": "Menü schliessen"
   },
   "cta": {
     "primary": "Demo anfragen",
