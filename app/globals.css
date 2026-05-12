@@ -49,6 +49,48 @@
   hyphens: auto;
 }
 
+/* Chat demo animations — Phase 1B Hero. Pure CSS keyframes, no framer-motion. */
+@keyframes carebondFadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes carebondFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes carebondFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.chat-anim-bubble {
+  animation: carebondFadeInUp 400ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.chat-anim-translation {
+  animation: carebondFadeIn 300ms ease-out forwards;
+}
+
+.chat-anim-exit {
+  animation: carebondFadeOut 800ms ease-out forwards;
+}
+
 /* Reduced motion (BRAND_GUIDELINES.md §8) */
 @media (prefers-reduced-motion: reduce) {
   *,

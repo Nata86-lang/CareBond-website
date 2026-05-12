@@ -25,9 +25,13 @@
     "learnMore": "Mehr erfahren"
   },
   "hero": {
-    "eyebrow": "Swiss Made · DSG",
-    "stubGreeting": "CareBond — Website im Aufbau",
-    "stubSubtitle": "Die Schweizer Pflegeplattform für Patienten, Angehörige und Pflegepersonal. Öffentlicher Start in Kürze."
+    "eyebrow": "DSG · Hosting in der Schweiz · Swiss Made",
+    "title": "Die Pflegeplattform, die Ihre Sprache spricht.",
+    "subtitle": "CareBond verbindet Patienten, Angehörige und Pflegepersonal in einer sicheren, DSG-konformen Umgebung, die auf Schweizer Einrichtungen zugeschnitten ist.",
+    "demoAriaLabel": "Demo: mehrsprachiger Chat mit automatischer Übersetzung zwischen Spanisch und Französisch",
+    "demoPauseLabel": "Animation anhalten",
+    "demoPlayLabel": "Animation starten",
+    "chatDemoRole": "Patientin"
   },
   "common": {
     "skipLink": "Zum Hauptinhalt"

@@ -25,9 +25,13 @@
     "learnMore": "Learn more"
   },
   "hero": {
-    "eyebrow": "Swiss Made · nLPD",
-    "stubGreeting": "CareBond — site under construction",
-    "stubSubtitle": "The Swiss care platform for patients, families, and care teams. Public launch coming soon."
+    "eyebrow": "nLPD · Swiss-hosted · Swiss Made",
+    "title": "The care platform that speaks your language.",
+    "subtitle": "CareBond connects patients, families, and care teams in a secure environment, compliant with Swiss data protection law, and built for Swiss institutions.",
+    "demoAriaLabel": "Demo: multilingual chat automatically translating between Spanish and French",
+    "demoPauseLabel": "Pause animation",
+    "demoPlayLabel": "Play animation",
+    "chatDemoRole": "Patient"
   },
   "common": {
     "skipLink": "Skip to main content"

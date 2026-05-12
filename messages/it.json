@@ -25,9 +25,13 @@
     "learnMore": "Scopri di più"
   },
   "hero": {
-    "eyebrow": "Swiss Made · LPD",
-    "stubGreeting": "CareBond — sito in costruzione",
-    "stubSubtitle": "La piattaforma di cura svizzera per pazienti, famiglie e personale sanitario. Lancio pubblico in arrivo."
+    "eyebrow": "LPD · Hosting in Svizzera · Swiss Made",
+    "title": "La piattaforma di cura che parla la vostra lingua.",
+    "subtitle": "CareBond connette pazienti, famiglie e personale sanitario in un ambiente sicuro, conforme alla LPD, e adattato alle strutture svizzere.",
+    "demoAriaLabel": "Dimostrazione: chat multilingue con traduzione automatica tra spagnolo e francese",
+    "demoPauseLabel": "Metti in pausa l'animazione",
+    "demoPlayLabel": "Avvia l'animazione",
+    "chatDemoRole": "Paziente"
   },
   "common": {
     "skipLink": "Vai al contenuto principale"

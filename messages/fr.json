@@ -25,9 +25,13 @@
     "learnMore": "En savoir plus"
   },
   "hero": {
-    "eyebrow": "Swiss Made · nLPD",
-    "stubGreeting": "CareBond — site en construction",
-    "stubSubtitle": "La plateforme de soins suisse pour patients, familles et soignants. Lancement public à venir."
+    "eyebrow": "nLPD · Hébergement Suisse · Swiss Made",
+    "title": "La plateforme de soins qui parle votre langue.",
+    "subtitle": "CareBond connecte patients, familles et soignants dans un environnement sécurisé, conforme à la nLPD, et adapté aux établissements suisses.",
+    "demoAriaLabel": "Démonstration: chat multilingue traduisant automatiquement entre espagnol et français",
+    "demoPauseLabel": "Mettre l'animation en pause",
+    "demoPlayLabel": "Lancer l'animation",
+    "chatDemoRole": "Patiente"
   },
   "common": {
     "skipLink": "Aller au contenu principal"
