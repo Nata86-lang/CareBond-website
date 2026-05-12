@@ -15,10 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: route === "" ? 1.0 : 0.7,
       alternates: {
         languages: Object.fromEntries(
-          locales.map((l) => [
-            l === "en" ? "en" : `${l}-CH`,
-            `${SITE_URL}/${l}${route}`,
-          ])
+          locales.map((l) => [l === "en" ? "en" : `${l}-CH`, `${SITE_URL}/${l}${route}`])
         ),
       },
     }))

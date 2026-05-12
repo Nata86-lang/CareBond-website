@@ -2,9 +2,10 @@
 // preview/production deploys can override per environment. Falls back to the
 // future production domain.
 // TODO: replace fallback with real domain once carebond.ch is registered.
-export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://carebond.ch"
-).replace(/\/$/, "");
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://carebond.ch").replace(
+  /\/$/,
+  ""
+);
 
 export const SITE_NAME = "CareBond";
 
