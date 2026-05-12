@@ -4,6 +4,8 @@ import { NextIntlClientProvider } from "next-intl";
 import { setRequestLocale, getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { locales, type Locale } from "@/lib/i18n";
+import { LanguageSwitcher } from "@/components/layout/language-switcher";
+import { SkipLink } from "@/components/layout/skip-link";
 import "../globals.css";
 
 // next/font/google self-hosts at build time: fonts land in
@@ -39,6 +41,15 @@ export default async function LocaleLayout({
     <html lang={locale} className={outfit.variable}>
       <body className="antialiased">
         <NextIntlClientProvider messages={messages} locale={locale}>
+          <SkipLink />
+          <header className="border-b border-neutral-200">
+            <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+              <span className="text-base font-semibold tracking-tight text-brand-navy">
+                CareBond
+              </span>
+              <LanguageSwitcher />
+            </div>
+          </header>
           {children}
         </NextIntlClientProvider>
       </body>

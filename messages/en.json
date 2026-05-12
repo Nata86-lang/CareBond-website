@@ -13,7 +13,9 @@
     "learnMore": "Learn more"
   },
   "hero": {
-    "stubGreeting": "CareBond — site under construction"
+    "eyebrow": "Swiss Made · nLPD",
+    "stubGreeting": "CareBond — site under construction",
+    "stubSubtitle": "The Swiss care platform for patients, families, and care teams. Public launch coming soon."
   },
   "common": {
     "skipLink": "Skip to main content"
