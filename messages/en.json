@@ -30,6 +30,26 @@
   "common": {
     "skipLink": "Skip to main content"
   },
+  "footer": {
+    "tagline": "The Swiss care platform for patients, families, and care teams.",
+    "navAriaLabel": "Footer",
+    "columns": {
+      "solutions": "Solutions",
+      "company": "Company",
+      "legal": "Legal"
+    },
+    "links": {
+      "privacy": "Privacy policy",
+      "terms": "Terms",
+      "cookies": "Cookie policy",
+      "credits": "Credits",
+      "imprint": "Imprint"
+    },
+    "bottom": {
+      "address": "Geneva, Switzerland",
+      "rights": "All rights reserved"
+    }
+  },
   "metadata": {
     "title": "CareBond — Swiss care platform",
     "description": "Swiss care platform for patients, families, and care teams. nLPD-compliant, hosted in Switzerland, built for care homes, Spitex, hospitals and clinics."

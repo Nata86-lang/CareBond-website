@@ -30,6 +30,26 @@
   "common": {
     "skipLink": "Zum Hauptinhalt"
   },
+  "footer": {
+    "tagline": "Die Schweizer Pflegeplattform für Patienten, Angehörige und Pflegepersonal.",
+    "navAriaLabel": "Fusszeile",
+    "columns": {
+      "solutions": "Lösungen",
+      "company": "Unternehmen",
+      "legal": "Rechtliches"
+    },
+    "links": {
+      "privacy": "Datenschutzerklärung",
+      "terms": "AGB",
+      "cookies": "Cookie-Richtlinie",
+      "credits": "Quellen",
+      "imprint": "Impressum"
+    },
+    "bottom": {
+      "address": "Genf, Schweiz",
+      "rights": "Alle Rechte vorbehalten"
+    }
+  },
   "metadata": {
     "title": "CareBond — Schweizer Pflegeplattform",
     "description": "Schweizer Pflegeplattform für Patienten, Angehörige und Pflegepersonal. DSG-konform, Hosting in der Schweiz, entwickelt für Pflegeheime, Spitex, Spitäler und Kliniken."

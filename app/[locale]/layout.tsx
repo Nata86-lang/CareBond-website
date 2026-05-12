@@ -7,6 +7,7 @@ import { notFound } from "next/navigation";
 import { locales, type Locale } from "@/lib/i18n";
 import { SITE_URL, SITE_NAME, OG_LOCALE_MAP } from "@/lib/site";
 import { Header } from "@/components/layout/header";
+import { Footer } from "@/components/layout/footer";
 import { SkipLink } from "@/components/layout/skip-link";
 import "../globals.css";
 
@@ -104,6 +105,7 @@ export default async function LocaleLayout({
           <SkipLink />
           <Header locale={locale} />
           {children}
+          <Footer locale={locale} />
         </NextIntlClientProvider>
         <script
           type="application/ld+json"

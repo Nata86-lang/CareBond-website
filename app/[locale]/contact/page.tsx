@@ -62,7 +62,7 @@ export default async function ContactStubPage({
         {t("emailLead")}{" "}
         <a
           href="mailto:contact@carebond.ch"
-          className="font-semibold text-brand-blue-strong underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
+          className="font-semibold text-brand-blue-strong underline underline-offset-4 hover:no-underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
         >
           contact@carebond.ch
         </a>

@@ -30,6 +30,26 @@
   "common": {
     "skipLink": "Aller au contenu principal"
   },
+  "footer": {
+    "tagline": "La plateforme de soins suisse pour patients, familles et soignants.",
+    "navAriaLabel": "Pied de page",
+    "columns": {
+      "solutions": "Solutions",
+      "company": "Entreprise",
+      "legal": "Légal"
+    },
+    "links": {
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions générales",
+      "cookies": "Politique de cookies",
+      "credits": "Crédits",
+      "imprint": "Mentions légales"
+    },
+    "bottom": {
+      "address": "Genève, Suisse",
+      "rights": "Tous droits réservés"
+    }
+  },
   "metadata": {
     "title": "CareBond — Plateforme de soins suisse",
     "description": "Plateforme de soins suisse pour patients, familles et soignants. Conforme nLPD, hébergement Suisse, conçue pour les EMS, Spitex, hôpitaux et cliniques."
