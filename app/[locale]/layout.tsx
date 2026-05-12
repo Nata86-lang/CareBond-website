@@ -6,7 +6,7 @@ import { setRequestLocale, getMessages, getTranslations } from "next-intl/server
 import { notFound } from "next/navigation";
 import { locales, type Locale } from "@/lib/i18n";
 import { SITE_URL, SITE_NAME, OG_LOCALE_MAP } from "@/lib/site";
-import { LanguageSwitcher } from "@/components/layout/language-switcher";
+import { Header } from "@/components/layout/header";
 import { SkipLink } from "@/components/layout/skip-link";
 import "../globals.css";
 
@@ -102,14 +102,7 @@ export default async function LocaleLayout({
       <body className="antialiased">
         <NextIntlClientProvider messages={messages} locale={locale}>
           <SkipLink />
-          <header className="border-b border-neutral-200">
-            <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
-              <span className="text-base font-semibold tracking-tight text-brand-navy">
-                CareBond
-              </span>
-              <LanguageSwitcher />
-            </div>
-          </header>
+          <Header locale={locale} />
           {children}
         </NextIntlClientProvider>
         <script

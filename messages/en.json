@@ -5,7 +5,17 @@
     "compliance": "Compliance",
     "about": "About",
     "contact": "Contact",
-    "demo": "Demo"
+    "demo": "Demo",
+    "solutionsMenu": {
+      "ems": "For care homes",
+      "homeCare": "For home care",
+      "hospitals": "For hospitals",
+      "professionals": "For professionals"
+    }
+  },
+  "header": {
+    "logoAriaLabel": "CareBond — Home",
+    "navAriaLabel": "Main navigation"
   },
   "cta": {
     "primary": "Request a demo",
@@ -23,5 +33,17 @@
   "metadata": {
     "title": "CareBond — Swiss care platform",
     "description": "Swiss care platform for patients, families, and care teams. nLPD-compliant, hosted in Switzerland, built for care homes, Spitex, hospitals and clinics."
+  },
+  "contact": {
+    "metadata": {
+      "title": "Contact — CareBond",
+      "description": "Request a CareBond demo or get in touch with our team."
+    },
+    "stub": {
+      "title": "Contact",
+      "subtitle": "Page under construction. The full demo request form is coming soon.",
+      "emailLead": "In the meantime, email us at",
+      "backToHome": "Back to home"
+    }
   }
 }

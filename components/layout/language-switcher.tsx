@@ -28,8 +28,12 @@ export function LanguageSwitcher() {
     });
   };
 
+  // Tap targets are ≥48×48px per WCAG 2.5.5 + extra padding so adjacent
+  // buttons do not collide on touch. Inactive color is neutral-700 to keep
+  // contrast above 7:1 on white (was neutral-500 = 4.27:1, which Lighthouse
+  // sometimes flags despite passing AA).
   return (
-    <nav aria-label="Language" className="flex items-center gap-1 text-sm">
+    <nav aria-label="Language" className="flex items-center text-sm">
       {locales.map((locale) => {
         const isActive = locale === currentLocale;
         return (
@@ -40,9 +44,10 @@ export function LanguageSwitcher() {
             disabled={isActive || isPending}
             aria-current={isActive ? "true" : undefined}
             className={
-              isActive
-                ? "px-2 py-1 font-medium text-brand-navy"
-                : "px-2 py-1 text-neutral-500 hover:text-brand-navy focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
+              "inline-flex min-h-12 min-w-12 items-center justify-center rounded-md px-2 py-3 font-medium " +
+              (isActive
+                ? "text-brand-navy"
+                : "text-neutral-700 hover:text-brand-navy focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue")
             }
           >
             {LABELS[locale]}

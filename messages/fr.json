@@ -5,7 +5,17 @@
     "compliance": "Conformité",
     "about": "À propos",
     "contact": "Contact",
-    "demo": "Démo"
+    "demo": "Démo",
+    "solutionsMenu": {
+      "ems": "Pour les EMS",
+      "homeCare": "Pour les soins à domicile",
+      "hospitals": "Pour les hôpitaux",
+      "professionals": "Pour les professionnels"
+    }
+  },
+  "header": {
+    "logoAriaLabel": "CareBond — Accueil",
+    "navAriaLabel": "Navigation principale"
   },
   "cta": {
     "primary": "Demandez une démonstration",
@@ -23,5 +33,17 @@
   "metadata": {
     "title": "CareBond — Plateforme de soins suisse",
     "description": "Plateforme de soins suisse pour patients, familles et soignants. Conforme nLPD, hébergement Suisse, conçue pour les EMS, Spitex, hôpitaux et cliniques."
+  },
+  "contact": {
+    "metadata": {
+      "title": "Contact — CareBond",
+      "description": "Demandez une démonstration de CareBond ou contactez notre équipe."
+    },
+    "stub": {
+      "title": "Contact",
+      "subtitle": "Page en construction. Le formulaire complet de demande de démonstration arrive prochainement.",
+      "emailLead": "En attendant, écrivez-nous à",
+      "backToHome": "Retour à l'accueil"
+    }
   }
 }

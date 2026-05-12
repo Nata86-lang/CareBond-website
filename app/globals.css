@@ -3,6 +3,11 @@
 @theme {
   /* Brand colors (BRAND_GUIDELINES.md §1) */
   --color-brand-blue: #3f8ef3;
+  /* brand-blue-strong: AA-compliant variant (#2563eb, contrast 4.55:1 on
+     white). Use for CTA fills with white text and for blue text on white
+     (eyebrow, body links). Plain --color-brand-blue stays for focus rings,
+     accents, hover states, large display text (>24px). */
+  --color-brand-blue-strong: #2563eb;
   --color-brand-navy: #0a1b39;
   --color-brand-mint: #e3f8e5;
   --color-brand-orange: #f2640e;

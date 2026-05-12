@@ -5,7 +5,17 @@
     "compliance": "Compliance",
     "about": "Über uns",
     "contact": "Kontakt",
-    "demo": "Demo"
+    "demo": "Demo",
+    "solutionsMenu": {
+      "ems": "Für Pflegeheime",
+      "homeCare": "Für die häusliche Pflege",
+      "hospitals": "Für Spitäler",
+      "professionals": "Für Fachpersonen"
+    }
+  },
+  "header": {
+    "logoAriaLabel": "CareBond — Startseite",
+    "navAriaLabel": "Hauptnavigation"
   },
   "cta": {
     "primary": "Demo anfragen",
@@ -23,5 +33,17 @@
   "metadata": {
     "title": "CareBond — Schweizer Pflegeplattform",
     "description": "Schweizer Pflegeplattform für Patienten, Angehörige und Pflegepersonal. DSG-konform, Hosting in der Schweiz, entwickelt für Pflegeheime, Spitex, Spitäler und Kliniken."
+  },
+  "contact": {
+    "metadata": {
+      "title": "Kontakt — CareBond",
+      "description": "Fordern Sie eine CareBond-Demo an oder kontaktieren Sie unser Team."
+    },
+    "stub": {
+      "title": "Kontakt",
+      "subtitle": "Seite im Aufbau. Das vollständige Demo-Anfrageformular folgt in Kürze.",
+      "emailLead": "Schreiben Sie uns in der Zwischenzeit an",
+      "backToHome": "Zurück zur Startseite"
+    }
   }
 }
