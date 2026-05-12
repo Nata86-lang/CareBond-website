@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "solutions": "Lösungen",
+    "features": "Funktionen",
+    "compliance": "Compliance",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "demo": "Demo"
+  },
+  "cta": {
+    "primary": "Demo anfragen",
+    "secondary": "Funktionen ansehen",
+    "learnMore": "Mehr erfahren"
+  },
+  "hero": {
+    "stubGreeting": "CareBond — Website im Aufbau"
+  },
+  "common": {
+    "skipLink": "Zum Hauptinhalt"
+  }
+}
