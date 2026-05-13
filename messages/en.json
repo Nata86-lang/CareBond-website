@@ -26,9 +26,16 @@
     "learnMore": "Learn more"
   },
   "hero": {
-    "eyebrow": "nLPD · Swiss-hosted · Swiss Made",
-    "title": "One platform. Every role in care. Built for Switzerland.",
-    "subtitle": "From admission to audit, from visit report to institutional oversight — CareBond connects patients, families, care teams, and administrators in a single platform, compliant with Swiss standards.",
+    "eyebrow": "Care platform · Switzerland",
+    "title": "Every role in care, in one platform.",
+    "subtitle": "Nursing homes, home care and clinics. One console for management, one app for every caregiver, mini-reports for families. nLPD compliant, Swiss-hosted.",
+    "trust": {
+      "label": "Built to Swiss standards",
+      "nlpd": "nLPD compliant",
+      "hosting": "Swiss-hosted",
+      "encryption": "End-to-end encryption",
+      "swissMade": "Swiss Made"
+    },
     "ecosystem": {
       "ariaLabel": "Demo of the CareBond ecosystem: patient, family, professional, and admin dashboard apps",
       "pauseLabel": "Pause demonstration",
@@ -54,18 +61,358 @@
         "title": "My patients (12)"
       },
       "dashboard": {
-        "title": "Dashboard",
-        "residents": "Residents",
-        "professionals": "Professionals",
-        "alerts": "Alerts",
-        "devices": "Devices",
-        "activityTitle": "Activity — Conversations"
+        "sidebar": {
+          "dashboard": "Dashboard",
+          "users": "Users",
+          "logs": "Logs",
+          "config": "Config",
+          "logout": "Logout"
+        },
+        "search": "Global search",
+        "welcome": "Welcome, Admin",
+        "residents": "Total patients",
+        "professionals": "Active professionals",
+        "alerts": "Pending alerts",
+        "devices": "Connected devices",
+        "activityTitle": "Patients attended to",
+        "previousPeriod": "Previous period",
+        "currentPeriod": "Current period",
+        "overallTitle": "Overall information",
+        "conversations": "Conversations",
+        "families": "Families",
+        "usageOverview": "Usage overview",
+        "firstTime": "First time",
+        "returnUsers": "Return",
+        "recentActivities": "Recent activities",
+        "activityPasswordReset": "Password reset",
+        "importantAlerts": "Important alerts",
+        "viewAll": "View all",
+        "alertSample": "Sensor malfunction",
+        "alertWarning": "Warning",
+        "alertSampleBody": "The sensor in room 12 reports irregular data."
       }
     },
     "demoAriaLabel": "Demo: multilingual chat automatically translating between Spanish and French",
     "demoPauseLabel": "Pause animation",
     "demoPlayLabel": "Play animation",
     "chatDemoRole": "Patient"
+  },
+  "platform": {
+    "bento": {
+      "eyebrow": "The platform",
+      "title": "Five pillars, one platform.",
+      "subtitle": "From institutional oversight to multilingual chat, from opt-in livestream to nLPD audit — everything is built to work together, not side by side.",
+      "learnMore": "Learn more",
+      "pillars": {
+        "oversight": {
+          "eyebrow": "Management",
+          "title": "Institutional oversight",
+          "description": "KPIs facility by facility, prioritized alerts, one-click audit. The whole house on a single screen.",
+          "kpiResidents": "Patients",
+          "kpiProfessionals": "Caregivers",
+          "kpiAlerts": "Alerts",
+          "kpiDevices": "Devices"
+        },
+        "audit": {
+          "eyebrow": "Compliance",
+          "title": "Built-in nLPD audit",
+          "description": "Every access, every action logged. Immutable audit log, exportable for your internal audits."
+        },
+        "livestream": {
+          "eyebrow": "Presence",
+          "title": "Opt-in livestream",
+          "description": "Camera can be enabled and disabled by the patient. Full access log, never recorded without consent."
+        },
+        "chat-multilingue": {
+          "eyebrow": "Communication",
+          "title": "Multilingual chat",
+          "description": "Real-time translation ES ↔ FR ↔ DE ↔ IT. Swiss-hosted, no third-party plug-in."
+        },
+        "rounds": {
+          "eyebrow": "Care",
+          "title": "Digital rounds",
+          "description": "Patient list, vital signs, prioritized alerts — all in the caregiver's pocket. Electronic prescriptions coming soon."
+        }
+      }
+    },
+    "stubShared": {
+      "comingSoon": "This detailed page is coming soon.",
+      "emailLead": "In the meantime, write to us at",
+      "backToHome": "Back to home"
+    }
+  },
+  "pourQui": {
+    "eyebrow": "Who it's for",
+    "title": "Designed for every type of facility.",
+    "subtitle": "Nursing homes, home care, hospitals and clinics — each with its own constraints, each with its own tools. But one shared technical foundation and one single compliance promise.",
+    "tabsAriaLabel": "Select your facility type",
+    "audiences": {
+      "ems": {
+        "label": "Nursing homes",
+        "title": "For nursing homes",
+        "description": "Multi-institution oversight, nLPD audit log, granular RBAC. The whole house, in one screen.",
+        "features": {
+          "f0": {
+            "title": "Multi-institution",
+            "description": "Manage multiple facilities from a single console. Comparable KPIs, strict data separation."
+          },
+          "f1": {
+            "title": "nLPD audit log",
+            "description": "Immutable trace of accesses and modifications. Documentation available for your internal and cantonal audits."
+          },
+          "f2": {
+            "title": "Multiple teams & RBAC",
+            "description": "Management, caregivers, housekeeping — each with their access level and interface, with granular permissions."
+          }
+        }
+      },
+      "spitex": {
+        "label": "Home care",
+        "title": "For home care",
+        "description": "Caregiver ↔ patient ↔ family connection from afar, with GPS visit validation and cryptographically signed reports.",
+        "features": {
+          "f0": {
+            "title": "Rounds with GPS",
+            "description": "GPS geofencing to automatically validate presence at the patient's home. Built for Spitex CH requirements."
+          },
+          "f1": {
+            "title": "HMAC-signed reports",
+            "description": "Every visit report is cryptographically signed. Compliant with KVG/LAMal requirements."
+          },
+          "f2": {
+            "title": "Prioritized alerts",
+            "description": "Caregivers see the urgent first. The rest queues up, without noise."
+          }
+        }
+      },
+      "hospitals": {
+        "label": "Hospitals",
+        "title": "For hospitals",
+        "description": "Multi-department platform with documented REST API, granular RBAC and immutable audit log.",
+        "features": {
+          "f0": {
+            "title": "Documented REST API",
+            "description": "Synchronize with your existing system via API and webhooks. HL7/FHIR integration under study for hospitals."
+          },
+          "f1": {
+            "title": "Multi-department & RBAC",
+            "description": "Watertight separations between departments. Granular permissions per role and department."
+          },
+          "f2": {
+            "title": "Immutable audit log",
+            "description": "Every action logged. Trace compliant with nLPD and hospital audit requirements."
+          }
+        },
+        "tile": {
+          "eyebrow": "Today · Multi-department",
+          "title": "Real-time oversight",
+          "liveLabel": "Live",
+          "patientsLabel": "patients",
+          "departments": {
+            "emergency": "Emergency",
+            "medicine": "Medicine",
+            "geriatrics": "Geriatrics",
+            "pediatrics": "Pediatrics",
+            "surgery": "Surgery",
+            "radiology": "Radiology"
+          }
+        }
+      },
+      "clinics": {
+        "label": "Clinics",
+        "title": "For private clinics",
+        "description": "Premium patient experience, built-in telemedicine, institutional branding.",
+        "features": {
+          "f0": {
+            "title": "White-label",
+            "description": "Your brand, your colors, your domain. Our technical foundation."
+          },
+          "f1": {
+            "title": "International presence",
+            "description": "Swiss hosting + regional nodes for patients abroad."
+          },
+          "f2": {
+            "title": "Automatic multilingual chat",
+            "description": "Chat ES ↔ FR ↔ DE ↔ IT translated in real time. No third-party plug-in."
+          }
+        },
+        "tile": {
+          "role": "Patient · Geneva"
+        }
+      }
+    }
+  },
+  "compliance": {
+    "eyebrow": "Compliance",
+    "title": "Built for Swiss law, not a GDPR patch.",
+    "subtitle": "Native nLPD, Swiss hosting, immutable audit log. Compliance lives in the architecture, not in a contractual addendum.",
+    "trustLine": "Technical documentation available on request for your legal and IT teams.",
+    "pillars": {
+      "nlpd": {
+        "title": "nLPD-native",
+        "description": "Native audit log of accesses and modifications, built for Swiss law from the first line of code."
+      },
+      "hosting": {
+        "title": "Swiss hosting",
+        "description": "Infrastructure hosted in Switzerland (Infomaniak, Geneva). Patient data does not leave Swiss territory."
+      },
+      "encryption": {
+        "title": "Modern encryption",
+        "description": "TLS 1.3 in transit on Swiss servers. Encryption of backups at rest. HMAC-signed visit reports."
+      },
+      "audit": {
+        "title": "nLPD audit log",
+        "description": "Immutable trace of every access and modification. Multi-institution with granular RBAC and strict data separation."
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "Frequently asked",
+    "title": "Before you request a demo.",
+    "subtitle": "The questions nursing home directors, home care leads, and hospital teams ask us most often.",
+    "questions": {
+      "q0": {
+        "question": "What does onboarding look like?",
+        "answer": "We support the migration of existing records and train the teams on site. The precise timeline is defined after auditing the institution during the demo."
+      },
+      "q1": {
+        "question": "How do you integrate with our existing system?",
+        "answer": "Documented REST API. Synchronization possible via webhooks and CSV/JSON exports. HL7/FHIR integration for hospitals is under study."
+      },
+      "q2": {
+        "question": "What if we decide to leave?",
+        "answer": "Your data is yours. Full export on demand, no fees, in open formats (CSV, JSON). Precise exit terms are defined in the contract."
+      },
+      "q3": {
+        "question": "How does pricing work?",
+        "answer": "Personalized quote issued after a 30-minute demo, based on the size of the institution, the modules chosen, and the number of users."
+      },
+      "q4": {
+        "question": "Does our data stay in Switzerland?",
+        "answer": "Yes. Infrastructure hosted in Switzerland (Infomaniak, Geneva). No patient data leaves Swiss territory. Cantonal adaptations discussed case by case."
+      },
+      "q5": {
+        "question": "How do I request a demo?",
+        "answer": "Request a 30-minute demo via the contact form or by email. We then issue a personalized quote once we've understood your needs."
+      }
+    }
+  },
+  "finalCta": {
+    "eyebrow": "Ready for the demo",
+    "title": "A personalized demo for your institution.",
+    "subtitle": "30 minutes. We show you CareBond with your real use cases — not a generic demo that looks like every other.",
+    "secondary": "Write to us directly"
+  },
+  "chatMultilingue": {
+    "eyebrow": "Multilingual chat",
+    "title": "A family speaks Spanish. The caregiver speaks French. CareBond translates.",
+    "subtitle": "ES ↔ FR ↔ DE ↔ IT in real time. Swiss-hosted, no third-party plug-in. Every message preserved in both languages.",
+    "learnMore": "Learn more about multilingual chat",
+    "bullets": {
+      "b0": {
+        "title": "Real-time translation",
+        "description": "With no perceptible latency. The recipient sees the message in their language before they even think to read it."
+      },
+      "b1": {
+        "title": "Swiss-hosted",
+        "description": "Content never leaves the country. Translation runs on Swiss infrastructure, not at the hyperscalers."
+      },
+      "b2": {
+        "title": "Bidirectional and traceable",
+        "description": "Every message preserved in both languages. The nLPD audit includes the full translation trace."
+      }
+    }
+  },
+  "moduleResidences": {
+    "eyebrow": "Residences module",
+    "title": "Built for Swiss nursing homes, from admission to audit.",
+    "subtitle": "CareBond's flagship module. Designed for the nursing home that wants a structured patient record, a digital round in their pocket, and an audit-ready export in one click.",
+    "pillars": {
+      "admission": {
+        "title": "Admission & patient record",
+        "description": "It all starts with an admission. CareBond turns that first step into a structured patient record, nLPD-compliant from the first click.",
+        "bullets": {
+          "b0": "Standardized admission form, validated canton by canton",
+          "b1": "Electronic signature from resident and family",
+          "b2": "Auto-import of health data (medications, allergies, contacts)",
+          "b3": "Paperless record ready for caregivers in five minutes"
+        }
+      },
+      "rounds": {
+        "title": "Digital rounds & vitals",
+        "description": "The caregiver walks in, opens the app, sees the day's rounds. Vitals, alerts, medications — all in their pocket, confirmed in two taps.",
+        "bullets": {
+          "b0": "Day's rounds pre-organized, room by room",
+          "b1": "Vitals captured offline if needed, synced automatically",
+          "b2": "Alerts prioritized by severity, never lost",
+          "b3": "Optional photo and visit note, time-stamped",
+          "b4": "Electronic prescriptions with digital signature of the authorized prescriber — coming soon, aligned with Swiss eHealth practices"
+        }
+      },
+      "audit": {
+        "title": "Audit log & traceability",
+        "description": "Every access, every action, every modification is immutably logged. Documentation ready for your internal audits and for transparency toward authorities.",
+        "bullets": {
+          "b0": "Native audit log of accesses and modifications",
+          "b1": "Filter by period, resident, or caregiver",
+          "b2": "HMAC-signed visit reports, compliant with KVG/LAMal requirements",
+          "b3": "Structured export for your internal audits, cantonal formats to follow"
+        }
+      }
+    }
+  },
+  "soignerSansSilos": {
+    "eyebrow": "Care without silos",
+    "title": "Care cannot survive silos.",
+    "subtitle": "Every missed call, every lost report, every alert that doesn't arrive — that's a real care loss, not an organizational hiccup.",
+    "avant": {
+      "label": "Without CareBond",
+      "title": "Fragmented care",
+      "items": {
+        "i0": "Families call three times a week for updates.",
+        "i1": "Mini-report lost in a forgotten email or text.",
+        "i2": "Caregivers must phone management to validate an alert.",
+        "i3": "nLPD audit: three weeks of paperwork and binders."
+      }
+    },
+    "apres": {
+      "label": "With CareBond",
+      "title": "Unified care",
+      "items": {
+        "i0": "Families get their daily mini-report automatically, without asking.",
+        "i1": "Caregivers validate in two taps from their pocket.",
+        "i2": "Management sees the alert in real time, no phone call needed.",
+        "i3": "nLPD audit: one export, ready for cantonal authorities."
+      }
+    },
+    "closing": "When every role sees the same reality, care becomes continuous again."
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "title": "Four surfaces, one single flow.",
+    "subtitle": "From the patient's SOS to management oversight — each role sees what they need, without noise or detours. One platform, four roles, one shared truth.",
+    "steps": {
+      "patient": {
+        "number": "01",
+        "title": "Patient",
+        "description": "Simple interface designed for seniors. SOS in one tap, video calls, direct access to caregivers."
+      },
+      "family": {
+        "number": "02",
+        "title": "Family",
+        "description": "Daily mini-reports, opt-in livestream, peace of mind from afar. Without intrusion."
+      },
+      "professional": {
+        "number": "03",
+        "title": "Caregiver",
+        "description": "Digital rounds, priority alerts, real-time vital signs. Less paperwork, more care."
+      },
+      "direction": {
+        "number": "04",
+        "title": "Management",
+        "description": "Institutional oversight, nLPD audit trail, KPIs facility by facility. The whole house in one screen."
+      }
+    }
   },
   "common": {
     "skipLink": "Skip to main content"

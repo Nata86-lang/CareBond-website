@@ -1,16 +1,16 @@
-"use client";
-
 import { Video } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
 // Family phone mockup. Mini-report card with structured layout +
-// livestream thumbnail with red LIVE badge. Used in Section 3 bento.
-//
-// Animation: when `step === 2`, the mini-report card slides down + fades
-// in. After step 2 it persists in steady state; at step 0 (loop restart)
-// it unmounts and re-mounts on step 2 for a fresh animation.
-export function FamilyPhone({ step }: { step: number }) {
-  const t = useTranslations("hero.ecosystem.family");
+// livestream thumbnail with red LIVE badge. Used in Section 3 (How it
+// works) and Section 4 (Pour qui · Spitex visual) as a static mockup
+// with step={4}. The original step-machine for an animated Hero
+// ecosystem was retired in Hero v4; the conditional className branches
+// stay so the component is still drop-in usable for any future
+// animated context, but every current call site renders the settled
+// step=4 state which never triggers them — pure server render.
+export async function FamilyPhone({ step }: { step: number }) {
+  const t = await getTranslations("hero.ecosystem.family");
   const notifActive = step === 2;
   const showNotif = step >= 2;
   return (

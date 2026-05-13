@@ -1,6 +1,4 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
 // Professional phone mockup. List of assigned patients with iOS-style
 // status pills (text-only badges with tinted backgrounds) replacing the
@@ -28,8 +26,8 @@ const STATUS_LABEL = {
   urgent: "Alert",
 } as const;
 
-export function ProfessionalPhone({ step }: { step: number }) {
-  const t = useTranslations("hero.ecosystem.professional");
+export async function ProfessionalPhone({ step }: { step: number }) {
+  const t = await getTranslations("hero.ecosystem.professional");
   const vitalActive = step === 3;
   const showVital = step >= 3;
   return (

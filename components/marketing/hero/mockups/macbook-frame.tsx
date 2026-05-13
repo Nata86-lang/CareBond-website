@@ -3,7 +3,16 @@ import type { ReactNode } from "react";
 // MacBook-style frame for the admin dashboard mockup. CSS-only, no SVG,
 // no gradients. Realistic slim bezels + screen content + tiny base sliver.
 // Server component, zero JS cost.
-export function MacbookFrame({ children }: { children: ReactNode }) {
+//
+// `flush` removes the inner padding so the dashboard can render its own
+// sidebar/topbar edge-to-edge — closer to the real product chrome.
+export function MacbookFrame({
+  children,
+  flush = false,
+}: {
+  children: ReactNode;
+  flush?: boolean;
+}) {
   return (
     <div className="w-full">
       {/* Lid */}
@@ -18,7 +27,9 @@ export function MacbookFrame({ children }: { children: ReactNode }) {
           </span>
         </div>
         {/* Screen content */}
-        <div className="bg-white p-5 sm:p-6">{children}</div>
+        <div className={flush ? "bg-white" : "bg-white p-5 sm:p-6"}>
+          {children}
+        </div>
       </div>
       {/* Base sliver (laptop bottom edge) */}
       <div className="relative">

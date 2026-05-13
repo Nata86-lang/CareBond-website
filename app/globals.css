@@ -159,6 +159,154 @@
   animation: ecoCounterFade 1.4s ease-out;
 }
 
+/* Hero admin dashboard animations — gives the static mockup a sense of
+   life. Bars grow up staggered on mount, donut strokes draw, alert icon
+   gently pulses perpetually, bell red dot pulses. All disabled under
+   prefers-reduced-motion via the global block at the bottom of the file. */
+@keyframes dashboardBarGrow {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes dashboardDonutDraw {
+  from {
+    stroke-dashoffset: var(--donut-start);
+  }
+}
+
+@keyframes dashboardAlertPulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 0.85;
+  }
+}
+
+@keyframes dashboardBellPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 0 4px rgba(220, 38, 38, 0);
+  }
+}
+
+@keyframes dashboardCounterUp {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Bars combine a one-time grow-up (first 0.9s of the cycle) with a
+   perpetual breath swing. The keyframe encodes both phases, then the
+   timing function + infinite repeat makes the chart look like a live
+   data feed where each bar gently rises and settles. The stagger comes
+   from per-bar animation-delay set inline. */
+@keyframes dashboardBarLive {
+  0% {
+    transform: scaleY(0.35);
+  }
+  18% {
+    transform: scaleY(1);
+  }
+  55% {
+    transform: scaleY(0.55);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes dashboardBarPulse {
+  0%,
+  100% {
+    transform: scaleY(1);
+    filter: brightness(1);
+  }
+  50% {
+    transform: scaleY(1.15);
+    filter: brightness(1.35);
+  }
+}
+
+@keyframes dashboardTrendBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes dashboardLivePill {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.35;
+    transform: scale(0.7);
+  }
+}
+
+@keyframes dashboardDonutBreathe {
+  0%,
+  100% {
+    transform: rotate(-90deg) scale(1);
+  }
+  50% {
+    transform: rotate(-90deg) scale(1.08);
+  }
+}
+
+.dashboard-anim-bar {
+  transform-origin: bottom;
+  animation: dashboardBarLive 3.5s cubic-bezier(0.45, 0, 0.55, 1) infinite backwards;
+}
+.dashboard-anim-bar-now {
+  transform-origin: bottom;
+  animation: dashboardBarPulse 1.4s ease-in-out infinite;
+}
+.dashboard-anim-donut {
+  animation: dashboardDonutDraw 1.4s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+}
+.dashboard-anim-donut-breathe {
+  animation: dashboardDonutBreathe 3s ease-in-out infinite;
+  transform-origin: center;
+}
+.dashboard-anim-alert-pulse {
+  animation: dashboardAlertPulse 2.4s ease-in-out infinite;
+}
+.dashboard-anim-bell-pulse {
+  animation: dashboardBellPulse 1.8s ease-in-out infinite;
+}
+.dashboard-anim-counter {
+  animation: dashboardCounterUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+}
+.dashboard-anim-trend-bounce {
+  display: inline-block;
+  animation: dashboardTrendBounce 1.1s ease-in-out infinite;
+}
+.dashboard-anim-live-dot {
+  animation: dashboardLivePill 1s ease-in-out infinite;
+}
+
 /* Premium multi-layer shadow for mockup depth — Phase 1B Hero */
 .shadow-mockup {
   box-shadow:

@@ -26,9 +26,16 @@
     "learnMore": "Mehr erfahren"
   },
   "hero": {
-    "eyebrow": "DSG · Hosting in der Schweiz · Swiss Made",
-    "title": "Eine Plattform. Alle Akteure der Pflege. Für die Schweiz konzipiert.",
-    "subtitle": "Von der Aufnahme bis zum Audit, vom Besuchsbericht bis zur institutionellen Steuerung — CareBond verbindet Patienten, Angehörige, Pflegepersonal und Administratoren in einer einzigen Plattform, konform mit Schweizer Standards.",
+    "eyebrow": "Pflegeplattform · Schweiz",
+    "title": "Alle Akteure der Pflege, in einer Plattform.",
+    "subtitle": "Pflegeheime, Spitex und Kliniken. Eine Konsole für die Leitung, eine App für jede Pflegeperson, Mini-Berichte für die Familien. DSG-konform, in der Schweiz gehostet.",
+    "trust": {
+      "label": "Nach Schweizer Standards entwickelt",
+      "nlpd": "DSG-konform",
+      "hosting": "Schweizer Hosting",
+      "encryption": "Ende-zu-Ende-Verschlüsselung",
+      "swissMade": "Swiss Made"
+    },
     "ecosystem": {
       "ariaLabel": "Demo des CareBond-Ökosystems: Patient-, Familien-, Fachpersonen- und Admin-Dashboard-Apps",
       "pauseLabel": "Demonstration anhalten",
@@ -54,18 +61,358 @@
         "title": "Meine Patienten (12)"
       },
       "dashboard": {
-        "title": "Übersicht",
-        "residents": "Bewohner",
-        "professionals": "Fachpersonen",
-        "alerts": "Alarme",
-        "devices": "Geräte",
-        "activityTitle": "Aktivität — Konversationen"
+        "sidebar": {
+          "dashboard": "Übersicht",
+          "users": "Benutzer",
+          "logs": "Protokolle",
+          "config": "Einstellungen",
+          "logout": "Abmelden"
+        },
+        "search": "Globale Suche",
+        "welcome": "Willkommen, Admin",
+        "residents": "Total Patienten",
+        "professionals": "Aktive Fachpersonen",
+        "alerts": "Offene Alarme",
+        "devices": "Verbundene Geräte",
+        "activityTitle": "Betreute Patienten",
+        "previousPeriod": "Vorperiode",
+        "currentPeriod": "Aktueller Zeitraum",
+        "overallTitle": "Übersicht",
+        "conversations": "Gespräche",
+        "families": "Familien",
+        "usageOverview": "Nutzung",
+        "firstTime": "Erstbesuch",
+        "returnUsers": "Wiederkehrend",
+        "recentActivities": "Letzte Aktivität",
+        "activityPasswordReset": "Passwort zurückgesetzt",
+        "importantAlerts": "Wichtige Alarme",
+        "viewAll": "Alle anzeigen",
+        "alertSample": "Sensor-Störung",
+        "alertWarning": "Warnung",
+        "alertSampleBody": "Der Sensor in Zimmer 12 meldet unregelmässige Daten."
       }
     },
     "demoAriaLabel": "Demo: mehrsprachiger Chat mit automatischer Übersetzung zwischen Spanisch und Französisch",
     "demoPauseLabel": "Animation anhalten",
     "demoPlayLabel": "Animation starten",
     "chatDemoRole": "Patientin"
+  },
+  "platform": {
+    "bento": {
+      "eyebrow": "Die Plattform",
+      "title": "Fünf Säulen, eine einzige Plattform.",
+      "subtitle": "Von der institutionellen Steuerung bis zum mehrsprachigen Chat, vom einvernehmlichen Livestream bis zum DSG-Audit — alles für das Zusammenspiel gebaut, nicht das Nebeneinander.",
+      "learnMore": "Entdecken",
+      "pillars": {
+        "oversight": {
+          "eyebrow": "Leitung",
+          "title": "Institutionelle Steuerung",
+          "description": "KPIs Heim für Heim, priorisierte Alarme, Audit per Klick. Das ganze Haus auf einem Bildschirm.",
+          "kpiResidents": "Patienten",
+          "kpiProfessionals": "Pflege",
+          "kpiAlerts": "Alarme",
+          "kpiDevices": "Geräte"
+        },
+        "audit": {
+          "eyebrow": "Konformität",
+          "title": "Integriertes DSG-Audit",
+          "description": "Jeder Zugriff, jede Aktion protokolliert. Unveränderliches Audit-Log, exportierbar für Ihre internen Audits."
+        },
+        "livestream": {
+          "eyebrow": "Präsenz",
+          "title": "Livestream auf Einwilligung",
+          "description": "Kamera vom Patienten jederzeit aktivierbar und deaktivierbar. Vollständiges Zugriffsprotokoll, nie ohne Einwilligung aufgezeichnet."
+        },
+        "chat-multilingue": {
+          "eyebrow": "Kommunikation",
+          "title": "Mehrsprachiger Chat",
+          "description": "Echtzeit-Übersetzung ES ↔ FR ↔ DE ↔ IT. In der Schweiz gehostet, ohne Plugin Dritter."
+        },
+        "rounds": {
+          "eyebrow": "Pflege",
+          "title": "Digitale Visite",
+          "description": "Patientenliste, Vitalwerte, priorisierte Alarme — alles in der Tasche der Pflegeperson. Elektronische Rezepte folgen in Kürze."
+        }
+      }
+    },
+    "stubShared": {
+      "comingSoon": "Diese ausführliche Seite folgt in Kürze.",
+      "emailLead": "In der Zwischenzeit schreiben Sie uns an",
+      "backToHome": "Zurück zur Startseite"
+    }
+  },
+  "pourQui": {
+    "eyebrow": "Für wen",
+    "title": "Für jede Einrichtungsart konzipiert.",
+    "subtitle": "Pflegeheime, Spitex, Spitäler und Kliniken — jede mit ihren Zwängen, jede mit ihren Werkzeugen. Aber ein einziger technischer Sockel und ein einziges Konformitätsversprechen.",
+    "tabsAriaLabel": "Wählen Sie Ihre Einrichtungsart",
+    "audiences": {
+      "ems": {
+        "label": "Pflegeheime",
+        "title": "Für Pflegeheime",
+        "description": "Mandantenfähige Steuerung, DSG-Audit-Log, granulares RBAC. Das ganze Haus, auf einem Bildschirm.",
+        "features": {
+          "f0": {
+            "title": "Mandantenfähig",
+            "description": "Steuerung mehrerer Heime von einer einzigen Konsole. Vergleichbare KPIs, strikte Datentrennung."
+          },
+          "f1": {
+            "title": "DSG-Audit-Log",
+            "description": "Unveränderliche Spur der Zugriffe und Änderungen. Dokumentation für interne und kantonale Audits verfügbar."
+          },
+          "f2": {
+            "title": "Mehrere Teams & RBAC",
+            "description": "Leitung, Pflege, Hausdienst — jeder mit seinem Zugriffslevel und seiner Oberfläche, mit granularen Berechtigungen."
+          }
+        }
+      },
+      "spitex": {
+        "label": "Spitex",
+        "title": "Für die häusliche Pflege",
+        "description": "Verbindung Pflegeperson ↔ Patient ↔ Familie aus der Ferne, mit GPS-Validierung der Besuche und kryptografisch signierten Berichten.",
+        "features": {
+          "f0": {
+            "title": "Visiten mit GPS",
+            "description": "GPS-Geofencing zur automatischen Validierung der Anwesenheit am Wohnort. Konzipiert für die Anforderungen von Spitex CH."
+          },
+          "f1": {
+            "title": "HMAC-signierte Berichte",
+            "description": "Jeder Besuchsbericht ist kryptografisch signiert. Konform mit den Anforderungen von KVG/LAMal."
+          },
+          "f2": {
+            "title": "Priorisierte Alarme",
+            "description": "Die Pflegeperson sieht das Dringliche zuerst. Der Rest reiht sich ein, ohne Lärm."
+          }
+        }
+      },
+      "hospitals": {
+        "label": "Spitäler",
+        "title": "Für Spitäler",
+        "description": "Mehrabteilungs-Plattform mit dokumentierter REST-API, granularem RBAC und unveränderlichem Audit-Log.",
+        "features": {
+          "f0": {
+            "title": "Dokumentierte REST-API",
+            "description": "Synchronisation mit Ihrem bestehenden System über API und Webhooks. HL7/FHIR-Integration für Spitäler in Prüfung."
+          },
+          "f1": {
+            "title": "Mehrere Abteilungen & RBAC",
+            "description": "Dichte Trennwände zwischen Abteilungen. Granulare Berechtigungen pro Rolle und Abteilung."
+          },
+          "f2": {
+            "title": "Unveränderliches Audit-Log",
+            "description": "Jede Aktion protokolliert. Spur konform mit den DSG-Anforderungen und Spitalaudits."
+          }
+        },
+        "tile": {
+          "eyebrow": "Heute · Mehrere Abteilungen",
+          "title": "Echtzeitsteuerung",
+          "liveLabel": "Live",
+          "patientsLabel": "Patienten",
+          "departments": {
+            "emergency": "Notfall",
+            "medicine": "Medizin",
+            "geriatrics": "Geriatrie",
+            "pediatrics": "Pädiatrie",
+            "surgery": "Chirurgie",
+            "radiology": "Radiologie"
+          }
+        }
+      },
+      "clinics": {
+        "label": "Kliniken",
+        "title": "Für Privatkliniken",
+        "description": "Hochwertige Patientenerfahrung, integrierte Telemedizin, institutionelles Branding.",
+        "features": {
+          "f0": {
+            "title": "White-Label",
+            "description": "Ihre Marke, Ihre Farben, Ihre Domain. Unser technischer Sockel."
+          },
+          "f1": {
+            "title": "Internationale Präsenz",
+            "description": "Schweizer Hosting + regionale Knoten für Patienten im Ausland."
+          },
+          "f2": {
+            "title": "Automatische Mehrsprachigkeit",
+            "description": "Chat ES ↔ FR ↔ DE ↔ IT in Echtzeit übersetzt. Ohne Plugin Dritter."
+          }
+        },
+        "tile": {
+          "role": "Patientin · Genf"
+        }
+      }
+    }
+  },
+  "compliance": {
+    "eyebrow": "Konformität",
+    "title": "Für das Schweizer Recht gebaut, kein DSGVO-Patch.",
+    "subtitle": "DSG-nativ, Schweizer Hosting, unveränderliches Audit-Log. Konformität ist in der Architektur, nicht in einem Vertragsanhang.",
+    "trustLine": "Technische Dokumentation auf Anfrage für Ihre Rechts- und IT-Abteilungen verfügbar.",
+    "pillars": {
+      "nlpd": {
+        "title": "DSG-nativ",
+        "description": "Natives Audit-Log für Zugriffe und Änderungen, von der ersten Code-Zeile an für das Schweizer Recht konzipiert."
+      },
+      "hosting": {
+        "title": "Schweizer Hosting",
+        "description": "Infrastruktur in der Schweiz gehostet (Infomaniak, Genf). Patientendaten verlassen das Schweizer Territorium nicht."
+      },
+      "encryption": {
+        "title": "Moderne Verschlüsselung",
+        "description": "TLS 1.3 in Transit auf Schweizer Servern. Verschlüsselung der Backups im Ruhezustand. HMAC-signierte Besuchsberichte."
+      },
+      "audit": {
+        "title": "DSG-Audit-Log",
+        "description": "Unveränderliche Spur jedes Zugriffs und jeder Änderung. Multi-Institution mit granularem RBAC und strikter Datentrennung."
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "Häufig gestellte Fragen",
+    "title": "Bevor Sie eine Demo anfordern.",
+    "subtitle": "Die Fragen, die uns Leitungen von Pflegeheimen, Spitex und Spitälern am häufigsten stellen.",
+    "questions": {
+      "q0": {
+        "question": "Wie verläuft das Onboarding?",
+        "answer": "Wir begleiten die Migration der bestehenden Dossiers und schulen die Teams vor Ort. Der genaue Zeitplan wird nach einem Audit der Einrichtung während der Demo festgelegt."
+      },
+      "q1": {
+        "question": "Wie integrieren Sie sich in unser bestehendes System?",
+        "answer": "Dokumentierte REST-API. Synchronisation über Webhooks und CSV/JSON-Exporte möglich. Die HL7/FHIR-Integration für Spitäler wird derzeit geprüft."
+      },
+      "q2": {
+        "question": "Was passiert, wenn wir gehen möchten?",
+        "answer": "Ihre Daten gehören Ihnen. Vollständiger Export auf Anfrage, kostenlos, in offenen Formaten (CSV, JSON). Die genauen Austrittsbedingungen werden im Vertrag festgelegt."
+      },
+      "q3": {
+        "question": "Wie funktioniert die Preisgestaltung?",
+        "answer": "Personalisiertes Angebot nach einer 30-minütigen Demo, abhängig von der Grösse der Einrichtung, den gewählten Modulen und der Anzahl der Benutzer."
+      },
+      "q4": {
+        "question": "Bleiben Ihre Daten in der Schweiz?",
+        "answer": "Ja. Infrastruktur in der Schweiz gehostet (Infomaniak, Genf). Keine Patientendaten verlassen das Schweizer Territorium. Kantonale Anpassungen werden im Einzelfall besprochen."
+      },
+      "q5": {
+        "question": "Wie fordere ich eine Demo an?",
+        "answer": "Fordern Sie eine 30-minütige Demo über das Kontaktformular oder per E-Mail an. Wir erstellen anschliessend ein personalisiertes Angebot, nachdem wir Ihre Bedürfnisse verstanden haben."
+      }
+    }
+  },
+  "finalCta": {
+    "eyebrow": "Bereit für die Demo",
+    "title": "Eine personalisierte Demo für Ihre Einrichtung.",
+    "subtitle": "30 Minuten. Wir zeigen Ihnen CareBond mit Ihren realen Anwendungsfällen — keine generische Demo, die jeder anderen gleicht.",
+    "secondary": "Direkt schreiben"
+  },
+  "chatMultilingue": {
+    "eyebrow": "Mehrsprachiger Chat",
+    "title": "Eine Familie spricht Spanisch. Die Pflegeperson spricht Französisch. CareBond übersetzt.",
+    "subtitle": "ES ↔ FR ↔ DE ↔ IT in Echtzeit. In der Schweiz gehostet, ohne Plugin Dritter. Jede Nachricht in beiden Sprachen archiviert.",
+    "learnMore": "Mehr über den mehrsprachigen Chat",
+    "bullets": {
+      "b0": {
+        "title": "Echtzeit-Übersetzung",
+        "description": "Ohne spürbare Verzögerung. Der Empfänger sieht die Nachricht in seiner Sprache, bevor er sie überhaupt lesen will."
+      },
+      "b1": {
+        "title": "Schweizer Hosting",
+        "description": "Der Inhalt verlässt das Land nie. Übersetzung auf Schweizer Infrastruktur, nicht bei Hyperscalern."
+      },
+      "b2": {
+        "title": "Bidirektional und nachvollziehbar",
+        "description": "Jede Nachricht in beiden Sprachen gespeichert. Das DSG-Audit umfasst die vollständige Übersetzungsspur."
+      }
+    }
+  },
+  "moduleResidences": {
+    "eyebrow": "Modul Pflegeheime",
+    "title": "Für Schweizer Pflegeheime gebaut — von der Aufnahme bis zum Audit.",
+    "subtitle": "Das Flaggschiff-Modul von CareBond. Gedacht für das Pflegeheim, das einen strukturierten Patientendossier will, eine digitale Visite in der Tasche und einen audit-fertigen Export auf Knopfdruck.",
+    "pillars": {
+      "admission": {
+        "title": "Aufnahme & Patientendossier",
+        "description": "Alles beginnt mit einer Aufnahme. CareBond verwandelt diesen ersten Schritt in ein strukturiertes Patientendossier, ab dem ersten Klick DSG-konform.",
+        "bullets": {
+          "b0": "Standardisiertes Aufnahmeformular, Kanton für Kanton validiert",
+          "b1": "Elektronische Unterschrift von Bewohner und Familie",
+          "b2": "Automatischer Import der Gesundheitsdaten (Medikamente, Allergien, Kontakte)",
+          "b3": "Digitales Dossier in fünf Minuten einsatzbereit für die Pflege"
+        }
+      },
+      "rounds": {
+        "title": "Digitale Visite & Vitalwerte",
+        "description": "Die Pflegeperson tritt ein, öffnet die App, sieht die Visite des Tages. Vitalwerte, Alarme, Medikamente — alles in der Tasche, mit zwei Taps bestätigt.",
+        "bullets": {
+          "b0": "Tagesvisite vorab organisiert, Zimmer für Zimmer",
+          "b1": "Vitalwerte bei Bedarf offline erfasst, automatische Synchronisation",
+          "b2": "Nach Schweregrad priorisierte Alarme, nie verloren",
+          "b3": "Optionales Foto und Besuchsnotiz mit Zeitstempel",
+          "b4": "Elektronische Rezepte mit digitaler Signatur autorisierter Verschreiber — bald, in Konformität mit den Schweizer eHealth-Praktiken"
+        }
+      },
+      "audit": {
+        "title": "Audit-Log & Nachvollziehbarkeit",
+        "description": "Jeder Zugriff, jede Aktion, jede Änderung wird unveränderlich protokolliert. Dokumentation bereit für Ihre internen Audits und für die Transparenz gegenüber den Behörden.",
+        "bullets": {
+          "b0": "Natives Audit-Log der Zugriffe und Änderungen",
+          "b1": "Filterung nach Zeitraum, Bewohner, Pflegeperson",
+          "b2": "HMAC-signierte Besuchsberichte, konform mit KVG/LAMal-Anforderungen",
+          "b3": "Strukturierter Export für Ihre internen Audits, kantonale Formate folgen"
+        }
+      }
+    }
+  },
+  "soignerSansSilos": {
+    "eyebrow": "Pflege ohne Silos",
+    "title": "Pflege überlebt keine Silos.",
+    "subtitle": "Jeder verpasste Anruf, jeder verlorene Bericht, jeder Alarm, der nicht ankommt — das ist ein realer Pflegeverlust, kein Organisationsproblem.",
+    "avant": {
+      "label": "Ohne CareBond",
+      "title": "Fragmentierte Pflege",
+      "items": {
+        "i0": "Die Familie ruft dreimal pro Woche an, um nach dem Stand zu fragen.",
+        "i1": "Mini-Bericht verloren in einer vergessenen E-Mail oder SMS.",
+        "i2": "Die Pflegeperson muss die Leitung anrufen, um einen Alarm zu validieren.",
+        "i3": "DSG-Audit: drei Wochen Papierkram und Ordner."
+      }
+    },
+    "apres": {
+      "label": "Mit CareBond",
+      "title": "Vereinte Pflege",
+      "items": {
+        "i0": "Die Familie erhält den täglichen Mini-Bericht automatisch, ohne zu fragen.",
+        "i1": "Die Pflegeperson bestätigt mit zwei Taps aus der Hosentasche.",
+        "i2": "Die Leitung sieht den Alarm in Echtzeit, ohne Anruf.",
+        "i3": "DSG-Audit: ein einziger Export, bereit für kantonale Behörden."
+      }
+    },
+    "closing": "Wenn jeder Akteur dieselbe Realität sieht, wird Pflege wieder kontinuierlich."
+  },
+  "howItWorks": {
+    "eyebrow": "So funktioniert es",
+    "title": "Vier Oberflächen, ein einziger Fluss.",
+    "subtitle": "Vom SOS des Patienten bis zur Steuerung durch die Leitung — jeder sieht, was er braucht, ohne Lärm und ohne Umwege. Eine Plattform, vier Rollen, eine gemeinsame Wahrheit.",
+    "steps": {
+      "patient": {
+        "number": "01",
+        "title": "Patient",
+        "description": "Einfache Oberfläche für Seniorinnen und Senioren. SOS mit einem Tipp, Videoanrufe, direkter Zugang zur Pflege."
+      },
+      "family": {
+        "number": "02",
+        "title": "Familie",
+        "description": "Tägliche Mini-Berichte, Livestream auf Einwilligung, Ruhe aus der Ferne. Ohne Eingriff."
+      },
+      "professional": {
+        "number": "03",
+        "title": "Pflegeperson",
+        "description": "Digitale Visite, Prioritätsalarme, Vitalwerte in Echtzeit. Weniger Papier, mehr Pflege."
+      },
+      "direction": {
+        "number": "04",
+        "title": "Leitung",
+        "description": "Institutionelle Steuerung, DSG-Audit, KPIs Heim für Heim. Das ganze Haus auf einem Bildschirm."
+      }
+    }
   },
   "common": {
     "skipLink": "Zum Hauptinhalt"

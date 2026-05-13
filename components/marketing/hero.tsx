@@ -1,69 +1,95 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
-import { HeroStage } from "./hero/hero-stage";
+import { AdminDashboard } from "./hero/mockups/admin-dashboard";
 
-// Hero — Phase 1B. Linear/Stripe "hero + sidekick" composition: admin
-// dashboard MacBook as the visual mass, one phone with the chat
-// multilingue demo as the live sidekick. The three other product
-// surfaces are introduced in Section 3 (Comment CareBond fonctionne).
+// Hero — Phase 1B v4. Linear-inspired editorial composition.
 //
-// Inter font (set in [locale]/layout.tsx) does the heavy lifting on
-// premium feel. H1 is semibold (600) not bold (700) — more elegant for
-// Swiss product copy.
+// Left-aligned giant headline, asymmetric weight, certification strip as a
+// trust anchor (substitute for customer logos until we have public refs),
+// and the dashboard mockup deployed wide below as the single product
+// visual. The chat-multilingue demo moves to Section 9 in the planned IA.
 //
-// Background: subtle neutral-50 with a fine dot grid for tactile depth
-// without violating the no-gradients rule.
+// Why a single wide visual instead of a side-by-side composition: Linear,
+// Stripe, Mercury all do this. One dominant product surface communicates
+// "this is the thing" louder than four overlapping mockups. The numbered
+// sections (1.0 / 2.0 / 3.0) below the hero pick up the story arc.
 export async function Hero({ locale }: { locale: string }) {
   const t = await getTranslations("hero");
   const tCta = await getTranslations("cta");
 
-  return (
-    <section className="relative overflow-hidden bg-neutral-50">
-      {/* Subtle dot grid backdrop */}
-      <div
-        aria-hidden="true"
-        className="hero-dotgrid pointer-events-none absolute inset-0"
-      />
+  const trust = [
+    t("trust.nlpd"),
+    t("trust.hosting"),
+    t("trust.encryption"),
+    t("trust.swissMade"),
+  ];
 
-      <div className="relative mx-auto max-w-7xl px-6 pb-24 pt-14 sm:pt-20 lg:px-8 lg:pb-32 lg:pt-24">
-        <div className="grid grid-cols-1 items-center gap-14 lg:grid-cols-12 lg:gap-12">
-          {/* Left: copy + CTAs (5/12 cols on desktop) */}
-          <div className="lg:col-span-5">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-brand-blue-strong">
-              {t("eyebrow")}
-            </p>
-            <h1 className="mt-5 text-balance text-[2.5rem] font-semibold leading-[1.05] tracking-[-0.025em] text-brand-navy sm:text-5xl lg:text-[56px] xl:text-6xl">
-              {t("title")}
-            </h1>
-            <p className="mt-6 max-w-lg text-balance text-base leading-relaxed text-neutral-700 sm:text-[17px]">
-              {t("subtitle")}
-            </p>
-            <div className="mt-10 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:gap-3">
-              <Link
-                href={`/${locale}/contact`}
-                className="group inline-flex h-12 items-center justify-center gap-2 rounded-xl bg-brand-navy px-7 text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#152547] hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue motion-reduce:transform-none motion-reduce:transition-none"
+  return (
+    <section className="relative overflow-hidden bg-white">
+      <div className="relative mx-auto max-w-7xl px-6 pt-16 sm:pt-20 lg:px-8 lg:pt-28">
+        {/* Eyebrow — category label, small caps, brand blue */}
+        <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-brand-blue-strong">
+          {t("eyebrow")}
+        </p>
+
+        {/* H1 — giant, left-aligned, naturally wraps to 2 lines */}
+        <h1 className="mt-6 max-w-[18ch] text-balance text-[2.75rem] font-semibold leading-[0.98] tracking-[-0.035em] text-brand-navy sm:text-[3.5rem] lg:text-[4.5rem] xl:max-w-[20ch] xl:text-[5.5rem]">
+          {t("title")}
+        </h1>
+
+        {/* Subtitle — left-aligned, max-w prose, neutral-600 for hierarchy */}
+        <p className="mt-7 max-w-2xl text-base leading-relaxed text-neutral-600 sm:text-[17px] lg:text-lg">
+          {t("subtitle")}
+        </p>
+
+        {/* CTAs */}
+        <div className="mt-10 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:gap-3">
+          <Link
+            href={`/${locale}/contact`}
+            className="group inline-flex h-12 items-center justify-center gap-2 rounded-xl bg-brand-navy px-7 text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#152547] hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue motion-reduce:transform-none motion-reduce:transition-none"
+          >
+            {tCta("primary")}
+            <span
+              aria-hidden="true"
+              className="transition-transform duration-200 group-hover:translate-x-0.5 motion-reduce:transition-none"
+            >
+              →
+            </span>
+          </Link>
+          <Link
+            href="#platform"
+            className="inline-flex h-12 items-center justify-center rounded-xl border border-neutral-200 bg-white px-7 text-sm font-semibold text-brand-navy shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-neutral-300 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue motion-reduce:transform-none motion-reduce:transition-none"
+          >
+            {tCta("viewPlatform")}
+          </Link>
+        </div>
+
+        {/* Trust strip — certification anchors, dot separated, neutral-500 */}
+        <div className="mt-14 border-t border-neutral-200 pt-6">
+          <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-neutral-400">
+            {t("trust.label")}
+          </p>
+          <ul className="mt-4 flex flex-wrap items-center gap-x-7 gap-y-3">
+            {trust.map((item) => (
+              <li
+                key={item}
+                className="flex items-center gap-2 text-xs font-medium tracking-tight text-neutral-700 sm:text-sm"
               >
-                {tCta("primary")}
                 <span
                   aria-hidden="true"
-                  className="transition-transform duration-200 group-hover:translate-x-0.5 motion-reduce:transition-none"
-                >
-                  →
-                </span>
-              </Link>
-              <Link
-                href="#platform"
-                className="inline-flex h-12 items-center justify-center rounded-xl border border-neutral-200 bg-white px-7 text-sm font-semibold text-brand-navy shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-neutral-300 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue motion-reduce:transform-none motion-reduce:transition-none"
-              >
-                {tCta("viewPlatform")}
-              </Link>
-            </div>
-          </div>
+                  className="h-1.5 w-1.5 rounded-full bg-brand-blue-strong/70"
+                />
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
 
-          {/* Right: dashboard + phone sidekick (7/12 cols on desktop) */}
-          <div className="lg:col-span-7">
-            <HeroStage />
-          </div>
+      {/* Dashboard mockup — wide, centered, depth shadow */}
+      <div className="relative mx-auto mt-16 max-w-6xl px-6 pb-24 sm:mt-20 lg:px-8 lg:pb-32">
+        <div aria-hidden="true">
+          <AdminDashboard />
         </div>
       </div>
     </section>

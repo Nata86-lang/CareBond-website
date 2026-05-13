@@ -1,5 +1,3 @@
-"use client";
-
 import {
   MessageSquare,
   Phone,
@@ -8,13 +6,14 @@ import {
   Activity,
   Settings,
 } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
 // Patient phone mockup. Premium UI: Lucide icons (no emoji), refined
-// hierarchy. Used in Section 3 (Comment ça marche) bento, not in Hero.
-// Animation: when `step === 1`, the SOS chip pulses once.
-export function PatientPhone({ step }: { step: number }) {
-  const t = useTranslations("hero.ecosystem.patient");
+// hierarchy. Used in Section 3 (Comment ça marche) bento with step={4}.
+// Server component — the step-based animation branches stay in place
+// for future reuse but are dormant at step=4 (the settled state).
+export async function PatientPhone({ step }: { step: number }) {
+  const t = await getTranslations("hero.ecosystem.patient");
   const sosActive = step === 1;
   return (
     <div className="w-[224px] overflow-hidden rounded-[42px] border-[7px] border-[#0F0F12] bg-white shadow-mockup-floor">
