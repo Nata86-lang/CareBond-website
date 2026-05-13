@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
+import { Inter } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { setRequestLocale, getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -12,12 +12,13 @@ import { SkipLink } from "@/components/layout/skip-link";
 import "../globals.css";
 
 // next/font/google self-hosts at build time: fonts land in
-// /_next/static/media/, no runtime requests to Google CDN. Cumple el spec
-// "self-host en /public/fonts/" con mejor subset + preload automáticos.
-const outfit = Outfit({
-  variable: "--font-outfit",
+// /_next/static/media/, no runtime requests to Google CDN. Inter is the
+// premium choice for product UI typography (Linear, Stripe, Mercury,
+// Notion all use it). Replaces Outfit (too geometric/rounded for the
+// Swiss healthcare premium tone we are after).
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin", "latin-ext"],
-  weight: ["300", "400", "500", "600", "700", "800"],
   display: "swap",
 });
 
@@ -99,7 +100,7 @@ export default async function LocaleLayout({
   };
 
   return (
-    <html lang={locale} className={outfit.variable}>
+    <html lang={locale} className={inter.variable}>
       <body className="antialiased">
         <NextIntlClientProvider messages={messages} locale={locale}>
           <SkipLink />

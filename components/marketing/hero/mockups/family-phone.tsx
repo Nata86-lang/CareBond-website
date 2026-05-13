@@ -1,24 +1,27 @@
 "use client";
 
+import { Video } from "lucide-react";
 import { useTranslations } from "next-intl";
 
-// Family phone mockup. Recent mini-report card + livestream thumbnail
-// with red LIVE badge.
+// Family phone mockup. Mini-report card with structured layout +
+// livestream thumbnail with red LIVE badge. Used in Section 3 bento.
 //
 // Animation: when `step === 2`, the mini-report card slides down + fades
-// in. After step 2 it stays visible in steady state; at step 0 (loop
-// restart) it unmounts and re-mounts on step 2 for a fresh animation.
+// in. After step 2 it persists in steady state; at step 0 (loop restart)
+// it unmounts and re-mounts on step 2 for a fresh animation.
 export function FamilyPhone({ step }: { step: number }) {
   const t = useTranslations("hero.ecosystem.family");
   const notifActive = step === 2;
   const showNotif = step >= 2;
   return (
-    <div className="w-[224px] overflow-hidden rounded-[42px] border-[10px] border-[#0F0F12] bg-white shadow-mockup">
+    <div className="w-[224px] overflow-hidden rounded-[42px] border-[7px] border-[#0F0F12] bg-white shadow-mockup-floor">
       <div className="relative h-6 bg-white">
         <div className="absolute left-1/2 top-1.5 h-4 w-20 -translate-x-1/2 rounded-full bg-[#0F0F12]" />
       </div>
       <div className="border-b border-neutral-100 px-4 pb-3 pt-2">
-        <p className="text-[11px] font-medium text-neutral-500">{t("title")}</p>
+        <p className="text-sm font-semibold tracking-tight text-brand-navy">
+          {t("title")}
+        </p>
       </div>
       <div className="space-y-3 p-4">
         {/* Mini-report card */}
@@ -30,7 +33,7 @@ export function FamilyPhone({ step }: { step: number }) {
             }`}
           >
             <div className="flex items-center justify-between gap-2">
-              <p className="text-[11px] font-semibold uppercase tracking-wider text-brand-blue-strong">
+              <p className="text-[10px] font-semibold uppercase tracking-wider text-brand-blue-strong">
                 {t("miniReportTitle")}
               </p>
               <p className="text-[9px] text-neutral-500">{t("miniReportTime")}</p>
@@ -41,13 +44,19 @@ export function FamilyPhone({ step }: { step: number }) {
           </div>
         )}
         {/* Livestream thumbnail */}
-        <div className="relative overflow-hidden rounded-xl bg-neutral-700">
-          <div className="aspect-video bg-neutral-600" />
+        <div className="relative overflow-hidden rounded-xl bg-neutral-800">
+          <div className="aspect-video">
+            {/* Simulated camera frame texture using overlapping subtle blocks */}
+            <div className="absolute inset-0 bg-neutral-700" />
+            <div className="absolute left-3 top-1/2 h-12 w-8 -translate-y-1/2 rounded-md bg-neutral-600/60" />
+            <div className="absolute right-2 bottom-2 h-6 w-10 rounded bg-neutral-600/50" />
+          </div>
           <div className="absolute left-2 top-2 flex items-center gap-1 rounded-full bg-[#DC2626] px-2 py-0.5 text-[8px] font-bold uppercase tracking-wider text-white">
             <span className="h-1.5 w-1.5 rounded-full bg-white" />
             {t("liveBadge")}
           </div>
-          <div className="absolute bottom-2 left-2 text-[10px] font-medium text-white/95">
+          <div className="absolute bottom-2 left-2 flex items-center gap-1 text-[10px] font-medium text-white/95">
+            <Video size={10} strokeWidth={2} aria-hidden="true" />
             {t("livestreamLabel")}
           </div>
         </div>
