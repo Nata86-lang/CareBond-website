@@ -22,12 +22,46 @@
   "cta": {
     "primary": "Request a demo",
     "secondary": "Explore features",
+    "viewPlatform": "See the platform",
     "learnMore": "Learn more"
   },
   "hero": {
     "eyebrow": "nLPD · Swiss-hosted · Swiss Made",
-    "title": "The care platform that speaks your language.",
-    "subtitle": "CareBond connects patients, families, and care teams in a secure environment, compliant with Swiss data protection law, and built for Swiss institutions.",
+    "title": "One platform.\nEvery role in care.\nBuilt for Switzerland.",
+    "subtitle": "From admission to audit, from visit report to institutional oversight — CareBond connects patients, families, care teams, and administrators in a single platform, compliant with Swiss standards.",
+    "ecosystem": {
+      "ariaLabel": "Demo of the CareBond ecosystem: patient, family, professional, and admin dashboard apps",
+      "pauseLabel": "Pause demonstration",
+      "playLabel": "Play demonstration",
+      "patient": {
+        "greeting": "Hello Marie",
+        "chat": "Chat",
+        "calls": "Calls",
+        "visits": "Visits",
+        "family": "Family",
+        "vitals": "Vitals",
+        "permissions": "Permissions"
+      },
+      "family": {
+        "title": "Family · Marie",
+        "miniReportTitle": "Mini-report",
+        "miniReportTime": "Today · 2pm",
+        "miniReportBody": "Marie had a good morning. Blood pressure normal.",
+        "livestreamLabel": "Living room camera",
+        "liveBadge": "LIVE"
+      },
+      "professional": {
+        "title": "My patients (12)"
+      },
+      "dashboard": {
+        "title": "Dashboard",
+        "residents": "Residents",
+        "professionals": "Professionals",
+        "alerts": "Alerts",
+        "devices": "Devices",
+        "activityTitle": "Activity — Conversations"
+      }
+    },
     "demoAriaLabel": "Demo: multilingual chat automatically translating between Spanish and French",
     "demoPauseLabel": "Pause animation",
     "demoPlayLabel": "Play animation",

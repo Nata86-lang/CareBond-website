@@ -22,12 +22,46 @@
   "cta": {
     "primary": "Demo anfragen",
     "secondary": "Funktionen ansehen",
+    "viewPlatform": "Die Plattform ansehen",
     "learnMore": "Mehr erfahren"
   },
   "hero": {
     "eyebrow": "DSG · Hosting in der Schweiz · Swiss Made",
-    "title": "Die Pflegeplattform, die Ihre Sprache spricht.",
-    "subtitle": "CareBond verbindet Patienten, Angehörige und Pflegepersonal in einer sicheren, DSG-konformen Umgebung, die auf Schweizer Einrichtungen zugeschnitten ist.",
+    "title": "Eine Plattform.\nAlle Akteure der Pflege.\nFür die Schweiz konzipiert.",
+    "subtitle": "Von der Aufnahme bis zum Audit, vom Besuchsbericht bis zur institutionellen Steuerung — CareBond verbindet Patienten, Angehörige, Pflegepersonal und Administratoren in einer einzigen Plattform, konform mit Schweizer Standards.",
+    "ecosystem": {
+      "ariaLabel": "Demo des CareBond-Ökosystems: Patient-, Familien-, Fachpersonen- und Admin-Dashboard-Apps",
+      "pauseLabel": "Demonstration anhalten",
+      "playLabel": "Demonstration starten",
+      "patient": {
+        "greeting": "Guten Tag Marie",
+        "chat": "Chat",
+        "calls": "Anrufe",
+        "visits": "Besuche",
+        "family": "Familie",
+        "vitals": "Vitalwerte",
+        "permissions": "Rechte"
+      },
+      "family": {
+        "title": "Familie · Marie",
+        "miniReportTitle": "Mini-Bericht",
+        "miniReportTime": "Heute · 14 Uhr",
+        "miniReportBody": "Marie hatte einen guten Morgen. Blutdruck normal.",
+        "livestreamLabel": "Wohnzimmerkamera",
+        "liveBadge": "LIVE"
+      },
+      "professional": {
+        "title": "Meine Patienten (12)"
+      },
+      "dashboard": {
+        "title": "Übersicht",
+        "residents": "Bewohner",
+        "professionals": "Fachpersonen",
+        "alerts": "Alarme",
+        "devices": "Geräte",
+        "activityTitle": "Aktivität — Konversationen"
+      }
+    },
     "demoAriaLabel": "Demo: mehrsprachiger Chat mit automatischer Übersetzung zwischen Spanisch und Französisch",
     "demoPauseLabel": "Animation anhalten",
     "demoPlayLabel": "Animation starten",

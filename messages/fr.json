@@ -22,12 +22,46 @@
   "cta": {
     "primary": "Demandez une démonstration",
     "secondary": "Voir les fonctionnalités",
+    "viewPlatform": "Voir la plateforme",
     "learnMore": "En savoir plus"
   },
   "hero": {
     "eyebrow": "nLPD · Hébergement Suisse · Swiss Made",
-    "title": "La plateforme de soins qui parle votre langue.",
-    "subtitle": "CareBond connecte patients, familles et soignants dans un environnement sécurisé, conforme à la nLPD, et adapté aux établissements suisses.",
+    "title": "Une plateforme.\nTous les acteurs du soin.\nConçue pour la Suisse.",
+    "subtitle": "De l'admission à l'audit, du rapport de visite au pilotage institutionnel — CareBond connecte patients, familles, soignants et administrateurs en une plateforme unique, conforme aux normes suisses.",
+    "ecosystem": {
+      "ariaLabel": "Démonstration de l'écosystème CareBond: applications patient, famille, professionnel et tableau de bord administrateur",
+      "pauseLabel": "Mettre la démonstration en pause",
+      "playLabel": "Lancer la démonstration",
+      "patient": {
+        "greeting": "Bonjour Marie",
+        "chat": "Chat",
+        "calls": "Appels",
+        "visits": "Visites",
+        "family": "Famille",
+        "vitals": "Vitaux",
+        "permissions": "Permis"
+      },
+      "family": {
+        "title": "Famille · Marie",
+        "miniReportTitle": "Mini-rapport",
+        "miniReportTime": "Aujourd'hui · 14h",
+        "miniReportBody": "Marie a bien passé la matinée. Tension normale.",
+        "livestreamLabel": "Caméra salon",
+        "liveBadge": "EN DIRECT"
+      },
+      "professional": {
+        "title": "Mes patients (12)"
+      },
+      "dashboard": {
+        "title": "Tableau de bord",
+        "residents": "Résidents",
+        "professionals": "Professionnels",
+        "alerts": "Alertes",
+        "devices": "Dispositifs",
+        "activityTitle": "Activité — Conversations"
+      }
+    },
     "demoAriaLabel": "Démonstration: chat multilingue traduisant automatiquement entre espagnol et français",
     "demoPauseLabel": "Mettre l'animation en pause",
     "demoPlayLabel": "Lancer l'animation",

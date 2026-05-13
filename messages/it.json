@@ -22,12 +22,46 @@
   "cta": {
     "primary": "Richiedi una demo",
     "secondary": "Vedi le funzionalità",
+    "viewPlatform": "Vedi la piattaforma",
     "learnMore": "Scopri di più"
   },
   "hero": {
     "eyebrow": "LPD · Hosting in Svizzera · Swiss Made",
-    "title": "La piattaforma di cura che parla la vostra lingua.",
-    "subtitle": "CareBond connette pazienti, famiglie e personale sanitario in un ambiente sicuro, conforme alla LPD, e adattato alle strutture svizzere.",
+    "title": "Una piattaforma.\nTutti gli attori delle cure.\nConcepita per la Svizzera.",
+    "subtitle": "Dall'ammissione all'audit, dal rapporto di visita alla gestione istituzionale — CareBond connette pazienti, famiglie, personale sanitario e amministratori in un'unica piattaforma, conforme agli standard svizzeri.",
+    "ecosystem": {
+      "ariaLabel": "Dimostrazione dell'ecosistema CareBond: app paziente, famiglia, professionista e dashboard amministratore",
+      "pauseLabel": "Metti in pausa la dimostrazione",
+      "playLabel": "Avvia la dimostrazione",
+      "patient": {
+        "greeting": "Buongiorno Marie",
+        "chat": "Chat",
+        "calls": "Chiamate",
+        "visits": "Visite",
+        "family": "Famiglia",
+        "vitals": "Vitali",
+        "permissions": "Permessi"
+      },
+      "family": {
+        "title": "Famiglia · Marie",
+        "miniReportTitle": "Mini-rapporto",
+        "miniReportTime": "Oggi · 14:00",
+        "miniReportBody": "Marie ha passato una buona mattinata. Pressione normale.",
+        "livestreamLabel": "Telecamera soggiorno",
+        "liveBadge": "IN DIRETTA"
+      },
+      "professional": {
+        "title": "I miei pazienti (12)"
+      },
+      "dashboard": {
+        "title": "Cruscotto",
+        "residents": "Residenti",
+        "professionals": "Professionisti",
+        "alerts": "Allarmi",
+        "devices": "Dispositivi",
+        "activityTitle": "Attività — Conversazioni"
+      }
+    },
     "demoAriaLabel": "Dimostrazione: chat multilingue con traduzione automatica tra spagnolo e francese",
     "demoPauseLabel": "Metti in pausa l'animazione",
     "demoPlayLabel": "Avvia l'animazione",

@@ -91,6 +91,72 @@
   animation: carebondFadeOut 800ms ease-out forwards;
 }
 
+/* Hero ecosystem (4-mockup composition) animations — Phase 1B sub-commit B */
+@keyframes ecoSosPulse {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0);
+  }
+  50% {
+    transform: scale(1.06);
+    box-shadow: 0 0 0 14px rgba(220, 38, 38, 0);
+  }
+}
+
+@keyframes ecoSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ecoVitalSwap {
+  0%,
+  20% {
+    opacity: 0.25;
+    transform: scale(0.94);
+  }
+  60%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes ecoCounterFade {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  40% {
+    opacity: 0;
+    transform: scale(0.88);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+.eco-anim-sos {
+  animation: ecoSosPulse 1.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.eco-anim-slide-down {
+  animation: ecoSlideDown 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.eco-anim-vital {
+  animation: ecoVitalSwap 1s ease-out;
+}
+.eco-anim-counter {
+  animation: ecoCounterFade 1.4s ease-out;
+}
+
 /* Reduced motion (BRAND_GUIDELINES.md §8) */
 @media (prefers-reduced-motion: reduce) {
   *,
