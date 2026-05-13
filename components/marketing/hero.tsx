@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { PhoneFrame } from "./hero/phone-frame";
-import { ChatDemo } from "./hero/chat-demo";
+import { ChatMultilingualDemo } from "./sections/chat-multilingue/chat-multilingue-demo";
 
 // Hero — Phase 1B commit 1. Server-composed shell + a single client island
 // (ChatDemo) for the chat loop. PhoneFrame is presentational CSS-only.
@@ -50,7 +50,7 @@ export async function Hero({ locale }: { locale: string }) {
           {/* Right: phone with chat demo */}
           <div className="flex justify-center lg:justify-end">
             <PhoneFrame>
-              <ChatDemo />
+              <ChatMultilingualDemo />
             </PhoneFrame>
           </div>
         </div>

@@ -31,6 +31,11 @@ import { Pause, Play, ChevronRight } from "lucide-react";
 // When true: jump to step 6 + pause. Pause button stays visible so the
 // user can opt back in to playback. The site's global reduce-motion CSS
 // rule shortens all animation durations to 0.01ms regardless.
+//
+// Lives in components/marketing/sections/chat-multilingue/ because in the
+// final Home layout this demo is the centerpiece of Section 9
+// "Communication sans barrière linguistique" — not the Hero. It is being
+// used transiently in Hero v1 until Hero v2 (the 4-mockup ecosystem) lands.
 
 type Phase =
   | {
@@ -104,7 +109,7 @@ const PHASES: Phase[] = [
 // Milliseconds spent on each step before advancing.
 const STEP_DELAYS = [500, 1000, 1500, 1000, 2000, 1000, 2000, 1000];
 
-export function ChatDemo() {
+export function ChatMultilingualDemo() {
   const t = useTranslations("hero");
   // Initial state matches server render: step 0, playing.
   const [step, setStep] = useState(0);
