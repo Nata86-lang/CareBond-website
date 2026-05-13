@@ -17,37 +17,49 @@ export async function Hero({ locale }: { locale: string }) {
 
   return (
     <section className="relative overflow-hidden bg-white">
-      <div className="mx-auto max-w-7xl px-6 py-20 sm:py-24 lg:px-8 lg:py-32">
-        <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[1fr_1.2fr] lg:gap-12">
-          {/* Left: copy + CTAs */}
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-blue-strong">
+      {/* Subtle dot grid backdrop — depth without gradients */}
+      <div
+        aria-hidden="true"
+        className="hero-dotgrid pointer-events-none absolute inset-0 opacity-60"
+      />
+
+      <div className="relative mx-auto max-w-7xl px-6 py-16 sm:py-20 lg:px-8 lg:py-24">
+        <div className="grid grid-cols-1 items-center gap-14 lg:grid-cols-12 lg:gap-10">
+          {/* Left: copy + CTAs (5/12 cols on desktop) */}
+          <div className="lg:col-span-5">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-brand-blue-strong">
               {t("eyebrow")}
             </p>
-            <h1 className="mt-6 whitespace-pre-line text-balance font-bold leading-[1.05] tracking-[-0.02em] text-brand-navy text-[clamp(2.5rem,8vw,7rem)]">
+            <h1 className="mt-5 text-balance text-4xl font-bold leading-[1.05] tracking-[-0.025em] text-brand-navy sm:text-5xl lg:text-[56px] xl:text-6xl">
               {t("title")}
             </h1>
-            <p className="mt-6 max-w-xl text-balance text-lg leading-relaxed text-neutral-600 sm:text-xl">
+            <p className="mt-6 max-w-lg text-balance text-base leading-relaxed text-neutral-600 sm:text-lg">
               {t("subtitle")}
             </p>
-            <div className="mt-10 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:gap-4">
+            <div className="mt-9 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:gap-3">
               <Link
                 href={`/${locale}/contact`}
-                className="inline-flex min-h-12 items-center justify-center rounded-lg bg-brand-blue-strong px-6 py-3 text-base font-semibold text-white shadow-sm transition-colors duration-150 hover:bg-[#1d4ed8] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue motion-reduce:transition-none"
+                className="group inline-flex h-12 items-center justify-center gap-2 rounded-lg bg-brand-navy px-6 text-sm font-semibold text-white shadow-sm transition-all duration-150 hover:-translate-y-px hover:bg-[#152547] hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue motion-reduce:transform-none motion-reduce:transition-none"
               >
                 {tCta("primary")}
+                <span
+                  aria-hidden="true"
+                  className="transition-transform duration-150 group-hover:translate-x-0.5 motion-reduce:transition-none"
+                >
+                  →
+                </span>
               </Link>
               <Link
                 href="#platform"
-                className="inline-flex min-h-12 items-center justify-center rounded-lg border border-neutral-300 bg-white px-6 py-3 text-base font-semibold text-brand-navy transition-colors duration-150 hover:bg-neutral-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue motion-reduce:transition-none"
+                className="inline-flex h-12 items-center justify-center rounded-lg border border-neutral-200 bg-white px-6 text-sm font-semibold text-brand-navy shadow-sm transition-all duration-150 hover:-translate-y-px hover:bg-neutral-50 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue motion-reduce:transform-none motion-reduce:transition-none"
               >
                 {tCta("viewPlatform")}
               </Link>
             </div>
           </div>
 
-          {/* Right: 4-mockup ecosystem composition */}
-          <div className="relative pt-10 lg:pt-0">
+          {/* Right: 4-mockup ecosystem composition (7/12 cols on desktop) */}
+          <div className="lg:col-span-7">
             <EcosystemComposition />
           </div>
         </div>

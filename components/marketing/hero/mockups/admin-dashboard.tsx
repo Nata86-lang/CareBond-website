@@ -3,23 +3,34 @@
 import { useTranslations } from "next-intl";
 import { MacbookFrame } from "./macbook-frame";
 
-// Admin dashboard mockup inside a MacBook frame. Shows 4 KPI stats, an
-// activity bar chart, and a counter that animates from 71 → 72.
+// Admin dashboard mockup inside a MacBook frame. Shows 4 KPI stats in a
+// proportionate grid, an activity bar chart with rhythmic heights, and a
+// counter that ticks 71 → 72.
 //
-// Animation: when `step === 4`, the counter fades + bumps to the new
-// value (1.4s, see .eco-anim-counter).
-const BAR_HEIGHTS = [25, 40, 55, 70, 85, 95, 85, 70, 55, 40];
+// Animation: when `step === 4`, the counter fades + bumps to the new value.
+const BAR_HEIGHTS = [22, 38, 52, 68, 84, 96, 88, 72, 58, 42];
 
 export function AdminDashboard({ step }: { step: number }) {
   const t = useTranslations("hero.ecosystem.dashboard");
   const counterActive = step === 4;
   const counterValue = step >= 4 ? 72 : 71;
+
   return (
     <MacbookFrame>
-      <div className="space-y-3">
-        <p className="text-xs font-semibold text-brand-navy">{t("title")}</p>
+      <div className="space-y-4 px-1 py-1">
+        {/* Header bar */}
+        <div className="flex items-center justify-between border-b border-neutral-100 pb-3">
+          <p className="text-[13px] font-semibold tracking-tight text-brand-navy">
+            {t("title")}
+          </p>
+          <div className="flex items-center gap-1.5 text-[10px] text-neutral-400">
+            <span className="h-1.5 w-1.5 rounded-full bg-[#22C55E]" />
+            <span>Live</span>
+          </div>
+        </div>
+
         {/* 4 KPI stats */}
-        <div className="grid grid-cols-4 gap-1.5">
+        <div className="grid grid-cols-4 gap-2">
           {[
             { value: "47", label: t("residents") },
             { value: "12", label: t("professionals") },
@@ -28,43 +39,42 @@ export function AdminDashboard({ step }: { step: number }) {
           ].map((stat) => (
             <div
               key={stat.label}
-              className="rounded-md border border-neutral-200 bg-neutral-50 px-1.5 py-1.5 text-center"
+              className="rounded-lg border border-neutral-100 bg-neutral-50/50 px-2 py-2.5"
             >
-              <p className="text-base font-bold leading-tight text-brand-navy">
+              <p className="text-lg font-bold leading-tight tracking-tight text-brand-navy">
                 {stat.value}
               </p>
-              <p className="text-[8px] font-medium leading-tight text-neutral-500">
+              <p className="mt-0.5 truncate text-[9px] font-medium uppercase tracking-wider text-neutral-500">
                 {stat.label}
               </p>
             </div>
           ))}
         </div>
-        {/* Activity bar chart */}
-        <div>
-          <p className="mb-1.5 text-[10px] font-medium text-neutral-600">
-            {t("activityTitle")}
-          </p>
-          <div className="flex h-10 items-end gap-0.5">
+
+        {/* Activity chart */}
+        <div className="rounded-lg border border-neutral-100 bg-white p-3">
+          <div className="mb-2 flex items-center justify-between">
+            <p className="text-[10px] font-medium uppercase tracking-wider text-neutral-500">
+              {t("activityTitle")}
+            </p>
+            <span
+              key={counterActive ? `counter-active-${step}` : `counter-${counterValue}`}
+              className={`text-xs font-bold tabular-nums text-brand-navy ${
+                counterActive ? "eco-anim-counter" : ""
+              }`}
+            >
+              {counterValue}
+            </span>
+          </div>
+          <div className="flex h-12 items-end gap-1">
             {BAR_HEIGHTS.map((h, i) => (
               <div
                 key={i}
-                className="flex-1 rounded-sm bg-brand-blue-strong/80"
+                className="flex-1 rounded-sm bg-brand-blue-strong/85"
                 style={{ height: `${h}%` }}
               />
             ))}
           </div>
-        </div>
-        {/* Counter (animated on step 4) */}
-        <div className="flex items-center gap-1.5">
-          <span className="h-1.5 w-1.5 rounded-full bg-brand-blue-strong" />
-          <span
-            key={counterActive ? `counter-active-${step}` : `counter-${counterValue}`}
-            className={`text-xs font-semibold tabular-nums text-brand-navy ${
-              counterActive ? "eco-anim-counter" : ""
-            }`}
-          >
-            {counterValue}
-          </span>
         </div>
       </div>
     </MacbookFrame>
