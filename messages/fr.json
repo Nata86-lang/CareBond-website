@@ -501,11 +501,61 @@
       "title": "Contact — CareBond",
       "description": "Demandez une démonstration de CareBond ou contactez notre équipe."
     },
-    "stub": {
-      "title": "Contact",
-      "subtitle": "Page en construction. Le formulaire complet de demande de démonstration arrive prochainement.",
-      "emailLead": "En attendant, écrivez-nous à",
-      "backToHome": "Retour à l'accueil"
+    "page": {
+      "eyebrow": "Demandez une démo",
+      "title": "Voyons CareBond avec vos cas d'usage.",
+      "subtitle": "30 minutes en visio. Nous vous montrons la plateforme avec vos contraintes réelles — type d'institution, taille, modules qui vous intéressent. Pas de démo générique."
+    },
+    "sidebar": {
+      "title": "Contact direct",
+      "description": "Vous préférez écrire ou venir nous voir ? Tous les chemins mènent à la même équipe.",
+      "emailLabel": "Email",
+      "locationLabel": "Bureau",
+      "locationValue": "Genève, Suisse",
+      "responseLabel": "Délai de réponse",
+      "responseValue": "Sous 24 heures ouvrées"
+    }
+  },
+  "contactForm": {
+    "fields": {
+      "name": {
+        "label": "Nom complet",
+        "placeholder": "Marie Dupont"
+      },
+      "email": {
+        "label": "Email professionnel",
+        "placeholder": "marie@institution.ch"
+      },
+      "institution": {
+        "label": "Institution",
+        "placeholder": "EMS Les Tilleuls, Hôpital de la Tour..."
+      },
+      "audience": {
+        "label": "Type d'établissement",
+        "placeholder": "Sélectionnez…",
+        "options": {
+          "ems": "EMS / Établissement médico-social",
+          "spitex": "Spitex / Soins à domicile",
+          "hospitals": "Hôpital",
+          "clinics": "Clinique privée",
+          "other": "Autre"
+        }
+      },
+      "message": {
+        "label": "Votre demande",
+        "placeholder": "Quelques mots sur votre contexte, les modules qui vous intéressent, le nombre de lits ou utilisateurs concernés…"
+      }
+    },
+    "submit": "Envoyer la demande",
+    "submitting": "Envoi…",
+    "privacy": "Vos données sont traitées conformément à la nLPD. Aucun partage avec des tiers.",
+    "success": {
+      "title": "Demande reçue, merci.",
+      "message": "Nous revenons vers vous sous 24 heures ouvrées avec un créneau pour la démo.",
+      "again": "Envoyer une autre demande"
+    },
+    "error": {
+      "send_failed": "Une erreur est survenue lors de l'envoi. Veuillez réessayer ou nous écrire directement à contact@carebond.ch."
     }
   }
 }

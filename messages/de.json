@@ -501,11 +501,61 @@
       "title": "Kontakt — CareBond",
       "description": "Fordern Sie eine CareBond-Demo an oder kontaktieren Sie unser Team."
     },
-    "stub": {
-      "title": "Kontakt",
-      "subtitle": "Seite im Aufbau. Das vollständige Demo-Anfrageformular folgt in Kürze.",
-      "emailLead": "Schreiben Sie uns in der Zwischenzeit an",
-      "backToHome": "Zurück zur Startseite"
+    "page": {
+      "eyebrow": "Demo anfordern",
+      "title": "Sehen wir uns CareBond mit Ihren Anwendungsfällen an.",
+      "subtitle": "30 Minuten per Videoanruf. Wir zeigen Ihnen die Plattform mit Ihren realen Bedingungen — Art der Einrichtung, Grösse, interessante Module. Keine generische Demo."
+    },
+    "sidebar": {
+      "title": "Direktkontakt",
+      "description": "Lieber schreiben oder vorbeikommen? Alle Wege führen zum gleichen Team.",
+      "emailLabel": "E-Mail",
+      "locationLabel": "Büro",
+      "locationValue": "Genf, Schweiz",
+      "responseLabel": "Antwortzeit",
+      "responseValue": "Innerhalb von 24 Werkstunden"
+    }
+  },
+  "contactForm": {
+    "fields": {
+      "name": {
+        "label": "Vollständiger Name",
+        "placeholder": "Maria Müller"
+      },
+      "email": {
+        "label": "Geschäftliche E-Mail",
+        "placeholder": "maria@einrichtung.ch"
+      },
+      "institution": {
+        "label": "Einrichtung",
+        "placeholder": "Pflegeheim Sonnenblick, Spital Zürich..."
+      },
+      "audience": {
+        "label": "Art der Einrichtung",
+        "placeholder": "Auswählen…",
+        "options": {
+          "ems": "Pflegeheim",
+          "spitex": "Spitex / Häusliche Pflege",
+          "hospitals": "Spital",
+          "clinics": "Privatklinik",
+          "other": "Andere"
+        }
+      },
+      "message": {
+        "label": "Ihre Anfrage",
+        "placeholder": "Ein paar Worte zu Ihrem Kontext, den Modulen, die Sie interessieren, der Anzahl Betten oder Benutzer…"
+      }
+    },
+    "submit": "Anfrage senden",
+    "submitting": "Wird gesendet…",
+    "privacy": "Ihre Daten werden gemäss DSG verarbeitet. Keine Weitergabe an Dritte.",
+    "success": {
+      "title": "Anfrage erhalten, danke.",
+      "message": "Wir melden uns innerhalb von 24 Werkstunden mit einem Demo-Termin.",
+      "again": "Eine weitere Anfrage senden"
+    },
+    "error": {
+      "send_failed": "Beim Senden ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt an contact@carebond.ch."
     }
   }
 }

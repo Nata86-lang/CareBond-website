@@ -501,11 +501,61 @@
       "title": "Contatto — CareBond",
       "description": "Richiedete una demo di CareBond o contattate il nostro team."
     },
-    "stub": {
-      "title": "Contatto",
-      "subtitle": "Pagina in costruzione. Il modulo completo di richiesta demo sarà presto disponibile.",
-      "emailLead": "Nel frattempo scriveteci a",
-      "backToHome": "Torna alla home"
+    "page": {
+      "eyebrow": "Richiedi una demo",
+      "title": "Vediamo CareBond con i vostri casi d'uso.",
+      "subtitle": "30 minuti in videochiamata. Vi mostriamo la piattaforma con i vostri vincoli reali — tipo di struttura, dimensione, moduli di interesse. Niente demo generica."
+    },
+    "sidebar": {
+      "title": "Contatto diretto",
+      "description": "Preferite scrivere o venire a trovarci? Tutte le strade portano allo stesso team.",
+      "emailLabel": "Email",
+      "locationLabel": "Ufficio",
+      "locationValue": "Ginevra, Svizzera",
+      "responseLabel": "Tempo di risposta",
+      "responseValue": "Entro 24 ore lavorative"
+    }
+  },
+  "contactForm": {
+    "fields": {
+      "name": {
+        "label": "Nome completo",
+        "placeholder": "Maria Rossi"
+      },
+      "email": {
+        "label": "Email professionale",
+        "placeholder": "maria@struttura.ch"
+      },
+      "institution": {
+        "label": "Struttura",
+        "placeholder": "Casa di cura I Tigli, Ospedale di Lugano..."
+      },
+      "audience": {
+        "label": "Tipo di struttura",
+        "placeholder": "Selezionate…",
+        "options": {
+          "ems": "Casa di cura",
+          "spitex": "Spitex / Cure a domicilio",
+          "hospitals": "Ospedale",
+          "clinics": "Clinica privata",
+          "other": "Altro"
+        }
+      },
+      "message": {
+        "label": "La vostra richiesta",
+        "placeholder": "Qualche parola sul vostro contesto, i moduli che vi interessano, il numero di letti o utenti coinvolti…"
+      }
+    },
+    "submit": "Invia la richiesta",
+    "submitting": "Invio in corso…",
+    "privacy": "I vostri dati sono trattati in conformità con la LPD. Nessuna condivisione con terzi.",
+    "success": {
+      "title": "Richiesta ricevuta, grazie.",
+      "message": "Vi ricontattiamo entro 24 ore lavorative con uno slot per la demo.",
+      "again": "Invia un'altra richiesta"
+    },
+    "error": {
+      "send_failed": "Si è verificato un errore durante l'invio. Riprovate o scriveteci direttamente a contact@carebond.ch."
     }
   }
 }

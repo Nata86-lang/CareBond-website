@@ -501,11 +501,61 @@
       "title": "Contact — CareBond",
       "description": "Request a CareBond demo or get in touch with our team."
     },
-    "stub": {
-      "title": "Contact",
-      "subtitle": "Page under construction. The full demo request form is coming soon.",
-      "emailLead": "In the meantime, email us at",
-      "backToHome": "Back to home"
+    "page": {
+      "eyebrow": "Request a demo",
+      "title": "See CareBond with your own use cases.",
+      "subtitle": "30 minutes on video. We walk through the platform with your real constraints — facility type, size, modules you care about. No generic demo."
+    },
+    "sidebar": {
+      "title": "Direct contact",
+      "description": "Prefer to write or stop by? Every path leads to the same team.",
+      "emailLabel": "Email",
+      "locationLabel": "Office",
+      "locationValue": "Geneva, Switzerland",
+      "responseLabel": "Response time",
+      "responseValue": "Within 24 business hours"
+    }
+  },
+  "contactForm": {
+    "fields": {
+      "name": {
+        "label": "Full name",
+        "placeholder": "Marie Dupont"
+      },
+      "email": {
+        "label": "Work email",
+        "placeholder": "marie@institution.ch"
+      },
+      "institution": {
+        "label": "Institution",
+        "placeholder": "Les Tilleuls nursing home, Geneva University Hospital..."
+      },
+      "audience": {
+        "label": "Facility type",
+        "placeholder": "Select…",
+        "options": {
+          "ems": "Nursing home",
+          "spitex": "Home care",
+          "hospitals": "Hospital",
+          "clinics": "Private clinic",
+          "other": "Other"
+        }
+      },
+      "message": {
+        "label": "Your request",
+        "placeholder": "A few words about your context, which modules interest you, how many beds or users are involved…"
+      }
+    },
+    "submit": "Send request",
+    "submitting": "Sending…",
+    "privacy": "Your data is processed in accordance with nLPD. No sharing with third parties.",
+    "success": {
+      "title": "Request received, thank you.",
+      "message": "We'll get back to you within 24 business hours with a demo slot.",
+      "again": "Send another request"
+    },
+    "error": {
+      "send_failed": "Something went wrong while sending. Please try again or email us directly at contact@carebond.ch."
     }
   }
 }

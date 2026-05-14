@@ -74,6 +74,40 @@ Claude with read access to the actual CareBond codebase), 2026-05-13.
 - **f1** now reads "Multi-services & RBAC granulaire · Cloisons
   étanches entre services. Permissions par rôle et département."
 
+## 🔧 OPERATIONAL — needs founder action to fully activate
+
+### Resend account + carebond.ch domain verification
+- The contact form (`/[locale]/contact`) submits via a Next.js Server
+  Action that calls Resend. In dev without `RESEND_API_KEY` the action
+  logs the submission to console and returns success (so the UI is
+  testable). In production an unset key returns an error to the user.
+- Setup steps:
+  1. Create a Resend account at https://resend.com (free tier covers
+     3 000 emails/month, far above expected traffic).
+  2. Generate an API key (Resend dashboard → API Keys → Create).
+  3. In Vercel project settings → Environment Variables, add:
+     - `RESEND_API_KEY=re_xxxxxxxxxx`
+     - `CONTACT_FORM_TO_EMAIL=contact@carebond.ch` (already defaults to
+       this, but explicit is safer)
+  4. **Domain verification** (required to send `from` carebond.ch):
+     Resend dashboard → Domains → Add `carebond.ch` → copy the DKIM
+     and SPF DNS records → add them to carebond.ch DNS at your
+     registrar → wait for verification (usually < 5 min). Once
+     verified, set `CONTACT_FORM_FROM_EMAIL=contact@carebond.ch` in
+     Vercel. Until then the form sends from the Resend default
+     `onboarding@resend.dev` (works for testing but goes to spam).
+  5. Redeploy or trigger a new deploy so env vars take effect.
+
+### Cloudflare Turnstile (deferred)
+- `.env.example` declares slots for Turnstile keys but the form ships
+  WITHOUT Turnstile in this commit. We use only a honeypot field
+  (`company_website`) plus HTML5 + Zod server-side validation. This
+  catches the dumb majority of bots without adding a third-party
+  script to the page (which would also need a nLPD privacy line).
+- Add Turnstile only if real spam volume appears in
+  `contact@carebond.ch`. The hooks for it are pre-declared in the env
+  so wiring is a one-PR job.
+
 ## 🚧 ROADMAP — declared as "bientôt" / under development
 
 ### Ordonnances électroniques (e-Prescription)
