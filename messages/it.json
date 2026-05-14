@@ -126,18 +126,23 @@
         "chat-multilingue": {
           "eyebrow": "Comunicazione",
           "title": "Chat multilingue",
-          "description": "Traduzione in tempo reale ES ↔ FR ↔ DE ↔ IT. Ospitata in Svizzera, senza plug-in di terzi."
+          "description": "Ogni messaggio ricevuto nella lingua scelta. La barriera linguistica tra pazienti, famiglie e operatori scompare."
         },
         "rounds": {
           "eyebrow": "Cura",
           "title": "Giro digitale",
-          "description": "Elenco pazienti, parametri vitali, allarmi prioritari — tutto nella tasca dell'operatore. Ricette elettroniche in arrivo."
+          "description": "Elenco pazienti, parametri vitali, allarmi prioritari, ricette elettroniche — tutto nella tasca dell'operatore."
+        },
+        "floor-plans": {
+          "eyebrow": "Navigazione",
+          "title": "Piante 3D & GPS d'interno",
+          "description": "Modelliamo il vostro edificio in isometrico. Il GPS integrato guida visitatori, famiglie e operatori fino alla stanza cercata, senza segnaletica."
         }
       }
     },
     "stubShared": {
-      "comingSoon": "Questa pagina dettagliata arriva a breve.",
-      "emailLead": "Nel frattempo, scriveteci a",
+      "intro": "Una demo personalizzata vi mostra questa funzionalità in diretta, con i vostri casi d'uso.",
+      "emailLead": "Per una demo, scriveteci a",
       "backToHome": "Torna alla home"
     }
   },
@@ -233,7 +238,7 @@
           },
           "f2": {
             "title": "Multilingue automatico",
-            "description": "Chat ES ↔ FR ↔ DE ↔ IT tradotto in tempo reale. Senza plug-in di terzi."
+            "description": "Ogni messaggio ricevuto nella lingua scelta. La barriera linguistica per i vostri pazienti e famiglie internazionali scompare."
           }
         },
         "tile": {
@@ -303,10 +308,47 @@
     "subtitle": "30 minuti. Vi mostriamo CareBond con i vostri casi d'uso reali — non una demo generica uguale a un'altra.",
     "secondary": "Scriveteci direttamente"
   },
+  "floorPlans": {
+    "eyebrow": "Piante 3D & navigazione interna",
+    "title": "Residenti, visitatori e operatori non si perdono più.",
+    "subtitle": "CareBond produce la pianta 3D isometrica della vostra casa di cura, ospedale o clinica e la integra nell'app con un GPS d'interno che guida ognuno verso la stanza che cerca. La segnaletica non è più un problema.",
+    "learnMore": "Scopri di più sulle piante 3D",
+    "bullets": {
+      "b0": {
+        "title": "Pianta 3D su misura",
+        "description": "Modelliamo il vostro edificio in isometrico: piani, reparti, camere, accoglienze. Una volta costruita, la pianta vive nell'app di ogni attore."
+      },
+      "b1": {
+        "title": "Ottimizzazione dei flussi",
+        "description": "La pianta 3D diventa uno strumento di gestione per la direzione: individuare colli di bottiglia, ottimizzare la circolazione, ripensare la disposizione con dati reali."
+      },
+      "b2": {
+        "title": "GPS d'interno integrato",
+        "description": "Visitatori, famiglie e medici sono guidati in tempo reale dall'accoglienza fino alla camera 217 — senza chiedere indicazioni, senza perdersi nei corridoi."
+      }
+    },
+    "hospital": {
+      "eyebrow": "Anteprima · Pianta ospedaliera",
+      "title": "Navigazione in tempo reale",
+      "liveLabel": "Live",
+      "youAreHere": "Voi",
+      "pathLabel": "Percorso attivo",
+      "distance": "92 m",
+      "eta": "1 min",
+      "rooms": {
+        "reception": "Accoglienza",
+        "emergency": "Pronto soccorso",
+        "medicine": "Medicina",
+        "imaging": "Radiologia",
+        "geriatrics": "Geriatria",
+        "pharmacy": "Farmacia"
+      }
+    }
+  },
   "chatMultilingue": {
     "eyebrow": "Chat multilingue",
     "title": "Una famiglia parla spagnolo. L'operatore parla francese. CareBond traduce.",
-    "subtitle": "ES ↔ FR ↔ DE ↔ IT in tempo reale. Ospitato in Svizzera, senza plug-in di terzi. Ogni messaggio conservato in entrambe le lingue.",
+    "subtitle": "In Svizzera come altrove, molti pazienti e famiglie non parlano la lingua delle cure. CareBond traduce ogni messaggio nella lingua di ciascun interlocutore, in tempo reale. La barriera scompare, la comunicazione resta.",
     "learnMore": "Scopri di più sul chat multilingue",
     "bullets": {
       "b0": {
@@ -346,7 +388,7 @@
           "b1": "Parametri vitali registrati offline se necessario, sincronizzati automaticamente",
           "b2": "Allarmi prioritizzati per gravità, mai persi",
           "b3": "Foto e nota di visita opzionali, con timestamp",
-          "b4": "Ricette elettroniche con firma digitale del prescrittore autorizzato — presto, in conformità con le buone pratiche eHealth svizzere"
+          "b4": "Ricette elettroniche con firma digitale del prescrittore autorizzato, in conformità con le buone pratiche eHealth svizzere"
         }
       },
       "audit": {

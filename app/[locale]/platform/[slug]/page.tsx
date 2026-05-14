@@ -20,6 +20,7 @@ const VALID_SLUGS = [
   "livestream",
   "chat-multilingue",
   "rounds",
+  "floor-plans",
 ] as const;
 type Slug = (typeof VALID_SLUGS)[number];
 
@@ -95,7 +96,9 @@ export default async function PlatformStubPage({
       <p className="max-w-xl text-balance text-base leading-relaxed text-neutral-600 sm:text-lg">
         {tPillars(`${slug}.description`)}
       </p>
-      <p className="text-sm text-neutral-500">{tStub("comingSoon")}</p>
+      <p className="max-w-xl text-balance text-base leading-relaxed text-neutral-500">
+        {tStub("intro")}
+      </p>
       <p className="text-base text-neutral-700">
         {tStub("emailLead")}{" "}
         <a

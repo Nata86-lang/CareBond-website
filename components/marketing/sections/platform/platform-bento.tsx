@@ -6,6 +6,7 @@ import {
   ClipboardCheck,
   LayoutGrid,
   Languages,
+  MapPin,
   ShieldCheck,
   Video,
 } from "lucide-react";
@@ -20,15 +21,25 @@ import {
 // its visual weight without committing to a full screen mock.
 
 type Pillar = {
-  slug: "oversight" | "audit" | "livestream" | "chat-multilingue" | "rounds";
+  slug:
+    | "oversight"
+    | "audit"
+    | "livestream"
+    | "chat-multilingue"
+    | "rounds"
+    | "floor-plans";
   Icon: LucideIcon;
   size: "big" | "wide";
 };
 
+// 6-pillar bento. Layout in 6-col × 4-row: oversight is the big
+// anchor top-left (3×2), floor-plans is the big anchor mid-right
+// (3×2), the other four flow as wide cards filling rows 3-4.
 const PILLARS: Pillar[] = [
   { slug: "oversight", Icon: LayoutGrid, size: "big" },
   { slug: "audit", Icon: ShieldCheck, size: "wide" },
   { slug: "livestream", Icon: Video, size: "wide" },
+  { slug: "floor-plans", Icon: MapPin, size: "big" },
   { slug: "chat-multilingue", Icon: Languages, size: "wide" },
   { slug: "rounds", Icon: ClipboardCheck, size: "wide" },
 ];
@@ -56,7 +67,7 @@ export async function PlatformBento({ locale }: { locale: string }) {
         </div>
 
         {/* Bento grid */}
-        <div className="mt-14 grid grid-cols-1 gap-4 sm:mt-16 md:grid-cols-2 lg:mt-20 lg:grid-cols-6 lg:grid-rows-3">
+        <div className="mt-14 grid grid-cols-1 gap-4 sm:mt-16 md:grid-cols-2 lg:mt-20 lg:grid-cols-6 lg:grid-rows-4">
           {PILLARS.map(({ slug, Icon, size }) => (
             <Link
               key={slug}
@@ -80,8 +91,8 @@ export async function PlatformBento({ locale }: { locale: string }) {
                 {t(`pillars.${slug}.description`)}
               </p>
 
-              {/* Big card gets an inline 4-KPI mini-mockup */}
-              {size === "big" && (
+              {/* Oversight big card gets an inline 4-KPI mini-mockup */}
+              {slug === "oversight" && (
                 <div
                   aria-hidden="true"
                   className="mt-8 grid grid-cols-2 gap-2.5"
@@ -121,6 +132,47 @@ export async function PlatformBento({ locale }: { locale: string }) {
                     </div>
                   ))}
                 </div>
+              )}
+
+              {/* Floor-plans big card gets a mini isometric thumbnail */}
+              {slug === "floor-plans" && (
+                <svg
+                  aria-hidden="true"
+                  viewBox="0 0 320 160"
+                  className="mt-8 w-full"
+                >
+                  <polygon
+                    points="40,30 280,30 270,130 30,130"
+                    fill="#FAFBFC"
+                    stroke="#E7E8EB"
+                    strokeWidth="1.5"
+                  />
+                  <line
+                    x1="40"
+                    y1="80"
+                    x2="275"
+                    y2="80"
+                    stroke="#E7E8EB"
+                    strokeWidth="1"
+                    strokeDasharray="2 3"
+                  />
+                  <polygon points="50,40 130,40 122,75 42,75" fill="rgb(63 142 243 / 0.14)" stroke="rgb(37 99 235 / 0.5)" strokeWidth="1.2" />
+                  <polygon points="130,40 210,40 202,75 122,75" fill="rgb(10 27 57 / 0.05)" stroke="rgb(10 27 57 / 0.2)" strokeWidth="1.2" />
+                  <polygon points="210,40 270,40 262,75 202,75" fill="rgb(10 27 57 / 0.05)" stroke="rgb(10 27 57 / 0.2)" strokeWidth="1.2" />
+                  <polygon points="42,75 122,75 114,120 34,120" fill="rgb(220 38 38 / 0.10)" stroke="rgb(220 38 38 / 0.45)" strokeWidth="1.2" />
+                  <polygon points="122,75 202,75 194,120 114,120" fill="rgb(63 142 243 / 0.14)" stroke="rgb(37 99 235 / 0.5)" strokeWidth="1.2" />
+                  <polygon points="202,75 262,75 254,120 194,120" fill="rgb(10 27 57 / 0.05)" stroke="rgb(10 27 57 / 0.2)" strokeWidth="1.2" />
+                  <path
+                    d="M 86 56 L 86 95 L 158 95 L 158 100"
+                    stroke="#2563EB"
+                    strokeWidth="2"
+                    strokeDasharray="4 3"
+                    strokeLinecap="round"
+                    fill="none"
+                  />
+                  <circle cx="86" cy="56" r="5" fill="#2563EB" />
+                  <circle cx="158" cy="100" r="5" fill="#DC2626" />
+                </svg>
               )}
 
               <p className="mt-auto flex items-center gap-1.5 pt-7 text-sm font-semibold text-brand-blue-strong">

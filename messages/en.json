@@ -126,18 +126,23 @@
         "chat-multilingue": {
           "eyebrow": "Communication",
           "title": "Multilingual chat",
-          "description": "Real-time translation ES ↔ FR ↔ DE ↔ IT. Swiss-hosted, no third-party plug-in."
+          "description": "Each message received in the chosen language. The language barrier between patients, families and caregivers disappears."
         },
         "rounds": {
           "eyebrow": "Care",
           "title": "Digital rounds",
-          "description": "Patient list, vital signs, prioritized alerts — all in the caregiver's pocket. Electronic prescriptions coming soon."
+          "description": "Patient list, vital signs, prioritized alerts, electronic prescriptions — all in the caregiver's pocket."
+        },
+        "floor-plans": {
+          "eyebrow": "Wayfinding",
+          "title": "3D plans & indoor GPS",
+          "description": "We model your building in isometric. The built-in GPS guides visitors, families and clinicians to the room they need — no signage required."
         }
       }
     },
     "stubShared": {
-      "comingSoon": "This detailed page is coming soon.",
-      "emailLead": "In the meantime, write to us at",
+      "intro": "A personalized demo shows you this capability live, with your own use cases.",
+      "emailLead": "For a demo, write to us at",
       "backToHome": "Back to home"
     }
   },
@@ -233,7 +238,7 @@
           },
           "f2": {
             "title": "Automatic multilingual chat",
-            "description": "Chat ES ↔ FR ↔ DE ↔ IT translated in real time. No third-party plug-in."
+            "description": "Each message received in the chosen language. The language barrier disappears for your international patients and families."
           }
         },
         "tile": {
@@ -303,10 +308,47 @@
     "subtitle": "30 minutes. We show you CareBond with your real use cases — not a generic demo that looks like every other.",
     "secondary": "Write to us directly"
   },
+  "floorPlans": {
+    "eyebrow": "3D plans & indoor wayfinding",
+    "title": "Residents, visitors and clinicians no longer get lost.",
+    "subtitle": "CareBond builds the isometric 3D plan of your nursing home, hospital or clinic, then ships it inside the app with an indoor GPS that guides every user to the room they're looking for. Signage stops being a problem.",
+    "learnMore": "Learn more about 3D plans",
+    "bullets": {
+      "b0": {
+        "title": "Custom 3D plan",
+        "description": "We model your building in isometric: floors, departments, rooms, receptions. Once built, the plan lives inside each user's app."
+      },
+      "b1": {
+        "title": "Flow optimization",
+        "description": "The 3D plan becomes a management tool: spot bottlenecks, optimize circulation, rethink the layout with real data."
+      },
+      "b2": {
+        "title": "Built-in indoor GPS",
+        "description": "Visitors, families and clinicians are guided in real time from reception to room 217 — without asking, without getting lost in corridors."
+      }
+    },
+    "hospital": {
+      "eyebrow": "Preview · Hospital plan",
+      "title": "Real-time navigation",
+      "liveLabel": "Live",
+      "youAreHere": "You",
+      "pathLabel": "Active route",
+      "distance": "92 m",
+      "eta": "1 min",
+      "rooms": {
+        "reception": "Reception",
+        "emergency": "Emergency",
+        "medicine": "Medicine",
+        "imaging": "Imaging",
+        "geriatrics": "Geriatrics",
+        "pharmacy": "Pharmacy"
+      }
+    }
+  },
   "chatMultilingue": {
     "eyebrow": "Multilingual chat",
     "title": "A family speaks Spanish. The caregiver speaks French. CareBond translates.",
-    "subtitle": "ES ↔ FR ↔ DE ↔ IT in real time. Swiss-hosted, no third-party plug-in. Every message preserved in both languages.",
+    "subtitle": "In Switzerland as everywhere, many patients and families don't speak the language of care. CareBond translates every message into the chosen language of each participant, in real time. The barrier disappears, the communication stays.",
     "learnMore": "Learn more about multilingual chat",
     "bullets": {
       "b0": {
@@ -346,7 +388,7 @@
           "b1": "Vitals captured offline if needed, synced automatically",
           "b2": "Alerts prioritized by severity, never lost",
           "b3": "Optional photo and visit note, time-stamped",
-          "b4": "Electronic prescriptions with digital signature of the authorized prescriber — coming soon, aligned with Swiss eHealth practices"
+          "b4": "Electronic prescriptions with digital signature of the authorized prescriber, aligned with Swiss eHealth practices"
         }
       },
       "audit": {

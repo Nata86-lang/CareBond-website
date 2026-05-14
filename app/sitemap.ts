@@ -14,6 +14,7 @@ const ROUTES: { path: string; priority: number }[] = [
   { path: "/platform/livestream", priority: 0.7 },
   { path: "/platform/chat-multilingue", priority: 0.7 },
   { path: "/platform/rounds", priority: 0.7 },
+  { path: "/platform/floor-plans", priority: 0.7 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
