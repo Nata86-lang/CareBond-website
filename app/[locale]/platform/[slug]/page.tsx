@@ -146,7 +146,7 @@ export default async function PlatformPage({
             <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-brand-blue-strong">
               {tBento(`${slug}.eyebrow`)}
             </p>
-            <h1 className="mt-5 text-balance text-[2.5rem] font-semibold leading-[1.05] tracking-[-0.03em] text-brand-navy sm:text-[3.25rem] lg:text-[3.75rem]">
+            <h1 className="mt-5 text-balance text-[2rem] font-semibold leading-[1.1] tracking-[-0.025em] text-brand-navy sm:text-[2.75rem] sm:leading-[1.05] sm:tracking-[-0.03em] md:text-[3.25rem] lg:text-[3.75rem]">
               {tBento(`${slug}.title`)}
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-neutral-600 sm:text-[17px] lg:text-lg">
@@ -236,7 +236,7 @@ export default async function PlatformPage({
       {/* Final CTA */}
       <section className="border-t border-neutral-200 bg-neutral-50">
         <div className="mx-auto max-w-7xl px-6 py-20 sm:py-24 lg:px-8 lg:py-28">
-          <div className="mx-auto max-w-4xl overflow-hidden rounded-3xl border border-neutral-200 bg-white p-10 text-center shadow-mockup-lg sm:p-14 lg:p-20">
+          <div className="mx-auto max-w-4xl overflow-hidden rounded-3xl border border-neutral-200 bg-white p-6 text-center shadow-mockup-lg sm:p-12 lg:p-20">
             <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-brand-blue-strong">
               {tPage("cta.eyebrow")}
             </p>

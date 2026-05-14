@@ -36,7 +36,7 @@ export async function SoignerSansSilos() {
         {/* Comparison panels */}
         <div className="mt-16 grid grid-cols-1 gap-5 lg:mt-20 lg:grid-cols-2 lg:gap-6">
           {/* Sans CareBond — fragmented */}
-          <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-8 backdrop-blur-sm sm:p-10">
+          <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-6 backdrop-blur-sm sm:p-8 lg:p-10">
             <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-red-300">
               {t("avant.label")}
             </p>
@@ -65,7 +65,7 @@ export async function SoignerSansSilos() {
           </div>
 
           {/* Avec CareBond — unified */}
-          <div className="rounded-3xl border border-emerald-400/25 bg-emerald-400/[0.06] p-8 backdrop-blur-sm sm:p-10">
+          <div className="rounded-3xl border border-emerald-400/25 bg-emerald-400/[0.06] p-6 backdrop-blur-sm sm:p-8 lg:p-10">
             <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-emerald-300">
               {t("apres.label")}
             </p>

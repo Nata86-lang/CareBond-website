@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { AdminDashboard } from "./hero/mockups/admin-dashboard";
+import { DashboardTile } from "./sections/how-it-works/dashboard-tile";
 
 // Hero — Phase 1B v4. Linear-inspired editorial composition.
 //
@@ -33,7 +34,7 @@ export async function Hero({ locale }: { locale: string }) {
         </p>
 
         {/* H1 — giant, left-aligned, naturally wraps to 2 lines */}
-        <h1 className="mt-6 max-w-[18ch] text-balance text-[2.75rem] font-semibold leading-[0.98] tracking-[-0.035em] text-brand-navy sm:text-[3.5rem] lg:text-[4.5rem] xl:max-w-[20ch] xl:text-[5.5rem]">
+        <h1 className="mt-6 max-w-[18ch] text-balance text-[2rem] font-semibold leading-[1.05] tracking-[-0.03em] text-brand-navy sm:text-[2.75rem] sm:leading-[1] sm:tracking-[-0.035em] md:text-[3.5rem] lg:text-[4.5rem] lg:leading-[0.98] xl:max-w-[20ch] xl:text-[5.5rem]">
           {t("title")}
         </h1>
 
@@ -86,9 +87,16 @@ export async function Hero({ locale }: { locale: string }) {
         </div>
       </div>
 
-      {/* Dashboard mockup — wide, centered, depth shadow */}
+      {/* Dashboard mockup — wide, centered, depth shadow.
+          Mobile (< md): render the compact DashboardTile instead. The
+          full AdminDashboard is laptop-sized (sidebar + main with
+          dense grids) and squashes badly under 768px. The tile is the
+          same product UI scaled down for portrait viewports. */}
       <div className="relative mx-auto mt-16 max-w-6xl px-6 pb-24 sm:mt-20 lg:px-8 lg:pb-32">
-        <div aria-hidden="true">
+        <div aria-hidden="true" className="flex justify-center md:hidden">
+          <DashboardTile />
+        </div>
+        <div aria-hidden="true" className="hidden md:block">
           <AdminDashboard />
         </div>
       </div>

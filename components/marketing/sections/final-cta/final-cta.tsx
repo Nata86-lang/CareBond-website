@@ -19,7 +19,7 @@ export async function FinalCTA({ locale }: { locale: string }) {
       className="border-t border-neutral-200 bg-neutral-50"
     >
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-28 lg:px-8 lg:py-32">
-        <div className="mx-auto max-w-4xl overflow-hidden rounded-3xl border border-neutral-200 bg-white p-10 text-center shadow-mockup-lg sm:p-14 lg:p-20">
+        <div className="mx-auto max-w-4xl overflow-hidden rounded-3xl border border-neutral-200 bg-white p-6 text-center shadow-mockup-lg sm:p-12 lg:p-20">
           <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-brand-blue-strong">
             {t("eyebrow")}
           </p>

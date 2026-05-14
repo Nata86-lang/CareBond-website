@@ -455,8 +455,16 @@
    here with brand-appropriate values, not shadcn's oklch defaults. */
 
 @layer base {
+  html {
+    /* Prevent horizontal scroll caused by any rogue overflowing element
+       on narrow viewports. Belt-and-suspenders alongside per-section
+       fixes — keeps the page from looking broken if a future component
+       slips a wide element through review. */
+    overflow-x: hidden;
+  }
   body {
     @apply bg-background text-foreground antialiased;
     font-family: var(--font-sans);
+    overflow-x: hidden;
   }
 }

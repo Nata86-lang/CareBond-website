@@ -91,7 +91,7 @@ export function PourQuiClient({
           role="tabpanel"
           id={`${baseId}-panel-${active}`}
           aria-labelledby={`${baseId}-tab-${active}`}
-          className="dashboard-anim-counter mt-12 overflow-hidden rounded-3xl border border-neutral-200 bg-white p-8 shadow-mockup-lg sm:p-12 lg:p-14"
+          className="dashboard-anim-counter mt-12 overflow-hidden rounded-3xl border border-neutral-200 bg-white p-5 shadow-mockup-lg sm:p-10 lg:p-14"
         >
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center lg:gap-14">
             {/* Left: copy + features */}
