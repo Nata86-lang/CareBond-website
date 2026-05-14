@@ -557,5 +557,169 @@
     "error": {
       "send_failed": "Something went wrong while sending. Please try again or email us directly at contact@carebond.ch."
     }
+  },
+  "legal": {
+    "imprint": {
+      "eyebrow": "Legal notice",
+      "title": "Legal notice",
+      "metaDescription": "Legal information for the CareBond website: publisher, hosting, intellectual property.",
+      "lastUpdated": "Updated May 14, 2026",
+      "editor": {
+        "heading": "Publisher",
+        "body": "This website is published by CareBond SA, with its registered office in Geneva, Switzerland. For any question about the site content or the company, write to us at contact@carebond.ch."
+      },
+      "publication": {
+        "heading": "Editorial responsibility",
+        "body": "Publication is overseen by CareBond SA's executive management. Editorial responsibility for the site lies with the CareBond internal team."
+      },
+      "hosting": {
+        "heading": "Hosting",
+        "body": "The site is hosted by Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, United States (vercel.com). The primary hosting region is fra1 (Frankfurt, European Union), chosen to minimize the distance to Switzerland."
+      },
+      "ip": {
+        "heading": "Intellectual property",
+        "body": "All content on the site (text, images, logo, source code, CareBond brand) is the exclusive property of CareBond SA, unless explicitly stated otherwise. Any reproduction, representation, or distribution, in whole or in part, without prior written authorization is prohibited."
+      },
+      "contact": {
+        "heading": "Contact",
+        "body": "For any legal question or request related to this notice, write to us at"
+      }
+    },
+    "privacy": {
+      "eyebrow": "Privacy",
+      "title": "Privacy policy",
+      "metaDescription": "How CareBond collects, uses and protects your personal data under the nLPD.",
+      "lastUpdated": "Updated May 14, 2026",
+      "intro": "CareBond SA handles your personal data carefully, in compliance with the Swiss Federal Act on Data Protection (nLPD) and international best practices. This policy describes what we collect on this marketing site, why, and what rights you have.",
+      "sections": {
+        "controller": {
+          "heading": "1. Data controller",
+          "body": "The controller of personal data collected via carebond.ch is CareBond SA, based in Geneva, Switzerland. For any question about your data, write to us at contact@carebond.ch."
+        },
+        "data": {
+          "heading": "2. Data collected",
+          "body": "We collect only the data you voluntarily provide via the contact form: full name, professional email address, name of your institution, type of facility (nursing home, home care, hospital, clinic, other) and the content of your message. We do not collect advertising identifiers, nor browser fingerprints. The site contains no third-party tracking cookies."
+        },
+        "purposes": {
+          "heading": "3. Purposes",
+          "body": "Your data is used exclusively to respond to your demo or information request, schedule a conversation, and where appropriate prepare a personalized quote. We do not use it for automated marketing or profiling."
+        },
+        "legalBasis": {
+          "heading": "4. Legal basis",
+          "body": "Processing of your data is based on your explicit consent (voluntary form submission) and on our legitimate interest in responding to your business inquiry, in accordance with the nLPD."
+        },
+        "recipients": {
+          "heading": "5. Recipients and processors",
+          "body": "Your data is accessible only to CareBond SA's internal team. We use two technical processors: (a) Vercel Inc. for site hosting (fra1 region, Frankfurt, EU); (b) Resend Inc. for delivering contact form emails. No other third party receives your data."
+        },
+        "transfers": {
+          "heading": "6. International transfers",
+          "body": "Vercel Inc. and Resend Inc. are US-based companies. Data passes through their infrastructure as part of the technical operation of the site and form. These transfers are governed by Standard Contractual Clauses (SCCs) and each provider's compliance commitments. Vercel's primary hosting region for this site is in the European Union (Frankfurt)."
+        },
+        "retention": {
+          "heading": "7. Retention",
+          "body": "Messages received via the contact form are kept in our mailbox for as long as needed to process your request, then archived or deleted according to our internal document management practices. You may request deletion of your data at any time."
+        },
+        "rights": {
+          "heading": "8. Your rights",
+          "body": "Under the nLPD, you have rights of access, rectification, deletion, portability, objection, and restriction of processing of your data. To exercise these rights, write to us at contact@carebond.ch describing the nature of your request. You may also lodge a complaint with the Federal Data Protection and Information Commissioner (FDPIC)."
+        },
+        "security": {
+          "heading": "9. Security",
+          "body": "The site uses TLS 1.3 to encrypt exchanges between your browser and our servers. Form data travels end-to-end encrypted between your device, the Vercel infrastructure, and the final inbox."
+        },
+        "cookies": {
+          "heading": "10. Cookies and trackers",
+          "body": "This site currently uses no audience measurement or marketing cookies. Only strictly necessary cookies (for example, language preference) may be set. See our cookie policy for details."
+        },
+        "changes": {
+          "heading": "11. Changes",
+          "body": "This policy may be updated to reflect technical, legal, or organizational changes. The last-updated date is shown at the top of this page."
+        },
+        "contact": {
+          "heading": "12. Contact",
+          "body": "For any question about this policy or about how we process your data, write to us at"
+        }
+      }
+    },
+    "terms": {
+      "eyebrow": "Terms",
+      "title": "Terms of use",
+      "metaDescription": "Terms of use for the carebond.ch marketing website.",
+      "lastUpdated": "Updated May 14, 2026",
+      "intro": "These terms of use govern the use of the marketing site carebond.ch. Use of the CareBond SaaS platform is subject to a separate contract signed with your institution.",
+      "sections": {
+        "scope": {
+          "heading": "1. Scope",
+          "body": "These terms apply to anyone consulting carebond.ch. They govern navigation on the site, use of the contact form, and access to published information."
+        },
+        "acceptance": {
+          "heading": "2. Acceptance",
+          "body": "Access to and use of the site imply full acceptance of these terms. If you do not accept them, please do not use the site."
+        },
+        "use": {
+          "heading": "3. Use of the site",
+          "body": "You agree to use the site in compliance with applicable laws, not to attempt to access non-public areas, and not to send unlawful, defamatory, or abusive content via the contact form."
+        },
+        "liability": {
+          "heading": "4. Limitation of liability",
+          "body": "CareBond SA makes every effort to provide accurate and up-to-date information but cannot guarantee the absence of error or service interruption. Use of published information is at your sole responsibility."
+        },
+        "law": {
+          "heading": "5. Governing law",
+          "body": "These terms are governed by Swiss law. Any dispute will fall under the exclusive jurisdiction of the courts of the Canton of Geneva, subject to mandatory remedies."
+        }
+      }
+    },
+    "cookies": {
+      "eyebrow": "Cookies",
+      "title": "Cookie policy",
+      "metaDescription": "How carebond.ch uses cookies — currently no tracking cookies.",
+      "lastUpdated": "Updated May 14, 2026",
+      "intro": "This page describes how cookies are used on carebond.ch. We have deliberately chosen to minimize their use and to collect no behavioral analytics data.",
+      "sections": {
+        "status": {
+          "heading": "Current status",
+          "body": "The carebond.ch site currently uses no third-party cookies for analytics, marketing, or profiling. No data is shared with Google Analytics, Meta Pixel, LinkedIn Insight, or any equivalent service."
+        },
+        "necessary": {
+          "heading": "Strictly necessary cookies",
+          "body": "Only strictly necessary cookies for site operation may be set (for example, remembering your preferred language). These cookies do not require your prior consent under the nLPD because they are essential for delivering the service you requested."
+        },
+        "analytics": {
+          "heading": "Audience measurement",
+          "body": "If we deploy an audience measurement tool in the future, we will prefer a privacy-friendly solution (for example, Plausible), hosted in Europe, without persistent cookies and without sharing data with advertising third parties. This page will be updated accordingly."
+        },
+        "manage": {
+          "heading": "Managing cookies",
+          "body": "You can clear cookies at any time via your browser settings. Removing strictly necessary cookies may affect your experience (for example, loss of selected language)."
+        }
+      }
+    },
+    "credits": {
+      "eyebrow": "Credits",
+      "title": "Credits",
+      "metaDescription": "Sources and credits for the illustrations, fonts, and libraries used on carebond.ch.",
+      "lastUpdated": "Updated May 14, 2026",
+      "intro": "The carebond.ch site builds on open-source libraries and creative resources we want to acknowledge here.",
+      "sections": {
+        "illustrations": {
+          "heading": "Isometric 3D illustrations",
+          "body": "The 3D illustrations of the hospital and the residence in the \"3D plans & indoor wayfinding\" section and in the platform bento are architectural visualizations used as part of our product demonstration."
+        },
+        "icons": {
+          "heading": "Icons",
+          "body": "All icons come from the Lucide library (lucide.dev), distributed under ISC license. A big thank you to the project's contributors."
+        },
+        "typography": {
+          "heading": "Typography",
+          "body": "The site uses the Inter typeface, designed by Rasmus Andersson (rsms.me/inter), distributed under the SIL Open Font License."
+        },
+        "openSource": {
+          "heading": "Open-source software",
+          "body": "Built with Next.js (Vercel), React (Meta), Tailwind CSS, TypeScript, next-intl, react-hook-form, Zod, and many other open-source libraries. Thanks to the hundreds of contributors who make this work possible."
+        }
+      }
+    }
   }
 }

@@ -557,5 +557,169 @@
     "error": {
       "send_failed": "Si è verificato un errore durante l'invio. Riprovate o scriveteci direttamente a contact@carebond.ch."
     }
+  },
+  "legal": {
+    "imprint": {
+      "eyebrow": "Note legali",
+      "title": "Note legali",
+      "metaDescription": "Informazioni legali del sito CareBond: editore, hosting, proprietà intellettuale.",
+      "lastUpdated": "Aggiornato il 14 maggio 2026",
+      "editor": {
+        "heading": "Editore del sito",
+        "body": "Questo sito è edito da CareBond SA, con sede a Ginevra (Svizzera). Per qualsiasi domanda relativa al contenuto del sito o alla società, contattateci a contact@carebond.ch."
+      },
+      "publication": {
+        "heading": "Direttore della pubblicazione",
+        "body": "La direzione della pubblicazione è assicurata dalla direzione generale di CareBond SA. La responsabilità editoriale del sito è del team interno di CareBond."
+      },
+      "hosting": {
+        "heading": "Hosting",
+        "body": "Il sito è ospitato da Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, Stati Uniti (vercel.com). La regione di hosting principale è fra1 (Francoforte, Unione europea), scelta per minimizzare la distanza dalla Svizzera."
+      },
+      "ip": {
+        "heading": "Proprietà intellettuale",
+        "body": "L'insieme dei contenuti del sito (testi, immagini, logo, codice sorgente, marchio CareBond) sono di proprietà esclusiva di CareBond SA, salvo menzione contraria esplicita. Qualsiasi riproduzione, rappresentazione o diffusione, totale o parziale, senza autorizzazione scritta preventiva, è vietata."
+      },
+      "contact": {
+        "heading": "Contatto",
+        "body": "Per qualsiasi domanda legale o richiesta relativa a queste note, scriveteci a"
+      }
+    },
+    "privacy": {
+      "eyebrow": "Riservatezza",
+      "title": "Informativa sulla privacy",
+      "metaDescription": "Come CareBond raccoglie, utilizza e protegge i vostri dati personali secondo la LPD.",
+      "lastUpdated": "Aggiornato il 14 maggio 2026",
+      "intro": "CareBond SA tratta i vostri dati personali con rigore, in conformità con la Legge federale sulla protezione dei dati (LPD) e con le buone pratiche internazionali. Questa informativa descrive ciò che raccogliamo su questo sito di marketing, a quale scopo, e quali diritti avete.",
+      "sections": {
+        "controller": {
+          "heading": "1. Responsabile del trattamento",
+          "body": "Il responsabile del trattamento dei dati personali raccolti tramite carebond.ch è CareBond SA, a Ginevra (Svizzera). Per qualsiasi domanda relativa ai vostri dati, contattateci a contact@carebond.ch."
+        },
+        "data": {
+          "heading": "2. Dati raccolti",
+          "body": "Raccogliamo unicamente i dati che ci fornite volontariamente tramite il modulo di contatto: nome completo, indirizzo e-mail professionale, nome della vostra struttura, tipo di struttura (casa di cura, Spitex, ospedale, clinica, altro) e contenuto del vostro messaggio. Non raccogliamo identificativi pubblicitari né impronte del browser. Il sito non contiene cookie di tracciamento di terzi."
+        },
+        "purposes": {
+          "heading": "3. Finalità",
+          "body": "I vostri dati sono utilizzati esclusivamente per rispondere alla vostra richiesta di demo o di informazione, pianificare uno scambio e, se necessario, stabilire un preventivo personalizzato. Non li utilizziamo per marketing automatizzato né per profilazione."
+        },
+        "legalBasis": {
+          "heading": "4. Base giuridica",
+          "body": "Il trattamento dei vostri dati si basa sul vostro consenso esplicito (invio volontario del modulo) e sul nostro interesse legittimo a dare seguito alla vostra richiesta commerciale, in conformità con la LPD."
+        },
+        "recipients": {
+          "heading": "5. Destinatari e responsabili del trattamento",
+          "body": "I vostri dati sono accessibili solo al team interno di CareBond SA. Utilizziamo due responsabili tecnici del trattamento: (a) Vercel Inc. per l'hosting del sito (regione fra1, Francoforte, UE); (b) Resend Inc. per la trasmissione delle e-mail del modulo di contatto. Nessun altro terzo riceve i vostri dati."
+        },
+        "transfers": {
+          "heading": "6. Trasferimenti internazionali",
+          "body": "Vercel Inc. e Resend Inc. sono società statunitensi. I dati transitano per le loro infrastrutture nell'ambito del funzionamento tecnico del sito e del modulo. Questi trasferimenti sono regolati da clausole contrattuali tipo (CCT) e dagli impegni di conformità di ciascun fornitore. La regione di hosting principale di Vercel per questo sito è nell'Unione europea (Francoforte)."
+        },
+        "retention": {
+          "heading": "7. Durata di conservazione",
+          "body": "I messaggi ricevuti tramite il modulo di contatto sono conservati nella nostra casella di posta per il tempo necessario al trattamento della vostra richiesta, poi archiviati o eliminati conformemente alle nostre pratiche interne di gestione documentale. Potete in qualsiasi momento richiedere la cancellazione dei vostri dati."
+        },
+        "rights": {
+          "heading": "8. I vostri diritti",
+          "body": "In virtù della LPD, disponete dei diritti di accesso, rettifica, cancellazione, portabilità, opposizione e limitazione del trattamento dei vostri dati. Per esercitare questi diritti, scriveteci a contact@carebond.ch precisando la natura della vostra richiesta. Potete anche depositare un reclamo presso l'Incaricato federale della protezione dei dati e della trasparenza (IFPDT)."
+        },
+        "security": {
+          "heading": "9. Sicurezza",
+          "body": "Il sito utilizza TLS 1.3 per crittografare gli scambi tra il vostro browser e i nostri server. I dati del modulo transitano crittografati end-to-end tra il vostro dispositivo, l'infrastruttura Vercel e la casella di posta finale."
+        },
+        "cookies": {
+          "heading": "10. Cookie e tracciatori",
+          "body": "Questo sito non utilizza attualmente alcun cookie di misurazione del pubblico né di marketing. Possono essere depositati solo cookie strettamente necessari al funzionamento (ad esempio la selezione della lingua). Consultate la nostra politica sui cookie per maggiori dettagli."
+        },
+        "changes": {
+          "heading": "11. Modifiche",
+          "body": "Questa informativa può essere aggiornata per riflettere le evoluzioni tecniche, legali o organizzative. La data dell'ultimo aggiornamento è indicata in cima a questa pagina."
+        },
+        "contact": {
+          "heading": "12. Contatto",
+          "body": "Per qualsiasi domanda relativa a questa informativa o al trattamento dei vostri dati, contattateci a"
+        }
+      }
+    },
+    "terms": {
+      "eyebrow": "Condizioni",
+      "title": "Condizioni generali d'uso",
+      "metaDescription": "Condizioni d'uso del sito di marketing carebond.ch.",
+      "lastUpdated": "Aggiornato il 14 maggio 2026",
+      "intro": "Le presenti condizioni generali regolano l'uso del sito di marketing carebond.ch. L'uso della piattaforma SaaS CareBond è oggetto di un contratto separato firmato con la vostra struttura.",
+      "sections": {
+        "scope": {
+          "heading": "1. Oggetto",
+          "body": "Le presenti CGU si applicano a qualsiasi persona che consulta il sito carebond.ch. Regolano la navigazione sul sito, l'uso del modulo di contatto e l'accesso alle informazioni pubblicate."
+        },
+        "acceptance": {
+          "heading": "2. Accettazione",
+          "body": "L'accesso e l'uso del sito implicano l'accettazione piena e intera delle presenti CGU. Se non accettate queste condizioni, vi invitiamo a non utilizzare il sito."
+        },
+        "use": {
+          "heading": "3. Uso del sito",
+          "body": "Vi impegnate a utilizzare il sito nel rispetto delle leggi vigenti, a non tentare di accedere a zone non pubbliche e a non inviare contenuti illeciti, diffamatori o abusivi tramite il modulo di contatto."
+        },
+        "liability": {
+          "heading": "4. Limitazione di responsabilità",
+          "body": "CareBond SA mette in atto ogni sforzo per fornire informazioni esatte e aggiornate, ma non può garantire l'assenza di errori o di interruzioni del servizio. L'uso delle informazioni pubblicate avviene sotto la vostra esclusiva responsabilità."
+        },
+        "law": {
+          "heading": "5. Diritto applicabile",
+          "body": "Le presenti CGU sono regolate dal diritto svizzero. Qualsiasi controversia sarà sottoposta alla competenza esclusiva dei tribunali del cantone di Ginevra, salvo le vie di ricorso obbligatorie."
+        }
+      }
+    },
+    "cookies": {
+      "eyebrow": "Cookie",
+      "title": "Politica sui cookie",
+      "metaDescription": "Come carebond.ch utilizza i cookie — attualmente nessun cookie di tracciamento.",
+      "lastUpdated": "Aggiornato il 14 maggio 2026",
+      "intro": "Questa pagina descrive l'uso dei cookie su carebond.ch. Abbiamo deliberatamente scelto di minimizzarne l'uso e di non raccogliere alcun dato di analisi comportamentale.",
+      "sections": {
+        "status": {
+          "heading": "Stato attuale",
+          "body": "Il sito carebond.ch non utilizza attualmente alcun cookie di terzi per la misurazione del pubblico, marketing o profilazione. Nessun dato è condiviso con Google Analytics, Meta Pixel, LinkedIn Insight o un servizio equivalente."
+        },
+        "necessary": {
+          "heading": "Cookie strettamente necessari",
+          "body": "Possono essere depositati solo cookie strettamente necessari al funzionamento del sito (ad esempio, la memorizzazione della vostra lingua preferita). Questi cookie non richiedono il vostro consenso preventivo secondo la LPD perché sono indispensabili alla fornitura del servizio che avete richiesto."
+        },
+        "analytics": {
+          "heading": "Misurazione del pubblico",
+          "body": "Se in futuro implementassimo uno strumento di misurazione del pubblico, privilegeremo una soluzione rispettosa della privacy (ad esempio Plausible), ospitata in Europa, senza cookie persistenti né condivisione di dati con terzi pubblicitari. Questa pagina sarà aggiornata di conseguenza."
+        },
+        "manage": {
+          "heading": "Gestire i cookie",
+          "body": "Potete in qualsiasi momento cancellare i cookie depositati tramite le impostazioni del vostro browser. La cancellazione dei cookie strettamente necessari può influire sulla vostra esperienza (ad esempio, perdita della lingua selezionata)."
+        }
+      }
+    },
+    "credits": {
+      "eyebrow": "Crediti",
+      "title": "Crediti",
+      "metaDescription": "Fonti e crediti delle illustrazioni, dei caratteri e delle librerie utilizzate su carebond.ch.",
+      "lastUpdated": "Aggiornato il 14 maggio 2026",
+      "intro": "Il sito carebond.ch si appoggia su librerie open source e risorse creative che desideriamo ringraziare qui.",
+      "sections": {
+        "illustrations": {
+          "heading": "Illustrazioni isometriche 3D",
+          "body": "Le illustrazioni 3D che rappresentano l'ospedale e la casa di cura nella sezione « Piante 3D e navigazione interna » e nel bento della piattaforma sono visualizzazioni architettoniche utilizzate nel quadro della nostra dimostrazione di prodotto."
+        },
+        "icons": {
+          "heading": "Icone",
+          "body": "Tutte le icone provengono dalla libreria Lucide (lucide.dev), distribuita sotto licenza ISC. Un grande ringraziamento ai contributori del progetto."
+        },
+        "typography": {
+          "heading": "Tipografia",
+          "body": "Il sito utilizza il carattere Inter, progettato da Rasmus Andersson (rsms.me/inter), distribuito sotto licenza SIL Open Font."
+        },
+        "openSource": {
+          "heading": "Software open source",
+          "body": "Costruito con Next.js (Vercel), React (Meta), Tailwind CSS, TypeScript, next-intl, react-hook-form, Zod e diverse altre librerie open source. Grazie alle centinaia di contributori che rendono questo lavoro possibile."
+        }
+      }
+    }
   }
 }
