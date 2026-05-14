@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { AdminDashboard } from "./hero/mockups/admin-dashboard";
-import { DashboardTile } from "./sections/how-it-works/dashboard-tile";
 
 // Hero — Phase 1B v4. Linear-inspired editorial composition.
 //
@@ -88,16 +87,19 @@ export async function Hero({ locale }: { locale: string }) {
       </div>
 
       {/* Dashboard mockup — wide, centered, depth shadow.
-          Mobile (< md): render the compact DashboardTile instead. The
-          full AdminDashboard is laptop-sized (sidebar + main with
-          dense grids) and squashes badly under 768px. The tile is the
-          same product UI scaled down for portrait viewports. */}
-      <div className="relative mx-auto mt-16 max-w-6xl px-6 pb-24 sm:mt-20 lg:px-8 lg:pb-32">
-        <div aria-hidden="true" className="flex justify-center md:hidden">
-          <DashboardTile />
-        </div>
-        <div aria-hidden="true" className="hidden md:block">
-          <AdminDashboard />
+          On phones the dashboard's laptop-sized layout (sidebar 176px
+          + dense main grid) would squash unreadably under 768px, so
+          we wrap it in a horizontal-scroll container with a min-width
+          that preserves the desktop layout. The user can swipe right
+          to see the rest. md+ keeps the natural full-width render. */}
+      <div className="relative mx-auto mt-16 max-w-6xl pb-24 sm:mt-20 sm:px-6 lg:px-8 lg:pb-32">
+        <div
+          aria-hidden="true"
+          className="overflow-x-auto px-6 pb-2 [scrollbar-width:thin] md:overflow-x-visible md:px-0 md:pb-0"
+        >
+          <div className="min-w-[960px] md:min-w-0">
+            <AdminDashboard />
+          </div>
         </div>
       </div>
     </section>
