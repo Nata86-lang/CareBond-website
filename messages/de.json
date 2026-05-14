@@ -145,6 +145,206 @@
       "intro": "Eine personalisierte Demo zeigt Ihnen diese Funktion live, mit Ihren Anwendungsfällen.",
       "emailLead": "Für eine Demo schreiben Sie uns an",
       "backToHome": "Zurück zur Startseite"
+    },
+    "pages": {
+      "oversight": {
+        "subtitle": "Für die Leitung: das ganze Heim auf einen Blick sehen. Vergleichbare KPIs, priorisierte Alarme, Audit per Knopfdruck.",
+        "visualAlt": "Institutionelles Dashboard — KPIs für Patienten, Fachpersonen, Alarme, verbundene Geräte",
+        "capabilities": {
+          "eyebrow": "Fähigkeiten",
+          "heading": "Was Sie steuern",
+          "intro": "Das Steuerungsmodul verwandelt operative Realität in lesbare Daten — ohne Mikromanagement.",
+          "items": {
+            "f0": {
+              "title": "Echtzeit-KPIs",
+              "description": "Patienten, Pflege, Alarme, Geräte — Zahlen automatisch aktualisiert, vergleichbar zwischen Einrichtungen."
+            },
+            "f1": {
+              "title": "Priorisierte Alarme",
+              "description": "Kritische Alarme stehen oben, der Rest reiht sich ein. Kein Lärm, kein verpasstes Signal."
+            },
+            "f2": {
+              "title": "Mandantenfähig",
+              "description": "Mehrere Heime aus einer Konsole, mit strikter Datentrennung zwischen Standorten."
+            },
+            "f3": {
+              "title": "Granulares RBAC",
+              "description": "Leitung, Bereichsleiter, Pflege: jeder sieht nur, was er soll — nicht mehr."
+            }
+          }
+        },
+        "compliance": "Integriertes DSG-Audit-Log mit unveränderlicher Spur jedes Zugriffs und jeder Steuerungsaktion. Dokumentation bereit für kantonale Behörden.",
+        "cta": {
+          "eyebrow": "Nächster Schritt",
+          "title": "Sehen wir Ihr Dashboard live.",
+          "description": "30 Minuten, um die Steuerung auf Ihre reale Organisation abzustimmen und die für Sie wichtigen Indikatoren zu besprechen."
+        }
+      },
+      "audit": {
+        "subtitle": "Eine unveränderliche Spur jedes Zugriffs und jeder Änderung, nativ DSG-konform. Kein Vertragsanhang — es steckt in der Architektur.",
+        "visualAlt": "Vorschau des Audit-Moduls — vier Säulen: DSG-nativ, Schweizer Hosting, moderne Verschlüsselung, unveränderliches Audit-Log",
+        "capabilities": {
+          "eyebrow": "Fähigkeiten",
+          "heading": "Was protokolliert wird",
+          "intro": "Das Audit-Log wird im Kern der Plattform erzeugt, nicht von einem externen Tool. Jede kritische Aktion hinterlässt eine auswertbare Spur.",
+          "items": {
+            "f0": {
+              "title": "Zugriffe und Lesevorgänge",
+              "description": "Wer hat welche Akte eingesehen, wann, von welchem Gerät und welcher IP-Adresse."
+            },
+            "f1": {
+              "title": "Änderungen",
+              "description": "Hinzufügungen, Aktualisierungen, Löschungen — mit Vorher/Nachher-Inhalt für jedes geänderte Feld."
+            },
+            "f2": {
+              "title": "Signaturen und Berichte",
+              "description": "HMAC-signierte Besuchsberichte, konform mit den KVG/LAMal-Anforderungen für die Abrechnung."
+            },
+            "f3": {
+              "title": "Exporte und Aufbewahrung",
+              "description": "Strukturierter Export für interne Audits, konfigurierbare Aufbewahrungsrichtlinie pro Datentyp."
+            }
+          }
+        },
+        "compliance": "Ab Zeile eins DSG-konform. Spur bereit für den Eidgenössischen Datenschutzbeauftragten und kantonale Behörden.",
+        "cta": {
+          "eyebrow": "Nächster Schritt",
+          "title": "Sehen wir das Audit-Log mit einem realen Fall.",
+          "description": "30 Minuten, um die Nachvollziehbarkeit an einem Szenario zu zeigen, das Sie betrifft — Vorfall, Auskunftsersuchen, Compliance-Audit."
+        }
+      },
+      "livestream": {
+        "subtitle": "Die Kamera des Patienten oder Bewohners, von ihm selbst aktivierbar und deaktivierbar. Präsenz ohne Eingriff, Kontrolle stets beim Patienten.",
+        "visualAlt": "Vorschau der Familien-App — Livestream-Feed vom Patienten aktivierbar, mit täglichem Mini-Bericht",
+        "capabilities": {
+          "eyebrow": "Fähigkeiten",
+          "heading": "Was der Patient steuert",
+          "intro": "Livestream ist ein Vertrauenswerkzeug, keine Überwachung. Patient und Pflegeperson behalten stets die Kontrolle.",
+          "items": {
+            "f0": {
+              "title": "Einvernehmliche Aktivierung",
+              "description": "Der Patient — oder seine delegierte Pflegeperson — schaltet die Kamera jederzeit ein und aus, ohne technischen Mittler."
+            },
+            "f1": {
+              "title": "Vollständiges Zugriffsprotokoll",
+              "description": "Jede Familienverbindung protokolliert: wer hat geschaut, wann, wie lange. Der Patient kann dieses Protokoll einsehen."
+            },
+            "f2": {
+              "title": "Keine Standardaufzeichnung",
+              "description": "Der Feed wird in Echtzeit übertragen, nicht gespeichert. Keine Videodatei ohne ausdrückliche Einwilligung des Patienten."
+            },
+            "f3": {
+              "title": "Schweizer Hosting",
+              "description": "Der Stream verlässt nie das Schweizer Territorium. Keine ausländische Cloud, kein extraterritoriales Expositionsrisiko."
+            }
+          }
+        },
+        "compliance": "DSG-konform für den Schutz von Videodaten. Einwilligung jederzeit widerrufbar, Zugriffsprotokoll auf Anfrage exportierbar.",
+        "cta": {
+          "eyebrow": "Nächster Schritt",
+          "title": "Sehen wir Livestream in Ihrem Kontext.",
+          "description": "30 Minuten, um Spitex-, Pflegeheim- oder Klinikszenarien zu besprechen, in denen dieses Modul passt — und solche, in denen nicht."
+        }
+      },
+      "chat-multilingue": {
+        "subtitle": "In der Schweiz wie anderswo sprechen viele Patienten und Familien nicht die Sprache der Pflege. CareBond übersetzt in Echtzeit, unter der Kontrolle der Pflege.",
+        "visualAlt": "Live-Demo des mehrsprachigen Chats — ES↔FR-Übersetzung mit Pflegesteuerung und vollständigem Protokoll",
+        "capabilities": {
+          "eyebrow": "Fähigkeiten",
+          "heading": "Wie es funktioniert",
+          "intro": "Jeder Teilnehmer schreibt in seiner Sprache, und jeder liest in seiner eigenen. Die Pflegeperson behält die klinische Kontrolle über das Gespräch.",
+          "items": {
+            "f0": {
+              "title": "Echtzeit-Übersetzung",
+              "description": "Ohne spürbare Verzögerung. Der Empfänger sieht die Nachricht in seiner Sprache, bevor er sie überhaupt lesen will."
+            },
+            "f1": {
+              "title": "Steuerung durch die Pflege",
+              "description": "Die Pflegeperson aktiviert oder deaktiviert den Chat je nach klinischem Kontext. Kein Eingriff ausserhalb der Visite, keine Nachrichten in der Nacht."
+            },
+            "f2": {
+              "title": "Schweizer Hosting",
+              "description": "Die Übersetzung läuft auf Schweizer Infrastruktur, nicht bei ausländischen Hyperscalern. Kein Versand an Google oder OpenAI."
+            },
+            "f3": {
+              "title": "Bidirektional und nachvollziehbar",
+              "description": "Jede Nachricht in beiden Sprachen gespeichert. Das DSG-Audit-Log umfasst die vollständige Übersetzungsspur."
+            }
+          }
+        },
+        "compliance": "DSG-konform für die Patient-Pflege-Kommunikation. Keine Datenabflüsse zu Verbraucher-Übersetzungsdiensten.",
+        "cta": {
+          "eyebrow": "Nächster Schritt",
+          "title": "Sehen wir den mehrsprachigen Chat live.",
+          "description": "30 Minuten, um Ihren realen Fall von Sprachbarriere zu testen und die Einbindung in Ihre Pflegepfade zu besprechen."
+        }
+      },
+      "rounds": {
+        "subtitle": "Tagesvisite, Vitalwerte, Alarme, elektronische Rezepte — alles in der Tasche der Pflegeperson. Für Pflegeheime und häusliche Pflegedienste.",
+        "visualAlt": "Pflegepersonen-App — Liste der Tagespatienten mit Vitalwerten, Alarmen und Status",
+        "capabilities": {
+          "eyebrow": "Fähigkeiten",
+          "heading": "Was die Pflegeperson tut",
+          "intro": "Die gesamte Visite in der App gebündelt. Kein Papier mehr, kein Warten zwischen Übergaben.",
+          "items": {
+            "f0": {
+              "title": "Vorab organisierte Visite",
+              "description": "Die Tagesvisite ist beim Eintreffen bereit. Zimmer für Zimmer für Pflegeheime, Wohnort für Wohnort für Spitex."
+            },
+            "f1": {
+              "title": "Offline-Vitalwerte",
+              "description": "Bei Bedarf ohne Verbindung erfasst, automatisch bei Rückkehr synchronisiert. Keine Daten in Funklöchern verloren."
+            },
+            "f2": {
+              "title": "GPS für die häusliche Pflege",
+              "description": "Für Spitex: GPS-Geofencing, das die Anwesenheit am Wohnort des Patienten automatisch validiert (Feature 22-C)."
+            },
+            "f3": {
+              "title": "Elektronische Rezepte",
+              "description": "Sichere Ausstellung durch autorisierte Verschreiber, mit kryptografischer digitaler Signatur."
+            }
+          }
+        },
+        "compliance": "HMAC-signierte Berichte, konform mit den KVG/LAMal-Anforderungen. Natives DSG-Audit-Log bei jeder Pflegehandlung.",
+        "cta": {
+          "eyebrow": "Nächster Schritt",
+          "title": "Sehen wir eine digitale Visite in Ihrer Struktur.",
+          "description": "30 Minuten, um das Modul auf Ihre Pflegepfade abzustimmen — Pflegeheim, Spitex oder beides."
+        }
+      },
+      "floor-plans": {
+        "subtitle": "Isometrische 3D-Modellierung Ihres Gebäudes + Indoor-GPS, das Besucher, Familien und Pflegende führt. Beschilderung ist kein Problem mehr.",
+        "visualAlt": "Isometrischer 3D-Plan eines Spitals — OP-Säle, MRI-Suite, Ward, Labor, Hauptlobby, mit Indoor-GPS-Route",
+        "capabilities": {
+          "eyebrow": "Fähigkeiten",
+          "heading": "Was Sie erhalten",
+          "intro": "Wir modellieren Ihr Gebäude isometrisch und integrieren den Plan in die App mit Indoor-GPS in Echtzeit.",
+          "items": {
+            "f0": {
+              "title": "Massgeschneiderte Modellierung",
+              "description": "Stockwerke, Abteilungen, Zimmer, Empfänge, Zugänge — Ihr Gebäude, massstabsgetreu, in der App jedes Akteurs."
+            },
+            "f1": {
+              "title": "Indoor-GPS",
+              "description": "Routen in Echtzeit vom Empfang bis Zimmer 217 oder OP-Saal 3."
+            },
+            "f2": {
+              "title": "Flussoptimierung",
+              "description": "Echte Verkehrsdaten zur Neugestaltung des Layouts, Erkennung von Engpässen, flüssigere Wege."
+            },
+            "f3": {
+              "title": "Mehrere Gebäude",
+              "description": "Mehrpavillon-Pflegeheime, Mehrabteilungs-Spitäler, Klinik mit Annex: alles in einem navigierbaren Plan verbunden."
+            }
+          }
+        },
+        "compliance": "Keine Patientengeolokalisationsdaten standardmässig gespeichert. GPS-Spur flüchtig, gemäss DSG.",
+        "cta": {
+          "eyebrow": "Nächster Schritt",
+          "title": "Sehen wir Ihr modelliertes Gebäude.",
+          "description": "30 Minuten, um die Modellierung und GPS-Integration für Ihre Einrichtung zu besprechen."
+        }
+      }
     }
   },
   "pourQui": {

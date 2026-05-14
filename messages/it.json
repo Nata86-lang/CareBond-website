@@ -145,6 +145,206 @@
       "intro": "Una demo personalizzata vi mostra questa funzionalità in diretta, con i vostri casi d'uso.",
       "emailLead": "Per una demo, scriveteci a",
       "backToHome": "Torna alla home"
+    },
+    "pages": {
+      "oversight": {
+        "subtitle": "Per la direzione: vedere chiaro su tutta la struttura in un colpo d'occhio. KPI comparabili, allarmi prioritari, audit con un clic.",
+        "visualAlt": "Cruscotto istituzionale — KPI pazienti, operatori, allarmi, dispositivi connessi",
+        "capabilities": {
+          "eyebrow": "Capacità",
+          "heading": "Cosa gestite",
+          "intro": "Il modulo Gestione trasforma la realtà operativa in dati leggibili, senza micromanagement.",
+          "items": {
+            "f0": {
+              "title": "KPI in tempo reale",
+              "description": "Pazienti, operatori, allarmi, dispositivi — cifre aggiornate automaticamente, comparabili per struttura."
+            },
+            "f1": {
+              "title": "Allarmi prioritari",
+              "description": "Gli allarmi critici risalgono in cima, il resto in coda. Niente rumore, nessun segnale perso."
+            },
+            "f2": {
+              "title": "Multi-struttura",
+              "description": "Più case da una sola console, con separazione rigorosa dei dati tra sedi."
+            },
+            "f3": {
+              "title": "RBAC granulare",
+              "description": "Direzione, responsabili di servizio, operatori: ognuno vede solo ciò che deve — niente di più."
+            }
+          }
+        },
+        "compliance": "Audit log LPD integrato con traccia immutabile di ogni accesso e azione di gestione. Documentazione pronta per le autorità cantonali.",
+        "cta": {
+          "eyebrow": "Prossima tappa",
+          "title": "Vediamo il vostro cruscotto in diretta.",
+          "description": "30 minuti per calibrare la gestione sulla vostra organizzazione reale e discutere gli indicatori che contano per voi."
+        }
+      },
+      "audit": {
+        "subtitle": "Una traccia immutabile di ogni accesso e di ogni modifica, nativamente conforme LPD. Non un addendum contrattuale — è nell'architettura.",
+        "visualAlt": "Anteprima del modulo Audit — quattro pilastri: LPD nativo, hosting svizzero, crittografia moderna, audit log immutabile",
+        "capabilities": {
+          "eyebrow": "Capacità",
+          "heading": "Cosa viene tracciato",
+          "intro": "L'audit log è generato nel cuore della piattaforma, non da uno strumento esterno. Ogni azione critica lascia una traccia sfruttabile.",
+          "items": {
+            "f0": {
+              "title": "Accessi e letture",
+              "description": "Chi ha consultato quale dossier, quando, da quale dispositivo e indirizzo IP."
+            },
+            "f1": {
+              "title": "Modifiche",
+              "description": "Aggiunte, aggiornamenti, cancellazioni — con il contenuto prima/dopo per ogni campo modificato."
+            },
+            "f2": {
+              "title": "Firme e rapporti",
+              "description": "Rapporti di visita firmati HMAC, conformi ai requisiti LAMal per la fatturazione."
+            },
+            "f3": {
+              "title": "Export e conservazione",
+              "description": "Export strutturato per i vostri audit interni, politica di conservazione configurabile per tipo di dato."
+            }
+          }
+        },
+        "compliance": "Conforme LPD dalla prima riga di codice. Traccia pronta per l'Incaricato federale della protezione dei dati e le autorità cantonali.",
+        "cta": {
+          "eyebrow": "Prossima tappa",
+          "title": "Vediamo l'audit log con un caso reale.",
+          "description": "30 minuti per dimostrare la tracciabilità su uno scenario che vi riguarda — incidente, richiesta di accesso, audit di conformità."
+        }
+      },
+      "livestream": {
+        "subtitle": "La telecamera del paziente o del residente, attivabile e disattivabile da lui stesso. Presenza senza intrusione, controllo dal lato del paziente in qualsiasi momento.",
+        "visualAlt": "Anteprima dell'app famiglia — flusso livestream attivabile dal paziente, con mini-rapporto quotidiano",
+        "capabilities": {
+          "eyebrow": "Capacità",
+          "heading": "Cosa controlla il paziente",
+          "intro": "Il livestream è uno strumento di fiducia, non di sorveglianza. Paziente e operatore ne mantengono il controllo, sempre.",
+          "items": {
+            "f0": {
+              "title": "Attivazione consenziente",
+              "description": "Il paziente — o il suo operatore delegato — accende e spegne la telecamera in qualsiasi momento, senza intermediario tecnico."
+            },
+            "f1": {
+              "title": "Registro accessi completo",
+              "description": "Ogni connessione familiare tracciata: chi ha guardato, quando, per quanto tempo. Il paziente può consultare questo registro."
+            },
+            "f2": {
+              "title": "Nessuna registrazione predefinita",
+              "description": "Il flusso è trasmesso in tempo reale, non memorizzato. Nessun file video conservato senza consenso esplicito del paziente."
+            },
+            "f3": {
+              "title": "Hosting svizzero",
+              "description": "Il flusso non lascia mai il territorio svizzero. Nessun cloud estero, nessun rischio di esposizione extraterritoriale."
+            }
+          }
+        },
+        "compliance": "Conforme LPD per la protezione dei dati video. Consenso revocabile in qualsiasi momento, registro accessi esportabile su richiesta.",
+        "cta": {
+          "eyebrow": "Prossima tappa",
+          "title": "Vediamo il livestream nel vostro contesto.",
+          "description": "30 minuti per discutere i casi Spitex, casa di cura o clinica in cui questo modulo ha senso — e quelli in cui non lo ha."
+        }
+      },
+      "chat-multilingue": {
+        "subtitle": "In Svizzera come altrove, molti pazienti e famiglie non parlano la lingua delle cure. CareBond traduce, in tempo reale, sotto il controllo dell'operatore.",
+        "visualAlt": "Demo dal vivo del chat multilingue — traduzione ES↔FR con controllo operatore e registro completo",
+        "capabilities": {
+          "eyebrow": "Capacità",
+          "heading": "Come funziona",
+          "intro": "Ogni interlocutore scrive nella propria lingua, e ciascuno legge nella sua. L'operatore mantiene il controllo clinico della conversazione.",
+          "items": {
+            "f0": {
+              "title": "Traduzione in tempo reale",
+              "description": "Senza latenza percepibile. Il destinatario vede il messaggio nella sua lingua prima ancora di pensare di leggerlo."
+            },
+            "f1": {
+              "title": "Controllo dell'operatore",
+              "description": "L'operatore attiva o disattiva il chat secondo il contesto clinico. Nessuna intrusione fuori dalla visita, nessun messaggio di notte."
+            },
+            "f2": {
+              "title": "Hosting svizzero",
+              "description": "La traduzione viene fatta su infrastruttura svizzera, non presso gli hyperscaler esteri. Nessun invio a Google o OpenAI."
+            },
+            "f3": {
+              "title": "Bidirezionale e tracciabile",
+              "description": "Ogni messaggio conservato in entrambe le lingue. L'audit log LPD include la traccia completa delle traduzioni."
+            }
+          }
+        },
+        "compliance": "Conforme LPD per la comunicazione paziente-operatore. Nessuna fuga verso i servizi di traduzione di massa.",
+        "cta": {
+          "eyebrow": "Prossima tappa",
+          "title": "Vediamo il chat multilingue dal vivo.",
+          "description": "30 minuti per testare il vostro caso reale di barriera linguistica e discutere l'integrazione nei vostri percorsi di cura."
+        }
+      },
+      "rounds": {
+        "subtitle": "Giro del giorno, parametri vitali, allarmi, ricette elettroniche — tutto nella tasca dell'operatore. Per le case di cura e i servizi di cure a domicilio.",
+        "visualAlt": "App dell'operatore — elenco dei pazienti del giorno con parametri vitali, allarmi e stato",
+        "capabilities": {
+          "eyebrow": "Capacità",
+          "heading": "Cosa fa l'operatore",
+          "intro": "Tutto il giro centralizzato nell'app. Niente più carta, niente più attesa tra i passaggi di consegne.",
+          "items": {
+            "f0": {
+              "title": "Giro pre-organizzato",
+              "description": "Il giro del giorno è pronto all'arrivo. Camera per camera per le case di cura, domicilio per domicilio per Spitex."
+            },
+            "f1": {
+              "title": "Parametri vitali offline",
+              "description": "Registrati senza connessione se necessario, sincronizzati automaticamente alla ripresa. Nessun dato perso nelle zone bianche."
+            },
+            "f2": {
+              "title": "GPS per il domicilio",
+              "description": "Per Spitex: geofencing GPS che valida automaticamente la presenza al domicilio del paziente (feature 22-C)."
+            },
+            "f3": {
+              "title": "Ricette elettroniche",
+              "description": "Generazione sicura da parte dei prescrittori autorizzati, con firma digitale crittografica."
+            }
+          }
+        },
+        "compliance": "Rapporti firmati HMAC, conformi ai requisiti LAMal. Audit log LPD nativo su ogni azione dell'operatore.",
+        "cta": {
+          "eyebrow": "Prossima tappa",
+          "title": "Vediamo un giro digitale nella vostra struttura.",
+          "description": "30 minuti per calibrare il modulo sui vostri percorsi di cura — case di cura, Spitex o entrambi."
+        }
+      },
+      "floor-plans": {
+        "subtitle": "Modellazione isometrica 3D del vostro edificio + GPS d'interno che guida visitatori, famiglie e operatori. La segnaletica non è più un problema.",
+        "visualAlt": "Pianta 3D isometrica di un ospedale — sale operatorie, suite IRM, reparto, laboratorio, ingresso principale, con percorso GPS interno",
+        "capabilities": {
+          "eyebrow": "Capacità",
+          "heading": "Cosa ottenete",
+          "intro": "Modelliamo il vostro edificio in isometrico, poi integriamo la pianta nell'app con un GPS d'interno in tempo reale.",
+          "items": {
+            "f0": {
+              "title": "Modellazione su misura",
+              "description": "Piani, reparti, camere, accoglienze, accessi — il vostro edificio, in scala, nell'app di ogni attore."
+            },
+            "f1": {
+              "title": "GPS d'interno",
+              "description": "Itinerari in tempo reale dall'accoglienza fino alla camera 217 o alla sala operatoria 3."
+            },
+            "f2": {
+              "title": "Ottimizzazione dei flussi",
+              "description": "Dati reali di circolazione per ripensare la disposizione, individuare colli di bottiglia, fluidificare i percorsi."
+            },
+            "f3": {
+              "title": "Multi-edificio",
+              "description": "Case di cura multi-padiglione, ospedali multi-reparto, clinica con annesso: tutto connesso in una sola pianta navigabile."
+            }
+          }
+        },
+        "compliance": "Nessun dato di geolocalizzazione paziente memorizzato di default. Tracciato GPS effimero, conformemente alla LPD.",
+        "cta": {
+          "eyebrow": "Prossima tappa",
+          "title": "Vediamo il vostro edificio modellato.",
+          "description": "30 minuti per discutere la modellazione e l'integrazione GPS nella vostra struttura."
+        }
+      }
     }
   },
   "pourQui": {

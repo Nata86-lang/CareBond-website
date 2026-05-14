@@ -145,6 +145,206 @@
       "intro": "A personalized demo shows you this capability live, with your own use cases.",
       "emailLead": "For a demo, write to us at",
       "backToHome": "Back to home"
+    },
+    "pages": {
+      "oversight": {
+        "subtitle": "For management: see the whole facility at a glance. Comparable KPIs, prioritized alerts, one-click audit.",
+        "visualAlt": "Institutional dashboard — KPIs for residents, professionals, alerts, connected devices",
+        "capabilities": {
+          "eyebrow": "Capabilities",
+          "heading": "What you oversee",
+          "intro": "The Oversight module turns operational reality into readable data — without micromanagement.",
+          "items": {
+            "f0": {
+              "title": "Real-time KPIs",
+              "description": "Patients, caregivers, alerts, devices — numbers updated automatically, comparable across facilities."
+            },
+            "f1": {
+              "title": "Prioritized alerts",
+              "description": "Critical alarms rise to the top, the rest queues up. No noise, no missed signal."
+            },
+            "f2": {
+              "title": "Multi-facility",
+              "description": "Several homes from a single console, with strict data separation between sites."
+            },
+            "f3": {
+              "title": "Granular RBAC",
+              "description": "Management, service leads, caregivers: each sees only what they should — nothing more."
+            }
+          }
+        },
+        "compliance": "Built-in nLPD audit log with immutable trace of every access and management action. Documentation ready for cantonal authorities.",
+        "cta": {
+          "eyebrow": "Next step",
+          "title": "See your dashboard live.",
+          "description": "30 minutes to tune oversight to your real organization and discuss the indicators that matter to you."
+        }
+      },
+      "audit": {
+        "subtitle": "An immutable trace of every access and every modification, natively nLPD-compliant. Not a contractual addendum — it's in the architecture.",
+        "visualAlt": "Audit module preview — four pillars: nLPD-native, Swiss hosting, modern encryption, immutable audit log",
+        "capabilities": {
+          "eyebrow": "Capabilities",
+          "heading": "What is logged",
+          "intro": "The audit log is generated at the platform's core, not by an external tool. Every critical action leaves an exploitable trace.",
+          "items": {
+            "f0": {
+              "title": "Access and reads",
+              "description": "Who viewed which record, when, from which device and IP address."
+            },
+            "f1": {
+              "title": "Modifications",
+              "description": "Adds, updates, deletions — with before/after content for every changed field."
+            },
+            "f2": {
+              "title": "Signatures and reports",
+              "description": "HMAC-signed visit reports, compliant with KVG/LAMal requirements for billing."
+            },
+            "f3": {
+              "title": "Exports and retention",
+              "description": "Structured export for internal audits, configurable retention policy per data type."
+            }
+          }
+        },
+        "compliance": "nLPD-compliant from line one. Trail ready for the Federal Data Protection Commissioner and cantonal authorities.",
+        "cta": {
+          "eyebrow": "Next step",
+          "title": "See the audit log with a real case.",
+          "description": "30 minutes to demonstrate traceability on a scenario that matters to you — incident, access request, compliance audit."
+        }
+      },
+      "livestream": {
+        "subtitle": "The patient's or resident's camera, enabled and disabled by themselves. Presence without intrusion, control on the patient's side at all times.",
+        "visualAlt": "Family app preview — livestream feed activated by the patient, with daily mini-report",
+        "capabilities": {
+          "eyebrow": "Capabilities",
+          "heading": "What the patient controls",
+          "intro": "Livestream is a trust tool, not surveillance. Both the patient and the caregiver stay in control, always.",
+          "items": {
+            "f0": {
+              "title": "Consented activation",
+              "description": "The patient — or their delegated caregiver — turns the camera on and off at any time, with no technical middleman."
+            },
+            "f1": {
+              "title": "Full access log",
+              "description": "Every family connection logged: who watched, when, for how long. The patient can review this log."
+            },
+            "f2": {
+              "title": "No default recording",
+              "description": "The feed is streamed in real time, not stored. No video file kept without explicit patient consent."
+            },
+            "f3": {
+              "title": "Swiss hosting",
+              "description": "The stream never leaves Swiss territory. No foreign cloud, no cross-border exposure risk."
+            }
+          }
+        },
+        "compliance": "nLPD-compliant for video data protection. Consent revocable at any time, access log exportable on request.",
+        "cta": {
+          "eyebrow": "Next step",
+          "title": "See livestream in your context.",
+          "description": "30 minutes to discuss Spitex, EMS or clinic scenarios where this module fits — and the ones where it doesn't."
+        }
+      },
+      "chat-multilingue": {
+        "subtitle": "In Switzerland as everywhere, many patients and families don't speak the language of care. CareBond translates, in real time, under the caregiver's control.",
+        "visualAlt": "Live demo of the multilingual chat — ES↔FR translation with caregiver control and full log",
+        "capabilities": {
+          "eyebrow": "Capabilities",
+          "heading": "How it works",
+          "intro": "Each participant writes in their language, and each reads in their own. The caregiver keeps clinical control of the conversation.",
+          "items": {
+            "f0": {
+              "title": "Real-time translation",
+              "description": "With no perceptible latency. The recipient sees the message in their language before they even think to read it."
+            },
+            "f1": {
+              "title": "Controlled by the caregiver",
+              "description": "The caregiver enables or disables the chat depending on the clinical context. No intrusion outside visits, no messages at night."
+            },
+            "f2": {
+              "title": "Swiss hosting",
+              "description": "Translation runs on Swiss infrastructure, not at foreign hyperscalers. No outbound calls to Google or OpenAI."
+            },
+            "f3": {
+              "title": "Bidirectional and traceable",
+              "description": "Every message preserved in both languages. The nLPD audit log includes the full translation trail."
+            }
+          }
+        },
+        "compliance": "nLPD-compliant for patient-caregiver communication. No leakage to consumer translation services.",
+        "cta": {
+          "eyebrow": "Next step",
+          "title": "See multilingual chat live.",
+          "description": "30 minutes to test your real language-barrier case and discuss how this module fits into your care journeys."
+        }
+      },
+      "rounds": {
+        "subtitle": "Day's rounds, vital signs, alerts, electronic prescriptions — all in the caregiver's pocket. Built for nursing homes and home care services.",
+        "visualAlt": "Caregiver app — list of the day's patients with vital signs, alerts and status",
+        "capabilities": {
+          "eyebrow": "Capabilities",
+          "heading": "What the caregiver does",
+          "intro": "The whole round centralized in the app. No more paper, no more waiting between handovers.",
+          "items": {
+            "f0": {
+              "title": "Pre-organized rounds",
+              "description": "The day's rounds are ready on arrival. Room by room for nursing homes, home by home for Spitex."
+            },
+            "f1": {
+              "title": "Offline vitals",
+              "description": "Captured without connection if needed, synced automatically when back online. No data lost in dead zones."
+            },
+            "f2": {
+              "title": "GPS for home care",
+              "description": "For Spitex: GPS geofencing that automatically validates presence at the patient's home (feature 22-C)."
+            },
+            "f3": {
+              "title": "Electronic prescriptions",
+              "description": "Secure generation by authorized prescribers, with cryptographic digital signature."
+            }
+          }
+        },
+        "compliance": "HMAC-signed reports, compliant with KVG/LAMal requirements. Native nLPD audit log on every caregiver action.",
+        "cta": {
+          "eyebrow": "Next step",
+          "title": "See digital rounds in your organization.",
+          "description": "30 minutes to tune the module to your caregiver journeys — nursing home, Spitex, or both."
+        }
+      },
+      "floor-plans": {
+        "subtitle": "Isometric 3D modeling of your building + indoor GPS guiding visitors, families and clinicians. Wayfinding stops being a problem.",
+        "visualAlt": "3D isometric plan of a hospital — operating theaters, MRI suite, ward, laboratory, main lobby, with indoor GPS route",
+        "capabilities": {
+          "eyebrow": "Capabilities",
+          "heading": "What you get",
+          "intro": "We model your building in isometric, then ship the plan inside the app with real-time indoor GPS.",
+          "items": {
+            "f0": {
+              "title": "Custom modeling",
+              "description": "Floors, services, rooms, receptions, entrances — your building, to scale, in each user's app."
+            },
+            "f1": {
+              "title": "Indoor GPS",
+              "description": "Real-time routes from reception to room 217 or operating theater 3."
+            },
+            "f2": {
+              "title": "Flow optimization",
+              "description": "Real circulation data to rethink the layout, spot bottlenecks, smooth out journeys."
+            },
+            "f3": {
+              "title": "Multi-building",
+              "description": "Multi-pavilion nursing homes, multi-service hospitals, clinics with annexes: all connected in one navigable plan."
+            }
+          }
+        },
+        "compliance": "No patient geolocation data stored by default. GPS trail ephemeral, in line with nLPD.",
+        "cta": {
+          "eyebrow": "Next step",
+          "title": "See your building modeled.",
+          "description": "30 minutes to discuss the modeling and GPS integration for your facility."
+        }
+      }
     }
   },
   "pourQui": {

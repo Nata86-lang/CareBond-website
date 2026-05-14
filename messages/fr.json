@@ -145,6 +145,206 @@
       "intro": "Une démonstration personnalisée vous montre cette capacité en direct, avec vos cas d'usage.",
       "emailLead": "Pour une démo, écrivez-nous à",
       "backToHome": "Retour à l'accueil"
+    },
+    "pages": {
+      "oversight": {
+        "subtitle": "Pour la direction : voir clair sur toute la résidence en un coup d'œil. KPIs comparables, alertes priorisées, audit en un clic.",
+        "visualAlt": "Tableau de bord institutionnel — KPIs résidents, professionnels, alertes, dispositifs connectés",
+        "capabilities": {
+          "eyebrow": "Capacités",
+          "heading": "Ce que vous pilotez",
+          "intro": "Le module Pilotage transforme l'opérationnel en données lisibles, sans micromanagement.",
+          "items": {
+            "f0": {
+              "title": "KPIs en temps réel",
+              "description": "Patients, soignants, alertes, dispositifs — chiffres mis à jour automatiquement, comparables par résidence."
+            },
+            "f1": {
+              "title": "Alertes priorisées",
+              "description": "Les alarmes critiques remontent en haut, le reste passe en file. Pas de bruit, pas d'oubli."
+            },
+            "f2": {
+              "title": "Multi-établissements",
+              "description": "Plusieurs résidences depuis une seule console, avec séparation stricte des données entre sites."
+            },
+            "f3": {
+              "title": "RBAC granulaire",
+              "description": "Direction, responsables de service, soignants : chacun voit ce qu'il doit voir, et rien de plus."
+            }
+          }
+        },
+        "compliance": "Audit log nLPD intégré, traçabilité immuable de chaque accès et action de pilotage. Documentation prête pour les autorités cantonales.",
+        "cta": {
+          "eyebrow": "Prochaine étape",
+          "title": "Voyons votre tableau de bord en direct.",
+          "description": "30 minutes pour calibrer le pilotage sur votre structure réelle et discuter des indicateurs qui comptent pour vous."
+        }
+      },
+      "audit": {
+        "subtitle": "Une trace immuable de chaque accès et de chaque modification, conforme nLPD nativement. Pas un addendum contractuel — c'est dans l'architecture.",
+        "visualAlt": "Aperçu du module Audit — quatre piliers : nLPD natif, hébergement Suisse, chiffrement moderne, audit log immuable",
+        "capabilities": {
+          "eyebrow": "Capacités",
+          "heading": "Ce qui est tracé",
+          "intro": "L'audit log est généré au cœur de la plateforme, pas par un outil externe. Chaque action critique laisse une trace exploitable.",
+          "items": {
+            "f0": {
+              "title": "Accès et lectures",
+              "description": "Qui a consulté quel dossier, à quel moment, depuis quel appareil et quelle adresse IP."
+            },
+            "f1": {
+              "title": "Modifications",
+              "description": "Ajouts, mises à jour, suppressions — avec le contenu avant/après pour chaque champ touché."
+            },
+            "f2": {
+              "title": "Signatures et rapports",
+              "description": "Rapports de visite signés HMAC, conformes aux exigences KVG/LAMal pour la facturation."
+            },
+            "f3": {
+              "title": "Exports et rétention",
+              "description": "Export structuré pour vos audits internes, politique de rétention configurable selon le type de donnée."
+            }
+          }
+        },
+        "compliance": "Conforme nLPD dès la première ligne de code. Trace prête pour le Préposé fédéral à la protection des données et les autorités cantonales.",
+        "cta": {
+          "eyebrow": "Prochaine étape",
+          "title": "Voyons l'audit log avec un cas réel.",
+          "description": "30 minutes pour démontrer la traçabilité sur un scénario qui vous concerne — incident, demande d'accès, audit de conformité."
+        }
+      },
+      "livestream": {
+        "subtitle": "La caméra du patient ou du résident, activable et désactivable par lui-même. Présence sans intrusion, contrôle côté patient à tout moment.",
+        "visualAlt": "Aperçu de l'application famille — flux livestream activable par le patient avec mini-rapport quotidien",
+        "capabilities": {
+          "eyebrow": "Capacités",
+          "heading": "Ce que contrôle le patient",
+          "intro": "Le livestream est un outil de confiance, pas de surveillance. Le patient et le soignant en gardent le contrôle, toujours.",
+          "items": {
+            "f0": {
+              "title": "Activation consentie",
+              "description": "Le patient — ou son soignant délégué — active et désactive la caméra à tout moment, sans intermédiaire technique."
+            },
+            "f1": {
+              "title": "Journal d'accès complet",
+              "description": "Chaque connexion famille tracée : qui a regardé, quand, combien de temps. Le patient peut consulter ce journal."
+            },
+            "f2": {
+              "title": "Pas d'enregistrement par défaut",
+              "description": "Le flux est diffusé en temps réel, pas stocké. Aucun fichier vidéo conservé sans accord explicite du patient."
+            },
+            "f3": {
+              "title": "Hébergement Suisse",
+              "description": "Le flux ne quitte jamais le territoire suisse. Pas de cloud tiers étranger, pas de risque d'exposition extra-territoriale."
+            }
+          }
+        },
+        "compliance": "Conforme nLPD pour la protection des données vidéo. Consentement révocable à tout moment, journal d'accès exportable sur demande.",
+        "cta": {
+          "eyebrow": "Prochaine étape",
+          "title": "Voyons le livestream dans votre contexte.",
+          "description": "30 minutes pour discuter les cas Spitex, EMS ou clinique où ce module fait sens — et ceux où il ne fait pas sens."
+        }
+      },
+      "chat-multilingue": {
+        "subtitle": "En Suisse comme ailleurs, beaucoup de patients et de familles ne parlent pas la langue du soin. CareBond traduit, en temps réel, sous le contrôle du soignant.",
+        "visualAlt": "Démonstration en direct du chat multilingue — traduction ES↔FR avec contrôle soignant et journal complet",
+        "capabilities": {
+          "eyebrow": "Capacités",
+          "heading": "Comment ça fonctionne",
+          "intro": "Chaque interlocuteur écrit dans sa langue, et chacun lit dans la sienne. Le soignant garde le contrôle clinique de la conversation.",
+          "items": {
+            "f0": {
+              "title": "Traduction temps réel",
+              "description": "Sans latence perceptible. Le destinataire voit le message dans sa langue avant même d'avoir le temps d'y penser."
+            },
+            "f1": {
+              "title": "Contrôle par le soignant",
+              "description": "Le soignant active ou désactive le chat selon le contexte clinique. Pas d'intrusion hors visite, pas de messages la nuit."
+            },
+            "f2": {
+              "title": "Hébergement Suisse",
+              "description": "La traduction est faite sur infrastructure suisse, pas chez les hyperscalers étrangers. Pas d'envoi vers Google ou OpenAI."
+            },
+            "f3": {
+              "title": "Bidirectionnel et traçable",
+              "description": "Chaque message conservé dans les deux langues. Audit log nLPD inclut la trace complète des traductions."
+            }
+          }
+        },
+        "compliance": "Conforme nLPD pour la communication patient-soignant. Aucune fuite vers les services de traduction grand public.",
+        "cta": {
+          "eyebrow": "Prochaine étape",
+          "title": "Voyons le chat multilingue en direct.",
+          "description": "30 minutes pour tester votre cas de barrière linguistique réel et discuter l'intégration dans vos parcours de soin."
+        }
+      },
+      "rounds": {
+        "subtitle": "Tournée du jour, signes vitaux, alertes, ordonnances électroniques — tout dans la poche du soignant. Pour les EMS et les services de soins à domicile.",
+        "visualAlt": "Application du soignant — liste des patients du jour avec signes vitaux, alertes et statut",
+        "capabilities": {
+          "eyebrow": "Capacités",
+          "heading": "Ce que fait le soignant",
+          "intro": "Toute la tournée centralisée dans l'app. Plus de papier, plus d'attente entre les transmissions.",
+          "items": {
+            "f0": {
+              "title": "Tournée pré-organisée",
+              "description": "La tournée du jour est prête à l'arrivée. Chambre par chambre pour les EMS, ou domicile par domicile pour Spitex."
+            },
+            "f1": {
+              "title": "Signes vitaux offline",
+              "description": "Saisis sans connexion si besoin, synchronisés automatiquement à la reprise. Aucune donnée perdue en zone blanche."
+            },
+            "f2": {
+              "title": "GPS pour le domicile",
+              "description": "Pour Spitex : geofencing GPS qui valide automatiquement la présence au domicile du patient (feature 22-C)."
+            },
+            "f3": {
+              "title": "Ordonnances électroniques",
+              "description": "Génération sécurisée par les prescripteurs autorisés, avec signature numérique cryptographique."
+            }
+          }
+        },
+        "compliance": "Rapports signés HMAC, conformes aux exigences KVG/LAMal. Audit log nLPD natif sur chaque action soignante.",
+        "cta": {
+          "eyebrow": "Prochaine étape",
+          "title": "Voyons une tournée digitale dans votre structure.",
+          "description": "30 minutes pour calibrer le module sur vos parcours soignants — EMS, Spitex ou les deux."
+        }
+      },
+      "floor-plans": {
+        "subtitle": "Modélisation isométrique 3D de votre bâtiment + GPS d'intérieur qui guide visiteurs, familles et soignants. La signalétique n'est plus un problème.",
+        "visualAlt": "Plan 3D isométrique d'un hôpital — blocs opératoires, suite IRM, ward, laboratoire, hall principal, avec parcours GPS d'intérieur",
+        "capabilities": {
+          "eyebrow": "Capacités",
+          "heading": "Ce que vous obtenez",
+          "intro": "Nous modélisons votre bâtiment en isométrique, puis intégrons le plan dans l'app avec un GPS d'intérieur en temps réel.",
+          "items": {
+            "f0": {
+              "title": "Modélisation sur mesure",
+              "description": "Étages, services, chambres, accueils, accès — votre bâtiment, à l'échelle, dans l'app de chaque acteur."
+            },
+            "f1": {
+              "title": "GPS d'intérieur",
+              "description": "Itinéraires en temps réel depuis l'accueil jusqu'à la chambre 217 ou le bloc opératoire 3."
+            },
+            "f2": {
+              "title": "Optimisation des flux",
+              "description": "Données réelles de circulation pour repenser l'agencement, identifier les goulots d'étranglement, fluidifier les parcours."
+            },
+            "f3": {
+              "title": "Multi-bâtiment",
+              "description": "EMS multi-pavillons, hôpital multi-services, clinique avec annexe : tout connecté dans un seul plan navigable."
+            }
+          }
+        },
+        "compliance": "Aucune donnée de géolocalisation patient stockée par défaut. Tracé GPS éphémère, conformément à la nLPD.",
+        "cta": {
+          "eyebrow": "Prochaine étape",
+          "title": "Voyons votre bâtiment modélisé.",
+          "description": "30 minutes pour discuter la modélisation et l'intégration GPS dans votre établissement."
+        }
+      }
     }
   },
   "pourQui": {
