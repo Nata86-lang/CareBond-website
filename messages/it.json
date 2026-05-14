@@ -365,6 +365,10 @@
       "b2": {
         "title": "Bidirezionale e tracciabile",
         "description": "Ogni messaggio conservato in entrambe le lingue. L'audit LPD include la traccia completa delle traduzioni."
+      },
+      "b3": {
+        "title": "Controllo dell'operatore",
+        "description": "L'operatore attiva o disattiva il chat secondo il contesto clinico. Nessun messaggio di notte, nessuna intrusione fuori dalla visita. Il controllo resta al professionista."
       }
     }
   },

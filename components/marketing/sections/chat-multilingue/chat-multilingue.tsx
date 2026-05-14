@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
-import { ArrowRight, Check, Globe2, MapPin, RefreshCcw } from "lucide-react";
+import { ArrowRight, Check, Globe2, MapPin, RefreshCcw, UserCheck } from "lucide-react";
 import { ChatMultilingualDemo } from "./chat-multilingue-demo";
 
 // Section 9 — Chat multilingue feature spotlight. The demo extracted in
@@ -12,9 +12,9 @@ import { ChatMultilingualDemo } from "./chat-multilingue-demo";
 // section. The demo card is the only client component on the page below
 // the Pour qui tabs — every other section is pure server.
 
-const BULLET_KEYS = ["b0", "b1", "b2"] as const;
+const BULLET_KEYS = ["b0", "b1", "b2", "b3"] as const;
 
-const BULLET_ICONS = [RefreshCcw, MapPin, Globe2];
+const BULLET_ICONS = [RefreshCcw, MapPin, Globe2, UserCheck];
 
 export async function ChatMultilingue({ locale }: { locale: string }) {
   const t = await getTranslations("chatMultilingue");

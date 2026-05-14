@@ -31,10 +31,10 @@ export default async function HomePage({
       <PourQui />
       <PlatformBento locale={locale} />
       <SoignerSansSilos />
+      <ChatMultilingue locale={locale} />
       <ModuleResidences />
       <FloorPlans locale={locale} />
       <Compliance />
-      <ChatMultilingue locale={locale} />
       <FAQ />
       <FinalCTA locale={locale} />
     </main>

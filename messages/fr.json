@@ -365,6 +365,10 @@
       "b2": {
         "title": "Bidirectionnel et traçable",
         "description": "Chaque message conservé dans les deux langues. L'audit nLPD inclut la trace complète des traductions."
+      },
+      "b3": {
+        "title": "Contrôle par le soignant",
+        "description": "Le soignant active ou désactive le chat selon le contexte clinique. Pas de messages la nuit, pas d'intrusion hors visite. Le contrôle reste côté professionnel."
       }
     }
   },

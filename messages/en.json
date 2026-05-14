@@ -365,6 +365,10 @@
       "b2": {
         "title": "Bidirectional and traceable",
         "description": "Every message preserved in both languages. The nLPD audit includes the full translation trace."
+      },
+      "b3": {
+        "title": "Controlled by the caregiver",
+        "description": "The caregiver enables or disables the chat depending on the clinical context. No messages at night, no intrusion outside visits. Control stays with the professional."
       }
     }
   },

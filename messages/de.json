@@ -365,6 +365,10 @@
       "b2": {
         "title": "Bidirektional und nachvollziehbar",
         "description": "Jede Nachricht in beiden Sprachen gespeichert. Das DSG-Audit umfasst die vollständige Übersetzungsspur."
+      },
+      "b3": {
+        "title": "Steuerung durch die Pflege",
+        "description": "Die Pflegeperson aktiviert oder deaktiviert den Chat je nach klinischem Kontext. Keine Nachrichten in der Nacht, kein Eingriff ausserhalb der Visite. Die Kontrolle bleibt beim Fachpersonal."
       }
     }
   },
