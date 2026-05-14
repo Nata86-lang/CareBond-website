@@ -14,4 +14,5 @@ export const OG_LOCALE_MAP: Record<string, string> = {
   de: "de_CH",
   it: "it_CH",
   en: "en_US",
+  es: "es_ES",
 };

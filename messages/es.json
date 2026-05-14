@@ -1,0 +1,1204 @@
+{
+  "nav": {
+    "solutions": "Soluciones",
+    "features": "Funcionalidades",
+    "compliance": "Conformidad",
+    "about": "Sobre nosotros",
+    "contact": "Contacto",
+    "demo": "Demo",
+    "solutionsMenu": {
+      "ems": "Para residencias (EMS)",
+      "homeCare": "Para cuidados a domicilio",
+      "hospitals": "Para hospitales",
+      "clinics": "Para clínicas"
+    }
+  },
+  "header": {
+    "logoAriaLabel": "CareBond — Inicio",
+    "navAriaLabel": "Navegación principal",
+    "mobileMenuOpen": "Abrir el menú",
+    "mobileMenuClose": "Cerrar el menú"
+  },
+  "cta": {
+    "primary": "Solicitar una demostración",
+    "secondary": "Ver las funcionalidades",
+    "viewPlatform": "Ver la plataforma",
+    "learnMore": "Saber más"
+  },
+  "hero": {
+    "eyebrow": "Plataforma de cuidados · Suiza",
+    "title": "Todos los actores del cuidado, en una sola plataforma.",
+    "subtitle": "EMS, Spitex y clínicas. Una consola para la dirección, una app para cada profesional, mini-informes para las familias. Conforme nLPD, alojada en Suiza.",
+    "trust": {
+      "label": "Diseñada según los estándares suizos",
+      "nlpd": "Conforme nLPD",
+      "hosting": "Alojamiento en Suiza",
+      "encryption": "Cifrado de extremo a extremo",
+      "swissMade": "Swiss Made"
+    },
+    "ecosystem": {
+      "ariaLabel": "Demostración del ecosistema CareBond: aplicaciones paciente, familia, profesional y panel de administración",
+      "pauseLabel": "Pausar la demostración",
+      "playLabel": "Iniciar la demostración",
+      "patient": {
+        "greeting": "Hola María",
+        "chat": "Chat",
+        "calls": "Llamadas",
+        "visits": "Visitas",
+        "family": "Familia",
+        "vitals": "Vitales",
+        "permissions": "Permisos"
+      },
+      "family": {
+        "title": "Familia · María",
+        "miniReportTitle": "Mini-informe",
+        "miniReportTime": "Hoy · 14h",
+        "miniReportBody": "María ha pasado bien la mañana. Tensión normal.",
+        "livestreamLabel": "Cámara salón",
+        "liveBadge": "EN DIRECTO"
+      },
+      "professional": {
+        "title": "Mis pacientes (12)"
+      },
+      "dashboard": {
+        "sidebar": {
+          "dashboard": "Panel de control",
+          "users": "Usuarios",
+          "logs": "Registros",
+          "config": "Config",
+          "logout": "Cerrar sesión"
+        },
+        "search": "Búsqueda global",
+        "welcome": "Hola, Admin",
+        "residents": "Total pacientes",
+        "professionals": "Profesionales activos",
+        "alerts": "Alertas en espera",
+        "devices": "Dispositivos conectados",
+        "activityTitle": "Pacientes atendidos",
+        "previousPeriod": "Periodo anterior",
+        "currentPeriod": "Periodo actual",
+        "overallTitle": "Vista general",
+        "conversations": "Conversaciones",
+        "families": "Familias",
+        "usageOverview": "Utilización",
+        "firstTime": "Primera visita",
+        "returnUsers": "Recurrentes",
+        "recentActivities": "Actividad reciente",
+        "activityPasswordReset": "Contraseña restablecida",
+        "importantAlerts": "Alertas importantes",
+        "viewAll": "Ver todo",
+        "alertSample": "Sensor con fallo",
+        "alertWarning": "Aviso",
+        "alertSampleBody": "El sensor de la habitación 12 reporta datos irregulares."
+      }
+    },
+    "demoAriaLabel": "Demostración: chat multilingüe que traduce automáticamente entre español y francés",
+    "demoPauseLabel": "Pausar la animación",
+    "demoPlayLabel": "Iniciar la animación",
+    "chatDemoRole": "Paciente"
+  },
+  "platform": {
+    "bento": {
+      "eyebrow": "La plataforma",
+      "title": "Cinco pilares, una sola plataforma.",
+      "subtitle": "Desde la gestión institucional al chat multilingüe, desde el livestream con consentimiento a la auditoría nLPD — todo está diseñado para funcionar junto, no en paralelo.",
+      "learnMore": "Descubrir",
+      "pillars": {
+        "oversight": {
+          "eyebrow": "Dirección",
+          "title": "Gestión institucional",
+          "description": "KPIs residencia por residencia, alertas priorizadas, auditoría con un clic. La casa entera, en una pantalla.",
+          "kpiResidents": "Pacientes",
+          "kpiProfessionals": "Profesionales",
+          "kpiAlerts": "Alertas",
+          "kpiDevices": "Dispositivos"
+        },
+        "audit": {
+          "eyebrow": "Conformidad",
+          "title": "Audit log nLPD integrado",
+          "description": "Cada acceso, cada acción rastreada. Audit log inmutable, exportable para sus auditorías internas."
+        },
+        "livestream": {
+          "eyebrow": "Presencia",
+          "title": "Livestream con consentimiento",
+          "description": "Cámara que el paciente puede activar y desactivar. Registro de accesos completo, nunca grabada sin acuerdo."
+        },
+        "chat-multilingue": {
+          "eyebrow": "Comunicación",
+          "title": "Chat multilingüe",
+          "description": "Cada mensaje recibido en el idioma elegido. La barrera lingüística entre pacientes, familias y personal sanitario desaparece."
+        },
+        "rounds": {
+          "eyebrow": "Cuidado",
+          "title": "Visita digital",
+          "description": "Lista de pacientes, signos vitales, alertas prioritarias, recetas electrónicas — todo en el bolsillo del profesional."
+        },
+        "floor-plans": {
+          "eyebrow": "Navegación",
+          "title": "Planos 3D y GPS interior",
+          "description": "Modelamos su edificio en isométrico. El GPS integrado guía a visitantes, familias y profesionales hasta la habitación que buscan, sin señalización.",
+          "alt": "Plano 3D isométrico de una residencia medicalizada — ala de memoria, centro de actividades, jardín terapéutico, peluquería, vestíbulo principal"
+        }
+      }
+    },
+    "stubShared": {
+      "intro": "Una demostración personalizada le muestra esta capacidad en directo, con sus casos de uso.",
+      "emailLead": "Para una demo, escríbanos a",
+      "backToHome": "Volver al inicio"
+    },
+    "pages": {
+      "oversight": {
+        "subtitle": "Para la dirección: ver claro toda la residencia de un vistazo. KPIs comparables, alertas priorizadas, auditoría con un clic.",
+        "visualAlt": "Panel institucional — KPIs de residentes, profesionales, alertas, dispositivos conectados",
+        "capabilities": {
+          "eyebrow": "Capacidades",
+          "heading": "Lo que gestiona",
+          "intro": "El módulo de Gestión convierte lo operativo en datos legibles, sin micromanagement.",
+          "items": {
+            "f0": {
+              "title": "KPIs en tiempo real",
+              "description": "Pacientes, profesionales, alertas, dispositivos — cifras actualizadas automáticamente, comparables por residencia."
+            },
+            "f1": {
+              "title": "Alertas priorizadas",
+              "description": "Las alarmas críticas suben arriba, el resto pasa a cola. Sin ruido, sin olvidos."
+            },
+            "f2": {
+              "title": "Multi-establecimiento",
+              "description": "Varias residencias desde una sola consola, con separación estricta de datos entre sedes."
+            },
+            "f3": {
+              "title": "RBAC granular",
+              "description": "Dirección, responsables de servicio, profesionales: cada uno ve lo que debe ver, y nada más."
+            }
+          }
+        },
+        "compliance": "Audit log nLPD integrado, trazabilidad inmutable de cada acceso y acción de gestión. Documentación lista para las autoridades cantonales.",
+        "cta": {
+          "eyebrow": "Próxima etapa",
+          "title": "Veamos su panel de control en directo.",
+          "description": "30 minutos para calibrar la gestión en su estructura real y discutir los indicadores que cuentan para usted."
+        }
+      },
+      "audit": {
+        "subtitle": "Una traza inmutable de cada acceso y cada modificación, conforme nLPD de forma nativa. No un anexo contractual — está en la arquitectura.",
+        "visualAlt": "Vista previa del módulo Audit — cuatro pilares: nLPD nativo, alojamiento Suiza, cifrado moderno, audit log inmutable",
+        "capabilities": {
+          "eyebrow": "Capacidades",
+          "heading": "Lo que se registra",
+          "intro": "El audit log se genera en el corazón de la plataforma, no por una herramienta externa. Cada acción crítica deja una traza explotable.",
+          "items": {
+            "f0": {
+              "title": "Accesos y lecturas",
+              "description": "Quién consultó qué expediente, en qué momento, desde qué dispositivo y qué dirección IP."
+            },
+            "f1": {
+              "title": "Modificaciones",
+              "description": "Adiciones, actualizaciones, supresiones — con el contenido antes/después de cada campo modificado."
+            },
+            "f2": {
+              "title": "Firmas e informes",
+              "description": "Informes de visita firmados HMAC, conformes a los requisitos KVG/LAMal para la facturación."
+            },
+            "f3": {
+              "title": "Exportaciones y retención",
+              "description": "Exportación estructurada para sus auditorías internas, política de retención configurable según el tipo de dato."
+            }
+          }
+        },
+        "compliance": "Conforme nLPD desde la primera línea de código. Traza lista para el Encargado federal de protección de datos y las autoridades cantonales.",
+        "cta": {
+          "eyebrow": "Próxima etapa",
+          "title": "Veamos el audit log con un caso real.",
+          "description": "30 minutos para demostrar la trazabilidad en un escenario que le concierne — incidente, solicitud de acceso, auditoría de conformidad."
+        }
+      },
+      "livestream": {
+        "subtitle": "La cámara del paciente o residente, activable y desactivable por él mismo. Presencia sin intrusión, control del lado del paciente en todo momento.",
+        "visualAlt": "Vista previa de la aplicación familia — flujo livestream activable por el paciente con mini-informe diario",
+        "capabilities": {
+          "eyebrow": "Capacidades",
+          "heading": "Lo que controla el paciente",
+          "intro": "El livestream es una herramienta de confianza, no de vigilancia. El paciente y el profesional mantienen el control, siempre.",
+          "items": {
+            "f0": {
+              "title": "Activación consentida",
+              "description": "El paciente — o su profesional delegado — activa y desactiva la cámara en cualquier momento, sin intermediario técnico."
+            },
+            "f1": {
+              "title": "Registro de accesos completo",
+              "description": "Cada conexión familiar registrada: quién miró, cuándo, cuánto tiempo. El paciente puede consultar este registro."
+            },
+            "f2": {
+              "title": "Sin grabación por defecto",
+              "description": "El flujo se difunde en tiempo real, no se almacena. Ningún archivo de vídeo conservado sin acuerdo explícito del paciente."
+            },
+            "f3": {
+              "title": "Alojamiento en Suiza",
+              "description": "El flujo nunca sale del territorio suizo. Sin nube extranjera, sin riesgo de exposición extraterritorial."
+            }
+          }
+        },
+        "compliance": "Conforme nLPD para la protección de datos de vídeo. Consentimiento revocable en cualquier momento, registro de accesos exportable bajo solicitud.",
+        "cta": {
+          "eyebrow": "Próxima etapa",
+          "title": "Veamos el livestream en su contexto.",
+          "description": "30 minutos para discutir los casos Spitex, EMS o clínica donde este módulo tiene sentido — y aquellos donde no."
+        }
+      },
+      "chat-multilingue": {
+        "subtitle": "En Suiza como en otros lugares, muchos pacientes y familias no hablan el idioma del cuidado. CareBond traduce, en tiempo real, bajo el control del profesional.",
+        "visualAlt": "Demostración en directo del chat multilingüe — traducción ES↔FR con control del profesional y registro completo",
+        "capabilities": {
+          "eyebrow": "Capacidades",
+          "heading": "Cómo funciona",
+          "intro": "Cada interlocutor escribe en su idioma, y cada uno lee en el suyo. El profesional mantiene el control clínico de la conversación.",
+          "items": {
+            "f0": {
+              "title": "Traducción en tiempo real",
+              "description": "Sin latencia perceptible. El destinatario ve el mensaje en su idioma antes incluso de tener tiempo de pensarlo."
+            },
+            "f1": {
+              "title": "Control por el profesional",
+              "description": "El profesional activa o desactiva el chat según el contexto clínico. Sin intrusión fuera de la visita, sin mensajes durante la noche."
+            },
+            "f2": {
+              "title": "Alojamiento en Suiza",
+              "description": "La traducción se realiza en infraestructura suiza, no en los hyperscalers extranjeros. Sin envío a Google u OpenAI."
+            },
+            "f3": {
+              "title": "Bidireccional y trazable",
+              "description": "Cada mensaje conservado en ambos idiomas. El audit log nLPD incluye la traza completa de las traducciones."
+            }
+          }
+        },
+        "compliance": "Conforme nLPD para la comunicación paciente-profesional. Ninguna fuga hacia los servicios de traducción de consumo masivo.",
+        "cta": {
+          "eyebrow": "Próxima etapa",
+          "title": "Veamos el chat multilingüe en directo.",
+          "description": "30 minutos para probar su caso real de barrera lingüística y discutir la integración en sus recorridos de cuidado."
+        }
+      },
+      "rounds": {
+        "subtitle": "Visita del día, signos vitales, alertas, recetas electrónicas — todo en el bolsillo del profesional. Para EMS y servicios de cuidados a domicilio.",
+        "visualAlt": "Aplicación del profesional — lista de los pacientes del día con signos vitales, alertas y estado",
+        "capabilities": {
+          "eyebrow": "Capacidades",
+          "heading": "Lo que hace el profesional",
+          "intro": "Toda la visita centralizada en la app. Sin papel, sin esperas entre cambios de turno.",
+          "items": {
+            "f0": {
+              "title": "Visita pre-organizada",
+              "description": "La visita del día está lista a la llegada. Habitación por habitación para los EMS, o domicilio por domicilio para Spitex."
+            },
+            "f1": {
+              "title": "Signos vitales offline",
+              "description": "Capturados sin conexión si es necesario, sincronizados automáticamente al reanudar. Sin pérdida de datos en zonas blancas."
+            },
+            "f2": {
+              "title": "GPS para el domicilio",
+              "description": "Para Spitex: geofencing GPS que valida automáticamente la presencia en el domicilio del paciente (feature 22-C)."
+            },
+            "f3": {
+              "title": "Recetas electrónicas",
+              "description": "Generación segura por los prescriptores autorizados, con firma digital criptográfica."
+            }
+          }
+        },
+        "compliance": "Informes firmados HMAC, conformes a los requisitos KVG/LAMal. Audit log nLPD nativo en cada acción del profesional.",
+        "cta": {
+          "eyebrow": "Próxima etapa",
+          "title": "Veamos una visita digital en su estructura.",
+          "description": "30 minutos para calibrar el módulo en sus recorridos asistenciales — EMS, Spitex o ambos."
+        }
+      },
+      "floor-plans": {
+        "subtitle": "Modelado isométrico 3D de su edificio + GPS interior que guía a visitantes, familias y profesionales. La señalización deja de ser un problema.",
+        "visualAlt": "Plano 3D isométrico de un hospital — quirófanos, sala RM, planta, laboratorio, vestíbulo principal, con ruta GPS interior",
+        "capabilities": {
+          "eyebrow": "Capacidades",
+          "heading": "Lo que obtiene",
+          "intro": "Modelamos su edificio en isométrico, luego integramos el plano en la app con un GPS interior en tiempo real.",
+          "items": {
+            "f0": {
+              "title": "Modelado a medida",
+              "description": "Pisos, servicios, habitaciones, recepciones, accesos — su edificio, a escala, en la app de cada actor."
+            },
+            "f1": {
+              "title": "GPS interior",
+              "description": "Itinerarios en tiempo real desde la recepción hasta la habitación 217 o el quirófano 3."
+            },
+            "f2": {
+              "title": "Optimización de flujos",
+              "description": "Datos reales de circulación para repensar la disposición, identificar cuellos de botella, fluidificar los recorridos."
+            },
+            "f3": {
+              "title": "Multi-edificio",
+              "description": "EMS con varios pabellones, hospitales multi-servicio, clínicas con anexos: todo conectado en un solo plano navegable."
+            }
+          }
+        },
+        "compliance": "Ningún dato de geolocalización del paciente almacenado por defecto. Trazado GPS efímero, conforme a la nLPD.",
+        "cta": {
+          "eyebrow": "Próxima etapa",
+          "title": "Veamos su edificio modelado.",
+          "description": "30 minutos para discutir el modelado y la integración GPS en su establecimiento."
+        }
+      }
+    }
+  },
+  "pourQui": {
+    "eyebrow": "Para quién",
+    "title": "Diseñada para cada tipo de establecimiento.",
+    "subtitle": "EMS, Spitex, hospitales y clínicas — cada uno con sus limitaciones, cada uno con sus herramientas. Pero un solo núcleo técnico y una sola promesa de conformidad.",
+    "tabsAriaLabel": "Seleccione su tipo de establecimiento",
+    "audiences": {
+      "ems": {
+        "label": "EMS",
+        "title": "Para residencias (EMS)",
+        "description": "Gestión multi-institución, audit log nLPD, RBAC granular. La casa entera, en una pantalla.",
+        "features": {
+          "f0": {
+            "title": "Multi-institución",
+            "description": "Gestión de varias residencias desde una sola consola. KPIs comparables, separación estricta de los datos."
+          },
+          "f1": {
+            "title": "Audit log nLPD",
+            "description": "Traza inmutable de accesos y modificaciones. Documentación disponible para sus auditorías internas y cantonales."
+          },
+          "f2": {
+            "title": "Multi-equipo y RBAC",
+            "description": "Dirección, profesionales, conserjes — cada uno con su nivel de acceso e interfaz, con permisos granulares."
+          }
+        }
+      },
+      "spitex": {
+        "label": "Spitex",
+        "title": "Para los cuidados a domicilio",
+        "description": "Conexión profesional ↔ paciente ↔ familia a distancia, con validación GPS de las visitas e informes firmados criptográficamente.",
+        "features": {
+          "f0": {
+            "title": "Visitas con GPS",
+            "description": "Geofencing GPS para validar automáticamente las presencias en el domicilio. Diseñado para los requisitos de Spitex CH."
+          },
+          "f1": {
+            "title": "Informes firmados HMAC",
+            "description": "Cada informe de visita está firmado criptográficamente. Conforme a los requisitos KVG/LAMal."
+          },
+          "f2": {
+            "title": "Alertas priorizadas",
+            "description": "El profesional ve lo urgente primero. El resto pasa a cola, sin ruido."
+          }
+        }
+      },
+      "hospitals": {
+        "label": "Hospitales",
+        "title": "Para los hospitales",
+        "description": "Plataforma multi-servicio con API REST documentada, RBAC granular y audit log inmutable.",
+        "features": {
+          "f0": {
+            "title": "API REST documentada",
+            "description": "Sincronización con su sistema existente vía API y webhooks. Integración HL7/FHIR en estudio para los hospitales."
+          },
+          "f1": {
+            "title": "Multi-servicio y RBAC",
+            "description": "Compartimentos estancos entre servicios. Permisos granulares por rol y por departamento."
+          },
+          "f2": {
+            "title": "Audit log inmutable",
+            "description": "Cada acción rastreada. Traza conforme a los requisitos nLPD y a las auditorías hospitalarias."
+          }
+        },
+        "tile": {
+          "eyebrow": "Hoy · Multi-servicio",
+          "title": "Gestión en tiempo real",
+          "liveLabel": "Live",
+          "patientsLabel": "pacientes",
+          "departments": {
+            "emergency": "Urgencias",
+            "medicine": "Medicina",
+            "geriatrics": "Geriatría",
+            "pediatrics": "Pediatría",
+            "surgery": "Cirugía",
+            "radiology": "Radiología"
+          }
+        }
+      },
+      "clinics": {
+        "label": "Clínicas",
+        "title": "Para las clínicas privadas",
+        "description": "Experiencia paciente de alta gama, telemedicina integrada, branding institucional.",
+        "features": {
+          "f0": {
+            "title": "White-label",
+            "description": "Su marca, sus colores, su dominio. Nuestro núcleo técnico."
+          },
+          "f1": {
+            "title": "Presencia internacional",
+            "description": "Alojamiento en Suiza + nodos regionales para los pacientes en el extranjero."
+          },
+          "f2": {
+            "title": "Multilingüe automático",
+            "description": "Cada mensaje recibido en el idioma elegido. La barrera lingüística desaparece para sus pacientes y familias internacionales."
+          }
+        },
+        "tile": {
+          "role": "Paciente · Ginebra"
+        }
+      }
+    }
+  },
+  "compliance": {
+    "eyebrow": "Conformidad",
+    "title": "Diseñado para la ley suiza, no un parche RGPD.",
+    "subtitle": "nLPD nativo, alojamiento en Suiza, audit log inmutable. La conformidad está en la arquitectura, no en un anexo contractual.",
+    "trustLine": "Documentación técnica disponible bajo solicitud para sus servicios jurídicos e IT.",
+    "pillars": {
+      "nlpd": {
+        "title": "nLPD nativo",
+        "description": "Audit log nativo de accesos y modificaciones, diseñado para los requisitos de la ley suiza desde la primera línea de código."
+      },
+      "hosting": {
+        "title": "Alojamiento en Suiza",
+        "description": "Infraestructura alojada en Suiza (Infomaniak, Ginebra). Los datos del paciente no salen del territorio suizo."
+      },
+      "encryption": {
+        "title": "Cifrado moderno",
+        "description": "TLS 1.3 en tránsito sobre servidor suizo. Cifrado de las copias de seguridad en reposo. Informes de visita firmados HMAC."
+      },
+      "audit": {
+        "title": "Audit log nLPD",
+        "description": "Traza inmutable de cada acceso y modificación. Multi-institución con RBAC granular y separación estricta de datos."
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de pedir una demo.",
+    "subtitle": "Las preguntas que las direcciones de EMS, Spitex y hospitales nos hacen con más frecuencia.",
+    "questions": {
+      "q0": {
+        "question": "¿Cómo es el onboarding?",
+        "answer": "Acompañamos la migración de los expedientes existentes y formamos a los equipos in situ. El calendario preciso se define tras una auditoría de la institución durante la demo."
+      },
+      "q1": {
+        "question": "¿Cómo se integran con nuestro sistema existente?",
+        "answer": "API REST documentada. Sincronización posible vía webhooks y exportaciones CSV/JSON. La integración HL7/FHIR para hospitales está en estudio."
+      },
+      "q2": {
+        "question": "¿Qué pasa si decidimos irnos?",
+        "answer": "Sus datos son suyos. Exportación completa bajo solicitud, sin costes, en formatos abiertos (CSV, JSON). Las condiciones precisas de salida se definen en el contrato."
+      },
+      "q3": {
+        "question": "¿Cómo es la tarificación?",
+        "answer": "Presupuesto personalizado establecido tras una demo de 30 minutos, según el tamaño de la institución, los módulos elegidos y el número de usuarios."
+      },
+      "q4": {
+        "question": "¿Sus datos permanecen en Suiza?",
+        "answer": "Sí. Infraestructura alojada en Suiza (Infomaniak, Ginebra). Ningún dato del paciente sale del territorio suizo. Adaptaciones cantonales discutidas caso por caso."
+      },
+      "q5": {
+        "question": "¿Cómo solicitar una demo?",
+        "answer": "Solicite una demo de 30 minutos a través del formulario de contacto o por correo electrónico. Después establecemos un presupuesto personalizado tras haber comprendido sus necesidades."
+      }
+    }
+  },
+  "finalCta": {
+    "eyebrow": "Listos para la demo",
+    "title": "Una demo personalizada según su institución.",
+    "subtitle": "30 minutos. Le mostramos CareBond con sus casos de uso reales — no una demo genérica que se parece a otra.",
+    "secondary": "Escribirnos directamente"
+  },
+  "floorPlans": {
+    "eyebrow": "Planos 3D y navegación interior",
+    "title": "Sus residentes, sus visitantes y sus profesionales ya no se pierden.",
+    "subtitle": "CareBond produce el plano 3D de su residencia, hospital o clínica, luego lo integra en la app con un GPS interior que guía a cada uno hacia la habitación que busca. La señalización deja de ser un problema.",
+    "learnMore": "Saber más sobre los planos 3D",
+    "bullets": {
+      "b0": {
+        "title": "Plano 3D a medida",
+        "description": "Modelamos su edificio en isométrico: pisos, servicios, habitaciones, recepciones. Una vez construido, el plano vive en la app de cada actor."
+      },
+      "b1": {
+        "title": "Optimización de flujos",
+        "description": "El plano 3D se convierte en una herramienta de gestión para la dirección: identificar cuellos de botella, optimizar la circulación, repensar la disposición con datos reales."
+      },
+      "b2": {
+        "title": "GPS interior integrado",
+        "description": "Visitantes, familias y médicos son guiados en tiempo real desde la recepción hasta la habitación 217 — sin preguntar el camino, sin perderse en los pasillos."
+      }
+    },
+    "hospital": {
+      "alt": "Plano 3D isométrico de un hospital — habitaciones, quirófanos, sala RM, laboratorio, recepción, con ruta GPS interior trazada entre los servicios",
+      "eyebrow": "Vista previa · Plano hospitalario",
+      "title": "Navegación en tiempo real",
+      "liveLabel": "Live",
+      "youAreHere": "Usted",
+      "pathLabel": "Itinerario activo",
+      "distance": "92 m",
+      "eta": "1 min",
+      "rooms": {
+        "reception": "Recepción",
+        "waiting": "Sala de espera",
+        "office": "Oficina dirección",
+        "consultation": "Consulta",
+        "treatment": "Tratamiento",
+        "imaging": "Radiología",
+        "pharmacy": "Farmacia"
+      }
+    }
+  },
+  "chatMultilingue": {
+    "eyebrow": "Chat multilingüe",
+    "title": "Una familia habla español. El profesional habla francés. CareBond traduce.",
+    "subtitle": "En Suiza como en otros lugares, muchos pacientes y familias no hablan el idioma del cuidado. CareBond traduce cada mensaje al idioma de cada interlocutor, en tiempo real. La barrera desaparece, la comunicación queda.",
+    "learnMore": "Saber más sobre el chat multilingüe",
+    "bullets": {
+      "b0": {
+        "title": "Traducción en tiempo real",
+        "description": "Sin latencia perceptible. El destinatario ve el mensaje en su idioma antes incluso de pensar en leerlo."
+      },
+      "b1": {
+        "title": "Alojamiento en Suiza",
+        "description": "El contenido nunca sale del país. Traducción realizada en infraestructura suiza, no en los hyperscalers."
+      },
+      "b2": {
+        "title": "Bidireccional y trazable",
+        "description": "Cada mensaje conservado en ambos idiomas. La auditoría nLPD incluye la traza completa de las traducciones."
+      },
+      "b3": {
+        "title": "Control por el profesional",
+        "description": "El profesional activa o desactiva el chat según el contexto clínico. Sin mensajes nocturnos, sin intrusión fuera de la visita. El control queda del lado profesional."
+      }
+    }
+  },
+  "moduleResidences": {
+    "eyebrow": "Módulo Residencias",
+    "title": "Diseñado para los EMS suizos, desde el ingreso hasta la auditoría.",
+    "subtitle": "El módulo estrella de CareBond. Pensado para el establecimiento médico-social que quiere un expediente paciente estructurado, una visita digital en el bolsillo, y una exportación de auditoría lista con un clic.",
+    "pillars": {
+      "admission": {
+        "title": "Ingreso y expediente paciente",
+        "description": "Todo empieza por un ingreso. CareBond transforma esta primera etapa en un expediente paciente estructurado, conforme nLPD desde el primer clic.",
+        "bullets": {
+          "b0": "Formulario de ingreso estandarizado, validado cantón por cantón",
+          "b1": "Firma electrónica del residente y de la familia",
+          "b2": "Auto-importación de los datos de salud (medicamentos, alergias, contactos)",
+          "b3": "Expediente desmaterializado listo para los profesionales en cinco minutos"
+        }
+      },
+      "rounds": {
+        "title": "Visita digital y signos vitales",
+        "description": "El profesional entra, abre la app, ve su visita del día. Vitales, alertas, medicamentos — todo en el bolsillo, validado en dos taps.",
+        "bullets": {
+          "b0": "Visita del día pre-organizada, habitación por habitación",
+          "b1": "Signos vitales registrados offline si es necesario, sincronizados automáticamente",
+          "b2": "Alertas priorizadas por gravedad, nunca perdidas",
+          "b3": "Foto y nota de visita opcionales, con marca temporal",
+          "b4": "Recetas electrónicas con firma digital del prescriptor autorizado, conforme a las buenas prácticas eHealth suizas"
+        }
+      },
+      "audit": {
+        "title": "Audit log y trazabilidad",
+        "description": "Cada acceso, cada acción, cada modificación se rastrea de manera inmutable. Documentación lista para sus auditorías internas y para la transparencia frente a las autoridades.",
+        "bullets": {
+          "b0": "Audit log nativo de accesos y modificaciones",
+          "b1": "Filtrado por periodo, residente, profesional",
+          "b2": "Informes de visita firmados HMAC, conformes a los requisitos KVG/LAMal",
+          "b3": "Exportación estructurada para sus auditorías internas, formatos cantonales próximamente"
+        }
+      }
+    }
+  },
+  "soignerSansSilos": {
+    "eyebrow": "Cuidar sin silos",
+    "title": "El cuidado no puede sobrevivir a los silos.",
+    "subtitle": "Cada llamada perdida, cada informe extraviado, cada alerta que no llega — es una pérdida real de cuidado, no un problema de organización.",
+    "avant": {
+      "label": "Sin CareBond",
+      "title": "El cuidado fragmentado",
+      "items": {
+        "i0": "La familia llama tres veces por semana para tener noticias.",
+        "i1": "Mini-informe perdido en un email o un SMS olvidado.",
+        "i2": "El profesional debe llamar a la dirección para validar una alerta.",
+        "i3": "Auditoría nLPD: tres semanas de papeleo y carpetas."
+      }
+    },
+    "apres": {
+      "label": "Con CareBond",
+      "title": "El cuidado unificado",
+      "items": {
+        "i0": "La familia recibe su mini-informe automático cada día, sin pedirlo.",
+        "i1": "El profesional valida en dos taps desde su bolsillo.",
+        "i2": "La dirección ve la alerta en tiempo real, sin llamada telefónica.",
+        "i3": "Auditoría nLPD: una sola exportación, lista para las autoridades cantonales."
+      }
+    },
+    "closing": "Cuando cada actor ve la misma realidad, el cuidado vuelve a ser continuo."
+  },
+  "howItWorks": {
+    "eyebrow": "Cómo funciona",
+    "title": "Cuatro superficies, un solo flujo.",
+    "subtitle": "Del SOS del paciente a la gestión de la dirección — cada uno ve lo que necesita, sin ruido ni desvíos. Una sola plataforma, cuatro roles, una misma verdad.",
+    "steps": {
+      "patient": {
+        "number": "01",
+        "title": "Paciente",
+        "description": "Interfaz simple pensada para personas mayores. SOS de un tap, videollamadas, acceso directo al profesional."
+      },
+      "family": {
+        "number": "02",
+        "title": "Familia",
+        "description": "Mini-informes diarios, livestream con consentimiento, tranquilidad a distancia. Sin intrusión."
+      },
+      "professional": {
+        "number": "03",
+        "title": "Profesional",
+        "description": "Visita digital, alertas prioritarias, signos vitales en tiempo real. Menos papeleo, más cuidado."
+      },
+      "direction": {
+        "number": "04",
+        "title": "Dirección",
+        "description": "Gestión institucional, auditoría nLPD, KPIs residencia por residencia. La casa, en una pantalla."
+      }
+    }
+  },
+  "common": {
+    "skipLink": "Ir al contenido principal"
+  },
+  "error": {
+    "title": "Algo salió mal.",
+    "subtitle": "Ha ocurrido un error inesperado. Puede volver a intentarlo o regresar al inicio.",
+    "retry": "Reintentar",
+    "home": "Volver al inicio"
+  },
+  "footer": {
+    "tagline": "La plataforma de cuidados suiza para pacientes, familias y profesionales.",
+    "navAriaLabel": "Pie de página",
+    "columns": {
+      "solutions": "Soluciones",
+      "company": "Empresa",
+      "legal": "Legal"
+    },
+    "links": {
+      "privacy": "Política de privacidad",
+      "terms": "Condiciones generales",
+      "cookies": "Política de cookies",
+      "credits": "Créditos",
+      "imprint": "Aviso legal"
+    },
+    "bottom": {
+      "address": "Ginebra, Suiza",
+      "rights": "Todos los derechos reservados"
+    }
+  },
+  "metadata": {
+    "title": "CareBond — Plataforma de cuidados suiza",
+    "description": "Plataforma de cuidados suiza para pacientes, familias y profesionales. Conforme nLPD, alojamiento en Suiza, diseñada para EMS, Spitex, hospitales y clínicas."
+  },
+  "contact": {
+    "metadata": {
+      "title": "Contacto — CareBond",
+      "description": "Solicite una demostración de CareBond o póngase en contacto con nuestro equipo."
+    },
+    "page": {
+      "eyebrow": "Solicite una demo",
+      "title": "Veamos CareBond con sus casos de uso.",
+      "subtitle": "30 minutos por videollamada. Le mostramos la plataforma con sus limitaciones reales — tipo de institución, tamaño, módulos que le interesan. Sin demo genérica."
+    },
+    "sidebar": {
+      "title": "Contacto directo",
+      "description": "¿Prefiere escribirnos o pasar a vernos? Todos los caminos llevan al mismo equipo.",
+      "emailLabel": "Email",
+      "locationLabel": "Oficina",
+      "locationValue": "Ginebra, Suiza",
+      "responseLabel": "Tiempo de respuesta",
+      "responseValue": "En 24 horas laborables"
+    }
+  },
+  "contactForm": {
+    "fields": {
+      "name": {
+        "label": "Nombre completo",
+        "placeholder": "María García"
+      },
+      "email": {
+        "label": "Email profesional",
+        "placeholder": "maria@institucion.ch"
+      },
+      "institution": {
+        "label": "Institución",
+        "placeholder": "EMS Les Tilleuls, Hospital de la Tour..."
+      },
+      "audience": {
+        "label": "Tipo de establecimiento",
+        "placeholder": "Seleccione…",
+        "options": {
+          "ems": "EMS / Residencia medicalizada",
+          "spitex": "Spitex / Cuidados a domicilio",
+          "hospitals": "Hospital",
+          "clinics": "Clínica privada",
+          "other": "Otro"
+        }
+      },
+      "message": {
+        "label": "Su solicitud",
+        "placeholder": "Algunas palabras sobre su contexto, los módulos que le interesan, el número de camas o usuarios involucrados…"
+      }
+    },
+    "submit": "Enviar la solicitud",
+    "submitting": "Enviando…",
+    "privacy": "Sus datos se tratan conforme a la nLPD. Sin compartir con terceros.",
+    "success": {
+      "title": "Solicitud recibida, gracias.",
+      "message": "Le contactaremos en 24 horas laborables con un horario para la demo.",
+      "again": "Enviar otra solicitud"
+    },
+    "error": {
+      "send_failed": "Ha ocurrido un error al enviar. Por favor, inténtelo de nuevo o escríbanos directamente a contact@carebond.ch."
+    }
+  },
+  "legal": {
+    "imprint": {
+      "eyebrow": "Aviso legal",
+      "title": "Aviso legal",
+      "metaDescription": "Información legal del sitio CareBond: editor, alojamiento, propiedad intelectual.",
+      "lastUpdated": "Actualizado el 14 de mayo de 2026",
+      "editor": {
+        "heading": "Editor del sitio",
+        "body": "Este sitio está editado por CareBond SA, con sede en Ginebra (Suiza). Para cualquier pregunta sobre el contenido del sitio o la sociedad, contáctenos en contact@carebond.ch."
+      },
+      "publication": {
+        "heading": "Director de publicación",
+        "body": "La dirección de la publicación corre a cargo de la dirección general de CareBond SA. La responsabilidad editorial del sitio recae en el equipo interno de CareBond."
+      },
+      "hosting": {
+        "heading": "Alojamiento",
+        "body": "El sitio está alojado por Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, Estados Unidos (vercel.com). La región de alojamiento principal es fra1 (Fráncfort, Unión Europea), elegida para minimizar la distancia con Suiza."
+      },
+      "ip": {
+        "heading": "Propiedad intelectual",
+        "body": "El conjunto de los contenidos del sitio (textos, imágenes, logo, código fuente, marca CareBond) son propiedad exclusiva de CareBond SA, salvo mención contraria explícita. Toda reproducción, representación o difusión, total o parcial, sin autorización escrita previa, está prohibida."
+      },
+      "contact": {
+        "heading": "Contacto",
+        "body": "Para cualquier pregunta legal o solicitud relativa a este aviso, escríbanos a"
+      }
+    },
+    "privacy": {
+      "eyebrow": "Privacidad",
+      "title": "Política de privacidad",
+      "metaDescription": "Cómo CareBond recoge, utiliza y protege sus datos personales, conforme a la nLPD.",
+      "lastUpdated": "Actualizado el 14 de mayo de 2026",
+      "intro": "CareBond SA trata sus datos personales con rigor, conforme a la Ley federal suiza de protección de datos (nLPD) y las buenas prácticas internacionales. Esta política describe lo que recogemos en este sitio de marketing, con qué fin y qué derechos tiene.",
+      "sections": {
+        "controller": {
+          "heading": "1. Responsable del tratamiento",
+          "body": "El responsable del tratamiento de los datos personales recogidos vía carebond.ch es CareBond SA, en Ginebra (Suiza). Para cualquier pregunta relativa a sus datos, contáctenos en contact@carebond.ch."
+        },
+        "data": {
+          "heading": "2. Datos recogidos",
+          "body": "Recogemos únicamente los datos que usted nos proporciona voluntariamente a través del formulario de contacto: nombre completo, dirección de email profesional, nombre de su institución, tipo de establecimiento (EMS, Spitex, hospital, clínica, otro) y el contenido de su mensaje. No recogemos identificadores publicitarios ni huellas de navegador. El sitio no contiene ningún cookie de terceros para tracking."
+        },
+        "purposes": {
+          "heading": "3. Finalidades",
+          "body": "Sus datos se utilizan exclusivamente para responder a su solicitud de demostración o información, planificar una conversación, y en su caso establecer un presupuesto personalizado. No los utilizamos con fines de marketing automatizado ni de perfilado."
+        },
+        "legalBasis": {
+          "heading": "4. Base legal",
+          "body": "El tratamiento de sus datos se basa en su consentimiento explícito (envío voluntario del formulario) y en nuestro interés legítimo de dar seguimiento a su solicitud comercial, conforme a la nLPD."
+        },
+        "recipients": {
+          "heading": "5. Destinatarios y encargados del tratamiento",
+          "body": "Sus datos son accesibles únicamente al equipo interno de CareBond SA. Utilizamos dos encargados técnicos del tratamiento: (a) Vercel Inc. para el alojamiento del sitio (región fra1, Fráncfort, UE); (b) Resend Inc. para la transmisión de los emails del formulario de contacto. Ningún otro tercero recibe sus datos."
+        },
+        "transfers": {
+          "heading": "6. Transferencias internacionales",
+          "body": "Vercel Inc. y Resend Inc. son sociedades estadounidenses. Los datos transitan por sus infraestructuras en el marco del funcionamiento técnico del sitio y del formulario. Estas transferencias están reguladas por las Cláusulas Contractuales Tipo (CCT) y los compromisos de conformidad de cada proveedor. La región de alojamiento principal de Vercel para este sitio está en la Unión Europea (Fráncfort)."
+        },
+        "retention": {
+          "heading": "7. Plazo de conservación",
+          "body": "Los mensajes recibidos a través del formulario de contacto se conservan en nuestro buzón el tiempo necesario para el tratamiento de su solicitud, luego se archivan o eliminan conforme a nuestras prácticas internas de gestión documental. Puede solicitar la eliminación de sus datos en cualquier momento."
+        },
+        "rights": {
+          "heading": "8. Sus derechos",
+          "body": "En virtud de la nLPD, dispone de los derechos de acceso, rectificación, supresión, portabilidad, oposición y limitación del tratamiento de sus datos. Para ejercer estos derechos, escríbanos a contact@carebond.ch precisando la naturaleza de su solicitud. También puede presentar una reclamación ante el Encargado federal de protección de datos y transparencia (PFPDT/FDPIC)."
+        },
+        "security": {
+          "heading": "9. Seguridad",
+          "body": "El sitio utiliza TLS 1.3 para cifrar los intercambios entre su navegador y nuestros servidores. Los datos del formulario transitan cifrados de extremo a extremo entre su dispositivo, la infraestructura Vercel y el buzón de recepción final."
+        },
+        "cookies": {
+          "heading": "10. Cookies y rastreadores",
+          "body": "Este sitio no utiliza actualmente ningún cookie de medición de audiencia ni de marketing. Solo pueden depositarse cookies estrictamente necesarios para el funcionamiento (por ejemplo, la selección de idioma). Consulte nuestra política de cookies para más detalles."
+        },
+        "changes": {
+          "heading": "11. Modificaciones",
+          "body": "Esta política puede actualizarse para reflejar las evoluciones técnicas, legales u organizativas. La fecha de la última actualización se indica al inicio de esta página."
+        },
+        "contact": {
+          "heading": "12. Contacto",
+          "body": "Para cualquier pregunta relativa a esta política o al tratamiento de sus datos, contáctenos en"
+        }
+      }
+    },
+    "terms": {
+      "eyebrow": "Condiciones",
+      "title": "Condiciones generales de uso",
+      "metaDescription": "Condiciones de uso del sitio de marketing carebond.ch.",
+      "lastUpdated": "Actualizado el 14 de mayo de 2026",
+      "intro": "Las presentes condiciones generales rigen el uso del sitio de marketing carebond.ch. El uso de la plataforma SaaS CareBond es objeto de un contrato separado firmado con su institución.",
+      "sections": {
+        "scope": {
+          "heading": "1. Objeto",
+          "body": "Las presentes CGU se aplican a toda persona que consulte el sitio carebond.ch. Rigen la navegación por el sitio, el uso del formulario de contacto y el acceso a la información publicada."
+        },
+        "acceptance": {
+          "heading": "2. Aceptación",
+          "body": "El acceso y uso del sitio implican la aceptación plena y entera de las presentes CGU. Si no acepta estas condiciones, le invitamos a no usar el sitio."
+        },
+        "use": {
+          "heading": "3. Uso del sitio",
+          "body": "Usted se compromete a usar el sitio respetando las leyes vigentes, a no intentar acceder a zonas no públicas y a no enviar contenido ilícito, difamatorio o abusivo a través del formulario de contacto."
+        },
+        "liability": {
+          "heading": "4. Limitación de responsabilidad",
+          "body": "CareBond SA hace todo lo posible por proporcionar información exacta y actualizada, pero no puede garantizar la ausencia de errores o interrupciones del servicio. El uso de la información publicada se realiza bajo su única responsabilidad."
+        },
+        "law": {
+          "heading": "5. Derecho aplicable",
+          "body": "Las presentes CGU se rigen por el derecho suizo. Cualquier litigio se someterá a la competencia exclusiva de los tribunales del cantón de Ginebra, sin perjuicio de las vías de recurso obligatorias."
+        }
+      }
+    },
+    "cookies": {
+      "eyebrow": "Cookies",
+      "title": "Política de cookies",
+      "metaDescription": "Cómo carebond.ch utiliza los cookies — actualmente ningún cookie de tracking.",
+      "lastUpdated": "Actualizado el 14 de mayo de 2026",
+      "intro": "Esta página describe el uso de los cookies en carebond.ch. Hemos elegido deliberadamente minimizar su uso y no recoger ningún dato de análisis de comportamiento.",
+      "sections": {
+        "status": {
+          "heading": "Estado actual",
+          "body": "El sitio carebond.ch no utiliza actualmente ningún cookie de terceros para medición de audiencia, marketing o perfilado. Ningún dato se comparte con Google Analytics, Meta Pixel, LinkedIn Insight o un servicio equivalente."
+        },
+        "necessary": {
+          "heading": "Cookies estrictamente necesarios",
+          "body": "Solo pueden depositarse cookies estrictamente necesarios para el funcionamiento del sitio (por ejemplo, la memorización de su idioma preferido). Estos cookies no requieren su consentimiento previo según la nLPD porque son indispensables para la prestación del servicio que usted solicitó."
+        },
+        "analytics": {
+          "heading": "Medición de audiencia",
+          "body": "Si en el futuro implementamos una herramienta de medición de audiencia, privilegiaremos una solución respetuosa con la privacidad (por ejemplo Plausible), alojada en Europa, sin cookie persistente ni intercambio de datos con terceros publicitarios. Esta página se actualizará en consecuencia."
+        },
+        "manage": {
+          "heading": "Gestionar los cookies",
+          "body": "Puede eliminar en cualquier momento los cookies depositados a través de los ajustes de su navegador. La eliminación de los cookies estrictamente necesarios puede afectar a su experiencia (por ejemplo, pérdida del idioma seleccionado)."
+        }
+      }
+    },
+    "credits": {
+      "eyebrow": "Créditos",
+      "title": "Créditos",
+      "metaDescription": "Fuentes y créditos de las ilustraciones, fuentes y bibliotecas utilizadas en carebond.ch.",
+      "lastUpdated": "Actualizado el 14 de mayo de 2026",
+      "intro": "El sitio carebond.ch se apoya en bibliotecas open source y recursos creativos que queremos agradecer aquí.",
+      "sections": {
+        "illustrations": {
+          "heading": "Ilustraciones isométricas 3D",
+          "body": "Las ilustraciones 3D que representan el hospital y la residencia en la sección « Planos 3D y navegación interior » y en el bento de la plataforma son visualizaciones arquitectónicas utilizadas en el marco de nuestra demostración de producto."
+        },
+        "icons": {
+          "heading": "Iconos",
+          "body": "Todos los iconos provienen de la biblioteca Lucide (lucide.dev), distribuida bajo licencia ISC. Un gran agradecimiento a los contribuyentes del proyecto."
+        },
+        "typography": {
+          "heading": "Tipografía",
+          "body": "El sitio utiliza la fuente Inter, diseñada por Rasmus Andersson (rsms.me/inter), distribuida bajo licencia SIL Open Font."
+        },
+        "openSource": {
+          "heading": "Software open source",
+          "body": "Construido con Next.js (Vercel), React (Meta), Tailwind CSS, TypeScript, next-intl, react-hook-form, Zod y varias otras bibliotecas open source. Gracias a los cientos de contribuyentes que hacen este trabajo posible."
+        }
+      }
+    }
+  },
+  "solutions": {
+    "ems": {
+      "eyebrow": "Para las residencias (EMS)",
+      "title": "La gestión de un EMS, sin papeleo y sin puntos ciegos.",
+      "subtitle": "Visita digital, audit nLPD nativo, multi-establecimientos desde una sola consola. Diseñado para las direcciones que quieren ver claro sin micromanagement.",
+      "metaDescription": "Solución CareBond para los EMS suizos: gestión multi-establecimientos, audit nLPD, visita digital, multi-equipos con RBAC granular.",
+      "visualAlt": "Plano 3D isométrico de una residencia medicalizada — habitaciones de memoria, jardín terapéutico, vestíbulo principal",
+      "problem": {
+        "eyebrow": "El constato",
+        "heading": "El día a día de un EMS es demasiado a menudo papel y llamadas.",
+        "intro": "Cada hora pasada rellenando una carpeta es una hora menos junto a los residentes. CareBond devuelve esas horas al cuidado.",
+        "points": {
+          "p0": "La visita del día está en un papel que se pierde, y la transmisión al siguiente equipo se hace por llamada telefónica.",
+          "p1": "La familia llama tres veces por semana para tener noticias — y nadie tiene realmente el tiempo de responder bien.",
+          "p2": "La auditoría cantonal exige semanas de preparación para reunir los documentos correctos, en el formato adecuado.",
+          "p3": "Los residentes no francófonos y sus familias viven una barrera lingüística constante con el equipo asistencial."
+        }
+      },
+      "features": {
+        "eyebrow": "Lo que cambia CareBond",
+        "heading": "Una plataforma diseñada para la realidad de un EMS.",
+        "intro": "No un ERP genérico adaptado a la sanidad. Pensado desde la primera línea de código para las limitaciones suizas: nLPD, KVG/LAMal, requisitos cantonales.",
+        "items": {
+          "f0": {
+            "title": "Gestión multi-establecimientos",
+            "description": "Varias residencias desde una sola consola. KPIs comparables, separación estricta de datos, RBAC granular por equipo y por sede."
+          },
+          "f1": {
+            "title": "Audit log nLPD nativo",
+            "description": "Cada acceso y cada modificación se rastrea de forma inmutable. Documentación lista para sus auditorías internas y para las autoridades cantonales."
+          },
+          "f2": {
+            "title": "Chat multilingüe",
+            "description": "El residente hispanohablante habla con su cuidadora francófona, y cada uno lee en su idioma. La barrera desaparece, la comunicación queda."
+          },
+          "f3": {
+            "title": "Multi-equipos y roles",
+            "description": "Dirección, profesionales, conserjes, prestadores externos — cada uno con su nivel de acceso e interfaz, con permisos granulares."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Próxima etapa",
+        "title": "Veamos CareBond con su EMS en mente.",
+        "description": "30 minutos de demo con sus casos reales: tamaño, cantones, módulos elegidos, recorrido tipo de un residente en su centro."
+      }
+    },
+    "home-care": {
+      "eyebrow": "Para los cuidados a domicilio",
+      "title": "Confianza a distancia, sin vigilancia intrusiva.",
+      "subtitle": "Validación GPS de las visitas, informes firmados criptográficamente, livestream con consentimiento del paciente. Diseñado para Spitex CH y servicios equivalentes.",
+      "metaDescription": "Solución CareBond para Spitex y cuidados a domicilio: GPS geofencing, informes HMAC KVG/LAMal, livestream consentido, mini-informes familia.",
+      "visualAlt": "Vista previa de la aplicación familia — mini-informe diario y flujo livestream activable por el paciente",
+      "problem": {
+        "eyebrow": "El constato",
+        "heading": "El cuidado a domicilio es confianza — y se construye o se pierde en cada visita.",
+        "intro": "A distancia, la familia no tiene prueba de que la visita haya tenido lugar, el profesional no puede transmitirlo todo en un SMS, y la dirección no tiene tiempo de verificarlo todo manualmente.",
+        "points": {
+          "p0": "La familia llama para saber si la visita de la mañana fue bien — una y otra vez.",
+          "p1": "El profesional redacta un informe en papel que termina en una pila a final de mes.",
+          "p2": "Las alertas críticas se pierden entre WhatsApp, SMS y llamadas perdidas.",
+          "p3": "Validar la presencia en el domicilio pasa por fotos o llamadas — laborioso y poco fiable."
+        }
+      },
+      "features": {
+        "eyebrow": "Lo que cambia CareBond",
+        "heading": "El terreno validado, sin molestar a nadie.",
+        "intro": "Las herramientas que los equipos Spitex necesitan para hacer su trabajo sin perder tiempo en demostrar que lo hicieron.",
+        "items": {
+          "f0": {
+            "title": "Validación GPS de las visitas",
+            "description": "Geofencing automático en el domicilio del paciente. La presencia se confirma sin intervención, y la familia recibe la notificación."
+          },
+          "f1": {
+            "title": "Informes firmados HMAC",
+            "description": "Cada informe de visita está firmado criptográficamente. Conforme a los requisitos KVG/LAMal para la facturación y auditoría."
+          },
+          "f2": {
+            "title": "Livestream con consentimiento",
+            "description": "La cámara del paciente puede activarse y desactivarse por el paciente o su profesional, en cualquier momento. Registro de accesos completo."
+          },
+          "f3": {
+            "title": "Alertas priorizadas",
+            "description": "Lo urgente primero, el resto en cola. No más alertas críticas perdidas en el ruido de un hilo de mensajes."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Próxima etapa",
+        "title": "Veamos CareBond con su servicio a domicilio.",
+        "description": "30 minutos para comprender la realidad de su actividad y calibrar la demo en los módulos que le interesan."
+      }
+    },
+    "hospitals": {
+      "eyebrow": "Para los hospitales",
+      "title": "Una plataforma que habla con su EMR existente.",
+      "subtitle": "API REST documentada, RBAC granular por departamento, audit log inmutable, planos 3D y GPS interior. Diseñada para las cargas hospitalarias reales.",
+      "metaDescription": "Solución CareBond para los hospitales: API REST, integración EMR HL7/FHIR en estudio, RBAC multi-departamentos, planos 3D + navegación interior.",
+      "visualAlt": "Plano 3D isométrico de un hospital — quirófanos, sala RM, planta, laboratorio, vestíbulo principal, con ruta GPS interior",
+      "problem": {
+        "eyebrow": "El constato",
+        "heading": "En un hospital, el tiempo perdido orientándose o reescribiendo datos es cuidado perdido.",
+        "intro": "Los visitantes se pierden en los pasillos. Los sistemas no se hablan. La auditoría nLPD transversal exige semanas. Y cada departamento tiene sus propias herramientas.",
+        "points": {
+          "p0": "Los visitantes y pacientes externos vagan por los pasillos, y cualquier recepción acaba sirviendo de info.",
+          "p1": "Su EMR actual no habla con su herramienta de planificación, sus informes o su expediente paciente transversal.",
+          "p2": "La auditoría nLPD exige hacer clic en cinco sistemas diferentes para reunir un expediente.",
+          "p3": "Cada servicio (urgencias, medicina, radiología) gestiona sus permisos por separado — sin coherencia, sin RBAC unificado."
+        }
+      },
+      "features": {
+        "eyebrow": "Lo que cambia CareBond",
+        "heading": "Una plataforma diseñada para integrarse, no para sustituir.",
+        "intro": "CareBond no ambiciona reemplazar su EMR. Nos conectamos a él, cubrimos los puntos ciegos, y aportamos lo que faltaba: navegación interior, comunicación multilingüe, auditoría transversal.",
+        "items": {
+          "f0": {
+            "title": "API REST documentada",
+            "description": "Sincronización con su EMR existente vía API y webhooks. La integración HL7/FHIR para los hospitales está en estudio."
+          },
+          "f1": {
+            "title": "Multi-departamento y RBAC",
+            "description": "Urgencias, medicina, radiología: compartimentos estancos, permisos granulares por rol y departamento. Sin recodificar su ACL."
+          },
+          "f2": {
+            "title": "Audit log inmutable",
+            "description": "Cada acción rastreada, exportable. Traza conforme a los requisitos nLPD y a las auditorías hospitalarias cantonales."
+          },
+          "f3": {
+            "title": "Planos 3D y GPS interior",
+            "description": "Modelado isométrico de su edificio + GPS integrado que guía a visitantes, familias y profesionales al servicio correcto."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Próxima etapa",
+        "title": "Veamos CareBond con sus limitaciones hospitalarias.",
+        "description": "30 minutos para discutir la integración EMR, los requisitos cantonales y los módulos pertinentes para sus servicios."
+      }
+    },
+    "clinics": {
+      "eyebrow": "Para las clínicas privadas",
+      "title": "La experiencia paciente de alta gama, con su marca.",
+      "subtitle": "Chat multilingüe para pacientes internacionales, white-label, alojamiento en Suiza. Diseñado para las clínicas que quieren el rigor de una plataforma profesional sin perder su identidad.",
+      "metaDescription": "Solución CareBond para clínicas privadas: chat multilingüe, white-label, alojamiento en Suiza exclusivo, conformidad nLPD.",
+      "visualAlt": "Vista previa del chat multilingüe — mensajes ES↔FR traducidos en tiempo real con control del profesional",
+      "problem": {
+        "eyebrow": "El constato",
+        "heading": "Una clínica privada no es ni un hospital ni un EMS — sus limitaciones son únicas.",
+        "intro": "Pacientes internacionales, marca clínica fuerte, telemedicina entre consultas físicas, exigencia de una experiencia de alta gama en todos los puntos de contacto.",
+        "points": {
+          "p0": "Sus pacientes vienen de todas partes — España, Italia, Alemania, fuera de la UE. La barrera lingüística es cotidiana.",
+          "p1": "Su marca clínica es un activo. No quiere que una plataforma de terceros la diluya con su propio branding.",
+          "p2": "La telemedicina entre dos citas físicas es esperada, no opcional.",
+          "p3": "Sus pacientes VIP exigen un nivel de confidencialidad que una herramienta de consumo masivo no puede garantizar."
+        }
+      },
+      "features": {
+        "eyebrow": "Lo que cambia CareBond",
+        "heading": "Una plataforma profesional, a su imagen.",
+        "intro": "El núcleo técnico de CareBond, la interfaz y la experiencia con su marca. Y todas las capacidades multilingües + nLPD desde el día 1.",
+        "items": {
+          "f0": {
+            "title": "Chat multilingüe, controlado por el profesional",
+            "description": "Cada mensaje en el idioma de cada interlocutor. El profesional activa y desactiva el chat según el contexto clínico."
+          },
+          "f1": {
+            "title": "White-label",
+            "description": "Su marca, sus colores, su dominio. Nuestro núcleo técnico, invisible. Sus pacientes ven su clínica, no nuestro logo."
+          },
+          "f2": {
+            "title": "Confidencialidad de alta gama",
+            "description": "Audit log inmutable, cifrado TLS 1.3, alojamiento en Suiza exclusivo. Ningún dato sale del país."
+          },
+          "f3": {
+            "title": "Pacientes internacionales",
+            "description": "Alojamiento principal en Suiza, acceso optimizado para sus pacientes que viajan o viven en el extranjero."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Próxima etapa",
+        "title": "Veamos CareBond con su clínica en mente.",
+        "description": "30 minutos para explorar cómo conservar su marca y su experiencia paciente, ganando al mismo tiempo las capacidades multilingües + nLPD."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "Sobre nosotros",
+    "title": "El cuidado suizo, mejor equipado.",
+    "subtitle": "CareBond es una plataforma suiza pensada para los EMS, Spitex, hospitales y clínicas. Construimos la herramienta que falta entre pacientes, familias, profesionales y dirección — sin pretender reemplazar lo que ya funciona.",
+    "metaDescription": "Sobre CareBond — plataforma suiza para EMS, Spitex, hospitales y clínicas. Misión, valores y dónde estamos basados.",
+    "mission": {
+      "eyebrow": "Nuestra misión",
+      "heading": "Devolver al cuidado el tiempo que le quita el papeleo.",
+      "body1": "En un EMS suizo, el profesional pasa de media demasiadas horas rellenando carpetas, transmitiendo por teléfono y reuniendo documentos para la auditoría. Esas horas son horas que no van al residente.",
+      "body2": "CareBond las devuelve al cuidado. Centralizando la visita digital, la auditoría nLPD, el chat multilingüe, los informes firmados criptográficamente y la navegación interior en una sola plataforma.",
+      "body3": "No reemplazamos su EMR existente. Nos conectamos a él, cubrimos los puntos ciegos y aportamos lo que faltaba — sin rip-and-replace."
+    },
+    "values": {
+      "eyebrow": "Nuestros valores",
+      "heading": "Lo que rechazamos y lo que defendemos.",
+      "intro": "Cuatro elecciones de arquitectura que mantenemos desde la primera línea de código. Definen tanto lo que CareBond hace como lo que CareBond nunca hará.",
+      "items": {
+        "v0": {
+          "title": "Privacy-first, no privacy-as-an-option",
+          "description": "Sin cookies de tracking. Sin pixel publicitario. Sin fugas hacia Google Analytics. La nLPD está en la arquitectura, no en un anexo."
+        },
+        "v1": {
+          "title": "El profesional mantiene el control",
+          "description": "Chat, livestream, recetas — el profesional decide cuándo y cómo. CareBond nunca cortocircuita al clínico."
+        },
+        "v2": {
+          "title": "Audit log por defecto",
+          "description": "Cada acceso y cada modificación se rastrea. No como opción, no tras configuración: desde el día 1, en cada acción."
+        },
+        "v3": {
+          "title": "Suiza, sin desvíos",
+          "description": "Alojamiento en Suiza (Infomaniak, Ginebra). Sin nube extranjera, sin transferencia a los hyperscalers, sin jurisdicción extraterritorial."
+        }
+      }
+    },
+    "location": {
+      "body": "CareBond SA tiene su sede en Ginebra, Suiza. Trabajamos en francés, alemán, italiano, inglés y español, porque esa es la realidad suiza."
+    },
+    "cta": {
+      "eyebrow": "¿Hablamos?",
+      "title": "Veamos si CareBond tiene sentido para usted.",
+      "description": "30 minutos para comprender su contexto y mostrarle la plataforma con sus casos de uso. Sin demo genérica."
+    }
+  },
+  "compliancePage": {
+    "eyebrow": "Conformidad",
+    "title": "Conformidad por arquitectura, no por anexo.",
+    "subtitle": "nLPD nativo, KVG/LAMal, alojamiento en Suiza exclusivo, audit log inmutable. La conformidad no es una capa añadida — está construida en la plataforma desde la primera línea de código.",
+    "metaDescription": "Conformidad CareBond: nLPD, KVG/LAMal, alojamiento en Suiza, audit log, requisitos hospitalarios cantonales.",
+    "pillars": {
+      "nlpd": {
+        "title": "nLPD nativo",
+        "description": "Audit log nativo de accesos y modificaciones, diseñado para los requisitos de la ley suiza desde la primera línea de código. No un parche RGPD reciclado."
+      },
+      "hosting": {
+        "title": "Alojamiento en Suiza",
+        "description": "Infraestructura alojada en Infomaniak (Ginebra). Los datos del paciente no salen del territorio suizo, sin excepciones y sin cláusulas ocultas."
+      },
+      "encryption": {
+        "title": "Cifrado moderno",
+        "description": "TLS 1.3 en tránsito sobre servidor suizo, cifrado de las copias de seguridad en reposo, informes de visita firmados HMAC."
+      },
+      "audit": {
+        "title": "Audit log inmutable",
+        "description": "Traza inmutable de cada acceso y modificación, exportable para sus auditorías internas y para las autoridades cantonales. RBAC granular y multi-institución."
+      }
+    },
+    "regulations": {
+      "eyebrow": "Marco regulatorio",
+      "heading": "Diseñado para el derecho suizo.",
+      "intro": "CareBond se construyó para las exigencias suizas específicas, no adaptado desde un producto europeo. Estos son los principales marcos que abordamos.",
+      "items": {
+        "nlpd": {
+          "title": "nLPD (Ley federal)",
+          "description": "Ley federal de protección de datos. Audit log nativo, derechos de acceso y rectificación, ruta de reclamación hacia el PFPDT/FDPIC documentada en nuestra política de privacidad."
+        },
+        "kvg": {
+          "title": "KVG / LAMal",
+          "description": "Informes de visita firmados criptográficamente (HMAC), trazabilidad conforme a los requisitos del seguro de enfermedad para la facturación Spitex y hospitalaria."
+        },
+        "transfers": {
+          "title": "Transferencias internacionales",
+          "description": "Las pocas transferencias fuera de Suiza (formulario de contacto vía Resend, hosting vía Vercel fra1 Fráncfort) están reguladas por Cláusulas Contractuales Tipo y documentadas."
+        }
+      }
+    },
+    "docs": {
+      "eyebrow": "Documentación técnica",
+      "title": "¿Sus equipos jurídicos e IT quieren los detalles?",
+      "description": "Mantenemos a disposición la documentación técnica completa: arquitectura, flujos de datos, audit log, políticas de retención, contratos con encargados del tratamiento. Bajo solicitud, sin formulario que rellenar.",
+      "secondary": "Leer nuestra política de privacidad"
+    }
+  }
+}

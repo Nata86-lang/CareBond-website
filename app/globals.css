@@ -50,6 +50,9 @@
 [lang="it"] {
   hyphens: auto;
 }
+[lang="es"] {
+  hyphens: auto;
+}
 
 /* Chat demo animations — Phase 1B Hero. Pure CSS keyframes, no framer-motion. */
 @keyframes carebondFadeInUp {
