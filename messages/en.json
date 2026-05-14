@@ -10,7 +10,7 @@
       "ems": "For care homes",
       "homeCare": "For home care",
       "hospitals": "For hospitals",
-      "professionals": "For professionals"
+      "clinics": "For clinics"
     }
   },
   "header": {
@@ -719,6 +719,192 @@
           "heading": "Open-source software",
           "body": "Built with Next.js (Vercel), React (Meta), Tailwind CSS, TypeScript, next-intl, react-hook-form, Zod, and many other open-source libraries. Thanks to the hundreds of contributors who make this work possible."
         }
+      }
+    }
+  },
+  "solutions": {
+    "ems": {
+      "eyebrow": "For nursing homes",
+      "title": "Run a nursing home without paperwork or blind spots.",
+      "subtitle": "Digital rounds, native nLPD audit, multi-facility from a single console. Built for directors who want to see clearly without micromanaging.",
+      "metaDescription": "CareBond solution for Swiss nursing homes: multi-facility oversight, nLPD audit, digital rounds, multi-team RBAC.",
+      "visualAlt": "3D isometric plan of a nursing home — memory care wing, therapeutic garden, main lobby",
+      "problem": {
+        "eyebrow": "The reality",
+        "heading": "A typical nursing home loses too much caregiver time to paperwork.",
+        "intro": "Every hour spent filling a binder is an hour not spent with residents. CareBond gives those hours back to care.",
+        "points": {
+          "p0": "The day's rounds live on a piece of paper that gets misplaced, and handover to the next shift happens via phone call.",
+          "p1": "Families call three times a week for updates — and nobody really has the time to respond properly.",
+          "p2": "Cantonal audits require weeks of preparation to gather the right files in the right format.",
+          "p3": "Non-French-speaking residents and their families face a constant language barrier with the care team."
+        }
+      },
+      "features": {
+        "eyebrow": "What CareBond changes",
+        "heading": "A platform built for the reality of a nursing home.",
+        "intro": "Not a generic ERP retrofitted for healthcare. Designed from line one for Swiss constraints: nLPD, KVG/LAMal, cantonal requirements.",
+        "items": {
+          "f0": {
+            "title": "Multi-facility oversight",
+            "description": "Multiple homes from a single console. Comparable KPIs, strict data separation, granular RBAC per team and site."
+          },
+          "f1": {
+            "title": "Native nLPD audit log",
+            "description": "Every access and modification logged immutably. Documentation ready for internal audits and cantonal authorities."
+          },
+          "f2": {
+            "title": "Multilingual chat",
+            "description": "The Spanish-speaking resident chats with the French-speaking caregiver, each reading in their own language. Barrier gone, communication stays."
+          },
+          "f3": {
+            "title": "Multi-team & roles",
+            "description": "Management, caregivers, housekeeping, external providers — each with their access level and interface, with granular permissions."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Next step",
+        "title": "See CareBond with your nursing home in mind.",
+        "description": "A 30-minute demo on your real cases: size, cantons, modules chosen, a typical resident's journey at your facility."
+      }
+    },
+    "home-care": {
+      "eyebrow": "For home care",
+      "title": "Trust at a distance, without intrusive surveillance.",
+      "subtitle": "GPS visit validation, cryptographically signed reports, opt-in livestream from the patient. Built for Spitex CH and equivalent services.",
+      "metaDescription": "CareBond solution for Spitex and home care: GPS geofencing, HMAC reports compliant with KVG/LAMal, opt-in livestream, family mini-reports.",
+      "visualAlt": "Preview of the family app — daily mini-report and livestream feed activated by the patient",
+      "problem": {
+        "eyebrow": "The reality",
+        "heading": "Home care is trust — and it's built or broken with every visit.",
+        "intro": "At a distance, families have no proof the visit happened, caregivers can't communicate everything in a text, and management has no time to verify everything by hand.",
+        "points": {
+          "p0": "Families call to find out if the morning visit went well — over and over.",
+          "p1": "The caregiver writes a paper report that ends up in a pile at month-end.",
+          "p2": "Critical alerts get lost between WhatsApp, texts and missed calls.",
+          "p3": "Confirming presence at the patient's home means photos or calls — time-consuming and unreliable."
+        }
+      },
+      "features": {
+        "eyebrow": "What CareBond changes",
+        "heading": "The field validated, without disturbing anyone.",
+        "intro": "The tools Spitex teams need to do their job without wasting time proving they did it.",
+        "items": {
+          "f0": {
+            "title": "GPS visit validation",
+            "description": "Automatic geofencing at the patient's home. Presence is confirmed without action, and the family receives the notification."
+          },
+          "f1": {
+            "title": "HMAC-signed reports",
+            "description": "Every visit report is cryptographically signed. Compliant with KVG/LAMal requirements for billing and audit."
+          },
+          "f2": {
+            "title": "Opt-in livestream",
+            "description": "The patient's camera can be enabled or disabled by the patient or caregiver at any time. Full access log."
+          },
+          "f3": {
+            "title": "Prioritized alerts",
+            "description": "Urgent first, the rest queues up. No more critical alert lost in a message thread."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Next step",
+        "title": "See CareBond with your home care service.",
+        "description": "30 minutes to understand the reality of your operation and calibrate the demo on the modules that matter to you."
+      }
+    },
+    "hospitals": {
+      "eyebrow": "For hospitals",
+      "title": "A platform that talks to your existing EMR.",
+      "subtitle": "Documented REST API, department-level RBAC, immutable audit log, 3D plans and indoor GPS. Built for real hospital workloads.",
+      "metaDescription": "CareBond solution for hospitals: REST API, HL7/FHIR EMR integration under study, multi-department RBAC, 3D plans + indoor wayfinding.",
+      "visualAlt": "3D isometric plan of a hospital — operating theaters, MRI suite, ward, laboratory, main lobby, with indoor GPS route",
+      "problem": {
+        "eyebrow": "The reality",
+        "heading": "In a hospital, time lost finding your way or re-keying data is care lost.",
+        "intro": "Visitors get lost in corridors. Systems don't talk to each other. Cross-cutting nLPD audits take weeks. And each department has its own tools.",
+        "points": {
+          "p0": "Visitors and outpatients wander the corridors, and any reception desk ends up doubling as an info desk.",
+          "p1": "Your current EMR doesn't talk to your scheduling tool, your reports, or your cross-departmental patient record.",
+          "p2": "An nLPD audit means clicking through five different systems to assemble one file.",
+          "p3": "Each service (ER, medicine, radiology) manages its own permissions — no consistency, no unified RBAC."
+        }
+      },
+      "features": {
+        "eyebrow": "What CareBond changes",
+        "heading": "A platform built to integrate, not to replace.",
+        "intro": "CareBond doesn't aim to replace your EMR. We plug in, close the gaps, and add what was missing: indoor wayfinding, multilingual communication, cross-departmental audit.",
+        "items": {
+          "f0": {
+            "title": "Documented REST API",
+            "description": "Synchronize with your existing EMR via API and webhooks. HL7/FHIR integration for hospitals is under study."
+          },
+          "f1": {
+            "title": "Multi-department & RBAC",
+            "description": "ER, medicine, radiology: watertight separation, granular permissions per role and department. Without re-coding your ACL."
+          },
+          "f2": {
+            "title": "Immutable audit log",
+            "description": "Every action logged, exportable. Trail compliant with nLPD and cantonal hospital audit requirements."
+          },
+          "f3": {
+            "title": "3D plans & indoor GPS",
+            "description": "Isometric modeling of your building + built-in GPS guiding visitors, families and clinicians to the right service."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Next step",
+        "title": "See CareBond with your hospital constraints.",
+        "description": "30 minutes to discuss EMR integration, cantonal requirements, and modules relevant to your services."
+      }
+    },
+    "clinics": {
+      "eyebrow": "For private clinics",
+      "title": "Premium patient experience, in your brand.",
+      "subtitle": "Multilingual chat for international patients, white-label, Swiss hosting. Built for clinics that want the rigor of a professional platform without losing their identity.",
+      "metaDescription": "CareBond solution for private clinics: multilingual chat, white-label, exclusive Swiss hosting, nLPD compliance.",
+      "visualAlt": "Multilingual chat preview — ES↔FR messages translated in real time with caregiver control",
+      "problem": {
+        "eyebrow": "The reality",
+        "heading": "A private clinic is neither a hospital nor a nursing home — its constraints are unique.",
+        "intro": "International patients, strong clinic brand, telemedicine between physical consultations, expectation of premium experience at every touchpoint.",
+        "points": {
+          "p0": "Your patients come from everywhere — Spain, Italy, Germany, outside the EU. The language barrier is a daily reality.",
+          "p1": "Your clinic brand is an asset. You don't want a third-party platform diluting it with its own branding.",
+          "p2": "Telemedicine between two physical appointments is expected, not optional.",
+          "p3": "Your VIP patients demand a level of confidentiality that a consumer-grade tool can't guarantee."
+        }
+      },
+      "features": {
+        "eyebrow": "What CareBond changes",
+        "heading": "A professional platform, in your image.",
+        "intro": "CareBond's technical foundation, your branded interface and experience. With all the multilingual + nLPD capabilities from day one.",
+        "items": {
+          "f0": {
+            "title": "Multilingual chat, controlled by the caregiver",
+            "description": "Each message in each person's language. The caregiver enables or disables the chat depending on the clinical context."
+          },
+          "f1": {
+            "title": "White-label",
+            "description": "Your brand, your colors, your domain. Our technical foundation, invisible. Your patients see your clinic, not our logo."
+          },
+          "f2": {
+            "title": "Premium confidentiality",
+            "description": "Immutable audit log, TLS 1.3 encryption, exclusive Swiss hosting. No data leaves the country."
+          },
+          "f3": {
+            "title": "International patients",
+            "description": "Primary hosting in Switzerland, optimized access for patients who travel or live abroad."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Next step",
+        "title": "See CareBond with your clinic in mind.",
+        "description": "30 minutes to explore how to keep your brand and patient experience while gaining the multilingual + nLPD capabilities."
       }
     }
   }

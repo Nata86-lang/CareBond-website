@@ -10,7 +10,7 @@
       "ems": "Per le case di cura",
       "homeCare": "Per le cure a domicilio",
       "hospitals": "Per gli ospedali",
-      "professionals": "Per i professionisti"
+      "clinics": "Per le cliniche"
     }
   },
   "header": {
@@ -719,6 +719,192 @@
           "heading": "Software open source",
           "body": "Costruito con Next.js (Vercel), React (Meta), Tailwind CSS, TypeScript, next-intl, react-hook-form, Zod e diverse altre librerie open source. Grazie alle centinaia di contributori che rendono questo lavoro possibile."
         }
+      }
+    }
+  },
+  "solutions": {
+    "ems": {
+      "eyebrow": "Per le case di cura",
+      "title": "Gestire una casa di cura senza scartoffie e senza punti ciechi.",
+      "subtitle": "Giro digitale, audit LPD nativo, multi-struttura da una sola console. Concepito per le direzioni che vogliono vedere chiaro senza micromanagement.",
+      "metaDescription": "Soluzione CareBond per le case di cura svizzere: gestione multi-struttura, audit LPD, giro digitale, multi-team con RBAC granulare.",
+      "visualAlt": "Pianta 3D isometrica di una casa di cura — ala memory care, giardino terapeutico, ingresso principale",
+      "problem": {
+        "eyebrow": "La realtà",
+        "heading": "Il quotidiano di una casa di cura è troppo spesso fatto di carta e telefonate.",
+        "intro": "Ogni ora passata a compilare un raccoglitore è un'ora in meno con i residenti. CareBond restituisce queste ore alla cura.",
+        "points": {
+          "p0": "Il giro del giorno è su un foglio che si perde, e il passaggio di consegne al turno successivo avviene per telefono.",
+          "p1": "La famiglia chiama tre volte alla settimana per avere notizie — e nessuno ha davvero il tempo di rispondere bene.",
+          "p2": "L'audit cantonale richiede settimane di preparazione per raccogliere i documenti giusti nel formato corretto.",
+          "p3": "I residenti non italofoni e le loro famiglie vivono una barriera linguistica costante con l'équipe di cura."
+        }
+      },
+      "features": {
+        "eyebrow": "Cosa cambia CareBond",
+        "heading": "Una piattaforma concepita per la realtà di una casa di cura.",
+        "intro": "Non un ERP generico adattato alla sanità. Pensato dalla prima riga di codice per i vincoli svizzeri: LPD, LAMal, requisiti cantonali.",
+        "items": {
+          "f0": {
+            "title": "Gestione multi-struttura",
+            "description": "Più case da una sola console. KPI comparabili, separazione rigorosa dei dati, RBAC granulare per team e sede."
+          },
+          "f1": {
+            "title": "Audit log LPD nativo",
+            "description": "Ogni accesso e modifica tracciato in modo immutabile. Documentazione pronta per i vostri audit interni e per le autorità cantonali."
+          },
+          "f2": {
+            "title": "Chat multilingue",
+            "description": "Il residente ispanofono parla con la sua operatrice italofona, e ciascuno legge nella propria lingua. La barriera scompare, la comunicazione resta."
+          },
+          "f3": {
+            "title": "Multi-team e ruoli",
+            "description": "Direzione, operatori, custodi, fornitori esterni — ciascuno con il proprio livello di accesso e la propria interfaccia, con permessi granulari."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Prossima tappa",
+        "title": "Vediamo CareBond con la vostra casa di cura in mente.",
+        "description": "30 minuti di demo con i vostri casi reali: dimensione, cantoni, moduli scelti, percorso tipo di un residente da voi."
+      }
+    },
+    "home-care": {
+      "eyebrow": "Per le cure a domicilio",
+      "title": "Fiducia a distanza, senza sorveglianza invadente.",
+      "subtitle": "Validazione GPS delle visite, rapporti firmati crittograficamente, livestream con consenso del paziente. Concepito per Spitex CH e servizi equivalenti.",
+      "metaDescription": "Soluzione CareBond per Spitex e cure a domicilio: GPS geofencing, rapporti HMAC conformi LAMal, livestream con consenso, mini-rapporti famiglia.",
+      "visualAlt": "Anteprima dell'app famiglia — mini-rapporto quotidiano e flusso livestream attivabile dal paziente",
+      "problem": {
+        "eyebrow": "La realtà",
+        "heading": "La cura a domicilio è fiducia — e si costruisce o si perde a ogni visita.",
+        "intro": "A distanza, la famiglia non ha alcuna prova che la visita sia avvenuta, l'operatore non può trasmettere tutto in un SMS, e la direzione non ha il tempo di verificare tutto manualmente.",
+        "points": {
+          "p0": "La famiglia chiama per sapere se la visita del mattino è andata bene — ancora e ancora.",
+          "p1": "L'operatore scrive un rapporto su carta che finisce in una pila a fine mese.",
+          "p2": "Gli allarmi critici si perdono tra WhatsApp, SMS e chiamate perse.",
+          "p3": "Validare la presenza al domicilio passa da foto o chiamate — dispendioso e poco affidabile."
+        }
+      },
+      "features": {
+        "eyebrow": "Cosa cambia CareBond",
+        "heading": "Il campo validato, senza disturbare nessuno.",
+        "intro": "Gli strumenti di cui i team Spitex hanno bisogno per fare il loro mestiere senza perdere tempo a provare di averlo fatto.",
+        "items": {
+          "f0": {
+            "title": "Validazione GPS delle visite",
+            "description": "Geofencing automatico al domicilio del paziente. La presenza è confermata senza intervento, e la famiglia riceve la notifica."
+          },
+          "f1": {
+            "title": "Rapporti firmati HMAC",
+            "description": "Ogni rapporto di visita è firmato crittograficamente. Conforme ai requisiti LAMal per la fatturazione e l'audit."
+          },
+          "f2": {
+            "title": "Livestream con consenso",
+            "description": "La telecamera del paziente è attivabile e disattivabile dal paziente o dal suo operatore in qualsiasi momento. Registro accessi completo."
+          },
+          "f3": {
+            "title": "Allarmi prioritari",
+            "description": "L'urgente per primo, il resto in coda. Niente più critico perso nel rumore di un thread di messaggi."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Prossima tappa",
+        "title": "Vediamo CareBond con il vostro servizio a domicilio.",
+        "description": "30 minuti per capire la realtà della vostra attività e calibrare la demo sui moduli che vi parlano."
+      }
+    },
+    "hospitals": {
+      "eyebrow": "Per gli ospedali",
+      "title": "Una piattaforma che parla al vostro EMR esistente.",
+      "subtitle": "API REST documentata, RBAC granulare per reparto, audit log immutabile, piante 3D e GPS d'interno. Concepita per i carichi ospedalieri reali.",
+      "metaDescription": "Soluzione CareBond per gli ospedali: API REST, integrazione EMR HL7/FHIR allo studio, RBAC multi-reparto, piante 3D + navigazione interna.",
+      "visualAlt": "Pianta 3D isometrica di un ospedale — sale operatorie, suite IRM, reparto, laboratorio, ingresso principale, con percorso GPS interno",
+      "problem": {
+        "eyebrow": "La realtà",
+        "heading": "In ospedale, il tempo perso a orientarsi o a reinserire dati è cura persa.",
+        "intro": "I visitatori si perdono nei corridoi. I sistemi non si parlano. Gli audit LPD trasversali richiedono settimane. E ogni reparto ha i propri strumenti.",
+        "points": {
+          "p0": "I visitatori e i pazienti esterni vagano nei corridoi, e qualsiasi reception finisce per fungere da punto informazioni.",
+          "p1": "Il vostro EMR attuale non parla con il vostro strumento di pianificazione, i vostri rapporti o il vostro dossier paziente trasversale.",
+          "p2": "Un audit LPD significa cliccare in cinque sistemi diversi per assemblare un dossier.",
+          "p3": "Ogni servizio (pronto soccorso, medicina, radiologia) gestisce i propri permessi a parte — nessuna coerenza, nessun RBAC unificato."
+        }
+      },
+      "features": {
+        "eyebrow": "Cosa cambia CareBond",
+        "heading": "Una piattaforma concepita per integrarsi, non per sostituire.",
+        "intro": "CareBond non ambisce a sostituire il vostro EMR. Ci colleghiamo, colmiamo le lacune e portiamo ciò che mancava: navigazione interna, comunicazione multilingue, audit trasversale.",
+        "items": {
+          "f0": {
+            "title": "API REST documentata",
+            "description": "Sincronizzazione con il vostro EMR esistente tramite API e webhook. L'integrazione HL7/FHIR per gli ospedali è allo studio."
+          },
+          "f1": {
+            "title": "Multi-reparto e RBAC",
+            "description": "Pronto soccorso, medicina, radiologia: separazioni stagne, permessi granulari per ruolo e reparto. Senza ricodificare la vostra ACL."
+          },
+          "f2": {
+            "title": "Audit log immutabile",
+            "description": "Ogni azione tracciata, esportabile. Traccia conforme ai requisiti LPD e agli audit ospedalieri cantonali."
+          },
+          "f3": {
+            "title": "Piante 3D e GPS d'interno",
+            "description": "Modellazione isometrica del vostro edificio + GPS integrato che guida visitatori, famiglie e operatori al reparto corretto."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Prossima tappa",
+        "title": "Vediamo CareBond con i vostri vincoli ospedalieri.",
+        "description": "30 minuti per discutere integrazione EMR, requisiti cantonali e moduli pertinenti per i vostri servizi."
+      }
+    },
+    "clinics": {
+      "eyebrow": "Per le cliniche private",
+      "title": "L'esperienza paziente di alta gamma, con il vostro marchio.",
+      "subtitle": "Chat multilingue per pazienti internazionali, white-label, hosting svizzero. Concepito per le cliniche che vogliono il rigore di una piattaforma professionale senza perdere la propria identità.",
+      "metaDescription": "Soluzione CareBond per cliniche private: chat multilingue, white-label, hosting svizzero esclusivo, conformità LPD.",
+      "visualAlt": "Anteprima del chat multilingue — messaggi ES↔FR tradotti in tempo reale con controllo dell'operatore",
+      "problem": {
+        "eyebrow": "La realtà",
+        "heading": "Una clinica privata non è né un ospedale né una casa di cura — i suoi vincoli sono unici.",
+        "intro": "Pazienti internazionali, marchio clinico forte, telemedicina tra consultazioni fisiche, esigenza di un'esperienza di alta gamma in ogni punto di contatto.",
+        "points": {
+          "p0": "I vostri pazienti vengono da ovunque — Spagna, Italia, Germania, fuori dall'UE. La barriera linguistica è quotidiana.",
+          "p1": "Il vostro marchio clinico è un patrimonio. Non volete che una piattaforma terza lo diluisca con il proprio branding.",
+          "p2": "La telemedicina tra due appuntamenti fisici è attesa, non opzionale.",
+          "p3": "I vostri pazienti VIP richiedono un livello di riservatezza che uno strumento di consumo non può garantire."
+        }
+      },
+      "features": {
+        "eyebrow": "Cosa cambia CareBond",
+        "heading": "Una piattaforma professionale, a vostra immagine.",
+        "intro": "Lo zoccolo tecnico di CareBond, l'interfaccia e l'esperienza con il vostro marchio. E tutte le capacità multilingue + LPD dal giorno 1.",
+        "items": {
+          "f0": {
+            "title": "Chat multilingue, controllato dall'operatore",
+            "description": "Ogni messaggio nella lingua di ogni interlocutore. L'operatore attiva e disattiva il chat secondo il contesto clinico."
+          },
+          "f1": {
+            "title": "White-label",
+            "description": "Il vostro marchio, i vostri colori, il vostro dominio. Il nostro zoccolo tecnico, invisibile. I vostri pazienti vedono la vostra clinica, non il nostro logo."
+          },
+          "f2": {
+            "title": "Riservatezza di alta gamma",
+            "description": "Audit log immutabile, crittografia TLS 1.3, hosting svizzero esclusivo. Nessun dato lascia il paese."
+          },
+          "f3": {
+            "title": "Pazienti internazionali",
+            "description": "Hosting principale in Svizzera, accesso ottimizzato per i vostri pazienti che viaggiano o vivono all'estero."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Prossima tappa",
+        "title": "Vediamo CareBond con la vostra clinica in mente.",
+        "description": "30 minuti per esplorare come mantenere il vostro marchio e la vostra esperienza paziente, guadagnando le capacità multilingue + LPD."
       }
     }
   }

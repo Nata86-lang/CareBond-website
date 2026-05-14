@@ -13,7 +13,7 @@ const SOLUTION_SLUGS = [
   { slug: "ems", key: "ems" },
   { slug: "home-care", key: "homeCare" },
   { slug: "hospitals", key: "hospitals" },
-  { slug: "professionals", key: "professionals" },
+  { slug: "clinics", key: "clinics" },
 ] as const;
 
 const COMPANY_KEYS = ["about", "compliance", "contact"] as const;

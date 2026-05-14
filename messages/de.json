@@ -10,7 +10,7 @@
       "ems": "Für Pflegeheime",
       "homeCare": "Für die häusliche Pflege",
       "hospitals": "Für Spitäler",
-      "professionals": "Für Fachpersonen"
+      "clinics": "Für Kliniken"
     }
   },
   "header": {
@@ -719,6 +719,192 @@
           "heading": "Open-Source-Software",
           "body": "Erstellt mit Next.js (Vercel), React (Meta), Tailwind CSS, TypeScript, next-intl, react-hook-form, Zod und vielen weiteren Open-Source-Bibliotheken. Danke an die Hunderten von Beitragenden, die diese Arbeit möglich machen."
         }
+      }
+    }
+  },
+  "solutions": {
+    "ems": {
+      "eyebrow": "Für Pflegeheime",
+      "title": "Ein Pflegeheim führen, ohne Papierkram und ohne blinde Flecken.",
+      "subtitle": "Digitale Visite, nativer DSG-Audit, mehrere Einrichtungen aus einer Konsole. Konzipiert für Leitungen, die klar sehen möchten, ohne Mikromanagement.",
+      "metaDescription": "CareBond-Lösung für Schweizer Pflegeheime: mandantenfähige Steuerung, DSG-Audit, digitale Visite, mehrere Teams mit granularem RBAC.",
+      "visualAlt": "Isometrischer 3D-Plan eines Pflegeheims — Memory-Care-Flügel, therapeutischer Garten, Hauptlobby",
+      "problem": {
+        "eyebrow": "Die Realität",
+        "heading": "Der Alltag eines Pflegeheims besteht zu oft aus Papier und Telefonanrufen.",
+        "intro": "Jede Stunde, die mit dem Ausfüllen eines Ordners verbracht wird, ist eine Stunde weniger bei den Bewohnern. CareBond gibt diese Stunden der Pflege zurück.",
+        "points": {
+          "p0": "Die Tagesvisite steht auf einem Zettel, der verloren geht, und die Übergabe an die nächste Schicht erfolgt per Telefonanruf.",
+          "p1": "Die Familie ruft dreimal pro Woche an, um nach Neuigkeiten zu fragen — und niemand hat wirklich Zeit, richtig zu antworten.",
+          "p2": "Das kantonale Audit erfordert Wochen der Vorbereitung, um die richtigen Unterlagen im richtigen Format zusammenzustellen.",
+          "p3": "Nicht deutschsprachige Bewohner und ihre Familien stossen täglich auf eine Sprachbarriere mit dem Pflegeteam."
+        }
+      },
+      "features": {
+        "eyebrow": "Was CareBond ändert",
+        "heading": "Eine Plattform für die Realität eines Pflegeheims.",
+        "intro": "Kein generisches ERP, das nachträglich an das Gesundheitswesen angepasst wurde. Von der ersten Codezeile an für Schweizer Anforderungen konzipiert: DSG, KVG/LAMal, kantonale Vorgaben.",
+        "items": {
+          "f0": {
+            "title": "Mandantenfähige Steuerung",
+            "description": "Mehrere Heime aus einer Konsole. Vergleichbare KPIs, strikte Datentrennung, granulares RBAC pro Team und Standort."
+          },
+          "f1": {
+            "title": "Natives DSG-Audit-Log",
+            "description": "Jeder Zugriff und jede Änderung unveränderlich protokolliert. Dokumentation bereit für interne Audits und kantonale Behörden."
+          },
+          "f2": {
+            "title": "Mehrsprachiger Chat",
+            "description": "Der spanischsprachige Bewohner schreibt mit seiner deutschsprachigen Pflegerin, jeder liest in seiner Sprache. Barriere weg, Kommunikation bleibt."
+          },
+          "f3": {
+            "title": "Mehrere Teams & Rollen",
+            "description": "Leitung, Pflege, Hausdienst, externe Dienstleister — jeder mit seiner Zugriffsebene und Oberfläche, mit granularen Berechtigungen."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Nächster Schritt",
+        "title": "Sehen wir uns CareBond mit Ihrem Pflegeheim im Blick an.",
+        "description": "30 Minuten Demo mit Ihren realen Fällen: Grösse, Kantone, gewählte Module, typischer Bewohnerverlauf bei Ihnen."
+      }
+    },
+    "home-care": {
+      "eyebrow": "Für die häusliche Pflege",
+      "title": "Vertrauen aus der Ferne, ohne aufdringliche Überwachung.",
+      "subtitle": "GPS-Validierung der Besuche, kryptografisch signierte Berichte, Livestream mit Einwilligung des Patienten. Konzipiert für Spitex CH und gleichwertige Dienste.",
+      "metaDescription": "CareBond-Lösung für Spitex und häusliche Pflege: GPS-Geofencing, HMAC-Berichte konform mit KVG/LAMal, Livestream mit Einwilligung, Familien-Mini-Berichte.",
+      "visualAlt": "Vorschau der Familien-App — täglicher Mini-Bericht und Livestream, vom Patienten aktivierbar",
+      "problem": {
+        "eyebrow": "Die Realität",
+        "heading": "Häusliche Pflege ist Vertrauen — und es wird bei jedem Besuch aufgebaut oder gebrochen.",
+        "intro": "Aus der Ferne hat die Familie keinen Beweis, dass der Besuch stattgefunden hat, die Pflegeperson kann nicht alles in einer SMS übermitteln, und die Leitung hat keine Zeit, alles manuell zu prüfen.",
+        "points": {
+          "p0": "Die Familie ruft an, um zu erfahren, ob der Morgenbesuch gut verlaufen ist — immer wieder.",
+          "p1": "Die Pflegeperson schreibt einen Papierbericht, der am Monatsende auf einem Stapel landet.",
+          "p2": "Kritische Alarme gehen zwischen WhatsApp, SMS und verpassten Anrufen verloren.",
+          "p3": "Die Anwesenheit am Wohnort zu bestätigen erfolgt über Fotos oder Anrufe — zeitaufwändig und unzuverlässig."
+        }
+      },
+      "features": {
+        "eyebrow": "Was CareBond ändert",
+        "heading": "Der Einsatz validiert, ohne jemanden zu stören.",
+        "intro": "Die Werkzeuge, die Spitex-Teams brauchen, um ihre Arbeit zu tun, ohne Zeit damit zu verlieren, sie zu belegen.",
+        "items": {
+          "f0": {
+            "title": "GPS-Besuchsvalidierung",
+            "description": "Automatisches Geofencing am Wohnort des Patienten. Die Anwesenheit wird ohne Eingriff bestätigt, und die Familie erhält die Benachrichtigung."
+          },
+          "f1": {
+            "title": "HMAC-signierte Berichte",
+            "description": "Jeder Besuchsbericht ist kryptografisch signiert. Konform mit den KVG/LAMal-Anforderungen für Abrechnung und Audit."
+          },
+          "f2": {
+            "title": "Livestream mit Einwilligung",
+            "description": "Die Kamera des Patienten kann vom Patienten oder der Pflegeperson jederzeit aktiviert und deaktiviert werden. Vollständiges Zugriffsprotokoll."
+          },
+          "f3": {
+            "title": "Priorisierte Alarme",
+            "description": "Dringliches zuerst, der Rest reiht sich ein. Keine kritischen Alarme mehr verloren im Rauschen eines Nachrichten-Threads."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Nächster Schritt",
+        "title": "Sehen wir uns CareBond mit Ihrem häuslichen Pflegedienst an.",
+        "description": "30 Minuten, um die Realität Ihres Betriebs zu verstehen und die Demo auf die Module zuzuschneiden, die Sie ansprechen."
+      }
+    },
+    "hospitals": {
+      "eyebrow": "Für Spitäler",
+      "title": "Eine Plattform, die mit Ihrem bestehenden EMR spricht.",
+      "subtitle": "Dokumentierte REST-API, granulares RBAC pro Abteilung, unveränderliches Audit-Log, 3D-Pläne und Indoor-GPS. Konzipiert für reale Spitallasten.",
+      "metaDescription": "CareBond-Lösung für Spitäler: REST-API, HL7/FHIR-EMR-Integration in Prüfung, RBAC pro Abteilung, 3D-Pläne + Indoor-Navigation.",
+      "visualAlt": "Isometrischer 3D-Plan eines Spitals — OP-Säle, MRI-Suite, Ward, Labor, Hauptlobby, mit Indoor-GPS-Route",
+      "problem": {
+        "eyebrow": "Die Realität",
+        "heading": "Im Spital ist die Zeit, die zum Zurechtfinden oder zur Neuerfassung verloren geht, verlorene Pflegezeit.",
+        "intro": "Besucher verlaufen sich in den Korridoren. Systeme sprechen nicht miteinander. Übergreifende DSG-Audits dauern Wochen. Und jede Abteilung hat ihre eigenen Werkzeuge.",
+        "points": {
+          "p0": "Besucher und ambulante Patienten irren durch die Korridore, und jeder Empfang dient am Ende auch als Info-Stelle.",
+          "p1": "Ihr aktuelles EMR spricht nicht mit Ihrem Planungstool, Ihren Berichten oder Ihrem abteilungsübergreifenden Patientendossier.",
+          "p2": "Ein DSG-Audit bedeutet, sich durch fünf verschiedene Systeme zu klicken, um eine Akte zusammenzustellen.",
+          "p3": "Jede Abteilung (Notfall, Medizin, Radiologie) verwaltet ihre Berechtigungen separat — keine Konsistenz, kein einheitliches RBAC."
+        }
+      },
+      "features": {
+        "eyebrow": "Was CareBond ändert",
+        "heading": "Eine Plattform, die sich integriert, statt zu ersetzen.",
+        "intro": "CareBond hat nicht den Anspruch, Ihr EMR zu ersetzen. Wir docken an, schliessen die Lücken und bringen, was fehlte: Indoor-Navigation, mehrsprachige Kommunikation, übergreifendes Audit.",
+        "items": {
+          "f0": {
+            "title": "Dokumentierte REST-API",
+            "description": "Synchronisation mit Ihrem bestehenden EMR über API und Webhooks. HL7/FHIR-Integration für Spitäler in Prüfung."
+          },
+          "f1": {
+            "title": "Multi-Abteilung & RBAC",
+            "description": "Notfall, Medizin, Radiologie: dichte Trennung, granulare Berechtigungen pro Rolle und Abteilung. Ohne Ihre ACL neu zu codieren."
+          },
+          "f2": {
+            "title": "Unveränderliches Audit-Log",
+            "description": "Jede Aktion protokolliert, exportierbar. Spur konform mit DSG- und kantonalen Spitalaudit-Anforderungen."
+          },
+          "f3": {
+            "title": "3D-Pläne & Indoor-GPS",
+            "description": "Isometrische Modellierung Ihres Gebäudes + integriertes GPS, das Besucher, Familien und Pflegende zum richtigen Dienst führt."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Nächster Schritt",
+        "title": "Sehen wir uns CareBond mit Ihren Spitalanforderungen an.",
+        "description": "30 Minuten, um EMR-Integration, kantonale Anforderungen und für Ihre Dienste relevante Module zu besprechen."
+      }
+    },
+    "clinics": {
+      "eyebrow": "Für Privatkliniken",
+      "title": "Premium-Patientenerlebnis, in Ihrer Marke.",
+      "subtitle": "Mehrsprachiger Chat für internationale Patienten, White-Label, Schweizer Hosting. Konzipiert für Kliniken, die die Strenge einer professionellen Plattform wollen, ohne ihre Identität zu verlieren.",
+      "metaDescription": "CareBond-Lösung für Privatkliniken: mehrsprachiger Chat, White-Label, exklusives Schweizer Hosting, DSG-Konformität.",
+      "visualAlt": "Vorschau des mehrsprachigen Chats — ES↔FR-Nachrichten in Echtzeit übersetzt mit Pflegekontrolle",
+      "problem": {
+        "eyebrow": "Die Realität",
+        "heading": "Eine Privatklinik ist weder ein Spital noch ein Pflegeheim — ihre Anforderungen sind einzigartig.",
+        "intro": "Internationale Patienten, starke Klinikmarke, Telemedizin zwischen physischen Konsultationen, Erwartung eines Premium-Erlebnisses an jedem Berührungspunkt.",
+        "points": {
+          "p0": "Ihre Patienten kommen von überall — Spanien, Italien, Deutschland, ausserhalb der EU. Die Sprachbarriere ist Alltag.",
+          "p1": "Ihre Klinikmarke ist ein Vermögenswert. Sie wollen nicht, dass eine Drittplattform sie mit ihrem eigenen Branding verwässert.",
+          "p2": "Telemedizin zwischen zwei physischen Terminen wird erwartet, nicht als Option.",
+          "p3": "Ihre VIP-Patienten verlangen ein Mass an Vertraulichkeit, das ein Konsumentenwerkzeug nicht garantieren kann."
+        }
+      },
+      "features": {
+        "eyebrow": "Was CareBond ändert",
+        "heading": "Eine professionelle Plattform, in Ihrem Bild.",
+        "intro": "Der technische Sockel von CareBond, Ihre markenkonforme Oberfläche und Erfahrung. Und alle mehrsprachigen + DSG-Fähigkeiten ab Tag 1.",
+        "items": {
+          "f0": {
+            "title": "Mehrsprachiger Chat, von der Pflege gesteuert",
+            "description": "Jede Nachricht in der Sprache jedes Gesprächspartners. Die Pflegeperson aktiviert oder deaktiviert den Chat je nach klinischem Kontext."
+          },
+          "f1": {
+            "title": "White-Label",
+            "description": "Ihre Marke, Ihre Farben, Ihre Domain. Unser technischer Sockel, unsichtbar. Ihre Patienten sehen Ihre Klinik, nicht unser Logo."
+          },
+          "f2": {
+            "title": "Premium-Vertraulichkeit",
+            "description": "Unveränderliches Audit-Log, TLS-1.3-Verschlüsselung, exklusives Schweizer Hosting. Keine Daten verlassen das Land."
+          },
+          "f3": {
+            "title": "Internationale Patienten",
+            "description": "Primäres Hosting in der Schweiz, optimierter Zugang für Patienten, die reisen oder im Ausland leben."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Nächster Schritt",
+        "title": "Sehen wir uns CareBond mit Ihrer Klinik im Blick an.",
+        "description": "30 Minuten, um zu erkunden, wie Sie Ihre Marke und Ihr Patientenerlebnis behalten und gleichzeitig die mehrsprachigen + DSG-Fähigkeiten gewinnen."
       }
     }
   }

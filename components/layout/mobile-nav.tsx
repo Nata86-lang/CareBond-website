@@ -11,7 +11,7 @@ const SOLUTIONS = [
   { slug: "ems", key: "ems" },
   { slug: "home-care", key: "homeCare" },
   { slug: "hospitals", key: "hospitals" },
-  { slug: "professionals", key: "professionals" },
+  { slug: "clinics", key: "clinics" },
 ] as const;
 
 const NAV_DIRECT = ["features", "compliance", "about", "contact"] as const;

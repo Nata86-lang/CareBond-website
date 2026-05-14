@@ -9,7 +9,7 @@ const SOLUTIONS = [
   { key: "ems", slug: "ems" },
   { key: "homeCare", slug: "home-care" },
   { key: "hospitals", slug: "hospitals" },
-  { key: "professionals", slug: "professionals" },
+  { key: "clinics", slug: "clinics" },
 ] as const;
 
 export function SolutionsDropdown({ locale }: { locale: string }) {
