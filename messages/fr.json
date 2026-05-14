@@ -136,7 +136,8 @@
         "floor-plans": {
           "eyebrow": "Navigation",
           "title": "Plans 3D & GPS d'intérieur",
-          "description": "Nous modélisons votre bâtiment en isométrique. Le GPS intégré guide visiteurs, familles et soignants jusqu'à la pièce qu'ils cherchent, sans signalétique."
+          "description": "Nous modélisons votre bâtiment en isométrique. Le GPS intégré guide visiteurs, familles et soignants jusqu'à la pièce qu'ils cherchent, sans signalétique.",
+          "alt": "Plan 3D isométrique d'une résidence médicalisée — aile mémoire, centre d'activités, jardin thérapeutique, salon de coiffure, hall principal"
         }
       }
     },
@@ -328,6 +329,7 @@
       }
     },
     "hospital": {
+      "alt": "Plan 3D isométrique d'un hôpital — chambres, blocs opératoires, suite IRM, laboratoire, accueil, avec parcours GPS d'intérieur tracé entre les services",
       "eyebrow": "Aperçu · Plan hospitalier",
       "title": "Navigation en temps réel",
       "liveLabel": "Live",
@@ -337,10 +339,11 @@
       "eta": "1 min",
       "rooms": {
         "reception": "Accueil",
-        "emergency": "Urgences",
-        "medicine": "Médecine",
+        "waiting": "Salle d'attente",
+        "office": "Bureau direction",
+        "consultation": "Consultation",
+        "treatment": "Traitement",
         "imaging": "Radiologie",
-        "geriatrics": "Gériatrie",
         "pharmacy": "Pharmacie"
       }
     }

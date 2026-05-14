@@ -45,6 +45,8 @@ const nextConfig: NextConfig = {
   compress: true,
   images: {
     formats: ["image/avif", "image/webp"],
+    // Allowed image quality values (required by Next.js 16).
+    qualities: [75, 85, 90],
   },
   async headers() {
     return [

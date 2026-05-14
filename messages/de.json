@@ -136,7 +136,8 @@
         "floor-plans": {
           "eyebrow": "Navigation",
           "title": "3D-Pläne & Indoor-GPS",
-          "description": "Wir modellieren Ihr Gebäude isometrisch. Das integrierte GPS führt Besucher, Familien und Pflegende zum gesuchten Raum, ohne Beschilderung."
+          "description": "Wir modellieren Ihr Gebäude isometrisch. Das integrierte GPS führt Besucher, Familien und Pflegende zum gesuchten Raum, ohne Beschilderung.",
+          "alt": "Isometrischer 3D-Plan eines Pflegeheims — Memory-Care-Flügel, Aktivitätszentrum, therapeutischer Garten, Friseursalon, Hauptlobby"
         }
       }
     },
@@ -328,6 +329,7 @@
       }
     },
     "hospital": {
+      "alt": "Isometrischer 3D-Plan eines Spitals — Zimmer, OP-Säle, MRI-Suite, Labor, Empfang, mit eingezeichneter Indoor-GPS-Route zwischen den Abteilungen",
       "eyebrow": "Vorschau · Spitalplan",
       "title": "Navigation in Echtzeit",
       "liveLabel": "Live",
@@ -337,10 +339,11 @@
       "eta": "1 Min",
       "rooms": {
         "reception": "Empfang",
-        "emergency": "Notfall",
-        "medicine": "Medizin",
+        "waiting": "Wartezimmer",
+        "office": "Leitungsbüro",
+        "consultation": "Konsultation",
+        "treatment": "Behandlung",
         "imaging": "Radiologie",
-        "geriatrics": "Geriatrie",
         "pharmacy": "Apotheke"
       }
     }

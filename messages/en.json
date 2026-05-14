@@ -136,7 +136,8 @@
         "floor-plans": {
           "eyebrow": "Wayfinding",
           "title": "3D plans & indoor GPS",
-          "description": "We model your building in isometric. The built-in GPS guides visitors, families and clinicians to the room they need — no signage required."
+          "description": "We model your building in isometric. The built-in GPS guides visitors, families and clinicians to the room they need — no signage required.",
+          "alt": "3D isometric plan of a nursing home — memory care wing, activity center, therapeutic garden, hair salon, main lobby"
         }
       }
     },
@@ -328,6 +329,7 @@
       }
     },
     "hospital": {
+      "alt": "3D isometric plan of a hospital — wards, operating theaters, MRI suite, laboratory, main lobby, with an indoor GPS route drawn between departments",
       "eyebrow": "Preview · Hospital plan",
       "title": "Real-time navigation",
       "liveLabel": "Live",
@@ -337,10 +339,11 @@
       "eta": "1 min",
       "rooms": {
         "reception": "Reception",
-        "emergency": "Emergency",
-        "medicine": "Medicine",
+        "waiting": "Waiting room",
+        "office": "Management office",
+        "consultation": "Consultation",
+        "treatment": "Treatment",
         "imaging": "Imaging",
-        "geriatrics": "Geriatrics",
         "pharmacy": "Pharmacy"
       }
     }

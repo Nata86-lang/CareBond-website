@@ -136,7 +136,8 @@
         "floor-plans": {
           "eyebrow": "Navigazione",
           "title": "Piante 3D & GPS d'interno",
-          "description": "Modelliamo il vostro edificio in isometrico. Il GPS integrato guida visitatori, famiglie e operatori fino alla stanza cercata, senza segnaletica."
+          "description": "Modelliamo il vostro edificio in isometrico. Il GPS integrato guida visitatori, famiglie e operatori fino alla stanza cercata, senza segnaletica.",
+          "alt": "Pianta 3D isometrica di una casa di cura — ala memory care, centro attività, giardino terapeutico, parrucchiere, ingresso principale"
         }
       }
     },
@@ -328,6 +329,7 @@
       }
     },
     "hospital": {
+      "alt": "Pianta 3D isometrica di un ospedale — camere, sale operatorie, suite IRM, laboratorio, accoglienza, con percorso GPS interno tracciato tra i reparti",
       "eyebrow": "Anteprima · Pianta ospedaliera",
       "title": "Navigazione in tempo reale",
       "liveLabel": "Live",
@@ -337,10 +339,11 @@
       "eta": "1 min",
       "rooms": {
         "reception": "Accoglienza",
-        "emergency": "Pronto soccorso",
-        "medicine": "Medicina",
+        "waiting": "Sala d'attesa",
+        "office": "Ufficio direzione",
+        "consultation": "Consulto",
+        "treatment": "Trattamento",
         "imaging": "Radiologia",
-        "geriatrics": "Geriatria",
         "pharmacy": "Farmacia"
       }
     }

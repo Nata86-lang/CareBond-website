@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import type { LucideIcon } from "lucide-react";
@@ -134,45 +135,19 @@ export async function PlatformBento({ locale }: { locale: string }) {
                 </div>
               )}
 
-              {/* Floor-plans big card gets a mini isometric thumbnail */}
+              {/* Floor-plans big card gets the residence iso illustration */}
               {slug === "floor-plans" && (
-                <svg
-                  aria-hidden="true"
-                  viewBox="0 0 320 160"
-                  className="mt-8 w-full"
-                >
-                  <polygon
-                    points="40,30 280,30 270,130 30,130"
-                    fill="#FAFBFC"
-                    stroke="#E7E8EB"
-                    strokeWidth="1.5"
+                <div className="mt-8 overflow-hidden rounded-2xl">
+                  <Image
+                    src="/images/floor-plans/residence.jpg"
+                    alt={t("pillars.floor-plans.alt")}
+                    width={2752}
+                    height={1536}
+                    className="h-auto w-full"
+                    sizes="(max-width: 1024px) 100vw, 500px"
+                    quality={85}
                   />
-                  <line
-                    x1="40"
-                    y1="80"
-                    x2="275"
-                    y2="80"
-                    stroke="#E7E8EB"
-                    strokeWidth="1"
-                    strokeDasharray="2 3"
-                  />
-                  <polygon points="50,40 130,40 122,75 42,75" fill="rgb(63 142 243 / 0.14)" stroke="rgb(37 99 235 / 0.5)" strokeWidth="1.2" />
-                  <polygon points="130,40 210,40 202,75 122,75" fill="rgb(10 27 57 / 0.05)" stroke="rgb(10 27 57 / 0.2)" strokeWidth="1.2" />
-                  <polygon points="210,40 270,40 262,75 202,75" fill="rgb(10 27 57 / 0.05)" stroke="rgb(10 27 57 / 0.2)" strokeWidth="1.2" />
-                  <polygon points="42,75 122,75 114,120 34,120" fill="rgb(220 38 38 / 0.10)" stroke="rgb(220 38 38 / 0.45)" strokeWidth="1.2" />
-                  <polygon points="122,75 202,75 194,120 114,120" fill="rgb(63 142 243 / 0.14)" stroke="rgb(37 99 235 / 0.5)" strokeWidth="1.2" />
-                  <polygon points="202,75 262,75 254,120 194,120" fill="rgb(10 27 57 / 0.05)" stroke="rgb(10 27 57 / 0.2)" strokeWidth="1.2" />
-                  <path
-                    d="M 86 56 L 86 95 L 158 95 L 158 100"
-                    stroke="#2563EB"
-                    strokeWidth="2"
-                    strokeDasharray="4 3"
-                    strokeLinecap="round"
-                    fill="none"
-                  />
-                  <circle cx="86" cy="56" r="5" fill="#2563EB" />
-                  <circle cx="158" cy="100" r="5" fill="#DC2626" />
-                </svg>
+                </div>
               )}
 
               <p className="mt-auto flex items-center gap-1.5 pt-7 text-sm font-semibold text-brand-blue-strong">
