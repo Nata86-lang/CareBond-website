@@ -1107,5 +1107,98 @@
         "description": "30 minutes pour explorer comment garder votre marque et votre expérience patient, tout en gagnant les capacités multilingues + nLPD."
       }
     }
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "title": "Le soin suisse, mieux outillé.",
+    "subtitle": "CareBond est une plateforme suisse pensée pour les EMS, Spitex, hôpitaux et cliniques. Nous construisons l'outil qui manque entre patients, familles, soignants et direction — sans chercher à remplacer ce qui marche déjà.",
+    "metaDescription": "À propos de CareBond — plateforme suisse pour EMS, Spitex, hôpitaux et cliniques. Mission, valeurs, et où nous sommes basés.",
+    "mission": {
+      "eyebrow": "Notre mission",
+      "heading": "Donner au soin le temps que la paperasse lui prend.",
+      "body1": "Dans un EMS suisse, le soignant passe en moyenne trop d'heures à remplir des classeurs, à transmettre par téléphone et à rassembler des documents pour l'audit. Ces heures-là, ce sont des heures qui ne vont pas au résident.",
+      "body2": "CareBond les rend au soin. En centralisant la tournée digitale, l'audit nLPD, le chat multilingue, les rapports cryptographiquement signés et la navigation interne dans une seule plateforme.",
+      "body3": "Nous ne remplaçons pas votre EMR existant. Nous nous branchons dessus, comblons les angles morts, et apportons ce qui manquait — sans rip-and-replace."
+    },
+    "values": {
+      "eyebrow": "Nos valeurs",
+      "heading": "Ce que nous refusons et ce que nous défendons.",
+      "intro": "Quatre choix d'architecture que nous tenons depuis la première ligne de code. Ils définissent autant ce que CareBond fait que ce que CareBond ne fera jamais.",
+      "items": {
+        "v0": {
+          "title": "Privacy-first, pas privacy-as-an-option",
+          "description": "Aucun cookie de tracking. Aucun pixel publicitaire. Aucune fuite vers Google Analytics. La nLPD est dans l'architecture, pas dans un addendum."
+        },
+        "v1": {
+          "title": "Le soignant garde le contrôle",
+          "description": "Chat, livestream, ordonnances — le professionnel décide quand et comment. CareBond ne court-circuite jamais le clinicien."
+        },
+        "v2": {
+          "title": "Audit log par défaut",
+          "description": "Chaque accès et chaque modification est tracée. Pas en option, pas après configuration : depuis le jour 1, sur chaque action."
+        },
+        "v3": {
+          "title": "Suisse, sans détour",
+          "description": "Hébergement Suisse (Infomaniak, Genève). Pas de cloud étranger, pas de transfert vers les hyperscalers, pas de juridiction extra-territoriale."
+        }
+      }
+    },
+    "location": {
+      "body": "CareBond SA est basée à Genève, en Suisse. Nous travaillons en français, allemand, italien et anglais, parce que c'est la réalité suisse."
+    },
+    "cta": {
+      "eyebrow": "On parle ?",
+      "title": "Voyons si CareBond fait sens pour vous.",
+      "description": "30 minutes pour comprendre votre contexte et vous montrer la plateforme avec vos cas d'usage. Sans démo générique."
+    }
+  },
+  "compliancePage": {
+    "eyebrow": "Conformité",
+    "title": "Conformité par l'architecture, pas par addendum.",
+    "subtitle": "nLPD natif, KVG/LAMal, hébergement Suisse exclusif, audit log immuable. La conformité n'est pas une couche ajoutée — elle est construite dans la plateforme depuis la première ligne de code.",
+    "metaDescription": "Conformité CareBond : nLPD, KVG/LAMal, hébergement Suisse, audit log, exigences hospitalières cantonales.",
+    "pillars": {
+      "nlpd": {
+        "title": "nLPD natif",
+        "description": "Audit log natif des accès et modifications, conçu pour les exigences de la loi suisse dès la première ligne de code. Pas un patch RGPD recyclé."
+      },
+      "hosting": {
+        "title": "Hébergement Suisse",
+        "description": "Infrastructure hébergée chez Infomaniak (Genève). Les données patient ne quittent pas le territoire suisse, sans exception et sans clause cachée."
+      },
+      "encryption": {
+        "title": "Chiffrement moderne",
+        "description": "TLS 1.3 en transit sur serveur suisse, chiffrement des sauvegardes au repos, rapports de visite signés HMAC."
+      },
+      "audit": {
+        "title": "Audit log immuable",
+        "description": "Trace immuable de chaque accès et modification, exportable pour vos audits internes et pour les autorités cantonales. RBAC granulaire et multi-institution."
+      }
+    },
+    "regulations": {
+      "eyebrow": "Cadre réglementaire",
+      "heading": "Conçu pour le droit suisse.",
+      "intro": "CareBond a été construit pour les exigences suisses spécifiques, pas adapté depuis un produit européen. Voici les principaux cadres que nous adressons.",
+      "items": {
+        "nlpd": {
+          "title": "nLPD (Loi fédérale)",
+          "description": "Loi fédérale sur la protection des données. Audit log natif, droits d'accès et de rectification, route de réclamation vers le PFPDT documentée dans notre politique de confidentialité."
+        },
+        "kvg": {
+          "title": "KVG / LAMal",
+          "description": "Rapports de visite signés cryptographiquement (HMAC), traçabilité conforme aux exigences de l'assurance-maladie pour la facturation Spitex et hospitalière."
+        },
+        "transfers": {
+          "title": "Transferts internationaux",
+          "description": "Les rares transferts hors Suisse (formulaire de contact via Resend, hosting via Vercel fra1 Francfort) sont encadrés par des Clauses Contractuelles Types et documentés."
+        }
+      }
+    },
+    "docs": {
+      "eyebrow": "Documentation technique",
+      "title": "Vos équipes juridiques et IT veulent les détails ?",
+      "description": "Nous tenons à disposition la documentation technique complète : architecture, flux de données, journal d'audit, politiques de rétention, contrats sous-traitants. Sur demande, sans formulaire à remplir.",
+      "secondary": "Lire notre politique de confidentialité"
+    }
   }
 }

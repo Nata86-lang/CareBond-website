@@ -1107,5 +1107,98 @@
         "description": "30 minuti per esplorare come mantenere il vostro marchio e la vostra esperienza paziente, guadagnando le capacità multilingue + LPD."
       }
     }
+  },
+  "about": {
+    "eyebrow": "Chi siamo",
+    "title": "Le cure svizzere, meglio attrezzate.",
+    "subtitle": "CareBond è una piattaforma svizzera pensata per case di cura, Spitex, ospedali e cliniche. Costruiamo lo strumento che manca tra pazienti, famiglie, operatori e direzione — senza cercare di sostituire ciò che già funziona.",
+    "metaDescription": "Chi siamo — CareBond, piattaforma svizzera per case di cura, Spitex, ospedali e cliniche. Missione, valori, sede.",
+    "mission": {
+      "eyebrow": "La nostra missione",
+      "heading": "Restituire alla cura il tempo che la burocrazia le toglie.",
+      "body1": "In una casa di cura svizzera, l'operatore trascorre in media troppe ore a compilare raccoglitori, fare passaggi di consegne al telefono e raccogliere documenti per gli audit. Quelle ore non vanno al residente.",
+      "body2": "CareBond le restituisce alla cura. Centralizzando il giro digitale, l'audit LPD, il chat multilingue, i rapporti firmati crittograficamente e la navigazione interna in una sola piattaforma.",
+      "body3": "Non sostituiamo il vostro EMR esistente. Ci colleghiamo, colmiamo le lacune, e aggiungiamo ciò che mancava — senza rip-and-replace."
+    },
+    "values": {
+      "eyebrow": "I nostri valori",
+      "heading": "Cosa rifiutiamo e cosa difendiamo.",
+      "intro": "Quattro scelte architettoniche che teniamo dalla prima riga di codice. Definiscono ciò che CareBond fa tanto quanto ciò che CareBond non farà mai.",
+      "items": {
+        "v0": {
+          "title": "Privacy-first, non privacy-as-an-option",
+          "description": "Nessun cookie di tracciamento. Nessun pixel pubblicitario. Nessuna fuga verso Google Analytics. La LPD è nell'architettura, non in un addendum."
+        },
+        "v1": {
+          "title": "L'operatore mantiene il controllo",
+          "description": "Chat, livestream, ricette — il professionista decide quando e come. CareBond non scavalca mai il clinico."
+        },
+        "v2": {
+          "title": "Audit log di default",
+          "description": "Ogni accesso e modifica è tracciato. Non come opzione, non dopo configurazione: dal giorno uno, su ogni azione."
+        },
+        "v3": {
+          "title": "Svizzera, senza deviazioni",
+          "description": "Hosting svizzero (Infomaniak, Ginevra). Nessun cloud estero, nessun trasferimento agli hyperscaler, nessuna giurisdizione extraterritoriale."
+        }
+      }
+    },
+    "location": {
+      "body": "CareBond SA ha sede a Ginevra, in Svizzera. Lavoriamo in francese, tedesco, italiano e inglese — perché è la realtà svizzera."
+    },
+    "cta": {
+      "eyebrow": "Parliamo?",
+      "title": "Vediamo se CareBond ha senso per voi.",
+      "description": "30 minuti per capire il vostro contesto e mostrarvi la piattaforma con i vostri casi d'uso reali. Niente demo generica."
+    }
+  },
+  "compliancePage": {
+    "eyebrow": "Conformità",
+    "title": "Conformità per architettura, non per addendum.",
+    "subtitle": "LPD nativo, KVG/LAMal, hosting svizzero esclusivo, audit log immutabile. La conformità non è uno strato aggiunto — è costruita nella piattaforma dalla prima riga di codice.",
+    "metaDescription": "Conformità CareBond: LPD, KVG/LAMal, hosting svizzero, audit log, requisiti ospedalieri cantonali.",
+    "pillars": {
+      "nlpd": {
+        "title": "LPD nativo",
+        "description": "Audit log nativo degli accessi e delle modifiche, concepito per il diritto svizzero dalla prima riga di codice. Non un patch GDPR riciclato."
+      },
+      "hosting": {
+        "title": "Hosting svizzero",
+        "description": "Infrastruttura ospitata presso Infomaniak (Ginevra). I dati paziente non lasciano il territorio svizzero — nessuna eccezione, nessuna clausola nascosta."
+      },
+      "encryption": {
+        "title": "Crittografia moderna",
+        "description": "TLS 1.3 in transito su server svizzero, crittografia dei backup a riposo, rapporti di visita firmati HMAC."
+      },
+      "audit": {
+        "title": "Audit log immutabile",
+        "description": "Traccia immutabile di ogni accesso e modifica, esportabile per i vostri audit interni e per le autorità cantonali. RBAC granulare e multi-istituzione."
+      }
+    },
+    "regulations": {
+      "eyebrow": "Quadro normativo",
+      "heading": "Costruito per il diritto svizzero.",
+      "intro": "CareBond è stato costruito per requisiti svizzeri specifici, non adattato da un prodotto europeo. Ecco i principali quadri normativi che affrontiamo.",
+      "items": {
+        "nlpd": {
+          "title": "LPD (Legge federale)",
+          "description": "Legge federale sulla protezione dei dati. Audit log nativo, diritti di accesso e rettifica, percorso di reclamo all'IFPDT documentato nella nostra informativa sulla privacy."
+        },
+        "kvg": {
+          "title": "KVG / LAMal",
+          "description": "Rapporti di visita firmati crittograficamente (HMAC), tracciabilità conforme ai requisiti dell'assicurazione malattia per la fatturazione Spitex e ospedaliera."
+        },
+        "transfers": {
+          "title": "Trasferimenti internazionali",
+          "description": "I rari trasferimenti fuori Svizzera (modulo di contatto via Resend, hosting via Vercel fra1 Francoforte) sono regolati da clausole contrattuali tipo e documentati."
+        }
+      }
+    },
+    "docs": {
+      "eyebrow": "Documentazione tecnica",
+      "title": "I vostri team legali e IT vogliono i dettagli?",
+      "description": "Manteniamo a disposizione la documentazione tecnica completa: architettura, flussi di dati, audit log, politiche di conservazione, contratti dei responsabili del trattamento. Su richiesta, senza moduli da compilare.",
+      "secondary": "Leggere la nostra informativa sulla privacy"
+    }
   }
 }

@@ -1107,5 +1107,98 @@
         "description": "30 Minuten, um zu erkunden, wie Sie Ihre Marke und Ihr Patientenerlebnis behalten und gleichzeitig die mehrsprachigen + DSG-Fähigkeiten gewinnen."
       }
     }
+  },
+  "about": {
+    "eyebrow": "Über uns",
+    "title": "Schweizer Pflege, besser ausgestattet.",
+    "subtitle": "CareBond ist eine Schweizer Plattform für Pflegeheime, Spitex, Spitäler und Kliniken. Wir bauen das Werkzeug, das zwischen Patienten, Familien, Pflegenden und Leitung fehlt — ohne zu versuchen, zu ersetzen, was bereits funktioniert.",
+    "metaDescription": "Über CareBond — Schweizer Plattform für Pflegeheime, Spitex, Spitäler und Kliniken. Mission, Werte und wo wir sitzen.",
+    "mission": {
+      "eyebrow": "Unsere Mission",
+      "heading": "Der Pflege die Zeit zurückgeben, die der Papierkram nimmt.",
+      "body1": "In einem Schweizer Pflegeheim verbringen Pflegepersonen im Durchschnitt zu viele Stunden mit dem Ausfüllen von Ordnern, telefonischen Übergaben und dem Zusammenstellen von Dokumenten für Audits. Diese Stunden gehen nicht zum Bewohner.",
+      "body2": "CareBond gibt sie der Pflege zurück. Indem es die digitale Visite, das DSG-Audit, den mehrsprachigen Chat, die kryptografisch signierten Berichte und die Indoor-Navigation in einer einzigen Plattform vereint.",
+      "body3": "Wir ersetzen Ihr bestehendes EMR nicht. Wir docken an, schliessen die Lücken und fügen hinzu, was fehlte — ohne rip-and-replace."
+    },
+    "values": {
+      "eyebrow": "Unsere Werte",
+      "heading": "Was wir ablehnen und wofür wir stehen.",
+      "intro": "Vier architektonische Entscheidungen, an denen wir seit der ersten Codezeile festhalten. Sie definieren, was CareBond tut, ebenso wie das, was CareBond nie tun wird.",
+      "items": {
+        "v0": {
+          "title": "Privacy-first, nicht Privacy-as-an-Option",
+          "description": "Keine Tracking-Cookies. Keine Werbe-Pixel. Kein Datenleck zu Google Analytics. Das DSG steckt in der Architektur, nicht in einem Anhang."
+        },
+        "v1": {
+          "title": "Die Pflegeperson behält die Kontrolle",
+          "description": "Chat, Livestream, Rezepte — die Fachperson entscheidet wann und wie. CareBond umgeht nie den Kliniker."
+        },
+        "v2": {
+          "title": "Audit-Log standardmässig",
+          "description": "Jeder Zugriff und jede Änderung wird protokolliert. Nicht als Option, nicht nach Konfiguration: ab Tag eins, bei jeder Aktion."
+        },
+        "v3": {
+          "title": "Schweiz, ohne Umweg",
+          "description": "Schweizer Hosting (Infomaniak, Genf). Keine ausländische Cloud, kein Transfer zu den Hyperscalern, keine extraterritoriale Gerichtsbarkeit."
+        }
+      }
+    },
+    "location": {
+      "body": "CareBond SA hat ihren Sitz in Genf, Schweiz. Wir arbeiten auf Französisch, Deutsch, Italienisch und Englisch — denn das ist Schweizer Realität."
+    },
+    "cta": {
+      "eyebrow": "Sprechen wir?",
+      "title": "Sehen wir, ob CareBond für Sie passt.",
+      "description": "30 Minuten, um Ihren Kontext zu verstehen und Ihnen die Plattform mit Ihren realen Anwendungsfällen zu zeigen. Keine generische Demo."
+    }
+  },
+  "compliancePage": {
+    "eyebrow": "Konformität",
+    "title": "Konformität durch Architektur, nicht durch Anhang.",
+    "subtitle": "Natives DSG, KVG/LAMal, ausschliesslich Schweizer Hosting, unveränderliches Audit-Log. Konformität ist keine nachträglich hinzugefügte Schicht — sie ist von der ersten Codezeile an in die Plattform eingebaut.",
+    "metaDescription": "CareBond-Konformität: DSG, KVG/LAMal, Schweizer Hosting, Audit-Log, kantonale Spitalanforderungen.",
+    "pillars": {
+      "nlpd": {
+        "title": "Natives DSG",
+        "description": "Natives Audit-Log für Zugriffe und Änderungen, von der ersten Codezeile an für das Schweizer Recht konzipiert. Kein recycelter DSGVO-Patch."
+      },
+      "hosting": {
+        "title": "Schweizer Hosting",
+        "description": "Infrastruktur bei Infomaniak (Genf) gehostet. Patientendaten verlassen das Schweizer Territorium nicht — keine Ausnahme, keine versteckte Klausel."
+      },
+      "encryption": {
+        "title": "Moderne Verschlüsselung",
+        "description": "TLS 1.3 in Transit auf Schweizer Servern, Verschlüsselung der Backups im Ruhezustand, HMAC-signierte Besuchsberichte."
+      },
+      "audit": {
+        "title": "Unveränderliches Audit-Log",
+        "description": "Unveränderliche Spur jedes Zugriffs und jeder Änderung, exportierbar für Ihre internen Audits und kantonalen Behörden. Granulares RBAC und mandantenfähig."
+      }
+    },
+    "regulations": {
+      "eyebrow": "Regulatorischer Rahmen",
+      "heading": "Für Schweizer Recht gebaut.",
+      "intro": "CareBond wurde für spezifische Schweizer Anforderungen gebaut, nicht aus einem europäischen Produkt adaptiert. Hier sind die wichtigsten Rahmenwerke, die wir adressieren.",
+      "items": {
+        "nlpd": {
+          "title": "DSG (Bundesgesetz)",
+          "description": "Bundesgesetz über den Datenschutz. Natives Audit-Log, Auskunfts- und Berichtigungsrechte, dokumentierter Beschwerdeweg zum EDÖB in unserer Datenschutzerklärung."
+        },
+        "kvg": {
+          "title": "KVG / LAMal",
+          "description": "Kryptografisch signierte Besuchsberichte (HMAC), Nachvollziehbarkeit konform mit den Krankenversicherungsanforderungen für Spitex- und Spitalabrechnung."
+        },
+        "transfers": {
+          "title": "Internationale Übermittlungen",
+          "description": "Die wenigen Übermittlungen ausserhalb der Schweiz (Kontaktformular via Resend, Hosting via Vercel fra1 Frankfurt) sind durch Standardvertragsklauseln geregelt und dokumentiert."
+        }
+      }
+    },
+    "docs": {
+      "eyebrow": "Technische Dokumentation",
+      "title": "Ihre Rechts- und IT-Teams möchten die Details?",
+      "description": "Wir halten vollständige technische Dokumentation bereit: Architektur, Datenflüsse, Audit-Log, Aufbewahrungsrichtlinien, Auftragsverarbeiterverträge. Auf Anfrage, ohne Formular auszufüllen.",
+      "secondary": "Unsere Datenschutzerklärung lesen"
+    }
   }
 }

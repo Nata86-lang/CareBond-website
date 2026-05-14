@@ -1107,5 +1107,98 @@
         "description": "30 minutes to explore how to keep your brand and patient experience while gaining the multilingual + nLPD capabilities."
       }
     }
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Swiss healthcare, better equipped.",
+    "subtitle": "CareBond is a Swiss platform built for nursing homes, home care, hospitals and clinics. We build the tool missing between patients, families, caregivers and management — without trying to replace what already works.",
+    "metaDescription": "About CareBond — Swiss platform for nursing homes, Spitex, hospitals and clinics. Mission, values, and where we're based.",
+    "mission": {
+      "eyebrow": "Our mission",
+      "heading": "Give care back the time paperwork takes from it.",
+      "body1": "In a Swiss nursing home, caregivers spend on average too many hours filling binders, handing over by phone, and gathering documents for audits. Those hours don't go to the resident.",
+      "body2": "CareBond returns them to care. By centralizing digital rounds, nLPD audit, multilingual chat, cryptographically signed reports, and indoor navigation in a single platform.",
+      "body3": "We don't replace your existing EMR. We plug into it, close the gaps, and add what was missing — with no rip-and-replace."
+    },
+    "values": {
+      "eyebrow": "Our values",
+      "heading": "What we refuse and what we stand for.",
+      "intro": "Four architectural choices we've held since the first line of code. They define what CareBond does as much as what CareBond will never do.",
+      "items": {
+        "v0": {
+          "title": "Privacy-first, not privacy-as-an-option",
+          "description": "No tracking cookies. No ad pixels. No leakage to Google Analytics. The nLPD is in the architecture, not in an addendum."
+        },
+        "v1": {
+          "title": "The caregiver stays in control",
+          "description": "Chat, livestream, prescriptions — the professional decides when and how. CareBond never bypasses the clinician."
+        },
+        "v2": {
+          "title": "Audit log by default",
+          "description": "Every access and modification is logged. Not as an option, not after configuration: from day one, on every action."
+        },
+        "v3": {
+          "title": "Swiss, no detour",
+          "description": "Swiss hosting (Infomaniak, Geneva). No foreign cloud, no transfer to the hyperscalers, no extraterritorial jurisdiction."
+        }
+      }
+    },
+    "location": {
+      "body": "CareBond SA is based in Geneva, Switzerland. We work in French, German, Italian and English — because that's Swiss reality."
+    },
+    "cta": {
+      "eyebrow": "Shall we talk?",
+      "title": "See if CareBond makes sense for you.",
+      "description": "30 minutes to understand your context and show you the platform with your real use cases. No generic demo."
+    }
+  },
+  "compliancePage": {
+    "eyebrow": "Compliance",
+    "title": "Compliance by architecture, not by addendum.",
+    "subtitle": "Native nLPD, KVG/LAMal, exclusive Swiss hosting, immutable audit log. Compliance isn't a layer we added — it's built into the platform from line one.",
+    "metaDescription": "CareBond compliance: nLPD, KVG/LAMal, Swiss hosting, audit log, cantonal hospital requirements.",
+    "pillars": {
+      "nlpd": {
+        "title": "Native nLPD",
+        "description": "Native audit log of accesses and modifications, built for Swiss law from the first line of code. Not a recycled GDPR patch."
+      },
+      "hosting": {
+        "title": "Swiss hosting",
+        "description": "Infrastructure hosted at Infomaniak (Geneva). Patient data does not leave Swiss territory — no exception, no hidden clause."
+      },
+      "encryption": {
+        "title": "Modern encryption",
+        "description": "TLS 1.3 in transit on Swiss servers, encryption of backups at rest, HMAC-signed visit reports."
+      },
+      "audit": {
+        "title": "Immutable audit log",
+        "description": "Immutable trace of every access and modification, exportable for your internal audits and cantonal authorities. Granular RBAC and multi-institution."
+      }
+    },
+    "regulations": {
+      "eyebrow": "Regulatory framework",
+      "heading": "Built for Swiss law.",
+      "intro": "CareBond was built for specific Swiss requirements, not adapted from a European product. Here are the main frameworks we address.",
+      "items": {
+        "nlpd": {
+          "title": "nLPD (Federal Act)",
+          "description": "Federal Act on Data Protection. Native audit log, rights of access and rectification, complaint route to the FDPIC documented in our privacy policy."
+        },
+        "kvg": {
+          "title": "KVG / LAMal",
+          "description": "Visit reports cryptographically signed (HMAC), traceability compliant with health-insurance requirements for Spitex and hospital billing."
+        },
+        "transfers": {
+          "title": "International transfers",
+          "description": "The few transfers outside Switzerland (contact form via Resend, hosting via Vercel fra1 Frankfurt) are governed by Standard Contractual Clauses and documented."
+        }
+      }
+    },
+    "docs": {
+      "eyebrow": "Technical documentation",
+      "title": "Your legal and IT teams want the details?",
+      "description": "We maintain complete technical documentation: architecture, data flows, audit log, retention policies, processor contracts. Available on request, with no form to fill.",
+      "secondary": "Read our privacy policy"
+    }
   }
 }

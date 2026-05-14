@@ -9,6 +9,8 @@ import { SITE_URL } from "@/lib/site";
 const ROUTES: { path: string; priority: number }[] = [
   { path: "", priority: 1.0 },
   { path: "/contact", priority: 0.9 },
+  { path: "/about", priority: 0.7 },
+  { path: "/compliance", priority: 0.7 },
   { path: "/platform/oversight", priority: 0.7 },
   { path: "/platform/audit", priority: 0.7 },
   { path: "/platform/livestream", priority: 0.7 },
