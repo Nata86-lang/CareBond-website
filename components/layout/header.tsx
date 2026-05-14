@@ -6,9 +6,12 @@ import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { LanguageSwitcher } from "./language-switcher";
 import { SolutionsDropdown } from "./solutions-dropdown";
+import { FeaturesDropdown } from "./features-dropdown";
 import { MobileNav } from "./mobile-nav";
 
-const NAV_ITEMS = ["features", "compliance", "about", "contact"] as const;
+// Features and Solutions both ship as dropdowns; the remaining top-level
+// nav entries are direct links to their respective pages.
+const NAV_ITEMS = ["compliance", "about", "contact"] as const;
 
 export function Header({ locale }: { locale: string }) {
   const t = useTranslations();
@@ -51,6 +54,7 @@ export function Header({ locale }: { locale: string }) {
           className="hidden items-center gap-1 lg:flex"
         >
           <SolutionsDropdown locale={locale} />
+          <FeaturesDropdown locale={locale} />
           {NAV_ITEMS.map((key) => (
             <Link
               key={key}

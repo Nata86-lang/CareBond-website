@@ -14,11 +14,22 @@ const SOLUTIONS = [
   { slug: "clinics", key: "clinics" },
 ] as const;
 
-const NAV_DIRECT = ["features", "compliance", "about", "contact"] as const;
+const FEATURES = [
+  "oversight",
+  "audit",
+  "livestream",
+  "chat-multilingue",
+  "rounds",
+  "floor-plans",
+] as const;
+
+// "features" is its own dropdown below — kept out of the direct list.
+const NAV_DIRECT = ["compliance", "about", "contact"] as const;
 
 export function MobileNav({ locale }: { locale: string }) {
   const t = useTranslations();
   const tMenu = useTranslations("nav.solutionsMenu");
+  const tPillars = useTranslations("platform.bento.pillars");
   const [open, setOpen] = useState(false);
 
   const close = () => setOpen(false);
@@ -87,6 +98,31 @@ export function MobileNav({ locale }: { locale: string }) {
                       className="block min-h-12 rounded-md px-4 py-3 text-sm text-neutral-700 hover:bg-neutral-100 hover:text-brand-navy focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
                     >
                       {tMenu(key)}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </details>
+
+            <details className="group">
+              <summary className="flex min-h-12 cursor-pointer list-none items-center justify-between rounded-md px-4 py-3 text-base font-medium text-neutral-800 hover:bg-neutral-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue">
+                <span>{t("nav.features")}</span>
+                <ChevronDown
+                  size={18}
+                  aria-hidden="true"
+                  className="transition-transform duration-150 group-open:rotate-180 motion-reduce:transition-none"
+                />
+              </summary>
+              <ul className="mt-1 space-y-0.5 pl-2">
+                {FEATURES.map((slug) => (
+                  <li key={slug}>
+                    <Link
+                      href={`/${locale}/platform/${slug}`}
+                      prefetch={false}
+                      onClick={close}
+                      className="block min-h-12 rounded-md px-4 py-3 text-sm text-neutral-700 hover:bg-neutral-100 hover:text-brand-navy focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
+                    >
+                      {tPillars(`${slug}.title`)}
                     </Link>
                   </li>
                 ))}
