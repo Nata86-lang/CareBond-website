@@ -145,7 +145,12 @@ export function ChatMultilingualDemo() {
   return (
     <section
       aria-label={t("demoAriaLabel")}
-      className="relative flex h-full flex-col"
+      // min-h locks the demo's height at its maximum so bubbles
+      // appearing/disappearing during the 10s loop don't push the
+      // page content below up and down — that "constant movement"
+      // is very noticeable on phones where the section stacks
+      // vertically below.
+      className="relative flex h-full min-h-[420px] flex-col"
     >
       {/* Pause / play toggle. Always visible so reduced-motion users can opt-in. */}
       <button
