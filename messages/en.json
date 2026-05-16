@@ -132,7 +132,7 @@
         "rounds": {
           "eyebrow": "Care",
           "title": "Digital rounds",
-          "description": "Patient list, vital signs, prioritized alerts, electronic prescriptions — all in the caregiver's pocket."
+          "description": "Patient list, vital signs, alerts, prescriptions — in the caregiver's pocket. Every report recorded is instantly visible to the whole team assigned to the patient, and a filtered mini-report is sent automatically to the family."
         },
         "floor-plans": {
           "eyebrow": "Wayfinding",
@@ -307,10 +307,14 @@
             "f3": {
               "title": "Electronic prescriptions",
               "description": "Secure generation by authorized prescribers, with cryptographic digital signature."
+            },
+            "f4": {
+              "title": "Reports shared with the patient's care team",
+              "description": "Every consultation, vital, observation or note recorded is instantly visible to every professional assigned to the same patient — day shift, night shift, treating physician, external providers. No more information lost between handoffs or verbal transmissions. In parallel, filtered mini-reports are automatically generated for the family, without exposing the full medical record."
             }
           }
         },
-        "compliance": "HMAC-signed reports, compliant with KVG/LAMal requirements. Native nLPD audit log on every caregiver action.",
+        "compliance": "HMAC-signed reports, compliant with KVG/LAMal requirements. Native nLPD audit log on every caregiver action and every access to the shared patient record.",
         "cta": {
           "eyebrow": "Next step",
           "title": "See digital rounds in your organization.",
@@ -600,7 +604,8 @@
           "b1": "Vitals captured offline if needed, synced automatically",
           "b2": "Alerts prioritized by severity, never lost",
           "b3": "Optional photo and visit note, time-stamped",
-          "b4": "Electronic prescriptions with digital signature of the authorized prescriber, aligned with Swiss eHealth practices"
+          "b4": "Electronic prescriptions with digital signature of the authorized prescriber, aligned with Swiss eHealth practices",
+          "b5": "Reports shared with the entire care team assigned to the patient — no information lost between shifts, with a filtered mini-report sent in parallel to the family"
         }
       },
       "audit": {
@@ -963,8 +968,8 @@
             "description": "The Spanish-speaking resident chats with the French-speaking caregiver, each reading in their own language. Barrier gone, communication stays."
           },
           "f3": {
-            "title": "Multi-team & roles",
-            "description": "Management, caregivers, housekeeping, external providers — each with their access level and interface, with granular permissions."
+            "title": "Multi-team & shared reports",
+            "description": "Management, caregivers, housekeeping, external providers — each with their access level and interface, with granular permissions. Reports, consultations and vitals recorded by one caregiver are instantly visible to every professional assigned to the same resident — no more information gaps between shifts. A filtered mini-report is sent in parallel to the family."
           }
         },
         "roadmap": "BESA, RAI and PLAISIR integrations under study for a future release."
@@ -1002,8 +1007,8 @@
             "description": "Automatic geofencing at the patient's home. Presence is confirmed without action, and the family receives the notification."
           },
           "f1": {
-            "title": "HMAC-signed reports",
-            "description": "Every visit report is cryptographically signed. Compliant with KVG/LAMal requirements for billing and audit."
+            "title": "HMAC-signed reports, shared across the team",
+            "description": "Every visit report is cryptographically signed and instantly visible to every caregiver assigned to the same patient — morning shift, evening shift, lead nurse. Compliant with KVG/LAMal requirements for billing and audit. A filtered mini-report is sent in parallel to the family."
           },
           "f2": {
             "title": "Opt-in livestream, with AI-powered fall detection",

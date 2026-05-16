@@ -132,7 +132,7 @@
         "rounds": {
           "eyebrow": "Cura",
           "title": "Giro digitale",
-          "description": "Elenco pazienti, parametri vitali, allarmi prioritari, ricette elettroniche — tutto nella tasca dell'operatore."
+          "description": "Elenco pazienti, parametri vitali, allarmi, ricette — nella tasca dell'operatore. Ogni rapporto inserito è immediatamente visibile a tutto il team assegnato al paziente, e un mini-rapporto filtrato parte automaticamente verso la famiglia."
         },
         "floor-plans": {
           "eyebrow": "Navigazione",
@@ -307,10 +307,14 @@
             "f3": {
               "title": "Ricette elettroniche",
               "description": "Generazione sicura da parte dei prescrittori autorizzati, con firma digitale crittografica."
+            },
+            "f4": {
+              "title": "Rapporti condivisi con il team del paziente",
+              "description": "Ogni consultazione, parametro vitale, osservazione o nota inserita è immediatamente visibile a tutti gli operatori assegnati allo stesso paziente — turno di giorno, turno di notte, medico curante, prestatori esterni. Niente più perdite di informazioni tra turni e consegne verbali. In parallelo vengono generati automaticamente mini-rapporti filtrati per la famiglia, senza esporre il dossier medico completo."
             }
           }
         },
-        "compliance": "Rapporti firmati HMAC, conformi ai requisiti LAMal. Audit log LPD nativo su ogni azione dell'operatore.",
+        "compliance": "Rapporti firmati HMAC, conformi ai requisiti LAMal. Audit log LPD nativo su ogni azione dell'operatore e ogni accesso al dossier paziente condiviso.",
         "cta": {
           "eyebrow": "Prossima tappa",
           "title": "Vediamo un giro digitale nella vostra struttura.",
@@ -600,7 +604,8 @@
           "b1": "Parametri vitali registrati offline se necessario, sincronizzati automaticamente",
           "b2": "Allarmi prioritizzati per gravità, mai persi",
           "b3": "Foto e nota di visita opzionali, con timestamp",
-          "b4": "Ricette elettroniche con firma digitale del prescrittore autorizzato, in conformità con le buone pratiche eHealth svizzere"
+          "b4": "Ricette elettroniche con firma digitale del prescrittore autorizzato, in conformità con le buone pratiche eHealth svizzere",
+          "b5": "Rapporti condivisi con l'intero team curante assegnato al paziente — niente più perdite di informazioni tra i turni, mini-rapporto filtrato inviato in parallelo alla famiglia"
         }
       },
       "audit": {
@@ -963,8 +968,8 @@
             "description": "Il residente ispanofono parla con la sua operatrice italofona, e ciascuno legge nella propria lingua. La barriera scompare, la comunicazione resta."
           },
           "f3": {
-            "title": "Multi-team e ruoli",
-            "description": "Direzione, operatori, custodi, fornitori esterni — ciascuno con il proprio livello di accesso e la propria interfaccia, con permessi granulari."
+            "title": "Multi-team e rapporti condivisi",
+            "description": "Direzione, operatori, custodi, fornitori esterni — ciascuno con il proprio livello di accesso e la propria interfaccia, con permessi granulari. I rapporti, le consultazioni e i parametri vitali inseriti da un operatore sono immediatamente visibili a tutti i professionisti assegnati allo stesso residente — niente più buchi di informazione tra i turni. In parallelo parte un mini-rapporto filtrato verso la famiglia."
           }
         },
         "roadmap": "Integrazioni BESA, RAI e PLAISIR in studio per una prossima versione."
@@ -1002,8 +1007,8 @@
             "description": "Geofencing automatico al domicilio del paziente. La presenza è confermata senza intervento, e la famiglia riceve la notifica."
           },
           "f1": {
-            "title": "Rapporti firmati HMAC",
-            "description": "Ogni rapporto di visita è firmato crittograficamente. Conforme ai requisiti LAMal per la fatturazione e l'audit."
+            "title": "Rapporti firmati HMAC, condivisi in team",
+            "description": "Ogni rapporto di visita è firmato crittograficamente e immediatamente visibile a tutti gli operatori assegnati allo stesso paziente — turno del mattino, della sera, infermiera di riferimento. Conforme ai requisiti LAMal per la fatturazione e l'audit. In parallelo parte un mini-rapporto filtrato verso la famiglia."
           },
           "f2": {
             "title": "Livestream con consenso, con rilevamento IA delle cadute",

@@ -132,7 +132,7 @@
         "rounds": {
           "eyebrow": "Soin",
           "title": "Tournée digitale",
-          "description": "Liste des patients, signes vitaux, alertes prioritaires, ordonnances électroniques — tout dans la poche du soignant."
+          "description": "Liste des patients, signes vitaux, alertes, ordonnances — dans la poche du soignant. Chaque rapport saisi est instantanément visible par toute l'équipe assignée au patient, et un mini-rapport filtré part automatiquement à la famille."
         },
         "floor-plans": {
           "eyebrow": "Navigation",
@@ -307,10 +307,14 @@
             "f3": {
               "title": "Ordonnances électroniques",
               "description": "Génération sécurisée par les prescripteurs autorisés, avec signature numérique cryptographique."
+            },
+            "f4": {
+              "title": "Rapports partagés avec l'équipe du patient",
+              "description": "Chaque consultation, vital, observation ou note saisie est instantanément visible par tous les soignants assignés au même patient — équipe de jour, équipe de nuit, médecin traitant, intervenants externes. Fin des pertes d'information entre les rotations et les transmissions verbales. En parallèle, des mini-rapports filtrés sont générés automatiquement pour la famille, sans exposer le dossier médical complet."
             }
           }
         },
-        "compliance": "Rapports signés HMAC, conformes aux exigences KVG/LAMal. Audit log nLPD natif sur chaque action soignante.",
+        "compliance": "Rapports signés HMAC, conformes aux exigences KVG/LAMal. Audit log nLPD natif sur chaque action soignante et chaque accès au dossier patient partagé.",
         "cta": {
           "eyebrow": "Prochaine étape",
           "title": "Voyons une tournée digitale dans votre structure.",
@@ -600,7 +604,8 @@
           "b1": "Signes vitaux saisis offline si besoin, synchronisés automatiquement",
           "b2": "Alertes priorisées par gravité, jamais perdues",
           "b3": "Photo et note de visite optionnelles, horodatées",
-          "b4": "Ordonnances électroniques avec signature numérique du prescripteur autorisé, en conformité avec les bonnes pratiques eHealth suisses"
+          "b4": "Ordonnances électroniques avec signature numérique du prescripteur autorisé, en conformité avec les bonnes pratiques eHealth suisses",
+          "b5": "Rapports partagés avec toute l'équipe soignante assignée au patient — fin des pertes d'information entre les rotations, mini-rapport filtré envoyé en parallèle à la famille"
         }
       },
       "audit": {
@@ -963,8 +968,8 @@
             "description": "Le résident hispanophone parle à sa soignante francophone, et chacun lit dans sa langue. La barrière disparaît, la communication reste."
           },
           "f3": {
-            "title": "Multi-équipes & rôles",
-            "description": "Direction, soignants, gardiens, prestataires externes — chacun son niveau d'accès et son interface, avec permissions granulaires."
+            "title": "Multi-équipes & rapports partagés",
+            "description": "Direction, soignants, gardiens, prestataires externes — chacun son niveau d'accès et son interface, avec permissions granulaires. Les rapports, consultations et vitaux saisis par un soignant sont instantanément visibles par tous les professionnels assignés au même résident — fin des trous d'information entre les rotations. Un mini-rapport filtré part en parallèle à la famille."
           }
         },
         "roadmap": "Intégrations BESA, RAI et PLAISIR à l'étude pour une prochaine version."
@@ -1002,8 +1007,8 @@
             "description": "Geofencing automatique au domicile du patient. La présence est confirmée sans intervention, et la famille reçoit la notification."
           },
           "f1": {
-            "title": "Rapports signés HMAC",
-            "description": "Chaque rapport de visite est cryptographiquement signé. Conforme aux exigences KVG/LAMal pour la facturation et l'audit."
+            "title": "Rapports signés HMAC, partagés en équipe",
+            "description": "Chaque rapport de visite est cryptographiquement signé puis instantanément visible par tous les soignants assignés au même patient — équipe de matinée, de soirée, infirmière de référence. Conforme aux exigences KVG/LAMal pour la facturation et l'audit. Un mini-rapport filtré part en parallèle à la famille."
           },
           "f2": {
             "title": "Livestream sur consentement, avec détection IA des chutes",

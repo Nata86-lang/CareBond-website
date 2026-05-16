@@ -132,7 +132,7 @@
         "rounds": {
           "eyebrow": "Pflege",
           "title": "Digitale Visite",
-          "description": "Patientenliste, Vitalwerte, priorisierte Alarme, elektronische Rezepte — alles in der Tasche der Pflegeperson."
+          "description": "Patientenliste, Vitalwerte, Alarme, Rezepte — in der Tasche der Pflegeperson. Jeder erfasste Bericht ist sofort für das gesamte dem Patienten zugewiesene Team sichtbar, und ein gefilterter Mini-Bericht geht automatisch an die Familie."
         },
         "floor-plans": {
           "eyebrow": "Navigation",
@@ -307,10 +307,14 @@
             "f3": {
               "title": "Elektronische Rezepte",
               "description": "Sichere Ausstellung durch autorisierte Verschreiber, mit kryptografischer digitaler Signatur."
+            },
+            "f4": {
+              "title": "Berichte für das gesamte Behandlungsteam",
+              "description": "Jede Konsultation, jeder Vitalwert, jede Beobachtung oder Notiz ist sofort für alle dem Patienten zugewiesenen Pflegekräfte sichtbar — Tagschicht, Nachtschicht, behandelnde Ärztin, externe Dienstleister. Schluss mit Informationsverlust zwischen Schichtwechseln und mündlichen Übergaben. Parallel werden automatisch gefilterte Mini-Berichte für die Familie erstellt, ohne das vollständige Dossier offenzulegen."
             }
           }
         },
-        "compliance": "HMAC-signierte Berichte, konform mit den KVG/LAMal-Anforderungen. Natives DSG-Audit-Log bei jeder Pflegehandlung.",
+        "compliance": "HMAC-signierte Berichte, konform mit den KVG/LAMal-Anforderungen. Natives DSG-Audit-Log bei jeder Pflegehandlung und jedem Zugriff auf das geteilte Patientendossier.",
         "cta": {
           "eyebrow": "Nächster Schritt",
           "title": "Sehen wir eine digitale Visite in Ihrer Struktur.",
@@ -600,7 +604,8 @@
           "b1": "Vitalwerte bei Bedarf offline erfasst, automatische Synchronisation",
           "b2": "Nach Schweregrad priorisierte Alarme, nie verloren",
           "b3": "Optionales Foto und Besuchsnotiz mit Zeitstempel",
-          "b4": "Elektronische Rezepte mit digitaler Signatur autorisierter Verschreiber, in Konformität mit den Schweizer eHealth-Praktiken"
+          "b4": "Elektronische Rezepte mit digitaler Signatur autorisierter Verschreiber, in Konformität mit den Schweizer eHealth-Praktiken",
+          "b5": "Berichte geteilt mit dem gesamten dem Patienten zugewiesenen Pflegeteam — Schluss mit Informationsverlust zwischen Schichten, gefilterter Mini-Bericht geht parallel an die Familie"
         }
       },
       "audit": {
@@ -963,8 +968,8 @@
             "description": "Der spanischsprachige Bewohner schreibt mit seiner deutschsprachigen Pflegerin, jeder liest in seiner Sprache. Barriere weg, Kommunikation bleibt."
           },
           "f3": {
-            "title": "Mehrere Teams & Rollen",
-            "description": "Leitung, Pflege, Hausdienst, externe Dienstleister — jeder mit seiner Zugriffsebene und Oberfläche, mit granularen Berechtigungen."
+            "title": "Mehrere Teams & geteilte Berichte",
+            "description": "Leitung, Pflege, Hausdienst, externe Dienstleister — jeder mit seiner Zugriffsebene und Oberfläche, mit granularen Berechtigungen. Berichte, Konsultationen und Vitalwerte, die eine Pflegekraft erfasst, sind sofort für alle dem Bewohner zugewiesenen Fachpersonen sichtbar — Schluss mit Informationslücken zwischen Schichten. Parallel geht ein gefilterter Mini-Bericht an die Familie."
           }
         },
         "roadmap": "BESA-, RAI- und PLAISIR-Integrationen in Vorbereitung für eine zukünftige Version."
@@ -1002,8 +1007,8 @@
             "description": "Automatisches Geofencing am Wohnort des Patienten. Die Anwesenheit wird ohne Eingriff bestätigt, und die Familie erhält die Benachrichtigung."
           },
           "f1": {
-            "title": "HMAC-signierte Berichte",
-            "description": "Jeder Besuchsbericht ist kryptografisch signiert. Konform mit den KVG/LAMal-Anforderungen für Abrechnung und Audit."
+            "title": "HMAC-signierte Berichte, im Team geteilt",
+            "description": "Jeder Besuchsbericht ist kryptografisch signiert und sofort für alle dem Patienten zugewiesenen Pflegekräfte sichtbar — Frühschicht, Spätschicht, Bezugspflege. Konform mit den KVG/LAMal-Anforderungen für Abrechnung und Audit. Ein gefilterter Mini-Bericht geht parallel an die Familie."
           },
           "f2": {
             "title": "Livestream mit Einwilligung, inklusive KI-Sturzerkennung",

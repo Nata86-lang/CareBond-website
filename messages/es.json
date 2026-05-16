@@ -132,7 +132,7 @@
         "rounds": {
           "eyebrow": "Cuidado",
           "title": "Visita digital",
-          "description": "Lista de pacientes, signos vitales, alertas prioritarias, recetas electrónicas — todo en el bolsillo del profesional."
+          "description": "Lista de pacientes, signos vitales, alertas, recetas — en el bolsillo del profesional. Cada informe registrado queda visible al instante para todo el equipo asignado al paciente, y un mini-informe filtrado se envía automáticamente a la familia."
         },
         "floor-plans": {
           "eyebrow": "Navegación",
@@ -307,10 +307,14 @@
             "f3": {
               "title": "Recetas electrónicas",
               "description": "Generación segura por los prescriptores autorizados, con firma digital criptográfica."
+            },
+            "f4": {
+              "title": "Informes compartidos con el equipo del paciente",
+              "description": "Cada consulta, vital, observación o nota registrada queda visible al instante para todos los profesionales asignados al mismo paciente — turno de día, turno de noche, médico tratante, prestadores externos. Se acabaron las pérdidas de información entre relevos y las transmisiones verbales. En paralelo se generan automáticamente mini-informes filtrados para la familia, sin exponer el expediente médico completo."
             }
           }
         },
-        "compliance": "Informes firmados HMAC, conformes a los requisitos KVG/LAMal. Audit log nLPD nativo en cada acción del profesional.",
+        "compliance": "Informes firmados HMAC, conformes a los requisitos KVG/LAMal. Audit log nLPD nativo en cada acción del profesional y cada acceso al expediente paciente compartido.",
         "cta": {
           "eyebrow": "Próxima etapa",
           "title": "Veamos una visita digital en su estructura.",
@@ -600,7 +604,8 @@
           "b1": "Signos vitales registrados offline si es necesario, sincronizados automáticamente",
           "b2": "Alertas priorizadas por gravedad, nunca perdidas",
           "b3": "Foto y nota de visita opcionales, con marca temporal",
-          "b4": "Recetas electrónicas con firma digital del prescriptor autorizado, conforme a las buenas prácticas eHealth suizas"
+          "b4": "Recetas electrónicas con firma digital del prescriptor autorizado, conforme a las buenas prácticas eHealth suizas",
+          "b5": "Informes compartidos con todo el equipo asistencial asignado al paciente — se acabaron las pérdidas de información entre relevos, mini-informe filtrado enviado en paralelo a la familia"
         }
       },
       "audit": {
@@ -963,8 +968,8 @@
             "description": "El residente hispanohablante habla con su cuidadora francófona, y cada uno lee en su idioma. La barrera desaparece, la comunicación queda."
           },
           "f3": {
-            "title": "Multi-equipos y roles",
-            "description": "Dirección, profesionales, conserjes, prestadores externos — cada uno con su nivel de acceso e interfaz, con permisos granulares."
+            "title": "Multi-equipos e informes compartidos",
+            "description": "Dirección, profesionales, conserjes, prestadores externos — cada uno con su nivel de acceso e interfaz, con permisos granulares. Los informes, consultas y vitales que registra un profesional quedan visibles al instante para todos los profesionales asignados al mismo residente — se acabaron los huecos de información entre relevos. Un mini-informe filtrado se envía en paralelo a la familia."
           }
         },
         "roadmap": "Integraciones BESA, RAI y PLAISIR en estudio para una próxima versión."
@@ -1002,8 +1007,8 @@
             "description": "Geofencing automático en el domicilio del paciente. La presencia se confirma sin intervención, y la familia recibe la notificación."
           },
           "f1": {
-            "title": "Informes firmados HMAC",
-            "description": "Cada informe de visita está firmado criptográficamente. Conforme a los requisitos KVG/LAMal para la facturación y auditoría."
+            "title": "Informes firmados HMAC, compartidos en equipo",
+            "description": "Cada informe de visita está firmado criptográficamente y queda visible al instante para todos los profesionales asignados al mismo paciente — turno de mañana, de tarde, enfermera de referencia. Conforme a los requisitos KVG/LAMal para la facturación y auditoría. Un mini-informe filtrado se envía en paralelo a la familia."
           },
           "f2": {
             "title": "Livestream con consentimiento, con detección IA de caídas",

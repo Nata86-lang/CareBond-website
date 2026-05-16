@@ -56,14 +56,14 @@ function isValidSlug(s: string): s is Slug {
 
 // Icons per slug's capabilities. Drawn from real product capabilities
 // so each pillar's grid reflects something CareBond actually does.
-// The livestream slug has 5 capabilities (the 5th is AI fall detection,
-// which is a real product feature) — the rest are 4.
+// Two slugs have an extra 5th capability — livestream (AI fall detection)
+// and rounds (reports shared across the patient's care team). The rest are 4.
 const CAPABILITY_ICONS: Record<Slug, LucideIcon[]> = {
   oversight: [LayoutGrid, AlertTriangle, Building2, Users],
   audit: [Users, ClipboardCheck, FileSignature, FileText],
   livestream: [UserCheck, Clock, Lock, Server, Activity],
   "chat-multilingue": [Languages, UserCheck, Server, Globe2],
-  rounds: [Smartphone, ClipboardCheck, MapPin, FileSignature],
+  rounds: [Smartphone, ClipboardCheck, MapPin, FileSignature, Users],
   "floor-plans": [Building2, Navigation, Smartphone, Plug],
 };
 
@@ -72,7 +72,7 @@ const CAPABILITY_KEYS: Record<Slug, readonly string[]> = {
   audit: ["f0", "f1", "f2", "f3"],
   livestream: ["f0", "f1", "f2", "f3", "f4"],
   "chat-multilingue": ["f0", "f1", "f2", "f3"],
-  rounds: ["f0", "f1", "f2", "f3"],
+  rounds: ["f0", "f1", "f2", "f3", "f4"],
   "floor-plans": ["f0", "f1", "f2", "f3"],
 };
 
