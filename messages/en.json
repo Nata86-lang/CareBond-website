@@ -69,6 +69,7 @@
           "logout": "Logout"
         },
         "search": "Global search",
+        "demoBadge": "Demo data",
         "welcome": "Welcome, Admin",
         "residents": "Total patients",
         "professionals": "Active professionals",
@@ -121,7 +122,7 @@
         "livestream": {
           "eyebrow": "Presence",
           "title": "Opt-in livestream",
-          "description": "Camera can be enabled and disabled by the patient. Full access log, never recorded without consent."
+          "description": "Camera can be enabled and disabled by the patient, with AI-powered fall detection in real time. Never recorded — live stream only."
         },
         "chat-multilingue": {
           "eyebrow": "Communication",
@@ -230,12 +231,16 @@
               "description": "Every family connection logged: who watched, when, for how long. The patient can review this log."
             },
             "f2": {
-              "title": "No default recording",
-              "description": "The feed is streamed in real time, not stored. No video file kept without explicit patient consent."
+              "title": "No recording, ever",
+              "description": "The feed streams in real time and is never recorded, on any medium. No video file kept, no video history — only the live stream."
             },
             "f3": {
               "title": "Swiss hosting",
               "description": "The stream never leaves Swiss territory. No foreign cloud, no cross-border exposure risk."
+            },
+            "f4": {
+              "title": "AI-powered fall detection",
+              "description": "Real-time AI analysis automatically detects falls during the broadcast and immediately alerts family and caregivers. The analysis runs on the live stream, with no video recording whatsoever."
             }
           }
         },
@@ -398,7 +403,7 @@
         "features": {
           "f0": {
             "title": "Documented REST API",
-            "description": "Synchronize with your existing system via API and webhooks. HL7/FHIR integration under study for hospitals."
+            "description": "Synchronize with your existing system via API and webhooks. HL7/FHIR integration in development for hospitals."
           },
           "f1": {
             "title": "Multi-department & RBAC",
@@ -483,7 +488,7 @@
       },
       "q1": {
         "question": "How do you integrate with our existing system?",
-        "answer": "Documented REST API. Synchronization possible via webhooks and CSV/JSON exports. HL7/FHIR integration for hospitals is under study."
+        "answer": "Documented REST API. Synchronization possible via webhooks and CSV/JSON exports. Native HL7/FHIR integration for hospitals is in development and will ship in a future release."
       },
       "q2": {
         "question": "What if we decide to leave?",
@@ -581,7 +586,7 @@
         "title": "Admission & patient record",
         "description": "It all starts with an admission. CareBond turns that first step into a structured patient record, nLPD-compliant from the first click.",
         "bullets": {
-          "b0": "Standardized admission form, validated canton by canton",
+          "b0": "Standardized admission form, nLPD-compliant and adaptable to cantonal specifics",
           "b1": "Electronic signature from resident and family",
           "b2": "Auto-import of health data (medications, allergies, contacts)",
           "b3": "Paperless record ready for caregivers in five minutes"
@@ -961,7 +966,8 @@
             "title": "Multi-team & roles",
             "description": "Management, caregivers, housekeeping, external providers — each with their access level and interface, with granular permissions."
           }
-        }
+        },
+        "roadmap": "BESA, RAI and PLAISIR integrations under study for a future release."
       },
       "cta": {
         "eyebrow": "Next step",
@@ -1000,8 +1006,8 @@
             "description": "Every visit report is cryptographically signed. Compliant with KVG/LAMal requirements for billing and audit."
           },
           "f2": {
-            "title": "Opt-in livestream",
-            "description": "The patient's camera can be enabled or disabled by the patient or caregiver at any time. Full access log."
+            "title": "Opt-in livestream, with AI-powered fall detection",
+            "description": "The patient's camera can be enabled or disabled by the patient or caregiver at any time. Real-time AI fall detection, never recorded — live stream only. Full access log."
           },
           "f3": {
             "title": "Prioritized alerts",
@@ -1017,9 +1023,9 @@
     },
     "hospitals": {
       "eyebrow": "For hospitals",
-      "title": "A platform that talks to your existing EMR.",
-      "subtitle": "Documented REST API, department-level RBAC, immutable audit log, 3D plans and indoor GPS. Built for real hospital workloads.",
-      "metaDescription": "CareBond solution for hospitals: REST API, HL7/FHIR EMR integration under study, multi-department RBAC, 3D plans + indoor wayfinding.",
+      "title": "A platform designed to integrate with your EMR.",
+      "subtitle": "Documented REST API available today, HL7/FHIR integration in development. Department-level RBAC, immutable audit log, 3D plans and indoor GPS.",
+      "metaDescription": "CareBond solution for hospitals: documented REST API, HL7/FHIR integration in development, multi-department RBAC, 3D plans + indoor wayfinding.",
       "visualAlt": "3D isometric plan of a hospital — operating theaters, MRI suite, ward, laboratory, main lobby, with indoor GPS route",
       "problem": {
         "eyebrow": "The reality",
@@ -1038,8 +1044,8 @@
         "intro": "CareBond doesn't aim to replace your EMR. We plug in, close the gaps, and add what was missing: indoor wayfinding, multilingual communication, cross-departmental audit.",
         "items": {
           "f0": {
-            "title": "Documented REST API",
-            "description": "Synchronize with your existing EMR via API and webhooks. HL7/FHIR integration for hospitals is under study."
+            "title": "Documented REST API, HL7/FHIR in development",
+            "description": "Sync with your existing EMR via REST API and webhooks today. Native HL7/FHIR integration is in development and will ship in a future release."
           },
           "f1": {
             "title": "Multi-department & RBAC",
@@ -1191,6 +1197,23 @@
         "transfers": {
           "title": "International transfers",
           "description": "The few transfers outside Switzerland (contact form via Resend, hosting via Vercel fra1 Frankfurt) are governed by Standard Contractual Clauses and documented."
+        }
+      }
+    },
+    "certifications": {
+      "eyebrow": "Certifications",
+      "heading": "Targeted certifications",
+      "intro": "Beyond the nLPD requirements and data sovereignty already covered by our architecture, CareBond is working toward internationally recognized certifications expected by hospital procurement teams.",
+      "items": {
+        "iso27001": {
+          "title": "ISO/IEC 27001",
+          "status": "Process in preparation",
+          "description": "Information security management system. Certification process in preparation for 2026-2027."
+        },
+        "hds": {
+          "title": "HDS — French Health Data Host",
+          "status": "Process in preparation",
+          "description": "French reference certification for hosting health data. Under evaluation for our offering to Swiss institutions that require an HDS-equivalent qualification."
         }
       }
     },

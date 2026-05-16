@@ -227,6 +227,11 @@ export default async function SolutionPage({
               );
             })}
           </ul>
+          {slug === "ems" && (
+            <p className="mt-8 text-sm italic leading-relaxed text-neutral-500">
+              {t("features.roadmap")}
+            </p>
+          )}
         </div>
       </section>
 

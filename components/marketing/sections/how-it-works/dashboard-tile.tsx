@@ -50,9 +50,14 @@ export async function DashboardTile() {
         </span>
       </div>
       <div className="bg-neutral-50 p-3">
-        <p className="text-[9px] font-semibold uppercase tracking-wider text-neutral-500">
-          CareBond · EMS
-        </p>
+        <div className="flex items-center justify-between gap-2">
+          <p className="text-[9px] font-semibold uppercase tracking-wider text-neutral-500">
+            CareBond · EMS
+          </p>
+          <span className="rounded-full border border-amber-300 bg-amber-50 px-1.5 py-0.5 text-[7px] font-semibold uppercase tracking-wider text-amber-700">
+            {t("demoBadge")}
+          </span>
+        </div>
         <p className="mt-0.5 text-[11px] font-semibold tracking-tight text-brand-navy">
           {t("welcome")}
         </p>

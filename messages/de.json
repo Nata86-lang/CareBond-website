@@ -69,6 +69,7 @@
           "logout": "Abmelden"
         },
         "search": "Globale Suche",
+        "demoBadge": "Demodaten",
         "welcome": "Willkommen, Admin",
         "residents": "Total Patienten",
         "professionals": "Aktive Fachpersonen",
@@ -121,7 +122,7 @@
         "livestream": {
           "eyebrow": "Präsenz",
           "title": "Livestream auf Einwilligung",
-          "description": "Kamera vom Patienten jederzeit aktivierbar und deaktivierbar. Vollständiges Zugriffsprotokoll, nie ohne Einwilligung aufgezeichnet."
+          "description": "Kamera vom Patienten jederzeit aktivierbar und deaktivierbar, mit KI-Sturzerkennung in Echtzeit. Nie aufgezeichnet — ausschliesslich Live-Übertragung."
         },
         "chat-multilingue": {
           "eyebrow": "Kommunikation",
@@ -230,12 +231,16 @@
               "description": "Jede Familienverbindung protokolliert: wer hat geschaut, wann, wie lange. Der Patient kann dieses Protokoll einsehen."
             },
             "f2": {
-              "title": "Keine Standardaufzeichnung",
-              "description": "Der Feed wird in Echtzeit übertragen, nicht gespeichert. Keine Videodatei ohne ausdrückliche Einwilligung des Patienten."
+              "title": "Keine Aufzeichnung, niemals",
+              "description": "Der Feed wird in Echtzeit übertragen und nie aufgezeichnet, auf keinem Medium. Keine Videodatei, kein Videoverlauf — ausschliesslich der Live-Stream."
             },
             "f3": {
               "title": "Schweizer Hosting",
               "description": "Der Stream verlässt nie das Schweizer Territorium. Keine ausländische Cloud, kein extraterritoriales Expositionsrisiko."
+            },
+            "f4": {
+              "title": "KI-gestützte Sturzerkennung",
+              "description": "Eine Echtzeit-KI-Analyse erkennt während der Übertragung automatisch Stürze und benachrichtigt sofort Angehörige und Pflegepersonal. Die Analyse erfolgt auf dem Live-Stream, ohne jegliche Videoaufzeichnung."
             }
           }
         },
@@ -398,7 +403,7 @@
         "features": {
           "f0": {
             "title": "Dokumentierte REST-API",
-            "description": "Synchronisation mit Ihrem bestehenden System über API und Webhooks. HL7/FHIR-Integration für Spitäler in Prüfung."
+            "description": "Synchronisation mit Ihrem bestehenden System über API und Webhooks. HL7/FHIR-Integration für Spitäler in Entwicklung."
           },
           "f1": {
             "title": "Mehrere Abteilungen & RBAC",
@@ -483,7 +488,7 @@
       },
       "q1": {
         "question": "Wie integrieren Sie sich in unser bestehendes System?",
-        "answer": "Dokumentierte REST-API. Synchronisation über Webhooks und CSV/JSON-Exporte möglich. Die HL7/FHIR-Integration für Spitäler wird derzeit geprüft."
+        "answer": "Dokumentierte REST-API. Synchronisation über Webhooks und CSV/JSON-Exporte möglich. Die native HL7/FHIR-Integration für Spitäler befindet sich in Entwicklung und wird in einer zukünftigen Version verfügbar sein."
       },
       "q2": {
         "question": "Was passiert, wenn wir gehen möchten?",
@@ -581,7 +586,7 @@
         "title": "Aufnahme & Patientendossier",
         "description": "Alles beginnt mit einer Aufnahme. CareBond verwandelt diesen ersten Schritt in ein strukturiertes Patientendossier, ab dem ersten Klick DSG-konform.",
         "bullets": {
-          "b0": "Standardisiertes Aufnahmeformular, Kanton für Kanton validiert",
+          "b0": "Standardisiertes Aufnahmeformular, DSG-konform und an kantonale Besonderheiten anpassbar",
           "b1": "Elektronische Unterschrift von Bewohner und Familie",
           "b2": "Automatischer Import der Gesundheitsdaten (Medikamente, Allergien, Kontakte)",
           "b3": "Digitales Dossier in fünf Minuten einsatzbereit für die Pflege"
@@ -961,7 +966,8 @@
             "title": "Mehrere Teams & Rollen",
             "description": "Leitung, Pflege, Hausdienst, externe Dienstleister — jeder mit seiner Zugriffsebene und Oberfläche, mit granularen Berechtigungen."
           }
-        }
+        },
+        "roadmap": "BESA-, RAI- und PLAISIR-Integrationen in Vorbereitung für eine zukünftige Version."
       },
       "cta": {
         "eyebrow": "Nächster Schritt",
@@ -1000,8 +1006,8 @@
             "description": "Jeder Besuchsbericht ist kryptografisch signiert. Konform mit den KVG/LAMal-Anforderungen für Abrechnung und Audit."
           },
           "f2": {
-            "title": "Livestream mit Einwilligung",
-            "description": "Die Kamera des Patienten kann vom Patienten oder der Pflegeperson jederzeit aktiviert und deaktiviert werden. Vollständiges Zugriffsprotokoll."
+            "title": "Livestream mit Einwilligung, inklusive KI-Sturzerkennung",
+            "description": "Die Kamera kann vom Patienten oder der Pflegeperson jederzeit aktiviert und deaktiviert werden. KI-Sturzerkennung in Echtzeit, keinerlei Aufzeichnung — ausschliesslich Live-Übertragung. Vollständiges Zugriffsprotokoll."
           },
           "f3": {
             "title": "Priorisierte Alarme",
@@ -1017,9 +1023,9 @@
     },
     "hospitals": {
       "eyebrow": "Für Spitäler",
-      "title": "Eine Plattform, die mit Ihrem bestehenden EMR spricht.",
-      "subtitle": "Dokumentierte REST-API, granulares RBAC pro Abteilung, unveränderliches Audit-Log, 3D-Pläne und Indoor-GPS. Konzipiert für reale Spitallasten.",
-      "metaDescription": "CareBond-Lösung für Spitäler: REST-API, HL7/FHIR-EMR-Integration in Prüfung, RBAC pro Abteilung, 3D-Pläne + Indoor-Navigation.",
+      "title": "Eine Plattform, die für die Integration mit Ihrem EMR konzipiert ist.",
+      "subtitle": "Dokumentierte REST-API ab heute, HL7/FHIR-Integration in Entwicklung. Granulares RBAC pro Abteilung, unveränderliches Audit-Log, 3D-Pläne und Indoor-GPS.",
+      "metaDescription": "CareBond-Lösung für Spitäler: dokumentierte REST-API, HL7/FHIR-Integration in Entwicklung, RBAC pro Abteilung, 3D-Pläne + Indoor-Navigation.",
       "visualAlt": "Isometrischer 3D-Plan eines Spitals — OP-Säle, MRI-Suite, Ward, Labor, Hauptlobby, mit Indoor-GPS-Route",
       "problem": {
         "eyebrow": "Die Realität",
@@ -1038,8 +1044,8 @@
         "intro": "CareBond hat nicht den Anspruch, Ihr EMR zu ersetzen. Wir docken an, schliessen die Lücken und bringen, was fehlte: Indoor-Navigation, mehrsprachige Kommunikation, übergreifendes Audit.",
         "items": {
           "f0": {
-            "title": "Dokumentierte REST-API",
-            "description": "Synchronisation mit Ihrem bestehenden EMR über API und Webhooks. HL7/FHIR-Integration für Spitäler in Prüfung."
+            "title": "Dokumentierte REST-API, HL7/FHIR in Entwicklung",
+            "description": "Synchronisation mit Ihrem bestehenden EMR über REST-API und Webhooks bereits heute. Die native HL7/FHIR-Integration befindet sich in Entwicklung und wird in einer zukünftigen Version verfügbar sein."
           },
           "f1": {
             "title": "Multi-Abteilung & RBAC",
@@ -1191,6 +1197,23 @@
         "transfers": {
           "title": "Internationale Übermittlungen",
           "description": "Die wenigen Übermittlungen ausserhalb der Schweiz (Kontaktformular via Resend, Hosting via Vercel fra1 Frankfurt) sind durch Standardvertragsklauseln geregelt und dokumentiert."
+        }
+      }
+    },
+    "certifications": {
+      "eyebrow": "Zertifizierungen",
+      "heading": "Angestrebte Zertifizierungen",
+      "intro": "Über die DSG-Anforderungen und die Datenhoheit hinaus, die bereits durch unsere Architektur abgedeckt werden, arbeitet CareBond auf international anerkannte Zertifizierungen hin, die von Beschaffungsteams im Spitalwesen erwartet werden.",
+      "items": {
+        "iso27001": {
+          "title": "ISO/IEC 27001",
+          "status": "Verfahren in Vorbereitung",
+          "description": "Managementsystem für Informationssicherheit. Zertifizierungsverfahren in Vorbereitung für 2026-2027."
+        },
+        "hds": {
+          "title": "HDS — Hébergeur de Données de Santé",
+          "status": "Verfahren in Vorbereitung",
+          "description": "Französische Referenzzertifizierung für das Hosting von Gesundheitsdaten. Wird für unser Angebot an Schweizer Einrichtungen geprüft, die eine HDS-äquivalente Qualifikation verlangen."
         }
       }
     },

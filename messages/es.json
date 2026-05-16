@@ -69,6 +69,7 @@
           "logout": "Cerrar sesión"
         },
         "search": "Búsqueda global",
+        "demoBadge": "Datos de demostración",
         "welcome": "Hola, Admin",
         "residents": "Total pacientes",
         "professionals": "Profesionales activos",
@@ -121,7 +122,7 @@
         "livestream": {
           "eyebrow": "Presencia",
           "title": "Livestream con consentimiento",
-          "description": "Cámara que el paciente puede activar y desactivar. Registro de accesos completo, nunca grabada sin acuerdo."
+          "description": "Cámara que el paciente puede activar y desactivar, con detección IA de caídas en tiempo real. Nunca se graba — sólo transmisión en stream."
         },
         "chat-multilingue": {
           "eyebrow": "Comunicación",
@@ -230,12 +231,16 @@
               "description": "Cada conexión familiar registrada: quién miró, cuándo, cuánto tiempo. El paciente puede consultar este registro."
             },
             "f2": {
-              "title": "Sin grabación por defecto",
-              "description": "El flujo se difunde en tiempo real, no se almacena. Ningún archivo de vídeo conservado sin acuerdo explícito del paciente."
+              "title": "Sin grabación, nunca",
+              "description": "El flujo se difunde en tiempo real y nunca se graba, en ningún soporte. Ningún archivo de vídeo conservado, ningún historial de vídeo — solo el stream en vivo."
             },
             "f3": {
               "title": "Alojamiento en Suiza",
               "description": "El flujo nunca sale del territorio suizo. Sin nube extranjera, sin riesgo de exposición extraterritorial."
+            },
+            "f4": {
+              "title": "Detección de caídas con IA",
+              "description": "Un análisis de IA en tiempo real detecta automáticamente las caídas durante la difusión y alerta de inmediato a familiares y profesionales. El análisis se realiza sobre el stream en vivo, sin ninguna grabación de vídeo."
             }
           }
         },
@@ -398,7 +403,7 @@
         "features": {
           "f0": {
             "title": "API REST documentada",
-            "description": "Sincronización con su sistema existente vía API y webhooks. Integración HL7/FHIR en estudio para los hospitales."
+            "description": "Sincronización con su sistema existente vía API y webhooks. Integración HL7/FHIR en desarrollo para los hospitales."
           },
           "f1": {
             "title": "Multi-servicio y RBAC",
@@ -483,7 +488,7 @@
       },
       "q1": {
         "question": "¿Cómo se integran con nuestro sistema existente?",
-        "answer": "API REST documentada. Sincronización posible vía webhooks y exportaciones CSV/JSON. La integración HL7/FHIR para hospitales está en estudio."
+        "answer": "API REST documentada. Sincronización posible vía webhooks y exportaciones CSV/JSON. La integración nativa HL7/FHIR para hospitales está en desarrollo y formará parte de una próxima versión."
       },
       "q2": {
         "question": "¿Qué pasa si decidimos irnos?",
@@ -581,7 +586,7 @@
         "title": "Ingreso y expediente paciente",
         "description": "Todo empieza por un ingreso. CareBond transforma esta primera etapa en un expediente paciente estructurado, conforme nLPD desde el primer clic.",
         "bullets": {
-          "b0": "Formulario de ingreso estandarizado, validado cantón por cantón",
+          "b0": "Formulario de ingreso estandarizado, conforme a los requisitos nLPD y adaptable a las especificidades cantonales",
           "b1": "Firma electrónica del residente y de la familia",
           "b2": "Auto-importación de los datos de salud (medicamentos, alergias, contactos)",
           "b3": "Expediente desmaterializado listo para los profesionales en cinco minutos"
@@ -961,7 +966,8 @@
             "title": "Multi-equipos y roles",
             "description": "Dirección, profesionales, conserjes, prestadores externos — cada uno con su nivel de acceso e interfaz, con permisos granulares."
           }
-        }
+        },
+        "roadmap": "Integraciones BESA, RAI y PLAISIR en estudio para una próxima versión."
       },
       "cta": {
         "eyebrow": "Próxima etapa",
@@ -1000,8 +1006,8 @@
             "description": "Cada informe de visita está firmado criptográficamente. Conforme a los requisitos KVG/LAMal para la facturación y auditoría."
           },
           "f2": {
-            "title": "Livestream con consentimiento",
-            "description": "La cámara del paciente puede activarse y desactivarse por el paciente o su profesional, en cualquier momento. Registro de accesos completo."
+            "title": "Livestream con consentimiento, con detección IA de caídas",
+            "description": "La cámara puede activarse y desactivarse por el paciente o su profesional en cualquier momento. Detección IA de caídas en tiempo real, nunca se graba — solo transmisión en stream. Registro de accesos completo."
           },
           "f3": {
             "title": "Alertas priorizadas",
@@ -1017,9 +1023,9 @@
     },
     "hospitals": {
       "eyebrow": "Para los hospitales",
-      "title": "Una plataforma que habla con su EMR existente.",
-      "subtitle": "API REST documentada, RBAC granular por departamento, audit log inmutable, planos 3D y GPS interior. Diseñada para las cargas hospitalarias reales.",
-      "metaDescription": "Solución CareBond para los hospitales: API REST, integración EMR HL7/FHIR en estudio, RBAC multi-departamentos, planos 3D + navegación interior.",
+      "title": "Una plataforma diseñada para integrarse con su EMR.",
+      "subtitle": "API REST documentada ya hoy, integración HL7/FHIR en desarrollo. RBAC granular por departamento, audit log inmutable, planos 3D y GPS interior.",
+      "metaDescription": "Solución CareBond para los hospitales: API REST documentada, integración HL7/FHIR en desarrollo, RBAC multi-departamentos, planos 3D + navegación interior.",
       "visualAlt": "Plano 3D isométrico de un hospital — quirófanos, sala RM, planta, laboratorio, vestíbulo principal, con ruta GPS interior",
       "problem": {
         "eyebrow": "El constato",
@@ -1038,8 +1044,8 @@
         "intro": "CareBond no ambiciona reemplazar su EMR. Nos conectamos a él, cubrimos los puntos ciegos, y aportamos lo que faltaba: navegación interior, comunicación multilingüe, auditoría transversal.",
         "items": {
           "f0": {
-            "title": "API REST documentada",
-            "description": "Sincronización con su EMR existente vía API y webhooks. La integración HL7/FHIR para los hospitales está en estudio."
+            "title": "API REST documentada, HL7/FHIR en desarrollo",
+            "description": "Sincronización con su EMR existente vía API REST y webhooks ya hoy. La integración nativa HL7/FHIR está en desarrollo y formará parte de una próxima versión."
           },
           "f1": {
             "title": "Multi-departamento y RBAC",
@@ -1191,6 +1197,23 @@
         "transfers": {
           "title": "Transferencias internacionales",
           "description": "Las pocas transferencias fuera de Suiza (formulario de contacto vía Resend, hosting vía Vercel fra1 Fráncfort) están reguladas por Cláusulas Contractuales Tipo y documentadas."
+        }
+      }
+    },
+    "certifications": {
+      "eyebrow": "Certificaciones",
+      "heading": "Certificaciones objetivo",
+      "intro": "Más allá de los requisitos nLPD y la soberanía de datos ya cubiertos por nuestra arquitectura, CareBond trabaja para obtener certificaciones internacionales esperadas por los equipos de compras hospitalarios.",
+      "items": {
+        "iso27001": {
+          "title": "ISO/IEC 27001",
+          "status": "Proceso en preparación",
+          "description": "Sistema de gestión de la seguridad de la información. Proceso de certificación en preparación para 2026-2027."
+        },
+        "hds": {
+          "title": "HDS — Hébergeur de Données de Santé",
+          "status": "Proceso en preparación",
+          "description": "Certificación francesa de referencia para el alojamiento de datos de salud. En evaluación para nuestra oferta destinada a establecimientos suizos que exigen una cualificación HDS-equivalente."
         }
       }
     },

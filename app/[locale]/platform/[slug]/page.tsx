@@ -5,6 +5,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import {
+  Activity,
   AlertTriangle,
   ArrowRight,
   Building2,
@@ -53,15 +54,26 @@ function isValidSlug(s: string): s is Slug {
   return (VALID_SLUGS as readonly string[]).includes(s);
 }
 
-// Icons per slug's 4 capabilities. Drawn from real product capabilities
+// Icons per slug's capabilities. Drawn from real product capabilities
 // so each pillar's grid reflects something CareBond actually does.
-const CAPABILITY_ICONS: Record<Slug, [LucideIcon, LucideIcon, LucideIcon, LucideIcon]> = {
+// The livestream slug has 5 capabilities (the 5th is AI fall detection,
+// which is a real product feature) — the rest are 4.
+const CAPABILITY_ICONS: Record<Slug, LucideIcon[]> = {
   oversight: [LayoutGrid, AlertTriangle, Building2, Users],
   audit: [Users, ClipboardCheck, FileSignature, FileText],
-  livestream: [UserCheck, Clock, Lock, Server],
+  livestream: [UserCheck, Clock, Lock, Server, Activity],
   "chat-multilingue": [Languages, UserCheck, Server, Globe2],
   rounds: [Smartphone, ClipboardCheck, MapPin, FileSignature],
   "floor-plans": [Building2, Navigation, Smartphone, Plug],
+};
+
+const CAPABILITY_KEYS: Record<Slug, readonly string[]> = {
+  oversight: ["f0", "f1", "f2", "f3"],
+  audit: ["f0", "f1", "f2", "f3"],
+  livestream: ["f0", "f1", "f2", "f3", "f4"],
+  "chat-multilingue": ["f0", "f1", "f2", "f3"],
+  rounds: ["f0", "f1", "f2", "f3"],
+  "floor-plans": ["f0", "f1", "f2", "f3"],
 };
 
 // Trust badge icon for each pillar's compliance line.
@@ -198,7 +210,7 @@ export default async function PlatformPage({
             </p>
           </div>
           <ul className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:gap-8">
-            {(["f0", "f1", "f2", "f3"] as const).map((k, i) => {
+            {CAPABILITY_KEYS[slug].map((k, i) => {
               const Icon = capabilityIcons[i] ?? Users;
               return (
                 <li

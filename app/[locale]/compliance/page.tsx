@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import {
+  Award,
   ArrowRight,
   ClipboardCheck,
   FileSignature,
   Globe2,
   Lock,
   MapPin,
+  ServerCog,
   ShieldCheck,
 } from "lucide-react";
 import { locales } from "@/lib/i18n";
@@ -63,6 +65,8 @@ export default async function CompliancePage({
   const PILLAR_KEYS = ["nlpd", "hosting", "encryption", "audit"] as const;
   const REGULATION_ICONS = [ShieldCheck, FileSignature, Globe2] as const;
   const REGULATION_KEYS = ["nlpd", "kvg", "transfers"] as const;
+  const CERTIFICATION_ICONS = [Award, ServerCog] as const;
+  const CERTIFICATION_KEYS = ["iso27001", "hds"] as const;
 
   return (
     <main id="main-content" className="bg-white">
@@ -140,6 +144,49 @@ export default async function CompliancePage({
                   </h3>
                   <p className="mt-2 text-sm leading-relaxed text-neutral-600">
                     {t(`regulations.items.${k}.description`)}
+                  </p>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </section>
+
+      {/* Targeted certifications */}
+      <section className="border-t border-neutral-200 bg-white">
+        <div className="mx-auto max-w-7xl px-6 py-20 sm:py-24 lg:px-8 lg:py-28">
+          <div className="max-w-3xl">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-brand-blue-strong">
+              {t("certifications.eyebrow")}
+            </p>
+            <h2 className="mt-5 text-balance text-[1.875rem] font-semibold leading-[1.1] tracking-[-0.025em] text-brand-navy sm:text-[2.25rem] lg:text-[2.75rem]">
+              {t("certifications.heading")}
+            </h2>
+            <p className="mt-6 max-w-2xl text-base leading-relaxed text-neutral-600 sm:text-[17px]">
+              {t("certifications.intro")}
+            </p>
+          </div>
+          <ul className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:gap-8">
+            {CERTIFICATION_KEYS.map((k, i) => {
+              const Icon = CERTIFICATION_ICONS[i] ?? Award;
+              return (
+                <li
+                  key={k}
+                  className="flex flex-col rounded-2xl border border-neutral-200 bg-neutral-50/40 p-6 sm:p-8"
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-blue/10 text-brand-blue-strong">
+                      <Icon size={20} strokeWidth={2} aria-hidden="true" />
+                    </div>
+                    <span className="rounded-full border border-amber-300 bg-amber-50 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-amber-700">
+                      {t(`certifications.items.${k}.status`)}
+                    </span>
+                  </div>
+                  <h3 className="mt-5 text-lg font-semibold tracking-tight text-brand-navy">
+                    {t(`certifications.items.${k}.title`)}
+                  </h3>
+                  <p className="mt-2 text-sm leading-relaxed text-neutral-600">
+                    {t(`certifications.items.${k}.description`)}
                   </p>
                 </li>
               );

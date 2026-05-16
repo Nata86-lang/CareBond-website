@@ -160,6 +160,9 @@ export async function AdminDashboard() {
               </span>
             </div>
             <div className="flex items-center gap-3">
+              <span className="hidden items-center gap-1 rounded-full border border-amber-300 bg-amber-50 px-2 py-0.5 text-[9px] font-semibold uppercase tracking-wider text-amber-700 sm:inline-flex">
+                {t("demoBadge")}
+              </span>
               <div className="relative">
                 <Bell
                   size={16}
