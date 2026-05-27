@@ -26,9 +26,9 @@
     "learnMore": "Learn more"
   },
   "hero": {
-    "eyebrow": "Care platform · Switzerland",
-    "title": "Every role in care, in one platform.",
-    "subtitle": "Nursing homes, home care and clinics. One console for management, one app for every caregiver, mini-reports for families. nLPD compliant, Swiss-hosted.",
+    "eyebrow": "SWISS CLINICAL INTEGRATION & COMMUNICATION",
+    "title": "The integrated mobile communication & nLPD layer for your care institution.",
+    "subtitle": "Whether integrating directly with your current KIS/ERP or deploying as a complete, standalone clinical and communication system for facilities without prior software, CareBond instantly connects directors, caregivers, and families through an nLPD-compliant channel, hosted 100% in Switzerland.",
     "trust": {
       "label": "Built to Swiss standards",
       "nlpd": "nLPD compliant",
@@ -96,19 +96,45 @@
     "demoAriaLabel": "Demo: multilingual chat automatically translating between Spanish and French",
     "demoPauseLabel": "Pause animation",
     "demoPlayLabel": "Play animation",
-    "chatDemoRole": "Patient"
+    "chatDemoRole": "Patient",
+    "b2b": {
+      "centerNode": {
+        "title": "Your KIS / ERP",
+        "subtitle": "CareBond Connector"
+      },
+      "management": {
+        "title": "Management & IT",
+        "tag": "nLPD Compliance",
+        "desc": "Immutable real-time logs and central control."
+      },
+      "staff": {
+        "title": "Authorized Staff",
+        "tag": "Reports & Handovers",
+        "desc": "Unified patient files shared instantly among the assigned care team and GPS Spitex check-in."
+      },
+      "patient": {
+        "title": "Patients & Residents",
+        "tag": "SOS & Inclusion",
+        "desc": "Adapted tactile SOS and direct video calls with family members."
+      },
+      "family": {
+        "title": "Families",
+        "tag": "Reports & Peace of Mind",
+        "desc": "Mini-reports sent by the professional and direct video calls with the resident."
+      }
+    }
   },
   "platform": {
     "bento": {
       "eyebrow": "The platform",
-      "title": "Five pillars, one platform.",
-      "subtitle": "From institutional oversight to multilingual chat, from opt-in livestream to nLPD audit — everything is built to work together, not side by side.",
+      "title": "Six communication channels, one integrated platform.",
+      "subtitle": "Whether operating as a communication layer integrated with your current KIS/ERP or as a complete standalone clinical system for facilities without prior software, everything is built to securely connect directors, caregivers, and families.",
       "learnMore": "Learn more",
       "pillars": {
         "oversight": {
           "eyebrow": "Management",
           "title": "Institutional oversight",
-          "description": "KPIs facility by facility, prioritized alerts, one-click audit. The whole house on a single screen.",
+          "description": "Unified channel for real-time monitoring of alerts, communication flows, and KPIs for each facility from a single dashboard.",
           "kpiResidents": "Patients",
           "kpiProfessionals": "Caregivers",
           "kpiAlerts": "Alerts",
@@ -116,28 +142,48 @@
         },
         "audit": {
           "eyebrow": "Compliance",
-          "title": "Built-in nLPD audit",
-          "description": "Every access, every action logged. Immutable audit log, exportable for your internal audits."
+          "title": "nLPD audit log & traceability",
+          "description": "Immutable access and modification tracking channel in real time, designed for native Swiss nLPD regulatory compliance.",
+          "kpiResidents": "Patients",
+          "kpiProfessionals": "Caregivers",
+          "kpiAlerts": "Alerts",
+          "kpiDevices": "Devices"
         },
         "livestream": {
           "eyebrow": "Presence",
-          "title": "Opt-in livestream",
-          "description": "Camera can be enabled and disabled by the patient, with AI-powered fall detection in real time. Never recorded — live stream only."
+          "title": "Controlled Telepresence & Video Calls",
+          "description": "End-to-end encrypted video channels: direct patient-family communication, and clinical video calls strictly regulated and enabled by the professional.",
+          "kpiResidents": "Patients",
+          "kpiProfessionals": "Caregivers",
+          "kpiAlerts": "Alerts",
+          "kpiDevices": "Devices"
         },
         "chat-multilingue": {
           "eyebrow": "Communication",
-          "title": "Multilingual chat",
-          "description": "Each message received in the chosen language. The language barrier between patients, families and caregivers disappears."
+          "title": "Inclusive multilingual chat",
+          "description": "Real-time automatic translation channel that breaks down language barriers between healthcare staff, residents, and families.",
+          "kpiResidents": "Patients",
+          "kpiProfessionals": "Caregivers",
+          "kpiAlerts": "Alerts",
+          "kpiDevices": "Devices"
         },
         "rounds": {
           "eyebrow": "Care",
-          "title": "Digital rounds",
-          "description": "Patient list, vital signs, alerts, prescriptions — in the caregiver's pocket. Every report recorded is instantly visible to the whole team assigned to the patient, and a filtered mini-report is sent automatically to the family."
+          "title": "Shift handovers & clinical coordination",
+          "description": "Sync your medical team instantly. Log vitals and shift notes in the clinician app to transfer information with zero loss between authorized handovers, generating family reports in parallel.",
+          "kpiResidents": "Patients",
+          "kpiProfessionals": "Caregivers",
+          "kpiAlerts": "Alerts",
+          "kpiDevices": "Devices"
         },
         "floor-plans": {
           "eyebrow": "Wayfinding",
-          "title": "3D plans & indoor GPS",
-          "description": "We model your building in isometric. The built-in GPS guides visitors, families and clinicians to the room they need — no signage required.",
+          "title": "3D wayfinding & entrance navigation",
+          "description": "Interactive three-dimensional floor plans designed for lobby screens to guide family members and external doctors autonomously, saving reception time.",
+          "kpiResidents": "Patients",
+          "kpiProfessionals": "Caregivers",
+          "kpiAlerts": "Alerts",
+          "kpiDevices": "Devices",
           "alt": "3D isometric plan of a nursing home — memory care wing, activity center, therapeutic garden, hair salon, main lobby"
         }
       }
@@ -149,24 +195,24 @@
     },
     "pages": {
       "oversight": {
-        "subtitle": "For management: see the whole facility at a glance. Comparable KPIs, prioritized alerts, one-click audit.",
+        "subtitle": "A unified oversight channel for management. Supervise communication flows, comparable KPIs, and prioritized alerts from a single central dashboard.",
         "visualAlt": "Institutional dashboard — KPIs for residents, professionals, alerts, connected devices",
         "capabilities": {
           "eyebrow": "Capabilities",
-          "heading": "What you oversee",
-          "intro": "The Oversight module turns operational reality into readable data — without micromanagement.",
+          "heading": "Channels and data you monitor",
+          "intro": "The institutional dashboard centralizes communication and telemetría into readable indicators with zero operational friction.",
           "items": {
             "f0": {
-              "title": "Real-time KPIs",
-              "description": "Patients, caregivers, alerts, devices — numbers updated automatically, comparable across facilities."
+              "title": "Communication and usage KPIs",
+              "description": "Live tracking of family chat, video calls, and connected device statuses across every facility."
             },
             "f1": {
-              "title": "Prioritized alerts",
-              "description": "Critical alarms rise to the top, the rest queues up. No noise, no missed signal."
+              "title": "Prioritized alert channel",
+              "description": "Critical vital signs and SOS notifications rise to the top instantly, filtering out day-to-day care noise."
             },
             "f2": {
-              "title": "Multi-facility",
-              "description": "Several homes from a single console, with strict data separation between sites."
+              "title": "Multisite monitoring",
+              "description": "Supervise multiple facilities from a single console, with strict data separation by site."
             },
             "f3": {
               "title": "Granular RBAC",
@@ -182,32 +228,32 @@
         }
       },
       "audit": {
-        "subtitle": "An immutable trace of every access and every modification, natively nLPD-compliant. Not a contractual addendum — it's in the architecture.",
-        "visualAlt": "Audit module preview — four pillars: nLPD-native, Swiss hosting, modern encryption, immutable audit log",
+        "subtitle": "Traceability and compliance channel. Guarantee native Swiss nLPD compliance with an immutable log of every communication and clinical access built into the system architecture.",
+        "visualAlt": "Preview of the Audit module — four pillars: native nLPD, Swiss hosting, modern encryption, immutable audit log",
         "capabilities": {
           "eyebrow": "Capabilities",
-          "heading": "What is logged",
-          "intro": "The audit log is generated at the platform's core, not by an external tool. Every critical action leaves an exploitable trace.",
+          "heading": "Interactions that are logged",
+          "intro": "The immutable audit log transparently records every access, signature, and care communication flow on your Swiss infrastructure.",
           "items": {
             "f0": {
-              "title": "Access and reads",
-              "description": "Who viewed which record, when, from which device and IP address."
+              "title": "Clinical access and reads",
+              "description": "Traceability of which professional accessed each assigned patient file, along with timestamp and IP address."
             },
             "f1": {
-              "title": "Modifications",
-              "description": "Adds, updates, deletions — with before/after content for every changed field."
+              "title": "Record modifications",
+              "description": "Log of changes in resident profiles, prescriptions, or visit reports, with complete before/after history."
             },
             "f2": {
-              "title": "Signatures and reports",
-              "description": "HMAC-signed visit reports, compliant with KVG/LAMal requirements for billing."
+              "title": "HMAC-signed reports",
+              "description": "Spitex visit reports digitally signed to validate KVG/LAMal billing requirements."
             },
             "f3": {
-              "title": "Exports and retention",
-              "description": "Structured export for internal audits, configurable retention policy per data type."
+              "title": "Exports & retention",
+              "description": "Structured exports for your internal audits, configurable retention policy per data type."
             }
           }
         },
-        "compliance": "nLPD-compliant from line one. Trail ready for the Federal Data Protection Commissioner and cantonal authorities.",
+        "compliance": "Natively nLPD-compliant from the first line of code. Access logs ready for the Federal Data Protection Commissioner and cantonal authorities.",
         "cta": {
           "eyebrow": "Next step",
           "title": "See the audit log with a real case.",
@@ -519,22 +565,22 @@
     "secondary": "Write to us directly"
   },
   "floorPlans": {
-    "eyebrow": "3D plans & indoor wayfinding",
-    "title": "Residents, visitors and clinicians no longer get lost.",
-    "subtitle": "CareBond builds the isometric 3D plan of your nursing home, hospital or clinic, then ships it inside the app with an indoor GPS that guides every user to the room they're looking for. Signage stops being a problem.",
+    "eyebrow": "3D plans & entrance navigation",
+    "title": "Family members, visitors, and external clinicians no longer get lost.",
+    "subtitle": "CareBond builds the interactive 3D plan of your building for physical screens and kiosks at your facility's entrance, autonomously guiding family members, visitors, and external doctors directly to the room or service they need. Physical wayfinding stops being an obstacle.",
     "learnMore": "Learn more about 3D plans",
     "bullets": {
       "b0": {
         "title": "Custom 3D plan",
-        "description": "We model your building in isometric: floors, departments, rooms, receptions. Once built, the plan lives inside each user's app."
+        "description": "We model your building in isometric: floors, departments, rooms, receptions. Once built, the plan lives on interactive screens at your institution's entrance."
       },
       "b1": {
         "title": "Flow optimization",
         "description": "The 3D plan becomes a management tool: spot bottlenecks, optimize circulation, rethink the layout with real data."
       },
       "b2": {
-        "title": "Built-in indoor GPS",
-        "description": "Visitors, families and clinicians are guided in real time from reception to room 217 — without asking, without getting lost in corridors."
+        "title": "Autonomous interactive wayfinding",
+        "description": "Visitors, families, and external clinicians are guided in real time directly from the digital lobby kiosk to their destination — autonomously and without asking."
       }
     },
     "hospital": {

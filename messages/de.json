@@ -28,7 +28,7 @@
   "hero": {
     "eyebrow": "Pflegeplattform · Schweiz",
     "title": "Alle Akteure der Pflege, in einer Plattform.",
-    "subtitle": "Pflegeheime, Spitex und Kliniken. Eine Konsole für die Leitung, eine App für jede Pflegeperson, Mini-Berichte für die Familien. DSG-konform, in der Schweiz gehostet.",
+    "subtitle": "Egal ob durch direkte Integration in Ihr bestehendes KIS/ERP oder als vollständiges, eigenständiges klinisches und Kommunikationssystem für Einrichtungen ohne vorherige Software: CareBond verbindet Heimleitungen, Pflegepersonal und Familien sofort über einen sicheren, DSG-konformen und zu 100 % in der Schweiz gehosteten Kanal.",
     "trust": {
       "label": "Nach Schweizer Standards entwickelt",
       "nlpd": "DSG-konform",
@@ -96,19 +96,45 @@
     "demoAriaLabel": "Demo: mehrsprachiger Chat mit automatischer Übersetzung zwischen Spanisch und Französisch",
     "demoPauseLabel": "Animation anhalten",
     "demoPlayLabel": "Animation starten",
-    "chatDemoRole": "Patientin"
+    "chatDemoRole": "Patientin",
+    "b2b": {
+      "centerNode": {
+        "title": "Ihr KIS / ERP",
+        "subtitle": "CareBond Connector"
+      },
+      "management": {
+        "title": "Leitung & IT",
+        "tag": "DSG-Konformität",
+        "desc": "Unveränderliche Echtzeit-Zugriffsprotokolle."
+      },
+      "staff": {
+        "title": "Autorisiertes Personal",
+        "tag": "Berichte & Übergaben",
+        "desc": "Zusammengeführte Patientenakten für das Team und GPS Spitex Check-in."
+      },
+      "patient": {
+        "title": "Patienten & Bewohner",
+        "tag": "SOS & Inklusion",
+        "desc": "Angepasster Touch-SOS und direkte Videoanrufe mit Angehörigen."
+      },
+      "family": {
+        "title": "Familien",
+        "tag": "Berichte & Seelenfrieden",
+        "desc": "Vom Fachpersonal gesendete Mini-Berichte und direkte Videoanrufe."
+      }
+    }
   },
   "platform": {
     "bento": {
       "eyebrow": "Die Plattform",
-      "title": "Fünf Säulen, eine einzige Plattform.",
-      "subtitle": "Von der institutionellen Steuerung bis zum mehrsprachigen Chat, vom einvernehmlichen Livestream bis zum DSG-Audit — alles für das Zusammenspiel gebaut, nicht das Nebeneinander.",
+      "title": "Sechs Kommunikationskanäle, eine einzige integrierte Plattform.",
+      "subtitle": "Ob als integrierte Kommunikationsebene für Ihr bestehendes KIS/ERP oder als vollständige, eigenständige klinische Lösung für Einrichtungen ohne vorherige Software: Alles ist so konzipiert, dass Leitungen, Pflegende und Familien sicher miteinander verbunden sind.",
       "learnMore": "Entdecken",
       "pillars": {
         "oversight": {
           "eyebrow": "Leitung",
-          "title": "Institutionelle Steuerung",
-          "description": "KPIs Heim für Heim, priorisierte Alarme, Audit per Klick. Das ganze Haus auf einem Bildschirm.",
+          "title": "Institutionelle Überwachung",
+          "description": "Einheitlicher Kanal zur Echtzeitüberwachung von Alarmen, Kommunikationsflüssen und KPIs jeder Sede über ein zentrales Dashboard.",
           "kpiResidents": "Patienten",
           "kpiProfessionals": "Pflege",
           "kpiAlerts": "Alarme",
@@ -116,28 +142,28 @@
         },
         "audit": {
           "eyebrow": "Konformität",
-          "title": "Integriertes DSG-Audit",
-          "description": "Jeder Zugriff, jede Aktion protokolliert. Unveränderliches Audit-Log, exportierbar für Ihre internen Audits."
+          "title": "Audit-Log & DSG-Traceability",
+          "description": "Unveränderlicher Echtzeitprotokoll-Kanal für Zugriffe und Änderungen zur Gewährleistung der nativen Schweizer DSG-Konformität."
         },
         "livestream": {
           "eyebrow": "Präsenz",
-          "title": "Livestream auf Einwilligung",
-          "description": "Kamera vom Patienten jederzeit aktivierbar und deaktivierbar, mit KI-Sturzerkennung in Echtzeit. Nie aufgezeichnet — ausschliesslich Live-Übertragung."
+          "title": "Telepräsenz & Videoanrufe",
+          "description": "Ende-zu-Ende verschlüsselte Videokanäle: direkte Patient-Familie-Kommunikation und durch Fachpersonal regulierte Videoanrufe."
         },
         "chat-multilingue": {
           "eyebrow": "Kommunikation",
-          "title": "Mehrsprachiger Chat",
-          "description": "Jede Nachricht in der gewählten Sprache empfangen. Die Sprachbarriere zwischen Patienten, Familien und Pflege verschwindet."
+          "title": "Inklusiver mehrsprachiger Chat",
+          "description": "Automatischer Echtzeit-Übersetzungskanal, der Sprachbarrieren zwischen Pflegekräften, Bewohnern und deren Familien abbaut."
         },
         "rounds": {
           "eyebrow": "Pflege",
-          "title": "Digitale Visite",
-          "description": "Patientenliste, Vitalwerte, Alarme, Rezepte — in der Tasche der Pflegeperson. Jeder erfasste Bericht ist sofort für das gesamte dem Patienten zugewiesene Team sichtbar, und ein gefilterter Mini-Bericht geht automatisch an die Familie."
+          "title": "Koordination & Pflegeübergaben",
+          "description": "Synchronisieren Sie Ihr medizinisches Team. Erfassen Sie Vitalwerte und Berichte in der Pflege-App für eine verlustfreie Übergabe bei gleichzeitiger Erstellung von Familien-Berichten."
         },
         "floor-plans": {
           "eyebrow": "Navigation",
-          "title": "3D-Pläne & Indoor-GPS",
-          "description": "Wir modellieren Ihr Gebäude isometrisch. Das integrierte GPS führt Besucher, Familien und Pflegende zum gesuchten Raum, ohne Beschilderung.",
+          "title": "3D-Wegführung & Orientierung",
+          "description": "Interaktive 3D-Pläne für physische Bildschirme am Eingang der Einrichtung zur autonomen Führung von Besuchern und Angehörigen.",
           "alt": "Isometrischer 3D-Plan eines Pflegeheims — Memory-Care-Flügel, Aktivitätszentrum, therapeutischer Garten, Friseursalon, Hauptlobby"
         }
       }
@@ -149,24 +175,24 @@
     },
     "pages": {
       "oversight": {
-        "subtitle": "Für die Leitung: das ganze Heim auf einen Blick sehen. Vergleichbare KPIs, priorisierte Alarme, Audit per Knopfdruck.",
+        "subtitle": "Ein einheitlicher Überwachungskanal für die Leitung. Überwachen Sie Kommunikationsflüsse, vergleichbare KPIs und priorisierte Alarme über ein einziges zentrales Dashboard.",
         "visualAlt": "Institutionelles Dashboard — KPIs für Patienten, Fachpersonen, Alarme, verbundene Geräte",
         "capabilities": {
           "eyebrow": "Fähigkeiten",
-          "heading": "Was Sie steuern",
-          "intro": "Das Steuerungsmodul verwandelt operative Realität in lesbare Daten — ohne Mikromanagement.",
+          "heading": "Kanäle und Daten, die Sie überwachen",
+          "intro": "Das Einrichtungs-Dashboard zentralisiert Kommunikation und Telemetrie in klaren Indikatoren ohne operativen Aufwand.",
           "items": {
             "f0": {
-              "title": "Echtzeit-KPIs",
-              "description": "Patienten, Pflege, Alarme, Geräte — Zahlen automatisch aktualisiert, vergleichbar zwischen Einrichtungen."
+              "title": "Kommunikations- und Nutzungs-KPIs",
+              "description": "Live-Verfolgung der Familien-Chat-Nutzung, Videoanrufe und des Status verbundener Geräte in jeder Einrichtung."
             },
             "f1": {
-              "title": "Priorisierte Alarme",
-              "description": "Kritische Alarme stehen oben, der Rest reiht sich ein. Kein Lärm, kein verpasstes Signal."
+              "title": "Priorisierter Alarmkanal",
+              "description": "Kritische Vitalwerte und SOS-Meldungen steigen sofort auf und filtern das alltägliche Rauschen der Pflege."
             },
             "f2": {
-              "title": "Mandantenfähig",
-              "description": "Mehrere Heime aus einer Konsole, mit strikter Datentrennung zwischen Standorten."
+              "title": "Multisite-Überwachung",
+              "description": "Überwachen Sie mehrere Standorte über eine einzige Konsole, mit strikter Datentrennung je Sede."
             },
             "f3": {
               "title": "Granulares RBAC",
@@ -182,24 +208,24 @@
         }
       },
       "audit": {
-        "subtitle": "Eine unveränderliche Spur jedes Zugriffs und jeder Änderung, nativ DSG-konform. Kein Vertragsanhang — es steckt in der Architektur.",
+        "subtitle": "Rückverfolgbarkeits- und Compliance-Kanal. Gewährleisten Sie die native Einhaltung des Schweizer DSG durch ein unveränderliches Audit-Log für jede Kommunikation und jeden klinischen Zugriff.",
         "visualAlt": "Vorschau des Audit-Moduls — vier Säulen: DSG-nativ, Schweizer Hosting, moderne Verschlüsselung, unveränderliches Audit-Log",
         "capabilities": {
           "eyebrow": "Fähigkeiten",
-          "heading": "Was protokolliert wird",
-          "intro": "Das Audit-Log wird im Kern der Plattform erzeugt, nicht von einem externen Tool. Jede kritische Aktion hinterlässt eine auswertbare Spur.",
+          "heading": "Protokollierte Interaktionen",
+          "intro": "Das unveränderliche Audit-Log erfasst transparent jeden Zugriff, jede Signatur und jeden Pflege-Kommunikationsfluss in Ihrer Schweizer Infrastruktur.",
           "items": {
             "f0": {
-              "title": "Zugriffe und Lesevorgänge",
-              "description": "Wer hat welche Akte eingesehen, wann, von welchem Gerät und welcher IP-Adresse."
+              "title": "Klinische Zugriffe und Lesevorgänge",
+              "description": "Rückverfolgbarkeit, welche Pflegekraft wann, von welchem Gerät und welcher IP-Adresse auf das Patientendossier zugegriffen hat."
             },
             "f1": {
-              "title": "Änderungen",
-              "description": "Hinzufügungen, Aktualisierungen, Löschungen — mit Vorher/Nachher-Inhalt für jedes geänderte Feld."
+              "title": "Änderungen an der Akte",
+              "description": "Protokollierung von Änderungen an Bewohnerprofilen, Rezepten oder Besuchsberichten mit vollständigem Vorher/Nachher-Verlauf."
             },
             "f2": {
-              "title": "Signaturen und Berichte",
-              "description": "HMAC-signierte Besuchsberichte, konform mit den KVG/LAMal-Anforderungen für die Abrechnung."
+              "title": "HMAC-Signaturen für Berichte",
+              "description": "Digital signierte Spitex-Besuchsberichte zur Validierung der KVG/LAMal-Anforderungen für die Abrechnung."
             },
             "f3": {
               "title": "Exporte und Aufbewahrung",
@@ -215,16 +241,16 @@
         }
       },
       "livestream": {
-        "subtitle": "Die Kamera des Patienten oder Bewohners, von ihm selbst aktivierbar und deaktivierbar. Präsenz ohne Eingriff, Kontrolle stets beim Patienten.",
+        "subtitle": "Gesteuerter Telepräsenz- und Videoanrufkanal. Aktivieren Sie direkte Videoanrufe zwischen Patient und Familie sowie durch Fachkräfte autorisierte Flüsse, kombiniert mit passiver KI-Sturzerkennung.",
         "visualAlt": "Vorschau der Familien-App — Livestream-Feed vom Patienten aktivierbar, mit täglichem Mini-Bericht",
         "capabilities": {
           "eyebrow": "Fähigkeiten",
-          "heading": "Was der Patient steuert",
-          "intro": "Livestream ist ein Vertrauenswerkzeug, keine Überwachung. Patient und Pflegeperson behalten stets die Kontrolle.",
+          "heading": "Telepräsenz-Kanäle und -Steuerung",
+          "intro": "Der Echtzeit-Videostream ist ein Kanal für Vertrauen und Nähe, nicht für Überwachung. Patient und Fachperson verwalten die Kommunikation gemeinsam.",
           "items": {
             "f0": {
-              "title": "Einvernehmliche Aktivierung",
-              "description": "Der Patient — oder seine delegierte Pflegeperson — schaltet die Kamera jederzeit ein und aus, ohne technischen Mittler."
+              "title": "Einvernehmlicher und sicherer Kanal",
+              "description": "Sofortige Aktivierung und Deaktivierung des Telepräsenzkanals direkt durch den Patienten oder seine Pflegekraft."
             },
             "f1": {
               "title": "Vollständiges Zugriffsprotokoll",
@@ -239,8 +265,8 @@
               "description": "Der Stream verlässt nie das Schweizer Territorium. Keine ausländische Cloud, kein extraterritoriales Expositionsrisiko."
             },
             "f4": {
-              "title": "KI-gestützte Sturzerkennung",
-              "description": "Eine Echtzeit-KI-Analyse erkennt während der Übertragung automatisch Stürze und benachrichtigt sofort Angehörige und Pflegepersonal. Die Analyse erfolgt auf dem Live-Stream, ohne jegliche Videoaufzeichnung."
+              "title": "Passive Sicherheitsalarme per KI",
+              "description": "Intelligenter Kanal, der den Live-Feed analysiert, ohne Video aufzuzeichnen, um Angehörige und Pflegekräfte sofort bei Stürzen zu alarmieren."
             }
           }
         },
@@ -252,12 +278,12 @@
         }
       },
       "chat-multilingue": {
-        "subtitle": "In der Schweiz wie anderswo sprechen viele Patienten und Familien nicht die Sprache der Pflege. CareBond übersetzt in Echtzeit, unter der Kontrolle der Pflege.",
+        "subtitle": "Interaktiver mehrsprachiger Kommunikationskanal. Übersetzen Sie Gespräche zwischen Familien und Pflegepersonal sofort, um Sprachbarrieren in der mehrsprachigen Schweiz abzubauen.",
         "visualAlt": "Live-Demo des mehrsprachigen Chats — ES↔FR-Übersetzung mit Pflegesteuerung und vollständigem Protokoll",
         "capabilities": {
           "eyebrow": "Fähigkeiten",
-          "heading": "Wie es funktioniert",
-          "intro": "Jeder Teilnehmer schreibt in seiner Sprache, und jeder liest in seiner eigenen. Die Pflegeperson behält die klinische Kontrolle über das Gespräch.",
+          "heading": "Automatischer Übersetzungskanal",
+          "intro": "Jeder Teilnehmer schreibt in seiner eigenen Sprache und liest die Übersetzung sofort, gesteuert durch den klinischen Kontext und Arbeitszeiten der Pflegekraft.",
           "items": {
             "f0": {
               "title": "Echtzeit-Übersetzung",
@@ -285,12 +311,12 @@
         }
       },
       "rounds": {
-        "subtitle": "Tagesvisite, Vitalwerte, Alarme, elektronische Rezepte — alles in der Tasche der Pflegeperson. Für Pflegeheime und häusliche Pflegedienste.",
+        "subtitle": "Professioneller Koordinations- und Pflegeübergabekanal. Verbinden Sie Ihr medizinisches Team sofort, um Visiten, Vitalwerte und Schichtnotizen in der Pflege-App zu protokollieren.",
         "visualAlt": "Pflegepersonen-App — Liste der Tagespatienten mit Vitalwerten, Alarmen und Status",
         "capabilities": {
           "eyebrow": "Fähigkeiten",
-          "heading": "Was die Pflegeperson tut",
-          "intro": "Die gesamte Visite in der App gebündelt. Kein Papier mehr, kein Warten zwischen Übergaben.",
+          "heading": "Koordination und Informationsfluss",
+          "intro": "Echtzeitsynchronisation von Schichtnotizen und Vitalwerten, die Informationsverluste und Papierkram bei Schichtübergaben überflüssig macht.",
           "items": {
             "f0": {
               "title": "Vorab organisierte Visite",
@@ -309,7 +335,7 @@
               "description": "Sichere Ausstellung durch autorisierte Verschreiber, mit kryptografischer digitaler Signatur."
             },
             "f4": {
-              "title": "Berichte für das gesamte Behandlungsteam",
+              "title": "Gemeinsame Berichte und sofortige Übergaben",
               "description": "Jede Konsultation, jeder Vitalwert, jede Beobachtung oder Notiz ist sofort für alle dem Patienten zugewiesenen Pflegekräfte sichtbar — Tagschicht, Nachtschicht, behandelnde Ärztin, externe Dienstleister. Schluss mit Informationsverlust zwischen Schichtwechseln und mündlichen Übergaben. Parallel werden automatisch gefilterte Mini-Berichte für die Familie erstellt, ohne das vollständige Dossier offenzulegen."
             }
           }
@@ -322,16 +348,16 @@
         }
       },
       "floor-plans": {
-        "subtitle": "Isometrische 3D-Modellierung Ihres Gebäudes + Indoor-GPS, das Besucher, Familien und Pflegende führt. Beschilderung ist kein Problem mehr.",
+        "subtitle": "Kanal für 3D-Wegführung und räumliche Orientierung. Dreidimensionale interaktive Pläne für Bildschirme im physischen Eingangsbereich der Institution zur autonomen Führung von Familien und Ärzten.",
         "visualAlt": "Isometrischer 3D-Plan eines Spitals — OP-Säle, MRI-Suite, Ward, Labor, Hauptlobby, mit Indoor-GPS-Route",
         "capabilities": {
           "eyebrow": "Fähigkeiten",
-          "heading": "Was Sie erhalten",
-          "intro": "Wir modellieren Ihr Gebäude isometrisch und integrieren den Plan in die App mit Indoor-GPS in Echtzeit.",
+          "heading": "3D-Kanal für digitale Beschilderung",
+          "intro": "Wir modellieren Ihr Gebäude als interaktiven Plan, der auf physischen Empfangsterminals bereitgestellt wird und Besucher sowie externe Fachkräfte autonom ans Ziel führt.",
           "items": {
             "f0": {
               "title": "Massgeschneiderte Modellierung",
-              "description": "Stockwerke, Abteilungen, Zimmer, Empfänge, Zugänge — Ihr Gebäude, massstabsgetreu, in der App jedes Akteurs."
+              "description": "Stockwerke, Abteilungen, Zimmer, Empfänge, Eingänge — Ihr Gebäude, massstabsgetreu auf dem interaktiven Empfangsterminal Ihrer Einrichtung."
             },
             "f1": {
               "title": "Indoor-GPS",
@@ -521,12 +547,12 @@
   "floorPlans": {
     "eyebrow": "3D-Pläne & Indoor-Navigation",
     "title": "Bewohner, Besucher und Pflegende verlaufen sich nicht mehr.",
-    "subtitle": "CareBond erstellt den isometrischen 3D-Plan Ihres Pflegeheims, Spitals oder Ihrer Klinik und integriert ihn in die App mit einem Indoor-GPS, das jeden zum gesuchten Raum führt. Die Beschilderung ist kein Problem mehr.",
+    "subtitle": "CareBond erstellt den interaktiven 3D-Plan Ihres Gebäudes für physische Bildschirme und digitale Terminals im Eingangsbereich Ihrer Einrichtung. So werden Familien, Besucher und externe Ärzte autonom bis zum gesuchten Raum oder Dienst geführt, und die physische Beschilderung ist kein Hindernis mehr.",
     "learnMore": "Mehr über 3D-Pläne",
     "bullets": {
       "b0": {
         "title": "Massgeschneiderter 3D-Plan",
-        "description": "Wir modellieren Ihr Gebäude isometrisch: Stockwerke, Abteilungen, Zimmer, Empfänge. Einmal erstellt, lebt der Plan in der App jedes Akteurs."
+        "description": "Wir modellieren Ihr Gebäude isometrisch: Stockwerke, Abteilungen, Zimmer, Empfangsbereiche. Einmal erstellt, läuft der Plan auf interaktiven Bildschirmen direkt am Eingang Ihrer Institution."
       },
       "b1": {
         "title": "Flussoptimierung",
@@ -534,7 +560,7 @@
       },
       "b2": {
         "title": "Integriertes Indoor-GPS",
-        "description": "Besucher, Familien und Ärzte werden in Echtzeit vom Empfang bis zu Zimmer 217 geführt — ohne zu fragen, ohne sich in den Gängen zu verlieren."
+        "description": "Besucher, Angehörige und externe Ärzte werden in Echtzeit direkt vom digitalen Empfangsterminal autonom und ohne Nachzufragen bis zu ihrem Ziel geführt."
       }
     },
     "hospital": {

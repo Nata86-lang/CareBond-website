@@ -28,7 +28,7 @@
   "hero": {
     "eyebrow": "Plateforme de soins · Suisse",
     "title": "Tous les acteurs du soin, dans une plateforme.",
-    "subtitle": "EMS, Spitex et cliniques. Une console pour la direction, une app pour chaque soignant, des mini-rapports pour les familles. Conforme nLPD, hébergée en Suisse.",
+    "subtitle": "Que ce soit en s'intégrant directement à votre KIS/ERP actuel ou en fonctionnant comme un système clinique et de communication complet et autonome pour les établissements sans logiciel préalable, CareBond connecte instantanément la direction, les soignants et les familles dans un canal sécurisé, conforme à la nLPD et 100% hébergé en Suisse.",
     "trust": {
       "label": "Conçue selon les standards suisses",
       "nlpd": "Conforme nLPD",
@@ -93,22 +93,48 @@
         "alertSampleBody": "Le capteur de la chambre 12 signale des données irrégulières."
       }
     },
-    "demoAriaLabel": "Démonstration: chat multilingue traduisant automatiquement entre espagnol et français",
-    "demoPauseLabel": "Mettre l'animation en pause",
+    "demoAriaLabel": "Démo : chat multilingue qui traduit automatiquement entre l'espagnol et le français",
+    "demoPauseLabel": "Mettre en pause l'animation",
     "demoPlayLabel": "Lancer l'animation",
-    "chatDemoRole": "Patiente"
+    "chatDemoRole": "Patiente",
+    "b2b": {
+      "centerNode": {
+        "title": "Votre KIS / ERP",
+        "subtitle": "Connecteur CareBond"
+      },
+      "management": {
+        "title": "Direction et IT",
+        "tag": "Conformité nLPD",
+        "desc": "Logs immuables des accès en temps réel."
+      },
+      "staff": {
+        "title": "Personnel Autorisé",
+        "tag": "Rapports & Relèves",
+        "desc": "Dossier patient unifié partagé instantanément avec l'équipe et check-in GPS Spitex."
+      },
+      "patient": {
+        "title": "Patients & Résidents",
+        "tag": "SOS & Inclusion",
+        "desc": "SOS tactile adapté et appels vidéo directs avec la famille."
+      },
+      "family": {
+        "title": "Familles",
+        "tag": "Rapports & Sérénité",
+        "desc": "Mini-rapports envoyés par le professionnel et appels vidéo directs."
+      }
+    }
   },
   "platform": {
     "bento": {
       "eyebrow": "La plateforme",
-      "title": "Cinq piliers, une seule plateforme.",
-      "subtitle": "Du pilotage institutionnel au chat multilingue, du livestream consenti à l'audit nLPD — tout est conçu pour fonctionner ensemble, pas côte à côte.",
+      "title": "Six canaux de communication, une seule plateforme intégrée.",
+      "subtitle": "Qu'il s'agisse d'une couche de communication intégrée à votre KIS/ERP existant ou d'une solution clinique complète et indépendante pour les établissements sans logiciel préalable, tout est conçu pour connecter en toute sécurité la direction, les soignants et les familles.",
       "learnMore": "Découvrir",
       "pillars": {
         "oversight": {
           "eyebrow": "Direction",
-          "title": "Pilotage institutionnel",
-          "description": "KPIs résidence par résidence, alertes priorisées, audit en un clic. La maison entière, sur un écran.",
+          "title": "Supervision institutionnelle",
+          "description": "Canal unifié pour la supervision des alertes, des flux de communication et des KPIs de chaque établissement en temps réel depuis un tableau de bord centralisé.",
           "kpiResidents": "Patients",
           "kpiProfessionals": "Soignants",
           "kpiAlerts": "Alertes",
@@ -116,28 +142,28 @@
         },
         "audit": {
           "eyebrow": "Conformité",
-          "title": "Audit nLPD intégré",
-          "description": "Chaque accès, chaque action tracée. Audit log immuable, exportable pour vos audits internes."
+          "title": "Audit log et traçabilité nLPD",
+          "description": "Canal immuable de traçabilité des accès et des modifications en temps réel, conçu pour garantir la conformité suisse nLPD."
         },
         "livestream": {
           "eyebrow": "Présence",
-          "title": "Livestream sur consentement",
-          "description": "Caméra activable et désactivable par le patient, avec détection IA des chutes en temps réel. Jamais enregistrée — diffusion en stream uniquement."
+          "title": "Téléprésence et appels vidéo",
+          "description": "Canaux vidéo chiffrés de bout en bout : communication directe patient-famille, et flux d'appels vidéo régulés sous le contrôle du soignant."
         },
         "chat-multilingue": {
           "eyebrow": "Communication",
-          "title": "Chat multilingue",
-          "description": "Chaque message reçu dans la langue choisie. La barrière linguistique entre patients, familles et soignants disparaît."
+          "title": "Chat multilingue inclusif",
+          "description": "Canal de traduction automatique en temps réel qui élimine les barrières linguistiques entre le personnel de soin, les résidents et leurs familles."
         },
         "rounds": {
           "eyebrow": "Soin",
-          "title": "Tournée digitale",
-          "description": "Liste des patients, signes vitaux, alertes, ordonnances — dans la poche du soignant. Chaque rapport saisi est instantanément visible par toute l'équipe assignée au patient, et un mini-rapport filtré part automatiquement à la famille."
+          "title": "Coordination et relèves soignantes",
+          "description": "Sincronisez votre équipe médicale. Saisissez les constantes et notes dans l'app soignant pour un transfert sans perte entre relèves autorisées, générant en parallèle des mini-rapports familles."
         },
         "floor-plans": {
           "eyebrow": "Navigation",
-          "title": "Plans 3D & GPS d'intérieur",
-          "description": "Nous modélisons votre bâtiment en isométrique. Le GPS intégré guide visiteurs, familles et soignants jusqu'à la pièce qu'ils cherchent, sans signalétique.",
+          "title": "Guidage et orientation spatiale 3D",
+          "description": "Plans interactifs tridimensionnels conçus pour des écrans physiques à l'entrée de l'établissement pour guider de manière autonome les visiteurs et les proches.",
           "alt": "Plan 3D isométrique d'une résidence médicalisée — aile mémoire, centre d'activités, jardin thérapeutique, salon de coiffure, hall principal"
         }
       }
@@ -149,24 +175,24 @@
     },
     "pages": {
       "oversight": {
-        "subtitle": "Pour la direction : voir clair sur toute la résidence en un coup d'œil. KPIs comparables, alertes priorisées, audit en un clic.",
+        "subtitle": "Un canal unifié de supervision pour la direction. Supervisez les flux de communication, les KPIs comparables et les alertes prioritaires depuis un tableau de bord unique.",
         "visualAlt": "Tableau de bord institutionnel — KPIs résidents, professionnels, alertes, dispositifs connectés",
         "capabilities": {
           "eyebrow": "Capacités",
-          "heading": "Ce que vous pilotez",
-          "intro": "Le module Pilotage transforme l'opérationnel en données lisibles, sans micromanagement.",
+          "heading": "Canaux et données que vous supervisez",
+          "intro": "Le tableau de bord centralise la communication et la télémétrie en indicateurs clairs sans friction opérationnelle.",
           "items": {
             "f0": {
-              "title": "KPIs en temps réel",
-              "description": "Patients, soignants, alertes, dispositifs — chiffres mis à jour automatiquement, comparables par résidence."
+              "title": "KPIs de communication et d'utilisation",
+              "description": "Suivi en direct de l'utilisation du chat familial, des appels vidéo et de l'état des dispositifs connectés dans chaque établissement."
             },
             "f1": {
-              "title": "Alertes priorisées",
-              "description": "Les alarmes critiques remontent en haut, le reste passe en file. Pas de bruit, pas d'oubli."
+              "title": "Canal d'alertes priorisées",
+              "description": "Les notifications critiques de signes vitaux ou SOS remontent instantanément, filtrant le bruit quotidien de l'assistance."
             },
             "f2": {
-              "title": "Multi-établissements",
-              "description": "Plusieurs résidences depuis une seule console, avec séparation stricte des données entre sites."
+              "title": "Supervision multisite",
+              "description": "Supervisez plusieurs établissements depuis une console unique, avec une séparation stricte des données par site."
             },
             "f3": {
               "title": "RBAC granulaire",
@@ -182,24 +208,24 @@
         }
       },
       "audit": {
-        "subtitle": "Une trace immuable de chaque accès et de chaque modification, conforme nLPD nativement. Pas un addendum contractuel — c'est dans l'architecture.",
+        "subtitle": "Canal de traçabilité et de conformité légale. Garantissez le respect natif de la nLPD suisse avec un journal d'audit immuable de chaque communication et accès clinique.",
         "visualAlt": "Aperçu du module Audit — quatre piliers : nLPD natif, hébergement Suisse, chiffrement moderne, audit log immuable",
         "capabilities": {
           "eyebrow": "Capacités",
-          "heading": "Ce qui est tracé",
-          "intro": "L'audit log est généré au cœur de la plateforme, pas par un outil externe. Chaque action critique laisse une trace exploitable.",
+          "heading": "Interactions enregistrées",
+          "intro": "Le journal d'audit immuable enregistre de manière transparente chaque accès, signature et flux de communication dans votre infrastructure suisse.",
           "items": {
             "f0": {
-              "title": "Accès et lectures",
-              "description": "Qui a consulté quel dossier, à quel moment, depuis quel appareil et quelle adresse IP."
+              "title": "Accès et lectures cliniques",
+              "description": "Traçabilité des soignants ayant accédé à chaque dossier de patient assigné, avec heure et adresse IP."
             },
             "f1": {
-              "title": "Modifications",
-              "description": "Ajouts, mises à jour, suppressions — avec le contenu avant/après pour chaque champ touché."
+              "title": "Modifications du dossier",
+              "description": "Registre des modifications de fiches résidents, ordonnances ou rapports de visite, avec historique complet avant/après."
             },
             "f2": {
-              "title": "Signatures et rapports",
-              "description": "Rapports de visite signés HMAC, conformes aux exigences KVG/LAMal pour la facturation."
+              "title": "Signatures HMAC de rapports",
+              "description": "Rapports de visite Spitex signés numériquement pour la validation des exigences KVG/LAMal."
             },
             "f3": {
               "title": "Exports et rétention",
@@ -215,16 +241,16 @@
         }
       },
       "livestream": {
-        "subtitle": "La caméra du patient ou du résident, activable et désactivable par lui-même. Présence sans intrusion, contrôle côté patient à tout moment.",
+        "subtitle": "Canal de téléprésence et appels vidéo contrôlés. Activez des appels vidéo directs patient-famille et des flux strictement autorisés par le professionnel, combinant la détection passive d'incidents par IA.",
         "visualAlt": "Aperçu de l'application famille — flux livestream activable par le patient avec mini-rapport quotidien",
         "capabilities": {
           "eyebrow": "Capacités",
-          "heading": "Ce que contrôle le patient",
-          "intro": "Le livestream est un outil de confiance, pas de surveillance. Le patient et le soignant en gardent le contrôle, toujours.",
+          "heading": "Canaux et contrôle de téléprésence",
+          "intro": "Le flux vidéo en temps réel est un canal de confiance et de proximité, pas de surveillance. Le patient et le professionnel gèrent la communication.",
           "items": {
             "f0": {
-              "title": "Activation consentie",
-              "description": "Le patient — ou son soignant délégué — active et désactive la caméra à tout moment, sans intermédiaire technique."
+              "title": "Canal consenti et sécurisé",
+              "description": "Activation et désactivation instantanées du canal de téléprésence directement par le patient ou son professionnel délégué."
             },
             "f1": {
               "title": "Journal d'accès complet",
@@ -239,8 +265,8 @@
               "description": "Le flux ne quitte jamais le territoire suisse. Pas de cloud tiers étranger, pas de risque d'exposition extra-territoriale."
             },
             "f4": {
-              "title": "Détection de chutes par IA",
-              "description": "Une analyse IA en temps réel détecte automatiquement les chutes pendant la diffusion et alerte immédiatement les proches et le soignant. L'analyse se fait sur le flux live, sans aucun enregistrement vidéo."
+              "title": "Alertes passives de sécurité par IA",
+              "description": "Canal intelligent qui analyse le flux en direct sans enregistrer de vidéo pour alerter instantanément sur les chutes."
             }
           }
         },
@@ -252,12 +278,12 @@
         }
       },
       "chat-multilingue": {
-        "subtitle": "En Suisse comme ailleurs, beaucoup de patients et de familles ne parlent pas la langue du soin. CareBond traduit, en temps réel, sous le contrôle du soignant.",
+        "subtitle": "Canal de communication multilingue interactif. Traduisez instantanément les conversations entre les familles et le personnel soignant pour surmonter les barrières linguistiques.",
         "visualAlt": "Démonstration en direct du chat multilingue — traduction ES↔FR avec contrôle soignant et journal complet",
         "capabilities": {
           "eyebrow": "Capacités",
-          "heading": "Comment ça fonctionne",
-          "intro": "Chaque interlocuteur écrit dans sa langue, et chacun lit dans la sienne. Le soignant garde le contrôle clinique de la conversation.",
+          "heading": "Canal de traduction automatique",
+          "intro": "Chaque partie écrit dans sa propre langue et lit la traduction instantanément, sous le contrôle clinique et les horaires du professionnel.",
           "items": {
             "f0": {
               "title": "Traduction temps réel",
@@ -285,12 +311,12 @@
         }
       },
       "rounds": {
-        "subtitle": "Tournée du jour, signes vitaux, alertes, ordonnances électroniques — tout dans la poche du soignant. Pour les EMS et les services de soins à domicile.",
+        "subtitle": "Canal de coordination professionnelle et de relèves soignantes. Connectez instantanément votre équipe médicale pour enregistrer les visites, signes vitaux et notes de quart dans l'app soignant.",
         "visualAlt": "Application du soignant — liste des patients du jour avec signes vitaux, alertes et statut",
         "capabilities": {
           "eyebrow": "Capacités",
-          "heading": "Ce que fait le soignant",
-          "intro": "Toute la tournée centralisée dans l'app. Plus de papier, plus d'attente entre les transmissions.",
+          "heading": "Coordination et flux d'informations",
+          "intro": "Sincronisation instantanée des notes de quart et des constantes, éliminant les pertes d'informations et la paperasse lors des transmissions.",
           "items": {
             "f0": {
               "title": "Tournée pré-organisée",
@@ -309,7 +335,7 @@
               "description": "Génération sécurisée par les prescripteurs autorisés, avec signature numérique cryptographique."
             },
             "f4": {
-              "title": "Rapports partagés avec l'équipe du patient",
+              "title": "Rapports partagés et relèves instantanées",
               "description": "Chaque consultation, vital, observation ou note saisie est instantanément visible par tous les soignants assignés au même patient — équipe de jour, équipe de nuit, médecin traitant, intervenants externes. Fin des pertes d'information entre les rotations et les transmissions verbales. En parallèle, des mini-rapports filtrés sont générés automatiquement pour la famille, sans exposer le dossier médical complet."
             }
           }
@@ -322,16 +348,16 @@
         }
       },
       "floor-plans": {
-        "subtitle": "Modélisation isométrique 3D de votre bâtiment + GPS d'intérieur qui guide visiteurs, familles et soignants. La signalétique n'est plus un problème.",
+        "subtitle": "Canal de guidage et d'orientation spatiale 3D. Plans interactifs tridimensionnels conçus pour des écrans à l'entrée physique de la structure pour guider de manière autonome les familles et les médecins.",
         "visualAlt": "Plan 3D isométrique d'un hôpital — blocs opératoires, suite IRM, ward, laboratoire, hall principal, avec parcours GPS d'intérieur",
         "capabilities": {
           "eyebrow": "Capacités",
-          "heading": "Ce que vous obtenez",
-          "intro": "Nous modélisons votre bâtiment en isométrique, puis intégrons le plan dans l'app avec un GPS d'intérieur en temps réel.",
+          "heading": "Canal de signalétique numérique 3D",
+          "intro": "Nous modélisons votre bâtiment en un plan interactif déployé sur des bornes physiques d'accueil, guidant les proches et les professionnels de façon autonome.",
           "items": {
             "f0": {
               "title": "Modélisation sur mesure",
-              "description": "Étages, services, chambres, accueils, accès — votre bâtiment, à l'échelle, dans l'app de chaque acteur."
+              "description": "Étages, services, chambres, accueils, entrées — votre bâtiment, à l'échelle, sur la borne interactive de votre établissement."
             },
             "f1": {
               "title": "GPS d'intérieur",
@@ -521,12 +547,12 @@
   "floorPlans": {
     "eyebrow": "Plans 3D & navigation interne",
     "title": "Vos résidents, vos visiteurs et vos soignants ne se perdent plus.",
-    "subtitle": "CareBond produit le plan 3D de votre résidence, hôpital ou clinique, puis l'intègre dans l'app avec un GPS d'intérieur qui guide chacun vers la pièce qu'il cherche. La signalétique n'est plus un problème.",
+    "subtitle": "CareBond conçoit le plan 3D interactif de votre bâtiment pour des écrans et bornes physiques à l'entrée de votre établissement, guidant de manière autonome les familles, visiteurs et médecins externes jusqu'à la chambre ou le service recherché. La signalétique physique cesse d'être un obstacle.",
     "learnMore": "En savoir plus sur les plans 3D",
     "bullets": {
       "b0": {
         "title": "Plan 3D sur mesure",
-        "description": "Nous modélisons votre bâtiment en isométrique : étages, services, chambres, accueils. Une fois construit, le plan vit dans l'app de chaque acteur."
+        "description": "Nous modélisons votre bâtiment en isométrique : étages, services, chambres, accueils. Une fois construit, le plan vit sur des écrans interactifs à l'entrée de votre institution."
       },
       "b1": {
         "title": "Optimisation des flux",
@@ -534,7 +560,7 @@
       },
       "b2": {
         "title": "GPS d'intérieur intégré",
-        "description": "Visiteurs, familles et médecins sont guidés en temps réel depuis l'accueil jusqu'à la chambre 217 — sans demander leur chemin, sans se perdre dans les couloirs."
+        "description": "Les visiteurs, les familles et les médecins externes sont guidés en temps réel directement depuis la borne numérique du hall d'accueil jusqu'à leur destination — de manière autonome et sans demander leur chemin."
       }
     },
     "hospital": {
