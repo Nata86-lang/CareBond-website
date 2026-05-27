@@ -298,8 +298,8 @@
         }
       },
       "chat-multilingue": {
-        "subtitle": "Canal de comunicación multilingüe interactivo. Traduzca al instante las conversaciones entre familias y personal sanitario para superar las barreras idiomáticas en entornos multiculturales suizos.",
-        "visualAlt": "Demostración en directo del chat multilingüe — traducción ES↔FR con control del profesional y registro completo",
+        "subtitle": "Canal de comunicación multilingüe interactivo. Traduzca al instante las conversaciones entre familias y personal sanitario en más de 15 idiomas (y cualquier otro bajo solicitud) para superar las barreras en entornos multiculturales suizos.",
+        "visualAlt": "Demostración en directo del chat multilingüe — traducción FR↔ES con control del profesional y registro completo",
         "capabilities": {
           "eyebrow": "Capacidades",
           "heading": "Canal de traducción automática",
@@ -605,8 +605,8 @@
   },
   "chatMultilingue": {
     "eyebrow": "Chat multilingüe",
-    "title": "Una familia habla español. El profesional habla francés. CareBond traduce.",
-    "subtitle": "En Suiza como en otros lugares, muchos pacientes y familias no hablan el idioma del cuidado. CareBond traduce cada mensaje al idioma de cada interlocutor, en tiempo real. La barrera desaparece, la comunicación queda.",
+    "title": "El profesional habla francés. La familia habla español. CareBond traduce.",
+    "subtitle": "En Suiza como en otros lugares, muchos pacientes y familias no hablan el idioma del cuidado. CareBond traduce al instante en más de 15 idiomas (con posibilidad de añadir nuevos bajo solicitud), eliminando las barreras de comunicación.",
     "learnMore": "Saber más sobre el chat multilingüe",
     "bullets": {
       "b0": {
@@ -1123,7 +1123,7 @@
       "title": "La experiencia paciente de alta gama, con su marca.",
       "subtitle": "Chat multilingüe para pacientes internacionales, white-label, alojamiento en Suiza. Diseñado para las clínicas que quieren el rigor de una plataforma profesional sin perder su identidad.",
       "metaDescription": "Solución CareBond para clínicas privadas: chat multilingüe, white-label, alojamiento en Suiza exclusivo, conformidad nLPD.",
-      "visualAlt": "Vista previa del chat multilingüe — mensajes ES↔FR traducidos en tiempo real con control del profesional",
+      "visualAlt": "Vista previa del chat multilingüe — mensajes FR↔ES traducidos en tiempo real con control del profesional",
       "problem": {
         "eyebrow": "El constato",
         "heading": "Una clínica privada no es ni un hospital ni un EMS — sus limitaciones son únicas.",

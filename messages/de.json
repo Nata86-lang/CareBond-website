@@ -278,8 +278,8 @@
         }
       },
       "chat-multilingue": {
-        "subtitle": "Interaktiver mehrsprachiger Kommunikationskanal. Übersetzen Sie Gespräche zwischen Familien und Pflegepersonal sofort, um Sprachbarrieren in der mehrsprachigen Schweiz abzubauen.",
-        "visualAlt": "Live-Demo des mehrsprachigen Chats — ES↔FR-Übersetzung mit Pflegesteuerung und vollständigem Protokoll",
+        "subtitle": "Interaktiver mehrsprachiger Kommunikationskanal. Übersetzen Sie Gespräche zwischen Familien und Pflegepersonal sofort in über 15 Sprachen (weitere auf Anfrage) und überwinden Sie Barrieren.",
+        "visualAlt": "Live-Demo des mehrsprachigen Chats — FR↔ES-Übersetzung mit Pflegesteuerung und vollständigem Protokoll",
         "capabilities": {
           "eyebrow": "Fähigkeiten",
           "heading": "Automatischer Übersetzungskanal",
@@ -585,8 +585,8 @@
   },
   "chatMultilingue": {
     "eyebrow": "Mehrsprachiger Chat",
-    "title": "Eine Familie spricht Spanisch. Die Pflegeperson spricht Französisch. CareBond übersetzt.",
-    "subtitle": "In der Schweiz wie anderswo sprechen viele Patienten und Familien nicht die Sprache der Pflege. CareBond übersetzt jede Nachricht in Echtzeit in die Sprache jedes Gesprächspartners. Die Barriere verschwindet, die Kommunikation bleibt.",
+    "title": "Die Fachkraft spricht Französisch. Die Familie spricht Spanisch. CareBond übersetzt.",
+    "subtitle": "In der Schweiz wie anderswo sprechen viele Patienten und Familien nicht die Sprache der Pflege. CareBond übersetzt sofort in über 15 Sprachen (weitere Sprachen können auf Anfrage hinzugefügt werden) und baut so Kommunikationsbarrieren ab.",
     "learnMore": "Mehr über den mehrsprachigen Chat",
     "bullets": {
       "b0": {
@@ -1103,7 +1103,7 @@
       "title": "Premium-Patientenerlebnis, in Ihrer Marke.",
       "subtitle": "Mehrsprachiger Chat für internationale Patienten, White-Label, Schweizer Hosting. Konzipiert für Kliniken, die die Strenge einer professionellen Plattform wollen, ohne ihre Identität zu verlieren.",
       "metaDescription": "CareBond-Lösung für Privatkliniken: mehrsprachiger Chat, White-Label, exklusives Schweizer Hosting, DSG-Konformität.",
-      "visualAlt": "Vorschau des mehrsprachigen Chats — ES↔FR-Nachrichten in Echtzeit übersetzt mit Pflegekontrolle",
+      "visualAlt": "Vorschau des mehrsprachigen Chats — FR↔ES-Nachrichten in Echtzeit übersetzt mit Pflegekontrolle",
       "problem": {
         "eyebrow": "Die Realität",
         "heading": "Eine Privatklinik ist weder ein Spital noch ein Pflegeheim — ihre Anforderungen sind einzigartig.",

@@ -278,8 +278,8 @@
         }
       },
       "chat-multilingue": {
-        "subtitle": "Canale di comunicazione multilingue interattivo. Traducete all'istante le conversazioni tra famiglie e personale di cura per superare le barriere linguistiche.",
-        "visualAlt": "Demo dal vivo del chat multilingue — traduzione ES↔FR con controllo operatore e registro completo",
+        "subtitle": "Canale di comunicazione multilingue interattivo. Traducete all'istante le conversazioni tra famiglie e personale di cura in oltre 15 lingue (e altre su richiesta) per superare le barriere linguistiche.",
+        "visualAlt": "Demo dal vivo del chat multilingue — traduzione FR↔ES con controllo operatore e registro completo",
         "capabilities": {
           "eyebrow": "Capacità",
           "heading": "Canale di traduzione automatica",
@@ -585,8 +585,8 @@
   },
   "chatMultilingue": {
     "eyebrow": "Chat multilingue",
-    "title": "Una famiglia parla spagnolo. L'operatore parla francese. CareBond traduce.",
-    "subtitle": "In Svizzera come altrove, molti pazienti e famiglie non parlano la lingua delle cure. CareBond traduce ogni messaggio nella lingua di ciascun interlocutore, in tempo reale. La barriera scompare, la comunicazione resta.",
+    "title": "Il professionista parla francese. La famiglia parla spagnolo. CareBond traduce.",
+    "subtitle": "In Svizzera como altrove, molti pazienti e famiglie non parlano la lingua delle cure. CareBond traduce all'istante in oltre 15 lingue (con possibilità di aggiungerne altre su richiesta), eliminando le barriere comunicative.",
     "learnMore": "Scopri di più sul chat multilingue",
     "bullets": {
       "b0": {
@@ -1103,7 +1103,7 @@
       "title": "L'esperienza paziente di alta gamma, con il vostro marchio.",
       "subtitle": "Chat multilingue per pazienti internazionali, white-label, hosting svizzero. Concepito per le cliniche che vogliono il rigore di una piattaforma professionale senza perdere la propria identità.",
       "metaDescription": "Soluzione CareBond per cliniche private: chat multilingue, white-label, hosting svizzero esclusivo, conformità LPD.",
-      "visualAlt": "Anteprima del chat multilingue — messaggi ES↔FR tradotti in tempo reale con controllo dell'operatore",
+      "visualAlt": "Anteprima del chat multilingue — messaggi FR↔ES tradotti in tempo reale con controllo dell'operatore",
       "problem": {
         "eyebrow": "La realtà",
         "heading": "Una clinica privata non è né un ospedale né una casa di cura — i suoi vincoli sono unici.",

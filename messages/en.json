@@ -298,8 +298,8 @@
         }
       },
       "chat-multilingue": {
-        "subtitle": "In Switzerland as everywhere, many patients and families don't speak the language of care. CareBond translates, in real time, under the caregiver's control.",
-        "visualAlt": "Live demo of the multilingual chat — ES↔FR translation with caregiver control and full log",
+        "subtitle": "Interactive multilingual communication channel. Instantly translate conversations between families and healthcare staff in more than 15 languages (and any other on request) to overcome barriers in multicultural Swiss settings.",
+        "visualAlt": "Live demo of the multilingual chat — FR↔ES translation with caregiver control and full log",
         "capabilities": {
           "eyebrow": "Capabilities",
           "heading": "How it works",
@@ -605,8 +605,8 @@
   },
   "chatMultilingue": {
     "eyebrow": "Multilingual chat",
-    "title": "A family speaks Spanish. The caregiver speaks French. CareBond translates.",
-    "subtitle": "In Switzerland as everywhere, many patients and families don't speak the language of care. CareBond translates every message into the chosen language of each participant, in real time. The barrier disappears, the communication stays.",
+    "title": "The professional speaks French. The family speaks Spanish. CareBond translates.",
+    "subtitle": "In Switzerland as everywhere, many patients and families don't speak the language of care. CareBond translates instantly into more than 15 languages (with the option to add others on request), removing communication barriers.",
     "learnMore": "Learn more about multilingual chat",
     "bullets": {
       "b0": {
@@ -1123,7 +1123,7 @@
       "title": "Premium patient experience, in your brand.",
       "subtitle": "Multilingual chat for international patients, white-label, Swiss hosting. Built for clinics that want the rigor of a professional platform without losing their identity.",
       "metaDescription": "CareBond solution for private clinics: multilingual chat, white-label, exclusive Swiss hosting, nLPD compliance.",
-      "visualAlt": "Multilingual chat preview — ES↔FR messages translated in real time with caregiver control",
+      "visualAlt": "Multilingual chat preview — FR↔ES messages translated in real time with caregiver control",
       "problem": {
         "eyebrow": "The reality",
         "heading": "A private clinic is neither a hospital nor a nursing home — its constraints are unique.",
