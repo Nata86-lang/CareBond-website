@@ -1343,9 +1343,6 @@
     }
   },
   "stats": {
-    "eyebrow": "Por qué importa",
-    "title": "La realidad a la que se enfrentan los cuidados en Suiza.",
-    "subtitle": "Los cuidados en Suiza envejecen, se viven cada vez más en soledad, son cada vez más multilingües y se reparten entre el domicilio y la institución. CareBond es la capa de comunicación creada para mantener conectados a pacientes, familias y equipos de cuidados a través de todo ello.",
     "items": {
       "s0": {
         "figure": "1 de cada 3",
@@ -1367,7 +1364,6 @@
         "label": "médicos de familia suizos se topan con barreras lingüísticas en las consultas; la mayoría informa de una necesidad no cubierta de interpretación.",
         "source": "Jaeger et al., BMC Health Services Research, 2019"
       }
-    },
-    "sourceNote": "Cifras procedentes de estadísticas públicas suizas e investigación revisada por pares, tal como las publican sus respectivas fuentes. Cada una se verificó frente a su fuente primaria."
+    }
   }
 }

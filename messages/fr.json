@@ -1323,9 +1323,6 @@
     }
   },
   "stats": {
-    "eyebrow": "Pourquoi c'est important",
-    "title": "La réalité à laquelle font face les soins en Suisse.",
-    "subtitle": "Les soins en Suisse vieillissent, se vivent plus souvent seul, deviennent de plus en plus multilingues et se répartissent entre domicile et institution. CareBond est la couche de communication conçue pour garder patients, familles et équipes soignantes connectés à travers tout cela.",
     "items": {
       "s0": {
         "figure": "1 sur 3",
@@ -1347,7 +1344,6 @@
         "label": "des médecins de famille suisses se heurtent à des barrières linguistiques en consultation ; la plupart font état d'un besoin d'interprétariat non satisfait.",
         "source": "Jaeger et al., BMC Health Services Research, 2019"
       }
-    },
-    "sourceNote": "Chiffres issus des statistiques publiques suisses et de recherches évaluées par les pairs, tels que publiés par leurs sources respectives. Chacun a été vérifié auprès de sa source primaire."
+    }
   }
 }

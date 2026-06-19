@@ -1,7 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 import { locales } from "@/lib/i18n";
 import { Hero } from "@/components/marketing/hero";
-import { Stats } from "@/components/marketing/sections/stats/stats";
+import { StatDivider } from "@/components/marketing/sections/stats/stat-divider";
 import { HowItWorks } from "@/components/marketing/sections/how-it-works/how-it-works";
 import { PourQui } from "@/components/marketing/sections/pour-qui/pour-qui";
 import { PlatformBento } from "@/components/marketing/sections/platform/platform-bento";
@@ -28,15 +28,18 @@ export default async function HomePage({
   return (
     <main id="main-content">
       <Hero locale={locale} />
-      <Stats />
+      <StatDivider statKey="s0" surface="muted" />
       <HowItWorks />
       <PourQui />
+      <StatDivider statKey="s2" />
       <PlatformBento locale={locale} />
       <SoignerSansSilos />
+      <StatDivider statKey="s3" />
       <ChatMultilingue locale={locale} />
       <ModuleResidences />
       <FloorPlans locale={locale} />
       <Compliance />
+      <StatDivider statKey="s1" surface="muted" />
       <FAQ />
       <FinalCTA locale={locale} />
     </main>

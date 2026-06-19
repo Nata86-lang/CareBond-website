@@ -740,9 +740,6 @@
     }
   },
   "stats": {
-    "eyebrow": "Why it matters",
-    "title": "The reality Swiss care is facing.",
-    "subtitle": "Care in Switzerland is ageing, more often lived alone, increasingly multilingual, and split between home and institution. CareBond is the communication layer built to keep patients, families and care teams connected through all of it.",
     "items": {
       "s0": {
         "figure": "1 in 3",
@@ -764,8 +761,7 @@
         "label": "Swiss family doctors run into language barriers in consultations; most report an unmet need for interpreting.",
         "source": "Jaeger et al., BMC Health Services Research, 2019"
       }
-    },
-    "sourceNote": "Figures from public Swiss statistics and peer-reviewed research, as published by their respective sources. Each was verified against its primary source."
+    }
   },
   "common": {
     "skipLink": "Skip to main content"

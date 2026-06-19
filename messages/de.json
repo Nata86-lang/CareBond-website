@@ -1323,9 +1323,6 @@
     }
   },
   "stats": {
-    "eyebrow": "Warum es zählt",
-    "title": "Die Realität, der die Schweizer Pflege gegenübersteht.",
-    "subtitle": "Die Pflege in der Schweiz wird älter, immer öfter allein gelebt, zunehmend mehrsprachig und aufgeteilt zwischen Zuhause und Institution. CareBond ist die Kommunikationsebene, die gebaut wurde, um Patienten, Familien und Pflegeteams durch all das hindurch verbunden zu halten.",
     "items": {
       "s0": {
         "figure": "1 von 3",
@@ -1347,7 +1344,6 @@
         "label": "Schweizer Hausärztinnen und Hausärzte stossen in Konsultationen auf Sprachbarrieren; die meisten berichten von einem ungedeckten Bedarf an Dolmetschen.",
         "source": "Jaeger et al., BMC Health Services Research, 2019"
       }
-    },
-    "sourceNote": "Zahlen aus öffentlichen Schweizer Statistiken und peer-reviewter Forschung, wie von den jeweiligen Quellen veröffentlicht. Jede wurde anhand ihrer Primärquelle überprüft."
+    }
   }
 }

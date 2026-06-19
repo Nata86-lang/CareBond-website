@@ -1323,9 +1323,6 @@
     }
   },
   "stats": {
-    "eyebrow": "Perché è importante",
-    "title": "La realtà che la cura in Svizzera deve affrontare.",
-    "subtitle": "La cura in Svizzera invecchia, è sempre più spesso vissuta in solitudine, sempre più multilingue e divisa tra domicilio e istituzione. CareBond è il livello di comunicazione concepito per mantenere connessi pazienti, famiglie e team di cura attraverso tutto questo.",
     "items": {
       "s0": {
         "figure": "1 su 3",
@@ -1347,7 +1344,6 @@
         "label": "i medici di famiglia svizzeri incontrano barriere linguistiche nelle consultazioni; la maggior parte segnala un bisogno insoddisfatto di interpretariato.",
         "source": "Jaeger et al., BMC Health Services Research, 2019"
       }
-    },
-    "sourceNote": "Cifre tratte da statistiche pubbliche svizzere e da ricerche sottoposte a revisione paritaria, così come pubblicate dalle rispettive fonti. Ciascuna è stata verificata rispetto alla sua fonte primaria."
+    }
   }
 }
