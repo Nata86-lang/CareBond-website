@@ -222,7 +222,7 @@
             },
             "f1": {
               "title": "Änderungen an der Akte",
-              "description": "Protokoll der Änderungen in Bewohnerprofilen, Pflegeplänen oder Besuchsberichten, mit vollständiger Vorher/Nachher-Historie."
+              "description": "Protokoll der Änderungen in Bewohnerprofilen, Pflegeplänen oder Besuchsberichten, mit vollständiger Vorher-nachher-Historie."
             },
             "f2": {
               "title": "HMAC-Signaturen für Berichte",
@@ -267,7 +267,7 @@
             },
             "f4": {
               "title": "Optionale Sturzerkennung",
-              "description": "Wo verfügbar, kann eine Echtzeitanalyse des Livestreams einen möglichen Sturz melden und Familie und Pflegepersonen alarmieren. Sie läuft ausschliesslich auf dem Stream — nichts wird jemals aufgezeichnet. Als Option in ausgewählten Märkten angeboten, vorbehältlich der lokalen Vorschriften."
+              "description": "Wo verfügbar, kann eine Echtzeitanalyse des Livestreams einen möglichen Sturz melden und Familie sowie Pflegepersonen alarmieren. Sie läuft ausschliesslich auf dem Stream — nichts wird jemals aufgezeichnet. Als Option in ausgewählten Märkten angeboten, vorbehältlich der lokalen Vorschriften."
             }
           }
         },
@@ -334,7 +334,7 @@
             },
             "f3": {
               "title": "Zeitgestempelte Fotos & Notizen",
-              "description": "Ein optionales Foto und eine Besuchsnotiz, an jede Visite angehängt, zeitgestempelt und sofort mit dem zugewiesenen Pflegeteam geteilt."
+              "description": "Ein optionales Foto und eine Besuchsnotiz, an jede Visite angehängt, mit Zeitstempel versehen und sofort mit dem zugewiesenen Pflegeteam geteilt."
             },
             "f4": {
               "title": "Gemeinsame Berichte und sofortige Übergaben",
@@ -486,15 +486,15 @@
       "recovery": {
         "label": "Nachsorge",
         "title": "Für Nachsorge & Rehabilitation",
-        "description": "Halten Sie genesende Patienten nach der Entlassung mit ihrem Pflegeteam und ihrer Familie verbunden — geführte Check-ins, Chat und Video, ohne den Kontakt zu verlieren.",
+        "description": "Halten Sie genesende Patientinnen und Patienten nach der Entlassung mit ihrem Pflegeteam und ihrer Familie verbunden — geführte Check-ins, Chat und Video, ohne den Kontakt zu verlieren.",
         "features": {
           "f0": {
             "title": "Geführte Check-ins",
             "description": "Der Patient meldet selbst, wie die Genesung verläuft. Die Pflegeperson sieht es, ohne einen einzigen Anruf."
           },
           "f1": {
-            "title": "Eine direkte Linie zum Pflegeteam",
-            "description": "Sicherer Chat und vom Fachpersonal initiiertes Video halten den Patienten zwischen den Terminen begleitet."
+            "title": "Ein direkter Draht zum Pflegeteam",
+            "description": "Sicherer Chat und vom Fachpersonal initiiertes Video begleiten den Patienten zwischen den Terminen."
           },
           "f2": {
             "title": "Die Familie auf dem Laufenden",
@@ -631,7 +631,7 @@
   "moduleResidences": {
     "eyebrow": "Modul Pflegeheime",
     "title": "Für Schweizer Pflegeheime gebaut — von der Aufnahme bis zum Audit.",
-    "subtitle": "Eines der drei Pflegesettings, die CareBond bedient. Konzipiert für das Pflegeheim, das ein strukturiertes Bewohnerdossier will, eine digitale Visite in der Tasche der Pflegeperson und einen audit-fertigen Export auf Knopfdruck.",
+    "subtitle": "Eines der drei Pflegesettings, die CareBond bedient. Konzipiert für das Pflegeheim, das ein strukturiertes Bewohnerdossier möchte, eine digitale Visite in der Tasche der Pflegeperson und einen audit-fertigen Export auf Knopfdruck.",
     "pillars": {
       "admission": {
         "title": "Aufnahme & Patientendossier",
@@ -1059,7 +1059,7 @@
           },
           "f2": {
             "title": "Livestream mit Einwilligung",
-            "description": "Die Kamera des Patienten wird vom Patienten oder der Pflegeperson ein- und ausgeschaltet, niemals aufgezeichnet — ausschliesslich Live-Übertragung, mit vollständigem Zugriffsprotokoll. Optionale Sturzerkennung ist in ausgewählten Märkten verfügbar, vorbehältlich der lokalen Vorschriften."
+            "description": "Die Kamera des Patienten wird vom Patienten oder von der Pflegeperson ein- und ausgeschaltet, niemals aufgezeichnet — ausschliesslich Live-Übertragung, mit vollständigem Zugriffsprotokoll. Eine optionale Sturzerkennung ist in ausgewählten Märkten verfügbar, vorbehältlich der lokalen Vorschriften."
           },
           "f3": {
             "title": "Priorisierte Alarme",
@@ -1169,23 +1169,23 @@
       "eyebrow": "Für die Nachsorge",
       "title": "Genesung endet nicht mit der Entlassung.",
       "subtitle": "Wenn ein Patient zur Genesung nach Hause geht, sollte die Kommunikation nicht aufhören. CareBond hält den genesenden Patienten, seine Pflegeperson und seine Familie verbunden — geführte Check-ins, sicherer Chat, Video zu den Bedingungen des Fachpersonals und automatische Mini-Berichte an die Familie.",
-      "metaDescription": "CareBond für die Nachsorge und Rehabilitation nach dem Spitalaufenthalt: geführte Patienten-Check-ins, sicherer Chat, vom Fachpersonal initiiertes Video und automatische Mini-Berichte an die Familie. Eine in der Schweiz gehostete, DSG-konforme Kommunikationsebene.",
+      "metaDescription": "CareBond für die Nachsorge und Rehabilitation nach dem Spitalaufenthalt: geführte Patienten-Check-ins, sicherer Chat, vom Fachpersonal initiiertes Video und automatische Mini-Berichte an die Familie. Eine in der Schweiz gehostete, nLPD-konforme Kommunikationsebene.",
       "visualAlt": "Vorschau der Patienten-App — Nachsorge-Startbildschirm mit Check-ins, Chat und Video",
       "problem": {
         "eyebrow": "Die Realität",
         "heading": "Nach der Entlassung ist der Patient plötzlich auf sich allein gestellt.",
         "intro": "Der schwierigste Teil der Genesung findet oft zu Hause statt — wo das Pflegeteam nicht mehr sehen kann, wie es läuft, und die Familie im Ungewissen bleibt.",
         "points": {
-          "p0": "Zu Hause verliert der Patient den täglichen Kontakt mit dem Pflegeteam, den er auf der Station hatte.",
-          "p1": "Die Familie sorgt sich aus der Ferne und ruft immer wieder zur Beruhigung an.",
+          "p0": "Zu Hause verliert der Patient den täglichen Kontakt zum Pflegeteam, den er auf der Station hatte.",
+          "p1": "Die Familie sorgt sich aus der Ferne und ruft immer wieder an, um sich zu vergewissern.",
           "p2": "Fragen und Warnzeichen warten bis zum nächsten Termin — oder bis zu einem erneuten Gang in die Notaufnahme.",
-          "p3": "Niemand hat eine einfache, strukturierte Möglichkeit zu wissen, ob die Genesung auf Kurs ist."
+          "p3": "Niemand hat eine einfache, strukturierte Möglichkeit, um zu erkennen, ob die Genesung auf Kurs ist."
         }
       },
       "features": {
         "eyebrow": "Was CareBond ändert",
-        "heading": "Eine Kommunikationslinie, die dem Patienten nach Hause folgt.",
-        "intro": "Keine medizinische Fernüberwachung — ein strukturierter Kommunikationskanal, der alle durch die Genesung hindurch verbunden hält. Die Pflegeperson behält die Kontrolle darüber, was wann geschieht.",
+        "heading": "Ein Kommunikationskanal, der dem Patienten nach Hause folgt.",
+        "intro": "Keine medizinische Fernüberwachung — ein strukturierter Kommunikationskanal, der alle während der Genesung verbunden hält. Die Pflegeperson behält die Kontrolle darüber, was wann geschieht.",
         "items": {
           "f0": {
             "title": "Geführte Check-ins",
@@ -1193,11 +1193,11 @@
           },
           "f1": {
             "title": "Sicherer Chat mit dem Pflegeteam",
-            "description": "Eine direkte, nachvollziehbare Linie zum zugewiesenen Fachpersonal, verfügbar zu den Bedingungen des Fachpersonals — keine Nachrichten in der Nacht, kein Eindringen."
+            "description": "Ein direkter, nachvollziehbarer Draht zum zugewiesenen Fachpersonal, verfügbar zu den Bedingungen des Fachpersonals — keine Nachrichten in der Nacht, kein Eindringen."
           },
           "f2": {
             "title": "Vom Fachpersonal initiierte Videosprechstunden",
-            "description": "Videoanrufe, die die Pflegeperson startet, wenn ein Check-in einen genaueren Blick rechtfertigt — ohne dass der Patient zurückreisen muss."
+            "description": "Videoanrufe, die die Pflegeperson startet, wenn ein Check-in einen genaueren Blick rechtfertigt — ohne dass der Patient wieder anreisen muss."
           },
           "f3": {
             "title": "Automatische Mini-Berichte an die Familie",
@@ -1235,7 +1235,7 @@
         },
         "v1": {
           "title": "Die Pflegeperson behält die Kontrolle",
-          "description": "Chat, Livestream, Videoanrufe — das Fachpersonal entscheidet, wann und wie. CareBond umgeht niemals die Fachperson."
+          "description": "Chat, Livestream, Videoanrufe — das Fachpersonal entscheidet, wann und wie. CareBond umgeht die Fachperson niemals."
         },
         "v2": {
           "title": "Audit-Log standardmässig",
@@ -1326,22 +1326,22 @@
     "items": {
       "s0": {
         "figure": "1 von 3",
-        "label": "Menschen ab 65 Jahren in der Schweiz leben allein — und mehr als die Hälfte der über 85-Jährigen.",
+        "label": "Menschen ab 65 Jahren in der Schweiz lebt allein — und mehr als die Hälfte der über 85-Jährigen.",
         "source": "Bundesamt für Statistik (BFS), 2022"
       },
       "s1": {
         "figure": "Fast 2×",
-        "label": "die Bevölkerung ab 80 Jahren in der Schweiz wird sich bis 2055 voraussichtlich nahezu verdoppeln, auf über eine Million.",
+        "label": "so viel: Die Bevölkerung ab 80 Jahren in der Schweiz dürfte sich bis 2055 nahezu verdoppeln, auf über eine Million.",
         "source": "Bundesamt für Statistik (BFS), Bevölkerungsszenarien, 2025"
       },
       "s2": {
         "figure": "25,6 Mio.",
-        "label": "Stunden häusliche Pflege (Spitex) wurden 2024 an rund 424'000 Menschen erbracht — ein Plus von 10% in einem einzigen Jahr.",
+        "label": "Stunden häuslicher Pflege (Spitex) wurden 2024 für rund 424'000 Menschen erbracht — ein Plus von 10% in einem einzigen Jahr.",
         "source": "Bundesamt für Statistik (BFS), 2025"
       },
       "s3": {
         "figure": "9 von 10",
-        "label": "Schweizer Hausärztinnen und Hausärzte stossen in Konsultationen auf Sprachbarrieren; die meisten berichten von einem ungedeckten Bedarf an Dolmetschen.",
+        "label": "Schweizer Hausärztinnen und Hausärzten begegnen in Konsultationen Sprachbarrieren; die meisten berichten von einem ungedeckten Bedarf an Dolmetschdiensten.",
         "source": "Jaeger et al., BMC Health Services Research, 2019"
       }
     }

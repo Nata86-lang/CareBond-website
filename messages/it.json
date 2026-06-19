@@ -267,7 +267,7 @@
             },
             "f4": {
               "title": "Rilevamento opzionale delle cadute",
-              "description": "Dove disponibile, l'analisi in tempo reale sulla trasmissione in streaming può segnalare una possibile caduta e avvisare famiglia e operatori. Funziona solo sullo stream — nulla viene mai registrato. Offerto come opzione in mercati selezionati, soggetto alle normative locali."
+              "description": "Dove disponibile, l'analisi in tempo reale della trasmissione in streaming può segnalare una possibile caduta e avvisare la famiglia e gli operatori. Funziona solo sullo stream — nulla viene mai registrato. Offerto come opzione in mercati selezionati, nel rispetto delle normative locali."
             }
           }
         },
@@ -486,11 +486,11 @@
       "recovery": {
         "label": "Recupero",
         "title": "Per il recupero e la riabilitazione",
-        "description": "Mantenga i pazienti in fase di recupero connessi al loro team di cura e alla famiglia dopo la dimissione — check-in guidati, chat e video, senza perdere il contatto.",
+        "description": "Mantenga i pazienti in fase di recupero in contatto con il loro team di cura e con la famiglia dopo la dimissione — check-in guidati, chat e video, senza perdere il contatto.",
         "features": {
           "f0": {
             "title": "Check-in guidati",
-            "description": "Il paziente riferisce in autonomia come procede il recupero. L'operatore lo vede senza una sola telefonata."
+            "description": "Il paziente segnala in autonomia come procede il recupero. L'operatore lo vede senza una sola telefonata."
           },
           "f1": {
             "title": "Una linea diretta con il team di cura",
@@ -498,7 +498,7 @@
           },
           "f2": {
             "title": "La famiglia sempre informata",
-            "description": "Mini-rapporti automatici rassicurano la famiglia a distanza, senza esporre il dossier completo."
+            "description": "Mini-rapporti automatici rassicurano la famiglia a distanza, senza esporre l'intero dossier."
           }
         }
       }
@@ -1059,7 +1059,7 @@
           },
           "f2": {
             "title": "Livestream con consenso",
-            "description": "La telecamera del paziente viene attivata e disattivata dal paziente o dall'operatore, mai registrata — solo trasmissione in streaming, con registro accessi completo. Il rilevamento opzionale delle cadute è disponibile in mercati selezionati, soggetto alle normative locali."
+            "description": "La telecamera del paziente viene attivata e disattivata dal paziente o dall'operatore, mai registrata — solo trasmissione in streaming, con registro accessi completo. Il rilevamento opzionale delle cadute è disponibile in mercati selezionati, nel rispetto delle normative locali."
           },
           "f3": {
             "title": "Allarmi prioritari",
@@ -1168,7 +1168,7 @@
     "recovery": {
       "eyebrow": "Per le cure di recupero",
       "title": "Il recupero non finisce con la dimissione.",
-      "subtitle": "Quando un paziente torna a casa per recuperare, la comunicazione non dovrebbe fermarsi. CareBond mantiene connessi il paziente in fase di recupero, il suo operatore e la sua famiglia — check-in guidati, chat sicura, video alle condizioni del professionista e mini-rapporti automatici per la famiglia.",
+      "subtitle": "Quando un paziente torna a casa per recuperare, la comunicazione non dovrebbe fermarsi. CareBond mantiene in contatto il paziente in fase di recupero, il suo operatore e la sua famiglia — check-in guidati, chat sicura, video alle condizioni del professionista e mini-rapporti automatici per la famiglia.",
       "metaDescription": "CareBond per il recupero e la riabilitazione post-ospedalieri: check-in guidati del paziente, chat sicura, video avviati dal professionista e mini-rapporti automatici per la famiglia. Un livello di comunicazione ospitato in Svizzera e conforme alla nLPD.",
       "visualAlt": "Anteprima dell'app paziente — schermata home del recupero con check-in, chat e video",
       "problem": {
@@ -1178,18 +1178,18 @@
         "points": {
           "p0": "Tornato a casa, il paziente perde il contatto quotidiano con il team di cura che aveva in reparto.",
           "p1": "La famiglia si preoccupa a distanza e telefona di continuo per rassicurarsi.",
-          "p2": "Domande e segnali d'allarme aspettano fino al prossimo appuntamento — oppure un nuovo passaggio al pronto soccorso.",
+          "p2": "Domande e segnali d'allarme restano in sospeso fino al prossimo appuntamento — oppure fino a un nuovo passaggio al pronto soccorso.",
           "p3": "Nessuno ha un modo semplice e strutturato per sapere se il recupero procede bene."
         }
       },
       "features": {
         "eyebrow": "Cosa cambia CareBond",
         "heading": "Una linea di comunicazione che segue il paziente a casa.",
-        "intro": "Non un monitoraggio medico a distanza — un canale di comunicazione strutturato che mantiene tutti connessi lungo tutto il recupero. L'operatore mantiene il controllo di cosa accade e quando.",
+        "intro": "Non un monitoraggio medico a distanza — un canale di comunicazione strutturato che mantiene tutti in contatto lungo tutto il recupero. L'operatore mantiene il controllo di ciò che accade e quando.",
         "items": {
           "f0": {
             "title": "Check-in guidati",
-            "description": "Il paziente riferisce in autonomia come si sente e come procede il recupero, con pochi tocchi. Sempre un'auto-segnalazione, mai una diagnosi automatica."
+            "description": "Il paziente segnala in autonomia come si sente e come procede il recupero, con pochi tocchi. Sempre un'auto-segnalazione, mai una diagnosi automatica."
           },
           "f1": {
             "title": "Chat sicura con il team di cura",
@@ -1201,7 +1201,7 @@
           },
           "f3": {
             "title": "Mini-rapporti automatici per la famiglia",
-            "description": "La famiglia riceve aggiornamenti filtrati e tranquillità a distanza, senza mai vedere il dossier completo."
+            "description": "La famiglia riceve aggiornamenti filtrati e la tranquillità di seguire da lontano, senza mai vedere l'intero dossier."
           }
         }
       },
@@ -1326,7 +1326,7 @@
     "items": {
       "s0": {
         "figure": "1 su 3",
-        "label": "le persone dai 65 anni in su in Svizzera vivono sole — e più della metà di quelle oltre gli 85.",
+        "label": "persone dai 65 anni in su in Svizzera vive sola — e più della metà di quelle oltre gli 85.",
         "source": "Ufficio federale di statistica (UST), 2022"
       },
       "s1": {
@@ -1336,12 +1336,12 @@
       },
       "s2": {
         "figure": "25,6 mln",
-        "label": "ore di cure a domicilio (Spitex) sono state erogate nel 2024 a circa 424'000 persone — in aumento del 10% in un solo anno.",
+        "label": "ore di cure a domicilio (Spitex) erogate nel 2024 a circa 424'000 persone — in aumento del 10% in un solo anno.",
         "source": "Ufficio federale di statistica (UST), 2025"
       },
       "s3": {
         "figure": "9 su 10",
-        "label": "i medici di famiglia svizzeri incontrano barriere linguistiche nelle consultazioni; la maggior parte segnala un bisogno insoddisfatto di interpretariato.",
+        "label": "medici di famiglia svizzeri incontrano barriere linguistiche nelle consultazioni; la maggior parte segnala un bisogno insoddisfatto di interpretariato.",
         "source": "Jaeger et al., BMC Health Services Research, 2019"
       }
     }

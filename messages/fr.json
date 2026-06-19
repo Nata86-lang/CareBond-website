@@ -222,7 +222,7 @@
             },
             "f1": {
               "title": "Modifications du dossier",
-              "description": "Journal des modifications des profils résidents, des plans de soins ou des rapports de visite, avec historique complet avant/après."
+              "description": "Journal des modifications apportées aux profils des résidents, aux plans de soins ou aux rapports de visite, avec un historique complet avant/après."
             },
             "f2": {
               "title": "Signatures HMAC de rapports",
@@ -267,7 +267,7 @@
             },
             "f4": {
               "title": "Détection des chutes en option",
-              "description": "Là où elle est disponible, une analyse en temps réel du livestream peut signaler une possible chute et alerter la famille et les soignants. Elle s'applique uniquement au stream — rien n'est jamais enregistré. Proposée en option sur certains marchés, sous réserve des réglementations locales."
+              "description": "Là où elle est disponible, une analyse en temps réel du livestream peut signaler une chute possible et alerter la famille et les soignants. Elle s'applique uniquement au stream — rien n'est jamais enregistré. Proposée en option sur certains marchés, sous réserve des réglementations locales."
             }
           }
         },
@@ -334,7 +334,7 @@
             },
             "f3": {
               "title": "Photos et notes horodatées",
-              "description": "Une photo et une note de visite optionnelles attachées à chaque tournée, horodatées et instantanément partagées avec l'équipe soignante assignée."
+              "description": "Une photo et une note de visite optionnelles, jointes à chaque tournée, horodatées et instantanément partagées avec l'équipe soignante assignée."
             },
             "f4": {
               "title": "Rapports partagés et relèves instantanées",
@@ -387,7 +387,7 @@
   "pourQui": {
     "eyebrow": "Pour qui",
     "title": "Conçue pour chaque type d'établissement.",
-    "subtitle": "Trois contextes de soins — établissements médico-sociaux, soins à domicile et rétablissement — auxquels s'ajoutent hôpitaux et cliniques. Chacun avec sa réalité, tous sur une seule plateforme de communication, avec une seule promesse de conformité suisse.",
+    "subtitle": "Trois contextes de soins — établissements médico-sociaux, soins à domicile et rétablissement — auxquels s'ajoutent hôpitaux et cliniques. Chacun a sa réalité, mais tous reposent sur une seule plateforme de communication, avec une seule promesse de conformité suisse.",
     "tabsAriaLabel": "Sélectionnez votre type d'établissement",
     "audiences": {
       "ems": {
@@ -486,15 +486,15 @@
       "recovery": {
         "label": "Rétablissement",
         "title": "Pour le rétablissement et la réadaptation",
-        "description": "Gardez le patient en convalescence connecté à son équipe soignante et à sa famille après la sortie — check-ins guidés, chat et vidéo, sans perdre le contact.",
+        "description": "Gardez le patient en convalescence en lien avec son équipe soignante et sa famille après la sortie — check-ins guidés, chat et vidéo, sans jamais perdre le contact.",
         "features": {
           "f0": {
             "title": "Check-ins guidés",
-            "description": "Le patient rapporte lui-même l'évolution de son rétablissement. Le professionnel de santé le voit sans un seul appel téléphonique."
+            "description": "Le patient rend compte lui-même de l'évolution de son rétablissement. Le professionnel de santé en prend connaissance sans le moindre appel téléphonique."
           },
           "f1": {
             "title": "Une ligne directe vers l'équipe soignante",
-            "description": "Chat sécurisé et vidéo initiée par le professionnel gardent le patient soutenu entre les rendez-vous."
+            "description": "Le chat sécurisé et la vidéo initiée par le professionnel maintiennent le soutien au patient entre les rendez-vous."
           },
           "f2": {
             "title": "La famille tenue informée",
@@ -631,7 +631,7 @@
   "moduleResidences": {
     "eyebrow": "Module Résidences",
     "title": "Conçu pour les EMS suisses, de l'admission à l'audit.",
-    "subtitle": "L'un des trois contextes de soins que sert CareBond. Pensé pour l'établissement médico-social qui veut un dossier résident structuré, une tournée digitale en poche, et un export d'audit prêt en un clic.",
+    "subtitle": "L'un des trois contextes de soins desservis par CareBond. Pensé pour l'établissement médico-social qui veut un dossier de résident structuré, une tournée numérique dans la poche du soignant et un export d'audit prêt en un clic.",
     "pillars": {
       "admission": {
         "title": "Admission & dossier patient",
@@ -1059,7 +1059,7 @@
           },
           "f2": {
             "title": "Livestream sur consentement",
-            "description": "La caméra du patient est activée et désactivée par lui-même ou son soignant, jamais enregistrée — diffusion en stream uniquement, avec un journal d'accès complet. La détection des chutes en option est disponible sur certains marchés, sous réserve des réglementations locales."
+            "description": "La caméra du patient est activée et désactivée par lui-même ou son soignant, jamais enregistrée — diffusion en direct uniquement, avec un journal d'accès complet. La détection des chutes en option est disponible sur certains marchés, sous réserve des réglementations locales."
           },
           "f3": {
             "title": "Alertes priorisées",
@@ -1168,7 +1168,7 @@
     "recovery": {
       "eyebrow": "Pour les soins de rétablissement",
       "title": "Le rétablissement ne s'arrête pas à la sortie.",
-      "subtitle": "Lorsqu'un patient rentre chez lui pour se rétablir, la communication ne devrait pas s'arrêter. CareBond garde le patient en convalescence, son professionnel de santé et sa famille connectés — check-ins guidés, chat sécurisé, vidéo aux conditions du professionnel, et mini-rapports automatiques pour la famille.",
+      "subtitle": "Lorsqu'un patient rentre chez lui pour se rétablir, la communication ne devrait pas s'arrêter. CareBond maintient le lien entre le patient en convalescence, son professionnel de santé et sa famille — check-ins guidés, chat sécurisé, vidéo aux conditions du professionnel et mini-rapports automatiques pour la famille.",
       "metaDescription": "CareBond pour le rétablissement et la réadaptation post-hospitaliers : check-ins guidés du patient, chat sécurisé, vidéo initiée par le professionnel et mini-rapports automatiques pour la famille. Une couche de communication hébergée en Suisse et conforme à la nLPD.",
       "visualAlt": "Aperçu de l'app patient — écran d'accueil rétablissement avec check-ins, chat et vidéo",
       "problem": {
@@ -1176,28 +1176,28 @@
         "heading": "Après la sortie, le patient se retrouve soudain seul.",
         "intro": "Le plus difficile du rétablissement se joue souvent à la maison — là où l'équipe soignante ne voit plus comment les choses évoluent et où la famille en est réduite aux suppositions.",
         "points": {
-          "p0": "De retour chez lui, le patient perd le contact quotidien avec l'équipe soignante qu'il avait dans le service.",
-          "p1": "La famille s'inquiète à distance et rappelle encore et encore pour se rassurer.",
-          "p2": "Questions et signes d'alerte attendent jusqu'au prochain rendez-vous — ou un retour aux urgences.",
-          "p3": "Personne n'a de moyen simple et structuré de savoir si le rétablissement est sur la bonne voie."
+          "p0": "De retour chez lui, le patient perd le contact quotidien qu'il avait avec l'équipe soignante dans le service.",
+          "p1": "La famille s'inquiète à distance et rappelle sans cesse pour se rassurer.",
+          "p2": "Les questions et les signes d'alerte attendent jusqu'au prochain rendez-vous — voire un retour aux urgences.",
+          "p3": "Personne ne dispose d'un moyen simple et structuré de savoir si le rétablissement est sur la bonne voie."
         }
       },
       "features": {
         "eyebrow": "Ce que change CareBond",
-        "heading": "Une ligne de communication qui suit le patient à la maison.",
-        "intro": "Pas un suivi médical à distance — un canal de communication structuré qui garde tout le monde connecté tout au long du rétablissement. Le professionnel de santé garde le contrôle de ce qui se passe et du moment.",
+        "heading": "Une ligne de communication qui suit le patient jusque chez lui.",
+        "intro": "Pas un suivi médical à distance — un canal de communication structuré qui garde tout le monde en lien tout au long du rétablissement. Le professionnel de santé garde la maîtrise de ce qui se passe et du moment où cela se passe.",
         "items": {
           "f0": {
             "title": "Check-ins guidés",
-            "description": "Le patient rapporte lui-même comment il se sent et comment progresse son rétablissement, en quelques taps. Toujours auto-rapporté, jamais un diagnostic automatisé."
+            "description": "Le patient indique lui-même comment il se sent et comment progresse son rétablissement, en quelques gestes. Toujours auto-déclaré, jamais un diagnostic automatisé."
           },
           "f1": {
             "title": "Chat sécurisé avec l'équipe soignante",
-            "description": "Une ligne directe et traçable vers le professionnel assigné, disponible aux conditions du professionnel — pas de messages la nuit, pas d'intrusion."
+            "description": "Une ligne directe et traçable vers le professionnel assigné, accessible aux conditions du professionnel — pas de messages la nuit, pas d'intrusion."
           },
           "f2": {
             "title": "Consultations vidéo initiées par le professionnel",
-            "description": "Des appels vidéo que le professionnel de santé démarre lorsqu'un check-in mérite un regard plus attentif — sans que le patient ait à se déplacer à nouveau."
+            "description": "Des appels vidéo que le professionnel de santé déclenche lorsqu'un check-in justifie un examen plus attentif — sans que le patient ait à se déplacer à nouveau."
           },
           "f3": {
             "title": "Mini-rapports automatiques pour la famille",
@@ -1207,7 +1207,7 @@
       },
       "cta": {
         "eyebrow": "Prochaine étape",
-        "title": "Voyez CareBond suivre un rétablissement.",
+        "title": "Voyez CareBond accompagner un rétablissement.",
         "description": "30 minutes pour cartographier un parcours de rétablissement typique dans votre établissement et calibrer la démo sur les modules qui comptent pour vous."
       }
     }
@@ -1326,12 +1326,12 @@
     "items": {
       "s0": {
         "figure": "1 sur 3",
-        "label": "des personnes de 65 ans et plus en Suisse vivent seules — et plus de la moitié de celles de plus de 85 ans.",
+        "label": "personne de 65 ans et plus en Suisse vit seule — et plus de la moitié chez les 85 ans et plus.",
         "source": "Office fédéral de la statistique (OFS), 2022"
       },
       "s1": {
         "figure": "Près de 2×",
-        "label": "la population de 80 ans et plus en Suisse devrait presque doubler d'ici 2055, pour dépasser le million.",
+        "label": "la population des 80 ans et plus en Suisse devrait presque doubler d'ici 2055, pour dépasser le million.",
         "source": "Office fédéral de la statistique (OFS), scénarios démographiques, 2025"
       },
       "s2": {
@@ -1341,7 +1341,7 @@
       },
       "s3": {
         "figure": "9 sur 10",
-        "label": "des médecins de famille suisses se heurtent à des barrières linguistiques en consultation ; la plupart font état d'un besoin d'interprétariat non satisfait.",
+        "label": "médecins de famille suisses se heurtent à des barrières linguistiques en consultation ; la plupart font état d'un besoin d'interprétariat non satisfait.",
         "source": "Jaeger et al., BMC Health Services Research, 2019"
       }
     }
