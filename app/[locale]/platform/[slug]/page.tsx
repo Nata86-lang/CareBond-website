@@ -9,6 +9,7 @@ import {
   AlertTriangle,
   ArrowRight,
   Building2,
+  Camera,
   ClipboardCheck,
   Clock,
   FileSignature,
@@ -63,7 +64,7 @@ const CAPABILITY_ICONS: Record<Slug, LucideIcon[]> = {
   audit: [Users, ClipboardCheck, FileSignature, FileText],
   livestream: [UserCheck, Clock, Lock, Server, Activity],
   "chat-multilingue": [Languages, UserCheck, Server, Globe2],
-  rounds: [Smartphone, ClipboardCheck, MapPin, FileSignature, Users],
+  rounds: [Smartphone, ClipboardCheck, MapPin, Camera, Users],
   "floor-plans": [Building2, Navigation, Smartphone, Plug],
 };
 
@@ -223,6 +224,12 @@ export default async function PlatformPage({
                   <h3 className="mt-5 text-lg font-semibold tracking-tight text-brand-navy">
                     {tPage(`capabilities.items.${k}.title`)}
                   </h3>
+                  {slug === "livestream" && k === "f4" && (
+                    <span className="mt-3 inline-flex w-fit items-center gap-1.5 rounded-full border border-brand-blue/30 bg-brand-blue/10 px-2.5 py-1 text-[11px] font-semibold tracking-tight text-brand-blue-strong">
+                      <Globe2 size={12} strokeWidth={2.5} aria-hidden="true" />
+                      {tPage("regionBadge")}
+                    </span>
+                  )}
                   <p className="mt-2 text-sm leading-relaxed text-neutral-600">
                     {tPage(`capabilities.items.${k}.description`)}
                   </p>

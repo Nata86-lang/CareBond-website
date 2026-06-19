@@ -11,9 +11,9 @@ const ContactSchema = z.object({
   name: z.string().trim().min(2).max(100),
   email: z.string().trim().toLowerCase().email().max(254),
   institution: z.string().trim().min(2).max(200),
-  audience: z.enum(["ems", "spitex", "hospitals", "clinics", "other"]),
+  audience: z.enum(["ems", "spitex", "recovery", "hospitals", "clinics", "other"]),
   message: z.string().trim().min(10).max(2000),
-  locale: z.enum(["fr", "de", "it", "en"]),
+  locale: z.enum(["fr", "de", "it", "en", "es"]),
   // Honeypot — must stay empty
   company_website: z.string().max(0).optional(),
 });
@@ -73,6 +73,7 @@ export async function submitContactForm(
     const audienceLabel: Record<typeof data.audience, string> = {
       ems: "EMS / Pflegeheim",
       spitex: "Spitex / Soins à domicile",
+      recovery: "Récupération / réhabilitation",
       hospitals: "Hôpital",
       clinics: "Clinique privée",
       other: "Autre",

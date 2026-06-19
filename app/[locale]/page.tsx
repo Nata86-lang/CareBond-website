@@ -1,6 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 import { locales } from "@/lib/i18n";
 import { Hero } from "@/components/marketing/hero";
+import { Stats } from "@/components/marketing/sections/stats/stats";
 import { HowItWorks } from "@/components/marketing/sections/how-it-works/how-it-works";
 import { PourQui } from "@/components/marketing/sections/pour-qui/pour-qui";
 import { PlatformBento } from "@/components/marketing/sections/platform/platform-bento";
@@ -27,6 +28,7 @@ export default async function HomePage({
   return (
     <main id="main-content">
       <Hero locale={locale} />
+      <Stats />
       <HowItWorks />
       <PourQui />
       <PlatformBento locale={locale} />

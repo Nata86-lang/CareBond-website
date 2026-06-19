@@ -10,7 +10,8 @@
       "ems": "Pour les EMS",
       "homeCare": "Pour les soins à domicile",
       "hospitals": "Pour les hôpitaux",
-      "clinics": "Pour les cliniques"
+      "clinics": "Pour les cliniques",
+      "recovery": "Pour les soins de rétablissement"
     }
   },
   "header": {
@@ -221,7 +222,7 @@
             },
             "f1": {
               "title": "Modifications du dossier",
-              "description": "Registre des modifications de fiches résidents, ordonnances ou rapports de visite, avec historique complet avant/après."
+              "description": "Journal des modifications des profils résidents, des plans de soins ou des rapports de visite, avec historique complet avant/après."
             },
             "f2": {
               "title": "Signatures HMAC de rapports",
@@ -265,8 +266,8 @@
               "description": "Le flux ne quitte jamais le territoire suisse. Pas de cloud tiers étranger, pas de risque d'exposition extra-territoriale."
             },
             "f4": {
-              "title": "Alertes passives de sécurité par IA",
-              "description": "Canal intelligent qui analyse le flux en direct sans enregistrer de vidéo pour alerter instantanément sur les chutes."
+              "title": "Détection des chutes en option",
+              "description": "Là où elle est disponible, une analyse en temps réel du livestream peut signaler une possible chute et alerter la famille et les soignants. Elle s'applique uniquement au stream — rien n'est jamais enregistré. Proposée en option sur certains marchés, sous réserve des réglementations locales."
             }
           }
         },
@@ -275,7 +276,8 @@
           "eyebrow": "Prochaine étape",
           "title": "Voyons le livestream dans votre contexte.",
           "description": "30 minutes pour discuter les cas Spitex, EMS ou clinique où ce module fait sens — et ceux où il ne fait pas sens."
-        }
+        },
+        "regionBadge": "Marchés sélectionnés"
       },
       "chat-multilingue": {
         "subtitle": "Canal de communication multilingue interactif. Traduisez instantanément les conversations entre les familles et le personnel soignant dans plus de 15 langues (et d'autres sur demande) pour surmonter les barrières linguistiques.",
@@ -311,7 +313,7 @@
         }
       },
       "rounds": {
-        "subtitle": "Canal de coordination professionnelle et de relèves soignantes. Connectez instantanément votre équipe médicale pour enregistrer les visites, signes vitaux et notes de quart dans l'app soignant.",
+        "subtitle": "Tournée du jour, signes vitaux, alertes, notes de visite partagées — le tout dans la poche du soignant. Conçu pour les établissements médico-sociaux et les services de soins à domicile.",
         "visualAlt": "Application du soignant — liste des patients du jour avec signes vitaux, alertes et statut",
         "capabilities": {
           "eyebrow": "Capacités",
@@ -331,8 +333,8 @@
               "description": "Pour Spitex : geofencing GPS qui valide automatiquement la présence au domicile du patient (feature 22-C)."
             },
             "f3": {
-              "title": "Ordonnances électroniques",
-              "description": "Génération sécurisée par les prescripteurs autorisés, avec signature numérique cryptographique."
+              "title": "Photos et notes horodatées",
+              "description": "Une photo et une note de visite optionnelles attachées à chaque tournée, horodatées et instantanément partagées avec l'équipe soignante assignée."
             },
             "f4": {
               "title": "Rapports partagés et relèves instantanées",
@@ -385,7 +387,7 @@
   "pourQui": {
     "eyebrow": "Pour qui",
     "title": "Conçue pour chaque type d'établissement.",
-    "subtitle": "EMS, Spitex, hôpitaux et cliniques — chacun avec ses contraintes, chacun avec ses outils. Mais un seul socle technique et une seule promesse de conformité.",
+    "subtitle": "Trois contextes de soins — établissements médico-sociaux, soins à domicile et rétablissement — auxquels s'ajoutent hôpitaux et cliniques. Chacun avec sa réalité, tous sur une seule plateforme de communication, avec une seule promesse de conformité suisse.",
     "tabsAriaLabel": "Sélectionnez votre type d'établissement",
     "audiences": {
       "ems": {
@@ -479,6 +481,25 @@
         },
         "tile": {
           "role": "Patiente · Genève"
+        }
+      },
+      "recovery": {
+        "label": "Rétablissement",
+        "title": "Pour le rétablissement et la réadaptation",
+        "description": "Gardez le patient en convalescence connecté à son équipe soignante et à sa famille après la sortie — check-ins guidés, chat et vidéo, sans perdre le contact.",
+        "features": {
+          "f0": {
+            "title": "Check-ins guidés",
+            "description": "Le patient rapporte lui-même l'évolution de son rétablissement. Le professionnel de santé le voit sans un seul appel téléphonique."
+          },
+          "f1": {
+            "title": "Une ligne directe vers l'équipe soignante",
+            "description": "Chat sécurisé et vidéo initiée par le professionnel gardent le patient soutenu entre les rendez-vous."
+          },
+          "f2": {
+            "title": "La famille tenue informée",
+            "description": "Des mini-rapports automatiques rassurent la famille à distance, sans exposer l'intégralité du dossier."
+          }
         }
       }
     }
@@ -610,7 +631,7 @@
   "moduleResidences": {
     "eyebrow": "Module Résidences",
     "title": "Conçu pour les EMS suisses, de l'admission à l'audit.",
-    "subtitle": "Le module phare de CareBond. Pensé pour l'établissement médico-social qui veut un dossier patient structuré, une tournée digitale en poche, et un export d'audit prêt en un clic.",
+    "subtitle": "L'un des trois contextes de soins que sert CareBond. Pensé pour l'établissement médico-social qui veut un dossier résident structuré, une tournée digitale en poche, et un export d'audit prêt en un clic.",
     "pillars": {
       "admission": {
         "title": "Admission & dossier patient",
@@ -630,8 +651,7 @@
           "b1": "Signes vitaux saisis offline si besoin, synchronisés automatiquement",
           "b2": "Alertes priorisées par gravité, jamais perdues",
           "b3": "Photo et note de visite optionnelles, horodatées",
-          "b4": "Ordonnances électroniques avec signature numérique du prescripteur autorisé, en conformité avec les bonnes pratiques eHealth suisses",
-          "b5": "Rapports partagés avec toute l'équipe soignante assignée au patient — fin des pertes d'information entre les rotations, mini-rapport filtré envoyé en parallèle à la famille"
+          "b4": "Rapports partagés avec toute l'équipe soignante assignée au patient — fin des pertes d'information entre les rotations, mini-rapport filtré envoyé en parallèle à la famille"
         }
       },
       "audit": {
@@ -774,7 +794,8 @@
           "spitex": "Spitex / Soins à domicile",
           "hospitals": "Hôpital",
           "clinics": "Clinique privée",
-          "other": "Autre"
+          "other": "Autre",
+          "recovery": "Rétablissement / réadaptation"
         }
       },
       "message": {
@@ -1037,8 +1058,8 @@
             "description": "Chaque rapport de visite est cryptographiquement signé puis instantanément visible par tous les soignants assignés au même patient — équipe de matinée, de soirée, infirmière de référence. Conforme aux exigences KVG/LAMal pour la facturation et l'audit. Un mini-rapport filtré part en parallèle à la famille."
           },
           "f2": {
-            "title": "Livestream sur consentement, avec détection IA des chutes",
-            "description": "La caméra du patient est activable et désactivable par lui-même ou son soignant à tout moment. Détection IA des chutes en temps réel, jamais d'enregistrement — diffusion en stream uniquement. Journal d'accès complet."
+            "title": "Livestream sur consentement",
+            "description": "La caméra du patient est activée et désactivée par lui-même ou son soignant, jamais enregistrée — diffusion en stream uniquement, avec un journal d'accès complet. La détection des chutes en option est disponible sur certains marchés, sous réserve des réglementations locales."
           },
           "f3": {
             "title": "Alertes priorisées",
@@ -1143,6 +1164,52 @@
         "title": "Voyons CareBond avec votre clinique en tête.",
         "description": "30 minutes pour explorer comment garder votre marque et votre expérience patient, tout en gagnant les capacités multilingues + nLPD."
       }
+    },
+    "recovery": {
+      "eyebrow": "Pour les soins de rétablissement",
+      "title": "Le rétablissement ne s'arrête pas à la sortie.",
+      "subtitle": "Lorsqu'un patient rentre chez lui pour se rétablir, la communication ne devrait pas s'arrêter. CareBond garde le patient en convalescence, son professionnel de santé et sa famille connectés — check-ins guidés, chat sécurisé, vidéo aux conditions du professionnel, et mini-rapports automatiques pour la famille.",
+      "metaDescription": "CareBond pour le rétablissement et la réadaptation post-hospitaliers : check-ins guidés du patient, chat sécurisé, vidéo initiée par le professionnel et mini-rapports automatiques pour la famille. Une couche de communication hébergée en Suisse et conforme à la nLPD.",
+      "visualAlt": "Aperçu de l'app patient — écran d'accueil rétablissement avec check-ins, chat et vidéo",
+      "problem": {
+        "eyebrow": "La réalité",
+        "heading": "Après la sortie, le patient se retrouve soudain seul.",
+        "intro": "Le plus difficile du rétablissement se joue souvent à la maison — là où l'équipe soignante ne voit plus comment les choses évoluent et où la famille en est réduite aux suppositions.",
+        "points": {
+          "p0": "De retour chez lui, le patient perd le contact quotidien avec l'équipe soignante qu'il avait dans le service.",
+          "p1": "La famille s'inquiète à distance et rappelle encore et encore pour se rassurer.",
+          "p2": "Questions et signes d'alerte attendent jusqu'au prochain rendez-vous — ou un retour aux urgences.",
+          "p3": "Personne n'a de moyen simple et structuré de savoir si le rétablissement est sur la bonne voie."
+        }
+      },
+      "features": {
+        "eyebrow": "Ce que change CareBond",
+        "heading": "Une ligne de communication qui suit le patient à la maison.",
+        "intro": "Pas un suivi médical à distance — un canal de communication structuré qui garde tout le monde connecté tout au long du rétablissement. Le professionnel de santé garde le contrôle de ce qui se passe et du moment.",
+        "items": {
+          "f0": {
+            "title": "Check-ins guidés",
+            "description": "Le patient rapporte lui-même comment il se sent et comment progresse son rétablissement, en quelques taps. Toujours auto-rapporté, jamais un diagnostic automatisé."
+          },
+          "f1": {
+            "title": "Chat sécurisé avec l'équipe soignante",
+            "description": "Une ligne directe et traçable vers le professionnel assigné, disponible aux conditions du professionnel — pas de messages la nuit, pas d'intrusion."
+          },
+          "f2": {
+            "title": "Consultations vidéo initiées par le professionnel",
+            "description": "Des appels vidéo que le professionnel de santé démarre lorsqu'un check-in mérite un regard plus attentif — sans que le patient ait à se déplacer à nouveau."
+          },
+          "f3": {
+            "title": "Mini-rapports automatiques pour la famille",
+            "description": "La famille reçoit des mises à jour filtrées et la tranquillité d'esprit à distance, sans jamais voir l'intégralité du dossier."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Prochaine étape",
+        "title": "Voyez CareBond suivre un rétablissement.",
+        "description": "30 minutes pour cartographier un parcours de rétablissement typique dans votre établissement et calibrer la démo sur les modules qui comptent pour vous."
+      }
     }
   },
   "about": {
@@ -1168,7 +1235,7 @@
         },
         "v1": {
           "title": "Le soignant garde le contrôle",
-          "description": "Chat, livestream, ordonnances — le professionnel décide quand et comment. CareBond ne court-circuite jamais le clinicien."
+          "description": "Chat, livestream, appels vidéo — le professionnel décide quand et comment. CareBond ne court-circuite jamais le clinicien."
         },
         "v2": {
           "title": "Audit log par défaut",
@@ -1254,5 +1321,33 @@
       "description": "Nous tenons à disposition la documentation technique complète : architecture, flux de données, journal d'audit, politiques de rétention, contrats sous-traitants. Sur demande, sans formulaire à remplir.",
       "secondary": "Lire notre politique de confidentialité"
     }
+  },
+  "stats": {
+    "eyebrow": "Pourquoi c'est important",
+    "title": "La réalité à laquelle font face les soins en Suisse.",
+    "subtitle": "Les soins en Suisse vieillissent, se vivent plus souvent seul, deviennent de plus en plus multilingues et se répartissent entre domicile et institution. CareBond est la couche de communication conçue pour garder patients, familles et équipes soignantes connectés à travers tout cela.",
+    "items": {
+      "s0": {
+        "figure": "1 sur 3",
+        "label": "des personnes de 65 ans et plus en Suisse vivent seules — et plus de la moitié de celles de plus de 85 ans.",
+        "source": "Office fédéral de la statistique (OFS), 2022"
+      },
+      "s1": {
+        "figure": "Près de 2×",
+        "label": "la population de 80 ans et plus en Suisse devrait presque doubler d'ici 2055, pour dépasser le million.",
+        "source": "Office fédéral de la statistique (OFS), scénarios démographiques, 2025"
+      },
+      "s2": {
+        "figure": "25,6 M",
+        "label": "d'heures de soins à domicile (Spitex) ont été dispensées en 2024 à environ 424 000 personnes — en hausse de 10 % en une seule année.",
+        "source": "Office fédéral de la statistique (OFS), 2025"
+      },
+      "s3": {
+        "figure": "9 sur 10",
+        "label": "des médecins de famille suisses se heurtent à des barrières linguistiques en consultation ; la plupart font état d'un besoin d'interprétariat non satisfait.",
+        "source": "Jaeger et al., BMC Health Services Research, 2019"
+      }
+    },
+    "sourceNote": "Chiffres issus des statistiques publiques suisses et de recherches évaluées par les pairs, tels que publiés par leurs sources respectives. Chacun a été vérifié auprès de sa source primaire."
   }
 }

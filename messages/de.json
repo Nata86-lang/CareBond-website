@@ -10,7 +10,8 @@
       "ems": "Für Pflegeheime",
       "homeCare": "Für die häusliche Pflege",
       "hospitals": "Für Spitäler",
-      "clinics": "Für Kliniken"
+      "clinics": "Für Kliniken",
+      "recovery": "Für die Nachsorge"
     }
   },
   "header": {
@@ -221,7 +222,7 @@
             },
             "f1": {
               "title": "Änderungen an der Akte",
-              "description": "Protokollierung von Änderungen an Bewohnerprofilen, Rezepten oder Besuchsberichten mit vollständigem Vorher/Nachher-Verlauf."
+              "description": "Protokoll der Änderungen in Bewohnerprofilen, Pflegeplänen oder Besuchsberichten, mit vollständiger Vorher/Nachher-Historie."
             },
             "f2": {
               "title": "HMAC-Signaturen für Berichte",
@@ -265,8 +266,8 @@
               "description": "Der Stream verlässt nie das Schweizer Territorium. Keine ausländische Cloud, kein extraterritoriales Expositionsrisiko."
             },
             "f4": {
-              "title": "Passive Sicherheitsalarme per KI",
-              "description": "Intelligenter Kanal, der den Live-Feed analysiert, ohne Video aufzuzeichnen, um Angehörige und Pflegekräfte sofort bei Stürzen zu alarmieren."
+              "title": "Optionale Sturzerkennung",
+              "description": "Wo verfügbar, kann eine Echtzeitanalyse des Livestreams einen möglichen Sturz melden und Familie und Pflegepersonen alarmieren. Sie läuft ausschliesslich auf dem Stream — nichts wird jemals aufgezeichnet. Als Option in ausgewählten Märkten angeboten, vorbehältlich der lokalen Vorschriften."
             }
           }
         },
@@ -275,7 +276,8 @@
           "eyebrow": "Nächster Schritt",
           "title": "Sehen wir Livestream in Ihrem Kontext.",
           "description": "30 Minuten, um Spitex-, Pflegeheim- oder Klinikszenarien zu besprechen, in denen dieses Modul passt — und solche, in denen nicht."
-        }
+        },
+        "regionBadge": "Ausgewählte Märkte"
       },
       "chat-multilingue": {
         "subtitle": "Interaktiver mehrsprachiger Kommunikationskanal. Übersetzen Sie Gespräche zwischen Familien und Pflegepersonal sofort in über 15 Sprachen (weitere auf Anfrage) und überwinden Sie Barrieren.",
@@ -311,7 +313,7 @@
         }
       },
       "rounds": {
-        "subtitle": "Professioneller Koordinations- und Pflegeübergabekanal. Verbinden Sie Ihr medizinisches Team sofort, um Visiten, Vitalwerte und Schichtnotizen in der Pflege-App zu protokollieren.",
+        "subtitle": "Tagesvisiten, Vitalzeichen, Alarme, geteilte Besuchsnotizen — alles in der Tasche der Pflegeperson. Konzipiert für Pflegeheime und Dienste der häuslichen Pflege.",
         "visualAlt": "Pflegepersonen-App — Liste der Tagespatienten mit Vitalwerten, Alarmen und Status",
         "capabilities": {
           "eyebrow": "Fähigkeiten",
@@ -331,8 +333,8 @@
               "description": "Für Spitex: GPS-Geofencing, das die Anwesenheit am Wohnort des Patienten automatisch validiert (Feature 22-C)."
             },
             "f3": {
-              "title": "Elektronische Rezepte",
-              "description": "Sichere Ausstellung durch autorisierte Verschreiber, mit kryptografischer digitaler Signatur."
+              "title": "Zeitgestempelte Fotos & Notizen",
+              "description": "Ein optionales Foto und eine Besuchsnotiz, an jede Visite angehängt, zeitgestempelt und sofort mit dem zugewiesenen Pflegeteam geteilt."
             },
             "f4": {
               "title": "Gemeinsame Berichte und sofortige Übergaben",
@@ -385,7 +387,7 @@
   "pourQui": {
     "eyebrow": "Für wen",
     "title": "Für jede Einrichtungsart konzipiert.",
-    "subtitle": "Pflegeheime, Spitex, Spitäler und Kliniken — jede mit ihren Zwängen, jede mit ihren Werkzeugen. Aber ein einziger technischer Sockel und ein einziges Konformitätsversprechen.",
+    "subtitle": "Drei Pflegesettings — Pflegeheime, häusliche Pflege und Nachsorge — sowie Spitäler und Kliniken. Jedes mit seiner eigenen Realität, alle auf einer Kommunikationsplattform mit einem einzigen Schweizer Compliance-Versprechen.",
     "tabsAriaLabel": "Wählen Sie Ihre Einrichtungsart",
     "audiences": {
       "ems": {
@@ -479,6 +481,25 @@
         },
         "tile": {
           "role": "Patientin · Genf"
+        }
+      },
+      "recovery": {
+        "label": "Nachsorge",
+        "title": "Für Nachsorge & Rehabilitation",
+        "description": "Halten Sie genesende Patienten nach der Entlassung mit ihrem Pflegeteam und ihrer Familie verbunden — geführte Check-ins, Chat und Video, ohne den Kontakt zu verlieren.",
+        "features": {
+          "f0": {
+            "title": "Geführte Check-ins",
+            "description": "Der Patient meldet selbst, wie die Genesung verläuft. Die Pflegeperson sieht es, ohne einen einzigen Anruf."
+          },
+          "f1": {
+            "title": "Eine direkte Linie zum Pflegeteam",
+            "description": "Sicherer Chat und vom Fachpersonal initiiertes Video halten den Patienten zwischen den Terminen begleitet."
+          },
+          "f2": {
+            "title": "Die Familie auf dem Laufenden",
+            "description": "Automatische Mini-Berichte beruhigen die Familie aus der Ferne, ohne das vollständige Dossier offenzulegen."
+          }
         }
       }
     }
@@ -610,7 +631,7 @@
   "moduleResidences": {
     "eyebrow": "Modul Pflegeheime",
     "title": "Für Schweizer Pflegeheime gebaut — von der Aufnahme bis zum Audit.",
-    "subtitle": "Das Flaggschiff-Modul von CareBond. Gedacht für das Pflegeheim, das einen strukturierten Patientendossier will, eine digitale Visite in der Tasche und einen audit-fertigen Export auf Knopfdruck.",
+    "subtitle": "Eines der drei Pflegesettings, die CareBond bedient. Konzipiert für das Pflegeheim, das ein strukturiertes Bewohnerdossier will, eine digitale Visite in der Tasche der Pflegeperson und einen audit-fertigen Export auf Knopfdruck.",
     "pillars": {
       "admission": {
         "title": "Aufnahme & Patientendossier",
@@ -630,8 +651,7 @@
           "b1": "Vitalwerte bei Bedarf offline erfasst, automatische Synchronisation",
           "b2": "Nach Schweregrad priorisierte Alarme, nie verloren",
           "b3": "Optionales Foto und Besuchsnotiz mit Zeitstempel",
-          "b4": "Elektronische Rezepte mit digitaler Signatur autorisierter Verschreiber, in Konformität mit den Schweizer eHealth-Praktiken",
-          "b5": "Berichte geteilt mit dem gesamten dem Patienten zugewiesenen Pflegeteam — Schluss mit Informationsverlust zwischen Schichten, gefilterter Mini-Bericht geht parallel an die Familie"
+          "b4": "Berichte geteilt mit dem gesamten dem Patienten zugewiesenen Pflegeteam — Schluss mit Informationsverlust zwischen Schichten, gefilterter Mini-Bericht geht parallel an die Familie"
         }
       },
       "audit": {
@@ -774,7 +794,8 @@
           "spitex": "Spitex / Häusliche Pflege",
           "hospitals": "Spital",
           "clinics": "Privatklinik",
-          "other": "Andere"
+          "other": "Andere",
+          "recovery": "Nachsorge / Rehabilitation"
         }
       },
       "message": {
@@ -1037,8 +1058,8 @@
             "description": "Jeder Besuchsbericht ist kryptografisch signiert und sofort für alle dem Patienten zugewiesenen Pflegekräfte sichtbar — Frühschicht, Spätschicht, Bezugspflege. Konform mit den KVG/LAMal-Anforderungen für Abrechnung und Audit. Ein gefilterter Mini-Bericht geht parallel an die Familie."
           },
           "f2": {
-            "title": "Livestream mit Einwilligung, inklusive KI-Sturzerkennung",
-            "description": "Die Kamera kann vom Patienten oder der Pflegeperson jederzeit aktiviert und deaktiviert werden. KI-Sturzerkennung in Echtzeit, keinerlei Aufzeichnung — ausschliesslich Live-Übertragung. Vollständiges Zugriffsprotokoll."
+            "title": "Livestream mit Einwilligung",
+            "description": "Die Kamera des Patienten wird vom Patienten oder der Pflegeperson ein- und ausgeschaltet, niemals aufgezeichnet — ausschliesslich Live-Übertragung, mit vollständigem Zugriffsprotokoll. Optionale Sturzerkennung ist in ausgewählten Märkten verfügbar, vorbehältlich der lokalen Vorschriften."
           },
           "f3": {
             "title": "Priorisierte Alarme",
@@ -1143,6 +1164,52 @@
         "title": "Sehen wir uns CareBond mit Ihrer Klinik im Blick an.",
         "description": "30 Minuten, um zu erkunden, wie Sie Ihre Marke und Ihr Patientenerlebnis behalten und gleichzeitig die mehrsprachigen + DSG-Fähigkeiten gewinnen."
       }
+    },
+    "recovery": {
+      "eyebrow": "Für die Nachsorge",
+      "title": "Genesung endet nicht mit der Entlassung.",
+      "subtitle": "Wenn ein Patient zur Genesung nach Hause geht, sollte die Kommunikation nicht aufhören. CareBond hält den genesenden Patienten, seine Pflegeperson und seine Familie verbunden — geführte Check-ins, sicherer Chat, Video zu den Bedingungen des Fachpersonals und automatische Mini-Berichte an die Familie.",
+      "metaDescription": "CareBond für die Nachsorge und Rehabilitation nach dem Spitalaufenthalt: geführte Patienten-Check-ins, sicherer Chat, vom Fachpersonal initiiertes Video und automatische Mini-Berichte an die Familie. Eine in der Schweiz gehostete, DSG-konforme Kommunikationsebene.",
+      "visualAlt": "Vorschau der Patienten-App — Nachsorge-Startbildschirm mit Check-ins, Chat und Video",
+      "problem": {
+        "eyebrow": "Die Realität",
+        "heading": "Nach der Entlassung ist der Patient plötzlich auf sich allein gestellt.",
+        "intro": "Der schwierigste Teil der Genesung findet oft zu Hause statt — wo das Pflegeteam nicht mehr sehen kann, wie es läuft, und die Familie im Ungewissen bleibt.",
+        "points": {
+          "p0": "Zu Hause verliert der Patient den täglichen Kontakt mit dem Pflegeteam, den er auf der Station hatte.",
+          "p1": "Die Familie sorgt sich aus der Ferne und ruft immer wieder zur Beruhigung an.",
+          "p2": "Fragen und Warnzeichen warten bis zum nächsten Termin — oder bis zu einem erneuten Gang in die Notaufnahme.",
+          "p3": "Niemand hat eine einfache, strukturierte Möglichkeit zu wissen, ob die Genesung auf Kurs ist."
+        }
+      },
+      "features": {
+        "eyebrow": "Was CareBond ändert",
+        "heading": "Eine Kommunikationslinie, die dem Patienten nach Hause folgt.",
+        "intro": "Keine medizinische Fernüberwachung — ein strukturierter Kommunikationskanal, der alle durch die Genesung hindurch verbunden hält. Die Pflegeperson behält die Kontrolle darüber, was wann geschieht.",
+        "items": {
+          "f0": {
+            "title": "Geführte Check-ins",
+            "description": "Der Patient meldet mit wenigen Taps selbst, wie er sich fühlt und wie die Genesung voranschreitet. Stets selbst gemeldet, niemals eine automatisierte Diagnose."
+          },
+          "f1": {
+            "title": "Sicherer Chat mit dem Pflegeteam",
+            "description": "Eine direkte, nachvollziehbare Linie zum zugewiesenen Fachpersonal, verfügbar zu den Bedingungen des Fachpersonals — keine Nachrichten in der Nacht, kein Eindringen."
+          },
+          "f2": {
+            "title": "Vom Fachpersonal initiierte Videosprechstunden",
+            "description": "Videoanrufe, die die Pflegeperson startet, wenn ein Check-in einen genaueren Blick rechtfertigt — ohne dass der Patient zurückreisen muss."
+          },
+          "f3": {
+            "title": "Automatische Mini-Berichte an die Familie",
+            "description": "Die Familie erhält gefilterte Updates und Beruhigung aus der Ferne, ohne jemals das vollständige Dossier zu sehen."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Nächster Schritt",
+        "title": "Sehen Sie, wie CareBond eine Genesung begleitet.",
+        "description": "30 Minuten, um einen typischen Genesungsverlauf in Ihrer Einrichtung abzubilden und die Demo auf die für Sie wichtigen Module abzustimmen."
+      }
     }
   },
   "about": {
@@ -1168,7 +1235,7 @@
         },
         "v1": {
           "title": "Die Pflegeperson behält die Kontrolle",
-          "description": "Chat, Livestream, Rezepte — die Fachperson entscheidet wann und wie. CareBond umgeht nie den Kliniker."
+          "description": "Chat, Livestream, Videoanrufe — das Fachpersonal entscheidet, wann und wie. CareBond umgeht niemals die Fachperson."
         },
         "v2": {
           "title": "Audit-Log standardmässig",
@@ -1254,5 +1321,33 @@
       "description": "Wir halten vollständige technische Dokumentation bereit: Architektur, Datenflüsse, Audit-Log, Aufbewahrungsrichtlinien, Auftragsverarbeiterverträge. Auf Anfrage, ohne Formular auszufüllen.",
       "secondary": "Unsere Datenschutzerklärung lesen"
     }
+  },
+  "stats": {
+    "eyebrow": "Warum es zählt",
+    "title": "Die Realität, der die Schweizer Pflege gegenübersteht.",
+    "subtitle": "Die Pflege in der Schweiz wird älter, immer öfter allein gelebt, zunehmend mehrsprachig und aufgeteilt zwischen Zuhause und Institution. CareBond ist die Kommunikationsebene, die gebaut wurde, um Patienten, Familien und Pflegeteams durch all das hindurch verbunden zu halten.",
+    "items": {
+      "s0": {
+        "figure": "1 von 3",
+        "label": "Menschen ab 65 Jahren in der Schweiz leben allein — und mehr als die Hälfte der über 85-Jährigen.",
+        "source": "Bundesamt für Statistik (BFS), 2022"
+      },
+      "s1": {
+        "figure": "Fast 2×",
+        "label": "die Bevölkerung ab 80 Jahren in der Schweiz wird sich bis 2055 voraussichtlich nahezu verdoppeln, auf über eine Million.",
+        "source": "Bundesamt für Statistik (BFS), Bevölkerungsszenarien, 2025"
+      },
+      "s2": {
+        "figure": "25,6 Mio.",
+        "label": "Stunden häusliche Pflege (Spitex) wurden 2024 an rund 424'000 Menschen erbracht — ein Plus von 10% in einem einzigen Jahr.",
+        "source": "Bundesamt für Statistik (BFS), 2025"
+      },
+      "s3": {
+        "figure": "9 von 10",
+        "label": "Schweizer Hausärztinnen und Hausärzte stossen in Konsultationen auf Sprachbarrieren; die meisten berichten von einem ungedeckten Bedarf an Dolmetschen.",
+        "source": "Jaeger et al., BMC Health Services Research, 2019"
+      }
+    },
+    "sourceNote": "Zahlen aus öffentlichen Schweizer Statistiken und peer-reviewter Forschung, wie von den jeweiligen Quellen veröffentlicht. Jede wurde anhand ihrer Primärquelle überprüft."
   }
 }

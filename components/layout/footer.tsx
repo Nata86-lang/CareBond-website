@@ -12,6 +12,7 @@ type LinkSpec = {
 const SOLUTION_SLUGS = [
   { slug: "ems", key: "ems" },
   { slug: "home-care", key: "homeCare" },
+  { slug: "recovery", key: "recovery" },
   { slug: "hospitals", key: "hospitals" },
   { slug: "clinics", key: "clinics" },
 ] as const;

@@ -8,6 +8,7 @@ import { useTranslations } from "next-intl";
 const SOLUTIONS = [
   { key: "ems", slug: "ems" },
   { key: "homeCare", slug: "home-care" },
+  { key: "recovery", slug: "recovery" },
   { key: "hospitals", slug: "hospitals" },
   { key: "clinics", slug: "clinics" },
 ] as const;

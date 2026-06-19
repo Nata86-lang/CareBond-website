@@ -11,9 +11,11 @@ import {
   ClipboardCheck,
   FileText,
   Globe2,
+  HeartPulse,
   Languages,
   LayoutGrid,
   MapPin,
+  MessageSquare,
   Palette,
   Plug,
   ShieldCheck,
@@ -26,6 +28,7 @@ import {
 import { locales } from "@/lib/i18n";
 import { SITE_URL, SITE_NAME, OG_LOCALE_MAP } from "@/lib/site";
 import { FamilyPhone } from "@/components/marketing/hero/mockups/family-phone";
+import { PatientPhone } from "@/components/marketing/hero/mockups/patient-phone";
 import { ClinicsTile } from "@/components/marketing/sections/pour-qui/clinics-tile";
 
 // Dynamic solutions landing page — one route per audience type. Each
@@ -35,7 +38,7 @@ import { ClinicsTile } from "@/components/marketing/sections/pour-qui/clinics-ti
 //
 // 4 slugs × 4 locales = 16 static pages, all SSG via generateStaticParams.
 
-const VALID_SLUGS = ["ems", "home-care", "hospitals", "clinics"] as const;
+const VALID_SLUGS = ["ems", "home-care", "recovery", "hospitals", "clinics"] as const;
 type Slug = (typeof VALID_SLUGS)[number];
 
 function isValidSlug(s: string): s is Slug {
@@ -48,6 +51,7 @@ function isValidSlug(s: string): s is Slug {
 const FEATURE_ICONS: Record<Slug, [LucideIcon, LucideIcon, LucideIcon, LucideIcon]> = {
   ems: [LayoutGrid, ShieldCheck, Languages, Users],
   "home-care": [MapPin, FileText, Video, AlertTriangle],
+  recovery: [ClipboardCheck, MessageSquare, Video, Users],
   hospitals: [Plug, Building2, ClipboardCheck, MapPin],
   clinics: [Languages, Palette, UserCheck, Globe2],
 };
@@ -56,6 +60,7 @@ const FEATURE_ICONS: Record<Slug, [LucideIcon, LucideIcon, LucideIcon, LucideIco
 const PROBLEM_ICON: Record<Slug, LucideIcon> = {
   ems: Stethoscope,
   "home-care": MapPin,
+  recovery: HeartPulse,
   hospitals: Building2,
   clinics: Globe2,
 };
@@ -295,6 +300,8 @@ function renderVisual(slug: Slug, alt: string): ReactNode {
       );
     case "home-care":
       return <FamilyPhone step={4} />;
+    case "recovery":
+      return <PatientPhone step={4} />;
     case "hospitals":
       return (
         <div className="relative w-full max-w-5xl overflow-hidden rounded-3xl shadow-mockup-lg">

@@ -9,6 +9,7 @@
     "solutionsMenu": {
       "ems": "For care homes",
       "homeCare": "For home care",
+      "recovery": "For recovery care",
       "hospitals": "For hospitals",
       "clinics": "For clinics"
     }
@@ -241,7 +242,7 @@
             },
             "f1": {
               "title": "Record modifications",
-              "description": "Log of changes in resident profiles, prescriptions, or visit reports, with complete before/after history."
+              "description": "Log of changes in resident profiles, care plans, or visit reports, with complete before/after history."
             },
             "f2": {
               "title": "HMAC-signed reports",
@@ -285,8 +286,8 @@
               "description": "The stream never leaves Swiss territory. No foreign cloud, no cross-border exposure risk."
             },
             "f4": {
-              "title": "AI-powered fall detection",
-              "description": "Real-time AI analysis automatically detects falls during the broadcast and immediately alerts family and caregivers. The analysis runs on the live stream, with no video recording whatsoever."
+              "title": "Optional fall detection",
+              "description": "Where available, real-time analysis on the live stream can flag a possible fall and alert family and caregivers. It runs on the stream only — nothing is ever recorded. Offered as an option in selected markets, subject to local regulations."
             }
           }
         },
@@ -295,7 +296,8 @@
           "eyebrow": "Next step",
           "title": "See livestream in your context.",
           "description": "30 minutes to discuss Spitex, EMS or clinic scenarios where this module fits — and the ones where it doesn't."
-        }
+        },
+        "regionBadge": "Selected markets"
       },
       "chat-multilingue": {
         "subtitle": "Interactive multilingual communication channel. Instantly translate conversations between families and healthcare staff in more than 15 languages (and any other on request) to overcome barriers in multicultural Swiss settings.",
@@ -331,7 +333,7 @@
         }
       },
       "rounds": {
-        "subtitle": "Day's rounds, vital signs, alerts, electronic prescriptions — all in the caregiver's pocket. Built for nursing homes and home care services.",
+        "subtitle": "Day's rounds, vital signs, alerts, shared visit notes — all in the caregiver's pocket. Built for nursing homes and home care services.",
         "visualAlt": "Caregiver app — list of the day's patients with vital signs, alerts and status",
         "capabilities": {
           "eyebrow": "Capabilities",
@@ -351,8 +353,8 @@
               "description": "For Spitex: GPS geofencing that automatically validates presence at the patient's home (feature 22-C)."
             },
             "f3": {
-              "title": "Electronic prescriptions",
-              "description": "Secure generation by authorized prescribers, with cryptographic digital signature."
+              "title": "Time-stamped photos & notes",
+              "description": "An optional photo and visit note attached to each round, time-stamped and instantly shared with the assigned care team."
             },
             "f4": {
               "title": "Reports shared with the patient's care team",
@@ -405,7 +407,7 @@
   "pourQui": {
     "eyebrow": "Who it's for",
     "title": "Designed for every type of facility.",
-    "subtitle": "Nursing homes, home care, hospitals and clinics — each with its own constraints, each with its own tools. But one shared technical foundation and one single compliance promise.",
+    "subtitle": "Three care settings — residences, home care and recovery — plus hospitals and clinics. Each with its own reality, all on one communication platform with a single Swiss compliance promise.",
     "tabsAriaLabel": "Select your facility type",
     "audiences": {
       "ems": {
@@ -443,6 +445,25 @@
           "f2": {
             "title": "Prioritized alerts",
             "description": "Caregivers see the urgent first. The rest queues up, without noise."
+          }
+        }
+      },
+      "recovery": {
+        "label": "Recovery",
+        "title": "For recovery & rehabilitation",
+        "description": "Keep recovering patients connected to their care team and family after discharge — guided check-ins, chat and video, without losing touch.",
+        "features": {
+          "f0": {
+            "title": "Guided check-ins",
+            "description": "The patient self-reports how recovery is going. The care professional sees it without a single phone call."
+          },
+          "f1": {
+            "title": "A direct line to the care team",
+            "description": "Secure chat and professional-led video keep the patient supported between appointments."
+          },
+          "f2": {
+            "title": "Family kept in the loop",
+            "description": "Automatic mini-reports reassure the family from a distance, without exposing the full record."
           }
         }
       },
@@ -630,7 +651,7 @@
   "moduleResidences": {
     "eyebrow": "Residences module",
     "title": "Built for Swiss nursing homes, from admission to audit.",
-    "subtitle": "CareBond's flagship module. Designed for the nursing home that wants a structured patient record, a digital round in their pocket, and an audit-ready export in one click.",
+    "subtitle": "One of the three care settings CareBond serves. Built for the nursing home that wants a structured resident record, a digital round in the caregiver's pocket, and an audit-ready export in one click.",
     "pillars": {
       "admission": {
         "title": "Admission & patient record",
@@ -650,8 +671,7 @@
           "b1": "Vitals captured offline if needed, synced automatically",
           "b2": "Alerts prioritized by severity, never lost",
           "b3": "Optional photo and visit note, time-stamped",
-          "b4": "Electronic prescriptions with digital signature of the authorized prescriber, aligned with Swiss eHealth practices",
-          "b5": "Reports shared with the entire care team assigned to the patient — no information lost between shifts, with a filtered mini-report sent in parallel to the family"
+          "b4": "Reports shared with the entire care team assigned to the patient — no information lost between shifts, with a filtered mini-report sent in parallel to the family"
         }
       },
       "audit": {
@@ -718,6 +738,34 @@
         "description": "Institutional oversight, nLPD audit trail, KPIs facility by facility. The whole house in one screen."
       }
     }
+  },
+  "stats": {
+    "eyebrow": "Why it matters",
+    "title": "The reality Swiss care is facing.",
+    "subtitle": "Care in Switzerland is ageing, more often lived alone, increasingly multilingual, and split between home and institution. CareBond is the communication layer built to keep patients, families and care teams connected through all of it.",
+    "items": {
+      "s0": {
+        "figure": "1 in 3",
+        "label": "people aged 65+ in Switzerland live alone — and more than half of those over 85.",
+        "source": "Swiss Federal Statistical Office (FSO), 2022"
+      },
+      "s1": {
+        "figure": "Nearly 2×",
+        "label": "the population aged 80+ in Switzerland is set to nearly double by 2055, to over one million.",
+        "source": "Swiss Federal Statistical Office (FSO), population scenarios, 2025"
+      },
+      "s2": {
+        "figure": "25.6M",
+        "label": "hours of home care (Spitex) were delivered in 2024 to around 424,000 people — up 10% in a single year.",
+        "source": "Swiss Federal Statistical Office (FSO), 2025"
+      },
+      "s3": {
+        "figure": "9 in 10",
+        "label": "Swiss family doctors run into language barriers in consultations; most report an unmet need for interpreting.",
+        "source": "Jaeger et al., BMC Health Services Research, 2019"
+      }
+    },
+    "sourceNote": "Figures from public Swiss statistics and peer-reviewed research, as published by their respective sources. Each was verified against its primary source."
   },
   "common": {
     "skipLink": "Skip to main content"
@@ -792,6 +840,7 @@
         "options": {
           "ems": "Nursing home",
           "spitex": "Home care",
+          "recovery": "Recovery / rehabilitation",
           "hospitals": "Hospital",
           "clinics": "Private clinic",
           "other": "Other"
@@ -1057,8 +1106,8 @@
             "description": "Every visit report is cryptographically signed and instantly visible to every caregiver assigned to the same patient — morning shift, evening shift, lead nurse. Compliant with KVG/LAMal requirements for billing and audit. A filtered mini-report is sent in parallel to the family."
           },
           "f2": {
-            "title": "Opt-in livestream, with AI-powered fall detection",
-            "description": "The patient's camera can be enabled or disabled by the patient or caregiver at any time. Real-time AI fall detection, never recorded — live stream only. Full access log."
+            "title": "Opt-in livestream",
+            "description": "The patient's camera is turned on and off by the patient or caregiver, never recorded — live stream only, with a full access log. Optional fall detection is available in selected markets, subject to local regulations."
           },
           "f3": {
             "title": "Prioritized alerts",
@@ -1070,6 +1119,52 @@
         "eyebrow": "Next step",
         "title": "See CareBond with your home care service.",
         "description": "30 minutes to understand the reality of your operation and calibrate the demo on the modules that matter to you."
+      }
+    },
+    "recovery": {
+      "eyebrow": "For recovery care",
+      "title": "Recovery doesn't end at discharge.",
+      "subtitle": "When a patient goes home to recover, communication shouldn't stop. CareBond keeps the recovering patient, their care professional and their family connected — guided check-ins, secure chat, video on the professional's terms, and automatic family mini-reports.",
+      "metaDescription": "CareBond for post-hospital recovery and rehabilitation: guided patient check-ins, secure chat, professional-led video and automatic family mini-reports. A Swiss-hosted, nLPD-compliant communication layer.",
+      "visualAlt": "Patient app preview — recovery home screen with check-ins, chat and video",
+      "problem": {
+        "eyebrow": "The reality",
+        "heading": "After discharge, the patient is suddenly on their own.",
+        "intro": "The hardest part of recovery often happens at home — where the care team can no longer see how things are going and the family is left guessing.",
+        "points": {
+          "p0": "Back home, the patient loses the daily contact with the care team they had on the ward.",
+          "p1": "The family worries from a distance and calls again and again for reassurance.",
+          "p2": "Questions and warning signs wait until the next appointment — or a trip back to emergency.",
+          "p3": "Nobody has a simple, structured way to know whether recovery is on track."
+        }
+      },
+      "features": {
+        "eyebrow": "What CareBond changes",
+        "heading": "A communication line that follows the patient home.",
+        "intro": "Not remote medical monitoring — a structured communication channel that keeps everyone connected through recovery. The care professional stays in control of what happens and when.",
+        "items": {
+          "f0": {
+            "title": "Guided check-ins",
+            "description": "The patient self-reports how they feel and how recovery is progressing, in a few taps. Always self-reported, never an automated diagnosis."
+          },
+          "f1": {
+            "title": "Secure chat with the care team",
+            "description": "A direct, traceable line to the assigned professional, available on the professional's terms — no messages at night, no intrusion."
+          },
+          "f2": {
+            "title": "Professional-led video consults",
+            "description": "Video calls the care professional starts when a check-in warrants a closer look — without the patient traveling back in."
+          },
+          "f3": {
+            "title": "Automatic family mini-reports",
+            "description": "The family receives filtered updates and peace of mind from a distance, without ever seeing the full record."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Next step",
+        "title": "See CareBond follow a recovery.",
+        "description": "30 minutes to map a typical recovery journey at your facility and calibrate the demo on the modules that matter to you."
       }
     },
     "hospitals": {
@@ -1188,7 +1283,7 @@
         },
         "v1": {
           "title": "The caregiver stays in control",
-          "description": "Chat, livestream, prescriptions — the professional decides when and how. CareBond never bypasses the clinician."
+          "description": "Chat, livestream, video calls — the professional decides when and how. CareBond never bypasses the clinician."
         },
         "v2": {
           "title": "Audit log by default",

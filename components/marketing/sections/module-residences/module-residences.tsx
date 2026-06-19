@@ -23,9 +23,9 @@ type Pillar = {
 
 const PILLARS: Pillar[] = [
   { key: "admission", Icon: UserPlus, bullets: ["b0", "b1", "b2", "b3"] },
-  // rounds has 6 bullets: b4 covers e-prescriptions, b5 covers reports
-  // shared across the patient's whole care team + auto mini-report family.
-  { key: "rounds", Icon: Activity, bullets: ["b0", "b1", "b2", "b3", "b4", "b5"] },
+  // rounds has 5 bullets: b4 covers reports shared across the patient's
+  // whole care team + an auto mini-report sent in parallel to the family.
+  { key: "rounds", Icon: Activity, bullets: ["b0", "b1", "b2", "b3", "b4"] },
   { key: "audit", Icon: FileCheck2, bullets: ["b0", "b1", "b2", "b3"] },
 ];
 

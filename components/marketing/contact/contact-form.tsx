@@ -17,7 +17,7 @@ import {
 // useActionState gives us free pending state. Avoids ~10 kB of client
 // JS we don't need on this page.
 
-const AUDIENCES = ["ems", "spitex", "hospitals", "clinics", "other"] as const;
+const AUDIENCES = ["ems", "spitex", "recovery", "hospitals", "clinics", "other"] as const;
 
 const INITIAL_STATE: ContactActionState = { status: "idle" };
 

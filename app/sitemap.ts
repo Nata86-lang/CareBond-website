@@ -19,6 +19,7 @@ const ROUTES: { path: string; priority: number }[] = [
   { path: "/platform/floor-plans", priority: 0.7 },
   { path: "/solutions/ems", priority: 0.8 },
   { path: "/solutions/home-care", priority: 0.8 },
+  { path: "/solutions/recovery", priority: 0.8 },
   { path: "/solutions/hospitals", priority: 0.8 },
   { path: "/solutions/clinics", priority: 0.8 },
   { path: "/legal/imprint", priority: 0.3 },

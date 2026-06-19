@@ -30,12 +30,13 @@ import {
 // visible. Swap re-mounts the panel via the React `key` to trigger a CSS
 // fade-in keyed by audience.
 
-const AUDIENCES = ["ems", "spitex", "hospitals", "clinics"] as const;
+const AUDIENCES = ["ems", "spitex", "recovery", "hospitals", "clinics"] as const;
 type Audience = (typeof AUDIENCES)[number];
 
 const FEATURE_ICONS: Record<Audience, [LucideIcon, LucideIcon, LucideIcon]> = {
   ems: [BarChart3, ShieldCheck, Users],
   spitex: [Video, FileText, AlertTriangle],
+  recovery: [ClipboardCheck, Video, Users],
   hospitals: [Plug, Building2, ClipboardCheck],
   clinics: [Palette, Globe2, Languages],
 };
@@ -43,6 +44,7 @@ const FEATURE_ICONS: Record<Audience, [LucideIcon, LucideIcon, LucideIcon]> = {
 type Props = {
   emsVisual: ReactNode;
   spitexVisual: ReactNode;
+  recoveryVisual: ReactNode;
   hospitalsVisual: ReactNode;
   clinicsVisual: ReactNode;
 };
@@ -50,6 +52,7 @@ type Props = {
 export function PourQuiClient({
   emsVisual,
   spitexVisual,
+  recoveryVisual,
   hospitalsVisual,
   clinicsVisual,
 }: Props) {
@@ -60,6 +63,7 @@ export function PourQuiClient({
   const visuals: Record<Audience, ReactNode> = {
     ems: emsVisual,
     spitex: spitexVisual,
+    recovery: recoveryVisual,
     hospitals: hospitalsVisual,
     clinics: clinicsVisual,
   };

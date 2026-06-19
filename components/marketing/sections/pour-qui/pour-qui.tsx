@@ -1,4 +1,5 @@
 import { FamilyPhone } from "@/components/marketing/hero/mockups/family-phone";
+import { PatientPhone } from "@/components/marketing/hero/mockups/patient-phone";
 import { DashboardTile } from "@/components/marketing/sections/how-it-works/dashboard-tile";
 import { ClinicsTile } from "./clinics-tile";
 import { HospitalsTile } from "./hospitals-tile";
@@ -14,6 +15,7 @@ export async function PourQui() {
     <PourQuiClient
       emsVisual={<DashboardTile />}
       spitexVisual={<FamilyPhone step={4} />}
+      recoveryVisual={<PatientPhone step={4} />}
       hospitalsVisual={<HospitalsTile />}
       clinicsVisual={<ClinicsTile />}
     />
