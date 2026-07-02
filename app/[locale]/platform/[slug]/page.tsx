@@ -5,7 +5,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import {
-  Activity,
   AlertTriangle,
   ArrowRight,
   Building2,
@@ -57,12 +56,12 @@ function isValidSlug(s: string): s is Slug {
 
 // Icons per slug's capabilities. Drawn from real product capabilities
 // so each pillar's grid reflects something CareBond actually does.
-// Two slugs have an extra 5th capability — livestream (AI fall detection)
-// and rounds (reports shared across the patient's care team). The rest are 4.
+// One slug has an extra 5th capability — rounds (reports shared across the
+// patient's care team). The rest are 4.
 const CAPABILITY_ICONS: Record<Slug, LucideIcon[]> = {
   oversight: [LayoutGrid, AlertTriangle, Building2, Users],
   audit: [Users, ClipboardCheck, FileSignature, FileText],
-  livestream: [UserCheck, Clock, Lock, Server, Activity],
+  livestream: [UserCheck, Clock, Lock, Server],
   "chat-multilingue": [Languages, UserCheck, Server, Globe2],
   rounds: [Smartphone, ClipboardCheck, MapPin, Camera, Users],
   "floor-plans": [Building2, Navigation, Smartphone, Plug],
@@ -71,7 +70,7 @@ const CAPABILITY_ICONS: Record<Slug, LucideIcon[]> = {
 const CAPABILITY_KEYS: Record<Slug, readonly string[]> = {
   oversight: ["f0", "f1", "f2", "f3"],
   audit: ["f0", "f1", "f2", "f3"],
-  livestream: ["f0", "f1", "f2", "f3", "f4"],
+  livestream: ["f0", "f1", "f2", "f3"],
   "chat-multilingue": ["f0", "f1", "f2", "f3"],
   rounds: ["f0", "f1", "f2", "f3", "f4"],
   "floor-plans": ["f0", "f1", "f2", "f3"],
@@ -224,12 +223,6 @@ export default async function PlatformPage({
                   <h3 className="mt-5 text-lg font-semibold tracking-tight text-brand-navy">
                     {tPage(`capabilities.items.${k}.title`)}
                   </h3>
-                  {slug === "livestream" && k === "f4" && (
-                    <span className="mt-3 inline-flex w-fit items-center gap-1.5 rounded-full border border-brand-blue/30 bg-brand-blue/10 px-2.5 py-1 text-[11px] font-semibold tracking-tight text-brand-blue-strong">
-                      <Globe2 size={12} strokeWidth={2.5} aria-hidden="true" />
-                      {tPage("regionBadge")}
-                    </span>
-                  )}
                   <p className="mt-2 text-sm leading-relaxed text-neutral-600">
                     {tPage(`capabilities.items.${k}.description`)}
                   </p>

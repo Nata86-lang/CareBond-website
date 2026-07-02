@@ -29,7 +29,7 @@
   "hero": {
     "eyebrow": "SWISS CLINICAL INTEGRATION & COMMUNICATION",
     "title": "The integrated mobile communication & nLPD layer for your care institution.",
-    "subtitle": "Whether integrating directly with your current KIS/ERP or deploying as a complete, standalone clinical and communication system for facilities without prior software, CareBond instantly connects directors, caregivers, and families through an nLPD-compliant channel, hosted 100% in Switzerland.",
+    "subtitle": "A complete, standalone clinical and communication system for facilities with or without prior software. CareBond connects directors, caregivers, and families in an nLPD-compliant way, hosted 100% in Switzerland. Integration with your KIS/ERP is in development.",
     "trust": {
       "label": "Built to Swiss standards",
       "nlpd": "nLPD compliant",
@@ -55,7 +55,7 @@
         "miniReportTitle": "Mini-report",
         "miniReportTime": "Today · 2pm",
         "miniReportBody": "Marie had a good morning. Blood pressure normal.",
-        "livestreamLabel": "Living room camera",
+        "livestreamLabel": "Video call",
         "liveBadge": "LIVE"
       },
       "professional": {
@@ -75,7 +75,7 @@
         "residents": "Total patients",
         "professionals": "Active professionals",
         "alerts": "Pending alerts",
-        "devices": "Connected devices",
+        "devices": "Registered devices",
         "activityTitle": "Patients attended to",
         "previousPeriod": "Previous period",
         "currentPeriod": "Current period",
@@ -89,9 +89,9 @@
         "activityPasswordReset": "Password reset",
         "importantAlerts": "Important alerts",
         "viewAll": "View all",
-        "alertSample": "Sensor malfunction",
+        "alertSample": "Consent about to expire",
         "alertWarning": "Warning",
-        "alertSampleBody": "The sensor in room 12 reports irregular data."
+        "alertSampleBody": "A patient's communication consent is about to expire."
       }
     },
     "demoAriaLabel": "Demo: multilingual chat automatically translating between Spanish and French",
@@ -101,7 +101,7 @@
     "b2b": {
       "centerNode": {
         "title": "Your KIS / ERP",
-        "subtitle": "CareBond Connector"
+        "subtitle": "CareBond Connector · in development"
       },
       "management": {
         "title": "Management & IT",
@@ -153,7 +153,7 @@
         "livestream": {
           "eyebrow": "Presence",
           "title": "Controlled Telepresence & Video Calls",
-          "description": "End-to-end encrypted video channels: direct patient-family communication, and clinical video calls strictly regulated and enabled by the professional.",
+          "description": "Video channels encrypted in transit on Swiss servers: direct patient-family communication and regulated video-call flows under the professional's strict control.",
           "kpiResidents": "Patients",
           "kpiProfessionals": "Caregivers",
           "kpiAlerts": "Alerts",
@@ -179,13 +179,13 @@
         },
         "floor-plans": {
           "eyebrow": "Wayfinding",
-          "title": "3D wayfinding & entrance navigation",
-          "description": "Interactive three-dimensional floor plans designed for lobby screens to guide family members and external doctors autonomously, saving reception time.",
+          "title": "3D plans & wayfinding (service)",
+          "description": "Custom service: interactive 3D floor plans for screens and kiosks at the entrance, helping family members and visitors find their way.",
           "kpiResidents": "Patients",
           "kpiProfessionals": "Caregivers",
           "kpiAlerts": "Alerts",
           "kpiDevices": "Devices",
-          "alt": "3D isometric plan of a nursing home — memory care wing, activity center, therapeutic garden, hair salon, main lobby"
+          "alt": "Isometric 3D floor plan of a nursing home — memory care wing, activity center, therapeutic garden, hair salon, main lobby"
         }
       }
     },
@@ -205,11 +205,11 @@
           "items": {
             "f0": {
               "title": "Communication and usage KPIs",
-              "description": "Live tracking of family chat, video calls, and connected device statuses across every facility."
+              "description": "Monitoring of family chat usage and the status of the registered devices in each residence."
             },
             "f1": {
-              "title": "Prioritized alert channel",
-              "description": "Critical vital signs and SOS notifications rise to the top instantly, filtering out day-to-day care noise."
+              "title": "Notifications & SOS",
+              "description": "The patient's SOS and important notifications reach the assigned professionals instantly."
             },
             "f2": {
               "title": "Multisite monitoring",
@@ -262,8 +262,8 @@
         }
       },
       "livestream": {
-        "subtitle": "The patient's or resident's camera, enabled and disabled by themselves. Presence without intrusion, control on the patient's side at all times.",
-        "visualAlt": "Family app preview — livestream feed activated by the patient, with daily mini-report",
+        "subtitle": "Telepresence channel and controlled video calls. Enable direct patient-family video calls and video flows strictly authorized by the professional, with in-transit encryption and servers in Switzerland.",
+        "visualAlt": "Family app preview — video call and daily mini-report",
         "capabilities": {
           "eyebrow": "Capabilities",
           "heading": "What the patient controls",
@@ -271,11 +271,11 @@
           "items": {
             "f0": {
               "title": "Consented activation",
-              "description": "The patient — or their delegated caregiver — turns the camera on and off at any time, with no technical middleman."
+              "description": "The professional initiates the telepresence channel; the patient controls their privacy mode to cut it off at any time."
             },
             "f1": {
               "title": "Full access log",
-              "description": "Every family connection logged: who watched, when, for how long. The patient can review this log."
+              "description": "Every connection to the video is recorded in the audit log: who connected, when, and for how long."
             },
             "f2": {
               "title": "No recording, ever",
@@ -283,11 +283,7 @@
             },
             "f3": {
               "title": "Swiss hosting",
-              "description": "The stream never leaves Swiss territory. No foreign cloud, no cross-border exposure risk."
-            },
-            "f4": {
-              "title": "Optional fall detection",
-              "description": "Where available, real-time analysis on the live stream can flag a possible fall and alert family and caregivers. It runs on the stream only — nothing is ever recorded. Offered as an option in selected markets, subject to local regulations."
+              "description": "The video relay is hosted in Switzerland. No foreign cloud for the content, no extraterritorial exposure of the media."
             }
           }
         },
@@ -296,11 +292,10 @@
           "eyebrow": "Next step",
           "title": "See livestream in your context.",
           "description": "30 minutes to discuss Spitex, EMS or clinic scenarios where this module fits — and the ones where it doesn't."
-        },
-        "regionBadge": "Selected markets"
+        }
       },
       "chat-multilingue": {
-        "subtitle": "Interactive multilingual communication channel. Instantly translate conversations between families and healthcare staff in more than 15 languages (and any other on request) to overcome barriers in multicultural Swiss settings.",
+        "subtitle": "Interactive multilingual communication channel. Instantly translate conversations between families and healthcare staff across multiple languages to overcome barriers in multicultural Swiss settings.",
         "visualAlt": "Live demo of the multilingual chat — FR↔ES translation with caregiver control and full log",
         "capabilities": {
           "eyebrow": "Capabilities",
@@ -313,7 +308,7 @@
             },
             "f1": {
               "title": "Controlled by the caregiver",
-              "description": "The caregiver enables or disables the chat depending on the clinical context. No intrusion outside visits, no messages at night."
+              "description": "The professional controls their availability and who can message them, depending on the clinical context. No intrusion outside the authorized channel."
             },
             "f2": {
               "title": "Swiss hosting",
@@ -345,20 +340,20 @@
               "description": "The day's rounds are ready on arrival. Room by room for nursing homes, home by home for Spitex."
             },
             "f1": {
-              "title": "Offline vitals",
-              "description": "Captured without connection if needed, synced automatically when back online. No data lost in dead zones."
+              "title": "Visit notes",
+              "description": "Observations, patient status, and follow-up notes recorded at each visit."
             },
             "f2": {
               "title": "GPS for home care",
               "description": "For Spitex: GPS geofencing that automatically validates presence at the patient's home (feature 22-C)."
             },
             "f3": {
-              "title": "Time-stamped photos & notes",
-              "description": "An optional photo and visit note attached to each round, time-stamped and instantly shared with the assigned care team."
+              "title": "Time-stamped notes",
+              "description": "A time-stamped visit note, shared with the assigned care team."
             },
             "f4": {
               "title": "Reports shared with the patient's care team",
-              "description": "Every consultation, vital, observation or note recorded is instantly visible to every professional assigned to the same patient — day shift, night shift, treating physician, external providers. No more information lost between handoffs or verbal transmissions. In parallel, filtered mini-reports are automatically generated for the family, without exposing the full medical record."
+              "description": "Every consultation, observation, or note recorded stays visible to all professionals assigned to the same patient — day shift, night shift, treating physician, external providers. No more information lost between handoffs. In parallel, the professional sends a filtered mini-report to the family, with their consent, without exposing the full medical record."
             }
           }
         },
@@ -370,36 +365,36 @@
         }
       },
       "floor-plans": {
-        "subtitle": "Isometric 3D modeling of your building + indoor GPS guiding visitors, families and clinicians. Wayfinding stops being a problem.",
-        "visualAlt": "3D isometric plan of a hospital — operating theaters, MRI suite, ward, laboratory, main lobby, with indoor GPS route",
+        "subtitle": "Wayfinding service with 3D plans. We design interactive plans for screens and kiosks at the entrance, helping family members and visitors find their way.",
+        "visualAlt": "Isometric 3D floor plan of a hospital — operating theaters, MRI suite, ward, laboratory, main lobby, with a signposted route",
         "capabilities": {
           "eyebrow": "Capabilities",
-          "heading": "What you get",
-          "intro": "We model your building in isometric, then ship the plan inside the app with real-time indoor GPS.",
+          "heading": "3D digital signage service",
+          "intro": "We model your building into an interactive plan that runs on entrance kiosks, helping visitors find their way.",
           "items": {
             "f0": {
               "title": "Custom modeling",
               "description": "Floors, services, rooms, receptions, entrances — your building, to scale, in each user's app."
             },
             "f1": {
-              "title": "Indoor GPS",
-              "description": "Real-time routes from reception to room 217 or operating theater 3."
+              "title": "Routes on the plan",
+              "description": "Signposted routes on the plan from reception to the room or service being sought."
             },
             "f2": {
-              "title": "Flow optimization",
-              "description": "Real circulation data to rethink the layout, spot bottlenecks, smooth out journeys."
+              "title": "Planning support",
+              "description": "The plan helps management visualize the layout and plan visitor circulation."
             },
             "f3": {
               "title": "Multi-building",
-              "description": "Multi-pavilion nursing homes, multi-service hospitals, clinics with annexes: all connected in one navigable plan."
+              "description": "EMS facilities with multiple pavilions or annex buildings: represented on a single plan."
             }
           }
         },
-        "compliance": "No patient geolocation data stored by default. GPS trail ephemeral, in line with nLPD.",
+        "compliance": "The wayfinding plan does not track or store people's location.",
         "cta": {
           "eyebrow": "Next step",
           "title": "See your building modeled.",
-          "description": "30 minutes to discuss the modeling and GPS integration for your facility."
+          "description": "30 minutes to discuss the 3D plan modeling for your facility."
         }
       }
     }
@@ -470,15 +465,15 @@
       "hospitals": {
         "label": "Hospitals",
         "title": "For hospitals",
-        "description": "Multi-department platform with documented REST API, granular RBAC and immutable audit log.",
+        "description": "Documented REST API, granular RBAC, and immutable audit log. A segment in development.",
         "features": {
           "f0": {
             "title": "Documented REST API",
-            "description": "Synchronize with your existing system via API and webhooks. HL7/FHIR integration in development for hospitals."
+            "description": "Documented REST API available today. Synchronization via webhooks and HL7/FHIR integration in development."
           },
           "f1": {
-            "title": "Multi-department & RBAC",
-            "description": "Watertight separations between departments. Granular permissions per role and department."
+            "title": "Granular RBAC",
+            "description": "Granular permissions per role and per module, with strict data separation."
           },
           "f2": {
             "title": "Immutable audit log",
@@ -486,7 +481,7 @@
           }
         },
         "tile": {
-          "eyebrow": "Today · Multi-department",
+          "eyebrow": "Concept · Multi-service",
           "title": "Real-time oversight",
           "liveLabel": "Live",
           "patientsLabel": "patients",
@@ -503,15 +498,15 @@
       "clinics": {
         "label": "Clinics",
         "title": "For private clinics",
-        "description": "Premium patient experience, built-in telemedicine, institutional branding.",
+        "description": "High-end patient experience, video calls, and multilingual chat. A segment in development.",
         "features": {
           "f0": {
-            "title": "White-label",
-            "description": "Your brand, your colors, your domain. Our technical foundation."
+            "title": "Customizable branding (roadmap)",
+            "description": "Brand customization is planned on the roadmap."
           },
           "f1": {
-            "title": "International presence",
-            "description": "Swiss hosting + regional nodes for patients abroad."
+            "title": "Hosting in Switzerland",
+            "description": "Hosting in Switzerland, accessible via web from abroad."
           },
           "f2": {
             "title": "Automatic multilingual chat",
@@ -540,7 +535,7 @@
       },
       "encryption": {
         "title": "Modern encryption",
-        "description": "TLS 1.3 in transit on Swiss servers. Encryption of backups at rest. HMAC-signed visit reports."
+        "description": "Modern TLS in transit on a Swiss server. Encryption of sensitive fields (PHI). HMAC-signed visit reports."
       },
       "audit": {
         "title": "nLPD audit log",
@@ -588,7 +583,7 @@
   "floorPlans": {
     "eyebrow": "3D plans & entrance navigation",
     "title": "Family members, visitors, and external clinicians no longer get lost.",
-    "subtitle": "CareBond builds the interactive 3D plan of your building for physical screens and kiosks at your facility's entrance, autonomously guiding family members, visitors, and external doctors directly to the room or service they need. Physical wayfinding stops being an obstacle.",
+    "subtitle": "As a custom service, CareBond designs the 3D floor plan of your building for screens and kiosks at your facility's entrance, helping family members, visitors, and external professionals find their way to the room or service they are looking for.",
     "learnMore": "Learn more about 3D plans",
     "bullets": {
       "b0": {
@@ -596,21 +591,21 @@
         "description": "We model your building in isometric: floors, departments, rooms, receptions. Once built, the plan lives on interactive screens at your institution's entrance."
       },
       "b1": {
-        "title": "Flow optimization",
-        "description": "The 3D plan becomes a management tool: spot bottlenecks, optimize circulation, rethink the layout with real data."
+        "title": "Planning support",
+        "description": "The 3D plan helps management visualize the building's layout and plan visitor circulation."
       },
       "b2": {
-        "title": "Autonomous interactive wayfinding",
-        "description": "Visitors, families, and external clinicians are guided in real time directly from the digital lobby kiosk to their destination — autonomously and without asking."
+        "title": "Reception wayfinding",
+        "description": "From the reception kiosk, visitors and families consult the plan to find their way to the room or service they are looking for."
       }
     },
     "hospital": {
-      "alt": "3D isometric plan of a hospital — wards, operating theaters, MRI suite, laboratory, main lobby, with an indoor GPS route drawn between departments",
+      "alt": "Isometric 3D floor plan of a hospital — rooms, operating theaters, MRI suite, laboratory, reception, with a signposted route between departments",
       "eyebrow": "Preview · Hospital plan",
-      "title": "Real-time navigation",
-      "liveLabel": "Live",
+      "title": "Interactive building plan",
+      "liveLabel": "Plan",
       "youAreHere": "You",
-      "pathLabel": "Active route",
+      "pathLabel": "Suggested route",
       "distance": "92 m",
       "eta": "1 min",
       "rooms": {
@@ -627,7 +622,7 @@
   "chatMultilingue": {
     "eyebrow": "Multilingual chat",
     "title": "The professional speaks French. The family speaks Spanish. CareBond translates.",
-    "subtitle": "In Switzerland as everywhere, many patients and families don't speak the language of care. CareBond translates instantly into more than 15 languages (with the option to add others on request), removing communication barriers.",
+    "subtitle": "In Switzerland as everywhere, many patients and families don't speak the language of care. CareBond translates instantly between the supported languages, removing communication barriers.",
     "learnMore": "Learn more about multilingual chat",
     "bullets": {
       "b0": {
@@ -644,23 +639,23 @@
       },
       "b3": {
         "title": "Controlled by the caregiver",
-        "description": "The caregiver enables or disables the chat depending on the clinical context. No messages at night, no intrusion outside visits. Control stays with the professional."
+        "description": "The professional controls their availability and who can message them. Control stays on the professional's side."
       }
     }
   },
   "moduleResidences": {
     "eyebrow": "Residences module",
     "title": "Built for Swiss nursing homes, from admission to audit.",
-    "subtitle": "One of the three care settings CareBond serves. Built for the nursing home that wants a structured resident record, a digital round in the caregiver's pocket, and an audit-ready export in one click.",
+    "subtitle": "One of the three care settings CareBond serves. Designed for the medico-social nursing home that wants a structured resident record, a digital round in the caregiver's pocket, and an activity export ready for its audits.",
     "pillars": {
       "admission": {
         "title": "Admission & patient record",
         "description": "It all starts with an admission. CareBond turns that first step into a structured patient record, nLPD-compliant from the first click.",
         "bullets": {
           "b0": "Standardized admission form, nLPD-compliant and adaptable to cantonal specifics",
-          "b1": "Electronic signature from resident and family",
-          "b2": "Auto-import of health data (medications, allergies, contacts)",
-          "b3": "Paperless record ready for caregivers in five minutes"
+          "b1": "Registration of the legal guardian and advance directives",
+          "b2": "Health data import via EPD/FHIR (in development)",
+          "b3": "Paperless record, accessible to the authorized team"
         }
       },
       "rounds": {
@@ -668,9 +663,9 @@
         "description": "The caregiver walks in, opens the app, sees the day's rounds. Vitals, alerts, medications — all in their pocket, confirmed in two taps.",
         "bullets": {
           "b0": "Day's rounds pre-organized, room by room",
-          "b1": "Vitals captured offline if needed, synced automatically",
-          "b2": "Alerts prioritized by severity, never lost",
-          "b3": "Optional photo and visit note, time-stamped",
+          "b1": "Observations and patient status recorded at each visit",
+          "b2": "Visit notifications and agenda events",
+          "b3": "Signed, time-stamped visit note",
           "b4": "Reports shared with the entire care team assigned to the patient — no information lost between shifts, with a filtered mini-report sent in parallel to the family"
         }
       },
@@ -725,7 +720,7 @@
       "family": {
         "number": "02",
         "title": "Family",
-        "description": "Daily mini-reports, opt-in livestream, peace of mind from afar. Without intrusion."
+        "description": "Mini-reports from the professional, video calls, and peace of mind from afar. Without intrusion."
       },
       "professional": {
         "number": "03",
@@ -1103,7 +1098,7 @@
           },
           "f2": {
             "title": "Opt-in livestream",
-            "description": "The patient's camera is turned on and off by the patient or caregiver, never recorded — live stream only, with a full access log. Optional fall detection is available in selected markets, subject to local regulations."
+            "description": "The camera is initiated by the professional and never recorded: live stream only, with a full access log. The patient controls their privacy mode to cut it off at any time."
           },
           "f3": {
             "title": "Prioritized alerts",
@@ -1166,9 +1161,9 @@
     "hospitals": {
       "eyebrow": "For hospitals",
       "title": "A platform designed to integrate with your EMR.",
-      "subtitle": "Documented REST API available today, HL7/FHIR integration in development. Department-level RBAC, immutable audit log, 3D plans and indoor GPS.",
-      "metaDescription": "CareBond solution for hospitals: documented REST API, HL7/FHIR integration in development, multi-department RBAC, 3D plans + indoor wayfinding.",
-      "visualAlt": "3D isometric plan of a hospital — operating theaters, MRI suite, ward, laboratory, main lobby, with indoor GPS route",
+      "subtitle": "Documented REST API, HL7/FHIR integration in development, granular role-based RBAC, and immutable audit log. 3D plans as a custom service. A segment we are building toward.",
+      "metaDescription": "CareBond solution for hospitals: documented REST API, HL7/FHIR integration in development, granular role-based RBAC, 3D plans as a service.",
+      "visualAlt": "Isometric 3D floor plan of a hospital — operating theaters, MRI suite, ward, laboratory, main lobby, with a signposted route",
       "problem": {
         "eyebrow": "The reality",
         "heading": "In a hospital, time lost finding your way or re-keying data is care lost.",
@@ -1187,19 +1182,19 @@
         "items": {
           "f0": {
             "title": "Documented REST API, HL7/FHIR in development",
-            "description": "Sync with your existing EMR via REST API and webhooks today. Native HL7/FHIR integration is in development and will ship in a future release."
+            "description": "Documented REST API available today. Synchronization via webhooks and native HL7/FHIR integration in development, for an upcoming release."
           },
           "f1": {
-            "title": "Multi-department & RBAC",
-            "description": "ER, medicine, radiology: watertight separation, granular permissions per role and department. Without re-coding your ACL."
+            "title": "Granular RBAC",
+            "description": "Granular permissions per role and per module, with strict data separation between institutions."
           },
           "f2": {
             "title": "Immutable audit log",
             "description": "Every action logged, exportable. Trail compliant with nLPD and cantonal hospital audit requirements."
           },
           "f3": {
-            "title": "3D plans & indoor GPS",
-            "description": "Isometric modeling of your building + built-in GPS guiding visitors, families and clinicians to the right service."
+            "title": "3D plans (service)",
+            "description": "As a custom service, isometric modeling of your building to guide visitors and families on the entrance screens."
           }
         }
       },
@@ -1212,8 +1207,8 @@
     "clinics": {
       "eyebrow": "For private clinics",
       "title": "Premium patient experience, in your brand.",
-      "subtitle": "Multilingual chat for international patients, white-label, Swiss hosting. Built for clinics that want the rigor of a professional platform without losing their identity.",
-      "metaDescription": "CareBond solution for private clinics: multilingual chat, white-label, exclusive Swiss hosting, nLPD compliance.",
+      "subtitle": "Multilingual chat for international patients and hosting in Switzerland. A segment we are building toward.",
+      "metaDescription": "CareBond solution for private clinics: multilingual chat, hosting in Switzerland, nLPD compliance.",
       "visualAlt": "Multilingual chat preview — FR↔ES messages translated in real time with caregiver control",
       "problem": {
         "eyebrow": "The reality",
@@ -1236,8 +1231,8 @@
             "description": "Each message in each person's language. The caregiver enables or disables the chat depending on the clinical context."
           },
           "f1": {
-            "title": "White-label",
-            "description": "Your brand, your colors, your domain. Our technical foundation, invisible. Your patients see your clinic, not our logo."
+            "title": "Customizable branding (roadmap)",
+            "description": "Brand customization for private clinics is planned on the roadmap."
           },
           "f2": {
             "title": "Premium confidentiality",
@@ -1245,7 +1240,7 @@
           },
           "f3": {
             "title": "International patients",
-            "description": "Primary hosting in Switzerland, optimized access for patients who travel or live abroad."
+            "description": "Hosting in Switzerland, accessible via web for your patients who travel or live abroad."
           }
         }
       },
@@ -1265,8 +1260,8 @@
       "eyebrow": "Our mission",
       "heading": "Give care back the time paperwork takes from it.",
       "body1": "In a Swiss nursing home, caregivers spend on average too many hours filling binders, handing over by phone, and gathering documents for audits. Those hours don't go to the resident.",
-      "body2": "CareBond returns them to care. By centralizing digital rounds, nLPD audit, multilingual chat, cryptographically signed reports, and indoor navigation in a single platform.",
-      "body3": "We don't replace your existing EMR. We plug into it, close the gaps, and add what was missing — with no rip-and-replace."
+      "body2": "CareBond returns it to care. By centralizing the digital round, the nLPD audit, multilingual chat, cryptographically signed reports, and wayfinding with 3D plans in a single platform.",
+      "body3": "We don't replace your existing EMR. We will integrate with it (integration in development), cover the blind spots, and add what was missing — with no rip-and-replace."
     },
     "values": {
       "eyebrow": "Our values",
@@ -1316,7 +1311,7 @@
       },
       "encryption": {
         "title": "Modern encryption",
-        "description": "TLS 1.3 in transit on Swiss servers, encryption of backups at rest, HMAC-signed visit reports."
+        "description": "Modern TLS in transit on a Swiss server, encryption of sensitive fields (PHI), HMAC-signed visit reports."
       },
       "audit": {
         "title": "Immutable audit log",
@@ -1334,7 +1329,7 @@
         },
         "kvg": {
           "title": "KVG / LAMal",
-          "description": "Visit reports cryptographically signed (HMAC), traceability compliant with health-insurance requirements for Spitex and hospital billing."
+          "description": "Cryptographically signed visit reports (HMAC), traceability as a basis for justification to the health insurer (Spitex)."
         },
         "transfers": {
           "title": "International transfers",
@@ -1345,24 +1340,24 @@
     "certifications": {
       "eyebrow": "Certifications",
       "heading": "Targeted certifications",
-      "intro": "Beyond the nLPD requirements and data sovereignty already covered by our architecture, CareBond is working toward internationally recognized certifications expected by hospital procurement teams.",
+      "intro": "Beyond the nLPD requirements and data sovereignty already covered by our architecture, CareBond aims to obtain the international certifications expected by hospital procurement teams.",
       "items": {
         "iso27001": {
           "title": "ISO/IEC 27001",
-          "status": "Process in preparation",
-          "description": "Information security management system. Certification process in preparation for 2026-2027."
+          "status": "Medium-term target",
+          "description": "Information security management system. Certification set as a medium-term target."
         },
         "hds": {
           "title": "HDS — French Health Data Host",
-          "status": "Process in preparation",
-          "description": "French reference certification for hosting health data. Under evaluation for our offering to Swiss institutions that require an HDS-equivalent qualification."
+          "status": "Target (reference)",
+          "description": "French reference for health data hosting, considered as a comparative target. Our main argument is hosting in Switzerland."
         }
       }
     },
     "docs": {
       "eyebrow": "Technical documentation",
       "title": "Your legal and IT teams want the details?",
-      "description": "We maintain complete technical documentation: architecture, data flows, audit log, retention policies, processor contracts. Available on request, with no form to fill.",
+      "description": "We keep complete technical documentation available: architecture, data flows, audit log, retention policies, processor contract templates. On request, with no form to fill out.",
       "secondary": "Read our privacy policy"
     }
   }

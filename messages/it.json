@@ -29,7 +29,7 @@
   "hero": {
     "eyebrow": "Piattaforma di cura · Svizzera",
     "title": "Tutti gli attori delle cure, in una piattaforma.",
-    "subtitle": "Sia che si integri direttamente con il vostro attuale KIS/ERP o che funzioni come un sistema clinico e di comunicazione completo e indipendente per le strutture che non dispongono di software precedente, CareBond connette istantaneamente la direzione, i professionisti sanitari e le famiglie attraverso un canale sicuro, conforme alla LPD e ospitato al 100% in Svizzera.",
+    "subtitle": "Un sistema clinico e di comunicazione completo e indipendente per le strutture con o senza software preesistente. CareBond connette direttori, professionisti e famiglie nel rispetto della nLPD e al 100% in Svizzera. L'integrazione con il vostro KIS/ERP è in sviluppo.",
     "trust": {
       "label": "Progettata secondo gli standard svizzeri",
       "nlpd": "Conforme LPD",
@@ -55,7 +55,7 @@
         "miniReportTitle": "Mini-rapporto",
         "miniReportTime": "Oggi · 14:00",
         "miniReportBody": "Marie ha passato una buona mattinata. Pressione normale.",
-        "livestreamLabel": "Telecamera soggiorno",
+        "livestreamLabel": "Videochiamata",
         "liveBadge": "IN DIRETTA"
       },
       "professional": {
@@ -75,7 +75,7 @@
         "residents": "Totale pazienti",
         "professionals": "Operatori attivi",
         "alerts": "Allarmi in attesa",
-        "devices": "Dispositivi connessi",
+        "devices": "Dispositivi registrati",
         "activityTitle": "Pazienti seguiti",
         "previousPeriod": "Periodo precedente",
         "currentPeriod": "Periodo attuale",
@@ -89,9 +89,9 @@
         "activityPasswordReset": "Password reimpostata",
         "importantAlerts": "Allarmi importanti",
         "viewAll": "Vedi tutto",
-        "alertSample": "Sensore guasto",
+        "alertSample": "Consenso in scadenza",
         "alertWarning": "Avviso",
-        "alertSampleBody": "Il sensore della camera 12 segnala dati irregolari."
+        "alertSampleBody": "Il consenso alla comunicazione di un paziente scade a breve."
       }
     },
     "demoAriaLabel": "Dimostrazione: chat multilingua con traduzione automatica tra spagnolo e francese",
@@ -101,7 +101,7 @@
     "b2b": {
       "centerNode": {
         "title": "Il vostro KIS / ERP",
-        "subtitle": "Connettore CareBond"
+        "subtitle": "Connettore CareBond · in sviluppo"
       },
       "management": {
         "title": "Direzione e IT",
@@ -144,28 +144,48 @@
         "audit": {
           "eyebrow": "Conformità",
           "title": "Audit log e tracciabilità LPD",
-          "description": "Canale immutabile di tracciabilità degli accessi e delle modifiche in tempo reale, progettato per garantire la conformità svizzera LPD."
+          "description": "Canale immutabile di tracciabilità degli accessi e delle modifiche in tempo reale, progettato per garantire la conformità svizzera LPD.",
+          "kpiResidents": "Pazienti",
+          "kpiProfessionals": "Operatori",
+          "kpiAlerts": "Allarmi",
+          "kpiDevices": "Dispositivi"
         },
         "livestream": {
           "eyebrow": "Presenza",
           "title": "Telepresenza e videochiamate",
-          "description": "Canali video crittografati end-to-end: comunicazione diretta paziente-famiglia e flussi di videochiamata regolati sotto lo stretto controllo dell'operatore."
+          "description": "Canali video crittografati in transito su server svizzeri: comunicazione diretta paziente-famiglia e flussi di videochiamata regolati sotto lo stretto controllo del professionista.",
+          "kpiResidents": "Pazienti",
+          "kpiProfessionals": "Operatori",
+          "kpiAlerts": "Allarmi",
+          "kpiDevices": "Dispositivi"
         },
         "chat-multilingue": {
           "eyebrow": "Comunicazione",
           "title": "Chat multilingue inclusiva",
-          "description": "Canale di traduzione automatica in tempo reale che elimina le barriere linguistiche tra il personale di cura, i residenti e le loro famiglie."
+          "description": "Canale di traduzione automatica in tempo reale che elimina le barriere linguistiche tra il personale di cura, i residenti e le loro famiglie.",
+          "kpiResidents": "Pazienti",
+          "kpiProfessionals": "Operatori",
+          "kpiAlerts": "Allarmi",
+          "kpiDevices": "Dispositivi"
         },
         "rounds": {
           "eyebrow": "Cura",
           "title": "Coordinamento e consegne degli operatori",
-          "description": "Sincronizzate il vostro team medico. Registrate parametri vitali e note nell'app operatore per un passaggio consegne senza perdite tra personale autorizzato, generando in parallelo mini-rapporti per le famiglie."
+          "description": "Sincronizzate il vostro team medico. Registrate parametri vitali e note nell'app operatore per un passaggio consegne senza perdite tra personale autorizzato, generando in parallelo mini-rapporti per le famiglie.",
+          "kpiResidents": "Pazienti",
+          "kpiProfessionals": "Operatori",
+          "kpiAlerts": "Allarmi",
+          "kpiDevices": "Dispositivi"
         },
         "floor-plans": {
-          "eyebrow": "Navigazione",
-          "title": "Guida e orientamento spaziale 3D",
-          "description": "Mappe interattive tridimensionali progettate per schermi fisici all'ingresso della struttura per guidare autonomamente visitatori e familiari.",
-          "alt": "Pianta 3D isometrica di una casa di cura — ala memory care, centro attività, giardino terapeutico, parrucchiere, ingresso principale"
+          "eyebrow": "Orientamento",
+          "title": "Mappe 3D e orientamento (servizio)",
+          "description": "Servizio su misura: mappe 3D interattive per schermi e totem all'ingresso, che aiutano familiari e visitatori a orientarsi.",
+          "kpiResidents": "Pazienti",
+          "kpiProfessionals": "Operatori",
+          "kpiAlerts": "Allarmi",
+          "kpiDevices": "Dispositivi",
+          "alt": "Mappa 3D isometrica di una casa di cura medicalizzata — ala memory care, centro attività, giardino terapeutico, parrucchiere, ingresso principale"
         }
       }
     },
@@ -185,11 +205,11 @@
           "items": {
             "f0": {
               "title": "KPI di comunicazione e utilizzo",
-              "description": "Monitoraggio in tempo reale dell'uso della chat familiare, delle videochiamate e dello stato dei dispositivi connessi in ciascuna sede."
+              "description": "Monitoraggio dell'uso della chat familiare e dello stato dei dispositivi registrati in ciascuna sede."
             },
             "f1": {
-              "title": "Canale di allarmi prioritari",
-              "description": "Le notifiche critiche di parametri vitali o SOS salgono istantaneamente, filtrando il rumore quotidiano dell'assistenza."
+              "title": "Notifiche e SOS",
+              "description": "L'SOS del paziente e le notifiche importanti raggiungono all'istante i professionisti assegnati."
             },
             "f2": {
               "title": "Supervisione multi-sito",
@@ -242,8 +262,8 @@
         }
       },
       "livestream": {
-        "subtitle": "Canale di telepresenza e videochiamate controllate. Attivate videochiamate dirette paziente-famiglia e flussi strettamente autorizzati dal professionista, combinando il rilevamento passivo delle cadute con IA.",
-        "visualAlt": "Anteprima dell'app famiglia — flusso livestream attivabile dal paziente, con mini-rapporto quotidiano",
+        "subtitle": "Canale di telepresenza e videochiamate controllate. Attivate videochiamate dirette paziente-famiglia e flussi video rigorosamente autorizzati dal professionista, con crittografia in transito e server in Svizzera.",
+        "visualAlt": "Anteprima dell'app famiglia — videochiamata e mini-rapporto quotidiano",
         "capabilities": {
           "eyebrow": "Capacità",
           "heading": "Canali e controllo di telepresenza",
@@ -251,11 +271,11 @@
           "items": {
             "f0": {
               "title": "Canale consenziente e sicuro",
-              "description": "Attivazione e disattivazione istantanee del canale di telepresenza direttamente da parte del paziente o del suo operatore delegato."
+              "description": "Il professionista avvia il canale di telepresenza; il paziente controlla la propria modalità di privacy per interromperlo in qualsiasi momento."
             },
             "f1": {
               "title": "Registro accessi completo",
-              "description": "Ogni connessione familiare tracciata: chi ha guardato, quando, per quanto tempo. Il paziente può consultare questo registro."
+              "description": "Ogni connessione al video viene registrata nell'audit log: chi si è connesso, quando e per quanto tempo."
             },
             "f2": {
               "title": "Nessuna registrazione, mai",
@@ -263,11 +283,7 @@
             },
             "f3": {
               "title": "Hosting svizzero",
-              "description": "Il flusso non lascia mai il territorio svizzero. Nessun cloud estero, nessun rischio di esposizione extraterritoriale."
-            },
-            "f4": {
-              "title": "Rilevamento opzionale delle cadute",
-              "description": "Dove disponibile, l'analisi in tempo reale della trasmissione in streaming può segnalare una possibile caduta e avvisare la famiglia e gli operatori. Funziona solo sullo stream — nulla viene mai registrato. Offerto come opzione in mercati selezionati, nel rispetto delle normative locali."
+              "description": "Il relay video è ospitato in Svizzera. Nessun cloud estero per i contenuti, nessuna esposizione extraterritoriale del media."
             }
           }
         },
@@ -276,11 +292,10 @@
           "eyebrow": "Prossima tappa",
           "title": "Vediamo il livestream nel vostro contesto.",
           "description": "30 minuti per discutere i casi Spitex, casa di cura o clinica in cui questo modulo ha senso — e quelli in cui non lo ha."
-        },
-        "regionBadge": "Mercati selezionati"
+        }
       },
       "chat-multilingue": {
-        "subtitle": "Canale di comunicazione multilingue interattivo. Traducete all'istante le conversazioni tra famiglie e personale di cura in oltre 15 lingue (e altre su richiesta) per superare le barriere linguistiche.",
+        "subtitle": "Canale di comunicazione multilingue interattivo. Traducete all'istante le conversazioni tra famiglie e personale sanitario in più lingue per superare le barriere nei contesti multiculturali svizzeri.",
         "visualAlt": "Demo dal vivo del chat multilingue — traduzione FR↔ES con controllo operatore e registro completo",
         "capabilities": {
           "eyebrow": "Capacità",
@@ -293,7 +308,7 @@
             },
             "f1": {
               "title": "Controllo dell'operatore",
-              "description": "L'operatore attiva o disattiva il chat secondo il contesto clinico. Nessuna intrusione fuori dalla visita, nessun messaggio di notte."
+              "description": "Il professionista controlla la propria disponibilità e chi può scrivergli, secondo il contesto clinico. Nessuna intrusione al di fuori del canale autorizzato."
             },
             "f2": {
               "title": "Hosting svizzero",
@@ -325,20 +340,20 @@
               "description": "Il giro del giorno è pronto all'arrivo. Camera per camera per le case di cura, domicilio per domicilio per Spitex."
             },
             "f1": {
-              "title": "Parametri vitali offline",
-              "description": "Registrati senza connessione se necessario, sincronizzati automaticamente alla ripresa. Nessun dato perso nelle zone bianche."
+              "title": "Note di visita",
+              "description": "Osservazioni, stato del paziente e note di follow-up registrate a ogni visita."
             },
             "f2": {
               "title": "GPS per il domicilio",
               "description": "Per Spitex: geofencing GPS che valida automaticamente la presenza al domicilio del paziente (feature 22-C)."
             },
             "f3": {
-              "title": "Foto e note con marca temporale",
-              "description": "Una foto e una nota di visita opzionali allegate a ciascun giro, con marca temporale e condivise istantaneamente con il team di cura assegnato."
+              "title": "Note con marca temporale",
+              "description": "Una nota di visita con marca temporale, condivisa con il team di cura assegnato."
             },
             "f4": {
               "title": "Rapporti condivisi e consegne istantanee",
-              "description": "Ogni consultazione, parametro vitale, osservazione o nota inserita è immediatamente visibile a tutti gli operatori assegnati allo stesso paziente — turno di giorno, turno di notte, medico curante, prestatori esterni. Niente più perdite di informazioni tra turni e consegne verbali. In parallelo vengono generati automaticamente mini-rapporti filtrati per la famiglia, senza esporre il dossier medico completo."
+              "description": "Ogni consultazione, osservazione o nota registrata resta visibile a tutti i professionisti assegnati allo stesso paziente — turno di giorno, turno di notte, medico curante, prestatori esterni. Basta perdite di informazioni tra le consegne. Il professionista invia in parallelo un mini-rapporto filtrato alla famiglia, con il suo consenso, senza esporre il dossier medico completo."
             }
           }
         },
@@ -350,36 +365,36 @@
         }
       },
       "floor-plans": {
-        "subtitle": "Canale di guida e orientamento spaziale 3D. Mappe tridimensionali interattive progettate per schermi posizionati all'ingresso fisico della struttura per guidare autonomamente familiari e medici.",
-        "visualAlt": "Pianta 3D isometrica di un ospedale — sale operatorie, suite IRM, reparto, laboratorio, ingresso principale, con percorso GPS interno",
+        "subtitle": "Servizio di orientamento con mappe 3D. Progettiamo mappe interattive per schermi e totem all'ingresso, che aiutano familiari e visitatori a orientarsi.",
+        "visualAlt": "Mappa 3D isometrica di un ospedale — sale operatorie, sala RM, reparto, laboratorio, ingresso principale, con un percorso segnalato",
         "capabilities": {
           "eyebrow": "Capacità",
-          "heading": "Canale di segnaletica digitale 3D",
-          "intro": "Modelliamo il vostro edificio in una mappa interattiva distribuita su totem fisici all'ingresso, in grado di guidare autonomamente visitatori e professionisti esterni.",
+          "heading": "Servizio di segnaletica digitale 3D",
+          "intro": "Modelliamo il vostro edificio in una mappa interattiva distribuita sui totem all'ingresso, aiutando i visitatori a orientarsi.",
           "items": {
             "f0": {
               "title": "Modellazione su misura",
               "description": "Piani, reparti, camere, accoglienze, ingressi — il vostro edificio, in scala, sul totem interattivo della vostra struttura."
             },
             "f1": {
-              "title": "GPS d'interno",
-              "description": "Itinerari in tempo reale dall'accoglienza fino alla camera 217 o alla sala operatoria 3."
+              "title": "Percorsi sulla mappa",
+              "description": "Percorsi segnalati sulla mappa dalla reception fino alla camera o al servizio cercato."
             },
             "f2": {
-              "title": "Ottimizzazione dei flussi",
-              "description": "Dati reali di circolazione per ripensare la disposizione, individuare colli di bottiglia, fluidificare i percorsi."
+              "title": "Supporto alla pianificazione",
+              "description": "La mappa aiuta la direzione a visualizzare la disposizione e a pianificare la circolazione dei visitatori."
             },
             "f3": {
               "title": "Multi-edificio",
-              "description": "Case di cura multi-padiglione, ospedali multi-reparto, clinica con annesso: tutto connesso in una sola pianta navigabile."
+              "description": "EMS con più padiglioni o edifici annessi: rappresentati in un'unica mappa."
             }
           }
         },
-        "compliance": "Nessun dato di geolocalizzazione paziente memorizzato di default. Tracciato GPS effimero, conformemente alla LPD.",
+        "compliance": "La mappa di orientamento non traccia né memorizza la posizione delle persone.",
         "cta": {
           "eyebrow": "Prossima tappa",
           "title": "Vediamo il vostro edificio modellato.",
-          "description": "30 minuti per discutere la modellazione e l'integrazione GPS nella vostra struttura."
+          "description": "30 minuti per discutere la modellazione della mappa 3D della vostra struttura."
         }
       }
     }
@@ -431,15 +446,15 @@
       "hospitals": {
         "label": "Ospedali",
         "title": "Per gli ospedali",
-        "description": "Piattaforma multi-reparto con API REST documentata, RBAC granulare e audit log immutabile.",
+        "description": "API REST documentata, RBAC granulare e audit log immutabile. Un segmento in sviluppo.",
         "features": {
           "f0": {
             "title": "API REST documentata",
-            "description": "Sincronizzazione con il vostro sistema esistente tramite API e webhook. Integrazione HL7/FHIR in sviluppo per gli ospedali."
+            "description": "API REST documentata disponibile oggi. Sincronizzazione tramite webhook e integrazione HL7/FHIR in sviluppo."
           },
           "f1": {
-            "title": "Multi-reparto & RBAC",
-            "description": "Separazioni stagne tra reparti. Permessi granulari per ruolo e reparto."
+            "title": "RBAC granulare",
+            "description": "Permessi granulari per ruolo e per modulo, con separazione rigorosa dei dati."
           },
           "f2": {
             "title": "Audit log immutabile",
@@ -447,7 +462,7 @@
           }
         },
         "tile": {
-          "eyebrow": "Oggi · Multi-reparto",
+          "eyebrow": "Concetto · Multi-servizio",
           "title": "Gestione in tempo reale",
           "liveLabel": "Live",
           "patientsLabel": "pazienti",
@@ -464,15 +479,15 @@
       "clinics": {
         "label": "Cliniche",
         "title": "Per le cliniche private",
-        "description": "Esperienza paziente di alta gamma, telemedicina integrata, branding istituzionale.",
+        "description": "Esperienza paziente di alta gamma, videochiamate e chat multilingue. Un segmento in sviluppo.",
         "features": {
           "f0": {
-            "title": "White-label",
-            "description": "Il vostro marchio, i vostri colori, il vostro dominio. Il nostro zoccolo tecnico."
+            "title": "Marchio personalizzabile (roadmap)",
+            "description": "La personalizzazione del marchio è prevista nel roadmap."
           },
           "f1": {
-            "title": "Presenza internazionale",
-            "description": "Hosting svizzero + nodi regionali per pazienti all'estero."
+            "title": "Hosting in Svizzera",
+            "description": "Hosting in Svizzera, accessibile via web dall'estero."
           },
           "f2": {
             "title": "Multilingue automatico",
@@ -520,7 +535,7 @@
       },
       "encryption": {
         "title": "Crittografia moderna",
-        "description": "TLS 1.3 in transito su server svizzero. Crittografia dei backup a riposo. Rapporti di visita firmati HMAC."
+        "description": "TLS moderno in transito su server svizzero. Crittografia dei campi sensibili (PHI). Rapporti di visita firmati HMAC."
       },
       "audit": {
         "title": "Audit log LPD",
@@ -568,7 +583,7 @@
   "floorPlans": {
     "eyebrow": "Piante 3D & navigazione interna",
     "title": "Residenti, visitatori e operatori non si perdono più.",
-    "subtitle": "CareBond progetta la mappa 3D interattiva del vostro edificio per schermi e totem digitali fisici all'ingresso della vostra struttura, guidando autonomamente familiari, visitatori e medici esterni fino alla camera o al servizio desiderato. La segnaletica fisica cessa di essere un ostacolo.",
+    "subtitle": "Come servizio su misura, CareBond progetta la mappa 3D del vostro edificio per schermi e totem all'ingresso della vostra struttura, aiutando familiari, visitatori e professionisti esterni a orientarsi verso la camera o il servizio che cercano.",
     "learnMore": "Scopri di più sulle piante 3D",
     "bullets": {
       "b0": {
@@ -576,21 +591,21 @@
         "description": "Modelliamo il vostro edificio in isometrico: piani, reparti, camere, accoglienze. Una volta realizzata, la mappa vive su schermi interattivi all'ingresso della vostra istituzione."
       },
       "b1": {
-        "title": "Ottimizzazione dei flussi",
-        "description": "La pianta 3D diventa uno strumento di gestione per la direzione: individuare colli di bottiglia, ottimizzare la circolazione, ripensare la disposizione con dati reali."
+        "title": "Supporto alla pianificazione",
+        "description": "La mappa 3D aiuta la direzione a visualizzare la disposizione dell'edificio e a pianificare la circolazione dei visitatori."
       },
       "b2": {
-        "title": "GPS d'interno integrato",
-        "description": "Visitatori, famiglie e medici esterni sono guidati in tempo reale direttamente dal totem digitale della reception fino alla loro destinazione — in modo autonomo e senza chiedere indicazioni."
+        "title": "Orientamento in reception",
+        "description": "Dal totem della reception, visitatori e famiglie consultano la mappa per orientarsi verso la camera o il servizio che cercano."
       }
     },
     "hospital": {
-      "alt": "Pianta 3D isometrica di un ospedale — camere, sale operatorie, suite IRM, laboratorio, accoglienza, con percorso GPS interno tracciato tra i reparti",
+      "alt": "Mappa 3D isometrica di un ospedale — camere, sale operatorie, sala RM, laboratorio, accoglienza, con un percorso segnalato tra i servizi",
       "eyebrow": "Anteprima · Pianta ospedaliera",
-      "title": "Navigazione in tempo reale",
-      "liveLabel": "Live",
+      "title": "Mappa interattiva dell'edificio",
+      "liveLabel": "Mappa",
       "youAreHere": "Voi",
-      "pathLabel": "Percorso attivo",
+      "pathLabel": "Percorso suggerito",
       "distance": "92 m",
       "eta": "1 min",
       "rooms": {
@@ -607,7 +622,7 @@
   "chatMultilingue": {
     "eyebrow": "Chat multilingue",
     "title": "Il professionista parla francese. La famiglia parla spagnolo. CareBond traduce.",
-    "subtitle": "In Svizzera como altrove, molti pazienti e famiglie non parlano la lingua delle cure. CareBond traduce all'istante in oltre 15 lingue (con possibilità di aggiungerne altre su richiesta), eliminando le barriere comunicative.",
+    "subtitle": "In Svizzera come altrove, molti pazienti e famiglie non parlano la lingua delle cure. CareBond traduce all'istante tra le lingue supportate, eliminando le barriere di comunicazione.",
     "learnMore": "Scopri di più sul chat multilingue",
     "bullets": {
       "b0": {
@@ -624,23 +639,23 @@
       },
       "b3": {
         "title": "Controllo dell'operatore",
-        "description": "L'operatore attiva o disattiva il chat secondo il contesto clinico. Nessun messaggio di notte, nessuna intrusione fuori dalla visita. Il controllo resta al professionista."
+        "description": "Il professionista controlla la propria disponibilità e chi può scrivergli. Il controllo resta dalla parte del professionista."
       }
     }
   },
   "moduleResidences": {
     "eyebrow": "Modulo Case di cura",
     "title": "Pensato per le case di cura svizzere, dall'ammissione all'audit.",
-    "subtitle": "Uno dei tre contesti di cura serviti da CareBond. Concepito per la casa di cura che vuole un dossier strutturato del residente, un giro digitale nella tasca dell'operatore e un export pronto per l'audit con un clic.",
+    "subtitle": "Uno dei tre contesti di cura serviti da CareBond. Concepito per la casa di cura medico-sociale che desidera un dossier del paziente strutturato, un giro digitale nella tasca dell'operatore e un export delle attività pronto per i vostri audit.",
     "pillars": {
       "admission": {
         "title": "Ammissione & dossier paziente",
         "description": "Tutto inizia con un'ammissione. CareBond trasforma questa prima tappa in un dossier paziente strutturato, conforme LPD fin dal primo clic.",
         "bullets": {
           "b0": "Modulo di ammissione standardizzato, conforme ai requisiti LPD e adattabile alle specificità cantonali",
-          "b1": "Firma elettronica del residente e della famiglia",
-          "b2": "Import automatico dei dati di salute (farmaci, allergie, contatti)",
-          "b3": "Dossier dematerializzato pronto per gli operatori in cinque minuti"
+          "b1": "Registrazione del curatore legale e delle direttive anticipate",
+          "b2": "Importazione dei dati di salute tramite EPD/FHIR (in sviluppo)",
+          "b3": "Dossier dematerializzato, accessibile al team autorizzato"
         }
       },
       "rounds": {
@@ -648,9 +663,9 @@
         "description": "L'operatore entra, apre l'app, vede il suo giro del giorno. Parametri vitali, allarmi, farmaci — tutto in tasca, validato con due tocchi.",
         "bullets": {
           "b0": "Giro del giorno pre-organizzato, camera per camera",
-          "b1": "Parametri vitali registrati offline se necessario, sincronizzati automaticamente",
-          "b2": "Allarmi prioritizzati per gravità, mai persi",
-          "b3": "Foto e nota di visita opzionali, con timestamp",
+          "b1": "Osservazioni e stato del paziente registrati a ogni visita",
+          "b2": "Notifiche delle visite e degli eventi dell'agenda",
+          "b3": "Nota di visita firmata, con marca temporale",
           "b4": "Rapporti condivisi con l'intero team curante assegnato al paziente — niente più perdite di informazioni tra i turni, mini-rapporto filtrato inviato in parallelo alla famiglia"
         }
       },
@@ -705,7 +720,7 @@
       "family": {
         "number": "02",
         "title": "Famiglia",
-        "description": "Mini-rapporti quotidiani, livestream con consenso, serenità a distanza. Senza intrusione."
+        "description": "Mini-rapporti del professionista, videochiamate e serenità a distanza. Senza intrusione."
       },
       "professional": {
         "number": "03",
@@ -1059,7 +1074,7 @@
           },
           "f2": {
             "title": "Livestream con consenso",
-            "description": "La telecamera del paziente viene attivata e disattivata dal paziente o dall'operatore, mai registrata — solo trasmissione in streaming, con registro accessi completo. Il rilevamento opzionale delle cadute è disponibile in mercati selezionati, nel rispetto delle normative locali."
+            "description": "La telecamera viene avviata dal professionista e non viene mai registrata: solo trasmissione in diretta, con un registro degli accessi completo. Il paziente controlla la propria modalità di privacy per interromperla in qualsiasi momento."
           },
           "f3": {
             "title": "Allarmi prioritari",
@@ -1076,9 +1091,9 @@
     "hospitals": {
       "eyebrow": "Per gli ospedali",
       "title": "Una piattaforma progettata per integrarsi con il vostro EMR.",
-      "subtitle": "API REST documentata già oggi, integrazione HL7/FHIR in sviluppo. RBAC granulare per reparto, audit log immutabile, piante 3D e GPS d'interno.",
-      "metaDescription": "Soluzione CareBond per gli ospedali: API REST documentata, integrazione HL7/FHIR in sviluppo, RBAC multi-reparto, piante 3D + navigazione interna.",
-      "visualAlt": "Pianta 3D isometrica di un ospedale — sale operatorie, suite IRM, reparto, laboratorio, ingresso principale, con percorso GPS interno",
+      "subtitle": "API REST documentata, integrazione HL7/FHIR in sviluppo, RBAC granulare per ruolo e audit log immutabile. Mappe 3D come servizio su misura. Un segmento verso cui stiamo costruendo.",
+      "metaDescription": "Soluzione CareBond per gli ospedali: API REST documentata, integrazione HL7/FHIR in sviluppo, RBAC granulare per ruolo, mappe 3D come servizio.",
+      "visualAlt": "Mappa 3D isometrica di un ospedale — sale operatorie, sala RM, reparto, laboratorio, ingresso principale, con un percorso segnalato",
       "problem": {
         "eyebrow": "La realtà",
         "heading": "In ospedale, il tempo perso a orientarsi o a reinserire dati è cura persa.",
@@ -1097,19 +1112,19 @@
         "items": {
           "f0": {
             "title": "API REST documentata, HL7/FHIR in sviluppo",
-            "description": "Sincronizzazione con il vostro EMR esistente tramite API REST e webhook già oggi. L'integrazione nativa HL7/FHIR è in fase di sviluppo e farà parte di una prossima versione."
+            "description": "API REST documentata disponibile oggi. Sincronizzazione tramite webhook e integrazione nativa HL7/FHIR in sviluppo, per una prossima versione."
           },
           "f1": {
-            "title": "Multi-reparto e RBAC",
-            "description": "Pronto soccorso, medicina, radiologia: separazioni stagne, permessi granulari per ruolo e reparto. Senza ricodificare la vostra ACL."
+            "title": "RBAC granulare",
+            "description": "Permessi granulari per ruolo e per modulo, con separazione rigorosa dei dati tra istituzioni."
           },
           "f2": {
             "title": "Audit log immutabile",
             "description": "Ogni azione tracciata, esportabile. Traccia conforme ai requisiti LPD e agli audit ospedalieri cantonali."
           },
           "f3": {
-            "title": "Piante 3D e GPS d'interno",
-            "description": "Modellazione isometrica del vostro edificio + GPS integrato che guida visitatori, famiglie e operatori al reparto corretto."
+            "title": "Mappe 3D (servizio)",
+            "description": "Come servizio su misura, modellazione isometrica del vostro edificio per orientare visitatori e famiglie sugli schermi all'ingresso."
           }
         }
       },
@@ -1122,8 +1137,8 @@
     "clinics": {
       "eyebrow": "Per le cliniche private",
       "title": "L'esperienza paziente di alta gamma, con il vostro marchio.",
-      "subtitle": "Chat multilingue per pazienti internazionali, white-label, hosting svizzero. Concepito per le cliniche che vogliono il rigore di una piattaforma professionale senza perdere la propria identità.",
-      "metaDescription": "Soluzione CareBond per cliniche private: chat multilingue, white-label, hosting svizzero esclusivo, conformità LPD.",
+      "subtitle": "Chat multilingue per pazienti internazionali e hosting in Svizzera. Un segmento verso cui stiamo costruendo.",
+      "metaDescription": "Soluzione CareBond per cliniche private: chat multilingue, hosting in Svizzera, conformità nLPD.",
       "visualAlt": "Anteprima del chat multilingue — messaggi FR↔ES tradotti in tempo reale con controllo dell'operatore",
       "problem": {
         "eyebrow": "La realtà",
@@ -1146,8 +1161,8 @@
             "description": "Ogni messaggio nella lingua di ogni interlocutore. L'operatore attiva e disattiva il chat secondo il contesto clinico."
           },
           "f1": {
-            "title": "White-label",
-            "description": "Il vostro marchio, i vostri colori, il vostro dominio. Il nostro zoccolo tecnico, invisibile. I vostri pazienti vedono la vostra clinica, non il nostro logo."
+            "title": "Marchio personalizzabile (roadmap)",
+            "description": "La personalizzazione del marchio per le cliniche private è prevista nel roadmap."
           },
           "f2": {
             "title": "Riservatezza di alta gamma",
@@ -1155,7 +1170,7 @@
           },
           "f3": {
             "title": "Pazienti internazionali",
-            "description": "Hosting principale in Svizzera, accesso ottimizzato per i vostri pazienti che viaggiano o vivono all'estero."
+            "description": "Hosting in Svizzera, accessibile via web per i vostri pazienti che viaggiano o vivono all'estero."
           }
         }
       },
@@ -1221,8 +1236,8 @@
       "eyebrow": "La nostra missione",
       "heading": "Restituire alla cura il tempo che la burocrazia le toglie.",
       "body1": "In una casa di cura svizzera, l'operatore trascorre in media troppe ore a compilare raccoglitori, fare passaggi di consegne al telefono e raccogliere documenti per gli audit. Quelle ore non vanno al residente.",
-      "body2": "CareBond le restituisce alla cura. Centralizzando il giro digitale, l'audit LPD, il chat multilingue, i rapporti firmati crittograficamente e la navigazione interna in una sola piattaforma.",
-      "body3": "Non sostituiamo il vostro EMR esistente. Ci colleghiamo, colmiamo le lacune, e aggiungiamo ciò che mancava — senza rip-and-replace."
+      "body2": "CareBond le restituisce alla cura. Centralizzando il giro digitale, l'audit nLPD, la chat multilingue, i rapporti firmati crittograficamente e l'orientamento con mappe 3D in un'unica piattaforma.",
+      "body3": "Non sostituiamo il vostro EMR esistente. Ci integreremo con esso (integrazione in sviluppo), copriamo i punti ciechi e apportiamo ciò che mancava — senza rip-and-replace."
     },
     "values": {
       "eyebrow": "I nostri valori",
@@ -1272,7 +1287,7 @@
       },
       "encryption": {
         "title": "Crittografia moderna",
-        "description": "TLS 1.3 in transito su server svizzero, crittografia dei backup a riposo, rapporti di visita firmati HMAC."
+        "description": "TLS moderno in transito su server svizzero, crittografia dei campi sensibili (PHI), rapporti di visita firmati HMAC."
       },
       "audit": {
         "title": "Audit log immutabile",
@@ -1290,7 +1305,7 @@
         },
         "kvg": {
           "title": "KVG / LAMal",
-          "description": "Rapporti di visita firmati crittograficamente (HMAC), tracciabilità conforme ai requisiti dell'assicurazione malattia per la fatturazione Spitex e ospedaliera."
+          "description": "Rapporti di visita firmati crittograficamente (HMAC), tracciabilità come base per la giustificazione presso l'assicurazione malattia (Spitex)."
         },
         "transfers": {
           "title": "Trasferimenti internazionali",
@@ -1301,24 +1316,24 @@
     "certifications": {
       "eyebrow": "Certificazioni",
       "heading": "Certificazioni obiettivo",
-      "intro": "Oltre ai requisiti LPD e alla sovranità dei dati già coperti dalla nostra architettura, CareBond lavora per ottenere certificazioni internazionali riconosciute dai team di approvvigionamento ospedalieri.",
+      "intro": "Oltre ai requisiti nLPD e alla sovranità dei dati già coperti dalla nostra architettura, CareBond ha come obiettivo l'ottenimento di certificazioni internazionali attese dai team di approvvigionamento ospedalieri.",
       "items": {
         "iso27001": {
           "title": "ISO/IEC 27001",
-          "status": "Iter in preparazione",
-          "description": "Sistema di gestione della sicurezza delle informazioni. Iter di certificazione in preparazione per il 2026-2027."
+          "status": "Obiettivo a medio termine",
+          "description": "Sistema di gestione della sicurezza delle informazioni. Certificazione fissata come obiettivo a medio termine."
         },
         "hds": {
           "title": "HDS — Hébergeur de Données de Santé",
-          "status": "Iter in preparazione",
-          "description": "Certificazione francese di riferimento per l'hosting di dati sanitari. In valutazione per la nostra offerta destinata alle strutture svizzere che richiedono una qualifica HDS-equivalente."
+          "status": "Obiettivo (riferimento)",
+          "description": "Riferimento francese per l'hosting di dati sanitari, considerato come obiettivo comparativo. Il nostro argomento principale è l'hosting in Svizzera."
         }
       }
     },
     "docs": {
       "eyebrow": "Documentazione tecnica",
       "title": "I vostri team legali e IT vogliono i dettagli?",
-      "description": "Manteniamo a disposizione la documentazione tecnica completa: architettura, flussi di dati, audit log, politiche di conservazione, contratti dei responsabili del trattamento. Su richiesta, senza moduli da compilare.",
+      "description": "Manteniamo a disposizione la documentazione tecnica completa: architettura, flussi di dati, audit log, politiche di conservazione, modelli di contratto con i responsabili del trattamento. Su richiesta, senza moduli da compilare.",
       "secondary": "Leggere la nostra informativa sulla privacy"
     }
   },
