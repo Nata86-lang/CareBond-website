@@ -111,7 +111,7 @@ export async function generateMetadata({
   const description = tPage("subtitle");
   const languages = Object.fromEntries(
     locales.map((l) => [
-      l === "en" ? "en" : `${l}-CH`,
+      l,
       `${SITE_URL}/${l}/platform/${slug}`,
     ]),
   );

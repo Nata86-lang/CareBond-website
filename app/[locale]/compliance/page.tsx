@@ -9,6 +9,7 @@ import {
   Globe2,
   Lock,
   MapPin,
+  Scale,
   ServerCog,
   ShieldCheck,
 } from "lucide-react";
@@ -28,7 +29,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "compliancePage" });
   const languages = Object.fromEntries(
     locales.map((l) => [
-      l === "en" ? "en" : `${l}-CH`,
+      l,
       `${SITE_URL}/${l}/compliance`,
     ]),
   );
@@ -63,8 +64,8 @@ export default async function CompliancePage({
 
   const PILLAR_ICONS = [ShieldCheck, MapPin, Lock, ClipboardCheck] as const;
   const PILLAR_KEYS = ["nlpd", "hosting", "encryption", "audit"] as const;
-  const REGULATION_ICONS = [ShieldCheck, FileSignature, Globe2] as const;
-  const REGULATION_KEYS = ["nlpd", "kvg", "transfers"] as const;
+  const REGULATION_ICONS = [Scale, ShieldCheck, FileSignature, Globe2] as const;
+  const REGULATION_KEYS = ["gdpr", "nlpd", "kvg", "transfers"] as const;
   const CERTIFICATION_ICONS = [Award, ServerCog] as const;
   const CERTIFICATION_KEYS = ["iso27001", "hds"] as const;
 
@@ -128,7 +129,7 @@ export default async function CompliancePage({
               {t("regulations.intro")}
             </p>
           </div>
-          <ul className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3 lg:gap-8">
+          <ul className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:gap-8">
             {REGULATION_KEYS.map((k, i) => {
               const Icon = REGULATION_ICONS[i] ?? ShieldCheck;
               return (

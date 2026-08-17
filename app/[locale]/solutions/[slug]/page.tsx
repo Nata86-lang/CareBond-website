@@ -81,7 +81,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: `solutions.${slug}` });
   const languages = Object.fromEntries(
     locales.map((l) => [
-      l === "en" ? "en" : `${l}-CH`,
+      l,
       `${SITE_URL}/${l}/solutions/${slug}`,
     ]),
   );

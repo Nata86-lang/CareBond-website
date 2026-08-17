@@ -1,0 +1,1368 @@
+{
+  "nav": {
+    "solutions": "Solucions",
+    "features": "Funcionalitats",
+    "compliance": "Conformitat",
+    "about": "Qui som",
+    "contact": "Contacte",
+    "demo": "Demo",
+    "solutionsMenu": {
+      "ems": "Per a les residències",
+      "homeCare": "Per a l'atenció domiciliària",
+      "hospitals": "Per a hospitals",
+      "clinics": "Per a clíniques",
+      "recovery": "Per a les cures de recuperació"
+    }
+  },
+  "header": {
+    "logoAriaLabel": "CareBond — Inici",
+    "navAriaLabel": "Navegació principal",
+    "mobileMenuOpen": "Obrir el menú",
+    "mobileMenuClose": "Tancar el menú"
+  },
+  "cta": {
+    "primary": "Sol·licitar una demostració",
+    "secondary": "Veure les funcionalitats",
+    "viewPlatform": "Veure la plataforma",
+    "learnMore": "Saber-ne més"
+  },
+  "hero": {
+    "eyebrow": "PLATAFORMA DE COMUNICACIÓ PER A LA CURA",
+    "title": "La capa de comunicació segura que connecta pacients, famílies i professionals.",
+    "subtitle": "Un sistema de comunicació i coordinació complet i independent per a establiments de cura amb o sense programari previ. CareBond connecta direcció, professionals, pacients i famílies amb protecció de dades des del disseny — RGPD i nLPD — i allotjament a Suïssa. La integració amb el seu HIS/ERP està en desenvolupament.",
+    "trust": {
+      "label": "Privadesa de nivell suís",
+      "nlpd": "RGPD i nLPD des del disseny",
+      "hosting": "Allotjament a Suïssa",
+      "encryption": "Xifratge modern",
+      "swissMade": "Swiss Made"
+    },
+    "ecosystem": {
+      "ariaLabel": "Demostració de l'ecosistema CareBond: aplicacions pacient, família, professional i tauler d'administració",
+      "pauseLabel": "Posar en pausa la demostració",
+      "playLabel": "Iniciar la demostració",
+      "patient": {
+        "greeting": "Hola, Maria",
+        "chat": "Xat",
+        "calls": "Trucades",
+        "visits": "Visites",
+        "family": "Família",
+        "vitals": "Constants",
+        "permissions": "Permisos"
+      },
+      "family": {
+        "title": "Família · Maria",
+        "miniReportTitle": "Mini-informe",
+        "miniReportTime": "Avui · 14 h",
+        "miniReportBody": "La Maria ha passat bé el matí. Tensió normal.",
+        "livestreamLabel": "Videotrucada",
+        "liveBadge": "EN DIRECTE"
+      },
+      "professional": {
+        "title": "Els meus pacients (12)"
+      },
+      "dashboard": {
+        "sidebar": {
+          "dashboard": "Tauler de control",
+          "users": "Usuaris",
+          "logs": "Registres",
+          "config": "Config",
+          "logout": "Tancar la sessió"
+        },
+        "search": "Cerca global",
+        "demoBadge": "Dades de demostració",
+        "welcome": "Hola, Admin",
+        "residents": "Total de pacients",
+        "professionals": "Professionals actius",
+        "alerts": "Alertes en espera",
+        "devices": "Dispositius registrats",
+        "activityTitle": "Pacients atesos",
+        "previousPeriod": "Període anterior",
+        "currentPeriod": "Període actual",
+        "overallTitle": "Vista general",
+        "conversations": "Converses",
+        "families": "Famílies",
+        "usageOverview": "Utilització",
+        "firstTime": "Primera visita",
+        "returnUsers": "Recurrents",
+        "recentActivities": "Activitat recent",
+        "activityPasswordReset": "Contrasenya restablerta",
+        "importantAlerts": "Alertes importants",
+        "viewAll": "Veure-ho tot",
+        "alertSample": "Consentiment a punt de vèncer",
+        "alertWarning": "Avís",
+        "alertSampleBody": "El consentiment de comunicació d'un pacient venç aviat."
+      }
+    },
+    "demoAriaLabel": "Demostració: xat multilingüe que tradueix automàticament entre castellà i francès",
+    "demoPauseLabel": "Posar en pausa l'animació",
+    "demoPlayLabel": "Iniciar l'animació",
+    "chatDemoRole": "Pacient",
+    "b2b": {
+      "centerNode": {
+        "title": "El seu HIS / ERP",
+        "subtitle": "Connector CareBond · en desenvolupament"
+      },
+      "management": {
+        "title": "Direcció i TI",
+        "tag": "Traçabilitat i compliment",
+        "desc": "Logs immutables d'accessos en temps real."
+      },
+      "staff": {
+        "title": "Personal Autoritzat",
+        "tag": "Informes i Relleus",
+        "desc": "Expedient unificat a l'instant entre l'equip assignat al pacient i check-in GPS a domicili."
+      },
+      "patient": {
+        "title": "Pacients i Residents",
+        "tag": "SOS i Inclusió",
+        "desc": "SOS tàctil adaptat i videotrucades directes amb els familiars."
+      },
+      "family": {
+        "title": "Famílies",
+        "tag": "Informes i Tranquil·litat",
+        "desc": "Mini-informes de part del professional i videotrucades amb el resident."
+      }
+    }
+  },
+  "platform": {
+    "bento": {
+      "eyebrow": "La plataforma",
+      "title": "Sis canals de comunicació, una sola plataforma integrada.",
+      "subtitle": "Ja sigui com a capa de comunicació integrada al seu HIS/ERP actual o com a solució completa i independent per a establiments sense programari previ, tot està dissenyat per connectar de manera segura directors, professionals i famílies.",
+      "learnMore": "Descobrir",
+      "pillars": {
+        "oversight": {
+          "eyebrow": "Direcció",
+          "title": "Supervisió institucional",
+          "description": "Canal unificat per a la supervisió d'alertes, fluxos de comunicació i KPIs de cada seu en temps real des d'un únic tauler centralitzat.",
+          "kpiResidents": "Pacients",
+          "kpiProfessionals": "Professionals",
+          "kpiAlerts": "Alertes",
+          "kpiDevices": "Dispositius"
+        },
+        "audit": {
+          "eyebrow": "Conformitat",
+          "title": "Audit log i traçabilitat completa",
+          "description": "Canal immutable de registre d'accessos i modificacions en temps real, dissenyat des de l'arquitectura per al compliment del RGPD europeu i de la nLPD suïssa.",
+          "kpiResidents": "Pacients",
+          "kpiProfessionals": "Professionals",
+          "kpiAlerts": "Alertes",
+          "kpiDevices": "Dispositius"
+        },
+        "livestream": {
+          "eyebrow": "Presència",
+          "title": "Telepresència i videotrucades",
+          "description": "Canals de vídeo xifrats en trànsit sobre servidors suïssos: comunicació directa pacient-família i fluxos de videotrucada regulats sota l'estricte control del professional.",
+          "kpiResidents": "Pacients",
+          "kpiProfessionals": "Professionals",
+          "kpiAlerts": "Alertes",
+          "kpiDevices": "Dispositius"
+        },
+        "chat-multilingue": {
+          "eyebrow": "Comunicació",
+          "title": "Xat multilingüe inclusiu",
+          "description": "Canal de traducció automàtica en temps real que elimina les barreres lingüístiques entre el personal sanitari, els residents i les seves famílies.",
+          "kpiResidents": "Pacients",
+          "kpiProfessionals": "Professionals",
+          "kpiAlerts": "Alertes",
+          "kpiDevices": "Dispositius"
+        },
+        "rounds": {
+          "eyebrow": "Cura",
+          "title": "Coordinació i relleus assistencials",
+          "description": "Sincronitzi instantàniament el seu equip mèdic. Registri signes vitals i notes de torn a l'app professional per transferir informació sense pèrdues entre relleus autoritzats, tot generant en paral·lel mini-informes per a les famílies.",
+          "kpiResidents": "Pacients",
+          "kpiProfessionals": "Professionals",
+          "kpiAlerts": "Alertes",
+          "kpiDevices": "Dispositius"
+        },
+        "floor-plans": {
+          "eyebrow": "Orientació",
+          "title": "Plànols 3D i orientació (servei)",
+          "description": "Servei a mida: plànols 3D interactius per a pantalles i quioscos a l'entrada, que ajuden familiars i visitants a orientar-se.",
+          "kpiResidents": "Pacients",
+          "kpiProfessionals": "Professionals",
+          "kpiAlerts": "Alertes",
+          "kpiDevices": "Dispositius",
+          "alt": "Plànol 3D isomètric d'una residència medicalitzada — ala de memòria, centre d'activitats, jardí terapèutic, perruqueria, vestíbul principal"
+        }
+      }
+    },
+    "stubShared": {
+      "intro": "Una demostració personalitzada li mostra aquesta capacitat en directe, amb els seus casos d'ús.",
+      "emailLead": "Per a una demo, escrigui'ns a",
+      "backToHome": "Tornar a l'inici"
+    },
+    "pages": {
+      "oversight": {
+        "subtitle": "Un canal unificat de supervisió per a la direcció. Supervisi fluxos de comunicació, KPIs comparables i alertes prioritàries des d'un únic tauler centralitzat.",
+        "visualAlt": "Tauler institucional — KPIs de residents, professionals, alertes, dispositius connectats",
+        "capabilities": {
+          "eyebrow": "Capacitats",
+          "heading": "Canals i dades que supervisa",
+          "intro": "El tauler institucional centralitza la comunicació i la telemetria en indicadors llegibles sense fricció operativa.",
+          "items": {
+            "f0": {
+              "title": "KPIs de comunicació i ús",
+              "description": "Seguiment de l'ús del xat familiar i de l'estat dels dispositius registrats a cada residència."
+            },
+            "f1": {
+              "title": "Notificacions i SOS",
+              "description": "El SOS del pacient i les notificacions importants arriben a l'instant als professionals assignats."
+            },
+            "f2": {
+              "title": "Supervisió multicentre",
+              "description": "Controli múltiples centres des d'un tauler unificat, amb separació estricta de dades per seu."
+            },
+            "f3": {
+              "title": "RBAC granular",
+              "description": "Direcció, responsables de servei, professionals: cadascú veu el que ha de veure, i res més."
+            }
+          }
+        },
+        "compliance": "Audit log integrat, traçabilitat immutable de cada accés i acció de gestió. Documentació a punt per a les seves auditories internes i les autoritats de protecció de dades.",
+        "cta": {
+          "eyebrow": "Propera etapa",
+          "title": "Vegem el seu tauler de control en directe.",
+          "description": "30 minuts per calibrar la gestió a la seva estructura real i parlar dels indicadors que compten per a vostè."
+        }
+      },
+      "audit": {
+        "subtitle": "Canal de traçabilitat i conformitat legal. Un registre immutable de cada comunicació i accés clínic, dissenyat en l'arquitectura del sistema per als requisits del RGPD i de la nLPD suïssa.",
+        "visualAlt": "Vista prèvia del mòdul Audit — quatre pilars: protecció de dades nativa, allotjament a Suïssa, xifratge modern, audit log immutable",
+        "capabilities": {
+          "eyebrow": "Capacitats",
+          "heading": "Interaccions que registra",
+          "intro": "L'audit log immutable registra de manera transparent cada accés, signatura i flux de comunicació assistencial en una infraestructura sobirana allotjada a Suïssa.",
+          "items": {
+            "f0": {
+              "title": "Accessos i lectures clíniques",
+              "description": "Traçabilitat de quin professional ha accedit a cada expedient de pacient assignat, amb hora i adreça IP."
+            },
+            "f1": {
+              "title": "Modificacions a l'expedient",
+              "description": "Registre dels canvis als perfils de residents, els plans de cures o els informes de visita, amb un historial complet de l'abans i el després."
+            },
+            "f2": {
+              "title": "Signatures HMAC d'informes",
+              "description": "Informes de visita signats digitalment, a punt per a la validació de facturació i les auditories de l'assegurança de salut (p. ex. KVG/LAMal a Suïssa)."
+            },
+            "f3": {
+              "title": "Exportacions i retenció",
+              "description": "Exportació estructurada per a les seves auditories internes, amb política de retenció configurable segons el tipus de dada."
+            }
+          }
+        },
+        "compliance": "Protecció de dades des del disseny — RGPD i nLPD. Traça a punt per a les autoritats de protecció de dades i per a les seves auditories internes i externes.",
+        "cta": {
+          "eyebrow": "Propera etapa",
+          "title": "Vegem l'audit log amb un cas real.",
+          "description": "30 minuts per demostrar la traçabilitat en un escenari que l'afecta — incident, sol·licitud d'accés, auditoria de conformitat."
+        }
+      },
+      "livestream": {
+        "subtitle": "Canal de telepresència i videotrucades controlades. Habiliti videotrucades directes pacient-família i fluxos de vídeo estrictament autoritzats pel professional, amb xifratge en trànsit i servidors a Suïssa.",
+        "visualAlt": "Vista prèvia de l'aplicació família — videotrucada i mini-informe diari",
+        "capabilities": {
+          "eyebrow": "Capacitats",
+          "heading": "Canals i control de telepresència",
+          "intro": "El flux de vídeo en temps real és un canal de confiança i proximitat, no de vigilància. El pacient i el professional gestionen la comunicació.",
+          "items": {
+            "f0": {
+              "title": "Canal consentit i segur",
+              "description": "El professional inicia el canal de telepresència; el pacient controla el seu mode de privadesa per tallar-lo en qualsevol moment."
+            },
+            "f1": {
+              "title": "Registre d'accessos complet",
+              "description": "Cada connexió al vídeo queda registrada a l'audit log: qui s'hi ha connectat, quan i durant quant de temps."
+            },
+            "f2": {
+              "title": "Sense gravació, mai",
+              "description": "El flux es difon en temps real i no es grava mai, en cap suport. Cap arxiu de vídeo conservat, cap historial de vídeo — només l'stream en directe."
+            },
+            "f3": {
+              "title": "Allotjament a Suïssa",
+              "description": "El relay de vídeo s'allotja a Suïssa. Sense núvol estranger per al contingut, sense exposició extraterritorial del contingut multimèdia."
+            }
+          }
+        },
+        "compliance": "Protecció de dades de vídeo des del disseny — RGPD i nLPD. Consentiment revocable en qualsevol moment, registre d'accessos exportable a petició.",
+        "cta": {
+          "eyebrow": "Propera etapa",
+          "title": "Vegem el livestream en el seu context.",
+          "description": "30 minuts per parlar dels casos — atenció domiciliària, residència o clínica — on aquest mòdul té sentit, i d'aquells on no."
+        }
+      },
+      "chat-multilingue": {
+        "subtitle": "Canal de comunicació multilingüe interactiu. Tradueixi a l'instant les converses entre famílies i personal sanitari en múltiples idiomes per superar les barreres lingüístiques en entorns de cura multiculturals.",
+        "visualAlt": "Demostració en directe del xat multilingüe — traducció FR↔ES amb control del professional i registre complet",
+        "capabilities": {
+          "eyebrow": "Capacitats",
+          "heading": "Canal de traducció automàtica",
+          "intro": "Cada part escriu en el seu propi idioma i llegeix la traducció a l'instant, sota el control clínic i els horaris del professional.",
+          "items": {
+            "f0": {
+              "title": "Traducció en temps real",
+              "description": "Sense latència perceptible. El destinatari veu el missatge en el seu idioma fins i tot abans de tenir temps de pensar-hi."
+            },
+            "f1": {
+              "title": "Control per part del professional",
+              "description": "El professional controla la seva disponibilitat i qui li pot escriure, segons el context clínic. Sense intrusions fora del canal autoritzat."
+            },
+            "f2": {
+              "title": "Allotjament a Suïssa",
+              "description": "La traducció es fa en infraestructura pròpia a Suïssa, no en els hyperscalers. Sense enviaments a Google ni a OpenAI."
+            },
+            "f3": {
+              "title": "Bidireccional i traçable",
+              "description": "Cada missatge es conserva en tots dos idiomes. L'audit log inclou la traça completa de les traduccions."
+            }
+          }
+        },
+        "compliance": "Comunicació pacient-professional amb protecció de dades des del disseny — RGPD i nLPD. Cap fuga cap als serveis de traducció de consum massiu.",
+        "cta": {
+          "eyebrow": "Propera etapa",
+          "title": "Vegem el xat multilingüe en directe.",
+          "description": "30 minuts per provar el seu cas real de barrera lingüística i parlar de la integració en els seus itineraris de cura."
+        }
+      },
+      "rounds": {
+        "subtitle": "La visita del dia, les constants vitals, les alertes i les notes de visita compartides: tot a la butxaca del cuidador. Dissenyat per a residències i serveis d'atenció domiciliària.",
+        "visualAlt": "Aplicació del professional — llista dels pacients del dia amb signes vitals, alertes i estat",
+        "capabilities": {
+          "eyebrow": "Capacitats",
+          "heading": "Coordinació i fluxos d'informació",
+          "intro": "Sincronització instantània de notes de torn i constants, que elimina les pèrdues d'informació i la paperassa en els relleus.",
+          "items": {
+            "f0": {
+              "title": "Visita preorganitzada",
+              "description": "La visita del dia és a punt a l'arribada. Habitació per habitació a la residència, o domicili per domicili a l'atenció domiciliària."
+            },
+            "f1": {
+              "title": "Notes de visita",
+              "description": "Observacions, estat del pacient i notes de seguiment registrades a cada visita."
+            },
+            "f2": {
+              "title": "GPS per al domicili",
+              "description": "Per a l'atenció domiciliària: geofencing GPS que valida automàticament la presència al domicili del pacient."
+            },
+            "f3": {
+              "title": "Notes amb marca de temps",
+              "description": "Una nota de visita amb marca de temps, compartida amb l'equip de cures assignat."
+            },
+            "f4": {
+              "title": "Informes compartits i relleus instantanis",
+              "description": "Cada consulta, observació o nota registrada queda visible per a tots els professionals assignats al mateix pacient — torn de dia, torn de nit, metge tractant, proveïdors externs. S'han acabat les pèrdues d'informació entre relleus. El professional envia en paral·lel un mini-informe filtrat a la família, amb el seu consentiment, sense exposar l'expedient mèdic complet."
+            }
+          }
+        },
+        "compliance": "Informes signats amb HMAC, a punt per a la validació de facturació i l'auditoria. Audit log natiu en cada acció del professional i cada accés a l'expedient compartit del pacient.",
+        "cta": {
+          "eyebrow": "Propera etapa",
+          "title": "Vegem una visita digital a la seva estructura.",
+          "description": "30 minuts per calibrar el mòdul en els seus itineraris assistencials — residència, domicili o tots dos."
+        }
+      },
+      "floor-plans": {
+        "subtitle": "Servei d'orientació amb plànols 3D. Dissenyem plànols interactius per a pantalles i quioscos a l'entrada, que ajuden familiars i visitants a orientar-se.",
+        "visualAlt": "Plànol 3D isomètric d'un hospital — quiròfans, sala d'RM, planta, laboratori, vestíbul principal, amb un recorregut senyalitzat",
+        "capabilities": {
+          "eyebrow": "Capacitats",
+          "heading": "Servei de senyalització digital 3D",
+          "intro": "Modelem el seu edifici en un plànol interactiu que es desplega en quioscos d'entrada, ajudant les visites a orientar-se.",
+          "items": {
+            "f0": {
+              "title": "Modelatge a mida",
+              "description": "Plantes, serveis, habitacions, recepcions, accessos — el seu edifici, a escala, a l'app de cada actor."
+            },
+            "f1": {
+              "title": "Recorreguts al plànol",
+              "description": "Recorreguts senyalitzats al plànol des de la recepció fins a l'habitació o el servei que es busca."
+            },
+            "f2": {
+              "title": "Suport a la planificació",
+              "description": "El plànol ajuda la direcció a visualitzar la disposició i a planificar la circulació de visitants."
+            },
+            "f3": {
+              "title": "Multiedifici",
+              "description": "Residències amb diversos pavellons o edificis annexos: representats en un mateix plànol."
+            }
+          }
+        },
+        "compliance": "El plànol d'orientació no rastreja ni emmagatzema la ubicació de les persones.",
+        "cta": {
+          "eyebrow": "Propera etapa",
+          "title": "Vegem el seu edifici modelat.",
+          "description": "30 minuts per parlar del modelatge del plànol 3D del seu establiment."
+        }
+      }
+    }
+  },
+  "pourQui": {
+    "eyebrow": "Per a qui",
+    "title": "Dissenyada per a cada tipus d'establiment.",
+    "subtitle": "Tres entorns de cures —residències, atenció domiciliària i recuperació—, a més d'hospitals i clíniques. Cadascun amb la seva pròpia realitat, tots en una única plataforma de comunicació amb la mateixa promesa: privadesa de nivell suís i protecció de dades des del disseny.",
+    "tabsAriaLabel": "Seleccioni el seu tipus d'establiment",
+    "audiences": {
+      "ems": {
+        "label": "Residències",
+        "title": "Per a les residències",
+        "description": "Gestió multiinstitució, audit log immutable, RBAC granular. Tota la casa, en una pantalla.",
+        "features": {
+          "f0": {
+            "title": "Multiinstitució",
+            "description": "Gestió de diverses residències des d'una única consola. KPIs comparables, separació estricta de les dades."
+          },
+          "f1": {
+            "title": "Audit log immutable",
+            "description": "Traça immutable d'accessos i modificacions. Documentació disponible per a les seves auditories internes i externes."
+          },
+          "f2": {
+            "title": "Multiequip i RBAC",
+            "description": "Direcció, professionals, conserges — cadascú amb el seu nivell d'accés i la seva interfície, amb permisos granulars."
+          }
+        }
+      },
+      "spitex": {
+        "label": "Domicili",
+        "title": "Per a l'atenció domiciliària",
+        "description": "Connexió professional ↔ pacient ↔ família a distància, amb validació GPS de les visites i informes signats criptogràficament.",
+        "features": {
+          "f0": {
+            "title": "Visites amb GPS",
+            "description": "Geofencing GPS per validar automàticament les presències al domicili, sense fotos ni trucades de control."
+          },
+          "f1": {
+            "title": "Informes signats HMAC",
+            "description": "Cada informe de visita està signat criptogràficament, llest per a facturació i auditoria."
+          },
+          "f2": {
+            "title": "Alertes prioritzades",
+            "description": "El professional veu primer allò urgent. La resta passa a la cua, sense soroll."
+          }
+        }
+      },
+      "hospitals": {
+        "label": "Hospitals",
+        "title": "Per als hospitals",
+        "description": "API REST documentada, RBAC granular i audit log immutable. Un segment en desenvolupament.",
+        "features": {
+          "f0": {
+            "title": "API REST documentada",
+            "description": "API REST documentada disponible avui. Sincronització via webhooks i integració HL7/FHIR en desenvolupament."
+          },
+          "f1": {
+            "title": "RBAC granular",
+            "description": "Permisos granulars per rol i per mòdul, amb separació estricta de dades."
+          },
+          "f2": {
+            "title": "Audit log immutable",
+            "description": "Cada acció queda traçada. Traça llesta per a les seves auditories hospitalàries i de protecció de dades."
+          }
+        },
+        "tile": {
+          "eyebrow": "Concepte · Multiservei",
+          "title": "Gestió en temps real",
+          "liveLabel": "Live",
+          "patientsLabel": "pacients",
+          "departments": {
+            "emergency": "Urgències",
+            "medicine": "Medicina",
+            "geriatrics": "Geriatria",
+            "pediatrics": "Pediatria",
+            "surgery": "Cirurgia",
+            "radiology": "Radiologia"
+          }
+        }
+      },
+      "clinics": {
+        "label": "Clíniques",
+        "title": "Per a les clíniques privades",
+        "description": "Experiència de pacient d'alta gamma, videotrucades i xat multilingüe. Un segment en desenvolupament.",
+        "features": {
+          "f0": {
+            "title": "Marca personalitzable (roadmap)",
+            "description": "La personalització de marca està prevista al roadmap."
+          },
+          "f1": {
+            "title": "Allotjament a Suïssa",
+            "description": "Allotjament a Suïssa, accessible des de qualsevol lloc del món."
+          },
+          "f2": {
+            "title": "Multilingüe automàtic",
+            "description": "Cada missatge rebut en l'idioma triat. La barrera lingüística desapareix per als seus pacients i famílies internacionals."
+          }
+        },
+        "tile": {
+          "role": "Pacient · Barcelona"
+        }
+      },
+      "recovery": {
+        "label": "Recuperació",
+        "title": "Per a la recuperació i la rehabilitació",
+        "description": "Mantingui connectats els pacients en recuperació amb el seu equip de cures i la seva família després de l'alta: check-ins guiats, xat i vídeo, sense perdre el contacte.",
+        "features": {
+          "f0": {
+            "title": "Check-ins guiats",
+            "description": "El pacient informa per si mateix de com va la seva recuperació. El professional de cures ho veu sense ni una sola trucada telefònica."
+          },
+          "f1": {
+            "title": "Una línia directa amb l'equip de cures",
+            "description": "El xat segur i el vídeo iniciat pel professional mantenen el pacient acompanyat entre cita i cita."
+          },
+          "f2": {
+            "title": "La família, sempre al corrent",
+            "description": "Els mini-informes automàtics tranquil·litzen la família a distància, sense exposar l'expedient complet."
+          }
+        }
+      }
+    }
+  },
+  "compliance": {
+    "eyebrow": "Conformitat",
+    "title": "Privadesa de nivell suís, dissenyada per al RGPD i la nLPD.",
+    "subtitle": "Protecció de dades des del disseny, allotjament a Suïssa, audit log immutable. La conformitat és a l'arquitectura, no en un annex contractual.",
+    "trustLine": "Documentació tècnica disponible a petició per als seus serveis jurídics i d'IT.",
+    "pillars": {
+      "nlpd": {
+        "title": "RGPD i nLPD des del disseny",
+        "description": "Audit log natiu d'accessos i modificacions, dissenyat per als requisits del RGPD europeu i de la nLPD suïssa des de la primera línia de codi."
+      },
+      "hosting": {
+        "title": "Allotjament a Suïssa",
+        "description": "Infraestructura allotjada a Suïssa (Infomaniak, Ginebra), país amb decisió d'adequació de la Comissió Europea. Les dades del pacient no surten d'aquesta infraestructura."
+      },
+      "encryption": {
+        "title": "Xifratge modern",
+        "description": "TLS modern en trànsit, xifratge dels camps sensibles (PHI), informes de visita signats HMAC."
+      },
+      "audit": {
+        "title": "Audit log immutable",
+        "description": "Traça immutable de cada accés i modificació. Multiinstitució amb RBAC granular i separació estricta de dades."
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "Preguntes freqüents",
+    "title": "Abans de demanar una demo.",
+    "subtitle": "Les preguntes que les direccions de residències, serveis d'atenció domiciliària i hospitals ens fan més sovint.",
+    "questions": {
+      "q0": {
+        "question": "Com és l'onboarding?",
+        "answer": "Acompanyem la migració dels expedients existents i formem els equips in situ. El calendari precís es defineix després d'una auditoria de la institució durant la demo."
+      },
+      "q1": {
+        "question": "Com s'integren amb el nostre sistema existent?",
+        "answer": "API REST documentada. Sincronització possible via webhooks i exportacions CSV/JSON. La integració nativa HL7/FHIR per a hospitals està en desenvolupament i formarà part d'una propera versió."
+      },
+      "q2": {
+        "question": "Què passa si decidim marxar?",
+        "answer": "Les seves dades són seves. Exportació completa a petició, sense costos, en formats oberts (CSV, JSON). Les condicions precises de sortida es defineixen al contracte."
+      },
+      "q3": {
+        "question": "Com funciona la tarifació?",
+        "answer": "Pressupost personalitzat establert després d'una demo de 30 minuts, segons la mida de la institució, els mòduls triats i el nombre d'usuaris."
+      },
+      "q4": {
+        "question": "On s'allotgen les dades?",
+        "answer": "A Suïssa. Infraestructura allotjada a Infomaniak (Ginebra). Suïssa disposa d'una decisió d'adequació de la Comissió Europea, per la qual cosa aquest allotjament és plenament compatible amb el RGPD per a clients europeus. Les dades del pacient no surten d'aquesta infraestructura."
+      },
+      "q5": {
+        "question": "Com es demana una demo?",
+        "answer": "Sol·liciti una demo de 30 minuts a través del formulari de contacte o per correu electrònic. Després establim un pressupost personalitzat un cop hem comprès les seves necessitats."
+      }
+    }
+  },
+  "finalCta": {
+    "eyebrow": "A punt per a la demo",
+    "title": "Una demo personalitzada segons la seva institució.",
+    "subtitle": "30 minuts. Li mostrem CareBond amb els seus casos d'ús reals — no una demo genèrica que s'assembla a qualsevol altra.",
+    "secondary": "Escriure'ns directament"
+  },
+  "floorPlans": {
+    "eyebrow": "Plànols 3D i guiatge a l'entrada",
+    "title": "Els seus familiars, visitants i professionals externs ja no es perden.",
+    "subtitle": "Com a servei a mida, CareBond dissenya el plànol 3D del seu edifici per a pantalles i quioscos a l'entrada del seu establiment, ajudant familiars, visitants i professionals externs a orientar-se cap a l'habitació o el servei que busquen.",
+    "learnMore": "Més informació sobre els plànols 3D",
+    "bullets": {
+      "b0": {
+        "title": "Plànol 3D a mida",
+        "description": "Modelem el seu edifici en isomètric: plantes, serveis, habitacions, recepcions. Un cop construït, el plànol viu en pantalles interactives a l'entrada de la seva institució."
+      },
+      "b1": {
+        "title": "Suport a la planificació",
+        "description": "El plànol 3D ajuda la direcció a visualitzar la disposició de l'edifici i a planificar la circulació de visitants."
+      },
+      "b2": {
+        "title": "Orientació a la recepció",
+        "description": "Des del quiosc de recepció, visitants i famílies consulten el plànol per orientar-se cap a l'habitació o el servei que busquen."
+      }
+    },
+    "hospital": {
+      "alt": "Plànol 3D isomètric d'un hospital — habitacions, quiròfans, sala d'RM, laboratori, recepció, amb un recorregut senyalitzat entre els serveis",
+      "eyebrow": "Vista prèvia · Plànol hospitalari",
+      "title": "Plànol interactiu de l'edifici",
+      "liveLabel": "Plànol",
+      "youAreHere": "Vostè",
+      "pathLabel": "Recorregut suggerit",
+      "distance": "92 m",
+      "eta": "1 min",
+      "rooms": {
+        "reception": "Recepció",
+        "waiting": "Sala d'espera",
+        "office": "Despatx de direcció",
+        "consultation": "Consulta",
+        "treatment": "Tractament",
+        "imaging": "Radiologia",
+        "pharmacy": "Farmàcia"
+      }
+    }
+  },
+  "chatMultilingue": {
+    "eyebrow": "Xat multilingüe",
+    "title": "El professional parla francès. La família parla castellà. CareBond tradueix.",
+    "subtitle": "En qualsevol sistema de salut, molts pacients i famílies no parlen l'idioma de qui en té cura. CareBond tradueix a l'instant entre els idiomes compatibles, eliminant les barreres de comunicació.",
+    "learnMore": "Més informació sobre el xat multilingüe",
+    "bullets": {
+      "b0": {
+        "title": "Traducció en temps real",
+        "description": "Sense latència perceptible. El destinatari veu el missatge en el seu idioma abans i tot de pensar a llegir-lo."
+      },
+      "b1": {
+        "title": "Allotjament a Suïssa",
+        "description": "El contingut no surt mai de la nostra infraestructura. Traducció feta en servidors propis a Suïssa, no als hyperscalers."
+      },
+      "b2": {
+        "title": "Bidireccional i traçable",
+        "description": "Cada missatge es conserva en tots dos idiomes. L'audit log inclou la traça completa de les traduccions."
+      },
+      "b3": {
+        "title": "Control per part del professional",
+        "description": "El professional controla la seva disponibilitat i qui li pot escriure. El control queda del costat professional."
+      }
+    }
+  },
+  "moduleResidences": {
+    "eyebrow": "Mòdul Residències",
+    "title": "Dissenyat per a les residències, des de l'ingrés fins a l'auditoria.",
+    "subtitle": "Un dels tres entorns de cures als quals dona servei CareBond. Dissenyat per a la residència que vol un expedient del pacient estructurat, una visita digital a la butxaca del cuidador i una exportació d'activitats llesta per a les seves auditories.",
+    "pillars": {
+      "admission": {
+        "title": "Ingrés i expedient del pacient",
+        "description": "Tot comença per un ingrés. CareBond transforma aquesta primera etapa en un expedient del pacient estructurat, amb protecció de dades garantida des del primer clic.",
+        "bullets": {
+          "b0": "Formulari d'ingrés estandarditzat, conforme als requisits de protecció de dades i adaptable a les especificitats regionals",
+          "b1": "Registre del curador legal i de les voluntats anticipades",
+          "b2": "Importació de dades de salut via estàndards FHIR (en desenvolupament)",
+          "b3": "Expedient desmaterialitzat, accessible a l'equip autoritzat"
+        }
+      },
+      "rounds": {
+        "title": "Visita digital i signes vitals",
+        "description": "El professional entra, obre l'app, veu la seva visita del dia. Constants, alertes, medicaments — tot a la butxaca, validat en dos tocs.",
+        "bullets": {
+          "b0": "Visita del dia preorganitzada, habitació per habitació",
+          "b1": "Observacions i estat del pacient registrats a cada visita",
+          "b2": "Notificacions de visites i esdeveniments de l'agenda",
+          "b3": "Nota de visita signada, amb marca de temps",
+          "b4": "Informes compartits amb tot l'equip assistencial assignat al pacient — s'han acabat les pèrdues d'informació entre relleus, mini-informe filtrat enviat en paral·lel a la família"
+        }
+      },
+      "audit": {
+        "title": "Audit log i traçabilitat",
+        "description": "Cada accés, cada acció, cada modificació es traça de manera immutable. Documentació llesta per a les seves auditories internes i per a la transparència davant les autoritats.",
+        "bullets": {
+          "b0": "Audit log natiu d'accessos i modificacions",
+          "b1": "Filtratge per període, resident, professional",
+          "b2": "Informes de visita signats HMAC, llestos per a facturació i auditoria",
+          "b3": "Exportació estructurada per a les seves auditories internes i externes"
+        }
+      }
+    }
+  },
+  "soignerSansSilos": {
+    "eyebrow": "Cuidar sense silos",
+    "title": "La cura no pot sobreviure als silos.",
+    "subtitle": "Cada trucada perduda, cada informe extraviat, cada alerta que no arriba — és una pèrdua real de cura, no un problema d'organització.",
+    "avant": {
+      "label": "Sense CareBond",
+      "title": "La cura fragmentada",
+      "items": {
+        "i0": "La família truca tres cops per setmana per tenir notícies.",
+        "i1": "Mini-informe perdut en un email o un SMS oblidat.",
+        "i2": "El professional ha de trucar a la direcció per validar una alerta.",
+        "i3": "Auditoria de protecció de dades: tres setmanes de paperassa i carpetes."
+      }
+    },
+    "apres": {
+      "label": "Amb CareBond",
+      "title": "La cura unificada",
+      "items": {
+        "i0": "La família rep el seu mini-informe automàtic cada dia, sense demanar-lo.",
+        "i1": "El professional valida en dos tocs des de la butxaca.",
+        "i2": "La direcció veu l'alerta en temps real, sense trucada telefònica.",
+        "i3": "Auditoria de protecció de dades: una sola exportació, llesta per a l'autoritat que la sol·liciti."
+      }
+    },
+    "closing": "Quan cada actor veu la mateixa realitat, la cura torna a ser contínua."
+  },
+  "howItWorks": {
+    "eyebrow": "Com funciona",
+    "title": "Quatre superfícies, un sol flux.",
+    "subtitle": "Del SOS del pacient a la gestió de la direcció — cadascú veu el que necessita, sense soroll ni desviaments. Una sola plataforma, quatre rols, una mateixa veritat.",
+    "steps": {
+      "patient": {
+        "number": "01",
+        "title": "Pacient",
+        "description": "Interfície simple i accessible que qualsevol pacient pot fer servir. SOS d'un toc, videotrucades, accés directe al professional."
+      },
+      "family": {
+        "number": "02",
+        "title": "Família",
+        "description": "Mini-informes del professional, videotrucades i tranquil·litat a distància. Sense intrusió."
+      },
+      "professional": {
+        "number": "03",
+        "title": "Professional",
+        "description": "Visita digital, alertes prioritàries, signes vitals en temps real. Menys paperassa, més cura."
+      },
+      "direction": {
+        "number": "04",
+        "title": "Direcció",
+        "description": "Gestió institucional, auditoria integrada, KPIs centre per centre. La casa, en una pantalla."
+      }
+    }
+  },
+  "common": {
+    "skipLink": "Anar al contingut principal"
+  },
+  "error": {
+    "title": "Alguna cosa ha anat malament.",
+    "subtitle": "S'ha produït un error inesperat. Pot tornar-ho a intentar o tornar a l'inici.",
+    "retry": "Tornar-ho a intentar",
+    "home": "Tornar a l'inici"
+  },
+  "footer": {
+    "tagline": "La plataforma de comunicació per a la cura: pacients, famílies i professionals connectats.",
+    "navAriaLabel": "Peu de pàgina",
+    "columns": {
+      "solutions": "Solucions",
+      "company": "Empresa",
+      "legal": "Legal"
+    },
+    "links": {
+      "privacy": "Política de privadesa",
+      "terms": "Condicions generals",
+      "cookies": "Política de cookies",
+      "credits": "Crèdits",
+      "imprint": "Avís legal"
+    },
+    "bottom": {
+      "address": "Ginebra, Suïssa",
+      "rights": "Tots els drets reservats"
+    }
+  },
+  "metadata": {
+    "title": "CareBond — Comunicació per a la cura",
+    "description": "Plataforma de comunicació per a la cura que connecta pacients, famílies i professionals. Privadesa de nivell suís — RGPD i nLPD des del disseny — per a residències, atenció domiciliària, hospitals i clíniques."
+  },
+  "contact": {
+    "metadata": {
+      "title": "Contacte — CareBond",
+      "description": "Sol·liciti una demostració de CareBond o posi's en contacte amb el nostre equip."
+    },
+    "page": {
+      "eyebrow": "Sol·liciti una demo",
+      "title": "Vegem CareBond amb els seus casos d'ús.",
+      "subtitle": "30 minuts per videotrucada. Li mostrem la plataforma amb els seus condicionants reals — tipus d'institució, mida, mòduls que li interessen. Sense demo genèrica."
+    },
+    "sidebar": {
+      "title": "Contacte directe",
+      "description": "Prefereix escriure'ns o passar a veure'ns? Tots els camins porten al mateix equip.",
+      "emailLabel": "Email",
+      "locationLabel": "Oficina",
+      "locationValue": "Ginebra, Suïssa",
+      "responseLabel": "Temps de resposta",
+      "responseValue": "En 24 hores laborables"
+    }
+  },
+  "contactForm": {
+    "fields": {
+      "name": {
+        "label": "Nom complet",
+        "placeholder": "Maria Garcia"
+      },
+      "email": {
+        "label": "Email professional",
+        "placeholder": "maria@institucio.com"
+      },
+      "institution": {
+        "label": "Institució",
+        "placeholder": "Residència Els Til·lers, Hospital Sant Joan..."
+      },
+      "audience": {
+        "label": "Tipus d'establiment",
+        "placeholder": "Seleccioni…",
+        "options": {
+          "ems": "Residència / centre sociosanitari",
+          "spitex": "Atenció domiciliària",
+          "hospitals": "Hospital",
+          "clinics": "Clínica privada",
+          "other": "Altres",
+          "recovery": "Recuperació / rehabilitació"
+        }
+      },
+      "message": {
+        "label": "La seva sol·licitud",
+        "placeholder": "Unes paraules sobre el seu context, els mòduls que li interessen, el nombre de llits o d'usuaris implicats…"
+      }
+    },
+    "submit": "Enviar la sol·licitud",
+    "submitting": "Enviant…",
+    "privacy": "Les seves dades es tracten conforme al RGPD i a la nLPD. Sense compartir-les amb tercers.",
+    "success": {
+      "title": "Sol·licitud rebuda, gràcies.",
+      "message": "Ens posarem en contacte amb vostè en 24 hores laborables amb un horari per a la demo.",
+      "again": "Enviar una altra sol·licitud"
+    },
+    "error": {
+      "send_failed": "S'ha produït un error en enviar. Si us plau, torni-ho a intentar o escrigui'ns directament a contact@carebond.ch."
+    }
+  },
+  "legal": {
+    "imprint": {
+      "eyebrow": "Avís legal",
+      "title": "Avís legal",
+      "metaDescription": "Informació legal del lloc CareBond: editor, allotjament, propietat intel·lectual.",
+      "lastUpdated": "Actualitzat el 14 de maig de 2026",
+      "editor": {
+        "heading": "Editor del lloc",
+        "body": "Aquest lloc està editat per CareBond SA, amb seu a Ginebra (Suïssa). Per a qualsevol pregunta sobre el contingut del lloc o la societat, contacti'ns a contact@carebond.ch."
+      },
+      "publication": {
+        "heading": "Director de la publicació",
+        "body": "La direcció de la publicació va a càrrec de la direcció general de CareBond SA. La responsabilitat editorial del lloc recau en l'equip intern de CareBond."
+      },
+      "hosting": {
+        "heading": "Allotjament",
+        "body": "El lloc està allotjat per Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, Estats Units (vercel.com). La regió d'allotjament principal és fra1 (Frankfurt, Unió Europea), triada per minimitzar la distància amb Suïssa."
+      },
+      "ip": {
+        "heading": "Propietat intel·lectual",
+        "body": "El conjunt dels continguts del lloc (textos, imatges, logotip, codi font, marca CareBond) són propietat exclusiva de CareBond SA, llevat de menció contrària explícita. Tota reproducció, representació o difusió, total o parcial, sense autorització escrita prèvia, està prohibida."
+      },
+      "contact": {
+        "heading": "Contacte",
+        "body": "Per a qualsevol pregunta legal o sol·licitud relativa a aquest avís, escrigui'ns a"
+      }
+    },
+    "privacy": {
+      "eyebrow": "Privadesa",
+      "title": "Política de privadesa",
+      "metaDescription": "Com CareBond recull, utilitza i protegeix les seves dades personals, d'acord amb la nLPD.",
+      "lastUpdated": "Actualitzat el 14 de maig de 2026",
+      "intro": "CareBond SA tracta les seves dades personals amb rigor, d'acord amb la Llei federal suïssa de protecció de dades (nLPD), amb el RGPD europeu quan és aplicable als visitants de la UE, i amb les bones pràctiques internacionals. Aquesta política descriu què recollim en aquest lloc de màrqueting, amb quina finalitat i quins drets té.",
+      "sections": {
+        "controller": {
+          "heading": "1. Responsable del tractament",
+          "body": "El responsable del tractament de les dades personals recollides via carebond.ch és CareBond SA, a Ginebra (Suïssa). Per a qualsevol pregunta relativa a les seves dades, contacti'ns a contact@carebond.ch."
+        },
+        "data": {
+          "heading": "2. Dades recollides",
+          "body": "Recollim únicament les dades que vostè ens proporciona voluntàriament a través del formulari de contacte: nom complet, adreça d'email professional, nom de la seva institució, tipus d'establiment (residència, atenció domiciliària, hospital, clínica, altres) i el contingut del seu missatge. No recollim identificadors publicitaris ni empremtes de navegador. El lloc no conté cap cookie de tercers per a tracking."
+        },
+        "purposes": {
+          "heading": "3. Finalitats",
+          "body": "Les seves dades s'utilitzen exclusivament per respondre a la seva sol·licitud de demostració o d'informació, planificar una conversa i, si escau, elaborar un pressupost personalitzat. No les utilitzem amb fins de màrqueting automatitzat ni d'elaboració de perfils."
+        },
+        "legalBasis": {
+          "heading": "4. Base legal",
+          "body": "El tractament de les seves dades es basa en el seu consentiment explícit (enviament voluntari del formulari) i en el nostre interès legítim de fer el seguiment de la seva sol·licitud comercial, d'acord amb la nLPD i, quan és aplicable, amb el RGPD."
+        },
+        "recipients": {
+          "heading": "5. Destinataris i encarregats del tractament",
+          "body": "Les seves dades són accessibles únicament per a l'equip intern de CareBond SA. Utilitzem dos encarregats tècnics del tractament: (a) Vercel Inc. per a l'allotjament del lloc (regió fra1, Frankfurt, UE); (b) Resend Inc. per a la transmissió dels emails del formulari de contacte. Cap altre tercer no rep les seves dades."
+        },
+        "transfers": {
+          "heading": "6. Transferències internacionals",
+          "body": "Vercel Inc. i Resend Inc. són societats nord-americanes. Les dades transiten per les seves infraestructures en el marc del funcionament tècnic del lloc i del formulari. Aquestes transferències estan regulades per les Clàusules Contractuals Tipus (CCT) i pels compromisos de conformitat de cada proveïdor. La regió d'allotjament principal de Vercel per a aquest lloc és a la Unió Europea (Frankfurt)."
+        },
+        "retention": {
+          "heading": "7. Termini de conservació",
+          "body": "Els missatges rebuts a través del formulari de contacte es conserven a la nostra bústia el temps necessari per tractar la seva sol·licitud, i després s'arxiven o s'eliminen d'acord amb les nostres pràctiques internes de gestió documental. Pot sol·licitar l'eliminació de les seves dades en qualsevol moment."
+        },
+        "rights": {
+          "heading": "8. Els seus drets",
+          "body": "Disposa dels drets d'accés, rectificació, supressió, portabilitat, oposició i limitació del tractament de les seves dades. Per exercir aquests drets, escrigui'ns a contact@carebond.ch precisant la naturalesa de la seva sol·licitud. També pot presentar una reclamació davant l'Encarregat federal suís de protecció de dades (PFPDT/FDPIC) o davant la seva autoritat local de protecció de dades (per exemple, l'AEPD a Espanya)."
+        },
+        "security": {
+          "heading": "9. Seguretat",
+          "body": "El lloc utilitza TLS 1.3 per xifrar els intercanvis entre el seu navegador i els nostres servidors. Les dades del formulari viatgen xifrades en trànsit en cada tram del recorregut: el seu dispositiu, la infraestructura de Vercel i la bústia de recepció final."
+        },
+        "cookies": {
+          "heading": "10. Cookies i rastrejadors",
+          "body": "Aquest lloc no utilitza actualment cap cookie de mesurament d'audiència ni de màrqueting. Només s'hi poden dipositar cookies estrictament necessàries per al funcionament (per exemple, la selecció d'idioma). Consulti la nostra política de cookies per a més detalls."
+        },
+        "changes": {
+          "heading": "11. Modificacions",
+          "body": "Aquesta política es pot actualitzar per reflectir les evolucions tècniques, legals o organitzatives. La data de l'última actualització s'indica a l'inici d'aquesta pàgina."
+        },
+        "contact": {
+          "heading": "12. Contacte",
+          "body": "Per a qualsevol pregunta relativa a aquesta política o al tractament de les seves dades, contacti'ns a"
+        }
+      }
+    },
+    "terms": {
+      "eyebrow": "Condicions",
+      "title": "Condicions generals d'ús",
+      "metaDescription": "Condicions d'ús del lloc de màrqueting carebond.ch.",
+      "lastUpdated": "Actualitzat el 14 de maig de 2026",
+      "intro": "Les presents condicions generals regeixen l'ús del lloc de màrqueting carebond.ch. L'ús de la plataforma SaaS CareBond és objecte d'un contracte separat signat amb la seva institució.",
+      "sections": {
+        "scope": {
+          "heading": "1. Objecte",
+          "body": "Les presents CGU s'apliquen a tota persona que consulti el lloc carebond.ch. Regeixen la navegació pel lloc, l'ús del formulari de contacte i l'accés a la informació publicada."
+        },
+        "acceptance": {
+          "heading": "2. Acceptació",
+          "body": "L'accés al lloc i el seu ús impliquen l'acceptació plena i sencera de les presents CGU. Si no accepta aquestes condicions, el convidem a no utilitzar el lloc."
+        },
+        "use": {
+          "heading": "3. Ús del lloc",
+          "body": "Vostè es compromet a utilitzar el lloc respectant les lleis vigents, a no intentar accedir a zones no públiques i a no enviar contingut il·lícit, difamatori o abusiu a través del formulari de contacte."
+        },
+        "liability": {
+          "heading": "4. Limitació de responsabilitat",
+          "body": "CareBond SA fa tot el possible per proporcionar informació exacta i actualitzada, però no pot garantir l'absència d'errors o d'interrupcions del servei. L'ús de la informació publicada es fa sota la seva única responsabilitat."
+        },
+        "law": {
+          "heading": "5. Dret aplicable",
+          "body": "Les presents CGU es regeixen pel dret suís. Qualsevol litigi se sotmetrà a la competència exclusiva dels tribunals del cantó de Ginebra, sens perjudici de les vies de recurs obligatòries."
+        }
+      }
+    },
+    "cookies": {
+      "eyebrow": "Cookies",
+      "title": "Política de cookies",
+      "metaDescription": "Com carebond.ch utilitza les cookies — actualment cap cookie de tracking.",
+      "lastUpdated": "Actualitzat el 14 de maig de 2026",
+      "intro": "Aquesta pàgina descriu l'ús de les cookies a carebond.ch. Hem triat deliberadament minimitzar-ne l'ús i no recollir cap dada d'anàlisi de comportament.",
+      "sections": {
+        "status": {
+          "heading": "Estat actual",
+          "body": "El lloc carebond.ch no utilitza actualment cap cookie de tercers per a mesurament d'audiència, màrqueting o elaboració de perfils. No es comparteix cap dada amb Google Analytics, Meta Pixel, LinkedIn Insight ni cap servei equivalent."
+        },
+        "necessary": {
+          "heading": "Cookies estrictament necessàries",
+          "body": "Només es poden dipositar cookies estrictament necessàries per al funcionament del lloc (per exemple, la memorització del seu idioma preferit). Aquestes cookies no requereixen el seu consentiment previ segons la nLPD perquè són indispensables per a la prestació del servei que vostè ha sol·licitat."
+        },
+        "analytics": {
+          "heading": "Mesurament d'audiència",
+          "body": "Si en el futur implementem una eina de mesurament d'audiència, prioritzarem una solució respectuosa amb la privadesa (per exemple Plausible), allotjada a Europa, sense cookie persistent ni intercanvi de dades amb tercers publicitaris. Aquesta pàgina s'actualitzarà en conseqüència."
+        },
+        "manage": {
+          "heading": "Gestionar les cookies",
+          "body": "Pot eliminar en qualsevol moment les cookies dipositades a través de la configuració del seu navegador. L'eliminació de les cookies estrictament necessàries pot afectar la seva experiència (per exemple, la pèrdua de l'idioma seleccionat)."
+        }
+      }
+    },
+    "credits": {
+      "eyebrow": "Crèdits",
+      "title": "Crèdits",
+      "metaDescription": "Fonts i crèdits de les il·lustracions, els tipus de lletra i les biblioteques utilitzades a carebond.ch.",
+      "lastUpdated": "Actualitzat el 14 de maig de 2026",
+      "intro": "El lloc carebond.ch es recolza en biblioteques open source i recursos creatius que volem agrair aquí.",
+      "sections": {
+        "illustrations": {
+          "heading": "Il·lustracions isomètriques 3D",
+          "body": "Les il·lustracions 3D que representen l'hospital i la residència a la secció « Plànols 3D i navegació interior » i al bento de la plataforma són visualitzacions arquitectòniques utilitzades en el marc de la nostra demostració de producte."
+        },
+        "icons": {
+          "heading": "Icones",
+          "body": "Totes les icones provenen de la biblioteca Lucide (lucide.dev), distribuïda sota llicència ISC. Un gran agraïment als contribuïdors del projecte."
+        },
+        "typography": {
+          "heading": "Tipografia",
+          "body": "El lloc utilitza la tipografia Inter, dissenyada per Rasmus Andersson (rsms.me/inter), distribuïda sota llicència SIL Open Font."
+        },
+        "openSource": {
+          "heading": "Programari open source",
+          "body": "Construït amb Next.js (Vercel), React (Meta), Tailwind CSS, TypeScript, next-intl, react-hook-form, Zod i diverses altres biblioteques open source. Gràcies als centenars de contribuïdors que fan possible aquesta feina."
+        }
+      }
+    }
+  },
+  "solutions": {
+    "ems": {
+      "eyebrow": "Per a les residències",
+      "title": "La gestió d'una residència, sense paperassa i sense punts cecs.",
+      "subtitle": "Visita digital, audit log natiu, multicentre des d'una sola consola. Dissenyat per a les direccions que volen veure-hi clar sense micromanagement.",
+      "metaDescription": "Solució CareBond per a residències: gestió multicentre, audit log natiu, visita digital, multiequips amb RBAC granular.",
+      "visualAlt": "Plànol 3D isomètric d'una residència medicalitzada — habitacions de memòria, jardí terapèutic, vestíbul principal",
+      "problem": {
+        "eyebrow": "La constatació",
+        "heading": "El dia a dia d'una residència és massa sovint paper i trucades.",
+        "intro": "Cada hora passada omplint una carpeta és una hora menys al costat dels residents. CareBond retorna aquestes hores a la cura.",
+        "points": {
+          "p0": "La visita del dia és en un paper que es perd, i el relleu al següent equip es fa per trucada telefònica.",
+          "p1": "La família truca tres cops per setmana per tenir notícies — i ningú no té realment temps de respondre bé.",
+          "p2": "Una auditoria externa exigeix setmanes de preparació per reunir els documents correctes, en el format adequat.",
+          "p3": "Els residents que no parlen l'idioma de l'equip assistencial i les seves famílies viuen una barrera lingüística constant."
+        }
+      },
+      "features": {
+        "eyebrow": "El que CareBond canvia",
+        "heading": "Una plataforma dissenyada per a la realitat d'una residència.",
+        "intro": "No un ERP genèric adaptat a la sanitat. Pensat des de la primera línia de codi per a la realitat de la cura: protecció de dades, traçabilitat i auditoria sense fricció.",
+        "items": {
+          "f0": {
+            "title": "Gestió multiestabliment",
+            "description": "Diverses residències des d'una sola consola. KPIs comparables, separació estricta de dades, RBAC granular per equip i per seu."
+          },
+          "f1": {
+            "title": "Audit log natiu",
+            "description": "Cada accés i cada modificació queden traçats de manera immutable. Documentació a punt per a les seves auditories internes i externes."
+          },
+          "f2": {
+            "title": "Xat multilingüe",
+            "description": "El resident i la seva cuidadora no comparteixen idioma — i tot i així cadascú llegeix en el seu. La barrera desapareix, la comunicació es manté."
+          },
+          "f3": {
+            "title": "Multiequips i informes compartits",
+            "description": "Direcció, professionals, conserges, proveïdors externs — cadascú amb el seu nivell d'accés i la seva interfície, amb permisos granulars. Els informes, les consultes i les constants vitals que registra un professional queden visibles a l'instant per a tots els professionals assignats al mateix resident — s'han acabat els buits d'informació entre relleus. Un mini-informe filtrat s'envia en paral·lel a la família."
+          }
+        },
+        "roadmap": "Integracions amb sistemes d'avaluació assistencial (BESA, RAI, PLAISIR) en estudi per a una propera versió."
+      },
+      "cta": {
+        "eyebrow": "Propera etapa",
+        "title": "Vegem CareBond pensant en la seva residència.",
+        "description": "30 minuts de demo amb els seus casos reals: mida, mòduls escollits, recorregut tipus d'un resident al seu centre."
+      }
+    },
+    "home-care": {
+      "eyebrow": "Per a l'atenció domiciliària",
+      "title": "Confiança a distància, sense vigilància intrusiva.",
+      "subtitle": "Validació GPS de les visites, informes signats criptogràficament, livestream amb consentiment del pacient. Dissenyat per als serveis d'atenció domiciliària.",
+      "metaDescription": "Solució CareBond per a l'atenció domiciliària: validació GPS de visites, informes signats criptogràficament, livestream amb consentiment, mini-informes a la família.",
+      "visualAlt": "Vista prèvia de l'aplicació família — mini-informe diari i flux de livestream activable pel pacient",
+      "problem": {
+        "eyebrow": "La constatació",
+        "heading": "La cura a domicili és confiança — i es construeix o es perd a cada visita.",
+        "intro": "A distància, la família no té cap prova que la visita hagi tingut lloc, el professional no pot transmetre-ho tot en un SMS, i la direcció no té temps de verificar-ho tot manualment.",
+        "points": {
+          "p0": "La família truca per saber si la visita del matí ha anat bé — una vegada i una altra.",
+          "p1": "El professional redacta un informe en paper que acaba en una pila a final de mes.",
+          "p2": "Les alertes crítiques es perden entre WhatsApp, SMS i trucades perdudes.",
+          "p3": "Validar la presència al domicili passa per fotos o trucades — laboriós i poc fiable."
+        }
+      },
+      "features": {
+        "eyebrow": "El que CareBond canvia",
+        "heading": "El terreny validat, sense molestar ningú.",
+        "intro": "Les eines que els equips d'atenció domiciliària necessiten per fer la seva feina sense perdre temps a demostrar que l'han feta.",
+        "items": {
+          "f0": {
+            "title": "Validació GPS de les visites",
+            "description": "Geofencing automàtic al domicili del pacient. La presència es confirma sense intervenció, i la família rep la notificació."
+          },
+          "f1": {
+            "title": "Informes signats amb HMAC, compartits en equip",
+            "description": "Cada informe de visita està signat criptogràficament i queda visible a l'instant per a tots els professionals assignats al mateix pacient — torn de matí, de tarda, infermera de referència. A punt per a la facturació i l'auditoria. Un mini-informe filtrat s'envia en paral·lel a la família."
+          },
+          "f2": {
+            "title": "Livestream amb consentiment",
+            "description": "La càmera, la inicia el professional i mai no s'enregistra: només transmissió en directe, amb un registre d'accessos complet. El pacient controla el seu mode de privadesa per tallar-la en qualsevol moment."
+          },
+          "f3": {
+            "title": "Alertes prioritzades",
+            "description": "L'urgent primer, la resta a la cua. Prou alertes crítiques perdudes en el soroll d'un fil de missatges."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Propera etapa",
+        "title": "Vegem CareBond amb el seu servei a domicili.",
+        "description": "30 minuts per entendre la realitat de la seva activitat i calibrar la demo en els mòduls que li interessen."
+      }
+    },
+    "hospitals": {
+      "eyebrow": "Per als hospitals",
+      "title": "Una plataforma dissenyada per integrar-se amb el seu EMR.",
+      "subtitle": "API REST documentada, integració HL7/FHIR en desenvolupament, RBAC granular per rol i audit log immutable. Plànols 3D com a servei a mida. Un segment cap al qual estem construint.",
+      "metaDescription": "Solució CareBond per als hospitals: API REST documentada, integració HL7/FHIR en desenvolupament, RBAC granular per rol, plànols 3D com a servei.",
+      "visualAlt": "Plànol 3D isomètric d'un hospital — quiròfans, sala d'RM, planta, laboratori, vestíbul principal, amb un recorregut senyalitzat",
+      "problem": {
+        "eyebrow": "La constatació",
+        "heading": "En un hospital, el temps perdut orientant-se o reescrivint dades és temps de cura perdut.",
+        "intro": "Els visitants es perden pels passadissos. Els sistemes no es parlen entre ells. L'auditoria transversal de protecció de dades exigeix setmanes. I cada departament té les seves pròpies eines.",
+        "points": {
+          "p0": "Els visitants i els pacients externs deambulen pels passadissos, i qualsevol recepció acaba fent de punt d'informació.",
+          "p1": "El seu EMR actual no parla amb la seva eina de planificació, els seus informes ni el seu expedient de pacient transversal.",
+          "p2": "Una auditoria de protecció de dades exigeix fer clic en cinc sistemes diferents per reunir un expedient.",
+          "p3": "Cada servei (urgències, medicina, radiologia) gestiona els seus permisos per separat — sense coherència, sense RBAC unificat."
+        }
+      },
+      "features": {
+        "eyebrow": "El que CareBond canvia",
+        "heading": "Una plataforma dissenyada per integrar-se, no per substituir.",
+        "intro": "CareBond no aspira a reemplaçar el seu EMR, sinó a integrar-s'hi (API REST documentada disponible avui; integració HL7/FHIR en desenvolupament) per cobrir els punts cecs i aportar el que faltava: navegació interior, comunicació multilingüe, auditoria transversal.",
+        "items": {
+          "f0": {
+            "title": "API REST documentada, HL7/FHIR en desenvolupament",
+            "description": "API REST documentada disponible avui. Sincronització via webhooks i integració nativa HL7/FHIR en desenvolupament, per a una propera versió."
+          },
+          "f1": {
+            "title": "RBAC granular",
+            "description": "Permisos granulars per rol i per mòdul, amb separació estricta de dades entre institucions."
+          },
+          "f2": {
+            "title": "Audit log immutable",
+            "description": "Cada acció traçada, exportable. Traça a punt per a les seves auditories hospitalàries i de protecció de dades."
+          },
+          "f3": {
+            "title": "Plànols 3D (servei)",
+            "description": "Com a servei a mida, modelatge isomètric del seu edifici per orientar visitants i famílies a les pantalles d'entrada."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Propera etapa",
+        "title": "Vegem CareBond amb els seus condicionants hospitalaris.",
+        "description": "30 minuts per parlar de la integració amb l'EMR, els seus requisits regulatoris i els mòduls pertinents per als seus serveis."
+      }
+    },
+    "clinics": {
+      "eyebrow": "Per a les clíniques privades",
+      "title": "L'experiència de pacient d'alta gamma, amb la seva marca.",
+      "subtitle": "Xat multilingüe per a pacients internacionals i allotjament a Suïssa. Un segment cap al qual estem construint.",
+      "metaDescription": "Solució CareBond per a clíniques privades: xat multilingüe, allotjament a Suïssa, protecció de dades des del disseny (RGPD i nLPD).",
+      "visualAlt": "Vista prèvia del xat multilingüe — missatges FR↔ES traduïts en temps real amb control del professional",
+      "problem": {
+        "eyebrow": "La constatació",
+        "heading": "Una clínica privada no és ni un hospital ni una residència — les seves limitacions són úniques.",
+        "intro": "Pacients internacionals, marca clínica forta, telemedicina entre consultes presencials, exigència d'una experiència d'alta gamma en tots els punts de contacte.",
+        "points": {
+          "p0": "Els seus pacients venen d'arreu i no sempre parlen l'idioma del seu equip. La barrera lingüística és quotidiana.",
+          "p1": "La seva marca clínica és un actiu. No vol que una plataforma de tercers la dilueixi amb el seu propi branding.",
+          "p2": "La telemedicina entre dues cites presencials s'espera, no és opcional.",
+          "p3": "Els seus pacients VIP exigeixen un nivell de confidencialitat que una eina de consum massiu no pot garantir."
+        }
+      },
+      "features": {
+        "eyebrow": "El que CareBond canvia",
+        "heading": "Una plataforma professional, a la seva imatge.",
+        "intro": "El nucli tècnic de CareBond, la interfície i l'experiència amb la seva marca. I totes les capacitats multilingües i de protecció de dades des del dia 1.",
+        "items": {
+          "f0": {
+            "title": "Xat multilingüe, controlat pel professional",
+            "description": "Cada missatge en l'idioma de cada interlocutor. El professional activa i desactiva el xat segons el context clínic."
+          },
+          "f1": {
+            "title": "Marca personalitzable (roadmap)",
+            "description": "La personalització de marca per a clíniques privades està prevista al roadmap."
+          },
+          "f2": {
+            "title": "Confidencialitat d'alta gamma",
+            "description": "Audit log immutable, xifratge TLS 1.3, allotjament exclusiu a Suïssa. Les dades clíniques no surten d'aquesta infraestructura."
+          },
+          "f3": {
+            "title": "Pacients internacionals",
+            "description": "Allotjament a Suïssa, accessible per web per als seus pacients que viatgen o viuen a l'estranger."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Propera etapa",
+        "title": "Vegem CareBond pensant en la seva clínica.",
+        "description": "30 minuts per explorar com conservar la seva marca i la seva experiència de pacient, tot guanyant alhora les capacitats multilingües i una privadesa de nivell suís."
+      }
+    },
+    "recovery": {
+      "eyebrow": "Per a les cures de recuperació",
+      "title": "La recuperació no s'acaba amb l'alta.",
+      "subtitle": "Quan un pacient torna a casa a recuperar-se, la comunicació no s'hauria d'aturar. CareBond manté connectats el pacient en recuperació, el seu professional de cures i la seva família: check-ins guiats, xat segur, vídeo segons les condicions del professional i mini-informes automàtics a la família.",
+      "metaDescription": "CareBond per a la recuperació i la rehabilitació posthospitalària: check-ins guiats del pacient, xat segur, vídeo iniciat pel professional i mini-informes automàtics a la família. Una capa de comunicació amb allotjament a Suïssa i protecció de dades des del disseny (RGPD i nLPD).",
+      "visualAlt": "Vista prèvia de l'app del pacient: pantalla d'inici de recuperació amb check-ins, xat i vídeo",
+      "problem": {
+        "eyebrow": "La realitat",
+        "heading": "Després de l'alta, el pacient es queda de sobte sol.",
+        "intro": "La part més difícil de la recuperació passa sovint a casa, on l'equip de cures ja no pot veure com van les coses i la família queda en la incertesa.",
+        "points": {
+          "p0": "De tornada a casa, el pacient perd el contacte diari amb l'equip de cures que tenia a la planta.",
+          "p1": "La família es preocupa a distància i truca una vegada i una altra per quedar-se tranquil·la.",
+          "p2": "Els dubtes i els senyals d'alarma esperen fins a la propera cita, o fins a un retorn a urgències.",
+          "p3": "Ningú no disposa d'una manera senzilla i estructurada de saber si la recuperació va pel bon camí."
+        }
+      },
+      "features": {
+        "eyebrow": "El que CareBond canvia",
+        "heading": "Una línia de comunicació que acompanya el pacient fins a casa.",
+        "intro": "No és monitoratge mèdic a distància, sinó un canal de comunicació estructurat que manté tothom connectat durant la recuperació. El professional de cures manté el control de què passa i quan.",
+        "items": {
+          "f0": {
+            "title": "Check-ins guiats",
+            "description": "El pacient explica per si mateix com se sent i com avança la seva recuperació, amb uns pocs tocs. Sempre és un autoinforme, mai un diagnòstic automatitzat."
+          },
+          "f1": {
+            "title": "Xat segur amb l'equip de cures",
+            "description": "Una línia directa i traçable amb el professional assignat, disponible segons les condicions del professional: sense missatges de nit, sense intromissions."
+          },
+          "f2": {
+            "title": "Consultes per vídeo iniciades pel professional",
+            "description": "Videotrucades que el professional de cures inicia quan un check-in mereix una mirada més atenta, sense que el pacient s'hagi de tornar a desplaçar."
+          },
+          "f3": {
+            "title": "Mini-informes automàtics a la família",
+            "description": "La família rep actualitzacions filtrades i tranquil·litat a distància, sense veure mai l'expedient complet."
+          }
+        }
+      },
+      "cta": {
+        "eyebrow": "Proper pas",
+        "title": "Vegi com CareBond acompanya una recuperació.",
+        "description": "30 minuts per traçar un recorregut de recuperació típic al seu establiment i calibrar la demo segons els mòduls que li importen."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "Sobre nosaltres",
+    "title": "La cura, més ben comunicada.",
+    "subtitle": "CareBond és una plataforma de comunicació per a la cura, nascuda a Suïssa i pensada per a residències, atenció domiciliària, hospitals i clíniques. Construïm l'eina que falta entre pacients, famílies, professionals i direcció — sense pretendre substituir el que ja funciona.",
+    "metaDescription": "Sobre CareBond — plataforma de comunicació per a la cura, nascuda a Suïssa. Missió, valors i on som.",
+    "mission": {
+      "eyebrow": "La nostra missió",
+      "heading": "Retornar a la cura el temps que li pren la paperassa.",
+      "body1": "En una residència, el professional passa massa hores omplint carpetes, transmetent per telèfon i reunint documents per a l'auditoria. Aquestes hores són hores que no van al resident.",
+      "body2": "CareBond les retorna a la cura. Centralitzant la visita digital, la traçabilitat d'auditoria, el xat multilingüe, els informes signats criptogràficament i l'orientació amb plànols 3D en una sola plataforma.",
+      "body3": "No substituïm el seu EMR existent. Ens hi integrarem (integració en desenvolupament); des d'avui cobrim els punts cecs i aportem el que faltava — sense rip-and-replace."
+    },
+    "values": {
+      "eyebrow": "Els nostres valors",
+      "heading": "El que rebutgem i el que defensem.",
+      "intro": "Quatre eleccions d'arquitectura que mantenim des de la primera línia de codi. Defineixen tant el que CareBond fa com el que CareBond no farà mai.",
+      "items": {
+        "v0": {
+          "title": "Privacy-first, no privacy-as-an-option",
+          "description": "Sense cookies de tracking. Sense píxel publicitari. Sense fuites cap a Google Analytics. La protecció de dades és a l'arquitectura, no en un annex."
+        },
+        "v1": {
+          "title": "El professional manté el control",
+          "description": "Xat, livestream, videotrucades: el professional decideix quan i com. CareBond mai no passa per sobre del clínic."
+        },
+        "v2": {
+          "title": "Audit log per defecte",
+          "description": "Cada accés i cada modificació es traça. No com a opció, no després d'una configuració: des del dia 1, en cada acció."
+        },
+        "v3": {
+          "title": "Suïssa, sense desviaments",
+          "description": "Allotjament a Suïssa (Infomaniak, Ginebra). Sense núvol estranger, sense transferència als hyperscalers, sense jurisdicció extraterritorial."
+        }
+      }
+    },
+    "location": {
+      "body": "CareBond SA té la seu a Ginebra, Suïssa. Treballem en francès, alemany, italià, anglès, castellà i català, perquè la cura parla molts idiomes."
+    },
+    "cta": {
+      "eyebrow": "En parlem?",
+      "title": "Vegem si CareBond té sentit per a vostè.",
+      "description": "30 minuts per comprendre el seu context i mostrar-li la plataforma amb els seus casos d'ús. Sense demo genèrica."
+    }
+  },
+  "compliancePage": {
+    "eyebrow": "Conformitat",
+    "title": "Conformitat per arquitectura, no per annex.",
+    "subtitle": "RGPD i nLPD des del disseny, allotjament a Suïssa, audit log immutable. La conformitat no és una capa afegida — està construïda a la plataforma des de la primera línia de codi.",
+    "metaDescription": "Conformitat CareBond: RGPD i nLPD des del disseny, allotjament a Suïssa, audit log immutable, traçabilitat per a auditories.",
+    "pillars": {
+      "nlpd": {
+        "title": "RGPD i nLPD des del disseny",
+        "description": "Audit log natiu d'accessos i modificacions, dissenyat per als requisits del RGPD europeu i de la nLPD suïssa des de la primera línia de codi."
+      },
+      "hosting": {
+        "title": "Allotjament a Suïssa",
+        "description": "Infraestructura allotjada a Infomaniak (Ginebra), en un país amb decisió d'adequació de la Comissió Europea. Les dades del pacient no surten d'aquesta infraestructura, sense excepcions i sense clàusules ocultes."
+      },
+      "encryption": {
+        "title": "Xifratge modern",
+        "description": "TLS modern en trànsit, xifratge dels camps sensibles (PHI), informes de visita signats amb HMAC."
+      },
+      "audit": {
+        "title": "Audit log immutable",
+        "description": "Traça immutable de cada accés i modificació, exportable per a les seves auditories internes i externes. RBAC granular i multiinstitució."
+      }
+    },
+    "regulations": {
+      "eyebrow": "Marc regulador",
+      "heading": "Un marc, diverses jurisdiccions.",
+      "intro": "CareBond va néixer sota una de les lleis de protecció de dades més estrictes del món i estén aquesta mateixa arquitectura als marcs europeus. Aquests són els principals marcs que abordem.",
+      "items": {
+        "nlpd": {
+          "title": "nLPD (Suïssa)",
+          "description": "Llei federal de protecció de dades. Audit log natiu, drets d'accés i rectificació, via de reclamació davant el PFPDT/FDPIC documentada a la nostra política de privadesa."
+        },
+        "kvg": {
+          "title": "KVG / LAMal (Suïssa)",
+          "description": "Informes de visita signats criptogràficament (HMAC), traçabilitat com a base per a la justificació davant l'assegurança de salut suïssa en l'atenció domiciliària."
+        },
+        "transfers": {
+          "title": "Transferències internacionals",
+          "description": "Les poques transferències fora de Suïssa (formulari de contacte via Resend, hosting via Vercel fra1 Frankfurt) estan regulades per Clàusules Contractuals Tipus i documentades."
+        },
+        "gdpr": {
+          "title": "RGPD (UE)",
+          "description": "Reglament General de Protecció de Dades. Minimització de dades, traçabilitat, drets d'accés i supressió: l'arquitectura de CareBond està dissenyada per als requisits del RGPD. Suïssa compta, a més, amb una decisió d'adequació de la Comissió Europea per a les transferències de dades."
+        }
+      }
+    },
+    "certifications": {
+      "eyebrow": "Certificacions",
+      "heading": "Certificacions objectiu",
+      "intro": "Més enllà dels requisits del RGPD i de la nLPD i de la sobirania de dades ja coberts per la nostra arquitectura, CareBond té com a objectiu obtenir certificacions internacionals esperades pels equips de compres hospitalaris.",
+      "items": {
+        "iso27001": {
+          "title": "ISO/IEC 27001",
+          "status": "Objectiu a mitjà termini",
+          "description": "Sistema de gestió de la seguretat de la informació. Certificació fixada com a objectiu a mitjà termini."
+        },
+        "hds": {
+          "title": "HDS — Hébergeur de Données de Santé",
+          "status": "Objectiu (referència)",
+          "description": "Referència francesa per a l'allotjament de dades de salut, considerada com a objectiu comparatiu. El nostre argument principal és l'allotjament a Suïssa."
+        }
+      }
+    },
+    "docs": {
+      "eyebrow": "Documentació tècnica",
+      "title": "Els seus equips jurídics i d'IT volen els detalls?",
+      "description": "Mantenim a disposició la documentació tècnica completa: arquitectura, fluxos de dades, audit log, polítiques de retenció, plantilles de contracte amb encarregats del tractament. A petició, sense cap formulari per omplir.",
+      "secondary": "Llegir la nostra política de privadesa"
+    }
+  },
+  "stats": {
+    "items": {
+      "s0": {
+        "figure": "1 de cada 6",
+        "label": "persones al món tindrà 60 anys o més el 2030 — i la població de més de 60 anys es duplicarà fins als 2 100 milions el 2050.",
+        "source": "Organització Mundial de la Salut (OMS), 2025"
+      },
+      "s1": {
+        "figure": "80 %",
+        "label": "de les cures de llarga durada a Europa les presten cuidadors informals: familiars i persones properes.",
+        "source": "Comissió Europea / Eurocarers, 2021"
+      },
+      "s2": {
+        "figure": "1 de cada 4",
+        "label": "incidents de seguretat del pacient té la mala comunicació com a factor contribuent, segons una revisió sistemàtica de 46 estudis amb 67 826 pacients.",
+        "source": "Keshtkar et al., Annals of Internal Medicine, 2025"
+      },
+      "s3": {
+        "figure": "304 M",
+        "label": "de persones vivien fora del seu país de naixement el 2024 — gairebé el doble que el 1990. La cura travessa cada cop més fronteres lingüístiques.",
+        "source": "Nacions Unides (DESA), International Migrant Stock 2024"
+      }
+    }
+  }
+}

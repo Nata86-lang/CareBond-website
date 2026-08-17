@@ -27,14 +27,14 @@
     "learnMore": "Mehr erfahren"
   },
   "hero": {
-    "eyebrow": "Pflegeplattform · Schweiz",
-    "title": "Alle Akteure der Pflege, in einer Plattform.",
-    "subtitle": "Ein vollständiges, eigenständiges klinisches und Kommunikationssystem für Einrichtungen mit oder ohne bestehende Software. CareBond verbindet Heimleitungen, Fachpersonal und Familien nLPD-konform und zu 100 % in der Schweiz. Die Integration in Ihr KIS/ERP ist in Entwicklung.",
+    "eyebrow": "Kommunikationsplattform für die Pflege",
+    "title": "Die sichere Kommunikationsebene, die Patienten, Familien und Fachpersonen verbindet.",
+    "subtitle": "Ein vollständiges, eigenständiges Kommunikations- und Koordinationssystem für Pflegeeinrichtungen mit oder ohne bestehende Software. CareBond verbindet Leitung, Fachpersonal, Patienten und Familien — mit Datenschutz by Design (DSGVO und DSG) und Hosting in der Schweiz. Die Integration in Ihr KIS/ERP ist in Entwicklung.",
     "trust": {
-      "label": "Nach Schweizer Standards entwickelt",
-      "nlpd": "DSG-konform",
+      "label": "Datenschutz auf Schweizer Niveau",
+      "nlpd": "DSGVO & DSG by Design",
       "hosting": "Schweizer Hosting",
-      "encryption": "Ende-zu-Ende-Verschlüsselung",
+      "encryption": "Moderne Verschlüsselung",
       "swissMade": "Swiss Made"
     },
     "ecosystem": {
@@ -42,7 +42,7 @@
       "pauseLabel": "Demonstration anhalten",
       "playLabel": "Demonstration starten",
       "patient": {
-        "greeting": "Guten Tag Marie",
+        "greeting": "Guten Tag, Marie",
         "chat": "Chat",
         "calls": "Anrufe",
         "visits": "Besuche",
@@ -105,13 +105,13 @@
       },
       "management": {
         "title": "Leitung & IT",
-        "tag": "DSG-Konformität",
+        "tag": "Nachvollziehbarkeit & Compliance",
         "desc": "Unveränderliche Echtzeit-Zugriffsprotokolle."
       },
       "staff": {
         "title": "Autorisiertes Personal",
         "tag": "Berichte & Übergaben",
-        "desc": "Zusammengeführte Patientenakten für das Team und GPS Spitex Check-in."
+        "desc": "Zusammengeführte Patientenakten für das Team und GPS-Check-in am Wohnort."
       },
       "patient": {
         "title": "Patienten & Bewohner",
@@ -129,13 +129,13 @@
     "bento": {
       "eyebrow": "Die Plattform",
       "title": "Sechs Kommunikationskanäle, eine einzige integrierte Plattform.",
-      "subtitle": "Ob als integrierte Kommunikationsebene für Ihr bestehendes KIS/ERP oder als vollständige, eigenständige klinische Lösung für Einrichtungen ohne vorherige Software: Alles ist so konzipiert, dass Leitungen, Pflegende und Familien sicher miteinander verbunden sind.",
+      "subtitle": "Ob als integrierte Kommunikationsebene für Ihr bestehendes KIS/ERP oder als vollständige, eigenständige Lösung für Einrichtungen ohne vorherige Software: Alles ist so konzipiert, dass Leitungen, Pflegende und Familien sicher miteinander verbunden sind.",
       "learnMore": "Entdecken",
       "pillars": {
         "oversight": {
           "eyebrow": "Leitung",
           "title": "Institutionelle Überwachung",
-          "description": "Einheitlicher Kanal zur Echtzeitüberwachung von Alarmen, Kommunikationsflüssen und KPIs jeder Sede über ein zentrales Dashboard.",
+          "description": "Einheitlicher Kanal zur Echtzeitüberwachung von Alarmen, Kommunikationsflüssen und KPIs jedes Standorts über ein zentrales Dashboard.",
           "kpiResidents": "Patienten",
           "kpiProfessionals": "Pflege",
           "kpiAlerts": "Alarme",
@@ -143,8 +143,8 @@
         },
         "audit": {
           "eyebrow": "Konformität",
-          "title": "Audit-Log & DSG-Traceability",
-          "description": "Unveränderlicher Echtzeitprotokoll-Kanal für Zugriffe und Änderungen zur Gewährleistung der nativen Schweizer DSG-Konformität.",
+          "title": "Audit-Log & lückenlose Nachvollziehbarkeit",
+          "description": "Unveränderlicher Echtzeitprotokoll-Kanal für Zugriffe und Änderungen, von der Architektur her auf die Anforderungen der europäischen DSGVO und des Schweizer DSG ausgelegt.",
           "kpiResidents": "Patienten",
           "kpiProfessionals": "Pflege",
           "kpiAlerts": "Alarme",
@@ -171,7 +171,7 @@
         "rounds": {
           "eyebrow": "Pflege",
           "title": "Koordination & Pflegeübergaben",
-          "description": "Synchronisieren Sie Ihr medizinisches Team. Erfassen Sie Vitalwerte und Berichte in der Pflege-App für eine verlustfreie Übergabe bei gleichzeitiger Erstellung von Familien-Berichten.",
+          "description": "Synchronisieren Sie Ihr medizinisches Team. Erfassen Sie Vitalwerte und Berichte in der Pflege-App für eine verlustfreie Übergabe bei gleichzeitiger Erstellung von Mini-Berichten für die Familien.",
           "kpiResidents": "Patienten",
           "kpiProfessionals": "Pflege",
           "kpiAlerts": "Alarme",
@@ -213,7 +213,7 @@
             },
             "f2": {
               "title": "Multisite-Überwachung",
-              "description": "Überwachen Sie mehrere Standorte über eine einzige Konsole, mit strikter Datentrennung je Sede."
+              "description": "Überwachen Sie mehrere Standorte über eine einzige Konsole, mit strikter Datentrennung je Standort."
             },
             "f3": {
               "title": "Granulares RBAC",
@@ -221,7 +221,7 @@
             }
           }
         },
-        "compliance": "Integriertes DSG-Audit-Log mit unveränderlicher Spur jedes Zugriffs und jeder Steuerungsaktion. Dokumentation bereit für kantonale Behörden.",
+        "compliance": "Integriertes Audit-Log mit unveränderlicher Spur jedes Zugriffs und jeder Steuerungsaktion. Dokumentation bereit für Ihre internen Audits und die Datenschutzbehörden.",
         "cta": {
           "eyebrow": "Nächster Schritt",
           "title": "Sehen wir Ihr Dashboard live.",
@@ -229,24 +229,24 @@
         }
       },
       "audit": {
-        "subtitle": "Rückverfolgbarkeits- und Compliance-Kanal. Gewährleisten Sie die native Einhaltung des Schweizer DSG durch ein unveränderliches Audit-Log für jede Kommunikation und jeden klinischen Zugriff.",
-        "visualAlt": "Vorschau des Audit-Moduls — vier Säulen: DSG-nativ, Schweizer Hosting, moderne Verschlüsselung, unveränderliches Audit-Log",
+        "subtitle": "Rückverfolgbarkeits- und Compliance-Kanal. Ein unveränderliches Protokoll jeder Kommunikation und jedes klinischen Zugriffs, in der Systemarchitektur auf die Anforderungen der DSGVO und des Schweizer DSG ausgelegt.",
+        "visualAlt": "Vorschau des Audit-Moduls — vier Säulen: nativer Datenschutz, Schweizer Hosting, moderne Verschlüsselung, unveränderliches Audit-Log",
         "capabilities": {
           "eyebrow": "Fähigkeiten",
           "heading": "Protokollierte Interaktionen",
-          "intro": "Das unveränderliche Audit-Log erfasst transparent jeden Zugriff, jede Signatur und jeden Pflege-Kommunikationsfluss in Ihrer Schweizer Infrastruktur.",
+          "intro": "Das unveränderliche Audit-Log erfasst transparent jeden Zugriff, jede Signatur und jeden Pflege-Kommunikationsfluss in einer souveränen, in der Schweiz gehosteten Infrastruktur.",
           "items": {
             "f0": {
               "title": "Klinische Zugriffe und Lesevorgänge",
               "description": "Rückverfolgbarkeit, welche Pflegekraft wann, von welchem Gerät und welcher IP-Adresse auf das Patientendossier zugegriffen hat."
             },
             "f1": {
-              "title": "Änderungen an der Akte",
+              "title": "Änderungen am Dossier",
               "description": "Protokoll der Änderungen in Bewohnerprofilen, Pflegeplänen oder Besuchsberichten, mit vollständiger Vorher-nachher-Historie."
             },
             "f2": {
               "title": "HMAC-Signaturen für Berichte",
-              "description": "Digital signierte Spitex-Besuchsberichte zur Validierung der KVG/LAMal-Anforderungen für die Abrechnung."
+              "description": "Digital signierte Besuchsberichte, bereit für die Abrechnungsvalidierung und die Audits der Krankenversicherung (z. B. KVG/LAMal in der Schweiz)."
             },
             "f3": {
               "title": "Exporte und Aufbewahrung",
@@ -254,7 +254,7 @@
             }
           }
         },
-        "compliance": "Ab Zeile eins DSG-konform. Spur bereit für den Eidgenössischen Datenschutzbeauftragten und kantonale Behörden.",
+        "compliance": "Datenschutz by Design — DSGVO und DSG. Spur bereit für die Datenschutzbehörden sowie Ihre internen und externen Audits.",
         "cta": {
           "eyebrow": "Nächster Schritt",
           "title": "Sehen wir das Audit-Log mit einem realen Fall.",
@@ -287,15 +287,15 @@
             }
           }
         },
-        "compliance": "DSG-konform für den Schutz von Videodaten. Einwilligung jederzeit widerrufbar, Zugriffsprotokoll auf Anfrage exportierbar.",
+        "compliance": "Videodatenschutz by Design — DSGVO und DSG. Einwilligung jederzeit widerrufbar, Zugriffsprotokoll auf Anfrage exportierbar.",
         "cta": {
           "eyebrow": "Nächster Schritt",
           "title": "Sehen wir Livestream in Ihrem Kontext.",
-          "description": "30 Minuten, um Spitex-, Pflegeheim- oder Klinikszenarien zu besprechen, in denen dieses Modul passt — und solche, in denen nicht."
+          "description": "30 Minuten, um zu besprechen, wo dieses Modul Sinn ergibt — häusliche Pflege, Pflegeheim oder Klinik — und wo nicht."
         }
       },
       "chat-multilingue": {
-        "subtitle": "Interaktiver mehrsprachiger Kommunikationskanal. Übersetzen Sie Gespräche zwischen Familien und Pflegepersonal sofort in mehrere Sprachen und überwinden Sie Barrieren in den multikulturellen Schweizer Umgebungen.",
+        "subtitle": "Interaktiver mehrsprachiger Kommunikationskanal. Übersetzen Sie Gespräche zwischen Familien und Pflegepersonal sofort in mehrere Sprachen und überwinden Sie Sprachbarrieren in multikulturellen Pflegeumgebungen.",
         "visualAlt": "Live-Demo des mehrsprachigen Chats — FR↔ES-Übersetzung mit Pflegesteuerung und vollständigem Protokoll",
         "capabilities": {
           "eyebrow": "Fähigkeiten",
@@ -312,15 +312,15 @@
             },
             "f2": {
               "title": "Schweizer Hosting",
-              "description": "Die Übersetzung läuft auf Schweizer Infrastruktur, nicht bei ausländischen Hyperscalern. Kein Versand an Google oder OpenAI."
+              "description": "Die Übersetzung läuft auf eigener Infrastruktur in der Schweiz, nicht bei den Hyperscalern. Kein Versand an Google oder OpenAI."
             },
             "f3": {
               "title": "Bidirektional und nachvollziehbar",
-              "description": "Jede Nachricht in beiden Sprachen gespeichert. Das DSG-Audit-Log umfasst die vollständige Übersetzungsspur."
+              "description": "Jede Nachricht in beiden Sprachen gespeichert. Das Audit-Log umfasst die vollständige Übersetzungsspur."
             }
           }
         },
-        "compliance": "DSG-konform für die Patient-Pflege-Kommunikation. Keine Datenabflüsse zu Verbraucher-Übersetzungsdiensten.",
+        "compliance": "Patient-Pflege-Kommunikation mit Datenschutz by Design — DSGVO und DSG. Keine Datenabflüsse zu Verbraucher-Übersetzungsdiensten.",
         "cta": {
           "eyebrow": "Nächster Schritt",
           "title": "Sehen wir den mehrsprachigen Chat live.",
@@ -337,7 +337,7 @@
           "items": {
             "f0": {
               "title": "Vorab organisierte Visite",
-              "description": "Die Tagesvisite ist beim Eintreffen bereit. Zimmer für Zimmer für Pflegeheime, Wohnort für Wohnort für Spitex."
+              "description": "Die Tagesvisite ist beim Eintreffen bereit. Zimmer für Zimmer im Pflegeheim, Wohnort für Wohnort in der häuslichen Pflege."
             },
             "f1": {
               "title": "Visitennotizen",
@@ -345,7 +345,7 @@
             },
             "f2": {
               "title": "GPS für die häusliche Pflege",
-              "description": "Für Spitex: GPS-Geofencing, das die Anwesenheit am Wohnort des Patienten automatisch validiert (Feature 22-C)."
+              "description": "Für die häusliche Pflege: GPS-Geofencing, das die Anwesenheit am Wohnort des Patienten automatisch validiert."
             },
             "f3": {
               "title": "Notizen mit Zeitstempel",
@@ -357,11 +357,11 @@
             }
           }
         },
-        "compliance": "HMAC-signierte Berichte, konform mit den KVG/LAMal-Anforderungen. Natives DSG-Audit-Log bei jeder Pflegehandlung und jedem Zugriff auf das geteilte Patientendossier.",
+        "compliance": "HMAC-signierte Berichte, bereit für Abrechnungsvalidierung und Audit. Natives Audit-Log bei jeder Pflegehandlung und jedem Zugriff auf das geteilte Patientendossier.",
         "cta": {
           "eyebrow": "Nächster Schritt",
           "title": "Sehen wir eine digitale Visite in Ihrer Struktur.",
-          "description": "30 Minuten, um das Modul auf Ihre Pflegepfade abzustimmen — Pflegeheim, Spitex oder beides."
+          "description": "30 Minuten, um das Modul auf Ihre Pflegepfade abzustimmen — Pflegeheim, häusliche Pflege oder beides."
         }
       },
       "floor-plans": {
@@ -378,7 +378,7 @@
             },
             "f1": {
               "title": "Routen im Plan",
-              "description": "Eingezeichnete Routen im Plan vom Empfang bis zum gesuchten Zimmer oder Dienst."
+              "description": "Eingezeichnete Routen im Plan vom Empfang bis zum gesuchten Zimmer oder zur gesuchten Abteilung."
             },
             "f2": {
               "title": "Planungsunterstützung",
@@ -386,7 +386,7 @@
             },
             "f3": {
               "title": "Mehrere Gebäude",
-              "description": "EMS mit mehreren Pavillons oder Nebengebäuden: in einem einzigen Plan dargestellt."
+              "description": "Pflegeheime mit mehreren Pavillons oder Nebengebäuden: in einem einzigen Plan dargestellt."
             }
           }
         },
@@ -402,21 +402,21 @@
   "pourQui": {
     "eyebrow": "Für wen",
     "title": "Für jede Einrichtungsart konzipiert.",
-    "subtitle": "Drei Pflegesettings — Pflegeheime, häusliche Pflege und Nachsorge — sowie Spitäler und Kliniken. Jedes mit seiner eigenen Realität, alle auf einer Kommunikationsplattform mit einem einzigen Schweizer Compliance-Versprechen.",
+    "subtitle": "Drei Pflegesettings — Pflegeheime, häusliche Pflege und Nachsorge — sowie Spitäler und Kliniken. Jedes mit seiner eigenen Realität, alle auf einer Kommunikationsplattform mit demselben Versprechen: Datenschutz auf Schweizer Niveau, by Design.",
     "tabsAriaLabel": "Wählen Sie Ihre Einrichtungsart",
     "audiences": {
       "ems": {
         "label": "Pflegeheime",
         "title": "Für Pflegeheime",
-        "description": "Mandantenfähige Steuerung, DSG-Audit-Log, granulares RBAC. Das ganze Haus, auf einem Bildschirm.",
+        "description": "Mandantenfähige Steuerung, unveränderliches Audit-Log, granulares RBAC. Das ganze Haus, auf einem Bildschirm.",
         "features": {
           "f0": {
             "title": "Mandantenfähig",
             "description": "Steuerung mehrerer Heime von einer einzigen Konsole. Vergleichbare KPIs, strikte Datentrennung."
           },
           "f1": {
-            "title": "DSG-Audit-Log",
-            "description": "Unveränderliche Spur der Zugriffe und Änderungen. Dokumentation für interne und kantonale Audits verfügbar."
+            "title": "Unveränderliches Audit-Log",
+            "description": "Unveränderliche Spur der Zugriffe und Änderungen. Dokumentation für Ihre internen und externen Audits verfügbar."
           },
           "f2": {
             "title": "Mehrere Teams & RBAC",
@@ -425,17 +425,17 @@
         }
       },
       "spitex": {
-        "label": "Spitex",
+        "label": "Häusliche Pflege",
         "title": "Für die häusliche Pflege",
         "description": "Verbindung Pflegeperson ↔ Patient ↔ Familie aus der Ferne, mit GPS-Validierung der Besuche und kryptografisch signierten Berichten.",
         "features": {
           "f0": {
             "title": "Visiten mit GPS",
-            "description": "GPS-Geofencing zur automatischen Validierung der Anwesenheit am Wohnort. Konzipiert für die Anforderungen von Spitex CH."
+            "description": "GPS-Geofencing zur automatischen Validierung der Anwesenheit am Wohnort — ganz ohne Fotos oder Kontrollanrufe."
           },
           "f1": {
             "title": "HMAC-signierte Berichte",
-            "description": "Jeder Besuchsbericht ist kryptografisch signiert. Konform mit den Anforderungen von KVG/LAMal."
+            "description": "Jeder Besuchsbericht ist kryptografisch signiert — bereit für Abrechnung und Audit."
           },
           "f2": {
             "title": "Priorisierte Alarme",
@@ -458,7 +458,7 @@
           },
           "f2": {
             "title": "Unveränderliches Audit-Log",
-            "description": "Jede Aktion protokolliert. Spur konform mit den DSG-Anforderungen und Spitalaudits."
+            "description": "Jede Aktion protokolliert. Spur bereit für Ihre Spital- und Datenschutzaudits."
           }
         },
         "tile": {
@@ -487,7 +487,7 @@
           },
           "f1": {
             "title": "Hosting in der Schweiz",
-            "description": "Hosting in der Schweiz, per Web aus dem Ausland zugänglich."
+            "description": "Hosting in der Schweiz, zugänglich von überall auf der Welt."
           },
           "f2": {
             "title": "Automatische Mehrsprachigkeit",
@@ -521,24 +521,24 @@
   },
   "compliance": {
     "eyebrow": "Konformität",
-    "title": "Für das Schweizer Recht gebaut, kein DSGVO-Patch.",
-    "subtitle": "DSG-nativ, Schweizer Hosting, unveränderliches Audit-Log. Konformität ist in der Architektur, nicht in einem Vertragsanhang.",
+    "title": "Datenschutz auf Schweizer Niveau, ausgelegt auf DSGVO und DSG.",
+    "subtitle": "Datenschutz by Design, Schweizer Hosting, unveränderliches Audit-Log. Konformität ist in der Architektur, nicht in einem Vertragsanhang.",
     "trustLine": "Technische Dokumentation auf Anfrage für Ihre Rechts- und IT-Abteilungen verfügbar.",
     "pillars": {
       "nlpd": {
-        "title": "DSG-nativ",
-        "description": "Natives Audit-Log für Zugriffe und Änderungen, von der ersten Code-Zeile an für das Schweizer Recht konzipiert."
+        "title": "DSGVO & DSG by Design",
+        "description": "Natives Audit-Log für Zugriffe und Änderungen, von der ersten Code-Zeile an für die Anforderungen der europäischen DSGVO und des Schweizer DSG konzipiert."
       },
       "hosting": {
         "title": "Schweizer Hosting",
-        "description": "Infrastruktur in der Schweiz gehostet (Infomaniak, Genf). Patientendaten verlassen das Schweizer Territorium nicht."
+        "description": "Infrastruktur in der Schweiz gehostet (Infomaniak, Genf) — einem Land mit Angemessenheitsbeschluss der Europäischen Kommission. Patientendaten verlassen diese Infrastruktur nicht."
       },
       "encryption": {
         "title": "Moderne Verschlüsselung",
-        "description": "Modernes TLS während der Übertragung auf Schweizer Server. Verschlüsselung der sensiblen Felder (PHI). HMAC-signierte Visitenberichte."
+        "description": "Modernes TLS während der Übertragung, Verschlüsselung der sensiblen Felder (PHI), HMAC-signierte Visitenberichte."
       },
       "audit": {
-        "title": "DSG-Audit-Log",
+        "title": "Unveränderliches Audit-Log",
         "description": "Unveränderliche Spur jedes Zugriffs und jeder Änderung. Multi-Institution mit granularem RBAC und strikter Datentrennung."
       }
     }
@@ -546,7 +546,7 @@
   "faq": {
     "eyebrow": "Häufig gestellte Fragen",
     "title": "Bevor Sie eine Demo anfordern.",
-    "subtitle": "Die Fragen, die uns Leitungen von Pflegeheimen, Spitex und Spitälern am häufigsten stellen.",
+    "subtitle": "Die Fragen, die uns Leitungen von Pflegeheimen, häuslichen Pflegediensten und Spitälern am häufigsten stellen.",
     "questions": {
       "q0": {
         "question": "Wie verläuft das Onboarding?",
@@ -565,8 +565,8 @@
         "answer": "Personalisiertes Angebot nach einer 30-minütigen Demo, abhängig von der Grösse der Einrichtung, den gewählten Modulen und der Anzahl der Benutzer."
       },
       "q4": {
-        "question": "Bleiben Ihre Daten in der Schweiz?",
-        "answer": "Ja. Infrastruktur in der Schweiz gehostet (Infomaniak, Genf). Keine Patientendaten verlassen das Schweizer Territorium. Kantonale Anpassungen werden im Einzelfall besprochen."
+        "question": "Wo werden die Daten gehostet?",
+        "answer": "In der Schweiz. Die Infrastruktur wird bei Infomaniak (Genf) gehostet. Die Schweiz verfügt über einen Angemessenheitsbeschluss der Europäischen Kommission — dieses Hosting ist für europäische Kunden damit voll DSGVO-kompatibel. Patientendaten verlassen diese Infrastruktur nicht."
       },
       "q5": {
         "question": "Wie fordere ich eine Demo an?",
@@ -582,8 +582,8 @@
   },
   "floorPlans": {
     "eyebrow": "3D-Pläne & Indoor-Navigation",
-    "title": "Bewohner, Besucher und Pflegende verlaufen sich nicht mehr.",
-    "subtitle": "Als massgeschneiderter Service erstellt CareBond den 3D-Plan Ihres Gebäudes für Bildschirme und Terminals im Eingangsbereich Ihrer Einrichtung und hilft Angehörigen, Besuchern und externem Fachpersonal, sich zum gesuchten Zimmer oder Dienst zu orientieren.",
+    "title": "Angehörige, Besucher und externes Fachpersonal verlaufen sich nicht mehr.",
+    "subtitle": "Als massgeschneiderter Service erstellt CareBond den 3D-Plan Ihres Gebäudes für Bildschirme und Terminals im Eingangsbereich Ihrer Einrichtung und hilft Angehörigen, Besuchern und externem Fachpersonal, den Weg zum gesuchten Zimmer oder zur gesuchten Abteilung zu finden.",
     "learnMore": "Mehr über 3D-Pläne",
     "bullets": {
       "b0": {
@@ -596,7 +596,7 @@
       },
       "b2": {
         "title": "Orientierung am Empfang",
-        "description": "Am Empfangsterminal konsultieren Besucher und Familien den Plan, um sich zum gesuchten Zimmer oder Dienst zu orientieren."
+        "description": "Am Empfangsterminal konsultieren Besucher und Familien den Plan, um den Weg zum gesuchten Zimmer oder zur gesuchten Abteilung zu finden."
       }
     },
     "hospital": {
@@ -622,7 +622,7 @@
   "chatMultilingue": {
     "eyebrow": "Mehrsprachiger Chat",
     "title": "Die Fachkraft spricht Französisch. Die Familie spricht Spanisch. CareBond übersetzt.",
-    "subtitle": "In der Schweiz wie anderswo sprechen viele Patienten und Familien nicht die Sprache der Pflege. CareBond übersetzt sofort zwischen den unterstützten Sprachen und baut so Kommunikationsbarrieren ab.",
+    "subtitle": "In jedem Gesundheitssystem sprechen viele Patienten und Familien nicht die Sprache derer, die sie pflegen. CareBond übersetzt sofort zwischen den unterstützten Sprachen und baut so Kommunikationsbarrieren ab.",
     "learnMore": "Mehr über den mehrsprachigen Chat",
     "bullets": {
       "b0": {
@@ -631,11 +631,11 @@
       },
       "b1": {
         "title": "Schweizer Hosting",
-        "description": "Der Inhalt verlässt das Land nie. Übersetzung auf Schweizer Infrastruktur, nicht bei Hyperscalern."
+        "description": "Der Inhalt verlässt unsere Infrastruktur nie. Übersetzung auf eigenen Servern in der Schweiz, nicht bei den Hyperscalern."
       },
       "b2": {
         "title": "Bidirektional und nachvollziehbar",
-        "description": "Jede Nachricht in beiden Sprachen gespeichert. Das DSG-Audit umfasst die vollständige Übersetzungsspur."
+        "description": "Jede Nachricht in beiden Sprachen gespeichert. Das Audit-Log umfasst die vollständige Übersetzungsspur."
       },
       "b3": {
         "title": "Steuerung durch die Pflege",
@@ -645,16 +645,16 @@
   },
   "moduleResidences": {
     "eyebrow": "Modul Pflegeheime",
-    "title": "Für Schweizer Pflegeheime gebaut — von der Aufnahme bis zum Audit.",
-    "subtitle": "Eines der drei Pflegesettings, die CareBond bedient. Konzipiert für das medizinisch-soziale Pflegeheim, das ein strukturiertes Patientendossier möchte, eine digitale Visite in der Tasche der Pflegeperson und einen für Ihre Audits bereiten Aktivitätsexport.",
+    "title": "Für Pflegeheime gebaut — von der Aufnahme bis zum Audit.",
+    "subtitle": "Eines der drei Pflegesettings, die CareBond bedient. Konzipiert für das Pflegeheim, das ein strukturiertes Patientendossier möchte, eine digitale Visite in der Tasche der Pflegeperson und einen für Ihre Audits bereiten Aktivitätsexport.",
     "pillars": {
       "admission": {
         "title": "Aufnahme & Patientendossier",
-        "description": "Alles beginnt mit einer Aufnahme. CareBond verwandelt diesen ersten Schritt in ein strukturiertes Patientendossier, ab dem ersten Klick DSG-konform.",
+        "description": "Alles beginnt mit einer Aufnahme. CareBond verwandelt diesen ersten Schritt in ein strukturiertes Patientendossier — mit garantiertem Datenschutz ab dem ersten Klick.",
         "bullets": {
-          "b0": "Standardisiertes Aufnahmeformular, DSG-konform und an kantonale Besonderheiten anpassbar",
+          "b0": "Standardisiertes Aufnahmeformular, konform mit den Datenschutzanforderungen und an regionale Besonderheiten anpassbar",
           "b1": "Erfassung des gesetzlichen Beistands und der Patientenverfügungen",
-          "b2": "Import von Gesundheitsdaten über EPD/FHIR (in Entwicklung)",
+          "b2": "Import von Gesundheitsdaten über FHIR-Standards (in Entwicklung)",
           "b3": "Digitalisiertes Dossier, zugänglich für das autorisierte Team"
         }
       },
@@ -675,8 +675,8 @@
         "bullets": {
           "b0": "Natives Audit-Log der Zugriffe und Änderungen",
           "b1": "Filterung nach Zeitraum, Bewohner, Pflegeperson",
-          "b2": "HMAC-signierte Besuchsberichte, konform mit KVG/LAMal-Anforderungen",
-          "b3": "Strukturierter Export für Ihre internen Audits, kantonale Formate folgen"
+          "b2": "HMAC-signierte Besuchsberichte, bereit für Abrechnung und Audit",
+          "b3": "Strukturierter Export für Ihre internen und externen Audits"
         }
       }
     }
@@ -692,7 +692,7 @@
         "i0": "Die Familie ruft dreimal pro Woche an, um nach dem Stand zu fragen.",
         "i1": "Mini-Bericht verloren in einer vergessenen E-Mail oder SMS.",
         "i2": "Die Pflegeperson muss die Leitung anrufen, um einen Alarm zu validieren.",
-        "i3": "DSG-Audit: drei Wochen Papierkram und Ordner."
+        "i3": "Datenschutzaudit: drei Wochen Papierkram und Ordner."
       }
     },
     "apres": {
@@ -702,7 +702,7 @@
         "i0": "Die Familie erhält den täglichen Mini-Bericht automatisch, ohne zu fragen.",
         "i1": "Die Pflegeperson bestätigt mit zwei Taps aus der Hosentasche.",
         "i2": "Die Leitung sieht den Alarm in Echtzeit, ohne Anruf.",
-        "i3": "DSG-Audit: ein einziger Export, bereit für kantonale Behörden."
+        "i3": "Datenschutzaudit: ein einziger Export, bereit für jede anfragende Behörde."
       }
     },
     "closing": "Wenn jeder Akteur dieselbe Realität sieht, wird Pflege wieder kontinuierlich."
@@ -715,7 +715,7 @@
       "patient": {
         "number": "01",
         "title": "Patient",
-        "description": "Einfache Oberfläche für Seniorinnen und Senioren. SOS mit einem Tipp, Videoanrufe, direkter Zugang zur Pflege."
+        "description": "Einfache, zugängliche Oberfläche, die jede Patientin und jeder Patient nutzen kann. SOS mit einem Tipp, Videoanrufe, direkter Zugang zur Pflege."
       },
       "family": {
         "number": "02",
@@ -730,7 +730,7 @@
       "direction": {
         "number": "04",
         "title": "Leitung",
-        "description": "Institutionelle Steuerung, DSG-Audit, KPIs Heim für Heim. Das ganze Haus auf einem Bildschirm."
+        "description": "Institutionelle Steuerung, integriertes Audit, KPIs Standort für Standort. Das ganze Haus auf einem Bildschirm."
       }
     }
   },
@@ -744,7 +744,7 @@
     "home": "Zur Startseite"
   },
   "footer": {
-    "tagline": "Die Schweizer Pflegeplattform für Patienten, Angehörige und Pflegepersonal.",
+    "tagline": "Die Kommunikationsplattform für die Pflege — verbindet Patienten, Familien und Fachpersonen.",
     "navAriaLabel": "Fusszeile",
     "columns": {
       "solutions": "Lösungen",
@@ -764,8 +764,8 @@
     }
   },
   "metadata": {
-    "title": "CareBond — Schweizer Pflegeplattform",
-    "description": "Schweizer Pflegeplattform für Patienten, Angehörige und Pflegepersonal. DSG-konform, Hosting in der Schweiz, entwickelt für Pflegeheime, Spitex, Spitäler und Kliniken."
+    "title": "CareBond — Kommunikation für die Pflege",
+    "description": "Kommunikationsplattform für die Pflege, die Patienten, Familien und Fachpersonen verbindet. Datenschutz auf Schweizer Niveau — DSGVO und DSG by Design — für Pflegeheime, häusliche Pflege, Spitäler und Kliniken."
   },
   "contact": {
     "metadata": {
@@ -784,7 +784,7 @@
       "locationLabel": "Büro",
       "locationValue": "Genf, Schweiz",
       "responseLabel": "Antwortzeit",
-      "responseValue": "Innerhalb von 24 Werkstunden"
+      "responseValue": "Innerhalb von 24 Stunden an Werktagen"
     }
   },
   "contactForm": {
@@ -795,18 +795,18 @@
       },
       "email": {
         "label": "Geschäftliche E-Mail",
-        "placeholder": "maria@einrichtung.ch"
+        "placeholder": "maria@einrichtung.com"
       },
       "institution": {
         "label": "Einrichtung",
-        "placeholder": "Pflegeheim Sonnenblick, Spital Zürich..."
+        "placeholder": "Pflegeheim Sonnenblick, Klinik am Park..."
       },
       "audience": {
         "label": "Art der Einrichtung",
         "placeholder": "Auswählen…",
         "options": {
-          "ems": "Pflegeheim",
-          "spitex": "Spitex / Häusliche Pflege",
+          "ems": "Pflegeheim / Pflegezentrum",
+          "spitex": "Häusliche Pflege (Spitex)",
           "hospitals": "Spital",
           "clinics": "Privatklinik",
           "other": "Andere",
@@ -820,10 +820,10 @@
     },
     "submit": "Anfrage senden",
     "submitting": "Wird gesendet…",
-    "privacy": "Ihre Daten werden gemäss DSG verarbeitet. Keine Weitergabe an Dritte.",
+    "privacy": "Ihre Daten werden gemäss DSGVO und DSG verarbeitet. Keine Weitergabe an Dritte.",
     "success": {
       "title": "Anfrage erhalten, danke.",
-      "message": "Wir melden uns innerhalb von 24 Werkstunden mit einem Demo-Termin.",
+      "message": "Wir melden uns innerhalb von 24 Stunden an Werktagen mit einem Demo-Termin.",
       "again": "Eine weitere Anfrage senden"
     },
     "error": {
@@ -862,7 +862,7 @@
       "title": "Datenschutzerklärung",
       "metaDescription": "Wie CareBond Ihre personenbezogenen Daten gemäss DSG erfasst, verwendet und schützt.",
       "lastUpdated": "Aktualisiert am 14. Mai 2026",
-      "intro": "CareBond SA verarbeitet Ihre personenbezogenen Daten sorgfältig und in Übereinstimmung mit dem Bundesgesetz über den Datenschutz (DSG) und internationalen bewährten Verfahren. Diese Erklärung beschreibt, was wir auf dieser Marketing-Website erfassen, zu welchem Zweck und welche Rechte Sie haben.",
+      "intro": "CareBond SA verarbeitet Ihre personenbezogenen Daten sorgfältig und in Übereinstimmung mit dem Schweizer Bundesgesetz über den Datenschutz (DSG), der europäischen DSGVO — soweit sie auf Besucherinnen und Besucher aus der EU anwendbar ist — und internationalen bewährten Verfahren. Diese Erklärung beschreibt, was wir auf dieser Marketing-Website erfassen, zu welchem Zweck und welche Rechte Sie haben.",
       "sections": {
         "controller": {
           "heading": "1. Verantwortliche Stelle",
@@ -870,7 +870,7 @@
         },
         "data": {
           "heading": "2. Erfasste Daten",
-          "body": "Wir erfassen ausschliesslich die Daten, die Sie uns freiwillig über das Kontaktformular zur Verfügung stellen: vollständiger Name, geschäftliche E-Mail-Adresse, Name Ihrer Einrichtung, Art der Einrichtung (Pflegeheim, Spitex, Spital, Klinik, andere) und Inhalt Ihrer Nachricht. Wir erfassen keine Werbe-IDs und keine Browser-Fingerprints. Die Website enthält keine Tracking-Cookies Dritter."
+          "body": "Wir erfassen ausschliesslich die Daten, die Sie uns freiwillig über das Kontaktformular zur Verfügung stellen: vollständiger Name, geschäftliche E-Mail-Adresse, Name Ihrer Einrichtung, Art der Einrichtung (Pflegeheim, häusliche Pflege, Spital, Klinik, andere) und Inhalt Ihrer Nachricht. Wir erfassen keine Werbe-IDs und keine Browser-Fingerprints. Die Website enthält keine Tracking-Cookies Dritter."
         },
         "purposes": {
           "heading": "3. Zwecke",
@@ -878,7 +878,7 @@
         },
         "legalBasis": {
           "heading": "4. Rechtsgrundlage",
-          "body": "Die Verarbeitung Ihrer Daten beruht auf Ihrer ausdrücklichen Einwilligung (freiwilliges Absenden des Formulars) und auf unserem berechtigten Interesse, auf Ihre geschäftliche Anfrage zu reagieren, gemäss DSG."
+          "body": "Die Verarbeitung Ihrer Daten beruht auf Ihrer ausdrücklichen Einwilligung (freiwilliges Absenden des Formulars) und auf unserem berechtigten Interesse, auf Ihre geschäftliche Anfrage zu reagieren, gemäss DSG und, soweit anwendbar, der DSGVO."
         },
         "recipients": {
           "heading": "5. Empfänger und Auftragsverarbeiter",
@@ -894,11 +894,11 @@
         },
         "rights": {
           "heading": "8. Ihre Rechte",
-          "body": "Gemäss DSG haben Sie das Recht auf Auskunft, Berichtigung, Löschung, Datenübertragbarkeit, Widerspruch und Einschränkung der Verarbeitung Ihrer Daten. Zur Ausübung dieser Rechte schreiben Sie uns an contact@carebond.ch und präzisieren Sie die Art Ihres Anliegens. Sie können auch Beschwerde beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) einreichen."
+          "body": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Datenübertragbarkeit, Widerspruch und Einschränkung der Verarbeitung Ihrer Daten. Zur Ausübung dieser Rechte schreiben Sie uns an contact@carebond.ch und präzisieren Sie die Art Ihres Anliegens. Sie können auch Beschwerde beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) oder bei Ihrer lokalen Datenschutzbehörde einreichen (zum Beispiel der AEPD in Spanien)."
         },
         "security": {
           "heading": "9. Sicherheit",
-          "body": "Die Website nutzt TLS 1.3 zur Verschlüsselung der Kommunikation zwischen Ihrem Browser und unseren Servern. Die Formulardaten werden Ende-zu-Ende verschlüsselt zwischen Ihrem Gerät, der Vercel-Infrastruktur und dem finalen Posteingang übertragen."
+          "body": "Die Website nutzt TLS 1.3 zur Verschlüsselung der Kommunikation zwischen Ihrem Browser und unseren Servern. Die Formulardaten werden auf jedem Abschnitt verschlüsselt übertragen: von Ihrem Gerät über die Vercel-Infrastruktur bis zum finalen Posteingang."
         },
         "cookies": {
           "heading": "10. Cookies und Tracker",
@@ -998,8 +998,8 @@
     "ems": {
       "eyebrow": "Für Pflegeheime",
       "title": "Ein Pflegeheim führen, ohne Papierkram und ohne blinde Flecken.",
-      "subtitle": "Digitale Visite, nativer DSG-Audit, mehrere Einrichtungen aus einer Konsole. Konzipiert für Leitungen, die klar sehen möchten, ohne Mikromanagement.",
-      "metaDescription": "CareBond-Lösung für Schweizer Pflegeheime: mandantenfähige Steuerung, DSG-Audit, digitale Visite, mehrere Teams mit granularem RBAC.",
+      "subtitle": "Digitale Visite, natives Audit-Log, mehrere Standorte aus einer Konsole. Konzipiert für Leitungen, die klar sehen möchten, ohne Mikromanagement.",
+      "metaDescription": "CareBond-Lösung für Pflegeheime: Steuerung mehrerer Standorte, natives Audit-Log, digitale Visite, mehrere Teams mit granularem RBAC.",
       "visualAlt": "Isometrischer 3D-Plan eines Pflegeheims — Memory-Care-Flügel, therapeutischer Garten, Hauptlobby",
       "problem": {
         "eyebrow": "Die Realität",
@@ -1008,45 +1008,45 @@
         "points": {
           "p0": "Die Tagesvisite steht auf einem Zettel, der verloren geht, und die Übergabe an die nächste Schicht erfolgt per Telefonanruf.",
           "p1": "Die Familie ruft dreimal pro Woche an, um nach Neuigkeiten zu fragen — und niemand hat wirklich Zeit, richtig zu antworten.",
-          "p2": "Das kantonale Audit erfordert Wochen der Vorbereitung, um die richtigen Unterlagen im richtigen Format zusammenzustellen.",
-          "p3": "Nicht deutschsprachige Bewohner und ihre Familien stossen täglich auf eine Sprachbarriere mit dem Pflegeteam."
+          "p2": "Ein externes Audit erfordert Wochen der Vorbereitung, um die richtigen Unterlagen im richtigen Format zusammenzustellen.",
+          "p3": "Bewohner, die die Sprache des Pflegeteams nicht sprechen, und ihre Familien erleben eine ständige Sprachbarriere."
         }
       },
       "features": {
         "eyebrow": "Was CareBond ändert",
         "heading": "Eine Plattform für die Realität eines Pflegeheims.",
-        "intro": "Kein generisches ERP, das nachträglich an das Gesundheitswesen angepasst wurde. Von der ersten Codezeile an für Schweizer Anforderungen konzipiert: DSG, KVG/LAMal, kantonale Vorgaben.",
+        "intro": "Kein generisches ERP, das nachträglich an das Gesundheitswesen angepasst wurde. Von der ersten Codezeile an für die Realität der Pflege konzipiert: Datenschutz, Nachvollziehbarkeit und Audits ohne Reibung.",
         "items": {
           "f0": {
             "title": "Mandantenfähige Steuerung",
             "description": "Mehrere Heime aus einer Konsole. Vergleichbare KPIs, strikte Datentrennung, granulares RBAC pro Team und Standort."
           },
           "f1": {
-            "title": "Natives DSG-Audit-Log",
-            "description": "Jeder Zugriff und jede Änderung unveränderlich protokolliert. Dokumentation bereit für interne Audits und kantonale Behörden."
+            "title": "Natives Audit-Log",
+            "description": "Jeder Zugriff und jede Änderung unveränderlich protokolliert. Dokumentation bereit für Ihre internen und externen Audits."
           },
           "f2": {
             "title": "Mehrsprachiger Chat",
-            "description": "Der spanischsprachige Bewohner schreibt mit seiner deutschsprachigen Pflegerin, jeder liest in seiner Sprache. Barriere weg, Kommunikation bleibt."
+            "description": "Bewohner und Pflegerin sprechen nicht dieselbe Sprache — und trotzdem liest jeder in seiner eigenen. Die Barriere verschwindet, die Kommunikation bleibt."
           },
           "f3": {
             "title": "Mehrere Teams & geteilte Berichte",
             "description": "Leitung, Pflege, Hausdienst, externe Dienstleister — jeder mit seiner Zugriffsebene und Oberfläche, mit granularen Berechtigungen. Berichte, Konsultationen und Vitalwerte, die eine Pflegekraft erfasst, sind sofort für alle dem Bewohner zugewiesenen Fachpersonen sichtbar — Schluss mit Informationslücken zwischen Schichten. Parallel geht ein gefilterter Mini-Bericht an die Familie."
           }
         },
-        "roadmap": "BESA-, RAI- und PLAISIR-Integrationen in Vorbereitung für eine zukünftige Version."
+        "roadmap": "Integrationen mit Pflege-Assessment-Systemen (BESA, RAI, PLAISIR) in Prüfung für eine kommende Version."
       },
       "cta": {
         "eyebrow": "Nächster Schritt",
         "title": "Sehen wir uns CareBond mit Ihrem Pflegeheim im Blick an.",
-        "description": "30 Minuten Demo mit Ihren realen Fällen: Grösse, Kantone, gewählte Module, typischer Bewohnerverlauf bei Ihnen."
+        "description": "30 Minuten Demo mit Ihren realen Fällen: Grösse, gewählte Module, typischer Bewohnerverlauf bei Ihnen."
       }
     },
     "home-care": {
       "eyebrow": "Für die häusliche Pflege",
       "title": "Vertrauen aus der Ferne, ohne aufdringliche Überwachung.",
-      "subtitle": "GPS-Validierung der Besuche, kryptografisch signierte Berichte, Livestream mit Einwilligung des Patienten. Konzipiert für Spitex CH und gleichwertige Dienste.",
-      "metaDescription": "CareBond-Lösung für Spitex und häusliche Pflege: GPS-Geofencing, HMAC-Berichte konform mit KVG/LAMal, Livestream mit Einwilligung, Familien-Mini-Berichte.",
+      "subtitle": "GPS-Validierung der Besuche, kryptografisch signierte Berichte, Livestream mit Einwilligung des Patienten. Konzipiert für häusliche Pflegedienste.",
+      "metaDescription": "CareBond-Lösung für die häusliche Pflege: GPS-Validierung der Besuche, kryptografisch signierte Berichte, Livestream mit Einwilligung, Mini-Berichte an die Familie.",
       "visualAlt": "Vorschau der Familien-App — täglicher Mini-Bericht und Livestream, vom Patienten aktivierbar",
       "problem": {
         "eyebrow": "Die Realität",
@@ -1061,8 +1061,8 @@
       },
       "features": {
         "eyebrow": "Was CareBond ändert",
-        "heading": "Der Einsatz validiert, ohne jemanden zu stören.",
-        "intro": "Die Werkzeuge, die Spitex-Teams brauchen, um ihre Arbeit zu tun, ohne Zeit damit zu verlieren, sie zu belegen.",
+        "heading": "Vor Ort validiert, ohne jemanden zu stören.",
+        "intro": "Die Werkzeuge, die Teams der häuslichen Pflege brauchen, um ihre Arbeit zu tun, ohne Zeit damit zu verlieren, sie zu belegen.",
         "items": {
           "f0": {
             "title": "GPS-Besuchsvalidierung",
@@ -1070,7 +1070,7 @@
           },
           "f1": {
             "title": "HMAC-signierte Berichte, im Team geteilt",
-            "description": "Jeder Besuchsbericht ist kryptografisch signiert und sofort für alle dem Patienten zugewiesenen Pflegekräfte sichtbar — Frühschicht, Spätschicht, Bezugspflege. Konform mit den KVG/LAMal-Anforderungen für Abrechnung und Audit. Ein gefilterter Mini-Bericht geht parallel an die Familie."
+            "description": "Jeder Besuchsbericht ist kryptografisch signiert und sofort für alle dem Patienten zugewiesenen Pflegekräfte sichtbar — Frühschicht, Spätschicht, Bezugspflege. Bereit für Abrechnung und Audit. Ein gefilterter Mini-Bericht geht parallel an die Familie."
           },
           "f2": {
             "title": "Livestream mit Einwilligung",
@@ -1097,18 +1097,18 @@
       "problem": {
         "eyebrow": "Die Realität",
         "heading": "Im Spital ist die Zeit, die zum Zurechtfinden oder zur Neuerfassung verloren geht, verlorene Pflegezeit.",
-        "intro": "Besucher verlaufen sich in den Korridoren. Systeme sprechen nicht miteinander. Übergreifende DSG-Audits dauern Wochen. Und jede Abteilung hat ihre eigenen Werkzeuge.",
+        "intro": "Besucher verlaufen sich in den Korridoren. Systeme sprechen nicht miteinander. Übergreifende Datenschutzaudits dauern Wochen. Und jede Abteilung hat ihre eigenen Werkzeuge.",
         "points": {
           "p0": "Besucher und ambulante Patienten irren durch die Korridore, und jeder Empfang dient am Ende auch als Info-Stelle.",
           "p1": "Ihr aktuelles EMR spricht nicht mit Ihrem Planungstool, Ihren Berichten oder Ihrem abteilungsübergreifenden Patientendossier.",
-          "p2": "Ein DSG-Audit bedeutet, sich durch fünf verschiedene Systeme zu klicken, um eine Akte zusammenzustellen.",
+          "p2": "Ein Datenschutzaudit bedeutet, sich durch fünf verschiedene Systeme zu klicken, um eine Akte zusammenzustellen.",
           "p3": "Jede Abteilung (Notfall, Medizin, Radiologie) verwaltet ihre Berechtigungen separat — keine Konsistenz, kein einheitliches RBAC."
         }
       },
       "features": {
         "eyebrow": "Was CareBond ändert",
         "heading": "Eine Plattform, die sich integriert, statt zu ersetzen.",
-        "intro": "CareBond hat nicht den Anspruch, Ihr EMR zu ersetzen. Wir docken an, schliessen die Lücken und bringen, was fehlte: Indoor-Navigation, mehrsprachige Kommunikation, übergreifendes Audit.",
+        "intro": "CareBond hat nicht den Anspruch, Ihr EMR zu ersetzen, sondern daran anzudocken (dokumentierte REST-API heute verfügbar; HL7/FHIR-Integration in Entwicklung) — um Lücken zu schliessen und zu ergänzen, was fehlte: Indoor-Navigation, mehrsprachige Kommunikation, übergreifendes Audit.",
         "items": {
           "f0": {
             "title": "Dokumentierte REST-API, HL7/FHIR in Entwicklung",
@@ -1120,7 +1120,7 @@
           },
           "f2": {
             "title": "Unveränderliches Audit-Log",
-            "description": "Jede Aktion protokolliert, exportierbar. Spur konform mit DSG- und kantonalen Spitalaudit-Anforderungen."
+            "description": "Jede Aktion protokolliert, exportierbar. Spur bereit für Ihre Spital- und Datenschutzaudits."
           },
           "f3": {
             "title": "3D-Pläne (Service)",
@@ -1131,21 +1131,21 @@
       "cta": {
         "eyebrow": "Nächster Schritt",
         "title": "Sehen wir uns CareBond mit Ihren Spitalanforderungen an.",
-        "description": "30 Minuten, um EMR-Integration, kantonale Anforderungen und für Ihre Dienste relevante Module zu besprechen."
+        "description": "30 Minuten, um EMR-Integration, Ihre regulatorischen Anforderungen und für Ihre Dienste relevante Module zu besprechen."
       }
     },
     "clinics": {
       "eyebrow": "Für Privatkliniken",
       "title": "Premium-Patientenerlebnis, in Ihrer Marke.",
       "subtitle": "Mehrsprachiger Chat für internationale Patienten und Hosting in der Schweiz. Ein Segment, auf das wir hinarbeiten.",
-      "metaDescription": "CareBond-Lösung für Privatkliniken: mehrsprachiger Chat, Hosting in der Schweiz, nLPD-Konformität.",
+      "metaDescription": "CareBond-Lösung für Privatkliniken: mehrsprachiger Chat, Hosting in der Schweiz, Datenschutz by Design (DSGVO und DSG).",
       "visualAlt": "Vorschau des mehrsprachigen Chats — FR↔ES-Nachrichten in Echtzeit übersetzt mit Pflegekontrolle",
       "problem": {
         "eyebrow": "Die Realität",
         "heading": "Eine Privatklinik ist weder ein Spital noch ein Pflegeheim — ihre Anforderungen sind einzigartig.",
         "intro": "Internationale Patienten, starke Klinikmarke, Telemedizin zwischen physischen Konsultationen, Erwartung eines Premium-Erlebnisses an jedem Berührungspunkt.",
         "points": {
-          "p0": "Ihre Patienten kommen von überall — Spanien, Italien, Deutschland, ausserhalb der EU. Die Sprachbarriere ist Alltag.",
+          "p0": "Ihre Patienten kommen von überall und sprechen nicht immer die Sprache Ihres Teams. Die Sprachbarriere ist Alltag.",
           "p1": "Ihre Klinikmarke ist ein Vermögenswert. Sie wollen nicht, dass eine Drittplattform sie mit ihrem eigenen Branding verwässert.",
           "p2": "Telemedizin zwischen zwei physischen Terminen wird erwartet, nicht als Option.",
           "p3": "Ihre VIP-Patienten verlangen ein Mass an Vertraulichkeit, das ein Konsumentenwerkzeug nicht garantieren kann."
@@ -1154,7 +1154,7 @@
       "features": {
         "eyebrow": "Was CareBond ändert",
         "heading": "Eine professionelle Plattform, in Ihrem Bild.",
-        "intro": "Der technische Sockel von CareBond, Ihre markenkonforme Oberfläche und Erfahrung. Und alle mehrsprachigen + DSG-Fähigkeiten ab Tag 1.",
+        "intro": "Der technische Sockel von CareBond, Ihre markenkonforme Oberfläche und Erfahrung. Und sämtliche Mehrsprachigkeits- und Datenschutzfunktionen ab Tag 1.",
         "items": {
           "f0": {
             "title": "Mehrsprachiger Chat, von der Pflege gesteuert",
@@ -1166,7 +1166,7 @@
           },
           "f2": {
             "title": "Premium-Vertraulichkeit",
-            "description": "Unveränderliches Audit-Log, TLS-1.3-Verschlüsselung, exklusives Schweizer Hosting. Keine Daten verlassen das Land."
+            "description": "Unveränderliches Audit-Log, TLS-1.3-Verschlüsselung, exklusives Schweizer Hosting. Klinische Daten verlassen diese Infrastruktur nicht."
           },
           "f3": {
             "title": "Internationale Patienten",
@@ -1177,14 +1177,14 @@
       "cta": {
         "eyebrow": "Nächster Schritt",
         "title": "Sehen wir uns CareBond mit Ihrer Klinik im Blick an.",
-        "description": "30 Minuten, um zu erkunden, wie Sie Ihre Marke und Ihr Patientenerlebnis behalten und gleichzeitig die mehrsprachigen + DSG-Fähigkeiten gewinnen."
+        "description": "30 Minuten, um zu erkunden, wie Sie Ihre Marke und Ihr Patientenerlebnis behalten und gleichzeitig Mehrsprachigkeit und Datenschutz auf Schweizer Niveau gewinnen."
       }
     },
     "recovery": {
       "eyebrow": "Für die Nachsorge",
       "title": "Genesung endet nicht mit der Entlassung.",
       "subtitle": "Wenn ein Patient zur Genesung nach Hause geht, sollte die Kommunikation nicht aufhören. CareBond hält den genesenden Patienten, seine Pflegeperson und seine Familie verbunden — geführte Check-ins, sicherer Chat, Video zu den Bedingungen des Fachpersonals und automatische Mini-Berichte an die Familie.",
-      "metaDescription": "CareBond für die Nachsorge und Rehabilitation nach dem Spitalaufenthalt: geführte Patienten-Check-ins, sicherer Chat, vom Fachpersonal initiiertes Video und automatische Mini-Berichte an die Familie. Eine in der Schweiz gehostete, nLPD-konforme Kommunikationsebene.",
+      "metaDescription": "CareBond für die Nachsorge und Rehabilitation nach dem Spitalaufenthalt: geführte Patienten-Check-ins, sicherer Chat, vom Fachpersonal initiiertes Video und automatische Mini-Berichte an die Familie. Eine Kommunikationsebene mit Hosting in der Schweiz und Datenschutz by Design (DSGVO und DSG).",
       "visualAlt": "Vorschau der Patienten-App — Nachsorge-Startbildschirm mit Check-ins, Chat und Video",
       "problem": {
         "eyebrow": "Die Realität",
@@ -1229,15 +1229,15 @@
   },
   "about": {
     "eyebrow": "Über uns",
-    "title": "Schweizer Pflege, besser ausgestattet.",
-    "subtitle": "CareBond ist eine Schweizer Plattform für Pflegeheime, Spitex, Spitäler und Kliniken. Wir bauen das Werkzeug, das zwischen Patienten, Familien, Pflegenden und Leitung fehlt — ohne zu versuchen, zu ersetzen, was bereits funktioniert.",
-    "metaDescription": "Über CareBond — Schweizer Plattform für Pflegeheime, Spitex, Spitäler und Kliniken. Mission, Werte und wo wir sitzen.",
+    "title": "Pflege, besser kommuniziert.",
+    "subtitle": "CareBond ist eine Kommunikationsplattform für die Pflege — in der Schweiz entstanden, konzipiert für Pflegeheime, häusliche Pflege, Spitäler und Kliniken. Wir bauen das Werkzeug, das zwischen Patienten, Familien, Pflegenden und Leitung fehlt — ohne zu versuchen, zu ersetzen, was bereits funktioniert.",
+    "metaDescription": "Über CareBond — Kommunikationsplattform für die Pflege, entstanden in der Schweiz. Mission, Werte und wo wir sitzen.",
     "mission": {
       "eyebrow": "Unsere Mission",
       "heading": "Der Pflege die Zeit zurückgeben, die der Papierkram nimmt.",
-      "body1": "In einem Schweizer Pflegeheim verbringen Pflegepersonen im Durchschnitt zu viele Stunden mit dem Ausfüllen von Ordnern, telefonischen Übergaben und dem Zusammenstellen von Dokumenten für Audits. Diese Stunden gehen nicht zum Bewohner.",
-      "body2": "CareBond gibt sie der Pflege zurück. Indem es die digitale Visite, das nLPD-Audit, den mehrsprachigen Chat, die kryptografisch signierten Berichte und die Orientierung mit 3D-Plänen in einer einzigen Plattform vereint.",
-      "body3": "Wir ersetzen Ihr bestehendes EMR nicht. Wir werden uns damit integrieren (Integration in Entwicklung), decken die blinden Flecken ab und fügen hinzu, was fehlte — ohne rip-and-replace."
+      "body1": "In einem Pflegeheim verbringen Pflegepersonen zu viele Stunden mit dem Ausfüllen von Ordnern, telefonischen Übergaben und dem Zusammenstellen von Dokumenten für Audits. Diese Stunden gehen nicht zum Bewohner.",
+      "body2": "CareBond gibt sie der Pflege zurück. Indem es die digitale Visite, die Audit-Nachvollziehbarkeit, den mehrsprachigen Chat, die kryptografisch signierten Berichte und die Orientierung mit 3D-Plänen in einer einzigen Plattform vereint.",
+      "body3": "Wir ersetzen Ihr bestehendes EMR nicht. Wir werden daran andocken (Integration in Entwicklung), die blinden Flecken abdecken und hinzufügen, was fehlte — ohne Rip-and-Replace."
     },
     "values": {
       "eyebrow": "Unsere Werte",
@@ -1246,7 +1246,7 @@
       "items": {
         "v0": {
           "title": "Privacy-first, nicht Privacy-as-an-Option",
-          "description": "Keine Tracking-Cookies. Keine Werbe-Pixel. Kein Datenleck zu Google Analytics. Das DSG steckt in der Architektur, nicht in einem Anhang."
+          "description": "Keine Tracking-Cookies. Keine Werbe-Pixel. Kein Datenleck zu Google Analytics. Der Datenschutz steckt in der Architektur, nicht in einem Anhang."
         },
         "v1": {
           "title": "Die Pflegeperson behält die Kontrolle",
@@ -1263,7 +1263,7 @@
       }
     },
     "location": {
-      "body": "CareBond SA hat ihren Sitz in Genf, Schweiz. Wir arbeiten auf Französisch, Deutsch, Italienisch und Englisch — denn das ist Schweizer Realität."
+      "body": "CareBond SA hat ihren Sitz in Genf, Schweiz. Wir arbeiten auf Französisch, Deutsch, Italienisch, Englisch, Spanisch und Katalanisch — denn Pflege spricht viele Sprachen."
     },
     "cta": {
       "eyebrow": "Sprechen wir?",
@@ -1274,49 +1274,53 @@
   "compliancePage": {
     "eyebrow": "Konformität",
     "title": "Konformität durch Architektur, nicht durch Anhang.",
-    "subtitle": "Natives DSG, KVG/LAMal, ausschliesslich Schweizer Hosting, unveränderliches Audit-Log. Konformität ist keine nachträglich hinzugefügte Schicht — sie ist von der ersten Codezeile an in die Plattform eingebaut.",
-    "metaDescription": "CareBond-Konformität: DSG, KVG/LAMal, Schweizer Hosting, Audit-Log, kantonale Spitalanforderungen.",
+    "subtitle": "DSGVO und DSG by Design, Schweizer Hosting, unveränderliches Audit-Log. Konformität ist keine nachträglich hinzugefügte Schicht — sie ist von der ersten Codezeile an in die Plattform eingebaut.",
+    "metaDescription": "CareBond-Konformität: DSGVO und DSG by Design, Hosting in der Schweiz, unveränderliches Audit-Log, Nachvollziehbarkeit für Audits.",
     "pillars": {
       "nlpd": {
-        "title": "Natives DSG",
-        "description": "Natives Audit-Log für Zugriffe und Änderungen, von der ersten Codezeile an für das Schweizer Recht konzipiert. Kein recycelter DSGVO-Patch."
+        "title": "DSGVO & DSG by Design",
+        "description": "Natives Audit-Log für Zugriffe und Änderungen, von der ersten Codezeile an für die Anforderungen der europäischen DSGVO und des Schweizer DSG konzipiert."
       },
       "hosting": {
         "title": "Schweizer Hosting",
-        "description": "Infrastruktur bei Infomaniak (Genf) gehostet. Patientendaten verlassen das Schweizer Territorium nicht — keine Ausnahme, keine versteckte Klausel."
+        "description": "Infrastruktur bei Infomaniak (Genf) gehostet — in einem Land mit Angemessenheitsbeschluss der Europäischen Kommission. Patientendaten verlassen diese Infrastruktur nicht — keine Ausnahme, keine versteckte Klausel."
       },
       "encryption": {
         "title": "Moderne Verschlüsselung",
-        "description": "Modernes TLS während der Übertragung auf Schweizer Server, Verschlüsselung der sensiblen Felder (PHI), HMAC-signierte Visitenberichte."
+        "description": "Modernes TLS bei der Übertragung, Verschlüsselung sensibler Felder (PHI), HMAC-signierte Besuchsberichte."
       },
       "audit": {
         "title": "Unveränderliches Audit-Log",
-        "description": "Unveränderliche Spur jedes Zugriffs und jeder Änderung, exportierbar für Ihre internen Audits und kantonalen Behörden. Granulares RBAC und mandantenfähig."
+        "description": "Unveränderliche Spur jedes Zugriffs und jeder Änderung, exportierbar für Ihre internen und externen Audits. Granulares RBAC und Multi-Institution."
       }
     },
     "regulations": {
       "eyebrow": "Regulatorischer Rahmen",
-      "heading": "Für Schweizer Recht gebaut.",
-      "intro": "CareBond wurde für spezifische Schweizer Anforderungen gebaut, nicht aus einem europäischen Produkt adaptiert. Hier sind die wichtigsten Rahmenwerke, die wir adressieren.",
+      "heading": "Ein Rahmen, mehrere Rechtsräume.",
+      "intro": "CareBond ist unter einem der strengsten Datenschutzgesetze der Welt entstanden und erweitert dieselbe Architektur auf die europäischen Rahmenwerke. Hier sind die wichtigsten Rahmenwerke, die wir adressieren.",
       "items": {
         "nlpd": {
-          "title": "DSG (Bundesgesetz)",
+          "title": "DSG (Schweiz)",
           "description": "Bundesgesetz über den Datenschutz. Natives Audit-Log, Auskunfts- und Berichtigungsrechte, dokumentierter Beschwerdeweg zum EDÖB in unserer Datenschutzerklärung."
         },
         "kvg": {
-          "title": "KVG / LAMal",
-          "description": "Kryptografisch signierte Visitenberichte (HMAC), Nachvollziehbarkeit als Grundlage für die Begründung gegenüber der Krankenversicherung (Spitex)."
+          "title": "KVG / LAMal (Schweiz)",
+          "description": "Kryptografisch signierte Besuchsberichte (HMAC), Nachvollziehbarkeit als Grundlage für den Nachweis gegenüber der Schweizer Krankenversicherung in der häuslichen Pflege."
         },
         "transfers": {
           "title": "Internationale Übermittlungen",
           "description": "Die wenigen Übermittlungen ausserhalb der Schweiz (Kontaktformular via Resend, Hosting via Vercel fra1 Frankfurt) sind durch Standardvertragsklauseln geregelt und dokumentiert."
+        },
+        "gdpr": {
+          "title": "DSGVO (EU)",
+          "description": "Datenschutz-Grundverordnung. Datenminimierung, Nachvollziehbarkeit, Auskunfts- und Löschrechte: Die Architektur von CareBond ist auf die Anforderungen der DSGVO ausgelegt. Für Datenübermittlungen verfügt die Schweiz zudem über einen Angemessenheitsbeschluss der Europäischen Kommission."
         }
       }
     },
     "certifications": {
       "eyebrow": "Zertifizierungen",
       "heading": "Angestrebte Zertifizierungen",
-      "intro": "Über die nLPD-Anforderungen und die Datenhoheit hinaus, die bereits durch unsere Architektur abgedeckt sind, hat CareBond das Ziel, international anerkannte Zertifizierungen zu erlangen, die von Beschaffungsteams im Spitalwesen erwartet werden.",
+      "intro": "Über die DSG-Anforderungen und die Datenhoheit hinaus, die bereits durch unsere Architektur abgedeckt sind, hat CareBond das Ziel, international anerkannte Zertifizierungen zu erlangen, die von Beschaffungsteams im Spitalwesen erwartet werden.",
       "items": {
         "iso27001": {
           "title": "ISO/IEC 27001",
@@ -1340,24 +1344,24 @@
   "stats": {
     "items": {
       "s0": {
-        "figure": "1 von 3",
-        "label": "Menschen ab 65 Jahren in der Schweiz lebt allein — und mehr als die Hälfte der über 85-Jährigen.",
-        "source": "Bundesamt für Statistik (BFS), 2022"
+        "figure": "1 von 6",
+        "label": "Menschen weltweit wird 2030 60 Jahre oder älter sein — und die Zahl der über 60-Jährigen verdoppelt sich bis 2050 auf 2,1 Milliarden.",
+        "source": "Weltgesundheitsorganisation (WHO), 2025"
       },
       "s1": {
-        "figure": "Fast 2×",
-        "label": "so viel: Die Bevölkerung ab 80 Jahren in der Schweiz dürfte sich bis 2055 nahezu verdoppeln, auf über eine Million.",
-        "source": "Bundesamt für Statistik (BFS), Bevölkerungsszenarien, 2025"
+        "figure": "80 %",
+        "label": "der Langzeitpflege in Europa leisten informell Pflegende — Familie und Angehörige.",
+        "source": "Europäische Kommission / Eurocarers, 2021"
       },
       "s2": {
-        "figure": "25,6 Mio.",
-        "label": "Stunden häuslicher Pflege (Spitex) wurden 2024 für rund 424'000 Menschen erbracht — ein Plus von 10% in einem einzigen Jahr.",
-        "source": "Bundesamt für Statistik (BFS), 2025"
+        "figure": "1 von 4",
+        "label": "Zwischenfällen bei der Patientensicherheit hat mangelhafte Kommunikation als mitwirkenden Faktor — laut einer systematischen Übersichtsarbeit über 46 Studien mit 67 826 Patientinnen und Patienten.",
+        "source": "Keshtkar et al., Annals of Internal Medicine, 2025"
       },
       "s3": {
-        "figure": "9 von 10",
-        "label": "Schweizer Hausärztinnen und Hausärzten begegnen in Konsultationen Sprachbarrieren; die meisten berichten von einem ungedeckten Bedarf an Dolmetschdiensten.",
-        "source": "Jaeger et al., BMC Health Services Research, 2019"
+        "figure": "304 Mio.",
+        "label": "Menschen lebten 2024 ausserhalb ihres Geburtslandes — fast doppelt so viele wie 1990. Pflege überquert immer öfter Sprachgrenzen.",
+        "source": "Vereinte Nationen (DESA), International Migrant Stock 2024"
       }
     }
   }

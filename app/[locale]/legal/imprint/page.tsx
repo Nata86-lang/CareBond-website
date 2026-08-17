@@ -17,7 +17,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "legal.imprint" });
   const languages = Object.fromEntries(
     locales.map((l) => [
-      l === "en" ? "en" : `${l}-CH`,
+      l,
       `${SITE_URL}/${l}/legal/imprint`,
     ]),
   );

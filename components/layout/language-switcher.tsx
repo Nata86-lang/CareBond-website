@@ -12,6 +12,7 @@ const LABELS: Record<(typeof locales)[number], string> = {
   it: "IT",
   en: "EN",
   es: "ES",
+  ca: "CA",
 };
 
 type Variant = "header" | "footer";
