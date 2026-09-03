@@ -1,4 +1,8 @@
-export const PRODUCTION_URL = "https://carebond.ch";
+// Con www: es el host que Vercel sirve como principal — el apex carebond.ch
+// responde 308 hacia www. Un canonical hacia el apex apunta a una redireccion,
+// que es una senal debil y demora la indexacion. Si algun dia el apex pasa a ser
+// el principal en Vercel, este valor tiene que cambiar con el.
+export const PRODUCTION_URL = "https://www.carebond.ch";
 
 // Canonical site URL. NEXT_PUBLIC_SITE_URL can still override it per environment,
 // but a *.vercel.app value is ignored on purpose: those deploys answer with
