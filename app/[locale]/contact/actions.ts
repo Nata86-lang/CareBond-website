@@ -2,6 +2,7 @@
 
 import { z } from "zod";
 import { CONTACT_FROM, CONTACT_TO, getResend, isEmailConfigured } from "@/lib/email";
+import { locales } from "@/lib/i18n";
 
 // Server-side schema. Mirrors (but is the source of truth for) the
 // react-hook-form Zod schema used on the client. Honeypot must be
@@ -13,7 +14,12 @@ const ContactSchema = z.object({
   institution: z.string().trim().min(2).max(200),
   audience: z.enum(["ems", "spitex", "recovery", "hospitals", "clinics", "other"]),
   message: z.string().trim().min(10).max(2000),
-  locale: z.enum(["fr", "de", "it", "en", "es"]),
+  // El idioma sale de lib/i18n, no de una lista escrita a mano: cuando se
+  // añadió el catalán esta lista se quedó con cinco y el formulario dejó de
+  // funcionar en /ca — sin mostrar nada, porque el campo va oculto y su error
+  // no se pinta en ninguna parte. Y `catch` evita que el idioma del visitante
+  // llegue nunca a tumbar un contacto comercial: si no se reconoce, inglés.
+  locale: z.enum(locales).catch("en"),
   // Honeypot — must stay empty
   company_website: z.string().max(0).optional(),
 });
@@ -59,9 +65,20 @@ export async function submitContactForm(
 
   const data = parsed.data;
 
-  // In dev without RESEND_API_KEY, log and return success so the UI is
-  // testable without provisioning a real Resend account.
+  // Sin RESEND_API_KEY no se puede enviar nada. En desarrollo se registra en
+  // consola y se devuelve éxito para poder probar la interfaz sin credenciales.
+  //
+  // En PRODUCCIÓN eso sería mentirle al visitante: veía «mensaje enviado» y no
+  // salía ningún correo, así que un contacto comercial se perdía sin que nadie
+  // se enterara. Mejor decir que ha fallado: el aviso de error da la dirección
+  // de correo directa, que sí funciona.
   if (!isEmailConfigured) {
+    if (process.env.NODE_ENV === "production") {
+      console.error(
+        "[contact] RESEND_API_KEY no está configurada: el mensaje NO se ha enviado",
+      );
+      return { status: "error", reason: "send_failed" };
+    }
     console.warn("[contact] RESEND_API_KEY missing — logging instead of sending");
     console.log("[contact] submission", data);
     return { status: "success" };
