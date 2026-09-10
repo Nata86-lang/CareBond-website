@@ -1,35 +1,52 @@
-import { Resend } from "resend";
+import nodemailer, { type Transporter } from "nodemailer";
 
-// Thin wrapper around Resend so the rest of the codebase doesn't need
-// to know which provider we use. RESEND_API_KEY is required in any
-// environment that actually sends email; locally we tolerate it being
-// missing and surface the absence at call time so the form UI is still
-// testable without credentials.
-
-const apiKey = process.env.RESEND_API_KEY;
-
-export const isEmailConfigured = Boolean(apiKey);
-
-export function getResend(): Resend {
-  if (!apiKey) {
-    throw new Error(
-      "RESEND_API_KEY is not set. Add it to .env.local (dev) or to Vercel project env (prod).",
-    );
-  }
-  return new Resend(apiKey);
-}
-
-// Address book — kept here so future templates can reference a single
-// source of truth instead of hard-coding addresses across files.
+// Envío de correo por SMTP de Infomaniak — el mismo buzón que ya usa el
+// backend de producción para los avisos y los códigos de verificación.
 //
-// CONTACT_FROM: the verified sender. Until carebond.ch is verified in
-// Resend, this falls back to Resend's onboarding domain so dev sends
-// still work. Switch to "info@carebond.ch" once the domain DKIM/SPF
-// records are added in Resend (Domains tab).
+// Antes esto iba por Resend, y no llegaba nunca: su remitente de pruebas
+// (`onboarding@resend.dev`) solo entrega al correo con el que se registró la
+// cuenta, así que a info@carebond.ch lo rechazaba. Verificar el dominio en
+// Resend exigía tocar el DNS en SiteGround. Como el dominio YA tiene servidor
+// de correo propio en Infomaniak y ya está autenticado, se envía por ahí: sin
+// DNS que tocar y con un único secreto que configurar.
 //
-// CONTACT_TO: where demo requests land. Defaults to the public
-// info@carebond.ch published in the footer + JSON-LD.
-export const CONTACT_FROM =
-  process.env.CONTACT_FORM_FROM_EMAIL ?? "onboarding@resend.dev";
+// Lo único obligatorio es SMTP_PASSWORD. El resto tiene valores por defecto
+// que coinciden con los del backend, y se pueden sobrescribir por entorno.
+
+const SMTP_HOST = process.env.SMTP_HOST ?? "mail.infomaniak.com";
+const SMTP_PORT = Number(process.env.SMTP_PORT ?? 587);
+const SMTP_USER = process.env.SMTP_USER ?? "no-reply@carebond.ch";
+const SMTP_PASSWORD = process.env.SMTP_PASSWORD;
+
+export const isEmailConfigured = Boolean(SMTP_PASSWORD);
+
+// Address book — un único sitio del que tiran todas las plantillas.
+//
+// CONTACT_FROM: el buzón autenticado que envía. Tiene que pertenecer al
+// dominio y coincidir con SMTP_USER, o Infomaniak rechaza el envío.
+// CONTACT_TO: dónde aterrizan las peticiones de demo. Es la dirección
+// pública que aparece en el pie y en los avisos legales.
+export const CONTACT_FROM = process.env.CONTACT_FORM_FROM_EMAIL ?? SMTP_USER;
 export const CONTACT_TO =
   process.env.CONTACT_FORM_TO_EMAIL ?? "info@carebond.ch";
+
+let transporter: Transporter | null = null;
+
+export function getTransporter(): Transporter {
+  if (!SMTP_PASSWORD) {
+    throw new Error(
+      "SMTP_PASSWORD no está configurada. Añádela a .env.local (local) o a las variables de entorno del proyecto en Vercel.",
+    );
+  }
+  // Se reutiliza entre invocaciones: en serverless el módulo sobrevive a
+  // varias peticiones y abrir una conexión SMTP por correo es lento.
+  if (!transporter) {
+    transporter = nodemailer.createTransport({
+      host: SMTP_HOST,
+      port: SMTP_PORT,
+      secure: SMTP_PORT === 465, // 587 negocia STARTTLS, no arranca cifrado
+      auth: { user: SMTP_USER, pass: SMTP_PASSWORD },
+    });
+  }
+  return transporter;
+}

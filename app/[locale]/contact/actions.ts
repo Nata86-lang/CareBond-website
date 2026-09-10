@@ -1,7 +1,7 @@
 "use server";
 
 import { z } from "zod";
-import { CONTACT_FROM, CONTACT_TO, getResend, isEmailConfigured } from "@/lib/email";
+import { CONTACT_FROM, CONTACT_TO, getTransporter, isEmailConfigured } from "@/lib/email";
 import { locales } from "@/lib/i18n";
 
 // Server-side schema. Mirrors (but is the source of truth for) the
@@ -75,17 +75,17 @@ export async function submitContactForm(
   if (!isEmailConfigured) {
     if (process.env.NODE_ENV === "production") {
       console.error(
-        "[contact] RESEND_API_KEY no está configurada: el mensaje NO se ha enviado",
+        "[contact] SMTP_PASSWORD no está configurada: el mensaje NO se ha enviado",
       );
       return { status: "error", reason: "send_failed" };
     }
-    console.warn("[contact] RESEND_API_KEY missing — logging instead of sending");
+    console.warn("[contact] SMTP_PASSWORD missing — logging instead of sending");
     console.log("[contact] submission", data);
     return { status: "success" };
   }
 
   try {
-    const resend = getResend();
+    const transporter = getTransporter();
     const subjectLine = `[CareBond] Demande de démo — ${data.institution}`;
     const audienceLabel: Record<typeof data.audience, string> = {
       ems: "EMS / Pflegeheim",
@@ -111,18 +111,15 @@ export async function submitContactForm(
       `Répondre directement à ${data.email}`,
     ].join("\n");
 
-    const result = await resend.emails.send({
+    // `replyTo` es lo que hace esto usable: el correo llega desde el buzón
+    // del dominio, pero al pulsar «Responder» se contesta al visitante.
+    await transporter.sendMail({
       from: `CareBond <${CONTACT_FROM}>`,
       to: CONTACT_TO,
       replyTo: data.email,
       subject: subjectLine,
       text,
     });
-
-    if (result.error) {
-      console.error("[contact] resend error", result.error);
-      return { status: "error", reason: "send_failed" };
-    }
 
     return { status: "success" };
   } catch (err) {
