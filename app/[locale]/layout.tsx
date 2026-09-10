@@ -93,7 +93,7 @@ export default async function LocaleLayout({
     },
     contactPoint: {
       "@type": "ContactPoint",
-      email: "contact@carebond.ch",
+      email: "info@carebond.ch",
       contactType: "customer support",
       availableLanguage: ["French", "German", "Italian", "English"],
     },

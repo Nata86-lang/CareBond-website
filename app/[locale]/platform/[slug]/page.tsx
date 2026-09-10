@@ -272,10 +272,10 @@ export default async function PlatformPage({
                 />
               </Link>
               <a
-                href="mailto:contact@carebond.ch"
+                href="mailto:info@carebond.ch"
                 className="inline-flex h-12 items-center justify-center rounded-xl border border-neutral-200 bg-white px-7 text-sm font-semibold text-brand-navy shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-neutral-300 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue motion-reduce:transform-none motion-reduce:transition-none"
               >
-                contact@carebond.ch
+                info@carebond.ch
               </a>
             </div>
           </div>

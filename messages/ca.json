@@ -827,7 +827,7 @@
       "again": "Enviar una altra sol·licitud"
     },
     "error": {
-      "send_failed": "S'ha produït un error en enviar. Si us plau, torni-ho a intentar o escrigui'ns directament a contact@carebond.ch."
+      "send_failed": "S'ha produït un error en enviar. Si us plau, torni-ho a intentar o escrigui'ns directament a info@carebond.ch."
     }
   },
   "legal": {
@@ -838,7 +838,7 @@
       "lastUpdated": "Actualitzat el 14 de maig de 2026",
       "editor": {
         "heading": "Editor del lloc",
-        "body": "Aquest lloc està editat per CareBond SA, amb seu a Ginebra (Suïssa). Per a qualsevol pregunta sobre el contingut del lloc o la societat, contacti'ns a contact@carebond.ch."
+        "body": "Aquest lloc està editat per CareBond SA, amb seu a Ginebra (Suïssa). Per a qualsevol pregunta sobre el contingut del lloc o la societat, contacti'ns a info@carebond.ch."
       },
       "publication": {
         "heading": "Director de la publicació",
@@ -866,7 +866,7 @@
       "sections": {
         "controller": {
           "heading": "1. Responsable del tractament",
-          "body": "El responsable del tractament de les dades personals recollides via carebond.ch és CareBond SA, a Ginebra (Suïssa). Per a qualsevol pregunta relativa a les seves dades, contacti'ns a contact@carebond.ch."
+          "body": "El responsable del tractament de les dades personals recollides via carebond.ch és CareBond SA, a Ginebra (Suïssa). Per a qualsevol pregunta relativa a les seves dades, contacti'ns a info@carebond.ch."
         },
         "data": {
           "heading": "2. Dades recollides",
@@ -894,7 +894,7 @@
         },
         "rights": {
           "heading": "8. Els seus drets",
-          "body": "Disposa dels drets d'accés, rectificació, supressió, portabilitat, oposició i limitació del tractament de les seves dades. Per exercir aquests drets, escrigui'ns a contact@carebond.ch precisant la naturalesa de la seva sol·licitud. També pot presentar una reclamació davant l'Encarregat federal suís de protecció de dades (PFPDT/FDPIC) o davant la seva autoritat local de protecció de dades (per exemple, l'AEPD a Espanya)."
+          "body": "Disposa dels drets d'accés, rectificació, supressió, portabilitat, oposició i limitació del tractament de les seves dades. Per exercir aquests drets, escrigui'ns a info@carebond.ch precisant la naturalesa de la seva sol·licitud. També pot presentar una reclamació davant l'Encarregat federal suís de protecció de dades (PFPDT/FDPIC) o davant la seva autoritat local de protecció de dades (per exemple, l'AEPD a Espanya)."
         },
         "security": {
           "heading": "9. Seguretat",

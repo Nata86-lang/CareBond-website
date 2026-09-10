@@ -851,7 +851,7 @@
       "again": "Send another request"
     },
     "error": {
-      "send_failed": "Something went wrong while sending. Please try again or email us directly at contact@carebond.ch."
+      "send_failed": "Something went wrong while sending. Please try again or email us directly at info@carebond.ch."
     }
   },
   "legal": {
@@ -862,7 +862,7 @@
       "lastUpdated": "Updated May 14, 2026",
       "editor": {
         "heading": "Publisher",
-        "body": "This website is published by CareBond SA, with its registered office in Geneva, Switzerland. For any question about the site content or the company, write to us at contact@carebond.ch."
+        "body": "This website is published by CareBond SA, with its registered office in Geneva, Switzerland. For any question about the site content or the company, write to us at info@carebond.ch."
       },
       "publication": {
         "heading": "Editorial responsibility",
@@ -890,7 +890,7 @@
       "sections": {
         "controller": {
           "heading": "1. Data controller",
-          "body": "The controller of personal data collected via carebond.ch is CareBond SA, based in Geneva, Switzerland. For any question about your data, write to us at contact@carebond.ch."
+          "body": "The controller of personal data collected via carebond.ch is CareBond SA, based in Geneva, Switzerland. For any question about your data, write to us at info@carebond.ch."
         },
         "data": {
           "heading": "2. Data collected",
@@ -918,7 +918,7 @@
         },
         "rights": {
           "heading": "8. Your rights",
-          "body": "You have rights of access, rectification, deletion, portability, objection, and restriction of processing of your data. To exercise these rights, write to us at contact@carebond.ch describing the nature of your request. You may also lodge a complaint with the Swiss Federal Data Protection and Information Commissioner (FDPIC) or with your local data protection authority (for example, the AEPD in Spain)."
+          "body": "You have rights of access, rectification, deletion, portability, objection, and restriction of processing of your data. To exercise these rights, write to us at info@carebond.ch describing the nature of your request. You may also lodge a complaint with the Swiss Federal Data Protection and Information Commissioner (FDPIC) or with your local data protection authority (for example, the AEPD in Spain)."
         },
         "security": {
           "heading": "9. Security",

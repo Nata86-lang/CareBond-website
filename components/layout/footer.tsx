@@ -95,10 +95,10 @@ export async function Footer({ locale }: { locale: string }) {
           <p>
             © {year} CareBond SA · {t("bottom.address")} ·{" "}
             <a
-              href="mailto:contact@carebond.ch"
+              href="mailto:info@carebond.ch"
               className="text-white underline underline-offset-4 hover:no-underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             >
-              contact@carebond.ch
+              info@carebond.ch
             </a>
           </p>
           <LanguageSwitcher variant="footer" />

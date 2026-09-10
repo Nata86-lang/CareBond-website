@@ -78,7 +78,7 @@ export default async function ImprintPage({
         <h2>{t("contact.heading")}</h2>
         <p>
           {t("contact.body")}{" "}
-          <a href="mailto:contact@carebond.ch">contact@carebond.ch</a>
+          <a href="mailto:info@carebond.ch">info@carebond.ch</a>
         </p>
       </section>
     </LegalPage>

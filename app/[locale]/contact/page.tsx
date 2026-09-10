@@ -95,10 +95,10 @@ export default async function ContactPage({
                       {tSide("emailLabel")}
                     </p>
                     <a
-                      href="mailto:contact@carebond.ch"
+                      href="mailto:info@carebond.ch"
                       className="mt-1 inline-block text-sm font-semibold text-brand-navy hover:text-brand-blue-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
                     >
-                      contact@carebond.ch
+                      info@carebond.ch
                     </a>
                   </div>
                 </li>

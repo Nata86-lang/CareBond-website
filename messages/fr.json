@@ -827,7 +827,7 @@
       "again": "Envoyer une autre demande"
     },
     "error": {
-      "send_failed": "Une erreur est survenue lors de l'envoi. Veuillez réessayer ou nous écrire directement à contact@carebond.ch."
+      "send_failed": "Une erreur est survenue lors de l'envoi. Veuillez réessayer ou nous écrire directement à info@carebond.ch."
     }
   },
   "legal": {
@@ -838,7 +838,7 @@
       "lastUpdated": "Mis à jour le 14 mai 2026",
       "editor": {
         "heading": "Éditeur du site",
-        "body": "Ce site est édité par CareBond SA, dont le siège est établi à Genève (Suisse). Pour toute question liée au contenu du site ou à la société, contactez-nous à contact@carebond.ch."
+        "body": "Ce site est édité par CareBond SA, dont le siège est établi à Genève (Suisse). Pour toute question liée au contenu du site ou à la société, contactez-nous à info@carebond.ch."
       },
       "publication": {
         "heading": "Directeur de la publication",
@@ -866,7 +866,7 @@
       "sections": {
         "controller": {
           "heading": "1. Responsable du traitement",
-          "body": "Le responsable du traitement des données personnelles collectées via carebond.ch est CareBond SA, à Genève (Suisse). Pour toute question relative à vos données, contactez-nous à contact@carebond.ch."
+          "body": "Le responsable du traitement des données personnelles collectées via carebond.ch est CareBond SA, à Genève (Suisse). Pour toute question relative à vos données, contactez-nous à info@carebond.ch."
         },
         "data": {
           "heading": "2. Données collectées",
@@ -894,7 +894,7 @@
         },
         "rights": {
           "heading": "8. Vos droits",
-          "body": "Vous disposez des droits d'accès, de rectification, de suppression, de portabilité, d'opposition et de limitation du traitement de vos données. Pour exercer ces droits, écrivez-nous à contact@carebond.ch en précisant la nature de votre demande. Vous pouvez également déposer une réclamation auprès du Préposé fédéral suisse à la protection des données et à la transparence (PFPDT/FDPIC) ou auprès de votre autorité locale de protection des données (par exemple la CNIL en France)."
+          "body": "Vous disposez des droits d'accès, de rectification, de suppression, de portabilité, d'opposition et de limitation du traitement de vos données. Pour exercer ces droits, écrivez-nous à info@carebond.ch en précisant la nature de votre demande. Vous pouvez également déposer une réclamation auprès du Préposé fédéral suisse à la protection des données et à la transparence (PFPDT/FDPIC) ou auprès de votre autorité locale de protection des données (par exemple la CNIL en France)."
         },
         "security": {
           "heading": "9. Sécurité",

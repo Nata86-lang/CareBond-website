@@ -81,7 +81,7 @@ export default async function PrivacyPage({
         <h2>{t("sections.contact.heading")}</h2>
         <p>
           {t("sections.contact.body")}{" "}
-          <a href="mailto:contact@carebond.ch">contact@carebond.ch</a>
+          <a href="mailto:info@carebond.ch">info@carebond.ch</a>
         </p>
       </section>
     </LegalPage>

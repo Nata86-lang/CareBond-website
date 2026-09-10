@@ -827,7 +827,7 @@
       "again": "Eine weitere Anfrage senden"
     },
     "error": {
-      "send_failed": "Beim Senden ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt an contact@carebond.ch."
+      "send_failed": "Beim Senden ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt an info@carebond.ch."
     }
   },
   "legal": {
@@ -838,7 +838,7 @@
       "lastUpdated": "Aktualisiert am 14. Mai 2026",
       "editor": {
         "heading": "Herausgeber",
-        "body": "Diese Website wird von der CareBond SA mit Sitz in Genf (Schweiz) herausgegeben. Bei Fragen zum Inhalt oder zum Unternehmen schreiben Sie uns an contact@carebond.ch."
+        "body": "Diese Website wird von der CareBond SA mit Sitz in Genf (Schweiz) herausgegeben. Bei Fragen zum Inhalt oder zum Unternehmen schreiben Sie uns an info@carebond.ch."
       },
       "publication": {
         "heading": "Verantwortlich für die Veröffentlichung",
@@ -866,7 +866,7 @@
       "sections": {
         "controller": {
           "heading": "1. Verantwortliche Stelle",
-          "body": "Verantwortlich für die Verarbeitung der über carebond.ch erfassten personenbezogenen Daten ist die CareBond SA in Genf (Schweiz). Bei Fragen zu Ihren Daten schreiben Sie uns an contact@carebond.ch."
+          "body": "Verantwortlich für die Verarbeitung der über carebond.ch erfassten personenbezogenen Daten ist die CareBond SA in Genf (Schweiz). Bei Fragen zu Ihren Daten schreiben Sie uns an info@carebond.ch."
         },
         "data": {
           "heading": "2. Erfasste Daten",
@@ -894,7 +894,7 @@
         },
         "rights": {
           "heading": "8. Ihre Rechte",
-          "body": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Datenübertragbarkeit, Widerspruch und Einschränkung der Verarbeitung Ihrer Daten. Zur Ausübung dieser Rechte schreiben Sie uns an contact@carebond.ch und präzisieren Sie die Art Ihres Anliegens. Sie können auch Beschwerde beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) oder bei Ihrer lokalen Datenschutzbehörde einreichen (zum Beispiel der AEPD in Spanien)."
+          "body": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Datenübertragbarkeit, Widerspruch und Einschränkung der Verarbeitung Ihrer Daten. Zur Ausübung dieser Rechte schreiben Sie uns an info@carebond.ch und präzisieren Sie die Art Ihres Anliegens. Sie können auch Beschwerde beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) oder bei Ihrer lokalen Datenschutzbehörde einreichen (zum Beispiel der AEPD in Spanien)."
         },
         "security": {
           "heading": "9. Sicherheit",

@@ -827,7 +827,7 @@
       "again": "Invia un'altra richiesta"
     },
     "error": {
-      "send_failed": "Si è verificato un errore durante l'invio. Riprovate o scriveteci direttamente a contact@carebond.ch."
+      "send_failed": "Si è verificato un errore durante l'invio. Riprovate o scriveteci direttamente a info@carebond.ch."
     }
   },
   "legal": {
@@ -838,7 +838,7 @@
       "lastUpdated": "Aggiornato il 14 maggio 2026",
       "editor": {
         "heading": "Editore del sito",
-        "body": "Questo sito è edito da CareBond SA, con sede a Ginevra (Svizzera). Per qualsiasi domanda relativa al contenuto del sito o alla società, contattateci a contact@carebond.ch."
+        "body": "Questo sito è edito da CareBond SA, con sede a Ginevra (Svizzera). Per qualsiasi domanda relativa al contenuto del sito o alla società, contattateci a info@carebond.ch."
       },
       "publication": {
         "heading": "Direttore della pubblicazione",
@@ -866,7 +866,7 @@
       "sections": {
         "controller": {
           "heading": "1. Responsabile del trattamento",
-          "body": "Il responsabile del trattamento dei dati personali raccolti tramite carebond.ch è CareBond SA, a Ginevra (Svizzera). Per qualsiasi domanda relativa ai vostri dati, contattateci a contact@carebond.ch."
+          "body": "Il responsabile del trattamento dei dati personali raccolti tramite carebond.ch è CareBond SA, a Ginevra (Svizzera). Per qualsiasi domanda relativa ai vostri dati, contattateci a info@carebond.ch."
         },
         "data": {
           "heading": "2. Dati raccolti",
@@ -894,7 +894,7 @@
         },
         "rights": {
           "heading": "8. I vostri diritti",
-          "body": "Disponete dei diritti di accesso, rettifica, cancellazione, portabilità, opposizione e limitazione del trattamento dei vostri dati. Per esercitare questi diritti, scriveteci a contact@carebond.ch precisando la natura della vostra richiesta. Potete anche depositare un reclamo presso l'Incaricato federale svizzero della protezione dei dati e della trasparenza (IFPDT) o presso la vostra autorità locale di protezione dei dati (ad esempio, il Garante per la protezione dei dati personali in Italia)."
+          "body": "Disponete dei diritti di accesso, rettifica, cancellazione, portabilità, opposizione e limitazione del trattamento dei vostri dati. Per esercitare questi diritti, scriveteci a info@carebond.ch precisando la natura della vostra richiesta. Potete anche depositare un reclamo presso l'Incaricato federale svizzero della protezione dei dati e della trasparenza (IFPDT) o presso la vostra autorità locale di protezione dei dati (ad esempio, il Garante per la protezione dei dati personali in Italia)."
         },
         "security": {
           "heading": "9. Sicurezza",

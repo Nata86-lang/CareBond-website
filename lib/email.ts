@@ -24,12 +24,12 @@ export function getResend(): Resend {
 //
 // CONTACT_FROM: the verified sender. Until carebond.ch is verified in
 // Resend, this falls back to Resend's onboarding domain so dev sends
-// still work. Switch to "contact@carebond.ch" once the domain DKIM/SPF
+// still work. Switch to "info@carebond.ch" once the domain DKIM/SPF
 // records are added in Resend (Domains tab).
 //
 // CONTACT_TO: where demo requests land. Defaults to the public
-// contact@carebond.ch published in the footer + JSON-LD.
+// info@carebond.ch published in the footer + JSON-LD.
 export const CONTACT_FROM =
   process.env.CONTACT_FORM_FROM_EMAIL ?? "onboarding@resend.dev";
 export const CONTACT_TO =
-  process.env.CONTACT_FORM_TO_EMAIL ?? "contact@carebond.ch";
+  process.env.CONTACT_FORM_TO_EMAIL ?? "info@carebond.ch";
