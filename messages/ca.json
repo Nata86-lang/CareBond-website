@@ -111,7 +111,7 @@
       "staff": {
         "title": "Personal Autoritzat",
         "tag": "Informes i Relleus",
-        "desc": "Expedient unificat a l'instant entre l'equip assignat al pacient i check-in GPS a domicili."
+        "desc": "Expedient unificat a l'instant per a l'equip assignat al pacient i validació GPS de les visites a domicili."
       },
       "patient": {
         "title": "Pacients i Residents",
@@ -201,7 +201,7 @@
         "capabilities": {
           "eyebrow": "Capacitats",
           "heading": "Canals i dades que supervisa",
-          "intro": "El tauler institucional centralitza la comunicació i la telemetria en indicadors llegibles sense fricció operativa.",
+          "intro": "El tauler institucional reuneix la comunicació i les dades d'ús en indicadors clars, sense feina afegida per als equips.",
           "items": {
             "f0": {
               "title": "KPIs de comunicació i ús",
@@ -279,11 +279,11 @@
             },
             "f2": {
               "title": "Sense gravació, mai",
-              "description": "El flux es difon en temps real i no es grava mai, en cap suport. Cap arxiu de vídeo conservat, cap historial de vídeo — només l'stream en directe."
+              "description": "El flux es difon en temps real i no es grava mai, en cap suport. Cap arxiu de vídeo conservat, cap historial de vídeo — només l'emissió en directe."
             },
             "f3": {
               "title": "Allotjament a Suïssa",
-              "description": "El relay de vídeo s'allotja a Suïssa. Sense núvol estranger per al contingut, sense exposició extraterritorial del contingut multimèdia."
+              "description": "El servidor de vídeo és a Suïssa. Cap núvol estranger, cap contingut sotmès a lleis d'altres països."
             }
           }
         },
@@ -374,7 +374,7 @@
           "items": {
             "f0": {
               "title": "Modelatge a mida",
-              "description": "Plantes, serveis, habitacions, recepcions, accessos — el seu edifici, a escala, a l'app de cada actor."
+              "description": "Plantes, serveis, habitacions, recepcions, accessos — el seu edifici, a escala, a les pantalles de l'entrada."
             },
             "f1": {
               "title": "Recorreguts al plànol",
@@ -408,7 +408,7 @@
       "ems": {
         "label": "Residències",
         "title": "Per a les residències",
-        "description": "Gestió multiinstitució, audit log immutable, RBAC granular. Tota la casa, en una pantalla.",
+        "description": "Gestió multiinstitució, audit log immutable, RBAC granular. Tot el centre, en una pantalla.",
         "features": {
           "f0": {
             "title": "Multiinstitució",
@@ -604,7 +604,7 @@
       "eyebrow": "Vista prèvia · Plànol hospitalari",
       "title": "Plànol interactiu de l'edifici",
       "liveLabel": "Plànol",
-      "youAreHere": "Vostè",
+      "youAreHere": "Vostè és aquí",
       "pathLabel": "Recorregut suggerit",
       "distance": "92 m",
       "eta": "1 min",
@@ -627,11 +627,11 @@
     "bullets": {
       "b0": {
         "title": "Traducció en temps real",
-        "description": "Sense latència perceptible. El destinatari veu el missatge en el seu idioma abans i tot de pensar a llegir-lo."
+        "description": "Sense esperes. El destinatari rep el missatge ja traduït al seu idioma, a l'instant."
       },
       "b1": {
         "title": "Allotjament a Suïssa",
-        "description": "El contingut no surt mai de la nostra infraestructura. Traducció feta en servidors propis a Suïssa, no als hyperscalers."
+        "description": "El contingut no surt mai de la nostra infraestructura. Traducció feta en servidors propis a Suïssa, no als grans núvols nord-americans."
       },
       "b2": {
         "title": "Bidireccional i traçable",
@@ -655,7 +655,7 @@
           "b0": "Formulari d'ingrés estandarditzat, conforme als requisits de protecció de dades i adaptable a les especificitats regionals",
           "b1": "Registre del curador legal i de les voluntats anticipades",
           "b2": "Importació de dades de salut via estàndards FHIR (en desenvolupament)",
-          "b3": "Expedient desmaterialitzat, accessible a l'equip autoritzat"
+          "b3": "Expedient digital, accessible a l'equip autoritzat"
         }
       },
       "rounds": {
@@ -682,9 +682,9 @@
     }
   },
   "soignerSansSilos": {
-    "eyebrow": "Cuidar sense silos",
-    "title": "La cura no pot sobreviure als silos.",
-    "subtitle": "Cada trucada perduda, cada informe extraviat, cada alerta que no arriba — és una pèrdua real de cura, no un problema d'organització.",
+    "eyebrow": "La informació dispersa",
+    "title": "Tots cuiden la mateixa persona i ningú no té tota la informació.",
+    "subtitle": "Cada trucada perduda, cada informe extraviat, cada alerta que no arriba — és atenció que el pacient no rep, no només un problema d'organització.",
     "avant": {
       "label": "Sense CareBond",
       "title": "La cura fragmentada",
@@ -705,12 +705,12 @@
         "i3": "Auditoria de protecció de dades: una sola exportació, llesta per a l'autoritat que la sol·liciti."
       }
     },
-    "closing": "Quan cada actor veu la mateixa realitat, la cura torna a ser contínua."
+    "closing": "Quan tothom veu la mateixa informació, la cura torna a ser contínua."
   },
   "howItWorks": {
     "eyebrow": "Com funciona",
-    "title": "Quatre superfícies, un sol flux.",
-    "subtitle": "Del SOS del pacient a la gestió de la direcció — cadascú veu el que necessita, sense soroll ni desviaments. Una sola plataforma, quatre rols, una mateixa veritat.",
+    "title": "Quatre perfils, un sol flux.",
+    "subtitle": "Del SOS del pacient a la gestió de la direcció — cadascú veu el que necessita, sense soroll ni intermediaris. Una sola plataforma, quatre rols, la mateixa informació per a tothom.",
     "steps": {
       "patient": {
         "number": "01",
@@ -998,7 +998,7 @@
     "ems": {
       "eyebrow": "Per a les residències",
       "title": "La gestió d'una residència, sense paperassa i sense punts cecs.",
-      "subtitle": "Visita digital, audit log natiu, multicentre des d'una sola consola. Dissenyat per a les direccions que volen veure-hi clar sense micromanagement.",
+      "subtitle": "Visita digital, audit log natiu, multicentre des d'una sola consola. Dissenyat per a les direccions que volen veure-hi clar sense haver de controlar-ho tot.",
       "metaDescription": "Solució CareBond per a residències: gestió multicentre, audit log natiu, visita digital, multiequips amb RBAC granular.",
       "visualAlt": "Plànol 3D isomètric d'una residència medicalitzada — habitacions de memòria, jardí terapèutic, vestíbul principal",
       "problem": {
@@ -1061,7 +1061,7 @@
       },
       "features": {
         "eyebrow": "El que CareBond canvia",
-        "heading": "El terreny validat, sense molestar ningú.",
+        "heading": "Cada visita validada, sense molestar ningú.",
         "intro": "Les eines que els equips d'atenció domiciliària necessiten per fer la seva feina sense perdre temps a demostrar que l'han feta.",
         "items": {
           "f0": {
@@ -1085,13 +1085,13 @@
       "cta": {
         "eyebrow": "Propera etapa",
         "title": "Vegem CareBond amb el seu servei a domicili.",
-        "description": "30 minuts per entendre la realitat de la seva activitat i calibrar la demo en els mòduls que li interessen."
+        "description": "30 minuts per entendre la realitat de la seva activitat i centrar la demo en els mòduls que li interessen."
       }
     },
     "hospitals": {
       "eyebrow": "Per als hospitals",
       "title": "Una plataforma dissenyada per integrar-se amb el seu EMR.",
-      "subtitle": "API REST documentada, integració HL7/FHIR en desenvolupament, RBAC granular per rol i audit log immutable. Plànols 3D com a servei a mida. Un segment cap al qual estem construint.",
+      "subtitle": "API REST documentada, integració HL7/FHIR en desenvolupament, RBAC granular per rol i audit log immutable. Plànols 3D com a servei a mida. Un segment que estem desenvolupant.",
       "metaDescription": "Solució CareBond per als hospitals: API REST documentada, integració HL7/FHIR en desenvolupament, RBAC granular per rol, plànols 3D com a servei.",
       "visualAlt": "Plànol 3D isomètric d'un hospital — quiròfans, sala d'RM, planta, laboratori, vestíbul principal, amb un recorregut senyalitzat",
       "problem": {
@@ -1108,7 +1108,7 @@
       "features": {
         "eyebrow": "El que CareBond canvia",
         "heading": "Una plataforma dissenyada per integrar-se, no per substituir.",
-        "intro": "CareBond no aspira a reemplaçar el seu EMR, sinó a integrar-s'hi (API REST documentada disponible avui; integració HL7/FHIR en desenvolupament) per cobrir els punts cecs i aportar el que faltava: navegació interior, comunicació multilingüe, auditoria transversal.",
+        "intro": "CareBond no aspira a reemplaçar el seu EMR, sinó a integrar-s'hi (API REST documentada disponible avui; integració HL7/FHIR en desenvolupament) per cobrir el que ara no es veu i aportar el que faltava: orientació dins l'edifici, comunicació multilingüe, auditoria transversal.",
         "items": {
           "f0": {
             "title": "API REST documentada, HL7/FHIR en desenvolupament",
@@ -1137,23 +1137,23 @@
     "clinics": {
       "eyebrow": "Per a les clíniques privades",
       "title": "L'experiència de pacient d'alta gamma, amb la seva marca.",
-      "subtitle": "Xat multilingüe per a pacients internacionals i allotjament a Suïssa. Un segment cap al qual estem construint.",
+      "subtitle": "Xat multilingüe per a pacients internacionals i allotjament a Suïssa. Un segment que estem desenvolupant.",
       "metaDescription": "Solució CareBond per a clíniques privades: xat multilingüe, allotjament a Suïssa, protecció de dades des del disseny (RGPD i nLPD).",
       "visualAlt": "Vista prèvia del xat multilingüe — missatges FR↔ES traduïts en temps real amb control del professional",
       "problem": {
         "eyebrow": "La constatació",
-        "heading": "Una clínica privada no és ni un hospital ni una residència — les seves limitacions són úniques.",
+        "heading": "Una clínica privada no és ni un hospital ni una residència — els seus condicionants són únics.",
         "intro": "Pacients internacionals, marca clínica forta, telemedicina entre consultes presencials, exigència d'una experiència d'alta gamma en tots els punts de contacte.",
         "points": {
           "p0": "Els seus pacients venen d'arreu i no sempre parlen l'idioma del seu equip. La barrera lingüística és quotidiana.",
-          "p1": "La seva marca clínica és un actiu. No vol que una plataforma de tercers la dilueixi amb el seu propi branding.",
+          "p1": "La seva marca clínica és un actiu. No vol que una plataforma de tercers la dilueixi imposant la seva pròpia marca.",
           "p2": "La telemedicina entre dues cites presencials s'espera, no és opcional.",
           "p3": "Els seus pacients VIP exigeixen un nivell de confidencialitat que una eina de consum massiu no pot garantir."
         }
       },
       "features": {
         "eyebrow": "El que CareBond canvia",
-        "heading": "Una plataforma professional, a la seva imatge.",
+        "heading": "Una plataforma professional, amb la seva marca.",
         "intro": "El nucli tècnic de CareBond, la interfície i l'experiència amb la seva marca. I totes les capacitats multilingües i de protecció de dades des del dia 1.",
         "items": {
           "f0": {
@@ -1237,7 +1237,7 @@
       "heading": "Retornar a la cura el temps que li pren la paperassa.",
       "body1": "En una residència, el professional passa massa hores omplint carpetes, transmetent per telèfon i reunint documents per a l'auditoria. Aquestes hores són hores que no van al resident.",
       "body2": "CareBond les retorna a la cura. Centralitzant la visita digital, la traçabilitat d'auditoria, el xat multilingüe, els informes signats criptogràficament i l'orientació amb plànols 3D en una sola plataforma.",
-      "body3": "No substituïm el seu EMR existent. Ens hi integrarem (integració en desenvolupament); des d'avui cobrim els punts cecs i aportem el que faltava — sense rip-and-replace."
+      "body3": "No substituïm el seu EMR existent. Ens hi integrarem (integració en desenvolupament); des d'avui cobrim el que ara no es veu i aportem el que faltava — sense haver de canviar-ho tot."
     },
     "values": {
       "eyebrow": "Els nostres valors",
@@ -1245,8 +1245,8 @@
       "intro": "Quatre eleccions d'arquitectura que mantenim des de la primera línia de codi. Defineixen tant el que CareBond fa com el que CareBond no farà mai.",
       "items": {
         "v0": {
-          "title": "Privacy-first, no privacy-as-an-option",
-          "description": "Sense cookies de tracking. Sense píxel publicitari. Sense fuites cap a Google Analytics. La protecció de dades és a l'arquitectura, no en un annex."
+          "title": "La privadesa primer, no com una opció",
+          "description": "Sense cookies de rastreig. Sense píxel publicitari. Sense fuites cap a Google Analytics. La protecció de dades és a l'arquitectura, no en un annex."
         },
         "v1": {
           "title": "El professional manté el control",
@@ -1355,7 +1355,7 @@
       },
       "s2": {
         "figure": "1 de cada 4",
-        "label": "incidents de seguretat del pacient té la mala comunicació com a factor contribuent, segons una revisió sistemàtica de 46 estudis amb 67 826 pacients.",
+        "label": "incidents de seguretat del pacient té la mala comunicació entre les causes, segons una revisió sistemàtica de 46 estudis amb 67 826 pacients.",
         "source": "Keshtkar et al., Annals of Internal Medicine, 2025"
       },
       "s3": {

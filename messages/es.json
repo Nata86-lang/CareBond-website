@@ -47,7 +47,7 @@
         "calls": "Llamadas",
         "visits": "Visitas",
         "family": "Familia",
-        "vitals": "Vitales",
+        "vitals": "Constantes",
         "permissions": "Permisos"
       },
       "family": {
@@ -111,7 +111,7 @@
       "staff": {
         "title": "Personal autorizado",
         "tag": "Informes y relevos",
-        "desc": "Expediente unificado al instante entre el equipo asignado al paciente y check-in GPS a domicilio."
+        "desc": "Expediente unificado al instante para el equipo asignado al paciente y validación GPS de las visitas a domicilio."
       },
       "patient": {
         "title": "Pacientes y residentes",
@@ -279,11 +279,11 @@
             },
             "f2": {
               "title": "Sin grabación, nunca",
-              "description": "El flujo se difunde en tiempo real y nunca se graba, en ningún soporte. Ningún archivo de vídeo conservado, ningún historial de vídeo — solo el stream en vivo."
+              "description": "La señal se transmite en tiempo real y nunca se graba, en ningún soporte. No se conserva ningún archivo ni historial de vídeo — solo la emisión en directo."
             },
             "f3": {
               "title": "Alojamiento en Suiza",
-              "description": "El relay de vídeo se aloja en Suiza. Sin nube extranjera para el contenido, sin exposición extraterritorial de la media."
+              "description": "El servidor de vídeo está en Suiza. Sin nube extranjera para el contenido, sin exposición a jurisdicciones extranjeras."
             }
           }
         },
@@ -304,7 +304,7 @@
           "items": {
             "f0": {
               "title": "Traducción en tiempo real",
-              "description": "Sin latencia perceptible. El destinatario ve el mensaje en su idioma antes incluso de tener tiempo de pensarlo."
+              "description": "Sin latencia perceptible. El destinatario recibe el mensaje en su idioma en el mismo momento en que se envía."
             },
             "f1": {
               "title": "Control por el profesional",
@@ -336,7 +336,7 @@
           "intro": "Sincronización instantánea de notas de turno y signos vitales, eliminando las pérdidas de información y el papeleo en los relevos.",
           "items": {
             "f0": {
-              "title": "Visita pre-organizada",
+              "title": "Visita del día ya preparada",
               "description": "La visita del día está lista a la llegada. Habitación por habitación en la residencia, o domicilio por domicilio en la atención domiciliaria."
             },
             "f1": {
@@ -374,7 +374,7 @@
           "items": {
             "f0": {
               "title": "Modelado a medida",
-              "description": "Pisos, servicios, habitaciones, recepciones, accesos — su edificio, a escala, en la app de cada actor."
+              "description": "Plantas, servicios, habitaciones, recepciones, accesos — su edificio, a escala, en la pantalla de entrada."
             },
             "f1": {
               "title": "Recorridos en el plano",
@@ -408,7 +408,7 @@
       "ems": {
         "label": "Residencias",
         "title": "Para las residencias",
-        "description": "Gestión multi-institución, audit log inmutable, RBAC granular. La casa entera, en una pantalla.",
+        "description": "Gestión multi-institución, audit log inmutable, RBAC granular. Todo el centro, en una pantalla.",
         "features": {
           "f0": {
             "title": "Multi-institución",
@@ -581,14 +581,14 @@
     "secondary": "Escribirnos directamente"
   },
   "floorPlans": {
-    "eyebrow": "Planos 3D y guiado en entrada",
+    "eyebrow": "Planos 3D y orientación en la entrada",
     "title": "Sus familiares, visitantes y profesionales externos ya no se pierden.",
     "subtitle": "Como servicio a medida, CareBond diseña el plano 3D de su edificio para pantallas y quioscos en la entrada de su establecimiento, ayudando a familiares, visitantes y profesionales externos a orientarse hacia la habitación o el servicio que buscan.",
     "learnMore": "Saber más sobre los planos 3D",
     "bullets": {
       "b0": {
         "title": "Plano 3D a medida",
-        "description": "Modelamos su edificio en isométrico: pisos, servicios, habitaciones, recepciones. Una vez construido, el plano vive en pantallas interactivas en la entrada de su institución."
+        "description": "Modelamos su edificio en vista isométrica: plantas, servicios, habitaciones, recepciones. Una vez construido, el plano vive en pantallas interactivas en la entrada de su institución."
       },
       "b1": {
         "title": "Apoyo a la planificación",
@@ -604,7 +604,7 @@
       "eyebrow": "Vista previa · Plano hospitalario",
       "title": "Plano interactivo del edificio",
       "liveLabel": "Plano",
-      "youAreHere": "Usted",
+      "youAreHere": "Está aquí",
       "pathLabel": "Recorrido sugerido",
       "distance": "92 m",
       "eta": "1 min",
@@ -627,7 +627,7 @@
     "bullets": {
       "b0": {
         "title": "Traducción en tiempo real",
-        "description": "Sin latencia perceptible. El destinatario ve el mensaje en su idioma antes incluso de pensar en leerlo."
+        "description": "Sin latencia perceptible. El destinatario lee el mensaje en su idioma nada más enviarse."
       },
       "b1": {
         "title": "Alojamiento en Suiza",
@@ -649,11 +649,11 @@
     "subtitle": "Uno de los tres entornos de cuidados a los que da servicio CareBond. Diseñado para la residencia que quiere un expediente del paciente estructurado, una visita digital en el bolsillo del cuidador y una exportación de actividades lista para sus auditorías.",
     "pillars": {
       "admission": {
-        "title": "Ingreso y expediente paciente",
+        "title": "Ingreso y expediente del paciente",
         "description": "Todo empieza por un ingreso. CareBond transforma esta primera etapa en un expediente paciente estructurado, con protección de datos garantizada desde el primer clic.",
         "bullets": {
           "b0": "Formulario de ingreso estandarizado, conforme a los requisitos de protección de datos y adaptable a las especificidades regionales",
-          "b1": "Registro del curador legal y de las directivas anticipadas",
+          "b1": "Registro del curador legal y de las voluntades anticipadas",
           "b2": "Importación de datos de salud vía estándares FHIR (en desarrollo)",
           "b3": "Expediente desmaterializado, accesible al equipo autorizado"
         }
@@ -682,8 +682,8 @@
     }
   },
   "soignerSansSilos": {
-    "eyebrow": "Cuidar sin silos",
-    "title": "El cuidado no puede sobrevivir a los silos.",
+    "eyebrow": "La información dispersa",
+    "title": "Todos cuidan a la misma persona y nadie tiene toda la información.",
     "subtitle": "Cada llamada perdida, cada informe extraviado, cada alerta que no llega — es una pérdida real de cuidado, no un problema de organización.",
     "avant": {
       "label": "Sin CareBond",
@@ -700,7 +700,7 @@
       "title": "El cuidado unificado",
       "items": {
         "i0": "La familia recibe su mini-informe automático cada día, sin pedirlo.",
-        "i1": "El profesional valida en dos taps desde su bolsillo.",
+        "i1": "El profesional valida en dos toques desde su bolsillo.",
         "i2": "La dirección ve la alerta en tiempo real, sin llamada telefónica.",
         "i3": "Auditoría de protección de datos: una sola exportación, lista para la autoridad que la solicite."
       }
@@ -709,8 +709,8 @@
   },
   "howItWorks": {
     "eyebrow": "Cómo funciona",
-    "title": "Cuatro superficies, un solo flujo.",
-    "subtitle": "Del SOS del paciente a la gestión de la dirección — cada uno ve lo que necesita, sin ruido ni desvíos. Una sola plataforma, cuatro roles, una misma verdad.",
+    "title": "Cuatro perfiles, un solo flujo.",
+    "subtitle": "Del SOS del paciente a la gestión de la dirección — cada uno ve lo que necesita, sin ruido ni rodeos. Una sola plataforma, cuatro roles, una misma información.",
     "steps": {
       "patient": {
         "number": "01",
@@ -730,7 +730,7 @@
       "direction": {
         "number": "04",
         "title": "Dirección",
-        "description": "Gestión institucional, auditoría integrada, KPIs centro por centro. La casa, en una pantalla."
+        "description": "Gestión institucional, auditoría integrada, KPIs centro por centro. Todo, en una pantalla."
       }
     }
   },
@@ -738,7 +738,7 @@
     "skipLink": "Ir al contenido principal"
   },
   "error": {
-    "title": "Algo salió mal.",
+    "title": "Algo ha ido mal.",
     "subtitle": "Ha ocurrido un error inesperado. Puede volver a intentarlo o regresar al inicio.",
     "retry": "Reintentar",
     "home": "Volver al inicio"
@@ -823,7 +823,7 @@
     "privacy": "Sus datos se tratan conforme al RGPD y a la nLPD. Sin compartir con terceros.",
     "success": {
       "title": "Solicitud recibida, gracias.",
-      "message": "Le contactaremos en 24 horas laborables con un horario para la demo.",
+      "message": "Le contactaremos en menos de un día laborable con una propuesta de fecha y hora para la demo.",
       "again": "Enviar otra solicitud"
     },
     "error": {
@@ -1061,7 +1061,7 @@
       },
       "features": {
         "eyebrow": "Lo que cambia CareBond",
-        "heading": "El terreno validado, sin molestar a nadie.",
+        "heading": "Las visitas validadas, sin molestar a nadie.",
         "intro": "Las herramientas que los equipos de atención domiciliaria necesitan para hacer su trabajo sin perder tiempo en demostrar que lo hicieron.",
         "items": {
           "f0": {
@@ -1099,7 +1099,7 @@
         "heading": "En un hospital, el tiempo perdido orientándose o reescribiendo datos es cuidado perdido.",
         "intro": "Los visitantes se pierden en los pasillos. Los sistemas no se hablan. La auditoría de protección de datos transversal exige semanas. Y cada departamento tiene sus propias herramientas.",
         "points": {
-          "p0": "Los visitantes y pacientes externos vagan por los pasillos, y cualquier recepción acaba sirviendo de info.",
+          "p0": "Los visitantes y pacientes externos vagan por los pasillos, y cualquier mostrador acaba haciendo de punto de información.",
           "p1": "Su EMR actual no habla con su herramienta de planificación, sus informes o su expediente paciente transversal.",
           "p2": "Una auditoría de protección de datos exige hacer clic en cinco sistemas diferentes para reunir un expediente.",
           "p3": "Cada servicio (urgencias, medicina, radiología) gestiona sus permisos por separado — sin coherencia, sin RBAC unificado."
@@ -1108,7 +1108,7 @@
       "features": {
         "eyebrow": "Lo que cambia CareBond",
         "heading": "Una plataforma diseñada para integrarse, no para sustituir.",
-        "intro": "CareBond no ambiciona reemplazar su EMR, sino integrarse con él (API REST documentada disponible hoy; integración HL7/FHIR en desarrollo) para cubrir los puntos ciegos y aportar lo que faltaba: navegación interior, comunicación multilingüe, auditoría transversal.",
+        "intro": "CareBond no ambiciona reemplazar su EMR, sino integrarse con él (API REST documentada disponible hoy; integración HL7/FHIR en desarrollo) para cubrir los puntos ciegos y aportar lo que faltaba: orientación dentro del edificio, comunicación multilingüe, auditoría transversal.",
         "items": {
           "f0": {
             "title": "API REST documentada, HL7/FHIR en desarrollo",
@@ -1136,7 +1136,7 @@
     },
     "clinics": {
       "eyebrow": "Para las clínicas privadas",
-      "title": "La experiencia paciente de alta gama, con su marca.",
+      "title": "Una experiencia del paciente de alta gama, con su marca.",
       "subtitle": "Chat multilingüe para pacientes internacionales y alojamiento en Suiza. Un segmento hacia el que estamos construyendo.",
       "metaDescription": "Solución CareBond para clínicas privadas: chat multilingüe, alojamiento en Suiza, protección de datos por diseño (RGPD y nLPD).",
       "visualAlt": "Vista previa del chat multilingüe — mensajes FR↔ES traducidos en tiempo real con control del profesional",
@@ -1147,7 +1147,7 @@
         "points": {
           "p0": "Sus pacientes vienen de todas partes y no siempre hablan el idioma de su equipo. La barrera lingüística es cotidiana.",
           "p1": "Su marca clínica es un activo. No quiere que una plataforma de terceros la diluya con su propio branding.",
-          "p2": "La telemedicina entre dos citas físicas es esperada, no opcional.",
+          "p2": "La telemedicina entre dos citas presenciales se da por hecha, no es opcional.",
           "p3": "Sus pacientes VIP exigen un nivel de confidencialidad que una herramienta de consumo masivo no puede garantizar."
         }
       },
@@ -1183,7 +1183,7 @@
     "recovery": {
       "eyebrow": "Para los cuidados de recuperación",
       "title": "La recuperación no termina con el alta.",
-      "subtitle": "Cuando un paciente vuelve a casa a recuperarse, la comunicación no debería detenerse. CareBond mantiene conectados al paciente en recuperación, a su profesional de cuidados y a su familia: check-ins guiados, chat seguro, video según los términos del profesional y mini-informes automáticos a la familia.",
+      "subtitle": "Cuando un paciente vuelve a casa a recuperarse, la comunicación no debería detenerse. CareBond mantiene conectados al paciente en recuperación, a su profesional de cuidados y a su familia: check-ins guiados, chat seguro, vídeo cuando lo decide el profesional y mini-informes automáticos a la familia.",
       "metaDescription": "CareBond para la recuperación y la rehabilitación posthospitalaria: check-ins guiados del paciente, chat seguro, video iniciado por el profesional y mini-informes automáticos a la familia. Una capa de comunicación con alojamiento en Suiza y protección de datos por diseño (RGPD y nLPD).",
       "visualAlt": "Vista previa de la app del paciente: pantalla de inicio de recuperación con check-ins, chat y video",
       "problem": {
@@ -1237,7 +1237,7 @@
       "heading": "Devolver al cuidado el tiempo que le quita el papeleo.",
       "body1": "En una residencia, el profesional pasa demasiadas horas rellenando carpetas, transmitiendo por teléfono y reuniendo documentos para la auditoría. Esas horas son horas que no van al residente.",
       "body2": "CareBond las devuelve al cuidado. Centralizando la visita digital, la trazabilidad de auditoría, el chat multilingüe, los informes firmados criptográficamente y la orientación con planos 3D en una sola plataforma.",
-      "body3": "No reemplazamos su EMR existente. Nos integraremos con él (integración en desarrollo); desde hoy cubrimos los puntos ciegos y aportamos lo que faltaba — sin rip-and-replace."
+      "body3": "No reemplazamos su EMR existente. Nos integraremos con él (integración en desarrollo); desde hoy cubrimos los puntos ciegos y aportamos lo que faltaba — sin sustituir lo que ya funciona."
     },
     "values": {
       "eyebrow": "Nuestros valores",
@@ -1245,8 +1245,8 @@
       "intro": "Cuatro elecciones de arquitectura que mantenemos desde la primera línea de código. Definen tanto lo que CareBond hace como lo que CareBond nunca hará.",
       "items": {
         "v0": {
-          "title": "Privacy-first, no privacy-as-an-option",
-          "description": "Sin cookies de tracking. Sin pixel publicitario. Sin fugas hacia Google Analytics. La protección de datos está en la arquitectura, no en un anexo."
+          "title": "Privacidad por defecto, no privacidad opcional",
+          "description": "Sin cookies de rastreo. Sin píxel publicitario. Sin fugas hacia Google Analytics. La protección de datos está en la arquitectura, no en un anexo."
         },
         "v1": {
           "title": "El profesional mantiene el control",
@@ -1258,7 +1258,7 @@
         },
         "v3": {
           "title": "Suiza, sin desvíos",
-          "description": "Alojamiento en Suiza (Infomaniak, Ginebra). Sin nube extranjera, sin transferencia a los hyperscalers, sin jurisdicción extraterritorial."
+          "description": "Alojamiento en Suiza (Infomaniak, Ginebra). Sin nube extranjera, sin transferencias a las grandes nubes estadounidenses, sin jurisdicción extraterritorial."
         }
       }
     },
@@ -1324,8 +1324,8 @@
       "items": {
         "iso27001": {
           "title": "ISO/IEC 27001",
-          "status": "Objetivo a mediano plazo",
-          "description": "Sistema de gestión de la seguridad de la información. Certificación fijada como objetivo a mediano plazo."
+          "status": "Objetivo a medio plazo",
+          "description": "Sistema de gestión de la seguridad de la información. Certificación fijada como objetivo a medio plazo."
         },
         "hds": {
           "title": "HDS — Hébergeur de Données de Santé",

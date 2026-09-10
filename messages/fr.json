@@ -28,8 +28,8 @@
   },
   "hero": {
     "eyebrow": "Plateforme de communication pour le soin",
-    "title": "La couche de communication sécurisée qui connecte patients, familles et soignants.",
-    "subtitle": "Un système de communication et de coordination complet et autonome pour les établissements de soins, avec ou sans logiciel préalable. CareBond connecte la direction, les soignants, les patients et les familles, avec une protection des données dès la conception — RGPD et nLPD — et un hébergement en Suisse. L'intégration avec votre SIH/ERP est en cours de développement.",
+    "title": "La plateforme de communication sécurisée qui connecte patients, familles et soignants.",
+    "subtitle": "Un système de communication et de coordination complet et autonome pour les établissements de soins, que vous disposiez déjà d'un logiciel métier ou non. CareBond connecte la direction, les soignants, les patients et les familles, avec une protection des données dès la conception — RGPD et nLPD — et un hébergement en Suisse. L'intégration avec votre SIH/ERP est en cours de développement.",
     "trust": {
       "label": "Confidentialité de niveau suisse",
       "nlpd": "RGPD et nLPD dès la conception",
@@ -47,7 +47,7 @@
         "calls": "Appels",
         "visits": "Visites",
         "family": "Famille",
-        "vitals": "Vitaux",
+        "vitals": "Constantes",
         "permissions": "Autorisations"
       },
       "family": {
@@ -111,7 +111,7 @@
       "staff": {
         "title": "Personnel autorisé",
         "tag": "Rapports & Relèves",
-        "desc": "Dossier patient unifié partagé instantanément avec l'équipe et check-in GPS à domicile."
+        "desc": "Dossier patient unifié partagé instantanément avec l'équipe et validation GPS des visites à domicile."
       },
       "patient": {
         "title": "Patients & Résidents",
@@ -129,7 +129,7 @@
     "bento": {
       "eyebrow": "La plateforme",
       "title": "Six canaux de communication, une seule plateforme intégrée.",
-      "subtitle": "Qu'il s'agisse d'une couche de communication intégrée à votre SIH/ERP existant ou d'une solution complète et indépendante pour les établissements sans logiciel préalable, tout est conçu pour connecter en toute sécurité la direction, les soignants et les familles.",
+      "subtitle": "Qu'il s'agisse d'un module de communication intégré à votre SIH/ERP existant ou d'une solution complète et indépendante pour les établissements qui n'ont pas encore de logiciel, tout est conçu pour connecter en toute sécurité la direction, les soignants et les familles.",
       "learnMore": "Découvrir",
       "pillars": {
         "oversight": {
@@ -201,7 +201,7 @@
         "capabilities": {
           "eyebrow": "Capacités",
           "heading": "Canaux et données que vous supervisez",
-          "intro": "Le tableau de bord centralise la communication et la télémétrie en indicateurs clairs sans friction opérationnelle.",
+          "intro": "Le tableau de bord réunit la communication et l'état des dispositifs en indicateurs clairs, sans travail supplémentaire pour les équipes.",
           "items": {
             "f0": {
               "title": "KPIs de communication et d'utilisation",
@@ -279,18 +279,18 @@
             },
             "f2": {
               "title": "Aucun enregistrement, jamais",
-              "description": "Le flux est diffusé en temps réel et n'est jamais enregistré, sur aucun support. Pas de fichier vidéo conservé, pas d'historique vidéo — uniquement le stream live."
+              "description": "Le flux est diffusé en temps réel et n'est jamais enregistré, sur aucun support. Pas de fichier vidéo conservé, pas d'historique vidéo — uniquement le direct."
             },
             "f3": {
               "title": "Hébergement Suisse",
-              "description": "Le relais vidéo est hébergé en Suisse. Pas de cloud étranger pour le contenu, pas d'exposition extraterritoriale des médias."
+              "description": "Le relais vidéo est hébergé en Suisse. Pas de cloud étranger pour le contenu, aucune vidéo soumise à une juridiction étrangère."
             }
           }
         },
         "compliance": "Protection des données vidéo dès la conception — RGPD et nLPD. Consentement révocable à tout moment, journal d'accès exportable sur demande.",
         "cta": {
           "eyebrow": "Prochaine étape",
-          "title": "Voyons le livestream dans votre contexte.",
+          "title": "Voyons la téléprésence dans votre contexte.",
           "description": "30 minutes pour discuter des cas — soins à domicile, résidence ou clinique — où ce module a du sens, et de ceux où il n'en a pas."
         }
       },
@@ -304,7 +304,7 @@
           "items": {
             "f0": {
               "title": "Traduction temps réel",
-              "description": "Sans latence perceptible. Le destinataire voit le message dans sa langue avant même d'avoir le temps d'y penser."
+              "description": "Sans latence perceptible. Le destinataire reçoit le message directement dans sa langue, sans rien avoir à activer."
             },
             "f1": {
               "title": "Contrôle par le soignant",
@@ -312,7 +312,7 @@
             },
             "f2": {
               "title": "Hébergement Suisse",
-              "description": "La traduction est réalisée sur notre propre infrastructure en Suisse, pas chez les hyperscalers. Pas d'envoi vers Google ou OpenAI."
+              "description": "La traduction est réalisée sur notre propre infrastructure en Suisse, pas chez les géants étrangers du cloud. Pas d'envoi vers Google ou OpenAI."
             },
             "f3": {
               "title": "Bidirectionnel et traçable",
@@ -408,7 +408,7 @@
       "ems": {
         "label": "Résidences",
         "title": "Pour les résidences",
-        "description": "Pilotage multi-institution, audit log immuable, RBAC granulaire. La maison entière, en un écran.",
+        "description": "Pilotage multi-institution, audit log immuable, RBAC granulaire. Tout l'établissement, en un écran.",
         "features": {
           "f0": {
             "title": "Multi-institution",
@@ -420,7 +420,7 @@
           },
           "f2": {
             "title": "Multi-équipes & RBAC",
-            "description": "Direction, soignants, gardiens — chacun son niveau d'accès et son interface, avec permissions granulaires."
+            "description": "Direction, soignants, veilleurs de nuit — chacun son niveau d'accès et son interface, avec permissions granulaires."
           }
         }
       },
@@ -501,7 +501,7 @@
       "recovery": {
         "label": "Rétablissement",
         "title": "Pour le rétablissement et la réadaptation",
-        "description": "Gardez le patient en convalescence en lien avec son équipe soignante et sa famille après la sortie — check-ins guidés, chat et vidéo, sans jamais perdre le contact.",
+        "description": "Maintenez le lien entre le patient en convalescence, son équipe soignante et sa famille après la sortie — suivis guidés, chat et vidéo, sans jamais perdre le contact.",
         "features": {
           "f0": {
             "title": "Check-ins guidés",
@@ -549,7 +549,7 @@
     "subtitle": "Les questions que les directions de résidences, de services de soins à domicile et d'hôpitaux nous posent le plus souvent.",
     "questions": {
       "q0": {
-        "question": "Comment se passe l'onboarding ?",
+        "question": "Comment se passe la mise en place ?",
         "answer": "Nous accompagnons la migration des dossiers existants et formons les équipes sur site. Le calendrier précis est défini après un audit de l'institution lors de la démo."
       },
       "q1": {
@@ -627,11 +627,11 @@
     "bullets": {
       "b0": {
         "title": "Traduction temps réel",
-        "description": "Sans latence perceptible. Le destinataire voit le message dans sa langue avant même de penser à le lire."
+        "description": "Sans latence perceptible. Le destinataire voit le message dans sa langue dès qu'il arrive."
       },
       "b1": {
         "title": "Hébergement Suisse",
-        "description": "Le contenu ne quitte jamais notre infrastructure. Traduction réalisée sur nos propres serveurs en Suisse, pas chez les hyperscalers."
+        "description": "Le contenu ne quitte jamais notre infrastructure. Traduction réalisée sur nos propres serveurs en Suisse, pas chez les géants étrangers du cloud."
       },
       "b2": {
         "title": "Bidirectionnel et traçable",
@@ -646,7 +646,7 @@
   "moduleResidences": {
     "eyebrow": "Module Résidences",
     "title": "Conçu pour les résidences, de l'admission à l'audit.",
-    "subtitle": "L'un des trois contextes de soins desservis par CareBond. Pensé pour la résidence qui veut un dossier de résident structuré, une tournée numérique dans la poche du soignant et un export d'activités prêt pour ses audits.",
+    "subtitle": "L'un des trois contextes de soins couverts par CareBond. Pensé pour la résidence qui veut un dossier de résident structuré, une tournée numérique dans la poche du soignant et un export d'activités prêt pour ses audits.",
     "pillars": {
       "admission": {
         "title": "Admission & dossier patient",
@@ -659,7 +659,7 @@
         }
       },
       "rounds": {
-        "title": "Tournée digitale & vitaux",
+        "title": "Tournée numérique & constantes",
         "description": "Le soignant entre, ouvre l'app, voit sa tournée du jour. Constantes, alertes, médicaments — tout dans la poche, validé en deux taps.",
         "bullets": {
           "b0": "Tournée du jour pré-organisée, chambre par chambre",
@@ -671,7 +671,7 @@
       },
       "audit": {
         "title": "Audit log & traçabilité",
-        "description": "Chaque accès, chaque action, chaque modification est tracée de manière immuable. Documentation prête pour vos audits internes et pour la transparence vis-à-vis des autorités.",
+        "description": "Chaque accès, chaque action, chaque modification est tracé de manière immuable. Documentation prête pour vos audits internes et pour la transparence vis-à-vis des autorités.",
         "bullets": {
           "b0": "Audit log natif des accès et modifications",
           "b1": "Filtrage par période, par résident, par soignant",
@@ -682,8 +682,8 @@
     }
   },
   "soignerSansSilos": {
-    "eyebrow": "Soigner sans silos",
-    "title": "Le soin ne peut pas survivre aux silos.",
+    "eyebrow": "L'information éparpillée",
+    "title": "Tous s'occupent de la même personne, et personne n'a toute l'information.",
     "subtitle": "Chaque appel manqué, chaque rapport perdu, chaque alerte qui n'arrive pas — c'est une perte de soin réelle, pas un problème d'organisation.",
     "avant": {
       "label": "Sans CareBond",
@@ -700,7 +700,7 @@
       "title": "Le soin unifié",
       "items": {
         "i0": "La famille reçoit son mini-rapport automatique chaque jour, sans demander.",
-        "i1": "Le soignant valide en deux taps depuis sa poche.",
+        "i1": "Le soignant valide en deux gestes depuis sa poche.",
         "i2": "La direction voit l'alerte en temps réel, sans appel téléphonique.",
         "i3": "Audit de protection des données : un seul export, prêt pour l'autorité qui le demande."
       }
@@ -709,13 +709,13 @@
   },
   "howItWorks": {
     "eyebrow": "Comment ça marche",
-    "title": "Quatre surfaces, un seul flux.",
+    "title": "Quatre écrans, un seul flux.",
     "subtitle": "Du SOS du patient au pilotage de la direction — chacun voit ce dont il a besoin, sans bruit ni détour. Une seule plateforme, quatre rôles, une même vérité.",
     "steps": {
       "patient": {
         "number": "01",
         "title": "Patient",
-        "description": "Interface simple et accessible, que chaque patient peut utiliser. SOS d'un tap, appels vidéo, accès direct au soignant."
+        "description": "Interface simple et accessible, que chaque patient peut utiliser. SOS d'un seul geste, appels vidéo, accès direct au soignant."
       },
       "family": {
         "number": "02",
@@ -725,12 +725,12 @@
       "professional": {
         "number": "03",
         "title": "Soignant",
-        "description": "Tournée digitale, alertes prioritaires, signes vitaux en temps réel. Moins de paperasse, plus de soin."
+        "description": "Tournée numérique, alertes prioritaires, signes vitaux en temps réel. Moins de paperasse, plus de soin."
       },
       "direction": {
         "number": "04",
         "title": "Direction",
-        "description": "Pilotage institutionnel, audit intégré, KPIs établissement par établissement. La maison, en un écran."
+        "description": "Pilotage institutionnel, audit intégré, KPIs établissement par établissement. Toute l'institution, en un écran."
       }
     }
   },
@@ -998,9 +998,9 @@
     "ems": {
       "eyebrow": "Pour les résidences",
       "title": "Le pilotage d'une résidence, sans paperasse et sans angle mort.",
-      "subtitle": "Tournée digitale, audit log natif, multi-établissements depuis une seule console. Conçu pour les directions qui veulent voir clair sans micromanager.",
+      "subtitle": "Tournée numérique, audit log natif, multi-établissements depuis une seule console. Conçu pour les directions qui veulent voir clair sans micromanager.",
       "metaDescription": "Solution CareBond pour les résidences : pilotage multi-établissements, audit log natif, tournée digitale, multi-équipes avec RBAC granulaire.",
-      "visualAlt": "Plan 3D isométrique d'une résidence médicalisée — chambres mémoire, jardin thérapeutique, hall principal",
+      "visualAlt": "Plan 3D isométrique d'un EMS — chambres mémoire, jardin thérapeutique, hall principal",
       "problem": {
         "eyebrow": "Le constat",
         "heading": "Le quotidien d'une résidence, c'est trop souvent du papier et des appels.",
@@ -1023,7 +1023,7 @@
           },
           "f1": {
             "title": "Audit log natif",
-            "description": "Chaque accès et chaque modification est tracée de manière immuable. Documentation prête pour vos audits internes et externes."
+            "description": "Chaque accès et chaque modification est tracé de manière immuable. Documentation prête pour vos audits internes et externes."
           },
           "f2": {
             "title": "Chat multilingue",
@@ -1074,7 +1074,7 @@
           },
           "f2": {
             "title": "Livestream sur consentement",
-            "description": "La caméra est initiée par le professionnel et n'est jamais enregistrée : diffusion en direct uniquement, avec un journal d'accès complet. Le patient contrôle son mode de confidentialité pour la couper à tout moment."
+            "description": "La caméra est activée par le professionnel et n'est jamais enregistrée : diffusion en direct uniquement, avec un journal d'accès complet. Le patient contrôle son mode de confidentialité pour la couper à tout moment."
           },
           "f3": {
             "title": "Alertes priorisées",
@@ -1090,13 +1090,13 @@
     },
     "hospitals": {
       "eyebrow": "Pour les hôpitaux",
-      "title": "Une plateforme conçue pour s'intégrer à votre EMR.",
+      "title": "Une plateforme conçue pour s'intégrer à votre DPI.",
       "subtitle": "API REST documentée, intégration HL7/FHIR en développement, RBAC granulaire par rôle et audit log immuable. Plans 3D en tant que service sur mesure. Un segment que nous construisons.",
       "metaDescription": "Solution CareBond pour les hôpitaux : API REST documentée, intégration HL7/FHIR en développement, RBAC granulaire par rôle, plans 3D en tant que service.",
       "visualAlt": "Plan 3D isométrique d'un hôpital — blocs opératoires, suite IRM, étage, laboratoire, hall principal, avec un itinéraire balisé",
       "problem": {
         "eyebrow": "Le constat",
-        "heading": "Dans un hôpital, le temps perdu à se repérer ou à recoder, c'est du soin perdu.",
+        "heading": "Dans un hôpital, le temps perdu à se repérer ou à ressaisir les mêmes données, c'est du soin perdu.",
         "intro": "Les visiteurs se perdent dans les couloirs. Les systèmes ne se parlent pas. L'audit transversal de protection des données demande des semaines. Et chaque département a ses propres outils.",
         "points": {
           "p0": "Les visiteurs et les patients externes errent dans les couloirs, et n'importe quel accueil finit par faire office de point d'information.",
@@ -1237,7 +1237,7 @@
       "heading": "Donner au soin le temps que la paperasse lui prend.",
       "body1": "Dans une résidence, le soignant passe trop d'heures à remplir des classeurs, à transmettre par téléphone et à rassembler des documents pour l'audit. Ces heures-là, ce sont des heures qui ne vont pas au résident.",
       "body2": "CareBond les rend au soin. En centralisant la tournée numérique, la traçabilité d'audit, le chat multilingue, les rapports cryptographiquement signés et l'orientation par plans 3D sur une seule plateforme.",
-      "body3": "Nous ne remplaçons pas votre EMR existant. Nous nous y intégrerons (intégration en développement) ; dès aujourd'hui, nous comblons les angles morts et apportons ce qui manquait — sans rip-and-replace."
+      "body3": "Nous ne remplaçons pas votre DPI existant. Nous nous y intégrerons (intégration en développement) ; dès aujourd'hui, nous comblons les angles morts et apportons ce qui manquait — sans rien casser de ce qui fonctionne déjà."
     },
     "values": {
       "eyebrow": "Nos valeurs",
@@ -1245,7 +1245,7 @@
       "intro": "Quatre choix d'architecture que nous tenons depuis la première ligne de code. Ils définissent autant ce que CareBond fait que ce que CareBond ne fera jamais.",
       "items": {
         "v0": {
-          "title": "Privacy-first, pas privacy-as-an-option",
+          "title": "La confidentialité par défaut, jamais en option",
           "description": "Aucun cookie de tracking. Aucun pixel publicitaire. Aucune fuite vers Google Analytics. La protection des données est dans l'architecture, pas dans un addendum."
         },
         "v1": {
@@ -1254,11 +1254,11 @@
         },
         "v2": {
           "title": "Audit log par défaut",
-          "description": "Chaque accès et chaque modification est tracée. Pas en option, pas après configuration : depuis le jour 1, sur chaque action."
+          "description": "Chaque accès et chaque modification est tracé. Pas en option, pas après configuration : dès le premier jour, sur chaque action."
         },
         "v3": {
           "title": "Suisse, sans détour",
-          "description": "Hébergement Suisse (Infomaniak, Genève). Pas de cloud étranger, pas de transfert vers les hyperscalers, pas de juridiction extra-territoriale."
+          "description": "Hébergement Suisse (Infomaniak, Genève). Pas de cloud étranger, pas de transfert vers les géants étrangers du cloud, pas de juridiction extraterritoriale."
         }
       }
     },
@@ -1267,7 +1267,7 @@
     },
     "cta": {
       "eyebrow": "On parle ?",
-      "title": "Voyons si CareBond fait sens pour vous.",
+      "title": "Voyons si CareBond a du sens pour vous.",
       "description": "30 minutes pour comprendre votre contexte et vous montrer la plateforme avec vos cas d'usage. Sans démo générique."
     }
   },
@@ -1345,7 +1345,7 @@
     "items": {
       "s0": {
         "figure": "1 sur 6",
-        "label": "personnes dans le monde aura 60 ans ou plus en 2030 — et la population mondiale des 60+ doublera d'ici 2050 pour atteindre 2,1 milliards.",
+        "label": "personnes dans le monde auront 60 ans ou plus en 2030 — et la population mondiale des 60 ans et plus doublera d'ici 2050 pour atteindre 2,1 milliards.",
         "source": "Organisation mondiale de la Santé (OMS), 2025"
       },
       "s1": {
@@ -1355,7 +1355,7 @@
       },
       "s2": {
         "figure": "1 sur 4",
-        "label": "incidents de sécurité des patients a une mauvaise communication comme facteur contributif, selon une revue systématique de 46 études portant sur 67 826 patients.",
+        "label": "incidents de sécurité des patients ont pour facteur contributif un défaut de communication, selon une revue systématique de 46 études portant sur 67 826 patients.",
         "source": "Keshtkar et al., Annals of Internal Medicine, 2025"
       },
       "s3": {

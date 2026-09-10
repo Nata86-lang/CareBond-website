@@ -28,7 +28,7 @@
   },
   "hero": {
     "eyebrow": "Piattaforma di comunicazione per la cura",
-    "title": "Il layer di comunicazione sicuro che connette pazienti, famiglie e professionisti.",
+    "title": "Il canale di comunicazione sicuro che collega pazienti, famiglie e professionisti.",
     "subtitle": "Un sistema di comunicazione e coordinamento completo e indipendente per le strutture di cura con o senza software preesistente. CareBond connette direzione, professionisti, pazienti e famiglie con protezione dei dati by design — GDPR e LPD — e hosting in Svizzera. L'integrazione con il vostro HIS/ERP è in sviluppo.",
     "trust": {
       "label": "Riservatezza di livello svizzero",
@@ -47,7 +47,7 @@
         "calls": "Chiamate",
         "visits": "Visite",
         "family": "Famiglia",
-        "vitals": "Vitali",
+        "vitals": "Parametri",
         "permissions": "Permessi"
       },
       "family": {
@@ -129,7 +129,7 @@
     "bento": {
       "eyebrow": "La piattaforma",
       "title": "Sei canali di comunicazione, una sola piattaforma integrata.",
-      "subtitle": "Sia come layer di comunicazione integrato nel vostro HIS/ERP esistente che come soluzione completa e indipendente per le strutture prive di software precedente, tutto è progettato per connettere in sicurezza direzione, operatori e famiglie.",
+      "subtitle": "Sia come canale di comunicazione integrato nel vostro HIS/ERP esistente, sia come soluzione completa e indipendente per le strutture senza software preesistente, tutto è progettato per connettere in sicurezza direzione, operatori e famiglie.",
       "learnMore": "Scopri",
       "pillars": {
         "oversight": {
@@ -171,7 +171,7 @@
         "rounds": {
           "eyebrow": "Cura",
           "title": "Coordinamento e consegne degli operatori",
-          "description": "Sincronizzate il vostro team medico. Registrate parametri vitali e note nell'app operatore per un passaggio consegne senza perdite tra personale autorizzato, generando in parallelo mini-rapporti per le famiglie.",
+          "description": "Sincronizzate il vostro team medico. Registrate parametri vitali e note nell'app operatore per un passaggio di consegne senza perdite tra personale autorizzato, generando in parallelo mini-rapporti per le famiglie.",
           "kpiResidents": "Pazienti",
           "kpiProfessionals": "Operatori",
           "kpiAlerts": "Allarmi",
@@ -300,7 +300,7 @@
         "capabilities": {
           "eyebrow": "Capacità",
           "heading": "Canale di traduzione automatica",
-          "intro": "Ciascuna parte scrive nella propria lingua e legge la traduzione all'istante, sotto il controllo clinico e gli orari del professionista.",
+          "intro": "Ciascuna parte scrive nella propria lingua e legge la traduzione all'istante, nel rispetto del controllo clinico e degli orari del professionista.",
           "items": {
             "f0": {
               "title": "Traduzione in tempo reale",
@@ -353,7 +353,7 @@
             },
             "f4": {
               "title": "Rapporti condivisi e consegne istantanee",
-              "description": "Ogni consultazione, osservazione o nota registrata resta visibile a tutti i professionisti assegnati allo stesso paziente — turno di giorno, turno di notte, medico curante, prestatori esterni. Basta perdite di informazioni tra le consegne. Il professionista invia in parallelo un mini-rapporto filtrato alla famiglia, con il suo consenso, senza esporre il dossier medico completo."
+              "description": "Ogni visita, osservazione o nota registrata resta visibile a tutti i professionisti assegnati allo stesso paziente — turno di giorno, turno di notte, medico curante, collaboratori esterni. Niente più informazioni perse tra un turno e l'altro. Il professionista invia in parallelo un mini-rapporto filtrato alla famiglia, con il suo consenso, senza esporre il dossier medico completo."
             }
           }
         },
@@ -374,7 +374,7 @@
           "items": {
             "f0": {
               "title": "Modellazione su misura",
-              "description": "Piani, reparti, camere, accoglienze, ingressi — il vostro edificio, in scala, sul totem interattivo della vostra struttura."
+              "description": "Piani, reparti, camere, reception, ingressi — il vostro edificio, in scala, sul totem interattivo della vostra struttura."
             },
             "f1": {
               "title": "Percorsi sulla mappa",
@@ -408,7 +408,7 @@
       "ems": {
         "label": "Residenze",
         "title": "Per le residenze",
-        "description": "Gestione multi-istituzione, audit log immutabile, RBAC granulare. La casa intera, in uno schermo.",
+        "description": "Gestione multi-istituzione, audit log immutabile, RBAC granulare. La casa intera, in un'unica schermata.",
         "features": {
           "f0": {
             "title": "Multi-istituzione",
@@ -439,7 +439,7 @@
           },
           "f2": {
             "title": "Allarmi prioritari",
-            "description": "L'operatore vede l'urgente per primo. Il resto in coda, senza rumore."
+            "description": "L'operatore vede prima le urgenze. Il resto in coda, senza rumore."
           }
         }
       },
@@ -588,7 +588,7 @@
     "bullets": {
       "b0": {
         "title": "Mappa 3D su misura",
-        "description": "Modelliamo il vostro edificio in isometrico: piani, reparti, camere, accoglienze. Una volta realizzata, la mappa vive su schermi interattivi all'ingresso della vostra istituzione."
+        "description": "Modelliamo il vostro edificio in isometrico: piani, reparti, camere, reception. Una volta realizzata, la mappa vive su schermi interattivi all'ingresso della vostra istituzione."
       },
       "b1": {
         "title": "Supporto alla pianificazione",
@@ -604,7 +604,7 @@
       "eyebrow": "Anteprima · Pianta ospedaliera",
       "title": "Mappa interattiva dell'edificio",
       "liveLabel": "Mappa",
-      "youAreHere": "Voi",
+      "youAreHere": "Siete qui",
       "pathLabel": "Percorso suggerito",
       "distance": "92 m",
       "eta": "1 min",
@@ -682,9 +682,9 @@
     }
   },
   "soignerSansSilos": {
-    "eyebrow": "Curare senza silos",
-    "title": "La cura non sopravvive ai silos.",
-    "subtitle": "Ogni chiamata persa, ogni rapporto smarrito, ogni allarme che non arriva — è una perdita reale di cura, non un problema organizzativo.",
+    "eyebrow": "Informazioni sparse",
+    "title": "Tutti si occupano della stessa persona, ma nessuno ha tutte le informazioni.",
+    "subtitle": "Ogni chiamata persa, ogni rapporto smarrito, ogni allarme che non arriva non è un intoppo organizzativo: è cura che il residente non riceve.",
     "avant": {
       "label": "Senza CareBond",
       "title": "La cura frammentata",
@@ -705,11 +705,11 @@
         "i3": "Audit di protezione dei dati: un solo export, pronto per l'autorità che lo richiede."
       }
     },
-    "closing": "Quando ogni attore vede la stessa realtà, la cura torna continua."
+    "closing": "Quando tutti vedono le stesse informazioni, la cura non si interrompe."
   },
   "howItWorks": {
     "eyebrow": "Come funziona",
-    "title": "Quattro superfici, un unico flusso.",
+    "title": "Quattro applicazioni, un unico flusso.",
     "subtitle": "Dall'SOS del paziente alla gestione della direzione — ognuno vede ciò di cui ha bisogno, senza rumore né deviazioni. Una sola piattaforma, quattro ruoli, una stessa verità.",
     "steps": {
       "patient": {
@@ -730,7 +730,7 @@
       "direction": {
         "number": "04",
         "title": "Direzione",
-        "description": "Gestione istituzionale, audit integrato, KPI struttura per struttura. La casa, in un solo schermo."
+        "description": "Gestione istituzionale, audit integrato, KPI struttura per struttura. La casa, in un'unica schermata."
       }
     }
   },
@@ -805,7 +805,7 @@
         "label": "Tipo di struttura",
         "placeholder": "Selezionate…",
         "options": {
-          "ems": "Residenza / casa di riposo",
+          "ems": "Residenza / casa per anziani",
           "spitex": "Cure a domicilio (Spitex)",
           "hospitals": "Ospedale",
           "clinics": "Clinica privata",
@@ -823,7 +823,7 @@
     "privacy": "I vostri dati sono trattati in conformità con il GDPR e la LPD. Nessuna condivisione con terzi.",
     "success": {
       "title": "Richiesta ricevuta, grazie.",
-      "message": "Vi ricontattiamo entro 24 ore lavorative con uno slot per la demo.",
+      "message": "Vi ricontattiamo entro 24 ore lavorative con una proposta di data per la demo.",
       "again": "Invia un'altra richiesta"
     },
     "error": {
@@ -842,7 +842,7 @@
       },
       "publication": {
         "heading": "Direttore della pubblicazione",
-        "body": "La direzione della pubblicazione è assicurata dalla direzione generale di CareBond SA. La responsabilità editoriale del sito è del team interno di CareBond."
+        "body": "La direzione della pubblicazione è affidata alla direzione generale di CareBond SA. La responsabilità editoriale del sito è del team interno di CareBond."
       },
       "hosting": {
         "heading": "Hosting",
@@ -850,7 +850,7 @@
       },
       "ip": {
         "heading": "Proprietà intellettuale",
-        "body": "L'insieme dei contenuti del sito (testi, immagini, logo, codice sorgente, marchio CareBond) sono di proprietà esclusiva di CareBond SA, salvo menzione contraria esplicita. Qualsiasi riproduzione, rappresentazione o diffusione, totale o parziale, senza autorizzazione scritta preventiva, è vietata."
+        "body": "Tutti i contenuti del sito (testi, immagini, logo, codice sorgente, marchio CareBond) sono di proprietà esclusiva di CareBond SA, salvo menzione contraria esplicita. Qualsiasi riproduzione, rappresentazione o diffusione, totale o parziale, senza autorizzazione scritta preventiva, è vietata."
       },
       "contact": {
         "heading": "Contatto",
@@ -865,8 +865,8 @@
       "intro": "CareBond SA tratta i vostri dati personali con rigore, in conformità con la Legge federale svizzera sulla protezione dei dati (LPD), con il GDPR europeo quando applicabile ai visitatori dell'UE e con le buone pratiche internazionali. Questa informativa descrive ciò che raccogliamo su questo sito di marketing, a quale scopo, e quali diritti avete.",
       "sections": {
         "controller": {
-          "heading": "1. Responsabile del trattamento",
-          "body": "Il responsabile del trattamento dei dati personali raccolti tramite carebond.ch è CareBond SA, a Ginevra (Svizzera). Per qualsiasi domanda relativa ai vostri dati, contattateci a info@carebond.ch."
+          "heading": "1. Titolare del trattamento",
+          "body": "Il titolare del trattamento dei dati personali raccolti tramite carebond.ch è CareBond SA, a Ginevra (Svizzera). Per qualsiasi domanda relativa ai vostri dati, contattateci a info@carebond.ch."
         },
         "data": {
           "heading": "2. Dati raccolti",
@@ -1003,7 +1003,7 @@
       "visualAlt": "Mappa 3D isometrica di una residenza medicalizzata — ala memory care, giardino terapeutico, ingresso principale",
       "problem": {
         "eyebrow": "La realtà",
-        "heading": "Il quotidiano di una residenza è troppo spesso fatto di carta e telefonate.",
+        "heading": "La quotidianità di una residenza è troppo spesso fatta di carta e telefonate.",
         "intro": "Ogni ora passata a compilare un raccoglitore è un'ora in meno con i residenti. CareBond restituisce queste ore alla cura.",
         "points": {
           "p0": "Il giro del giorno è su un foglio che si perde, e il passaggio di consegne al turno successivo avviene per telefono.",
@@ -1031,7 +1031,7 @@
           },
           "f3": {
             "title": "Multi-team e rapporti condivisi",
-            "description": "Direzione, operatori, custodi, fornitori esterni — ciascuno con il proprio livello di accesso e la propria interfaccia, con permessi granulari. I rapporti, le consultazioni e i parametri vitali inseriti da un operatore sono immediatamente visibili a tutti i professionisti assegnati allo stesso residente — niente più buchi di informazione tra i turni. In parallelo parte un mini-rapporto filtrato verso la famiglia."
+            "description": "Direzione, operatori, custodi, fornitori esterni — ciascuno con il proprio livello di accesso e la propria interfaccia, con permessi granulari. I rapporti, le visite e i parametri vitali inseriti da un operatore sono immediatamente visibili a tutti i professionisti assegnati allo stesso residente — niente più buchi di informazione tra i turni. In parallelo parte un mini-rapporto filtrato verso la famiglia."
           }
         },
         "roadmap": "Integrazioni con i sistemi di valutazione assistenziale (BESA, RAI, PLAISIR) allo studio per una prossima versione."
@@ -1056,13 +1056,13 @@
           "p0": "La famiglia chiama per sapere se la visita del mattino è andata bene — ancora e ancora.",
           "p1": "L'operatore scrive un rapporto su carta che finisce in una pila a fine mese.",
           "p2": "Gli allarmi critici si perdono tra WhatsApp, SMS e chiamate perse.",
-          "p3": "Validare la presenza al domicilio passa da foto o chiamate — dispendioso e poco affidabile."
+          "p3": "Validare la presenza al domicilio si fa con foto o telefonate — dispendioso e poco affidabile."
         }
       },
       "features": {
         "eyebrow": "Cosa cambia CareBond",
-        "heading": "Il campo validato, senza disturbare nessuno.",
-        "intro": "Gli strumenti di cui i team delle cure a domicilio hanno bisogno per fare il loro mestiere senza perdere tempo a provare di averlo fatto.",
+        "heading": "La visita confermata, senza disturbare nessuno.",
+        "intro": "Gli strumenti di cui i team delle cure a domicilio hanno bisogno per fare il loro mestiere senza perdere tempo a dimostrare di averlo fatto.",
         "items": {
           "f0": {
             "title": "Validazione GPS delle visite",
@@ -1078,7 +1078,7 @@
           },
           "f3": {
             "title": "Allarmi prioritari",
-            "description": "L'urgente per primo, il resto in coda. Niente più critico perso nel rumore di un thread di messaggi."
+            "description": "Prima le urgenze, il resto in coda. Nessuna emergenza persa nel rumore di una chat di gruppo."
           }
         }
       },
@@ -1091,7 +1091,7 @@
     "hospitals": {
       "eyebrow": "Per gli ospedali",
       "title": "Una piattaforma progettata per integrarsi con il vostro EMR.",
-      "subtitle": "API REST documentata, integrazione HL7/FHIR in sviluppo, RBAC granulare per ruolo e audit log immutabile. Mappe 3D come servizio su misura. Un segmento verso cui stiamo costruendo.",
+      "subtitle": "API REST documentata, integrazione HL7/FHIR in sviluppo, RBAC granulare per ruolo e audit log immutabile. Mappe 3D come servizio su misura. Un segmento su cui stiamo lavorando.",
       "metaDescription": "Soluzione CareBond per gli ospedali: API REST documentata, integrazione HL7/FHIR in sviluppo, RBAC granulare per ruolo, mappe 3D come servizio.",
       "visualAlt": "Mappa 3D isometrica di un ospedale — sale operatorie, sala RM, reparto, laboratorio, ingresso principale, con un percorso segnalato",
       "problem": {
@@ -1137,24 +1137,24 @@
     "clinics": {
       "eyebrow": "Per le cliniche private",
       "title": "L'esperienza paziente di alta gamma, con il vostro marchio.",
-      "subtitle": "Chat multilingue per pazienti internazionali e hosting in Svizzera. Un segmento verso cui stiamo costruendo.",
+      "subtitle": "Chat multilingue per pazienti internazionali e hosting in Svizzera. Un segmento su cui stiamo lavorando.",
       "metaDescription": "Soluzione CareBond per cliniche private: chat multilingue, hosting in Svizzera, protezione dei dati by design (GDPR e LPD).",
       "visualAlt": "Anteprima della chat multilingue — messaggi FR↔ES tradotti in tempo reale con controllo dell'operatore",
       "problem": {
         "eyebrow": "La realtà",
         "heading": "Una clinica privata non è né un ospedale né una residenza — i suoi vincoli sono unici.",
-        "intro": "Pazienti internazionali, marchio clinico forte, telemedicina tra consultazioni fisiche, esigenza di un'esperienza di alta gamma in ogni punto di contatto.",
+        "intro": "Pazienti internazionali, marchio clinico forte, telemedicina tra una visita e l'altra, esigenza di un'esperienza di alta gamma in ogni punto di contatto.",
         "points": {
           "p0": "I vostri pazienti vengono da ovunque e non sempre parlano la lingua del vostro team. La barriera linguistica è quotidiana.",
           "p1": "Il vostro marchio clinico è un patrimonio. Non volete che una piattaforma terza lo diluisca con il proprio branding.",
           "p2": "La telemedicina tra due appuntamenti fisici è attesa, non opzionale.",
-          "p3": "I vostri pazienti VIP richiedono un livello di riservatezza che uno strumento di consumo non può garantire."
+          "p3": "I vostri pazienti VIP richiedono un livello di riservatezza che un'app di largo consumo non può garantire."
         }
       },
       "features": {
         "eyebrow": "Cosa cambia CareBond",
-        "heading": "Una piattaforma professionale, a vostra immagine.",
-        "intro": "Lo zoccolo tecnico di CareBond, l'interfaccia e l'esperienza con il vostro marchio. E tutte le capacità multilingue e di protezione dei dati dal giorno 1.",
+        "heading": "Una piattaforma professionale, con la vostra identità.",
+        "intro": "La base tecnica di CareBond, l'interfaccia e l'esperienza con il vostro marchio. E tutte le capacità multilingue e di protezione dei dati dal primo giorno.",
         "items": {
           "f0": {
             "title": "Chat multilingue, controllata dall'operatore",
@@ -1184,7 +1184,7 @@
       "eyebrow": "Per le cure di recupero",
       "title": "Il recupero non finisce con la dimissione.",
       "subtitle": "Quando un paziente torna a casa per recuperare, la comunicazione non dovrebbe fermarsi. CareBond mantiene in contatto il paziente in fase di recupero, il suo operatore e la sua famiglia — check-in guidati, chat sicura, video alle condizioni del professionista e mini-rapporti automatici per la famiglia.",
-      "metaDescription": "CareBond per il recupero e la riabilitazione post-ospedalieri: check-in guidati del paziente, chat sicura, video avviati dal professionista e mini-rapporti automatici per la famiglia. Un layer di comunicazione con hosting in Svizzera e protezione dei dati by design (GDPR e LPD).",
+      "metaDescription": "CareBond per il recupero e la riabilitazione post-ospedalieri: check-in guidati del paziente, chat sicura, video avviati dal professionista e mini-rapporti automatici per la famiglia. Un canale di comunicazione con hosting in Svizzera e protezione dei dati by design (GDPR e LPD).",
       "visualAlt": "Anteprima dell'app paziente — schermata home del recupero con check-in, chat e video",
       "problem": {
         "eyebrow": "La realtà",
@@ -1237,15 +1237,15 @@
       "heading": "Restituire alla cura il tempo che la burocrazia le toglie.",
       "body1": "In una residenza, l'operatore trascorre troppe ore a compilare raccoglitori, fare passaggi di consegne al telefono e raccogliere documenti per gli audit. Quelle ore non vanno al residente.",
       "body2": "CareBond le restituisce alla cura. Centralizzando il giro digitale, la tracciabilità di audit, la chat multilingue, i rapporti firmati crittograficamente e l'orientamento con mappe 3D in un'unica piattaforma.",
-      "body3": "Non sostituiamo il vostro EMR esistente. Ci integreremo con esso (integrazione in sviluppo), copriamo i punti ciechi e apportiamo ciò che mancava — senza rip-and-replace."
+      "body3": "Non sostituiamo il vostro EMR esistente. Ci integreremo con esso (integrazione in sviluppo), copriamo le zone d'ombra e apportiamo ciò che mancava — senza buttare via quello che avete già."
     },
     "values": {
       "eyebrow": "I nostri valori",
       "heading": "Cosa rifiutiamo e cosa difendiamo.",
-      "intro": "Quattro scelte architettoniche che teniamo dalla prima riga di codice. Definiscono ciò che CareBond fa tanto quanto ciò che CareBond non farà mai.",
+      "intro": "Quattro scelte architetturali che rispettiamo dalla prima riga di codice. Definiscono ciò che CareBond fa tanto quanto ciò che CareBond non farà mai.",
       "items": {
         "v0": {
-          "title": "Privacy-first, non privacy-as-an-option",
+          "title": "Riservatezza per principio, non come opzione",
           "description": "Nessun cookie di tracciamento. Nessun pixel pubblicitario. Nessuna fuga verso Google Analytics. La protezione dei dati è nell'architettura, non in un addendum."
         },
         "v1": {
@@ -1355,7 +1355,7 @@
       },
       "s2": {
         "figure": "1 su 4",
-        "label": "incidenti di sicurezza del paziente ha una cattiva comunicazione tra i fattori contribuenti, secondo una revisione sistematica di 46 studi su 67 826 pazienti.",
+        "label": "incidenti di sicurezza del paziente ha tra le cause una comunicazione carente, secondo una revisione sistematica di 46 studi su 67 826 pazienti.",
         "source": "Keshtkar et al., Annals of Internal Medicine, 2025"
       },
       "s3": {

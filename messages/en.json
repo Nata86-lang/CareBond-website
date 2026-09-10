@@ -29,7 +29,7 @@
   "hero": {
     "eyebrow": "THE COMMUNICATION PLATFORM FOR CARE",
     "title": "The secure communication layer connecting patients, families, and professionals.",
-    "subtitle": "A complete, standalone communication and coordination system for care facilities with or without prior software. CareBond connects management, professionals, patients, and families with data protection by design — GDPR and nLPD — and hosting in Switzerland. Integration with your HIS/ERP is in development.",
+    "subtitle": "A complete, standalone communication and coordination system for care facilities with or without existing software. CareBond connects management, professionals, patients, and families with data protection by design — GDPR and nLPD — and hosting in Switzerland. Integration with your HIS/ERP is in development.",
     "trust": {
       "label": "Swiss-grade privacy",
       "nlpd": "GDPR & nLPD by design",
@@ -129,7 +129,7 @@
     "bento": {
       "eyebrow": "The platform",
       "title": "Six communication channels, one integrated platform.",
-      "subtitle": "Whether operating as a communication layer integrated with your current HIS/ERP or as a complete standalone system for facilities without prior software, everything is built to securely connect directors, caregivers, and families.",
+      "subtitle": "Whether CareBond runs as a communication layer on top of your current HIS/ERP or as a complete standalone system for facilities with no software at all, everything is built to securely connect directors, caregivers, and families.",
       "learnMore": "Learn more",
       "pillars": {
         "oversight": {
@@ -144,7 +144,7 @@
         "audit": {
           "eyebrow": "Compliance",
           "title": "Audit log & full traceability",
-          "description": "Immutable access and modification tracking channel in real time, architected for compliance with the EU GDPR and the Swiss nLPD.",
+          "description": "An immutable, real-time record of every access and every change, built for the EU GDPR and the Swiss nLPD.",
           "kpiResidents": "Patients",
           "kpiProfessionals": "Caregivers",
           "kpiAlerts": "Alerts",
@@ -171,7 +171,7 @@
         "rounds": {
           "eyebrow": "Care",
           "title": "Shift handovers & clinical coordination",
-          "description": "Sync your medical team instantly. Log vitals and shift notes in the clinician app to transfer information with zero loss between authorized handovers, generating family reports in parallel.",
+          "description": "Sync your care team instantly. Log vitals and shift notes in the clinician app so nothing is lost at handover, with family reports generated at the same time.",
           "kpiResidents": "Patients",
           "kpiProfessionals": "Caregivers",
           "kpiAlerts": "Alerts",
@@ -196,16 +196,16 @@
     },
     "pages": {
       "oversight": {
-        "subtitle": "A unified oversight channel for management. Supervise communication flows, comparable KPIs, and prioritized alerts from a single central dashboard.",
+        "subtitle": "A unified oversight channel for management. Monitor communication flows, comparable KPIs, and prioritized alerts from a single central dashboard.",
         "visualAlt": "Institutional dashboard — KPIs for residents, professionals, alerts, connected devices",
         "capabilities": {
           "eyebrow": "Capabilities",
           "heading": "Channels and data you monitor",
-          "intro": "The institutional dashboard centralizes communication and telemetry into readable indicators with zero operational friction.",
+          "intro": "The institutional dashboard turns communication and device data into clear indicators, with no extra work for your teams.",
           "items": {
             "f0": {
               "title": "Communication and usage KPIs",
-              "description": "Monitoring of family chat usage and the status of the registered devices in each residence."
+              "description": "Monitoring of family chat usage and the status of registered devices in each care home."
             },
             "f1": {
               "title": "Notifications & SOS",
@@ -279,7 +279,7 @@
             },
             "f2": {
               "title": "No recording, ever",
-              "description": "The feed streams in real time and is never recorded, on any medium. No video file kept, no video history — only the live stream."
+              "description": "The feed streams in real time and is never recorded, anywhere. No video file kept, no video history — only the live stream."
             },
             "f3": {
               "title": "Swiss hosting",
@@ -291,7 +291,7 @@
         "cta": {
           "eyebrow": "Next step",
           "title": "See livestream in your context.",
-          "description": "30 minutes to discuss the settings — home care, care home or clinic — where this module makes sense, and those where it doesn't."
+          "description": "30 minutes to discuss where this module makes sense — home care, care home or clinic — and where it doesn't."
         }
       },
       "chat-multilingue": {
@@ -304,7 +304,7 @@
           "items": {
             "f0": {
               "title": "Real-time translation",
-              "description": "With no perceptible latency. The recipient sees the message in their language before they even think to read it."
+              "description": "With no perceptible latency. The recipient sees the message in their own language the moment it arrives."
             },
             "f1": {
               "title": "Controlled by the caregiver",
@@ -312,7 +312,7 @@
             },
             "f2": {
               "title": "Swiss hosting",
-              "description": "Translation runs on our own infrastructure in Switzerland, not at the hyperscalers. No outbound calls to Google or OpenAI."
+              "description": "Translation runs on our own infrastructure in Switzerland, not on the big foreign clouds. Nothing is sent to an outside service."
             },
             "f3": {
               "title": "Bidirectional and traceable",
@@ -374,11 +374,11 @@
           "items": {
             "f0": {
               "title": "Custom modeling",
-              "description": "Floors, services, rooms, receptions, entrances — your building, to scale, in each user's app."
+              "description": "Floors, departments, rooms, reception desks, entrances — your building, to scale, in each user's app."
             },
             "f1": {
               "title": "Routes on the plan",
-              "description": "Signposted routes on the plan from reception to the room or service being sought."
+              "description": "Signposted routes on the plan from reception to the room or department the visitor is looking for."
             },
             "f2": {
               "title": "Planning support",
@@ -408,7 +408,7 @@
       "ems": {
         "label": "Care homes",
         "title": "For care homes",
-        "description": "Multi-institution oversight, immutable audit log, granular RBAC. The whole house, on one screen.",
+        "description": "Multi-institution oversight, immutable audit log, granular RBAC. Your whole facility, on one screen.",
         "features": {
           "f0": {
             "title": "Multi-institution",
@@ -439,7 +439,7 @@
           },
           "f2": {
             "title": "Prioritized alerts",
-            "description": "Caregivers see the urgent first. The rest queues up, without noise."
+            "description": "Caregivers see what's urgent first. The rest waits its turn, quietly."
           }
         }
       },
@@ -465,7 +465,7 @@
       "hospitals": {
         "label": "Hospitals",
         "title": "For hospitals",
-        "description": "Documented REST API, granular RBAC, and immutable audit log. A segment in development.",
+        "description": "Documented REST API, granular RBAC, and immutable audit log. A market we are moving into.",
         "features": {
           "f0": {
             "title": "Documented REST API",
@@ -498,7 +498,7 @@
       "clinics": {
         "label": "Clinics",
         "title": "For private clinics",
-        "description": "High-end patient experience, video calls, and multilingual chat. A segment in development.",
+        "description": "High-end patient experience, video calls, and multilingual chat. A market we are moving into.",
         "features": {
           "f0": {
             "title": "Customizable branding (roadmap)",
@@ -581,7 +581,7 @@
     "secondary": "Write to us directly"
   },
   "floorPlans": {
-    "eyebrow": "3D plans & entrance navigation",
+    "eyebrow": "3D plans & wayfinding",
     "title": "Family members, visitors, and external clinicians no longer get lost.",
     "subtitle": "As a custom service, CareBond designs the 3D floor plan of your building for screens and kiosks at your facility's entrance, helping family members, visitors, and external professionals find their way to the room or service they are looking for.",
     "learnMore": "Learn more about 3D plans",
@@ -596,7 +596,7 @@
       },
       "b2": {
         "title": "Reception wayfinding",
-        "description": "From the reception kiosk, visitors and families consult the plan to find their way to the room or service they are looking for."
+        "description": "From the reception kiosk, visitors and families check the map to find their way to the room or department they are looking for."
       }
     },
     "hospital": {
@@ -627,11 +627,11 @@
     "bullets": {
       "b0": {
         "title": "Real-time translation",
-        "description": "With no perceptible latency. The recipient sees the message in their language before they even think to read it."
+        "description": "With no perceptible latency. The recipient sees the message in their own language the moment it arrives."
       },
       "b1": {
         "title": "Swiss-hosted",
-        "description": "Content never leaves our infrastructure. Translation runs on our own servers in Switzerland, not at the hyperscalers."
+        "description": "Content never leaves our infrastructure. Translation runs on our own servers in Switzerland, not on the big foreign clouds."
       },
       "b2": {
         "title": "Bidirectional and traceable",
@@ -644,7 +644,7 @@
     }
   },
   "moduleResidences": {
-    "eyebrow": "Residences module",
+    "eyebrow": "Care homes module",
     "title": "Built for care homes, from admission to audit.",
     "subtitle": "One of the three care settings CareBond serves. Designed for the care home that wants a structured patient record, a digital round in the caregiver's pocket, and an activity export ready for its audits.",
     "pillars": {
@@ -652,7 +652,7 @@
         "title": "Admission & patient record",
         "description": "It all starts with an admission. CareBond turns that first step into a structured patient record, with data protection guaranteed from the first click.",
         "bullets": {
-          "b0": "Standardized admission form, meeting data protection requirements and adaptable to regional specifics",
+          "b0": "Standardized admission form, meeting data protection requirements and adaptable to local requirements",
           "b1": "Registration of the legal guardian and advance directives",
           "b2": "Health data import via FHIR standards (in development)",
           "b3": "Paperless record, accessible to the authorized team"
@@ -671,7 +671,7 @@
       },
       "audit": {
         "title": "Audit log & traceability",
-        "description": "Every access, every action, every modification is immutably logged. Documentation ready for your internal audits and for transparency toward authorities.",
+        "description": "Every access, every action, every modification is immutably logged. Documentation ready for your internal audits and for transparency with the authorities.",
         "bullets": {
           "b0": "Native audit log of accesses and modifications",
           "b1": "Filter by period, resident, or caregiver",
@@ -682,9 +682,9 @@
     }
   },
   "soignerSansSilos": {
-    "eyebrow": "Care without silos",
-    "title": "Care cannot survive silos.",
-    "subtitle": "Every missed call, every lost report, every alert that doesn't arrive — that's a real care loss, not an organizational hiccup.",
+    "eyebrow": "Scattered information",
+    "title": "Everyone looks after the same person, and no one sees the whole picture.",
+    "subtitle": "Every missed call, every lost report, every alert that doesn't arrive — that's care the patient doesn't get, not just an admin problem.",
     "avant": {
       "label": "Without CareBond",
       "title": "Fragmented care",
@@ -709,7 +709,7 @@
   },
   "howItWorks": {
     "eyebrow": "How it works",
-    "title": "Four surfaces, one single flow.",
+    "title": "Four apps, one single flow.",
     "subtitle": "From the patient's SOS to management oversight — each role sees what they need, without noise or detours. One platform, four roles, one shared truth.",
     "steps": {
       "patient": {
@@ -730,7 +730,7 @@
       "direction": {
         "number": "04",
         "title": "Management",
-        "description": "Institutional oversight, built-in audit trail, KPIs facility by facility. The whole house, on one screen."
+        "description": "Institutional oversight, built-in audit trail, KPIs facility by facility. Your whole facility, on one screen."
       }
     }
   },
@@ -894,7 +894,7 @@
         },
         "data": {
           "heading": "2. Data collected",
-          "body": "We collect only the data you voluntarily provide via the contact form: full name, professional email address, name of your institution, type of facility (care home, home care, hospital, clinic, other) and the content of your message. We do not collect advertising identifiers, nor browser fingerprints. The site contains no third-party tracking cookies."
+          "body": "We collect only the data you voluntarily provide via the contact form: full name, professional email address, name of your institution, type of facility (care home, home care, hospital, clinic, other) and the content of your message. We do not collect advertising identifiers or browser fingerprints. The site contains no third-party tracking cookies."
         },
         "purposes": {
           "heading": "3. Purposes",
@@ -1039,7 +1039,7 @@
       "features": {
         "eyebrow": "What CareBond changes",
         "heading": "A platform designed for the reality of a care home.",
-        "intro": "Not a generic ERP retrofitted for healthcare. Designed from line one for the reality of care: data protection, traceability, and friction-free audits.",
+        "intro": "Not a generic ERP retrofitted for healthcare. Designed from the first line of code for the reality of care: data protection, traceability, and friction-free audits.",
         "items": {
           "f0": {
             "title": "Multi-facility oversight",
@@ -1051,11 +1051,11 @@
           },
           "f2": {
             "title": "Multilingual chat",
-            "description": "Resident and caregiver don't share a language — yet each reads in their own. Barrier gone, communication stays."
+            "description": "Resident and caregiver don't share a language — yet each reads in their own. The barrier goes, the conversation stays."
           },
           "f3": {
             "title": "Multi-team & shared reports",
-            "description": "Management, caregivers, housekeeping, external providers — each with their access level and interface, with granular permissions. Reports, consultations and vitals recorded by one caregiver are instantly visible to every professional assigned to the same resident — no more information gaps between shifts. A filtered mini-report is sent in parallel to the family."
+            "description": "Management, caregivers, housekeeping, external providers — each with their access level and interface, with granular permissions. Reports, consultations and vitals recorded by one caregiver are instantly visible to every professional assigned to the same resident — no more information gaps between shifts. At the same time, a filtered mini-report goes to the family."
           }
         },
         "roadmap": "Integrations with care assessment systems (BESA, RAI, PLAISIR) under study for a future release."
@@ -1094,7 +1094,7 @@
           },
           "f1": {
             "title": "HMAC-signed reports, shared across the team",
-            "description": "Every visit report is cryptographically signed and instantly visible to every caregiver assigned to the same patient — morning shift, evening shift, lead nurse. Ready for billing and audit. A filtered mini-report is sent in parallel to the family."
+            "description": "Every visit report is cryptographically signed and instantly visible to every caregiver assigned to the same patient — morning shift, evening shift, lead nurse. Ready for billing and audit. At the same time, a filtered mini-report goes to the family."
           },
           "f2": {
             "title": "Opt-in livestream",
@@ -1172,7 +1172,7 @@
           "p0": "Visitors and outpatients wander the corridors, and any reception desk ends up doubling as an info desk.",
           "p1": "Your current EMR doesn't talk to your scheduling tool, your reports, or your cross-departmental patient record.",
           "p2": "A data protection audit means clicking through five different systems to assemble one file.",
-          "p3": "Each service (ER, medicine, radiology) manages its own permissions — no consistency, no unified RBAC."
+          "p3": "Each department (ER, medicine, radiology) manages its own permissions — no consistency, no unified RBAC."
         }
       },
       "features": {
@@ -1206,7 +1206,7 @@
     },
     "clinics": {
       "eyebrow": "For private clinics",
-      "title": "Premium patient experience, in your brand.",
+      "title": "Premium patient experience, under your brand.",
       "subtitle": "Multilingual chat for international patients and hosting in Switzerland. A segment we are building toward.",
       "metaDescription": "CareBond solution for private clinics: multilingual chat, hosting in Switzerland, data protection by design (GDPR and nLPD).",
       "visualAlt": "Multilingual chat preview — FR↔ES messages translated in real time with caregiver control",
@@ -1223,7 +1223,7 @@
       },
       "features": {
         "eyebrow": "What CareBond changes",
-        "heading": "A professional platform, in your image.",
+        "heading": "A professional platform, under your own brand.",
         "intro": "CareBond's technical foundation, your branded interface and experience. With all the multilingual and data protection capabilities from day one.",
         "items": {
           "f0": {
@@ -1281,7 +1281,7 @@
           "description": "Every access and modification is logged. Not as an option, not after configuration: from day one, on every action."
         },
         "v3": {
-          "title": "Swiss, no detour",
+          "title": "Swiss, end to end",
           "description": "Swiss hosting (Infomaniak, Geneva). No foreign cloud, no transfer to the hyperscalers, no extraterritorial jurisdiction."
         }
       }
@@ -1329,7 +1329,7 @@
         },
         "kvg": {
           "title": "KVG / LAMal (Switzerland)",
-          "description": "Cryptographically signed (HMAC) visit reports, with traceability as the basis for justification to the Swiss health insurance system in home care."
+          "description": "Cryptographically signed (HMAC) visit reports, with a traceable record to support billing to Swiss health insurers for home care."
         },
         "transfers": {
           "title": "International transfers",

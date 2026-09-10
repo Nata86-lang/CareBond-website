@@ -28,7 +28,7 @@
   },
   "hero": {
     "eyebrow": "Kommunikationsplattform für die Pflege",
-    "title": "Die sichere Kommunikationsebene, die Patienten, Familien und Fachpersonen verbindet.",
+    "title": "Die sichere Verbindung zwischen Patienten, Familien und Fachpersonen.",
     "subtitle": "Ein vollständiges, eigenständiges Kommunikations- und Koordinationssystem für Pflegeeinrichtungen mit oder ohne bestehende Software. CareBond verbindet Leitung, Fachpersonal, Patienten und Familien — mit Datenschutz by Design (DSGVO und DSG) und Hosting in der Schweiz. Die Integration in Ihr KIS/ERP ist in Entwicklung.",
     "trust": {
       "label": "Datenschutz auf Schweizer Niveau",
@@ -116,11 +116,11 @@
       "patient": {
         "title": "Patienten & Bewohner",
         "tag": "SOS & Inklusion",
-        "desc": "Angepasster Touch-SOS und direkte Videoanrufe mit Angehörigen."
+        "desc": "Grosse SOS-Taste und direkte Videoanrufe mit Angehörigen."
       },
       "family": {
         "title": "Familien",
-        "tag": "Berichte & Seelenfrieden",
+        "tag": "Berichte & Gewissheit",
         "desc": "Vom Fachpersonal gesendete Mini-Berichte und direkte Videoanrufe."
       }
     }
@@ -129,12 +129,12 @@
     "bento": {
       "eyebrow": "Die Plattform",
       "title": "Sechs Kommunikationskanäle, eine einzige integrierte Plattform.",
-      "subtitle": "Ob als integrierte Kommunikationsebene für Ihr bestehendes KIS/ERP oder als vollständige, eigenständige Lösung für Einrichtungen ohne vorherige Software: Alles ist so konzipiert, dass Leitungen, Pflegende und Familien sicher miteinander verbunden sind.",
+      "subtitle": "Ob als integrierte Ergänzung zu Ihrem bestehenden KIS/ERP oder als vollständige, eigenständige Lösung für Einrichtungen ohne bisherige Software: Alles ist so konzipiert, dass Leitungen, Pflegende und Familien sicher miteinander verbunden sind.",
       "learnMore": "Entdecken",
       "pillars": {
         "oversight": {
           "eyebrow": "Leitung",
-          "title": "Institutionelle Überwachung",
+          "title": "Steuerung der Einrichtung",
           "description": "Einheitlicher Kanal zur Echtzeitüberwachung von Alarmen, Kommunikationsflüssen und KPIs jedes Standorts über ein zentrales Dashboard.",
           "kpiResidents": "Patienten",
           "kpiProfessionals": "Pflege",
@@ -153,7 +153,7 @@
         "livestream": {
           "eyebrow": "Präsenz",
           "title": "Telepräsenz & Videoanrufe",
-          "description": "Während der Übertragung verschlüsselte Videokanäle auf Schweizer Servern: direkte Patient-Familie-Kommunikation und geregelte Videoanruf-Flüsse unter der strengen Kontrolle des Fachpersonals.",
+          "description": "Während der Übertragung verschlüsselte Videokanäle auf Schweizer Servern: direkte Patient-Familie-Kommunikation und geregelte Videoanrufe unter der strengen Kontrolle des Fachpersonals.",
           "kpiResidents": "Patienten",
           "kpiProfessionals": "Pflege",
           "kpiAlerts": "Alarme",
@@ -196,7 +196,7 @@
     },
     "pages": {
       "oversight": {
-        "subtitle": "Ein einheitlicher Überwachungskanal für die Leitung. Überwachen Sie Kommunikationsflüsse, vergleichbare KPIs und priorisierte Alarme über ein einziges zentrales Dashboard.",
+        "subtitle": "Ein einheitlicher Steuerungskanal für die Leitung. Verfolgen Sie Kommunikationsflüsse, vergleichbare KPIs und priorisierte Alarme über ein einziges zentrales Dashboard.",
         "visualAlt": "Institutionelles Dashboard — KPIs für Patienten, Fachpersonen, Alarme, verbundene Geräte",
         "capabilities": {
           "eyebrow": "Fähigkeiten",
@@ -283,7 +283,7 @@
             },
             "f3": {
               "title": "Schweizer Hosting",
-              "description": "Das Video-Relay wird in der Schweiz gehostet. Keine ausländische Cloud für die Inhalte, keine extraterritoriale Exposition der Medien."
+              "description": "Das Video-Relay wird in der Schweiz gehostet. Keine ausländische Cloud für die Inhalte, kein Zugriff nach fremdem Recht."
             }
           }
         },
@@ -304,7 +304,7 @@
           "items": {
             "f0": {
               "title": "Echtzeit-Übersetzung",
-              "description": "Ohne spürbare Verzögerung. Der Empfänger sieht die Nachricht in seiner Sprache, bevor er sie überhaupt lesen will."
+              "description": "Ohne spürbare Verzögerung. Der Empfänger liest die Nachricht sofort in seiner Sprache."
             },
             "f1": {
               "title": "Steuerung durch die Pflege",
@@ -360,7 +360,7 @@
         "compliance": "HMAC-signierte Berichte, bereit für Abrechnungsvalidierung und Audit. Natives Audit-Log bei jeder Pflegehandlung und jedem Zugriff auf das geteilte Patientendossier.",
         "cta": {
           "eyebrow": "Nächster Schritt",
-          "title": "Sehen wir eine digitale Visite in Ihrer Struktur.",
+          "title": "Sehen wir eine digitale Visite in Ihrer Einrichtung.",
           "description": "30 Minuten, um das Modul auf Ihre Pflegepfade abzustimmen — Pflegeheim, häusliche Pflege oder beides."
         }
       },
@@ -439,7 +439,7 @@
           },
           "f2": {
             "title": "Priorisierte Alarme",
-            "description": "Die Pflegeperson sieht das Dringliche zuerst. Der Rest reiht sich ein, ohne Lärm."
+            "description": "Die Pflegeperson sieht das Dringliche zuerst. Der Rest reiht sich ein, ohne Ablenkung."
           }
         }
       },
@@ -604,7 +604,7 @@
       "eyebrow": "Vorschau · Spitalplan",
       "title": "Interaktiver Gebäudeplan",
       "liveLabel": "Plan",
-      "youAreHere": "Sie",
+      "youAreHere": "Sie sind hier",
       "pathLabel": "Empfohlene Route",
       "distance": "92 m",
       "eta": "1 Min",
@@ -627,7 +627,7 @@
     "bullets": {
       "b0": {
         "title": "Echtzeit-Übersetzung",
-        "description": "Ohne spürbare Verzögerung. Der Empfänger sieht die Nachricht in seiner Sprache, bevor er sie überhaupt lesen will."
+        "description": "Ohne spürbare Verzögerung. Der Empfänger liest die Nachricht sofort in seiner Sprache."
       },
       "b1": {
         "title": "Schweizer Hosting",
@@ -660,7 +660,7 @@
       },
       "rounds": {
         "title": "Digitale Visite & Vitalwerte",
-        "description": "Die Pflegeperson tritt ein, öffnet die App, sieht die Visite des Tages. Vitalwerte, Alarme, Medikamente — alles in der Tasche, mit zwei Taps bestätigt.",
+        "description": "Die Pflegeperson tritt ein, öffnet die App, sieht die Visite des Tages. Vitalwerte, Alarme, Medikamente — alles auf dem Handy, mit zwei Fingertipps bestätigt.",
         "bullets": {
           "b0": "Tagesvisite vorab organisiert, Zimmer für Zimmer",
           "b1": "Beobachtungen und Zustand des Patienten bei jeder Visite erfasst",
@@ -682,8 +682,8 @@
     }
   },
   "soignerSansSilos": {
-    "eyebrow": "Pflege ohne Silos",
-    "title": "Pflege überlebt keine Silos.",
+    "eyebrow": "Verstreute Informationen",
+    "title": "Alle betreuen dieselbe Person – und niemand hat alle Informationen.",
     "subtitle": "Jeder verpasste Anruf, jeder verlorene Bericht, jeder Alarm, der nicht ankommt — das ist ein realer Pflegeverlust, kein Organisationsproblem.",
     "avant": {
       "label": "Ohne CareBond",
@@ -697,20 +697,20 @@
     },
     "apres": {
       "label": "Mit CareBond",
-      "title": "Vereinte Pflege",
+      "title": "Pflege aus einer Hand",
       "items": {
         "i0": "Die Familie erhält den täglichen Mini-Bericht automatisch, ohne zu fragen.",
-        "i1": "Die Pflegeperson bestätigt mit zwei Taps aus der Hosentasche.",
+        "i1": "Die Pflegeperson bestätigt mit zwei Fingertipps auf dem Handy.",
         "i2": "Die Leitung sieht den Alarm in Echtzeit, ohne Anruf.",
         "i3": "Datenschutzaudit: ein einziger Export, bereit für jede anfragende Behörde."
       }
     },
-    "closing": "Wenn jeder Akteur dieselbe Realität sieht, wird Pflege wieder kontinuierlich."
+    "closing": "Wenn alle Beteiligten denselben Stand sehen, bleibt die Pflege lückenlos."
   },
   "howItWorks": {
     "eyebrow": "So funktioniert es",
-    "title": "Vier Oberflächen, ein einziger Fluss.",
-    "subtitle": "Vom SOS des Patienten bis zur Steuerung durch die Leitung — jeder sieht, was er braucht, ohne Lärm und ohne Umwege. Eine Plattform, vier Rollen, eine gemeinsame Wahrheit.",
+    "title": "Vier Oberflächen, ein durchgehender Ablauf.",
+    "subtitle": "Vom SOS des Patienten bis zur Steuerung durch die Leitung — jeder sieht, was er braucht, ohne Ablenkung und ohne Umwege. Eine Plattform, vier Rollen, ein gemeinsamer Informationsstand.",
     "steps": {
       "patient": {
         "number": "01",
@@ -720,7 +720,7 @@
       "family": {
         "number": "02",
         "title": "Familie",
-        "description": "Mini-Berichte des Fachpersonals, Videoanrufe und Ruhe aus der Ferne. Ohne Eingriff."
+        "description": "Mini-Berichte des Fachpersonals, Videoanrufe und Ruhe aus der Ferne. Ohne sich einzumischen."
       },
       "professional": {
         "number": "03",
@@ -898,7 +898,7 @@
         },
         "security": {
           "heading": "9. Sicherheit",
-          "body": "Die Website nutzt TLS 1.3 zur Verschlüsselung der Kommunikation zwischen Ihrem Browser und unseren Servern. Die Formulardaten werden auf jedem Abschnitt verschlüsselt übertragen: von Ihrem Gerät über die Vercel-Infrastruktur bis zum finalen Posteingang."
+          "body": "Die Website nutzt TLS 1.3 zur Verschlüsselung der Kommunikation zwischen Ihrem Browser und unseren Servern. Die Formulardaten werden auf dem gesamten Weg verschlüsselt übertragen: von Ihrem Gerät über die Vercel-Infrastruktur bis in den Posteingang."
         },
         "cookies": {
           "heading": "10. Cookies und Tracker",
@@ -964,7 +964,7 @@
         },
         "manage": {
           "heading": "Cookies verwalten",
-          "body": "Sie können jederzeit gesetzte Cookies über die Einstellungen Ihres Browsers löschen. Das Löschen strikt notwendiger Cookies kann Ihre Erfahrung beeinträchtigen (z. B. Verlust der ausgewählten Sprache)."
+          "body": "Sie können jederzeit gesetzte Cookies über die Einstellungen Ihres Browsers löschen. Das Löschen strikt notwendiger Cookies kann die Nutzung der Website beeinträchtigen (z. B. Verlust der ausgewählten Sprache)."
         }
       }
     },
@@ -1027,7 +1027,7 @@
           },
           "f2": {
             "title": "Mehrsprachiger Chat",
-            "description": "Bewohner und Pflegerin sprechen nicht dieselbe Sprache — und trotzdem liest jeder in seiner eigenen. Die Barriere verschwindet, die Kommunikation bleibt."
+            "description": "Bewohner und Pflegefachfrau sprechen nicht dieselbe Sprache — und trotzdem liest jeder in seiner eigenen. Die Barriere verschwindet, die Kommunikation bleibt."
           },
           "f3": {
             "title": "Mehrere Teams & geteilte Berichte",
@@ -1056,7 +1056,7 @@
           "p0": "Die Familie ruft an, um zu erfahren, ob der Morgenbesuch gut verlaufen ist — immer wieder.",
           "p1": "Die Pflegeperson schreibt einen Papierbericht, der am Monatsende auf einem Stapel landet.",
           "p2": "Kritische Alarme gehen zwischen WhatsApp, SMS und verpassten Anrufen verloren.",
-          "p3": "Die Anwesenheit am Wohnort zu bestätigen erfolgt über Fotos oder Anrufe — zeitaufwändig und unzuverlässig."
+          "p3": "Die Anwesenheit am Wohnort wird über Fotos oder Anrufe bestätigt — zeitaufwändig und unzuverlässig."
         }
       },
       "features": {
@@ -1136,7 +1136,7 @@
     },
     "clinics": {
       "eyebrow": "Für Privatkliniken",
-      "title": "Premium-Patientenerlebnis, in Ihrer Marke.",
+      "title": "Premium-Patientenerlebnis in Ihren Farben.",
       "subtitle": "Mehrsprachiger Chat für internationale Patienten und Hosting in der Schweiz. Ein Segment, auf das wir hinarbeiten.",
       "metaDescription": "CareBond-Lösung für Privatkliniken: mehrsprachiger Chat, Hosting in der Schweiz, Datenschutz by Design (DSGVO und DSG).",
       "visualAlt": "Vorschau des mehrsprachigen Chats — FR↔ES-Nachrichten in Echtzeit übersetzt mit Pflegekontrolle",
@@ -1148,13 +1148,13 @@
           "p0": "Ihre Patienten kommen von überall und sprechen nicht immer die Sprache Ihres Teams. Die Sprachbarriere ist Alltag.",
           "p1": "Ihre Klinikmarke ist ein Vermögenswert. Sie wollen nicht, dass eine Drittplattform sie mit ihrem eigenen Branding verwässert.",
           "p2": "Telemedizin zwischen zwei physischen Terminen wird erwartet, nicht als Option.",
-          "p3": "Ihre VIP-Patienten verlangen ein Mass an Vertraulichkeit, das ein Konsumentenwerkzeug nicht garantieren kann."
+          "p3": "Ihre VIP-Patienten verlangen ein Mass an Vertraulichkeit, das keine gängige Messenger-App garantieren kann."
         }
       },
       "features": {
         "eyebrow": "Was CareBond ändert",
-        "heading": "Eine professionelle Plattform, in Ihrem Bild.",
-        "intro": "Der technische Sockel von CareBond, Ihre markenkonforme Oberfläche und Erfahrung. Und sämtliche Mehrsprachigkeits- und Datenschutzfunktionen ab Tag 1.",
+        "heading": "Eine professionelle Plattform mit Ihrer Handschrift.",
+        "intro": "Die technische Basis von CareBond, Ihre Oberfläche und Ihr Markenerlebnis. Und sämtliche Mehrsprachigkeits- und Datenschutzfunktionen ab Tag 1.",
         "items": {
           "f0": {
             "title": "Mehrsprachiger Chat, von der Pflege gesteuert",
@@ -1237,7 +1237,7 @@
       "heading": "Der Pflege die Zeit zurückgeben, die der Papierkram nimmt.",
       "body1": "In einem Pflegeheim verbringen Pflegepersonen zu viele Stunden mit dem Ausfüllen von Ordnern, telefonischen Übergaben und dem Zusammenstellen von Dokumenten für Audits. Diese Stunden gehen nicht zum Bewohner.",
       "body2": "CareBond gibt sie der Pflege zurück. Indem es die digitale Visite, die Audit-Nachvollziehbarkeit, den mehrsprachigen Chat, die kryptografisch signierten Berichte und die Orientierung mit 3D-Plänen in einer einzigen Plattform vereint.",
-      "body3": "Wir ersetzen Ihr bestehendes EMR nicht. Wir werden daran andocken (Integration in Entwicklung), die blinden Flecken abdecken und hinzufügen, was fehlte — ohne Rip-and-Replace."
+      "body3": "Wir ersetzen Ihr bestehendes KIS nicht. Wir werden daran andocken (Integration in Entwicklung), die blinden Flecken abdecken und hinzufügen, was fehlte — ohne alles auszuwechseln."
     },
     "values": {
       "eyebrow": "Unsere Werte",
@@ -1245,7 +1245,7 @@
       "intro": "Vier architektonische Entscheidungen, an denen wir seit der ersten Codezeile festhalten. Sie definieren, was CareBond tut, ebenso wie das, was CareBond nie tun wird.",
       "items": {
         "v0": {
-          "title": "Privacy-first, nicht Privacy-as-an-Option",
+          "title": "Datenschutz von Anfang an, nicht als Option",
           "description": "Keine Tracking-Cookies. Keine Werbe-Pixel. Kein Datenleck zu Google Analytics. Der Datenschutz steckt in der Architektur, nicht in einem Anhang."
         },
         "v1": {
@@ -1273,7 +1273,7 @@
   },
   "compliancePage": {
     "eyebrow": "Konformität",
-    "title": "Konformität durch Architektur, nicht durch Anhang.",
+    "title": "Konformität durch Architektur, nicht durch Vertragsanhang.",
     "subtitle": "DSGVO und DSG by Design, Schweizer Hosting, unveränderliches Audit-Log. Konformität ist keine nachträglich hinzugefügte Schicht — sie ist von der ersten Codezeile an in die Plattform eingebaut.",
     "metaDescription": "CareBond-Konformität: DSGVO und DSG by Design, Hosting in der Schweiz, unveränderliches Audit-Log, Nachvollziehbarkeit für Audits.",
     "pillars": {
@@ -1297,7 +1297,7 @@
     "regulations": {
       "eyebrow": "Regulatorischer Rahmen",
       "heading": "Ein Rahmen, mehrere Rechtsräume.",
-      "intro": "CareBond ist unter einem der strengsten Datenschutzgesetze der Welt entstanden und erweitert dieselbe Architektur auf die europäischen Rahmenwerke. Hier sind die wichtigsten Rahmenwerke, die wir adressieren.",
+      "intro": "CareBond ist unter einem der strengsten Datenschutzgesetze der Welt entstanden und wendet dieselbe Architektur auf die europäischen Vorgaben an. Diese Regelwerke deckt CareBond ab.",
       "items": {
         "nlpd": {
           "title": "DSG (Schweiz)",
@@ -1360,7 +1360,7 @@
       },
       "s3": {
         "figure": "304 Mio.",
-        "label": "Menschen lebten 2024 ausserhalb ihres Geburtslandes — fast doppelt so viele wie 1990. Pflege überquert immer öfter Sprachgrenzen.",
+        "label": "Menschen lebten 2024 ausserhalb ihres Geburtslandes — fast doppelt so viele wie 1990. Pflege überschreitet immer öfter Sprachgrenzen.",
         "source": "Vereinte Nationen (DESA), International Migrant Stock 2024"
       }
     }
