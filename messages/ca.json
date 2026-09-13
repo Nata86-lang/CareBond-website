@@ -882,11 +882,11 @@
         },
         "recipients": {
           "heading": "5. Destinataris i encarregats del tractament",
-          "body": "Les seves dades són accessibles únicament per a l'equip intern de CareBond. Utilitzem dos encarregats tècnics del tractament: (a) Vercel Inc. per a l'allotjament del lloc (regió fra1, Frankfurt, UE); (b) Resend Inc. per a la transmissió dels emails del formulari de contacte. Cap altre tercer no rep les seves dades."
+          "body": "Les seves dades són accessibles únicament per a l'equip intern de CareBond. Utilitzem dos encarregats tècnics del tractament: (a) Vercel Inc. per a l'allotjament del lloc (regió fra1, Frankfurt, UE); (b) Infomaniak (Ginebra, Suïssa) per al servidor de correu que lliura els emails del formulari de contacte a la nostra bústia. Cap altre tercer no rep les seves dades."
         },
         "transfers": {
           "heading": "6. Transferències internacionals",
-          "body": "Vercel Inc. i Resend Inc. són societats nord-americanes. Les dades transiten per les seves infraestructures en el marc del funcionament tècnic del lloc i del formulari. Aquestes transferències estan regulades per les Clàusules Contractuals Tipus (CCT) i pels compromisos de conformitat de cada proveïdor. La regió d'allotjament principal de Vercel per a aquest lloc és a la Unió Europea (Frankfurt)."
+          "body": "Vercel Inc. és una societat nord-americana. Les dades transiten per la seva infraestructura en el marc del funcionament tècnic del lloc i del formulari. Aquesta transferència està regulada per les Clàusules Contractuals Tipus (CCT) i pels compromisos de conformitat del proveïdor. La regió d'allotjament principal de Vercel per a aquest lloc és a la Unió Europea (Frankfurt). Els emails enviats mitjançant el formulari de contacte són lliurats pel nostre servidor de correu a Infomaniak, a Suïssa, i no surten del país."
         },
         "retention": {
           "heading": "7. Termini de conservació",
@@ -1309,7 +1309,7 @@
         },
         "transfers": {
           "title": "Transferències internacionals",
-          "description": "Les poques transferències fora de Suïssa (formulari de contacte via Resend, hosting via Vercel fra1 Frankfurt) estan regulades per Clàusules Contractuals Tipus i documentades."
+          "description": "L'única transferència fora de Suïssa és l'allotjament del lloc (Vercel, fra1 Frankfurt), regulada per Clàusules Contractuals Tipus i documentada. Els emails del formulari de contacte es queden a Suïssa, al nostre servidor de correu a Infomaniak."
         },
         "gdpr": {
           "title": "RGPD (UE)",

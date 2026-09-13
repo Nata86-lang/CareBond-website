@@ -882,11 +882,11 @@
         },
         "recipients": {
           "heading": "5. Destinataires et sous-traitants",
-          "body": "Vos données ne sont accessibles qu'à l'équipe interne de CareBond. Nous utilisons deux sous-traitants techniques : (a) Vercel Inc. pour l'hébergement du site (région fra1, Francfort, UE) ; (b) Resend Inc. pour la transmission des e-mails du formulaire de contact. Aucun autre tiers ne reçoit vos données."
+          "body": "Vos données ne sont accessibles qu'à l'équipe interne de CareBond. Nous utilisons deux sous-traitants techniques : (a) Vercel Inc. pour l'hébergement du site (région fra1, Francfort, UE) ; (b) Infomaniak (Genève, Suisse) pour le serveur de messagerie qui achemine les e-mails du formulaire de contact vers notre boîte de réception. Aucun autre tiers ne reçoit vos données."
         },
         "transfers": {
           "heading": "6. Transferts internationaux",
-          "body": "Vercel Inc. et Resend Inc. sont des sociétés américaines. Les données transitent par leurs infrastructures dans le cadre du fonctionnement technique du site et du formulaire. Ces transferts sont encadrés par les clauses contractuelles types (CCT) et les engagements de conformité de chaque prestataire. La région d'hébergement principale de Vercel pour ce site est en Union européenne (Francfort)."
+          "body": "Vercel Inc. est une société américaine. Les données transitent par son infrastructure dans le cadre du fonctionnement technique du site et du formulaire. Ce transfert est encadré par les clauses contractuelles types (CCT) et les engagements de conformité du prestataire. La région d'hébergement principale de Vercel pour ce site est en Union européenne (Francfort). Les e-mails du formulaire de contact sont acheminés par notre serveur de messagerie chez Infomaniak, à Genève, et ne quittent pas la Suisse."
         },
         "retention": {
           "heading": "7. Durée de conservation",
@@ -1309,7 +1309,7 @@
         },
         "transfers": {
           "title": "Transferts internationaux",
-          "description": "Les rares transferts hors Suisse (formulaire de contact via Resend, hosting via Vercel fra1 Francfort) sont encadrés par des Clauses Contractuelles Types et documentés."
+          "description": "Le seul transfert hors Suisse est l'hébergement du site (Vercel, fra1 Francfort), encadré par des Clauses Contractuelles Types et documenté. Les e-mails du formulaire de contact restent en Suisse, sur notre serveur de messagerie chez Infomaniak, à Genève."
         },
         "gdpr": {
           "title": "RGPD (UE)",

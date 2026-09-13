@@ -906,11 +906,11 @@
         },
         "recipients": {
           "heading": "5. Recipients and processors",
-          "body": "Your data is accessible only to CareBond's internal team. We use two technical processors: (a) Vercel Inc. for site hosting (fra1 region, Frankfurt, EU); (b) Resend Inc. for delivering contact form emails. No other third party receives your data."
+          "body": "Your data is accessible only to CareBond's internal team. We use two technical processors: (a) Vercel Inc. for site hosting (fra1 region, Frankfurt, EU); (b) Infomaniak (Geneva, Switzerland) for the mail server that delivers contact form messages to our inbox. No other third party receives your data."
         },
         "transfers": {
           "heading": "6. International transfers",
-          "body": "Vercel Inc. and Resend Inc. are US-based companies. Data passes through their infrastructure as part of the technical operation of the site and form. These transfers are governed by Standard Contractual Clauses (SCCs) and each provider's compliance commitments. Vercel's primary hosting region for this site is in the European Union (Frankfurt)."
+          "body": "Vercel Inc. is a US-based company, and data passes through its infrastructure as part of the technical operation of the site and form. This transfer is governed by Standard Contractual Clauses (SCCs) and the provider's compliance commitments; Vercel's primary hosting region for this site is in the European Union (Frankfurt). Messages sent through the contact form are delivered by our mail server at Infomaniak, in Switzerland, and do not leave the country."
         },
         "retention": {
           "heading": "7. Retention",
@@ -1333,7 +1333,7 @@
         },
         "transfers": {
           "title": "International transfers",
-          "description": "The few transfers outside Switzerland (contact form via Resend, hosting via Vercel fra1 Frankfurt) are governed by Standard Contractual Clauses and documented."
+          "description": "The only transfer outside Switzerland is the site hosting (Vercel, fra1 Frankfurt), governed by Standard Contractual Clauses and documented. Contact form emails stay in Switzerland, on our mail server at Infomaniak."
         },
         "gdpr": {
           "title": "GDPR (EU)",

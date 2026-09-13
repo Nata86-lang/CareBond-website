@@ -882,11 +882,11 @@
         },
         "recipients": {
           "heading": "5. Empfänger und Auftragsverarbeiter",
-          "body": "Ihre Daten sind nur dem internen Team von CareBond zugänglich. Wir setzen zwei technische Auftragsverarbeiter ein: (a) Vercel Inc. für das Hosting der Website (Region fra1, Frankfurt, EU); (b) Resend Inc. für die Übermittlung der E-Mails aus dem Kontaktformular. Keine weiteren Dritten erhalten Ihre Daten."
+          "body": "Ihre Daten sind nur dem internen Team von CareBond zugänglich. Wir setzen zwei technische Auftragsverarbeiter ein: (a) Vercel Inc. für das Hosting der Website (Region fra1, Frankfurt, EU); (b) Infomaniak (Genf, Schweiz) für den Mailserver, der die E-Mails aus dem Kontaktformular in unseren Posteingang zustellt. Keine weiteren Dritten erhalten Ihre Daten."
         },
         "transfers": {
           "heading": "6. Internationale Datenübermittlungen",
-          "body": "Vercel Inc. und Resend Inc. sind US-amerikanische Unternehmen. Die Daten werden im Rahmen des technischen Betriebs der Website und des Formulars über deren Infrastruktur übertragen. Diese Übermittlungen sind durch Standardvertragsklauseln (SCC) und die Compliance-Verpflichtungen jedes Anbieters geregelt. Die Hauptregion für das Hosting bei Vercel ist die Europäische Union (Frankfurt)."
+          "body": "Vercel Inc. ist ein US-amerikanisches Unternehmen. Die Daten werden im Rahmen des technischen Betriebs der Website und des Formulars über dessen Infrastruktur übertragen. Diese Übermittlung ist durch Standardvertragsklauseln (SCC) und die Compliance-Verpflichtungen des Anbieters geregelt. Die Hauptregion für das Hosting bei Vercel ist für diese Website die Europäische Union (Frankfurt). Die E-Mails aus dem Kontaktformular werden von unserem Mailserver bei Infomaniak in der Schweiz zugestellt und verlassen das Land nicht."
         },
         "retention": {
           "heading": "7. Aufbewahrungsdauer",
@@ -1309,7 +1309,7 @@
         },
         "transfers": {
           "title": "Internationale Übermittlungen",
-          "description": "Die wenigen Übermittlungen ausserhalb der Schweiz (Kontaktformular via Resend, Hosting via Vercel fra1 Frankfurt) sind durch Standardvertragsklauseln geregelt und dokumentiert."
+          "description": "Die einzige Übermittlung ausserhalb der Schweiz (Hosting via Vercel fra1 Frankfurt) ist durch Standardvertragsklauseln geregelt und dokumentiert. Die E-Mails aus dem Kontaktformular bleiben in der Schweiz, auf unserem Mailserver bei Infomaniak."
         },
         "gdpr": {
           "title": "DSGVO (EU)",

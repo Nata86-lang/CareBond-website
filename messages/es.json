@@ -882,11 +882,11 @@
         },
         "recipients": {
           "heading": "5. Destinatarios y encargados del tratamiento",
-          "body": "Sus datos son accesibles únicamente al equipo interno de CareBond. Utilizamos dos encargados técnicos del tratamiento: (a) Vercel Inc. para el alojamiento del sitio (región fra1, Fráncfort, UE); (b) Resend Inc. para la transmisión de los emails del formulario de contacto. Ningún otro tercero recibe sus datos."
+          "body": "Sus datos son accesibles únicamente al equipo interno de CareBond. Utilizamos dos encargados técnicos del tratamiento: (a) Vercel Inc. para el alojamiento del sitio (región fra1, Fráncfort, UE); (b) Infomaniak (Ginebra, Suiza) para el servidor de correo que transmite los emails del formulario de contacto. Ningún otro tercero recibe sus datos."
         },
         "transfers": {
           "heading": "6. Transferencias internacionales",
-          "body": "Vercel Inc. y Resend Inc. son sociedades estadounidenses. Los datos transitan por sus infraestructuras en el marco del funcionamiento técnico del sitio y del formulario. Estas transferencias están reguladas por las Cláusulas Contractuales Tipo (CCT) y los compromisos de conformidad de cada proveedor. La región de alojamiento principal de Vercel para este sitio está en la Unión Europea (Fráncfort)."
+          "body": "Vercel Inc. es una sociedad estadounidense. Los datos transitan por su infraestructura en el marco del funcionamiento técnico del sitio y del formulario. Esta transferencia está regulada por las Cláusulas Contractuales Tipo (CCT) y los compromisos de conformidad del proveedor. La región de alojamiento principal de Vercel para este sitio está en la Unión Europea (Fráncfort). Los emails enviados a través del formulario de contacto se transmiten mediante nuestro servidor de correo en Infomaniak (Ginebra) y no salen de Suiza."
         },
         "retention": {
           "heading": "7. Plazo de conservación",
@@ -1309,7 +1309,7 @@
         },
         "transfers": {
           "title": "Transferencias internacionales",
-          "description": "Las pocas transferencias fuera de Suiza (formulario de contacto vía Resend, hosting vía Vercel fra1 Fráncfort) están reguladas por Cláusulas Contractuales Tipo y documentadas."
+          "description": "La única transferencia fuera de Suiza (hosting vía Vercel fra1 Fráncfort) está regulada por Cláusulas Contractuales Tipo y documentada. Los emails del formulario de contacto permanecen en Suiza, en nuestro servidor de correo en Infomaniak."
         },
         "gdpr": {
           "title": "RGPD (UE)",
