@@ -93,7 +93,7 @@ export async function Footer({ locale }: { locale: string }) {
 
         <div className="mt-12 flex flex-col-reverse items-start justify-between gap-6 border-t border-white/10 pt-8 text-sm text-white/70 sm:flex-row sm:items-center sm:gap-4">
           <p>
-            © {year} CareBond SA · {t("bottom.address")} ·{" "}
+            © {year} CareBond · {t("bottom.address")} ·{" "}
             <a
               href="mailto:info@carebond.ch"
               className="text-white underline underline-offset-4 hover:no-underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"

@@ -862,11 +862,11 @@
       "lastUpdated": "Updated May 14, 2026",
       "editor": {
         "heading": "Publisher",
-        "body": "This website is published by CareBond SA, with its registered office in Geneva, Switzerland. For any question about the site content or the company, write to us at info@carebond.ch."
+        "body": "This website is published by CareBond, with its registered office in Geneva, Switzerland. For any question about the site content or the company, write to us at info@carebond.ch."
       },
       "publication": {
         "heading": "Editorial responsibility",
-        "body": "Publication is overseen by CareBond SA's executive management. Editorial responsibility for the site lies with the CareBond internal team."
+        "body": "Publication is overseen by CareBond's executive management. Editorial responsibility for the site lies with the CareBond internal team."
       },
       "hosting": {
         "heading": "Hosting",
@@ -874,7 +874,7 @@
       },
       "ip": {
         "heading": "Intellectual property",
-        "body": "All content on the site (text, images, logo, source code, CareBond brand) is the exclusive property of CareBond SA, unless explicitly stated otherwise. Any reproduction, representation, or distribution, in whole or in part, without prior written authorization is prohibited."
+        "body": "All content on the site (text, images, logo, source code, CareBond brand) is the exclusive property of CareBond, unless explicitly stated otherwise. Any reproduction, representation, or distribution, in whole or in part, without prior written authorization is prohibited."
       },
       "contact": {
         "heading": "Contact",
@@ -886,11 +886,11 @@
       "title": "Privacy policy",
       "metaDescription": "How CareBond collects, uses and protects your personal data under the nLPD.",
       "lastUpdated": "Updated May 14, 2026",
-      "intro": "CareBond SA handles your personal data carefully, in compliance with the Swiss Federal Act on Data Protection (nLPD), with the EU GDPR where it applies to visitors from the EU, and with international best practices. This policy describes what we collect on this marketing site, why, and what rights you have.",
+      "intro": "CareBond handles your personal data carefully, in compliance with the Swiss Federal Act on Data Protection (nLPD), with the EU GDPR where it applies to visitors from the EU, and with international best practices. This policy describes what we collect on this marketing site, why, and what rights you have.",
       "sections": {
         "controller": {
           "heading": "1. Data controller",
-          "body": "The controller of personal data collected via carebond.ch is CareBond SA, based in Geneva, Switzerland. For any question about your data, write to us at info@carebond.ch."
+          "body": "The controller of personal data collected via carebond.ch is CareBond, based in Geneva, Switzerland. For any question about your data, write to us at info@carebond.ch."
         },
         "data": {
           "heading": "2. Data collected",
@@ -906,7 +906,7 @@
         },
         "recipients": {
           "heading": "5. Recipients and processors",
-          "body": "Your data is accessible only to CareBond SA's internal team. We use two technical processors: (a) Vercel Inc. for site hosting (fra1 region, Frankfurt, EU); (b) Resend Inc. for delivering contact form emails. No other third party receives your data."
+          "body": "Your data is accessible only to CareBond's internal team. We use two technical processors: (a) Vercel Inc. for site hosting (fra1 region, Frankfurt, EU); (b) Resend Inc. for delivering contact form emails. No other third party receives your data."
         },
         "transfers": {
           "heading": "6. International transfers",
@@ -959,7 +959,7 @@
         },
         "liability": {
           "heading": "4. Limitation of liability",
-          "body": "CareBond SA makes every effort to provide accurate and up-to-date information but cannot guarantee the absence of error or service interruption. Use of published information is at your sole responsibility."
+          "body": "CareBond makes every effort to provide accurate and up-to-date information but cannot guarantee the absence of error or service interruption. Use of published information is at your sole responsibility."
         },
         "law": {
           "heading": "5. Governing law",
@@ -1287,7 +1287,7 @@
       }
     },
     "location": {
-      "body": "CareBond SA is based in Geneva, Switzerland. We work in French, German, Italian, English, Spanish and Catalan — because care speaks many languages."
+      "body": "CareBond is based in Geneva, Switzerland. We work in French, German, Italian, English, Spanish and Catalan — because care speaks many languages."
     },
     "cta": {
       "eyebrow": "Shall we talk?",

@@ -838,11 +838,11 @@
       "lastUpdated": "Aggiornato il 14 maggio 2026",
       "editor": {
         "heading": "Editore del sito",
-        "body": "Questo sito è edito da CareBond SA, con sede a Ginevra (Svizzera). Per qualsiasi domanda relativa al contenuto del sito o alla società, contattateci a info@carebond.ch."
+        "body": "Questo sito è edito da CareBond, con sede a Ginevra (Svizzera). Per qualsiasi domanda relativa al contenuto del sito o alla società, contattateci a info@carebond.ch."
       },
       "publication": {
         "heading": "Direttore della pubblicazione",
-        "body": "La direzione della pubblicazione è affidata alla direzione generale di CareBond SA. La responsabilità editoriale del sito è del team interno di CareBond."
+        "body": "La direzione della pubblicazione è affidata alla direzione generale di CareBond. La responsabilità editoriale del sito è del team interno di CareBond."
       },
       "hosting": {
         "heading": "Hosting",
@@ -850,7 +850,7 @@
       },
       "ip": {
         "heading": "Proprietà intellettuale",
-        "body": "Tutti i contenuti del sito (testi, immagini, logo, codice sorgente, marchio CareBond) sono di proprietà esclusiva di CareBond SA, salvo menzione contraria esplicita. Qualsiasi riproduzione, rappresentazione o diffusione, totale o parziale, senza autorizzazione scritta preventiva, è vietata."
+        "body": "Tutti i contenuti del sito (testi, immagini, logo, codice sorgente, marchio CareBond) sono di proprietà esclusiva di CareBond, salvo menzione contraria esplicita. Qualsiasi riproduzione, rappresentazione o diffusione, totale o parziale, senza autorizzazione scritta preventiva, è vietata."
       },
       "contact": {
         "heading": "Contatto",
@@ -862,11 +862,11 @@
       "title": "Informativa sulla privacy",
       "metaDescription": "Come CareBond raccoglie, utilizza e protegge i vostri dati personali secondo la LPD.",
       "lastUpdated": "Aggiornato il 14 maggio 2026",
-      "intro": "CareBond SA tratta i vostri dati personali con rigore, in conformità con la Legge federale svizzera sulla protezione dei dati (LPD), con il GDPR europeo quando applicabile ai visitatori dell'UE e con le buone pratiche internazionali. Questa informativa descrive ciò che raccogliamo su questo sito di marketing, a quale scopo, e quali diritti avete.",
+      "intro": "CareBond tratta i vostri dati personali con rigore, in conformità con la Legge federale svizzera sulla protezione dei dati (LPD), con il GDPR europeo quando applicabile ai visitatori dell'UE e con le buone pratiche internazionali. Questa informativa descrive ciò che raccogliamo su questo sito di marketing, a quale scopo, e quali diritti avete.",
       "sections": {
         "controller": {
           "heading": "1. Titolare del trattamento",
-          "body": "Il titolare del trattamento dei dati personali raccolti tramite carebond.ch è CareBond SA, a Ginevra (Svizzera). Per qualsiasi domanda relativa ai vostri dati, contattateci a info@carebond.ch."
+          "body": "Il titolare del trattamento dei dati personali raccolti tramite carebond.ch è CareBond, a Ginevra (Svizzera). Per qualsiasi domanda relativa ai vostri dati, contattateci a info@carebond.ch."
         },
         "data": {
           "heading": "2. Dati raccolti",
@@ -882,7 +882,7 @@
         },
         "recipients": {
           "heading": "5. Destinatari e responsabili del trattamento",
-          "body": "I vostri dati sono accessibili solo al team interno di CareBond SA. Utilizziamo due responsabili tecnici del trattamento: (a) Vercel Inc. per l'hosting del sito (regione fra1, Francoforte, UE); (b) Resend Inc. per la trasmissione delle e-mail del modulo di contatto. Nessun altro terzo riceve i vostri dati."
+          "body": "I vostri dati sono accessibili solo al team interno di CareBond. Utilizziamo due responsabili tecnici del trattamento: (a) Vercel Inc. per l'hosting del sito (regione fra1, Francoforte, UE); (b) Resend Inc. per la trasmissione delle e-mail del modulo di contatto. Nessun altro terzo riceve i vostri dati."
         },
         "transfers": {
           "heading": "6. Trasferimenti internazionali",
@@ -935,7 +935,7 @@
         },
         "liability": {
           "heading": "4. Limitazione di responsabilità",
-          "body": "CareBond SA mette in atto ogni sforzo per fornire informazioni esatte e aggiornate, ma non può garantire l'assenza di errori o di interruzioni del servizio. L'uso delle informazioni pubblicate avviene sotto la vostra esclusiva responsabilità."
+          "body": "CareBond mette in atto ogni sforzo per fornire informazioni esatte e aggiornate, ma non può garantire l'assenza di errori o di interruzioni del servizio. L'uso delle informazioni pubblicate avviene sotto la vostra esclusiva responsabilità."
         },
         "law": {
           "heading": "5. Diritto applicabile",
@@ -1263,7 +1263,7 @@
       }
     },
     "location": {
-      "body": "CareBond SA ha sede a Ginevra, in Svizzera. Lavoriamo in francese, tedesco, italiano, inglese, spagnolo e catalano, perché la cura parla molte lingue."
+      "body": "CareBond ha sede a Ginevra, in Svizzera. Lavoriamo in francese, tedesco, italiano, inglese, spagnolo e catalano, perché la cura parla molte lingue."
     },
     "cta": {
       "eyebrow": "Parliamo?",
