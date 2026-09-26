@@ -29,7 +29,7 @@
   "hero": {
     "eyebrow": "Plateforme de communication pour le soin",
     "title": "La plateforme de communication sécurisée qui connecte patients, familles et soignants.",
-    "subtitle": "Un système de communication et de coordination complet et autonome pour les établissements de soins, que vous disposiez déjà d'un logiciel métier ou non. CareBond connecte la direction, les soignants, les patients et les familles, avec une protection des données dès la conception — RGPD et nLPD — et un hébergement en Suisse. L'intégration avec votre SIH/ERP est en cours de développement.",
+    "subtitle": "Un système de communication et de coordination complet et autonome pour les établissements de soins, que vous disposiez déjà d'un logiciel métier ou non. CareBond connecte la direction, les soignants, les patients et les familles, avec une protection des données dès la conception — RGPD et nLPD — et un hébergement en Suisse. Il s'intègre à votre SIH/ERP via HL7/FHIR.",
     "trust": {
       "label": "Confidentialité de niveau suisse",
       "nlpd": "RGPD et nLPD dès la conception",
@@ -101,7 +101,7 @@
     "b2b": {
       "centerNode": {
         "title": "Votre SIH / ERP",
-        "subtitle": "Connecteur CareBond · en développement"
+        "subtitle": "Connecteur CareBond · HL7/FHIR"
       },
       "management": {
         "title": "Direction et IT",
@@ -654,7 +654,7 @@
         "bullets": {
           "b0": "Formulaire d'admission standardisé, conforme aux exigences de protection des données et adaptable aux spécificités régionales",
           "b1": "Enregistrement du curateur légal et des directives anticipées",
-          "b2": "Importation des données de santé via les standards FHIR (en développement)",
+          "b2": "Importation des données de santé via les standards FHIR",
           "b3": "Dossier dématérialisé, accessible à l'équipe autorisée"
         }
       },
@@ -1237,7 +1237,7 @@
       "heading": "Donner au soin le temps que la paperasse lui prend.",
       "body1": "Dans une résidence, le soignant passe trop d'heures à remplir des classeurs, à transmettre par téléphone et à rassembler des documents pour l'audit. Ces heures-là, ce sont des heures qui ne vont pas au résident.",
       "body2": "CareBond les rend au soin. En centralisant la tournée numérique, la traçabilité d'audit, le chat multilingue, les rapports cryptographiquement signés et l'orientation par plans 3D sur une seule plateforme.",
-      "body3": "Nous ne remplaçons pas votre DPI existant. Nous nous y intégrerons (intégration en développement) ; dès aujourd'hui, nous comblons les angles morts et apportons ce qui manquait — sans rien casser de ce qui fonctionne déjà."
+      "body3": "Nous ne remplaçons pas votre DPI existant. Nous nous y intégrons via HL7/FHIR, nous comblons les angles morts et apportons ce qui manquait — sans rien casser de ce qui fonctionne déjà."
     },
     "values": {
       "eyebrow": "Nos valeurs",

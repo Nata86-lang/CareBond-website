@@ -29,7 +29,7 @@
   "hero": {
     "eyebrow": "Piattaforma di comunicazione per la cura",
     "title": "Il canale di comunicazione sicuro che collega pazienti, famiglie e professionisti.",
-    "subtitle": "Un sistema di comunicazione e coordinamento completo e indipendente per le strutture di cura con o senza software preesistente. CareBond connette direzione, professionisti, pazienti e famiglie con protezione dei dati by design — GDPR e LPD — e hosting in Svizzera. L'integrazione con il vostro HIS/ERP è in sviluppo.",
+    "subtitle": "Un sistema di comunicazione e coordinamento completo e indipendente per le strutture di cura con o senza software preesistente. CareBond connette direzione, professionisti, pazienti e famiglie con protezione dei dati by design — GDPR e LPD — e hosting in Svizzera. Si integra con il vostro HIS/ERP tramite HL7/FHIR.",
     "trust": {
       "label": "Riservatezza di livello svizzero",
       "nlpd": "GDPR e LPD by design",
@@ -101,7 +101,7 @@
     "b2b": {
       "centerNode": {
         "title": "Il vostro HIS / ERP",
-        "subtitle": "Connettore CareBond · in sviluppo"
+        "subtitle": "Connettore CareBond · HL7/FHIR"
       },
       "management": {
         "title": "Direzione e IT",
@@ -654,7 +654,7 @@
         "bullets": {
           "b0": "Modulo di ammissione standardizzato, conforme ai requisiti di protezione dei dati e adattabile alle specificità regionali",
           "b1": "Registrazione del curatore legale e delle direttive anticipate",
-          "b2": "Importazione dei dati di salute tramite standard FHIR (in sviluppo)",
+          "b2": "Importazione dei dati di salute tramite standard FHIR",
           "b3": "Dossier dematerializzato, accessibile al team autorizzato"
         }
       },
@@ -1237,7 +1237,7 @@
       "heading": "Restituire alla cura il tempo che la burocrazia le toglie.",
       "body1": "In una residenza, l'operatore trascorre troppe ore a compilare raccoglitori, fare passaggi di consegne al telefono e raccogliere documenti per gli audit. Quelle ore non vanno al residente.",
       "body2": "CareBond le restituisce alla cura. Centralizzando il giro digitale, la tracciabilità di audit, la chat multilingue, i rapporti firmati crittograficamente e l'orientamento con mappe 3D in un'unica piattaforma.",
-      "body3": "Non sostituiamo il vostro EMR esistente. Ci integreremo con esso (integrazione in sviluppo), copriamo le zone d'ombra e apportiamo ciò che mancava — senza buttare via quello che avete già."
+      "body3": "Non sostituiamo il vostro EMR esistente. Ci integriamo con esso tramite HL7/FHIR, copriamo le zone d'ombra e apportiamo ciò che mancava — senza buttare via quello che avete già."
     },
     "values": {
       "eyebrow": "I nostri valori",

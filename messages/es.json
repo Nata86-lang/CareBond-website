@@ -29,7 +29,7 @@
   "hero": {
     "eyebrow": "PLATAFORMA DE COMUNICACIÓN PARA EL CUIDADO",
     "title": "La capa de comunicación segura que conecta a pacientes, familias y profesionales.",
-    "subtitle": "Un sistema de comunicación y coordinación completo e independiente para establecimientos de cuidado con o sin software previo. CareBond conecta a la dirección, los profesionales, los pacientes y las familias con protección de datos por diseño — RGPD y nLPD — y alojamiento en Suiza. La integración con su HIS/ERP está en desarrollo.",
+    "subtitle": "Un sistema de comunicación y coordinación completo e independiente para establecimientos de cuidado con o sin software previo. CareBond conecta a la dirección, los profesionales, los pacientes y las familias con protección de datos por diseño — RGPD y nLPD — y alojamiento en Suiza. Se integra con su HIS/ERP mediante HL7/FHIR.",
     "trust": {
       "label": "Privacidad de grado suizo",
       "nlpd": "RGPD y nLPD por diseño",
@@ -101,7 +101,7 @@
     "b2b": {
       "centerNode": {
         "title": "Su HIS / ERP",
-        "subtitle": "Conector CareBond · en desarrollo"
+        "subtitle": "Conector CareBond · HL7/FHIR"
       },
       "management": {
         "title": "Dirección y TI",
@@ -654,7 +654,7 @@
         "bullets": {
           "b0": "Formulario de ingreso estandarizado, conforme a los requisitos de protección de datos y adaptable a las especificidades regionales",
           "b1": "Registro del curador legal y de las voluntades anticipadas",
-          "b2": "Importación de datos de salud vía estándares FHIR (en desarrollo)",
+          "b2": "Importación de datos de salud vía estándares FHIR",
           "b3": "Expediente desmaterializado, accesible al equipo autorizado"
         }
       },
@@ -1237,7 +1237,7 @@
       "heading": "Devolver al cuidado el tiempo que le quita el papeleo.",
       "body1": "En una residencia, el profesional pasa demasiadas horas rellenando carpetas, transmitiendo por teléfono y reuniendo documentos para la auditoría. Esas horas son horas que no van al residente.",
       "body2": "CareBond las devuelve al cuidado. Centralizando la visita digital, la trazabilidad de auditoría, el chat multilingüe, los informes firmados criptográficamente y la orientación con planos 3D en una sola plataforma.",
-      "body3": "No reemplazamos su EMR existente. Nos integraremos con él (integración en desarrollo); desde hoy cubrimos los puntos ciegos y aportamos lo que faltaba — sin sustituir lo que ya funciona."
+      "body3": "No reemplazamos su EMR existente. Nos integramos con él mediante HL7/FHIR, cubrimos los puntos ciegos y aportamos lo que faltaba — sin sustituir lo que ya funciona."
     },
     "values": {
       "eyebrow": "Nuestros valores",

@@ -29,7 +29,7 @@
   "hero": {
     "eyebrow": "Kommunikationsplattform für die Pflege",
     "title": "Die sichere Verbindung zwischen Patienten, Familien und Fachpersonen.",
-    "subtitle": "Ein vollständiges, eigenständiges Kommunikations- und Koordinationssystem für Pflegeeinrichtungen mit oder ohne bestehende Software. CareBond verbindet Leitung, Fachpersonal, Patienten und Familien — mit Datenschutz by Design (DSGVO und DSG) und Hosting in der Schweiz. Die Integration in Ihr KIS/ERP ist in Entwicklung.",
+    "subtitle": "Ein vollständiges, eigenständiges Kommunikations- und Koordinationssystem für Pflegeeinrichtungen mit oder ohne bestehende Software. CareBond verbindet Leitung, Fachpersonal, Patienten und Familien — mit Datenschutz by Design (DSGVO und DSG) und Hosting in der Schweiz. Die Integration in Ihr KIS/ERP erfolgt über HL7/FHIR.",
     "trust": {
       "label": "Datenschutz auf Schweizer Niveau",
       "nlpd": "DSGVO & DSG by Design",
@@ -101,7 +101,7 @@
     "b2b": {
       "centerNode": {
         "title": "Ihr KIS / ERP",
-        "subtitle": "CareBond Connector · in Entwicklung"
+        "subtitle": "CareBond Connector · HL7/FHIR"
       },
       "management": {
         "title": "Leitung & IT",
@@ -654,7 +654,7 @@
         "bullets": {
           "b0": "Standardisiertes Aufnahmeformular, konform mit den Datenschutzanforderungen und an regionale Besonderheiten anpassbar",
           "b1": "Erfassung des gesetzlichen Beistands und der Patientenverfügungen",
-          "b2": "Import von Gesundheitsdaten über FHIR-Standards (in Entwicklung)",
+          "b2": "Import von Gesundheitsdaten über FHIR-Standards",
           "b3": "Digitalisiertes Dossier, zugänglich für das autorisierte Team"
         }
       },
@@ -1237,7 +1237,7 @@
       "heading": "Der Pflege die Zeit zurückgeben, die der Papierkram nimmt.",
       "body1": "In einem Pflegeheim verbringen Pflegepersonen zu viele Stunden mit dem Ausfüllen von Ordnern, telefonischen Übergaben und dem Zusammenstellen von Dokumenten für Audits. Diese Stunden gehen nicht zum Bewohner.",
       "body2": "CareBond gibt sie der Pflege zurück. Indem es die digitale Visite, die Audit-Nachvollziehbarkeit, den mehrsprachigen Chat, die kryptografisch signierten Berichte und die Orientierung mit 3D-Plänen in einer einzigen Plattform vereint.",
-      "body3": "Wir ersetzen Ihr bestehendes KIS nicht. Wir werden daran andocken (Integration in Entwicklung), die blinden Flecken abdecken und hinzufügen, was fehlte — ohne alles auszuwechseln."
+      "body3": "Wir ersetzen Ihr bestehendes KIS nicht. Wir docken über HL7/FHIR daran an, decken die blinden Flecken ab und fügen hinzu, was fehlte — ohne alles auszuwechseln."
     },
     "values": {
       "eyebrow": "Unsere Werte",

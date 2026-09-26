@@ -29,7 +29,7 @@
   "hero": {
     "eyebrow": "PLATAFORMA DE COMUNICACIÓ PER A LA CURA",
     "title": "La capa de comunicació segura que connecta pacients, famílies i professionals.",
-    "subtitle": "Un sistema de comunicació i coordinació complet i independent per a establiments de cura amb o sense programari previ. CareBond connecta direcció, professionals, pacients i famílies amb protecció de dades des del disseny — RGPD i nLPD — i allotjament a Suïssa. La integració amb el seu HIS/ERP està en desenvolupament.",
+    "subtitle": "Un sistema de comunicació i coordinació complet i independent per a establiments de cura amb o sense programari previ. CareBond connecta direcció, professionals, pacients i famílies amb protecció de dades des del disseny — RGPD i nLPD — i allotjament a Suïssa. S'integra amb el seu HIS/ERP mitjançant HL7/FHIR.",
     "trust": {
       "label": "Privadesa de nivell suís",
       "nlpd": "RGPD i nLPD des del disseny",
@@ -101,7 +101,7 @@
     "b2b": {
       "centerNode": {
         "title": "El seu HIS / ERP",
-        "subtitle": "Connector CareBond · en desenvolupament"
+        "subtitle": "Connector CareBond · HL7/FHIR"
       },
       "management": {
         "title": "Direcció i TI",
@@ -654,7 +654,7 @@
         "bullets": {
           "b0": "Formulari d'ingrés estandarditzat, conforme als requisits de protecció de dades i adaptable a les especificitats regionals",
           "b1": "Registre del curador legal i de les voluntats anticipades",
-          "b2": "Importació de dades de salut via estàndards FHIR (en desenvolupament)",
+          "b2": "Importació de dades de salut via estàndards FHIR",
           "b3": "Expedient digital, accessible a l'equip autoritzat"
         }
       },
@@ -1237,7 +1237,7 @@
       "heading": "Retornar a la cura el temps que li pren la paperassa.",
       "body1": "En una residència, el professional passa massa hores omplint carpetes, transmetent per telèfon i reunint documents per a l'auditoria. Aquestes hores són hores que no van al resident.",
       "body2": "CareBond les retorna a la cura. Centralitzant la visita digital, la traçabilitat d'auditoria, el xat multilingüe, els informes signats criptogràficament i l'orientació amb plànols 3D en una sola plataforma.",
-      "body3": "No substituïm el seu EMR existent. Ens hi integrarem (integració en desenvolupament); des d'avui cobrim el que ara no es veu i aportem el que faltava — sense haver de canviar-ho tot."
+      "body3": "No substituïm el seu EMR existent. Ens hi integrem mitjançant HL7/FHIR, cobrim el que ara no es veu i aportem el que faltava — sense haver de canviar-ho tot."
     },
     "values": {
       "eyebrow": "Els nostres valors",

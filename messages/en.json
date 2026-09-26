@@ -29,7 +29,7 @@
   "hero": {
     "eyebrow": "THE COMMUNICATION PLATFORM FOR CARE",
     "title": "The secure communication layer connecting patients, families, and professionals.",
-    "subtitle": "A complete, standalone communication and coordination system for care facilities with or without existing software. CareBond connects management, professionals, patients, and families with data protection by design — GDPR and nLPD — and hosting in Switzerland. Integration with your HIS/ERP is in development.",
+    "subtitle": "A complete, standalone communication and coordination system for care facilities with or without existing software. CareBond connects management, professionals, patients, and families with data protection by design — GDPR and nLPD — and hosting in Switzerland. It integrates with your HIS/ERP via HL7/FHIR.",
     "trust": {
       "label": "Swiss-grade privacy",
       "nlpd": "GDPR & nLPD by design",
@@ -101,7 +101,7 @@
     "b2b": {
       "centerNode": {
         "title": "Your HIS / ERP",
-        "subtitle": "CareBond Connector · in development"
+        "subtitle": "CareBond Connector · HL7/FHIR"
       },
       "management": {
         "title": "Management & IT",
@@ -654,7 +654,7 @@
         "bullets": {
           "b0": "Standardized admission form, meeting data protection requirements and adaptable to local requirements",
           "b1": "Registration of the legal guardian and advance directives",
-          "b2": "Health data import via FHIR standards (in development)",
+          "b2": "Health data import via FHIR standards",
           "b3": "Paperless record, accessible to the authorized team"
         }
       },
@@ -1261,7 +1261,7 @@
       "heading": "Give care back the time paperwork takes from it.",
       "body1": "In a care home, caregivers spend too many hours filling binders, handing over by phone, and gathering documents for audits. Those hours don't go to the resident.",
       "body2": "CareBond gives those hours back to care. By centralizing the digital round, audit traceability, multilingual chat, cryptographically signed reports, and wayfinding with 3D plans in a single platform.",
-      "body3": "We don't replace your existing EMR. We will integrate with it (integration in development), cover the blind spots, and add what was missing — with no rip-and-replace."
+      "body3": "We don't replace your existing EMR. We integrate with it via HL7/FHIR, cover the blind spots, and add what was missing — with no rip-and-replace."
     },
     "values": {
       "eyebrow": "Our values",
