@@ -450,7 +450,7 @@
         "features": {
           "f0": {
             "title": "Dokumentierte REST-API",
-            "description": "Dokumentierte REST-API ab heute verfügbar. Synchronisation über Webhooks und HL7/FHIR-Integration in Entwicklung."
+            "description": "Dokumentierte REST-API ab heute verfügbar. Synchronisation über Webhooks und HL7/FHIR-Integration mit Klinikinformationssystemen (FHIR-R4-Server und HL7-v2-Nachrichten über HTTPS)."
           },
           "f1": {
             "title": "Granulares RBAC",
@@ -554,7 +554,7 @@
       },
       "q1": {
         "question": "Wie integrieren Sie sich in unser bestehendes System?",
-        "answer": "Dokumentierte REST-API. Synchronisation über Webhooks und CSV/JSON-Exporte möglich. Die native HL7/FHIR-Integration für Spitäler befindet sich in Entwicklung und wird in einer zukünftigen Version verfügbar sein."
+        "answer": "Dokumentierte REST-API. Synchronisation über Webhooks und CSV/JSON-Exporte möglich. Native HL7/FHIR-Integration für Spitäler: ein FHIR-R4-Server (Lesen, Suchen und Empfangen klinischer Ressourcen) sowie der Empfang von HL7-v2-Nachrichten (ADT, ORU, MDM) über HTTPS, pro Institution aktiviert."
       },
       "q2": {
         "question": "Was passiert, wenn wir gehen möchten?",
@@ -1091,8 +1091,8 @@
     "hospitals": {
       "eyebrow": "Für Spitäler",
       "title": "Eine Plattform, die für die Integration mit Ihrem EMR konzipiert ist.",
-      "subtitle": "Dokumentierte REST-API, HL7/FHIR-Integration in Entwicklung, granulares RBAC pro Rolle und unveränderliches Audit-Log. 3D-Pläne als massgeschneiderter Service. Ein Segment, auf das wir hinarbeiten.",
-      "metaDescription": "CareBond-Lösung für Spitäler: dokumentierte REST-API, HL7/FHIR-Integration in Entwicklung, granulares RBAC pro Rolle, 3D-Pläne als Service.",
+      "subtitle": "Dokumentierte REST-API, HL7/FHIR-Integration, granulares RBAC pro Rolle und unveränderliches Audit-Log. 3D-Pläne als massgeschneiderter Service. Ein Segment, auf das wir hinarbeiten.",
+      "metaDescription": "CareBond-Lösung für Spitäler: dokumentierte REST-API, HL7/FHIR-Integration, granulares RBAC pro Rolle, 3D-Pläne als Service.",
       "visualAlt": "Isometrischer 3D-Plan eines Spitals — OP-Säle, MRI-Suite, Station, Labor, Hauptlobby, mit eingezeichneter Route",
       "problem": {
         "eyebrow": "Die Realität",
@@ -1108,11 +1108,11 @@
       "features": {
         "eyebrow": "Was CareBond ändert",
         "heading": "Eine Plattform, die sich integriert, statt zu ersetzen.",
-        "intro": "CareBond hat nicht den Anspruch, Ihr EMR zu ersetzen, sondern daran anzudocken (dokumentierte REST-API heute verfügbar; HL7/FHIR-Integration in Entwicklung) — um Lücken zu schliessen und zu ergänzen, was fehlte: Indoor-Navigation, mehrsprachige Kommunikation, übergreifendes Audit.",
+        "intro": "CareBond hat nicht den Anspruch, Ihr EMR zu ersetzen, sondern daran anzudocken (dokumentierte REST-API und HL7/FHIR-Integration heute verfügbar) — um Lücken zu schliessen und zu ergänzen, was fehlte: Indoor-Navigation, mehrsprachige Kommunikation, übergreifendes Audit.",
         "items": {
           "f0": {
-            "title": "Dokumentierte REST-API, HL7/FHIR in Entwicklung",
-            "description": "Dokumentierte REST-API ab heute verfügbar. Synchronisation über Webhooks und native HL7/FHIR-Integration in Entwicklung, für eine kommende Version."
+            "title": "Dokumentierte REST-API und HL7/FHIR-Integration",
+            "description": "Dokumentierte REST-API und HL7/FHIR-Integration ab heute verfügbar: FHIR-R4-Server und Empfang von HL7-v2-Nachrichten zur Anbindung an das Klinikinformationssystem des Spitals. Synchronisation über Webhooks."
           },
           "f1": {
             "title": "Granulares RBAC",

@@ -450,7 +450,7 @@
         "features": {
           "f0": {
             "title": "API REST documentada",
-            "description": "API REST documentada disponible avui. Sincronització via webhooks i integració HL7/FHIR en desenvolupament."
+            "description": "API REST documentada disponible avui. Sincronització via webhooks i integració HL7/FHIR amb els sistemes d'informació hospitalària (servidor FHIR R4 i missatgeria HL7 v2 per HTTPS)."
           },
           "f1": {
             "title": "RBAC granular",
@@ -554,7 +554,7 @@
       },
       "q1": {
         "question": "Com s'integren amb el nostre sistema existent?",
-        "answer": "API REST documentada. Sincronització possible via webhooks i exportacions CSV/JSON. La integració nativa HL7/FHIR per a hospitals està en desenvolupament i formarà part d'una propera versió."
+        "answer": "API REST documentada. Sincronització possible via webhooks i exportacions CSV/JSON. Integració nativa HL7/FHIR per a hospitals: un servidor FHIR R4 (lectura, cerca i recepció de recursos clínics) i recepció de missatges HL7 v2 (ADT, ORU, MDM) per HTTPS, activada per institució."
       },
       "q2": {
         "question": "Què passa si decidim marxar?",
@@ -1091,8 +1091,8 @@
     "hospitals": {
       "eyebrow": "Per als hospitals",
       "title": "Una plataforma dissenyada per integrar-se amb el seu EMR.",
-      "subtitle": "API REST documentada, integració HL7/FHIR en desenvolupament, RBAC granular per rol i audit log immutable. Plànols 3D com a servei a mida. Un segment que estem desenvolupant.",
-      "metaDescription": "Solució CareBond per als hospitals: API REST documentada, integració HL7/FHIR en desenvolupament, RBAC granular per rol, plànols 3D com a servei.",
+      "subtitle": "API REST documentada, integració HL7/FHIR, RBAC granular per rol i audit log immutable. Plànols 3D com a servei a mida. Un segment que estem desenvolupant.",
+      "metaDescription": "Solució CareBond per als hospitals: API REST documentada, integració HL7/FHIR, RBAC granular per rol, plànols 3D com a servei.",
       "visualAlt": "Plànol 3D isomètric d'un hospital — quiròfans, sala d'RM, planta, laboratori, vestíbul principal, amb un recorregut senyalitzat",
       "problem": {
         "eyebrow": "La constatació",
@@ -1108,11 +1108,11 @@
       "features": {
         "eyebrow": "El que CareBond canvia",
         "heading": "Una plataforma dissenyada per integrar-se, no per substituir.",
-        "intro": "CareBond no aspira a reemplaçar el seu EMR, sinó a integrar-s'hi (API REST documentada disponible avui; integració HL7/FHIR en desenvolupament) per cobrir el que ara no es veu i aportar el que faltava: orientació dins l'edifici, comunicació multilingüe, auditoria transversal.",
+        "intro": "CareBond no aspira a reemplaçar el seu EMR, sinó a integrar-s'hi (API REST documentada i integració HL7/FHIR disponibles avui) per cobrir el que ara no es veu i aportar el que faltava: orientació dins l'edifici, comunicació multilingüe, auditoria transversal.",
         "items": {
           "f0": {
-            "title": "API REST documentada, HL7/FHIR en desenvolupament",
-            "description": "API REST documentada disponible avui. Sincronització via webhooks i integració nativa HL7/FHIR en desenvolupament, per a una propera versió."
+            "title": "API REST documentada i integració HL7/FHIR",
+            "description": "API REST documentada i integració HL7/FHIR disponibles avui: servidor FHIR R4 i recepció de missatges HL7 v2 per connectar amb el sistema d'història clínica de l'hospital. Sincronització via webhooks."
           },
           "f1": {
             "title": "RBAC granular",

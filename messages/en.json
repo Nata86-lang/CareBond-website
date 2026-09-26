@@ -469,7 +469,7 @@
         "features": {
           "f0": {
             "title": "Documented REST API",
-            "description": "Documented REST API available today. Synchronization via webhooks and HL7/FHIR integration in development."
+            "description": "Documented REST API available today. Synchronization via webhooks, plus HL7/FHIR integration with hospital information systems (FHIR R4 server and HL7 v2 messaging over HTTPS)."
           },
           "f1": {
             "title": "Granular RBAC",
@@ -554,7 +554,7 @@
       },
       "q1": {
         "question": "How do you integrate with our existing system?",
-        "answer": "Documented REST API. Synchronization possible via webhooks and CSV/JSON exports. Native HL7/FHIR integration for hospitals is in development and will ship in a future release."
+        "answer": "Documented REST API. Synchronization possible via webhooks and CSV/JSON exports. Native HL7/FHIR integration for hospitals: a FHIR R4 server (read, search and receive clinical resources) and reception of HL7 v2 messages (ADT, ORU, MDM) over HTTPS, activated per institution."
       },
       "q2": {
         "question": "What if we decide to leave?",
@@ -1161,8 +1161,8 @@
     "hospitals": {
       "eyebrow": "For hospitals",
       "title": "A platform designed to integrate with your EMR.",
-      "subtitle": "Documented REST API, HL7/FHIR integration in development, granular RBAC, and immutable audit log. 3D plans as a custom service. A segment we are building toward.",
-      "metaDescription": "CareBond solution for hospitals: documented REST API, HL7/FHIR integration in development, granular RBAC, 3D plans as a service.",
+      "subtitle": "Documented REST API, HL7/FHIR integration, granular RBAC, and immutable audit log. 3D plans as a custom service. A segment we are building toward.",
+      "metaDescription": "CareBond solution for hospitals: documented REST API, HL7/FHIR integration, granular RBAC, 3D plans as a service.",
       "visualAlt": "Isometric 3D floor plan of a hospital — operating theaters, MRI suite, ward, laboratory, main lobby, with a signposted route",
       "problem": {
         "eyebrow": "The reality",
@@ -1178,11 +1178,11 @@
       "features": {
         "eyebrow": "What CareBond changes",
         "heading": "A platform built to integrate, not to replace.",
-        "intro": "CareBond doesn't aim to replace your EMR, but to integrate with it (documented REST API available today; HL7/FHIR integration in development) — closing the gaps and adding what was missing: indoor wayfinding, multilingual communication, cross-departmental audit.",
+        "intro": "CareBond doesn't aim to replace your EMR, but to integrate with it (documented REST API and HL7/FHIR integration available today) — closing the gaps and adding what was missing: indoor wayfinding, multilingual communication, cross-departmental audit.",
         "items": {
           "f0": {
-            "title": "Documented REST API, HL7/FHIR in development",
-            "description": "Documented REST API available today. Synchronization via webhooks and native HL7/FHIR integration in development, for an upcoming release."
+            "title": "Documented REST API and HL7/FHIR integration",
+            "description": "Documented REST API and HL7/FHIR integration available today: a FHIR R4 server and HL7 v2 message reception to connect with the hospital's clinical record system. Synchronization via webhooks."
           },
           "f1": {
             "title": "Granular RBAC",
