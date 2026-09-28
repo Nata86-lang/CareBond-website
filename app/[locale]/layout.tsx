@@ -5,7 +5,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { setRequestLocale, getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { locales, type Locale } from "@/lib/i18n";
-import { SITE_URL } from "@/lib/site";
+import { SITE_URL, GOOGLE_SITE_VERIFICATION } from "@/lib/site";
 import { buildPageMetadata } from "@/lib/seo";
 import { siteGraph, jsonLd } from "@/lib/structured-data";
 import { hasResources } from "@/lib/resources";
@@ -39,6 +39,11 @@ export async function generateMetadata({
 
   return {
     metadataBase: new URL(SITE_URL),
+    // Omitted entirely while the token is empty — an empty verification tag
+    // would just be noise in the head.
+    ...(GOOGLE_SITE_VERIFICATION
+      ? { verification: { google: GOOGLE_SITE_VERIFICATION } }
+      : {}),
     // Explicit index/follow, plus permission to use a full-length snippet and a
     // large image in the result. Inherited by all 120 URLs — none of the page
     // level generateMetadata functions sets `robots`. This does NOT replace

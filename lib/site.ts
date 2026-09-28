@@ -20,6 +20,18 @@ export const SITE_URL =
 
 export const SITE_NAME = "CareBond";
 
+// Google Search Console ownership token, for a URL-prefix property
+// (https://www.carebond.ch/). Paste ONLY the value of the content="..."
+// attribute from the meta tag Search Console shows — not the whole tag.
+//
+// This route exists so that verification needs nothing from the DNS at
+// SiteGround: the tag ships with the next deploy and Search Console reads it
+// straight off the live page. A "Domain" property would cover the apex and every
+// subdomain at once, but Google only verifies those by DNS TXT.
+//
+// Empty string = no tag emitted at all, which is the correct default.
+export const GOOGLE_SITE_VERIFICATION = "";
+
 export const OG_LOCALE_MAP: Record<string, string> = {
   fr: "fr_CH",
   de: "de_CH",
