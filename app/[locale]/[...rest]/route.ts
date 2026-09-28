@@ -1,7 +1,7 @@
 import { NextRequest } from "next/server";
 
-type Locale = "fr" | "de" | "it" | "en";
-const LOCALES: Locale[] = ["fr", "de", "it", "en"];
+type Locale = "fr" | "de" | "it" | "en" | "es" | "ca";
+const LOCALES: Locale[] = ["fr", "de", "it", "en", "es", "ca"];
 
 const T = {
   fr: {
@@ -40,6 +40,24 @@ const T = {
     ctaHome: "Back to home",
     ctaContact: "Get in touch",
   },
+  es: {
+    lang: "es",
+    htmlTitle: "404 — Página no encontrada — CareBond",
+    eyebrow: "404",
+    title: "Página no encontrada",
+    subtitle: "Esta página no existe (o ya no existe).",
+    ctaHome: "Volver al inicio",
+    ctaContact: "Contactar",
+  },
+  ca: {
+    lang: "ca",
+    htmlTitle: "404 — Pàgina no trobada — CareBond",
+    eyebrow: "404",
+    title: "Pàgina no trobada",
+    subtitle: "Aquesta pàgina no existeix (o ja no existeix).",
+    ctaHome: "Tornar a l'inici",
+    ctaContact: "Contactar",
+  },
 } as const;
 
 function isLocale(value: string): value is Locale {
@@ -69,7 +87,7 @@ function renderHTML(locale: Locale): string {
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html,body{height:100%}
-body{font-family:Outfit,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#fff;color:#0A1B39;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;line-height:1.5}
+body{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#fff;color:#0A1B39;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;line-height:1.5}
 .root{min-height:100vh;display:flex;flex-direction:column}
 .nav{padding:1.5rem 2rem;border-bottom:1px solid #E7E8EB}
 .nav a{color:#0A1B39;font-weight:700;font-size:1.125rem;text-decoration:none;letter-spacing:-0.01em}

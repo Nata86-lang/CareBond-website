@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Pause, Play, ChevronRight } from "lucide-react";
 
@@ -114,6 +114,8 @@ export function ChatMultilingualDemo() {
   // Initial state matches server render: step 0, playing.
   const [step, setStep] = useState(0);
   const [isPlaying, setIsPlaying] = useState(true);
+  const [isVisible, setIsVisible] = useState(true);
+  const sectionRef = useRef<HTMLElement>(null);
 
   // Detect prefers-reduced-motion after mount and jump to the static
   // full-state without looping.
@@ -133,17 +135,35 @@ export function ChatMultilingualDemo() {
     return () => mq.removeEventListener("change", handler);
   }, []);
 
+  // Only animate while on screen. This demo is the main visual of
+  // /platform/chat-multilingue and also sits mid-way down the home page, where
+  // its 10-second setTimeout loop otherwise runs from first paint — re-rendering
+  // continuously behind the fold and competing with the hero for the main thread.
   useEffect(() => {
-    if (!isPlaying) return;
+    const el = sectionRef.current;
+    // No IntersectionObserver (very old browser): leave the loop running rather
+    // than showing a frozen demo.
+    if (!el || typeof IntersectionObserver === "undefined") return;
+    const observer = new IntersectionObserver(
+      (entries) => setIsVisible(entries.some((e) => e.isIntersecting)),
+      { rootMargin: "200px" },
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (!isPlaying || !isVisible) return;
     const delay = STEP_DELAYS[step];
     if (delay === undefined) return;
     const next = step === 7 ? 0 : step + 1;
     const id = setTimeout(() => setStep(next), delay);
     return () => clearTimeout(id);
-  }, [step, isPlaying]);
+  }, [step, isPlaying, isVisible]);
 
   return (
     <section
+      ref={sectionRef}
       aria-label={t("demoAriaLabel")}
       // min-h locks the demo's height at its maximum so bubbles
       // appearing/disappearing during the 10s loop don't push the

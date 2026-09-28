@@ -19,7 +19,7 @@ export async function HospitalIsometric() {
         height={1536}
         className="h-auto w-full"
         sizes="(max-width: 1280px) 100vw, 1280px"
-        quality={90}
+        quality={85}
       />
     </div>
   );

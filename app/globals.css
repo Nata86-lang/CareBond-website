@@ -468,3 +468,21 @@
     overflow-x: hidden;
   }
 }
+
+@layer base {
+  /* Anchors (#platform, #faq, #pour-qui) landed under the sticky header. */
+  main > section[id] {
+    scroll-margin-top: 5rem;
+  }
+
+  /* The home page renders 14 full sections at once. Skipping layout and paint
+     for the ones still off-screen cuts the initial rendering work; the content
+     stays in the DOM and is fully crawlable. The first section is excluded so
+     the hero — the LCP element — is never deferred. `auto` on
+     contain-intrinsic-size makes the browser remember each section's real
+     height after first render, so scrollbar position stays stable. */
+  main > section:not(:first-of-type) {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 700px;
+  }
+}

@@ -120,6 +120,7 @@ export async function AdminDashboard() {
               width={2481}
               height={2291}
               priority
+              sizes="28px"
               className="h-7 w-auto"
             />
           </div>
@@ -180,9 +181,11 @@ export async function AdminDashboard() {
           <div className="flex-1 space-y-4 overflow-hidden p-5">
             {/* Welcome + date */}
             <div className="flex items-center justify-between">
-              <h2 className="text-lg font-semibold tracking-tight text-brand-navy">
+              {/* Decorative screenshot chrome — deliberately not a heading: as an
+                  <h2> it was the first second-level heading on the home page. */}
+              <p className="text-lg font-semibold tracking-tight text-brand-navy">
                 {t("welcome")}
-              </h2>
+              </p>
               <div className="flex items-center gap-1.5 rounded-lg border border-neutral-200 bg-white px-2.5 py-1">
                 <Calendar
                   size={11}

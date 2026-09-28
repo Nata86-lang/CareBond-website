@@ -27,7 +27,10 @@ export function Header({ locale }: { locale: string }) {
   return (
     <header
       data-scrolled={scrolled}
-      className="sticky top-0 z-40 transition-colors duration-200 ease-out motion-reduce:transition-none data-[scrolled=true]:border-b data-[scrolled=true]:border-neutral-200 data-[scrolled=true]:bg-white/90 data-[scrolled=true]:backdrop-blur"
+      // The bottom border is always present and merely changes colour: as a
+      // conditional `border-b` the header grew 1px on first scroll, nudging the
+      // whole page down.
+      className="sticky top-0 z-40 border-b border-transparent transition-colors duration-200 ease-out motion-reduce:transition-none data-[scrolled=true]:border-neutral-200 data-[scrolled=true]:bg-white/90 data-[scrolled=true]:backdrop-blur"
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <Link
