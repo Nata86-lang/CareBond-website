@@ -17,6 +17,17 @@ const SOLUTION_SLUGS = [
   { slug: "clinics", key: "clinics" },
 ] as const;
 
+// The six product pages. Before this column they were reachable only from a
+// dropdown in the header, so they had one crawlable inbound link between them.
+const PLATFORM_SLUGS = [
+  "oversight",
+  "audit",
+  "livestream",
+  "chat-multilingue",
+  "rounds",
+  "floor-plans",
+] as const;
+
 const COMPANY_KEYS = ["about", "compliance", "contact"] as const;
 const LEGAL_KEYS = ["privacy", "terms", "cookies", "imprint", "credits"] as const;
 
@@ -26,26 +37,29 @@ export async function Footer({ locale }: { locale: string }) {
   const tMenu = await getTranslations("nav.solutionsMenu");
   const tLogo = await getTranslations("header");
   const tLinks = await getTranslations("footer.links");
+  const tPillars = await getTranslations("platform.bento.pillars");
   const year = new Date().getFullYear();
 
   const solutionLinks: LinkSpec[] = SOLUTION_SLUGS.map((s) => ({
     href: `/${locale}/solutions/${s.slug}`,
     label: tMenu(s.key),
-    // Routes don't exist until Phase 2 — disable RSC prefetch to avoid 404s.
-    prefetch: false,
+  }));
+
+  const platformLinks: LinkSpec[] = PLATFORM_SLUGS.map((slug) => ({
+    href: `/${locale}/platform/${slug}`,
+    label: tPillars(`${slug}.title`),
   }));
 
   const companyLinks: LinkSpec[] = COMPANY_KEYS.map((key) => ({
     href: `/${locale}/${key}`,
     label: tNav(key),
-    // /contact has a stub (commit 1 of Phase 1A); others 404 until Phase 2.
-    prefetch: key === "contact" ? undefined : false,
   }));
 
+  // Legal pages are low value and linked from every page — no point warming
+  // five route payloads on hover.
   const legalLinks: LinkSpec[] = LEGAL_KEYS.map((key) => ({
     href: `/${locale}/legal/${key}`,
     label: tLinks(key),
-    // All legal pages aterrize in Phase 1C.
     prefetch: false,
   }));
 
@@ -58,7 +72,7 @@ export async function Footer({ locale }: { locale: string }) {
         {t("navAriaLabel")}
       </h2>
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-5">
           {/* Col 1: brand */}
           <div className="lg:max-w-xs">
             <Link
@@ -83,9 +97,17 @@ export async function Footer({ locale }: { locale: string }) {
             </p>
           </div>
 
+          {/* The two headings are links: /solutions and /platform are real pages
+              now, and this is what gives them an inbound link from all 132 URLs. */}
           <FooterColumn
             heading={t("columns.solutions")}
+            headingHref={`/${locale}/solutions`}
             links={solutionLinks}
+          />
+          <FooterColumn
+            heading={t("columns.platform")}
+            headingHref={`/${locale}/platform`}
+            links={platformLinks}
           />
           <FooterColumn heading={t("columns.company")} links={companyLinks} />
           <FooterColumn heading={t("columns.legal")} links={legalLinks} />
@@ -110,9 +132,11 @@ export async function Footer({ locale }: { locale: string }) {
 
 function FooterColumn({
   heading,
+  headingHref,
   links,
 }: {
   heading: string;
+  headingHref?: string;
   links: LinkSpec[];
 }) {
   const headingId = `footer-col-${heading.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`;
@@ -122,7 +146,16 @@ function FooterColumn({
         id={headingId}
         className="text-sm font-semibold uppercase tracking-wide text-white"
       >
-        {heading}
+        {headingHref ? (
+          <Link
+            href={headingHref}
+            className="rounded hover:text-white/80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+          >
+            {heading}
+          </Link>
+        ) : (
+          heading
+        )}
       </h3>
       <ul className="mt-4 space-y-3">
         {links.map((link) => (

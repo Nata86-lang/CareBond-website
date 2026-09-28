@@ -10,7 +10,7 @@ import {
   Lock,
 } from "lucide-react";
 import { locales } from "@/lib/i18n";
-import { SITE_URL, SITE_NAME, OG_LOCALE_MAP } from "@/lib/site";
+import { buildPageMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -23,29 +23,14 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "about" });
-  const languages = Object.fromEntries(
-    locales.map((l) => [
-      l,
-      `${SITE_URL}/${l}/about`,
-    ]),
-  );
-  const title = `${t("title")} — ${SITE_NAME}`;
-  return {
-    title,
+  // metaTitle, not the visible H1: the H1 is a full marketing sentence and ran
+  // 60-80 characters, so Google truncated it mid-word in the result.
+  return buildPageMetadata({
+    locale,
+    path: `/about`,
+    title: t("metaTitle"),
     description: t("metaDescription"),
-    openGraph: {
-      title,
-      description: t("metaDescription"),
-      url: `${SITE_URL}/${locale}/about`,
-      siteName: SITE_NAME,
-      locale: OG_LOCALE_MAP[locale] ?? "fr_CH",
-      type: "website",
-    },
-    alternates: {
-      canonical: `${SITE_URL}/${locale}/about`,
-      languages: { ...languages, "x-default": `${SITE_URL}/fr/about` },
-    },
-  };
+  });
 }
 
 export default async function AboutPage({

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Mail, MapPin, Clock } from "lucide-react";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { locales } from "@/lib/i18n";
-import { SITE_URL, SITE_NAME, OG_LOCALE_MAP } from "@/lib/site";
+import { buildPageMetadata } from "@/lib/seo";
 import { ContactForm } from "@/components/marketing/contact/contact-form";
 
 export function generateStaticParams() {
@@ -17,29 +17,13 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "contact.metadata" });
 
-  const languages = Object.fromEntries(
-    locales.map((l) => [
-      l,
-      `${SITE_URL}/${l}/contact`,
-    ]),
-  );
 
-  return {
+  return buildPageMetadata({
+    locale,
+    path: `/contact`,
     title: t("title"),
     description: t("description"),
-    openGraph: {
-      title: t("title"),
-      description: t("description"),
-      url: `${SITE_URL}/${locale}/contact`,
-      siteName: SITE_NAME,
-      locale: OG_LOCALE_MAP[locale] ?? "fr_CH",
-      type: "website",
-    },
-    alternates: {
-      canonical: `${SITE_URL}/${locale}/contact`,
-      languages: { ...languages, "x-default": `${SITE_URL}/fr/contact` },
-    },
-  };
+  });
 }
 
 export default async function ContactPage({

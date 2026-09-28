@@ -171,7 +171,7 @@
         "rounds": {
           "eyebrow": "Cuidado",
           "title": "Coordinación y relevos asistenciales",
-          "description": "Sincronice instantáneamente a su equipo médico. Registre signos vitales y notas de turno en la app profesional para transferir información sin pérdidas entre relevos autorizados, generando en paralelo mini-informes para las familias.",
+          "description": "Sincronice instantáneamente a su equipo médico. Registre constantes vitales y notas de turno en la app profesional para transferir información sin pérdidas entre relevos autorizados, generando en paralelo mini-informes para las familias.",
           "kpiResidents": "Pacientes",
           "kpiProfessionals": "Profesionales",
           "kpiAlerts": "Alertas",
@@ -226,7 +226,9 @@
           "eyebrow": "Próxima etapa",
           "title": "Veamos su panel de control en directo.",
           "description": "30 minutos para calibrar la gestión en su estructura real y discutir los indicadores que cuentan para usted."
-        }
+        },
+        "metaTitle": "Panel de control multicentro para la dirección",
+        "metaDescription": "KPIs de comunicación, alertas y SOS, estado de los dispositivos y RBAC granular: varias sedes en un solo panel, con separación de datos por centro."
       },
       "audit": {
         "subtitle": "Canal de trazabilidad y conformidad legal. Un registro inmutable de cada comunicación y acceso clínico, diseñado en la arquitectura del sistema para los requisitos del RGPD y de la nLPD suiza.",
@@ -259,7 +261,9 @@
           "eyebrow": "Próxima etapa",
           "title": "Veamos el audit log con un caso real.",
           "description": "30 minutos para demostrar la trazabilidad en un escenario que le concierne — incidente, solicitud de acceso, auditoría de conformidad."
-        }
+        },
+        "metaTitle": "Registro de auditoría y trazabilidad RGPD",
+        "metaDescription": "Registro inmutable de accesos y cambios: quién accedió a qué y cuándo, informes firmados HMAC y exportación estructurada para sus auditorías."
       },
       "livestream": {
         "subtitle": "Canal de telepresencia y videollamadas controladas. Habilite videollamadas directas paciente-familia y flujos de vídeo estrictamente autorizados por el profesional, con cifrado en tránsito y servidores en Suiza.",
@@ -292,7 +296,9 @@
           "eyebrow": "Próxima etapa",
           "title": "Veamos el livestream en su contexto.",
           "description": "30 minutos para discutir los casos — atención domiciliaria, residencia o clínica — donde este módulo tiene sentido, y aquellos donde no."
-        }
+        },
+        "metaTitle": "Videollamadas seguras entre paciente y familia",
+        "metaDescription": "Telepresencia sin grabación: el profesional abre el canal, el paciente puede cortarlo y cada conexión queda registrada. Servidor de vídeo en Suiza."
       },
       "chat-multilingue": {
         "subtitle": "Canal de comunicación multilingüe interactivo. Traduzca al instante las conversaciones entre familias y personal sanitario en múltiples idiomas para superar las barreras lingüísticas en entornos de cuidado multiculturales.",
@@ -325,15 +331,17 @@
           "eyebrow": "Próxima etapa",
           "title": "Veamos el chat multilingüe en directo.",
           "description": "30 minutos para probar su caso real de barrera lingüística y discutir la integración en sus recorridos de cuidado."
-        }
+        },
+        "metaTitle": "Chat multilingüe con traducción en tiempo real",
+        "metaDescription": "Cada persona escribe en su idioma y lee en el suyo. Traducción en infraestructura propia en Suiza, sin Google ni OpenAI, y bajo control del profesional."
       },
       "rounds": {
-        "subtitle": "La visita del día, los signos vitales, las alertas y las notas de visita compartidas: todo en el bolsillo del cuidador. Diseñado para residencias y servicios de atención domiciliaria.",
-        "visualAlt": "Aplicación del profesional — lista de los pacientes del día con signos vitales, alertas y estado",
+        "subtitle": "La visita del día, las constantes vitales, las alertas y las notas de visita compartidas: todo en el bolsillo del cuidador. Diseñado para residencias y servicios de atención domiciliaria.",
+        "visualAlt": "Aplicación del profesional — lista de los pacientes del día con constantes vitales, alertas y estado",
         "capabilities": {
           "eyebrow": "Capacidades",
           "heading": "Coordinación y flujos de información",
-          "intro": "Sincronización instantánea de notas de turno y signos vitales, eliminando las pérdidas de información y el papeleo en los relevos.",
+          "intro": "Sincronización instantánea de notas de turno y constantes vitales, eliminando las pérdidas de información y el papeleo en los relevos.",
           "items": {
             "f0": {
               "title": "Visita del día ya preparada",
@@ -362,7 +370,9 @@
           "eyebrow": "Próxima etapa",
           "title": "Veamos una visita digital en su estructura.",
           "description": "30 minutos para calibrar el módulo en sus recorridos asistenciales — residencia, domicilio o ambos."
-        }
+        },
+        "metaTitle": "Relevos de turno y visita digital sin papeles",
+        "metaDescription": "La visita del día en el móvil: constantes, alertas y notas compartidas al instante con todo el equipo asignado. Informes firmados HMAC."
       },
       "floor-plans": {
         "subtitle": "Servicio de orientación con planos 3D. Diseñamos planos interactivos para pantallas y quioscos en la entrada, que ayudan a familiares y visitantes a orientarse.",
@@ -395,7 +405,9 @@
           "eyebrow": "Próxima etapa",
           "title": "Veamos su edificio modelado.",
           "description": "30 minutos para discutir el modelado del plano 3D de su establecimiento."
-        }
+        },
+        "metaTitle": "Planos 3D para orientar a visitantes y familias",
+        "metaDescription": "Servicio a medida: modelamos su edificio en un plano 3D para las pantallas de entrada y señalizamos el recorrido hasta la habitación o el servicio."
       }
     }
   },
@@ -501,7 +513,7 @@
       "recovery": {
         "label": "Recuperación",
         "title": "Para la recuperación y la rehabilitación",
-        "description": "Mantenga conectados a los pacientes en recuperación con su equipo de cuidados y su familia tras el alta: check-ins guiados, chat y video, sin perder el contacto.",
+        "description": "Mantenga conectados a los pacientes en recuperación con su equipo de cuidados y su familia tras el alta: check-ins guiados, chat y vídeo, sin perder el contacto.",
         "features": {
           "f0": {
             "title": "Check-ins guiados",
@@ -509,7 +521,7 @@
           },
           "f1": {
             "title": "Una línea directa con el equipo de cuidados",
-            "description": "El chat seguro y el video iniciado por el profesional mantienen acompañado al paciente entre cita y cita."
+            "description": "El chat seguro y el vídeo iniciado por el profesional mantienen acompañado al paciente entre cita y cita."
           },
           "f2": {
             "title": "La familia siempre al tanto",
@@ -659,8 +671,8 @@
         }
       },
       "rounds": {
-        "title": "Visita digital y signos vitales",
-        "description": "El profesional entra, abre la app, ve su visita del día. Vitales, alertas, medicamentos — todo en el bolsillo, validado en dos taps.",
+        "title": "Visita digital y constantes vitales",
+        "description": "El profesional entra, abre la app, ve su visita del día. Constantes, alertas, medicamentos — todo en el bolsillo, validado en dos taps.",
         "bullets": {
           "b0": "Visita del día pre-organizada, habitación por habitación",
           "b1": "Observaciones y estado del paciente registrados en cada visita",
@@ -725,7 +737,7 @@
       "professional": {
         "number": "03",
         "title": "Profesional",
-        "description": "Visita digital, alertas prioritarias, signos vitales en tiempo real. Menos papeleo, más cuidado."
+        "description": "Visita digital, alertas prioritarias, constantes vitales en tiempo real. Menos papeleo, más cuidado."
       },
       "direction": {
         "number": "04",
@@ -735,7 +747,8 @@
     }
   },
   "common": {
-    "skipLink": "Ir al contenido principal"
+    "skipLink": "Ir al contenido principal",
+    "breadcrumb": "Ruta de navegación"
   },
   "error": {
     "title": "Algo ha ido mal.",
@@ -748,6 +761,7 @@
     "navAriaLabel": "Pie de página",
     "columns": {
       "solutions": "Soluciones",
+      "platform": "Plataforma",
       "company": "Empresa",
       "legal": "Legal"
     },
@@ -764,8 +778,8 @@
     }
   },
   "metadata": {
-    "title": "CareBond — Comunicación para el cuidado",
-    "description": "Plataforma de comunicación para el cuidado que conecta a pacientes, familias y profesionales. Privacidad de grado suizo — RGPD y nLPD por diseño — para residencias, atención domiciliaria, hospitales y clínicas."
+    "title": "CareBond | Comunicación para residencias y domicilio",
+    "description": "Plataforma suiza que conecta a pacientes, familias y profesionales en residencias, atención domiciliaria, hospitales y clínicas. RGPD y nLPD por diseño."
   },
   "contact": {
     "metadata": {
@@ -999,7 +1013,7 @@
       "eyebrow": "Para las residencias",
       "title": "La gestión de una residencia, sin papeleo y sin puntos ciegos.",
       "subtitle": "Visita digital, audit log nativo, multi-centro desde una sola consola. Diseñado para las direcciones que quieren ver claro sin micromanagement.",
-      "metaDescription": "Solución CareBond para residencias: gestión multi-centro, audit log nativo, visita digital, multi-equipos con RBAC granular.",
+      "metaDescription": "Residencias de mayores: gestión multicentro desde una sola consola, registro de auditoría nativo, visita digital y permisos por equipo y por sede.",
       "visualAlt": "Plano 3D isométrico de una residencia medicalizada — habitaciones de memoria, jardín terapéutico, vestíbulo principal",
       "problem": {
         "eyebrow": "La realidad",
@@ -1031,7 +1045,7 @@
           },
           "f3": {
             "title": "Multi-equipos e informes compartidos",
-            "description": "Dirección, profesionales, conserjes, prestadores externos — cada uno con su nivel de acceso e interfaz, con permisos granulares. Los informes, consultas y vitales que registra un profesional quedan visibles al instante para todos los profesionales asignados al mismo residente — se acabaron los huecos de información entre relevos. Un mini-informe filtrado se envía en paralelo a la familia."
+            "description": "Dirección, profesionales, conserjes, prestadores externos — cada uno con su nivel de acceso e interfaz, con permisos granulares. Los informes, consultas y constantes que registra un profesional quedan visibles al instante para todos los profesionales asignados al mismo residente — se acabaron los huecos de información entre relevos. Un mini-informe filtrado se envía en paralelo a la familia."
           }
         },
         "roadmap": "Integraciones con sistemas de evaluación asistencial (BESA, RAI, PLAISIR) en estudio para una próxima versión."
@@ -1040,13 +1054,14 @@
         "eyebrow": "Próxima etapa",
         "title": "Veamos CareBond con su residencia en mente.",
         "description": "30 minutos de demo con sus casos reales: tamaño, módulos elegidos, recorrido tipo de un residente en su centro."
-      }
+      },
+      "metaTitle": "Software de gestión para residencias de mayores"
     },
     "home-care": {
       "eyebrow": "Para la atención domiciliaria",
       "title": "Confianza a distancia, sin vigilancia intrusiva.",
       "subtitle": "Validación GPS de las visitas, informes firmados criptográficamente, livestream con consentimiento del paciente. Diseñado para los servicios de atención domiciliaria.",
-      "metaDescription": "Solución CareBond para la atención domiciliaria: validación GPS de visitas, informes firmados criptográficamente, livestream con consentimiento, mini-informes a la familia.",
+      "metaDescription": "Para servicios de atención domiciliaria: validación GPS de las visitas, informes firmados criptográficamente y mini-informes a la familia.",
       "visualAlt": "Vista previa de la aplicación familia — mini-informe diario y flujo livestream activable por el paciente",
       "problem": {
         "eyebrow": "La realidad",
@@ -1086,13 +1101,14 @@
         "eyebrow": "Próxima etapa",
         "title": "Veamos CareBond con su servicio de atención domiciliaria.",
         "description": "30 minutos para comprender la realidad de su actividad y calibrar la demo en los módulos que le interesan."
-      }
+      },
+      "metaTitle": "Atención domiciliaria: visitas validadas por GPS"
     },
     "hospitals": {
       "eyebrow": "Para los hospitales",
       "title": "Una plataforma diseñada para integrarse con su EMR.",
       "subtitle": "API REST documentada, integración HL7/FHIR, RBAC granular por rol y audit log inmutable. Planos 3D como servicio a medida. Un segmento hacia el que estamos construyendo.",
-      "metaDescription": "Solución CareBond para los hospitales: API REST documentada, integración HL7/FHIR, RBAC granular por rol, planos 3D como servicio.",
+      "metaDescription": "Para hospitales: API REST documentada, integración HL7/FHIR con su sistema de historia clínica, RBAC granular por rol y trazabilidad inmutable.",
       "visualAlt": "Plano 3D isométrico de un hospital — quirófanos, sala RM, planta, laboratorio, vestíbulo principal, con un recorrido señalizado",
       "problem": {
         "eyebrow": "La realidad",
@@ -1132,13 +1148,14 @@
         "eyebrow": "Próxima etapa",
         "title": "Veamos CareBond con la realidad de su hospital.",
         "description": "30 minutos para discutir la integración EMR, sus requisitos regulatorios y los módulos pertinentes para sus servicios."
-      }
+      },
+      "metaTitle": "Integración HL7/FHIR para hospitales"
     },
     "clinics": {
       "eyebrow": "Para las clínicas privadas",
       "title": "Una experiencia del paciente de alta gama, con su marca.",
       "subtitle": "Chat multilingüe para pacientes internacionales y alojamiento en Suiza. Un segmento hacia el que estamos construyendo.",
-      "metaDescription": "Solución CareBond para clínicas privadas: chat multilingüe, alojamiento en Suiza, protección de datos por diseño (RGPD y nLPD).",
+      "metaDescription": "Para clínicas privadas: chat multilingüe con pacientes internacionales, alojamiento exclusivo en Suiza y registro inmutable de cada acceso clínico.",
       "visualAlt": "Vista previa del chat multilingüe — mensajes FR↔ES traducidos en tiempo real con control del profesional",
       "problem": {
         "eyebrow": "La realidad",
@@ -1178,14 +1195,15 @@
         "eyebrow": "Próxima etapa",
         "title": "Veamos CareBond con su clínica en mente.",
         "description": "30 minutos para explorar cómo conservar su marca y su experiencia paciente, ganando al mismo tiempo las capacidades multilingües y una privacidad de grado suizo."
-      }
+      },
+      "metaTitle": "Clínicas privadas: chat multilingüe seguro"
     },
     "recovery": {
       "eyebrow": "Para los cuidados de recuperación",
       "title": "La recuperación no termina con el alta.",
       "subtitle": "Cuando un paciente vuelve a casa a recuperarse, la comunicación no debería detenerse. CareBond mantiene conectados al paciente en recuperación, a su profesional de cuidados y a su familia: check-ins guiados, chat seguro, vídeo cuando lo decide el profesional y mini-informes automáticos a la familia.",
-      "metaDescription": "CareBond para la recuperación y la rehabilitación posthospitalaria: check-ins guiados del paciente, chat seguro, video iniciado por el profesional y mini-informes automáticos a la familia. Una capa de comunicación con alojamiento en Suiza y protección de datos por diseño (RGPD y nLPD).",
-      "visualAlt": "Vista previa de la app del paciente: pantalla de inicio de recuperación con check-ins, chat y video",
+      "metaDescription": "Check-ins guiados del paciente, chat seguro y vídeo que inicia el profesional, con mini-informes a la familia. Alojamiento en Suiza, RGPD y nLPD.",
+      "visualAlt": "Vista previa de la app del paciente: pantalla de inicio de recuperación con check-ins, chat y vídeo",
       "problem": {
         "eyebrow": "La realidad",
         "heading": "Tras el alta, el paciente se queda de repente solo.",
@@ -1211,7 +1229,7 @@
             "description": "Una línea directa y trazable con el profesional asignado, disponible según los términos del profesional: sin mensajes por la noche, sin intromisiones."
           },
           "f2": {
-            "title": "Consultas por video iniciadas por el profesional",
+            "title": "Consultas por vídeo iniciadas por el profesional",
             "description": "Videollamadas que el profesional de cuidados inicia cuando un check-in merece una mirada más de cerca, sin que el paciente tenga que volver a desplazarse."
           },
           "f3": {
@@ -1224,14 +1242,15 @@
         "eyebrow": "Próximo paso",
         "title": "Vea cómo CareBond acompaña una recuperación.",
         "description": "30 minutos para trazar un recorrido de recuperación típico en su establecimiento y calibrar la demo según los módulos que le importan."
-      }
+      },
+      "metaTitle": "Recuperación en casa: seguimiento tras el alta"
     }
   },
   "about": {
     "eyebrow": "Sobre nosotros",
     "title": "El cuidado, mejor comunicado.",
     "subtitle": "CareBond es una plataforma de comunicación para el cuidado, nacida en Suiza y pensada para residencias, atención domiciliaria, hospitales y clínicas. Construimos la herramienta que falta entre pacientes, familias, profesionales y dirección — sin pretender reemplazar lo que ya funciona.",
-    "metaDescription": "Sobre CareBond — plataforma de comunicación para el cuidado, nacida en Suiza. Misión, valores y dónde estamos.",
+    "metaDescription": "CareBond nace en Ginebra para devolver al cuidado el tiempo que se va en papeleo. Nuestra misión, nuestros valores y dónde estamos.",
     "mission": {
       "eyebrow": "Nuestra misión",
       "heading": "Devolver al cuidado el tiempo que le quita el papeleo.",
@@ -1269,13 +1288,14 @@
       "eyebrow": "¿Hablamos?",
       "title": "Veamos si CareBond tiene sentido para usted.",
       "description": "30 minutos para comprender su contexto y mostrarle la plataforma con sus casos de uso. Sin demo genérica."
-    }
+    },
+    "metaTitle": "Quiénes somos y por qué nacimos en Ginebra"
   },
   "compliancePage": {
     "eyebrow": "Conformidad",
     "title": "Conformidad por arquitectura, no por anexo.",
     "subtitle": "RGPD y nLPD por diseño, alojamiento en Suiza, audit log inmutable. La conformidad no es una capa añadida — está construida en la plataforma desde la primera línea de código.",
-    "metaDescription": "Conformidad CareBond: RGPD y nLPD por diseño, alojamiento en Suiza, audit log inmutable, trazabilidad para auditorías.",
+    "metaDescription": "Protección de datos por diseño: RGPD y nLPD, alojamiento en Suiza (Infomaniak, Ginebra), cifrado TLS moderno y trazabilidad inmutable.",
     "pillars": {
       "nlpd": {
         "title": "RGPD y nLPD por diseño",
@@ -1339,7 +1359,8 @@
       "title": "¿Sus equipos jurídicos e IT quieren los detalles?",
       "description": "Mantenemos a disposición la documentación técnica completa: arquitectura, flujos de datos, audit log, políticas de retención, plantillas de contrato con encargados del tratamiento. Bajo solicitud, sin formulario que rellenar.",
       "secondary": "Leer nuestra política de privacidad"
-    }
+    },
+    "metaTitle": "Cumplimiento RGPD y nLPD con alojamiento en Suiza"
   },
   "stats": {
     "items": {
@@ -1364,5 +1385,13 @@
         "source": "Naciones Unidas (DESA), International Migrant Stock 2024"
       }
     }
+  },
+  "solutionsIndex": {
+    "metaTitle": "CareBond para residencias, domicilio y hospitales",
+    "metaDescription": "Las soluciones CareBond por centro: residencias, atención domiciliaria, recuperación, hospitales y clínicas. Comunicación segura, RGPD y nLPD."
+  },
+  "platformIndex": {
+    "metaTitle": "La plataforma CareBond: seis módulos",
+    "metaDescription": "Los seis módulos CareBond: supervisión, audit log, telepresencia, chat multilingüe, relevos y planos 3D. Integrable con su sistema actual."
   }
 }

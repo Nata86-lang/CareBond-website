@@ -1,9 +1,11 @@
 "use client";
 
+import Link from "next/link";
 import { useId, useState } from "react";
 import type { ReactNode } from "react";
 import { useTranslations } from "next-intl";
 import type { LucideIcon } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import {
   AlertTriangle,
   BarChart3,
@@ -41,7 +43,10 @@ const FEATURE_ICONS: Record<Audience, [LucideIcon, LucideIcon, LucideIcon]> = {
   clinics: [Palette, Globe2, Languages],
 };
 
+type SolutionLink = { href: string; label: string };
+
 type Props = {
+  solutionLinks: Record<string, SolutionLink>;
   emsVisual: ReactNode;
   spitexVisual: ReactNode;
   recoveryVisual: ReactNode;
@@ -50,6 +55,7 @@ type Props = {
 };
 
 export function PourQuiClient({
+  solutionLinks,
   emsVisual,
   spitexVisual,
   recoveryVisual,
@@ -129,6 +135,19 @@ export function PourQuiClient({
                   );
                 })}
               </ul>
+              {solutionLinks[active] && (
+                <Link
+                  href={solutionLinks[active].href}
+                  className="group/link mt-8 inline-flex items-center gap-1.5 rounded text-sm font-semibold text-brand-blue-strong hover:text-brand-navy focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
+                >
+                  {solutionLinks[active].label}
+                  <ArrowRight
+                    size={15}
+                    aria-hidden="true"
+                    className="transition-transform duration-150 group-hover/link:translate-x-0.5 motion-reduce:transition-none"
+                  />
+                </Link>
+              )}
             </div>
 
             {/* Right: visual */}

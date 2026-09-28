@@ -9,6 +9,8 @@ import { SITE_URL } from "@/lib/site";
 const ROUTES: { path: string; priority: number }[] = [
   { path: "", priority: 1.0 },
   { path: "/contact", priority: 0.9 },
+  { path: "/solutions", priority: 0.9 },
+  { path: "/platform", priority: 0.9 },
   { path: "/about", priority: 0.7 },
   { path: "/compliance", priority: 0.7 },
   { path: "/platform/oversight", priority: 0.7 },
@@ -30,11 +32,12 @@ const ROUTES: { path: string; priority: number }[] = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  // Deliberately no `lastModified`: it can only be the build timestamp here, so
+  // all 120 URLs would claim to have changed on every deploy. Google learns to
+  // ignore the signal, and an absent date is better than a false one.
   return ROUTES.flatMap(({ path, priority }) =>
     locales.map((locale) => ({
       url: `${SITE_URL}/${locale}${path}`,
-      lastModified: now,
       changeFrequency: "monthly" as const,
       priority,
       alternates: {

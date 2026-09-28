@@ -28,7 +28,8 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { locales } from "@/lib/i18n";
-import { SITE_URL, SITE_NAME, OG_LOCALE_MAP } from "@/lib/site";
+import { buildPageMetadata } from "@/lib/seo";
+import { Breadcrumbs } from "@/components/layout/breadcrumbs";
 import { FamilyPhone } from "@/components/marketing/hero/mockups/family-phone";
 import { ProfessionalPhone } from "@/components/marketing/hero/mockups/professional-phone";
 import { DashboardTile } from "@/components/marketing/sections/how-it-works/dashboard-tile";
@@ -99,38 +100,20 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale, slug } = await params;
   if (!isValidSlug(slug)) return {};
-  const tBento = await getTranslations({
-    locale,
-    namespace: "platform.bento.pillars",
-  });
   const tPage = await getTranslations({
     locale,
     namespace: `platform.pages.${slug}`,
   });
-  const title = `${tBento(`${slug}.title`)} — ${SITE_NAME}`;
-  const description = tPage("subtitle");
-  const languages = Object.fromEntries(
-    locales.map((l) => [
-      l,
-      `${SITE_URL}/${l}/platform/${slug}`,
-    ]),
-  );
-  return {
-    title,
-    description,
-    openGraph: {
-      title,
-      description,
-      url: `${SITE_URL}/${locale}/platform/${slug}`,
-      siteName: SITE_NAME,
-      locale: OG_LOCALE_MAP[locale] ?? "fr_CH",
-      type: "website",
-    },
-    alternates: {
-      canonical: `${SITE_URL}/${locale}/platform/${slug}`,
-      languages: { ...languages, "x-default": `${SITE_URL}/fr/platform/${slug}` },
-    },
-  };
+  // metaTitle, not the visible H1: the H1 is a full marketing sentence and ran
+  // 60-80 characters, so Google truncated it mid-word in the result.
+  // The description used to be `subtitle` — the visible body copy, 145-247
+  // characters, cut off in every locale.
+  return buildPageMetadata({
+    locale,
+    path: `/platform/${slug}`,
+    title: tPage("metaTitle"),
+    description: tPage("metaDescription"),
+  });
 }
 
 export default async function PlatformPage({
@@ -145,6 +128,7 @@ export default async function PlatformPage({
   const tBento = await getTranslations("platform.bento.pillars");
   const tPage = await getTranslations(`platform.pages.${slug}`);
   const tCta = await getTranslations("cta");
+  const tFooter = await getTranslations("footer");
   const capabilityIcons = CAPABILITY_ICONS[slug];
   const ComplianceIcon = COMPLIANCE_ICON[slug];
   const visual = renderVisual(slug, tPage("visualAlt"));
@@ -155,6 +139,13 @@ export default async function PlatformPage({
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-6 pt-16 sm:pt-20 lg:px-8 lg:pt-24">
           <div className="max-w-3xl">
+            <Breadcrumbs
+              items={[
+                { name: "CareBond", path: `/${locale}` },
+                { name: tFooter("columns.platform"), path: `/${locale}/platform` },
+                { name: tBento(`${slug}.title`), path: `/${locale}/platform/${slug}` },
+              ]}
+            />
             <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-brand-blue-strong">
               {tBento(`${slug}.eyebrow`)}
             </p>
@@ -178,7 +169,7 @@ export default async function PlatformPage({
                 />
               </Link>
               <Link
-                href={`/${locale}#platform`}
+                href={`/${locale}/platform`}
                 className="inline-flex h-12 items-center justify-center rounded-xl border border-neutral-200 bg-white px-7 text-sm font-semibold text-brand-navy shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-neutral-300 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue motion-reduce:transform-none motion-reduce:transition-none"
               >
                 {tCta("viewPlatform")}
@@ -312,6 +303,9 @@ function renderVisual(slug: Slug, alt: string): ReactNode {
             alt={alt}
             width={2752}
             height={1536}
+            // LCP element of this page: without `priority` it is lazy-loaded and
+            // only starts downloading after hydration.
+            priority
             className="h-auto w-full"
             sizes="(max-width: 1024px) 100vw, 1024px"
             quality={85}

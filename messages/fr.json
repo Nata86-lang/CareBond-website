@@ -7,7 +7,7 @@
     "contact": "Contact",
     "demo": "Démo",
     "solutionsMenu": {
-      "ems": "Pour les résidences",
+      "ems": "Pour les EMS",
       "homeCare": "Pour les soins à domicile",
       "hospitals": "Pour les hôpitaux",
       "clinics": "Pour les cliniques",
@@ -185,7 +185,7 @@
           "kpiProfessionals": "Soignants",
           "kpiAlerts": "Alertes",
           "kpiDevices": "Dispositifs",
-          "alt": "Plan 3D isométrique d'une résidence médicalisée — aile mémoire, centre d'activités, jardin thérapeutique, salon de coiffure, hall principal"
+          "alt": "Plan 3D isométrique d'un EMS — aile mémoire, centre d'activités, jardin thérapeutique, salon de coiffure, hall principal"
         }
       }
     },
@@ -226,7 +226,9 @@
           "eyebrow": "Prochaine étape",
           "title": "Voyons votre tableau de bord en direct.",
           "description": "30 minutes pour calibrer le pilotage sur votre structure réelle et discuter des indicateurs qui comptent pour vous."
-        }
+        },
+        "metaTitle": "Supervision multisite : le tableau de bord de direction",
+        "metaDescription": "Un tableau de bord unique pour la direction : KPIs comparables, notifications et SOS, supervision multisite et RBAC granulaire par rôle."
       },
       "audit": {
         "subtitle": "Canal de traçabilité et de conformité légale. Un journal d'audit immuable de chaque communication et accès clinique, conçu dans l'architecture du système pour les exigences du RGPD et de la nLPD suisse.",
@@ -246,7 +248,7 @@
             },
             "f2": {
               "title": "Signatures HMAC de rapports",
-              "description": "Rapports de visite signés numériquement, prêts pour la validation de la facturation et les audits de l'assurance-maladie (p. ex. KVG/LAMal en Suisse)."
+              "description": "Rapports de visite signés numériquement, prêts pour la validation de la facturation et les audits de l'assurance-maladie (p. ex. LAMal/KVG en Suisse)."
             },
             "f3": {
               "title": "Exports et rétention",
@@ -259,7 +261,9 @@
           "eyebrow": "Prochaine étape",
           "title": "Voyons l'audit log avec un cas réel.",
           "description": "30 minutes pour démontrer la traçabilité sur un scénario qui vous concerne — incident, demande d'accès, audit de conformité."
-        }
+        },
+        "metaTitle": "Journal d'audit immuable : traçabilité RGPD et nLPD",
+        "metaDescription": "Journal immuable de chaque accès et modification : heure, adresse IP, historique avant/après et export structuré pour vos audits internes."
       },
       "livestream": {
         "subtitle": "Canal de téléprésence et appels vidéo contrôlés. Activez des appels vidéo directs patient-famille et des flux vidéo strictement autorisés par le professionnel, avec chiffrement en transit et serveurs en Suisse.",
@@ -292,7 +296,9 @@
           "eyebrow": "Prochaine étape",
           "title": "Voyons la téléprésence dans votre contexte.",
           "description": "30 minutes pour discuter des cas — soins à domicile, résidence ou clinique — où ce module a du sens, et de ceux où il n'en a pas."
-        }
+        },
+        "metaTitle": "Téléprésence et appels vidéo, jamais enregistrés",
+        "metaDescription": "Appels vidéo patient-famille et flux initiés par le professionnel : chiffrés en transit, relais hébergé en Suisse, jamais enregistrés."
       },
       "chat-multilingue": {
         "subtitle": "Canal de communication multilingue interactif. Traduisez instantanément les conversations entre les familles et le personnel soignant dans plusieurs langues pour surmonter les barrières linguistiques dans les environnements de soin multiculturels.",
@@ -325,11 +331,13 @@
           "eyebrow": "Prochaine étape",
           "title": "Voyons le chat multilingue en direct.",
           "description": "30 minutes pour tester votre cas de barrière linguistique réel et discuter l'intégration dans vos parcours de soin."
-        }
+        },
+        "metaTitle": "Chat multilingue : chacun lit dans sa langue",
+        "metaDescription": "Traduction automatique en temps réel entre soignants, résidents et familles, réalisée sur notre propre infrastructure en Suisse."
       },
       "rounds": {
-        "subtitle": "Tournée du jour, signes vitaux, alertes, notes de visite partagées — le tout dans la poche du soignant. Conçu pour les résidences et les services de soins à domicile.",
-        "visualAlt": "Application du soignant — liste des patients du jour avec signes vitaux, alertes et statut",
+        "subtitle": "Tournée du jour, constantes, alertes, notes de visite partagées — le tout dans la poche du soignant. Conçu pour les EMS et les services de soins à domicile.",
+        "visualAlt": "Application du soignant — liste des patients du jour avec constantes, alertes et statut",
         "capabilities": {
           "eyebrow": "Capacités",
           "heading": "Coordination et flux d'informations",
@@ -360,9 +368,11 @@
         "compliance": "Rapports signés HMAC, prêts pour la validation de la facturation et l'audit. Audit log natif sur chaque action soignante et chaque accès au dossier patient partagé.",
         "cta": {
           "eyebrow": "Prochaine étape",
-          "title": "Voyons une tournée digitale dans votre structure.",
+          "title": "Voyons une tournée numérique dans votre structure.",
           "description": "30 minutes pour calibrer le module sur vos parcours soignants — résidence, domicile ou les deux."
-        }
+        },
+        "metaTitle": "Tournée numérique et transmissions sans papier",
+        "metaDescription": "Tournée du jour, constantes, notes de visite et rapports partagés dans la poche du soignant. Transmissions sans perte entre les équipes."
       },
       "floor-plans": {
         "subtitle": "Service d'orientation avec plans 3D. Nous concevons des plans interactifs pour des écrans et bornes à l'entrée, aidant les proches et les visiteurs à s'orienter.",
@@ -395,24 +405,26 @@
           "eyebrow": "Prochaine étape",
           "title": "Voyons votre bâtiment modélisé.",
           "description": "30 minutes pour discuter de la modélisation du plan 3D de votre établissement."
-        }
+        },
+        "metaTitle": "Plans 3D interactifs pour orienter vos visiteurs",
+        "metaDescription": "Service sur mesure : nous modélisons votre bâtiment en plan 3D interactif pour vos bornes d'entrée. Itinéraires balisés, sans géolocalisation."
       }
     }
   },
   "pourQui": {
     "eyebrow": "Pour qui",
     "title": "Conçue pour chaque type d'établissement.",
-    "subtitle": "Trois contextes de soins — résidences, soins à domicile et rétablissement — auxquels s'ajoutent hôpitaux et cliniques. Chacun a sa réalité, mais tous reposent sur une seule plateforme de communication, avec la même promesse : confidentialité de niveau suisse et protection des données dès la conception.",
+    "subtitle": "Trois contextes de soins — EMS, soins à domicile et rétablissement — auxquels s'ajoutent hôpitaux et cliniques. Chacun a sa réalité, mais tous reposent sur une seule plateforme de communication, avec la même promesse : confidentialité de niveau suisse et protection des données dès la conception.",
     "tabsAriaLabel": "Sélectionnez votre type d'établissement",
     "audiences": {
       "ems": {
-        "label": "Résidences",
-        "title": "Pour les résidences",
+        "label": "EMS",
+        "title": "Pour les EMS",
         "description": "Pilotage multi-institution, audit log immuable, RBAC granulaire. Tout l'établissement, en un écran.",
         "features": {
           "f0": {
             "title": "Multi-institution",
-            "description": "Pilotage de plusieurs résidences depuis une seule console. KPIs comparables, séparation stricte des données."
+            "description": "Pilotage de plusieurs EMS depuis une seule console. KPIs comparables, séparation stricte des données."
           },
           "f1": {
             "title": "Audit log immuable",
@@ -644,9 +656,9 @@
     }
   },
   "moduleResidences": {
-    "eyebrow": "Module Résidences",
-    "title": "Conçu pour les résidences, de l'admission à l'audit.",
-    "subtitle": "L'un des trois contextes de soins couverts par CareBond. Pensé pour la résidence qui veut un dossier de résident structuré, une tournée numérique dans la poche du soignant et un export d'activités prêt pour ses audits.",
+    "eyebrow": "Module EMS",
+    "title": "Conçu pour les EMS, de l'admission à l'audit.",
+    "subtitle": "L'un des trois contextes de soins couverts par CareBond. Pensé pour l'EMS qui veut un dossier de résident structuré, une tournée numérique dans la poche du soignant et un export d'activités prêt pour ses audits.",
     "pillars": {
       "admission": {
         "title": "Admission & dossier patient",
@@ -725,7 +737,7 @@
       "professional": {
         "number": "03",
         "title": "Soignant",
-        "description": "Tournée numérique, alertes prioritaires, signes vitaux en temps réel. Moins de paperasse, plus de soin."
+        "description": "Tournée numérique, alertes prioritaires, constantes en temps réel. Moins de paperasse, plus de soin."
       },
       "direction": {
         "number": "04",
@@ -735,7 +747,8 @@
     }
   },
   "common": {
-    "skipLink": "Aller au contenu principal"
+    "skipLink": "Aller au contenu principal",
+    "breadcrumb": "Fil d'Ariane"
   },
   "error": {
     "title": "Quelque chose s'est mal passé.",
@@ -748,6 +761,7 @@
     "navAriaLabel": "Pied de page",
     "columns": {
       "solutions": "Solutions",
+      "platform": "Plateforme",
       "company": "Entreprise",
       "legal": "Légal"
     },
@@ -764,8 +778,8 @@
     }
   },
   "metadata": {
-    "title": "CareBond — Communication pour le soin",
-    "description": "Plateforme de communication pour le soin qui connecte patients, familles et soignants. Confidentialité de niveau suisse — RGPD et nLPD dès la conception — pour les résidences, les soins à domicile, les hôpitaux et les cliniques."
+    "title": "CareBond — Communication pour EMS, domicile et hôpitaux",
+    "description": "Communication sécurisée entre soignants, patients et familles : EMS, soins à domicile, hôpitaux et cliniques. Hébergement en Suisse, RGPD et nLPD."
   },
   "contact": {
     "metadata": {
@@ -799,14 +813,14 @@
       },
       "institution": {
         "label": "Institution",
-        "placeholder": "Résidence Les Tilleuls, Hôpital Saint-Jean..."
+        "placeholder": "EMS Les Tilleuls, Hôpital cantonal…"
       },
       "audience": {
         "label": "Type d'établissement",
         "placeholder": "Sélectionnez…",
         "options": {
-          "ems": "Résidence / établissement médico-social (EMS)",
-          "spitex": "Soins à domicile (Spitex)",
+          "ems": "EMS (établissement médico-social)",
+          "spitex": "Soins à domicile (CMS / Spitex)",
           "hospitals": "Hôpital",
           "clinics": "Clinique privée",
           "other": "Autre",
@@ -996,14 +1010,14 @@
   },
   "solutions": {
     "ems": {
-      "eyebrow": "Pour les résidences",
-      "title": "Le pilotage d'une résidence, sans paperasse et sans angle mort.",
+      "eyebrow": "Pour les EMS",
+      "title": "Le pilotage d'un EMS, sans paperasse et sans angle mort.",
       "subtitle": "Tournée numérique, audit log natif, multi-établissements depuis une seule console. Conçu pour les directions qui veulent voir clair sans micromanager.",
-      "metaDescription": "Solution CareBond pour les résidences : pilotage multi-établissements, audit log natif, tournée digitale, multi-équipes avec RBAC granulaire.",
+      "metaDescription": "CareBond pour les EMS : pilotage multi-établissements depuis une seule console, audit log natif et RBAC granulaire par équipe et par site.",
       "visualAlt": "Plan 3D isométrique d'un EMS — chambres mémoire, jardin thérapeutique, hall principal",
       "problem": {
         "eyebrow": "Le constat",
-        "heading": "Le quotidien d'une résidence, c'est trop souvent du papier et des appels.",
+        "heading": "Le quotidien d'un EMS, c'est trop souvent du papier et des appels.",
         "intro": "Chaque heure passée à remplir un classeur, c'est une heure de moins auprès des résidents. CareBond rend ces heures-là au soin.",
         "points": {
           "p0": "La tournée du jour est sur un papier qui se perd, et la transmission à l'équipe suivante se fait par appel téléphonique.",
@@ -1014,7 +1028,7 @@
       },
       "features": {
         "eyebrow": "Ce que change CareBond",
-        "heading": "Une plateforme conçue pour la réalité d'une résidence.",
+        "heading": "Une plateforme conçue pour la réalité d'un EMS.",
         "intro": "Pas un ERP générique adapté à la santé. Pensé dès la première ligne de code pour la réalité du soin : protection des données, traçabilité et audit sans friction.",
         "items": {
           "f0": {
@@ -1031,22 +1045,23 @@
           },
           "f3": {
             "title": "Multi-équipes & rapports partagés",
-            "description": "Direction, soignants, gardiens, prestataires externes — chacun son niveau d'accès et son interface, avec permissions granulaires. Les rapports, consultations et constantes saisis par un soignant sont instantanément visibles par tous les professionnels assignés au même résident — fin des pertes d'information entre les transmissions. Un mini-rapport filtré part en parallèle à la famille."
+            "description": "Direction, soignants, veilleurs de nuit, prestataires externes — chacun son niveau d'accès et son interface, avec permissions granulaires. Les rapports, consultations et constantes saisis par un soignant sont instantanément visibles par tous les professionnels assignés au même résident — fin des pertes d'information entre les transmissions. Un mini-rapport filtré part en parallèle à la famille."
           }
         },
         "roadmap": "Intégrations avec les systèmes d'évaluation des soins (BESA, RAI, PLAISIR) à l'étude pour une prochaine version."
       },
       "cta": {
         "eyebrow": "Prochaine étape",
-        "title": "Voyons CareBond avec votre résidence en tête.",
+        "title": "Voyons CareBond avec votre EMS en tête.",
         "description": "30 minutes de démo avec vos cas réels : taille, modules retenus, parcours type d'un résident chez vous."
-      }
+      },
+      "metaTitle": "EMS : pilotage multi-établissements et audit | CareBond"
     },
     "home-care": {
       "eyebrow": "Pour les soins à domicile",
       "title": "La confiance à distance, sans surveillance intrusive.",
       "subtitle": "Validation GPS des visites, rapports cryptographiquement signés, livestream sur consentement du patient. Conçu pour les services de soins à domicile.",
-      "metaDescription": "Solution CareBond pour les soins à domicile : validation GPS des visites, rapports cryptographiquement signés, livestream sur consentement, mini-rapports famille.",
+      "metaDescription": "CareBond pour l'aide et les soins à domicile : validation GPS des visites, rapports signés HMAC et mini-rapports filtrés pour la famille.",
       "visualAlt": "Aperçu de l'application famille — mini-rapport quotidien et flux livestream activable par le patient",
       "problem": {
         "eyebrow": "Le constat",
@@ -1086,13 +1101,14 @@
         "eyebrow": "Prochaine étape",
         "title": "Voyons CareBond avec votre service à domicile.",
         "description": "30 minutes pour comprendre la réalité de votre activité, et calibrer la démo sur les modules qui vous parlent."
-      }
+      },
+      "metaTitle": "Soins à domicile (CMS/Spitex) : visites validées par GPS"
     },
     "hospitals": {
       "eyebrow": "Pour les hôpitaux",
       "title": "Une plateforme conçue pour s'intégrer à votre DPI.",
       "subtitle": "API REST documentée, intégration HL7/FHIR, RBAC granulaire par rôle et audit log immuable. Plans 3D en tant que service sur mesure. Un segment que nous construisons.",
-      "metaDescription": "Solution CareBond pour les hôpitaux : API REST documentée, intégration HL7/FHIR, RBAC granulaire par rôle, plans 3D en tant que service.",
+      "metaDescription": "CareBond s'intègre à votre DPI : API REST documentée, HL7/FHIR (serveur FHIR R4, HL7 v2), RBAC granulaire par rôle et audit log immuable.",
       "visualAlt": "Plan 3D isométrique d'un hôpital — blocs opératoires, suite IRM, étage, laboratoire, hall principal, avec un itinéraire balisé",
       "problem": {
         "eyebrow": "Le constat",
@@ -1100,7 +1116,7 @@
         "intro": "Les visiteurs se perdent dans les couloirs. Les systèmes ne se parlent pas. L'audit transversal de protection des données demande des semaines. Et chaque département a ses propres outils.",
         "points": {
           "p0": "Les visiteurs et les patients externes errent dans les couloirs, et n'importe quel accueil finit par faire office de point d'information.",
-          "p1": "Votre EMR actuel ne parle pas avec votre outil de planning, vos rapports ou votre dossier patient transversal.",
+          "p1": "Votre DPI actuel ne parle pas avec votre outil de planning, vos rapports ou votre dossier patient transversal.",
           "p2": "Un audit de protection des données demande de cliquer dans cinq systèmes différents pour réunir un dossier.",
           "p3": "Chaque service (urgences, médecine, radiologie) gère ses permissions à part — pas de cohérence, pas de RBAC unifié."
         }
@@ -1108,7 +1124,7 @@
       "features": {
         "eyebrow": "Ce que change CareBond",
         "heading": "Une plateforme conçue pour s'intégrer, pas se substituer.",
-        "intro": "CareBond n'ambitionne pas de remplacer votre EMR, mais de s'y intégrer (API REST documentée et intégration HL7/FHIR disponibles aujourd'hui) pour combler les angles morts et apporter ce qui manquait : navigation interne, communication multilingue, audit transversal.",
+        "intro": "CareBond n'ambitionne pas de remplacer votre DPI, mais de s'y intégrer (API REST documentée et intégration HL7/FHIR disponibles aujourd'hui) pour combler les angles morts et apporter ce qui manquait : navigation interne, communication multilingue, audit transversal.",
         "items": {
           "f0": {
             "title": "API REST documentée et intégration HL7/FHIR",
@@ -1131,14 +1147,15 @@
       "cta": {
         "eyebrow": "Prochaine étape",
         "title": "Voyons CareBond avec vos contraintes hospitalières.",
-        "description": "30 minutes pour discuter intégration EMR, vos exigences réglementaires, et modules pertinents pour vos services."
-      }
+        "description": "30 minutes pour discuter de l'intégration à votre DPI, de vos exigences réglementaires et des modules pertinents pour vos services."
+      },
+      "metaTitle": "Hôpitaux : intégration HL7/FHIR à votre DPI | CareBond"
     },
     "clinics": {
       "eyebrow": "Pour les cliniques privées",
       "title": "L'expérience patient haut de gamme, à votre marque.",
       "subtitle": "Chat multilingue pour patients internationaux et hébergement en Suisse. Un segment que nous construisons.",
-      "metaDescription": "Solution CareBond pour cliniques privées : chat multilingue, hébergement en Suisse, protection des données dès la conception (RGPD et nLPD).",
+      "metaDescription": "CareBond pour les cliniques privées : chat multilingue contrôlé par le soignant, audit log immuable et hébergement exclusif en Suisse.",
       "visualAlt": "Aperçu du chat multilingue — messages FR↔ES traduits en temps réel avec contrôle soignant",
       "problem": {
         "eyebrow": "Le constat",
@@ -1178,13 +1195,14 @@
         "eyebrow": "Prochaine étape",
         "title": "Voyons CareBond avec votre clinique en tête.",
         "description": "30 minutes pour explorer comment garder votre marque et votre expérience patient, tout en gagnant les capacités multilingues et une confidentialité de niveau suisse."
-      }
+      },
+      "metaTitle": "Cliniques privées : chat multilingue et confidentialité"
     },
     "recovery": {
       "eyebrow": "Pour les soins de rétablissement",
       "title": "Le rétablissement ne s'arrête pas à la sortie.",
       "subtitle": "Lorsqu'un patient rentre chez lui pour se rétablir, la communication ne devrait pas s'arrêter. CareBond maintient le lien entre le patient en convalescence, son professionnel de santé et sa famille — check-ins guidés, chat sécurisé, vidéo aux conditions du professionnel et mini-rapports automatiques pour la famille.",
-      "metaDescription": "CareBond pour le rétablissement et la réadaptation post-hospitaliers : check-ins guidés du patient, chat sécurisé, vidéo initiée par le professionnel et mini-rapports automatiques pour la famille. Une couche de communication hébergée en Suisse, avec une protection des données dès la conception (RGPD et nLPD).",
+      "metaDescription": "Après la sortie, le lien reste : check-ins guidés du patient, chat sécurisé, vidéo initiée par le professionnel et mini-rapports pour la famille.",
       "visualAlt": "Aperçu de l'app patient — écran d'accueil rétablissement avec check-ins, chat et vidéo",
       "problem": {
         "eyebrow": "La réalité",
@@ -1224,14 +1242,15 @@
         "eyebrow": "Prochaine étape",
         "title": "Voyez CareBond accompagner un rétablissement.",
         "description": "30 minutes pour cartographier un parcours de rétablissement typique dans votre établissement et calibrer la démo sur les modules qui comptent pour vous."
-      }
+      },
+      "metaTitle": "Rétablissement à domicile : garder le lien après la sortie"
     }
   },
   "about": {
     "eyebrow": "À propos",
     "title": "Le soin, mieux connecté.",
-    "subtitle": "CareBond est une plateforme de communication pour le soin, née en Suisse et pensée pour les résidences, les soins à domicile, les hôpitaux et les cliniques. Nous construisons l'outil qui manque entre patients, familles, soignants et direction — sans chercher à remplacer ce qui marche déjà.",
-    "metaDescription": "À propos de CareBond — plateforme de communication pour le soin, née en Suisse. Mission, valeurs, et où nous sommes.",
+    "subtitle": "CareBond est une plateforme de communication pour le soin, née en Suisse et pensée pour les EMS, les soins à domicile, les hôpitaux et les cliniques. Nous construisons l'outil qui manque entre patients, familles, soignants et direction — sans chercher à remplacer ce qui marche déjà.",
+    "metaDescription": "CareBond est basée à Genève : notre mission, nos valeurs et nos choix d'architecture — confidentialité par défaut et hébergement en Suisse.",
     "mission": {
       "eyebrow": "Notre mission",
       "heading": "Donner au soin le temps que la paperasse lui prend.",
@@ -1269,13 +1288,14 @@
       "eyebrow": "On parle ?",
       "title": "Voyons si CareBond a du sens pour vous.",
       "description": "30 minutes pour comprendre votre contexte et vous montrer la plateforme avec vos cas d'usage. Sans démo générique."
-    }
+    },
+    "metaTitle": "À propos de CareBond — une plateforme née en Suisse"
   },
   "compliancePage": {
     "eyebrow": "Conformité",
     "title": "Conformité par l'architecture, pas par addendum.",
     "subtitle": "RGPD et nLPD dès la conception, hébergement Suisse, audit log immuable. La conformité n'est pas une couche ajoutée — elle est construite dans la plateforme depuis la première ligne de code.",
-    "metaDescription": "Conformité CareBond : RGPD et nLPD dès la conception, hébergement Suisse, audit log immuable, traçabilité pour les audits.",
+    "metaDescription": "Conformité par l'architecture : RGPD et nLPD dès la conception, hébergement chez Infomaniak à Genève, chiffrement moderne et audit log immuable.",
     "pillars": {
       "nlpd": {
         "title": "RGPD et nLPD dès la conception",
@@ -1304,7 +1324,7 @@
           "description": "Loi fédérale sur la protection des données. Audit log natif, droits d'accès et de rectification, voie de réclamation auprès du PFPDT documentée dans notre politique de confidentialité."
         },
         "kvg": {
-          "title": "KVG / LAMal (Suisse)",
+          "title": "LAMal / KVG (Suisse)",
           "description": "Rapports de visite signés cryptographiquement (HMAC), traçabilité servant de base à la justification auprès de l'assurance-maladie suisse pour les soins à domicile."
         },
         "transfers": {
@@ -1339,7 +1359,8 @@
       "title": "Vos équipes juridiques et IT veulent les détails ?",
       "description": "Nous tenons à disposition la documentation technique complète : architecture, flux de données, audit log, politiques de rétention, modèles de contrat avec sous-traitants. Sur demande, sans formulaire à remplir.",
       "secondary": "Lire notre politique de confidentialité"
-    }
+    },
+    "metaTitle": "Conformité : RGPD, nLPD et hébergement en Suisse"
   },
   "stats": {
     "items": {
@@ -1364,5 +1385,13 @@
         "source": "Nations Unies (DESA), International Migrant Stock 2024"
       }
     }
+  },
+  "solutionsIndex": {
+    "metaTitle": "Solutions CareBond pour EMS, domicile et hôpitaux",
+    "metaDescription": "Les solutions CareBond par établissement : EMS, soins à domicile, rétablissement, hôpitaux et cliniques. Communication sécurisée, RGPD et nLPD."
+  },
+  "platformIndex": {
+    "metaTitle": "La plateforme CareBond : six modules de communication",
+    "metaDescription": "Les six modules CareBond : supervision, audit log, téléprésence, chat multilingue, relèves et plans 3D. Intégrable à votre SIH existant."
   }
 }

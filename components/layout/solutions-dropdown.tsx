@@ -64,26 +64,31 @@ export function SolutionsDropdown({ locale }: { locale: string }) {
           }
         />
       </button>
-      {open && (
-        <ul
-          id={menuId}
-          role="menu"
-          className="absolute left-0 top-full z-50 mt-1 min-w-[240px] rounded-lg border border-neutral-200 bg-white p-2 shadow-md"
-        >
+      {/* Always rendered, hidden with display:none when closed: these links are
+          the main crawlable path to the product pages, and a menu that only
+          mounts on click leaves them out of the served HTML entirely. Must be
+          `hidden` — opacity-0/invisible would leave them focusable. */}
+      <ul
+        id={menuId}
+        role="menu"
+        className={
+          (open ? "" : "hidden ") +
+          "absolute left-0 top-full z-50 mt-1 min-w-[240px] rounded-lg border border-neutral-200 bg-white p-2 shadow-md"
+        }
+      >
           {SOLUTIONS.map(({ key, slug }) => (
-            <li key={key} role="none">
-              <Link
-                role="menuitem"
-                href={`/${locale}/solutions/${slug}`}
-                onClick={() => setOpen(false)}
-                className="block rounded-md px-3 py-2.5 text-sm text-neutral-700 hover:bg-neutral-100 hover:text-brand-navy focus-visible:bg-neutral-100 focus-visible:text-brand-navy focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
-              >
-                {tMenu(key)}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      )}
+          <li key={key} role="none">
+            <Link
+              role="menuitem"
+              href={`/${locale}/solutions/${slug}`}
+              onClick={() => setOpen(false)}
+              className="block rounded-md px-3 py-2.5 text-sm text-neutral-700 hover:bg-neutral-100 hover:text-brand-navy focus-visible:bg-neutral-100 focus-visible:text-brand-navy focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
+            >
+              {tMenu(key)}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

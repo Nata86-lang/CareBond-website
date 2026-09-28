@@ -1,5 +1,6 @@
-import { setRequestLocale } from "next-intl/server";
+import { setRequestLocale, getTranslations } from "next-intl/server";
 import { locales } from "@/lib/i18n";
+import { homeGraph, jsonLd } from "@/lib/structured-data";
 import { Hero } from "@/components/marketing/hero";
 import { StatDivider } from "@/components/marketing/sections/stats/stat-divider";
 import { HowItWorks } from "@/components/marketing/sections/how-it-works/how-it-works";
@@ -25,12 +26,26 @@ export default async function HomePage({
   const { locale } = await params;
   setRequestLocale(locale);
 
+  const tMeta = await getTranslations("metadata");
+
   return (
     <main id="main-content">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: jsonLd(
+            homeGraph({
+              locale,
+              title: tMeta("title"),
+              description: tMeta("description"),
+            }),
+          ),
+        }}
+      />
       <Hero locale={locale} />
       <StatDivider statKey="s0" surface="muted" />
       <HowItWorks />
-      <PourQui />
+      <PourQui locale={locale} />
       <StatDivider statKey="s2" />
       <PlatformBento locale={locale} />
       <SoignerSansSilos />

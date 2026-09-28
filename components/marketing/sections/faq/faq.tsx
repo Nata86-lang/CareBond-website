@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { Plus } from "lucide-react";
+import { faqGraph, jsonLd } from "@/lib/structured-data";
 
 // Section 10a — FAQ. Native <details>/<summary> for zero-JS accordion.
 // Each question expands inline. The `[&[open]_.faq-icon]:rotate-45`
@@ -14,11 +15,24 @@ const QUESTION_KEYS = ["q0", "q1", "q2", "q3", "q4", "q5"] as const;
 export async function FAQ() {
   const t = await getTranslations("faq");
 
+  // FAQPage markup. Since August 2023 Google only shows the FAQ rich result for
+  // government and health-authority sites, so this will not add accordions to
+  // the result — it is here because it tells Google, in a machine-readable way,
+  // what CareBond answers about hosting, portability and compliance.
+  const faqEntries = QUESTION_KEYS.map((k) => ({
+    question: t(`questions.${k}.question`),
+    answer: t(`questions.${k}.answer`),
+  }));
+
   return (
     <section
       id="faq"
       className="border-t border-neutral-200 bg-white"
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd(faqGraph(faqEntries)) }}
+      />
       <div className="mx-auto max-w-4xl px-6 py-24 sm:py-28 lg:px-8 lg:py-32">
         {/* Header */}
         <div>
@@ -41,9 +55,9 @@ export async function FAQ() {
               className="group py-5 sm:py-6"
             >
               <summary className="flex cursor-pointer items-start gap-4 rounded-lg list-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-blue">
-                <span className="flex-1 text-base font-semibold tracking-tight text-brand-navy sm:text-lg">
+                <h3 className="flex-1 text-base font-semibold tracking-tight text-brand-navy sm:text-lg">
                   {t(`questions.${k}.question`)}
-                </span>
+                </h3>
                 <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-neutral-100 text-neutral-600 transition-transform duration-200 group-open:rotate-45 motion-reduce:transition-none">
                   <Plus size={14} strokeWidth={2.5} aria-hidden="true" />
                 </span>

@@ -5,7 +5,9 @@ import { NextIntlClientProvider } from "next-intl";
 import { setRequestLocale, getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { locales, type Locale } from "@/lib/i18n";
-import { SITE_URL, SITE_NAME, OG_LOCALE_MAP } from "@/lib/site";
+import { SITE_URL } from "@/lib/site";
+import { buildPageMetadata } from "@/lib/seo";
+import { siteGraph, jsonLd } from "@/lib/structured-data";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { SkipLink } from "@/components/layout/skip-link";
@@ -18,7 +20,7 @@ import "../globals.css";
 // Swiss healthcare premium tone we are after).
 const inter = Inter({
   variable: "--font-inter",
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin"],
   display: "swap",
 });
 
@@ -34,34 +36,29 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata" });
 
-  const languages = Object.fromEntries(
-    locales.map((l) => [l, `${SITE_URL}/${l}`])
-  );
-
   return {
     metadataBase: new URL(SITE_URL),
-    title: t("title"),
-    description: t("description"),
-    openGraph: {
-      title: t("title"),
-      description: t("description"),
-      url: `${SITE_URL}/${locale}`,
-      siteName: SITE_NAME,
-      locale: OG_LOCALE_MAP[locale] ?? "fr_CH",
-      type: "website",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: t("title"),
-      description: t("description"),
-    },
-    alternates: {
-      canonical: `${SITE_URL}/${locale}`,
-      languages: {
-        ...languages,
-        "x-default": `${SITE_URL}/fr`,
+    // Explicit index/follow, plus permission to use a full-length snippet and a
+    // large image in the result. Inherited by all 120 URLs — none of the page
+    // level generateMetadata functions sets `robots`. This does NOT replace
+    // removing the X-Robots-Tag header: an HTML tag cannot override an HTTP one.
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+        "max-video-preview": -1,
       },
     },
+    ...buildPageMetadata({
+      locale,
+      path: "",
+      title: t("title"),
+      description: t("description"),
+    }),
   };
 }
 
@@ -80,29 +77,32 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
   const messages = await getMessages();
 
-  const organizationJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    name: SITE_NAME,
-    url: SITE_URL,
-    logo: `${SITE_URL}/logos/carebond-logo.png`,
-    address: {
-      "@type": "PostalAddress",
-      addressCountry: "CH",
-      addressLocality: "Genève",
-    },
-    contactPoint: {
-      "@type": "ContactPoint",
-      email: "info@carebond.ch",
-      contactType: "customer support",
-      availableLanguage: ["French", "German", "Italian", "English"],
-    },
+  // Only the namespaces a client component actually reads. The full catalogue is
+  // ~69 KB of JSON and was being serialised into the HTML of all 120 URLs; this
+  // is ~12 KB. Audited consumers: header.tsx + mobile-nav.tsx (header, nav),
+  // solutions-dropdown.tsx (nav, nav.solutionsMenu), features-dropdown.tsx (nav,
+  // platform.bento.pillars), pour-qui-client.tsx (pourQui),
+  // chat-multilingue-demo.tsx (hero), contact-form.tsx (contactForm),
+  // error.tsx (error). Server components keep reading the full catalogue via
+  // getTranslations, which never crosses the wire.
+  // Adding a useTranslations call to a client component means adding its
+  // namespace here, or it renders the raw key path at runtime.
+  const clientMessages = {
+    nav: messages.nav,
+    header: messages.header,
+    hero: messages.hero,
+    pourQui: messages.pourQui,
+    contactForm: messages.contactForm,
+    error: messages.error,
+    platform: { bento: { pillars: messages.platform.bento.pillars } },
   };
+
+  const graph = siteGraph();
 
   return (
     <html lang={locale} className={inter.variable}>
       <body className="antialiased">
-        <NextIntlClientProvider messages={messages} locale={locale}>
+        <NextIntlClientProvider messages={clientMessages} locale={locale}>
           <SkipLink />
           <Header locale={locale} />
           {children}
@@ -110,7 +110,7 @@ export default async function LocaleLayout({
         </NextIntlClientProvider>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+          dangerouslySetInnerHTML={{ __html: jsonLd(graph) }}
         />
       </body>
     </html>

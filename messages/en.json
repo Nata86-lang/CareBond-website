@@ -185,7 +185,7 @@
           "kpiProfessionals": "Caregivers",
           "kpiAlerts": "Alerts",
           "kpiDevices": "Devices",
-          "alt": "Isometric 3D floor plan of a nursing home — memory care wing, activity center, therapeutic garden, hair salon, main lobby"
+          "alt": "Isometric 3D floor plan of a care home — memory care wing, activity center, therapeutic garden, hair salon, main lobby"
         }
       }
     },
@@ -226,7 +226,9 @@
           "eyebrow": "Next step",
           "title": "See your dashboard live.",
           "description": "30 minutes to tune oversight to your real organization and discuss the indicators that matter to you."
-        }
+        },
+        "metaTitle": "Multi-Site Oversight Dashboard for Care Providers",
+        "metaDescription": "Track alerts, communication KPIs and connected devices across every site from one dashboard. Role-based permissions keep each team to what it should see."
       },
       "audit": {
         "subtitle": "Traceability and compliance channel. An immutable log of every communication and clinical access, built into the system architecture for the requirements of the GDPR and the Swiss nLPD.",
@@ -259,7 +261,9 @@
           "eyebrow": "Next step",
           "title": "See the audit log with a real case.",
           "description": "30 minutes to demonstrate traceability on a scenario that matters to you — incident, access request, compliance audit."
-        }
+        },
+        "metaTitle": "Immutable Audit Log for GDPR & nLPD Traceability",
+        "metaDescription": "Every clinical access, change and signed report logged immutably. Structured exports and retention policies built for GDPR and Swiss nLPD audits."
       },
       "livestream": {
         "subtitle": "Telepresence channel and controlled video calls. Enable direct patient-family video calls and video flows strictly authorized by the professional, with in-transit encryption and servers in Switzerland.",
@@ -292,7 +296,9 @@
           "eyebrow": "Next step",
           "title": "See livestream in your context.",
           "description": "30 minutes to discuss where this module makes sense — home care, care home or clinic — and where it doesn't."
-        }
+        },
+        "metaTitle": "Secure Patient-Family Video Calls & Telepresence",
+        "metaDescription": "Video calls between patient and family, started by the professional and never recorded. Encrypted in transit, relayed in Switzerland, every call logged."
       },
       "chat-multilingue": {
         "subtitle": "Interactive multilingual communication channel. Instantly translate conversations between families and healthcare staff across multiple languages to overcome language barriers in multicultural care settings.",
@@ -325,7 +331,9 @@
           "eyebrow": "Next step",
           "title": "See multilingual chat live.",
           "description": "30 minutes to test your real language-barrier case and discuss how this module fits into your care journeys."
-        }
+        },
+        "metaTitle": "Multilingual Healthcare Chat with Live Translation",
+        "metaDescription": "Families and care teams each write and read in their own language. Translation runs on our own servers in Switzerland, with a full audit trail."
       },
       "rounds": {
         "subtitle": "Day's rounds, vital signs, alerts, shared visit notes — all in the caregiver's pocket. Built for care homes and home care services.",
@@ -362,7 +370,9 @@
           "eyebrow": "Next step",
           "title": "See digital rounds in your organization.",
           "description": "30 minutes to tune the module to your caregiver journeys — care home, home care, or both."
-        }
+        },
+        "metaTitle": "Digital Rounds & Shift Handover App for Caregivers",
+        "metaDescription": "The day's rounds, vitals and visit notes in the caregiver's pocket. Signed reports reach everyone assigned to the patient, so nothing is lost at handover."
       },
       "floor-plans": {
         "subtitle": "Wayfinding service with 3D plans. We design interactive plans for screens and kiosks at the entrance, helping family members and visitors find their way.",
@@ -386,7 +396,7 @@
             },
             "f3": {
               "title": "Multi-building",
-              "description": "Care homes with multiple pavilions or annex buildings: represented on a single plan."
+              "description": "Care homes with multiple wings or annex buildings: represented on a single plan."
             }
           }
         },
@@ -395,7 +405,9 @@
           "eyebrow": "Next step",
           "title": "See your building modeled.",
           "description": "30 minutes to discuss the 3D plan modeling for your facility."
-        }
+        },
+        "metaTitle": "Interactive 3D Floor Plans & Visitor Wayfinding",
+        "metaDescription": "We model your building as an interactive 3D plan for entrance kiosks, so visitors and families find the right room. No location tracking."
       }
     }
   },
@@ -759,7 +771,8 @@
     }
   },
   "common": {
-    "skipLink": "Skip to main content"
+    "skipLink": "Skip to main content",
+    "breadcrumb": "Breadcrumb"
   },
   "error": {
     "title": "Something went wrong.",
@@ -772,6 +785,7 @@
     "navAriaLabel": "Footer",
     "columns": {
       "solutions": "Solutions",
+      "platform": "Platform",
       "company": "Company",
       "legal": "Legal"
     },
@@ -788,8 +802,8 @@
     }
   },
   "metadata": {
-    "title": "CareBond — Communication for care",
-    "description": "The care communication platform connecting patients, families, and professionals. Swiss-grade privacy — GDPR and nLPD by design — for care homes, home care, hospitals, and clinics."
+    "title": "Care Communication Platform, Swiss-Hosted — CareBond",
+    "description": "Connect patients, families and care teams on one secure platform. Swiss-hosted, GDPR and nLPD by design, for care homes, home care, hospitals and clinics."
   },
   "contact": {
     "metadata": {
@@ -918,7 +932,7 @@
         },
         "rights": {
           "heading": "8. Your rights",
-          "body": "You have rights of access, rectification, deletion, portability, objection, and restriction of processing of your data. To exercise these rights, write to us at info@carebond.ch describing the nature of your request. You may also lodge a complaint with the Swiss Federal Data Protection and Information Commissioner (FDPIC) or with your local data protection authority (for example, the AEPD in Spain)."
+          "body": "You have rights of access, rectification, deletion, portability, objection, and restriction of processing of your data. To exercise these rights, write to us at info@carebond.ch describing the nature of your request. You may also lodge a complaint with the Swiss Federal Data Protection and Information Commissioner (FDPIC) or with your local data protection authority."
         },
         "security": {
           "heading": "9. Security",
@@ -1001,7 +1015,7 @@
       "sections": {
         "illustrations": {
           "heading": "Isometric 3D illustrations",
-          "body": "The 3D illustrations of the hospital and the residence in the \"3D plans & indoor wayfinding\" section and in the platform bento are architectural visualizations used as part of our product demonstration."
+          "body": "The 3D illustrations of the hospital and the care home in the \"3D plans & indoor wayfinding\" section and in the platform bento are architectural visualizations used as part of our product demonstration."
         },
         "icons": {
           "heading": "Icons",
@@ -1023,8 +1037,8 @@
       "eyebrow": "For care homes",
       "title": "Run a care home without paperwork or blind spots.",
       "subtitle": "Digital rounds, native audit log, multi-site from a single console. Built for directors who want to see clearly without micromanaging.",
-      "metaDescription": "CareBond solution for care homes: multi-site oversight, native audit log, digital rounds, multi-team granular RBAC.",
-      "visualAlt": "3D isometric plan of a nursing home — memory care wing, therapeutic garden, main lobby",
+      "metaDescription": "Digital rounds, an immutable audit log and multi-site oversight from a single console. Secure communication for care homes, hosted in Switzerland.",
+      "visualAlt": "3D isometric plan of a care home — memory care wing, therapeutic garden, main lobby",
       "problem": {
         "eyebrow": "The reality",
         "heading": "Day-to-day life in a care home is still too often paper and phone calls.",
@@ -1064,13 +1078,14 @@
         "eyebrow": "Next step",
         "title": "See CareBond with your care home in mind.",
         "description": "A 30-minute demo on your real cases: size, modules chosen, a typical resident's journey at your facility."
-      }
+      },
+      "metaTitle": "Care Home Software — Digital Rounds & Audit Log"
     },
     "home-care": {
       "eyebrow": "For home care",
       "title": "Trust at a distance, without intrusive surveillance.",
       "subtitle": "GPS visit validation, cryptographically signed reports, opt-in livestream from the patient. Built for home care services.",
-      "metaDescription": "CareBond solution for home care: GPS visit validation, cryptographically signed reports, opt-in livestream, family mini-reports.",
+      "metaDescription": "GPS-validated visits, cryptographically signed reports and prioritized alerts. Families get a filtered mini-report. Hosted in Switzerland.",
       "visualAlt": "Preview of the family app — daily mini-report and livestream feed activated by the patient",
       "problem": {
         "eyebrow": "The reality",
@@ -1110,13 +1125,14 @@
         "eyebrow": "Next step",
         "title": "See CareBond with your home care service.",
         "description": "30 minutes to understand the reality of your operation and calibrate the demo on the modules that matter to you."
-      }
+      },
+      "metaTitle": "Home Care Software — GPS Visit Validation & Reports"
     },
     "recovery": {
       "eyebrow": "For recovery care",
       "title": "Recovery doesn't end at discharge.",
       "subtitle": "When a patient goes home to recover, communication shouldn't stop. CareBond keeps the recovering patient, their care professional and their family connected — guided check-ins, secure chat, video on the professional's terms, and automatic family mini-reports.",
-      "metaDescription": "CareBond for post-hospital recovery and rehabilitation: guided patient check-ins, secure chat, professional-led video and automatic family mini-reports. A communication layer hosted in Switzerland with data protection by design (GDPR and nLPD).",
+      "metaDescription": "Guided check-ins, secure chat and professional-led video keep a recovering patient, their care team and their family connected once they are home.",
       "visualAlt": "Patient app preview — recovery home screen with check-ins, chat and video",
       "problem": {
         "eyebrow": "The reality",
@@ -1156,13 +1172,14 @@
         "eyebrow": "Next step",
         "title": "See CareBond follow a recovery.",
         "description": "30 minutes to map a typical recovery journey at your facility and calibrate the demo on the modules that matter to you."
-      }
+      },
+      "metaTitle": "Patient Communication After Hospital Discharge"
     },
     "hospitals": {
       "eyebrow": "For hospitals",
       "title": "A platform designed to integrate with your EMR.",
       "subtitle": "Documented REST API, HL7/FHIR integration, granular RBAC, and immutable audit log. 3D plans as a custom service. A segment we are building toward.",
-      "metaDescription": "CareBond solution for hospitals: documented REST API, HL7/FHIR integration, granular RBAC, 3D plans as a service.",
+      "metaDescription": "A documented REST API and HL7/FHIR integration connect CareBond to your EMR. Granular RBAC, immutable audit log and hosting in Switzerland.",
       "visualAlt": "Isometric 3D floor plan of a hospital — operating theaters, MRI suite, ward, laboratory, main lobby, with a signposted route",
       "problem": {
         "eyebrow": "The reality",
@@ -1172,7 +1189,7 @@
           "p0": "Visitors and outpatients wander the corridors, and any reception desk ends up doubling as an info desk.",
           "p1": "Your current EMR doesn't talk to your scheduling tool, your reports, or your cross-departmental patient record.",
           "p2": "A data protection audit means clicking through five different systems to assemble one file.",
-          "p3": "Each department (ER, medicine, radiology) manages its own permissions — no consistency, no unified RBAC."
+          "p3": "Each department (emergency, medicine, radiology) manages its own permissions — no consistency, no unified RBAC."
         }
       },
       "features": {
@@ -1202,13 +1219,14 @@
         "eyebrow": "Next step",
         "title": "See CareBond with your hospital constraints.",
         "description": "30 minutes to discuss EMR integration, your regulatory requirements, and the modules relevant to your services."
-      }
+      },
+      "metaTitle": "Hospital Communication Platform with HL7/FHIR"
     },
     "clinics": {
       "eyebrow": "For private clinics",
       "title": "Premium patient experience, under your brand.",
       "subtitle": "Multilingual chat for international patients and hosting in Switzerland. A segment we are building toward.",
-      "metaDescription": "CareBond solution for private clinics: multilingual chat, hosting in Switzerland, data protection by design (GDPR and nLPD).",
+      "metaDescription": "Multilingual chat for international patients, an immutable audit log and hosting exclusively in Switzerland. Premium confidentiality for private clinics.",
       "visualAlt": "Multilingual chat preview — FR↔ES messages translated in real time with caregiver control",
       "problem": {
         "eyebrow": "The reality",
@@ -1248,14 +1266,15 @@
         "eyebrow": "Next step",
         "title": "See CareBond with your clinic in mind.",
         "description": "30 minutes to explore how to keep your brand and patient experience while gaining multilingual capabilities and Swiss-grade privacy."
-      }
+      },
+      "metaTitle": "Multilingual Patient Communication for Clinics"
     }
   },
   "about": {
     "eyebrow": "About",
     "title": "Care, better connected.",
     "subtitle": "CareBond is a communication platform for care — born in Switzerland and built for care homes, home care, hospitals and clinics. We build the tool missing between patients, families, caregivers and management — without trying to replace what already works.",
-    "metaDescription": "About CareBond — the communication platform for care, born in Switzerland. Mission, values, and where we are.",
+    "metaDescription": "CareBond is a care communication platform built in Geneva. Our mission, the four architectural choices behind it, and the six languages we work in.",
     "mission": {
       "eyebrow": "Our mission",
       "heading": "Give care back the time paperwork takes from it.",
@@ -1293,13 +1312,14 @@
       "eyebrow": "Shall we talk?",
       "title": "See if CareBond makes sense for you.",
       "description": "30 minutes to understand your context and show you the platform with your real use cases. No generic demo."
-    }
+    },
+    "metaTitle": "About CareBond — Care Platform Built in Geneva"
   },
   "compliancePage": {
     "eyebrow": "Compliance",
     "title": "Compliance by architecture, not by addendum.",
     "subtitle": "GDPR and nLPD by design, Swiss hosting, immutable audit log. Compliance isn't a layer we added — it's built into the platform from line one.",
-    "metaDescription": "CareBond compliance: GDPR and nLPD by design, Swiss hosting, immutable audit log, traceability for audits.",
+    "metaDescription": "Data protection by design, hosting at Infomaniak in Geneva and an immutable audit log. Traceability ready for GDPR, nLPD and KVG/LAMal audits.",
     "pillars": {
       "nlpd": {
         "title": "GDPR & nLPD by design",
@@ -1363,6 +1383,15 @@
       "title": "Your legal and IT teams want the details?",
       "description": "We keep complete technical documentation available: architecture, data flows, audit log, retention policies, processor contract templates. On request, with no form to fill out.",
       "secondary": "Read our privacy policy"
-    }
+    },
+    "metaTitle": "Healthcare Compliance — GDPR, nLPD & Swiss Hosting"
+  },
+  "solutionsIndex": {
+    "metaTitle": "CareBond for care homes, home care and hospitals",
+    "metaDescription": "CareBond solutions by facility: care homes, home care, recovery, hospitals and private clinics. Secure communication, GDPR and nLPD by design."
+  },
+  "platformIndex": {
+    "metaTitle": "The CareBond platform: six communication modules",
+    "metaDescription": "The six CareBond modules: oversight, audit log, telepresence, multilingual chat, shift handovers and 3D plans. Integrates with your existing HIS."
   }
 }

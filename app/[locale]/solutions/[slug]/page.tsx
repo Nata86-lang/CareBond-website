@@ -26,7 +26,8 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { locales } from "@/lib/i18n";
-import { SITE_URL, SITE_NAME, OG_LOCALE_MAP } from "@/lib/site";
+import { buildPageMetadata } from "@/lib/seo";
+import { Breadcrumbs } from "@/components/layout/breadcrumbs";
 import { FamilyPhone } from "@/components/marketing/hero/mockups/family-phone";
 import { PatientPhone } from "@/components/marketing/hero/mockups/patient-phone";
 import { ClinicsTile } from "@/components/marketing/sections/pour-qui/clinics-tile";
@@ -79,29 +80,14 @@ export async function generateMetadata({
   const { locale, slug } = await params;
   if (!isValidSlug(slug)) return {};
   const t = await getTranslations({ locale, namespace: `solutions.${slug}` });
-  const languages = Object.fromEntries(
-    locales.map((l) => [
-      l,
-      `${SITE_URL}/${l}/solutions/${slug}`,
-    ]),
-  );
-  const title = `${t("title")} — ${SITE_NAME}`;
-  return {
-    title,
+  // metaTitle, not the visible H1: the H1 is a full marketing sentence and ran
+  // 60-80 characters, so Google truncated it mid-word in the result.
+  return buildPageMetadata({
+    locale,
+    path: `/solutions/${slug}`,
+    title: t("metaTitle"),
     description: t("metaDescription"),
-    openGraph: {
-      title,
-      description: t("metaDescription"),
-      url: `${SITE_URL}/${locale}/solutions/${slug}`,
-      siteName: SITE_NAME,
-      locale: OG_LOCALE_MAP[locale] ?? "fr_CH",
-      type: "website",
-    },
-    alternates: {
-      canonical: `${SITE_URL}/${locale}/solutions/${slug}`,
-      languages: { ...languages, "x-default": `${SITE_URL}/fr/solutions/${slug}` },
-    },
-  };
+  });
 }
 
 export default async function SolutionPage({
@@ -115,6 +101,7 @@ export default async function SolutionPage({
 
   const t = await getTranslations(`solutions.${slug}`);
   const tCta = await getTranslations("cta");
+  const tNav = await getTranslations("nav");
   const featureIcons = FEATURE_ICONS[slug];
   const ProblemIcon = PROBLEM_ICON[slug];
   const visual = renderVisual(slug, t("visualAlt"));
@@ -125,6 +112,15 @@ export default async function SolutionPage({
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-6 pt-16 sm:pt-20 lg:px-8 lg:pt-24">
           <div className="max-w-3xl">
+            <Breadcrumbs
+              items={[
+                { name: "CareBond", path: `/${locale}` },
+                { name: tNav("solutions"), path: `/${locale}/solutions` },
+                // The eyebrow ("Pour les résidences"), not the title: the title
+                // is a full marketing sentence and reads as noise in a crumb.
+                { name: t("eyebrow"), path: `/${locale}/solutions/${slug}` },
+              ]}
+            />
             <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-brand-blue-strong">
               {t("eyebrow")}
             </p>
@@ -148,7 +144,7 @@ export default async function SolutionPage({
                 />
               </Link>
               <Link
-                href={`/${locale}#platform`}
+                href={`/${locale}/platform`}
                 className="inline-flex h-12 items-center justify-center rounded-xl border border-neutral-200 bg-white px-7 text-sm font-semibold text-brand-navy shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-neutral-300 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue motion-reduce:transform-none motion-reduce:transition-none"
               >
                 {tCta("viewPlatform")}
@@ -292,6 +288,9 @@ function renderVisual(slug: Slug, alt: string): ReactNode {
             alt={alt}
             width={2752}
             height={1536}
+            // LCP element of this page: without `priority` it is lazy-loaded and
+            // only starts downloading after hydration.
+            priority
             className="h-auto w-full"
             sizes="(max-width: 1024px) 100vw, 1024px"
             quality={85}
@@ -310,6 +309,9 @@ function renderVisual(slug: Slug, alt: string): ReactNode {
             alt={alt}
             width={2752}
             height={1536}
+            // LCP element of this page: without `priority` it is lazy-loaded and
+            // only starts downloading after hydration.
+            priority
             className="h-auto w-full"
             sizes="(max-width: 1024px) 100vw, 1024px"
             quality={85}
