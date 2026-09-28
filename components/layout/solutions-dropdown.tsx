@@ -76,7 +76,17 @@ export function SolutionsDropdown({ locale }: { locale: string }) {
           "absolute left-0 top-full z-50 mt-1 min-w-[240px] rounded-lg border border-neutral-200 bg-white p-2 shadow-md"
         }
       >
-          {SOLUTIONS.map(({ key, slug }) => (
+          <li role="none">
+          <Link
+            role="menuitem"
+            href={`/${locale}/solutions`}
+            onClick={() => setOpen(false)}
+            className="block rounded-md px-3 py-2.5 text-sm font-medium text-brand-navy hover:bg-neutral-100 focus-visible:bg-neutral-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
+          >
+            {t("allSolutions")}
+          </Link>
+        </li>
+        {SOLUTIONS.map(({ key, slug }) => (
           <li key={key} role="none">
             <Link
               role="menuitem"

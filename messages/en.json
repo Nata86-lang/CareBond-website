@@ -1,7 +1,9 @@
 {
   "nav": {
     "solutions": "Solutions",
+    "allSolutions": "All solutions",
     "features": "Features",
+    "allPlatform": "The whole platform",
     "compliance": "Compliance",
     "about": "About",
     "contact": "Contact",
