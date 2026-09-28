@@ -156,6 +156,45 @@ export function breadcrumbGraph(
   };
 }
 
+/**
+ * Article node for a resources page. `citation` carries the sources the article
+ * is built on — the point of the section is that every claim traces to an
+ * official Swiss source, and this states that in machine-readable form.
+ * No `datePublished` is emitted: a build has no way of knowing the real one, and
+ * a wrong date is worse than none.
+ */
+export function articleGraph({
+  locale,
+  path,
+  headline,
+  description,
+  sources,
+}: {
+  locale: string;
+  path: string;
+  headline: string;
+  description: string;
+  sources: { label: string; url: string }[];
+}): JsonLdNode {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": `${SITE_URL}${path}#article`,
+    headline,
+    description,
+    inLanguage: locale,
+    mainEntityOfPage: `${SITE_URL}${path}`,
+    author: { "@id": ORGANIZATION_ID },
+    publisher: { "@id": ORGANIZATION_ID },
+    image: { "@id": LOGO_ID },
+    citation: sources.map((s) => ({
+      "@type": "CreativeWork",
+      name: s.label,
+      url: s.url,
+    })),
+  };
+}
+
 /** FAQPage for the home page's six questions. */
 export function faqGraph(
   entries: { question: string; answer: string }[],

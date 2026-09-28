@@ -1395,5 +1395,18 @@
   "platformIndex": {
     "metaTitle": "Die CareBond Plattform: sechs Module",
     "metaDescription": "Die sechs CareBond Module: Steuerung, Audit-Log, Telepräsenz, mehrsprachiger Chat, Pflegeübergaben und 3D-Pläne. In Ihr KIS integrierbar."
+  },
+  "resources": {
+    "metaTitle": "Ressourcen: Datenschutz und Pflege in der Schweiz",
+    "metaDescription": "Belegte Orientierung für Heim- und Spitex-Leitungen: revDSG, Hosting von Gesundheitsdaten, HL7/FHIR und Kommunikation mit Angehörigen.",
+    "navLabel": "Ressourcen",
+    "eyebrow": "Ressourcen",
+    "title": "Verstehen, bevor man entscheidet.",
+    "subtitle": "Orientierung zu Datenschutz, Hosting, Interoperabilität und der Kommunikation mit Angehörigen — geschrieben für Leitungen von Alters- und Pflegeheimen, Spitex-Organisationen und Spitälern in der Schweiz. Jede Aussage verweist auf ihre offizielle Quelle.",
+    "readMore": "Artikel lesen",
+    "takeawaysHeading": "Das Wichtigste",
+    "sourcesHeading": "Quellen",
+    "disclaimerHeading": "Hinweis",
+    "backToIndex": "Alle Ressourcen"
   }
 }

@@ -18,7 +18,13 @@ const MobileNavSheet = dynamic(
   { ssr: false },
 );
 
-export function MobileNav({ locale }: { locale: string }) {
+export function MobileNav({
+  locale,
+  resourcesLabel,
+}: {
+  locale: string;
+  resourcesLabel?: string;
+}) {
   const t = useTranslations();
   const [open, setOpen] = useState(false);
   // Once opened, stay mounted: the close animation needs the component alive,
@@ -42,7 +48,12 @@ export function MobileNav({ locale }: { locale: string }) {
         <Menu size={24} aria-hidden="true" />
       </button>
       {mounted && (
-        <MobileNavSheet locale={locale} open={open} onOpenChange={setOpen} />
+        <MobileNavSheet
+          locale={locale}
+          resourcesLabel={resourcesLabel}
+          open={open}
+          onOpenChange={setOpen}
+        />
       )}
     </>
   );

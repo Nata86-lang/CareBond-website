@@ -1395,5 +1395,18 @@
   "platformIndex": {
     "metaTitle": "La plateforme CareBond : six modules de communication",
     "metaDescription": "Les six modules CareBond : supervision, audit log, téléprésence, chat multilingue, relèves et plans 3D. Intégrable à votre SIH existant."
+  },
+  "resources": {
+    "metaTitle": "Ressources : protection des données et soins en Suisse",
+    "metaDescription": "Repères sourcés pour les directions d'EMS et de soins à domicile : nLPD, hébergement des données de santé, HL7/FHIR et communication avec les familles.",
+    "navLabel": "Ressources",
+    "eyebrow": "Ressources",
+    "title": "Comprendre avant de choisir.",
+    "subtitle": "Des repères sur la protection des données, l'hébergement, l'interopérabilité et la communication avec les familles, écrits pour les directions d'EMS, de services d'aide et de soins à domicile et d'établissements hospitaliers en Suisse. Chaque affirmation renvoie à sa source officielle.",
+    "readMore": "Lire l'article",
+    "takeawaysHeading": "À retenir",
+    "sourcesHeading": "Sources",
+    "disclaimerHeading": "Précision",
+    "backToIndex": "Toutes les ressources"
   }
 }

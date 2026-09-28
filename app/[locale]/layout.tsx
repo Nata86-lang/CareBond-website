@@ -8,6 +8,7 @@ import { locales, type Locale } from "@/lib/i18n";
 import { SITE_URL } from "@/lib/site";
 import { buildPageMetadata } from "@/lib/seo";
 import { siteGraph, jsonLd } from "@/lib/structured-data";
+import { hasResources } from "@/lib/resources";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { SkipLink } from "@/components/layout/skip-link";
@@ -99,12 +100,18 @@ export default async function LocaleLayout({
 
   const graph = siteGraph();
 
+  // Only fr and de have a resources section; the header and mobile menu render
+  // the entry only when a label is passed.
+  const resourcesLabel = hasResources(locale)
+    ? (await getTranslations({ locale, namespace: "resources" }))("navLabel")
+    : undefined;
+
   return (
     <html lang={locale} className={inter.variable}>
       <body className="antialiased">
         <NextIntlClientProvider messages={clientMessages} locale={locale}>
           <SkipLink />
-          <Header locale={locale} />
+          <Header locale={locale} resourcesLabel={resourcesLabel} />
           {children}
           <Footer locale={locale} />
         </NextIntlClientProvider>

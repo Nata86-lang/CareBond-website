@@ -13,7 +13,14 @@ import { MobileNav } from "./mobile-nav";
 // nav entries are direct links to their respective pages.
 const NAV_ITEMS = ["compliance", "about", "contact"] as const;
 
-export function Header({ locale }: { locale: string }) {
+export function Header({
+  locale,
+  resourcesLabel,
+}: {
+  locale: string;
+  /** Set only for the locales that have a resources section (fr, de). */
+  resourcesLabel?: string;
+}) {
   const t = useTranslations();
   const [scrolled, setScrolled] = useState(false);
 
@@ -58,6 +65,14 @@ export function Header({ locale }: { locale: string }) {
         >
           <SolutionsDropdown locale={locale} />
           <FeaturesDropdown locale={locale} />
+          {resourcesLabel && (
+            <Link
+              href={`/${locale}/resources`}
+              className="inline-flex min-h-12 items-center rounded-md px-3 py-2 text-sm font-medium text-neutral-700 hover:text-brand-navy focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
+            >
+              {resourcesLabel}
+            </Link>
+          )}
           {NAV_ITEMS.map((key) => (
             <Link
               key={key}
@@ -77,7 +92,7 @@ export function Header({ locale }: { locale: string }) {
           >
             {t("nav.demo")}
           </Link>
-          <MobileNav locale={locale} />
+          <MobileNav locale={locale} resourcesLabel={resourcesLabel} />
         </div>
       </div>
     </header>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
+import { hasResources } from "@/lib/resources";
 import { LanguageSwitcher } from "./language-switcher";
 
 type LinkSpec = {
@@ -54,6 +55,16 @@ export async function Footer({ locale }: { locale: string }) {
     href: `/${locale}/${key}`,
     label: tNav(key),
   }));
+
+  // The resources section only exists in fr and de, so the link only appears
+  // there — a footer link to a 404 is worse than no link.
+  if (hasResources(locale)) {
+    const tRes = await getTranslations("resources");
+    companyLinks.unshift({
+      href: `/${locale}/resources`,
+      label: tRes("navLabel"),
+    });
+  }
 
   // Legal pages are low value and linked from every page — no point warming
   // five route payloads on hover.

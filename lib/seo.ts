@@ -16,6 +16,21 @@ type PageMetaInput = {
   path: string;
   title: string;
   description: string;
+  /**
+   * Which locales this page actually exists in. Defaults to all of them, which
+   * is right for every route that is generated for all six. Pass a subset for a
+   * page that only exists in some — announcing an hreflang alternate that
+   * returns 404 is a worse signal than announcing none.
+   */
+  availableIn?: readonly string[];
+  /** The locale x-default should point at. Defaults to fr. */
+  defaultLocale?: string;
+  /**
+   * Per-locale paths, for pages whose URL slug is localised (the resources
+   * articles). Without this the alternates would all reuse this locale's slug
+   * and point at 404s in the others.
+   */
+  localePaths?: Record<string, string>;
 };
 
 /**
@@ -35,11 +50,15 @@ export function buildPageMetadata({
   path,
   title,
   description,
+  availableIn = locales,
+  defaultLocale = "fr",
+  localePaths,
 }: PageMetaInput): Metadata {
+  const pathIn = (l: string) => localePaths?.[l] ?? path;
   const url = `${SITE_URL}/${locale}${path}`;
   const image = ogImagePath(locale);
   const languages = Object.fromEntries(
-    locales.map((l) => [l, `${SITE_URL}/${l}${path}`]),
+    availableIn.map((l) => [l, `${SITE_URL}/${l}${pathIn(l)}`]),
   );
 
   return {
@@ -62,7 +81,10 @@ export function buildPageMetadata({
     },
     alternates: {
       canonical: url,
-      languages: { ...languages, "x-default": `${SITE_URL}/fr${path}` },
+      languages: {
+        ...languages,
+        "x-default": `${SITE_URL}/${defaultLocale}${pathIn(defaultLocale)}`,
+      },
     },
   };
 }

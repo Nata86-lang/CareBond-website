@@ -84,6 +84,31 @@ canonical, hreflang and sitemap URL derives from that one constant.
   component means adding its namespace to `clientMessages`, or it renders the
   raw key path.
 
+## The resources section
+
+`/{fr,de}/resources` — six long-form articles aimed at what a Swiss care
+director searches for *before* they know a vendor exists. The rest of the site
+is product pages, which only reach people already shopping.
+
+- **French and German only.** `RESOURCE_LOCALES` in `lib/resources.ts` is the
+  single switch — routes, sitemap, footer, header nav and the hreflang set all
+  read it. Four more machine-widened languages would add 24 thin pages
+  competing with nothing.
+- **Slugs are localised** (`/fr/resources/nlpd-ems-obligations` pairs with
+  `/de/resources/revdsg-pflegeheim-pflichten`). The `ARTICLES` table pairs them
+  so hreflang points at the real other-language URL; without it each version
+  looks like an orphan to Google.
+- **Bodies live in `content/resources/{locale}.ts`, never in `messages/*.json`** —
+  that catalogue is read in full on every server render and would carry six long
+  articles into every page of the site.
+- **Every factual claim traces to an entry in that article's own `sources`.**
+  They are listed on the page, marked up as `citation` in the Article JSON-LD,
+  and each one was fetched and checked to resolve. Do not add a claim without
+  adding its source, and do not add a source without opening it.
+- Each article carries a not-legal-advice note. Keep it: these describe Swiss
+  federal and cantonal obligations, and the site is published by a vendor, not
+  a law firm.
+
 ## Icons and share images
 
 `app/favicon.ico` (16→256), `app/icon.png`, `app/apple-icon.png` and

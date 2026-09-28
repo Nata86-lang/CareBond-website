@@ -34,10 +34,12 @@ const NAV_DIRECT = ["compliance", "about", "contact"] as const;
 // The Sheet is controlled and has no SheetTrigger — the parent owns `open`.
 export function MobileNavSheet({
   locale,
+  resourcesLabel,
   open,
   onOpenChange,
 }: {
   locale: string;
+  resourcesLabel?: string;
   open: boolean;
   onOpenChange: (open: boolean) => void;
 }) {
@@ -151,6 +153,16 @@ export function MobileNavSheet({
               </ul>
             </details>
 
+            {resourcesLabel && (
+              <Link
+                href={`/${locale}/resources`}
+                prefetch={false}
+                onClick={close}
+                className="block min-h-12 rounded-md px-4 py-3 text-base font-medium text-neutral-800 hover:bg-neutral-100 hover:text-brand-navy focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
+              >
+                {resourcesLabel}
+              </Link>
+            )}
             {NAV_DIRECT.map((key) => (
               <Link
                 key={key}
