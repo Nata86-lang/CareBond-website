@@ -9,7 +9,11 @@ export const PRODUCTION_URL = "https://www.carebond.ch";
 // `X-Robots-Tag: noindex, nofollow`, so emitting one as the canonical of
 // carebond.ch told Google the real page was a URL it must not index, and kept the
 // whole site out of the results.
-const override = (process.env.NEXT_PUBLIC_SITE_URL ?? "").trim().replace(/\/$/, "");
+const rawOverride = (process.env.NEXT_PUBLIC_SITE_URL ?? "").trim().replace(/\/$/, "");
+
+// The apex is a 308 to www, so an apex override would canonicalise every page to a
+// redirect. Fold it to www rather than honouring it literally.
+const override = rawOverride.replace(/^https:\/\/carebond\.ch$/i, PRODUCTION_URL);
 
 export const SITE_URL =
   override && !/^https?:\/\/[^/]*\.vercel\.app$/i.test(override) ? override : PRODUCTION_URL;
