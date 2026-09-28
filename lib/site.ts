@@ -30,7 +30,7 @@ export const SITE_NAME = "CareBond";
 // subdomain at once, but Google only verifies those by DNS TXT.
 //
 // Empty string = no tag emitted at all, which is the correct default.
-export const GOOGLE_SITE_VERIFICATION = "";
+export const GOOGLE_SITE_VERIFICATION = "hM1Nysoergnn1NY0XKJC2Rs7T5HA1UfQaLIQJNoH9wM";
 
 export const OG_LOCALE_MAP: Record<string, string> = {
   fr: "fr_CH",
