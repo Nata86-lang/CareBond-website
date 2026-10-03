@@ -31,6 +31,8 @@ export interface HeroCard extends CardBase {
   eyebrow: string;
   title: string;
   text: string;
+  /** Scroll prompt under the text. */
+  hint?: string;
 }
 
 export interface AppCard extends CardBase {
@@ -52,6 +54,10 @@ export interface AppCard extends CardBase {
 
 export interface PushCard extends CardBase {
   type: "push";
+  /** Notification text. */
+  body?: string;
+  /** Time label next to the app name ("now"). */
+  now?: string;
 }
 
 export interface ReplyCard extends CardBase {

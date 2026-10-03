@@ -685,6 +685,8 @@
   z-index: 4;
   display: flex;
   gap: 2px;
+  width: max-content;
+  max-width: calc(100% - 24px);
   padding: 3px;
   border-radius: 999px;
   background: rgba(10, 27, 57, 0.35);
@@ -700,6 +702,7 @@
   background: transparent;
   color: rgba(255, 255, 255, 0.85);
   font: 500 14px/1 var(--font-ui);
+  white-space: nowrap;
   text-decoration: none;
   cursor: pointer;
 }
@@ -732,7 +735,7 @@
   }
   .parcours .tabs a,
   .parcours .tabs button {
-    padding: 8px 11px;
+    padding: 8px 12px;
     font-size: 13px;
   }
   .parcours .skip {
