@@ -1,4 +1,4 @@
-import type { AppCard, Card, CtaCard, HeroCard, ReplyCard } from "./types";
+import type { AppCard, Card, CtaCard, HeroCard, PushCard, ReplyCard } from "./types";
 
 /** French spacing: no line break before ":" or inside "14 h", "37,1 °C", "86 ans", "7,2 mmol/L". */
 const fr = (s: string) =>
@@ -32,9 +32,9 @@ const ICON_SEND =
 function hero(c: HeroCard) {
   return `<article class="card hero">
     <p class="hero__eyebrow">${esc(c.eyebrow)}</p>
-    <h1 class="hero__title">${esc(c.title)}</h1>
+    <h2 class="hero__title">${esc(c.title)}</h2>
     <p class="hero__text">${esc(c.text)}</p>
-    <p class="hero__hint"><span class="hero__hint-line" aria-hidden="true"></span>Faites défiler</p>
+    <p class="hero__hint"><span class="hero__hint-line" aria-hidden="true"></span>${esc(c.hint ?? "")}</p>
   </article>`;
 }
 
@@ -68,12 +68,12 @@ function app(c: AppCard) {
   </article>`;
 }
 
-function push() {
-  return `<article class="card push" aria-label="Notification CareBond">
+function push(c: PushCard) {
+  return `<article class="card push">
     <span class="push__icon" aria-hidden="true">C</span>
     <div class="push__text">
-      <p class="push__top"><b>CareBond</b><span>maintenant</span></p>
-      <p class="push__body">Nouvelle mise à jour</p>
+      <p class="push__top"><b>CareBond</b><span>${esc(c.now ?? "")}</span></p>
+      <p class="push__body">${esc(c.body ?? "")}</p>
     </div>
   </article>`;
 }
@@ -92,7 +92,7 @@ function reply(c: ReplyCard) {
 function cta(c: CtaCard) {
   return `<article class="card cta">
     <h2 class="cta__title">${esc(c.title)}</h2>
-    <a class="cta__btn" href="${esc(c.href)}" target="_blank" rel="noopener">${esc(c.button)}</a>
+    <a class="cta__btn" href="${esc(c.href)}">${esc(c.button)}</a>
   </article>`;
 }
 
@@ -103,7 +103,7 @@ export function renderCard(c: Card): string {
     case "app":
       return app(c);
     case "push":
-      return push();
+      return push(c);
     case "reply":
       return reply(c);
     case "cta":

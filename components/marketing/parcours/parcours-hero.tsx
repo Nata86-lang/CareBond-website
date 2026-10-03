@@ -5,7 +5,7 @@ import { useEffect, useRef } from "react";
 import { CardLayer } from "./CardLayer";
 import { ImageSequenceSource } from "./ImageSequenceSource";
 import { ScrollSequence } from "./ScrollSequence";
-import residence from "./residence";
+import { residence } from "./residence";
 import type { Experience } from "./types";
 import "./parcours.css";
 
@@ -20,16 +20,83 @@ import "./parcours.css";
 const TRACK_VH = 500;
 const HEADER_PX = 65; // keep in sync with --header-h in parcours.css
 
-function forLocale(exp: Experience, locale: string): Experience {
+/** Interface texts around the cards, per site locale. */
+const UI: Record<
+  string,
+  {
+    section: string;
+    nav: string;
+    tabs: [string, string, string];
+    skip: string;
+    hint: string;
+    now: string;
+  }
+> = {
+  fr: {
+    section: "CareBond en situation : une résidence",
+    nav: "Parcours",
+    tabs: ["Résidence", "Domicile", "Recovery"],
+    skip: "Passer",
+    hint: "Faites défiler",
+    now: "maintenant",
+  },
+  de: {
+    section: "CareBond im Einsatz: ein Pflegeheim",
+    nav: "Einsatzbereiche",
+    tabs: ["Pflegeheim", "Zuhause", "Recovery"],
+    skip: "Überspringen",
+    hint: "Scrollen",
+    now: "jetzt",
+  },
+  it: {
+    section: "CareBond in azione: una casa per anziani",
+    nav: "Percorsi",
+    tabs: ["Residenza", "Domicilio", "Recovery"],
+    skip: "Salta",
+    hint: "Scorri",
+    now: "ora",
+  },
+  en: {
+    section: "CareBond in practice: a care home",
+    nav: "Journeys",
+    tabs: ["Care home", "Home care", "Recovery"],
+    skip: "Skip",
+    hint: "Scroll",
+    now: "now",
+  },
+  es: {
+    section: "CareBond en acción: una residencia",
+    nav: "Recorridos",
+    tabs: ["Residencia", "Domicilio", "Recovery"],
+    skip: "Saltar",
+    hint: "Desplácese",
+    now: "ahora",
+  },
+  ca: {
+    section: "CareBond en acció: una residència",
+    nav: "Recorreguts",
+    tabs: ["Residència", "Domicili", "Recovery"],
+    skip: "Omet",
+    hint: "Desplaceu-vos",
+    now: "ara",
+  },
+};
+
+function forLocale(locale: string): Experience {
+  const ui = UI[locale] ?? UI.fr!;
+  const exp = residence(locale);
   return {
     ...exp,
-    cards: exp.cards.map((c) => (c.type === "cta" ? { ...c, href: `/${locale}/contact` } : c)),
+    cards: exp.cards.map((c) =>
+      c.type === "hero" ? { ...c, hint: ui.hint } : c.type === "push" ? { ...c, now: ui.now } : c
+    ),
   };
 }
 
 export function ParcoursHero({ locale }: { locale: string }) {
   const rootRef = useRef<HTMLElement>(null);
-  const exp = forLocale(residence, locale);
+  const ui = UI[locale] ?? UI.fr!;
+  const exp = forLocale(locale);
   const positions = exp.keyframes.map((k, i) => k.at ?? i / (exp.keyframes.length - 1));
 
   useEffect(() => {
@@ -97,7 +164,7 @@ export function ParcoursHero({ locale }: { locale: string }) {
   }, [locale]);
 
   return (
-    <section ref={rootRef} className="parcours" aria-label="CareBond en situation : une résidence">
+    <section ref={rootRef} className="parcours" aria-label={ui.section}>
       <div className="track" style={{ height: `${TRACK_VH}vh` }}>
         <div className="stage">
           <div className="stage__poster stage__poster--desktop" aria-hidden="true" />
@@ -105,12 +172,12 @@ export function ParcoursHero({ locale }: { locale: string }) {
           <canvas className="stage__canvas" aria-hidden="true" />
           <div className="stage__scrim" aria-hidden="true" />
           <div className="stage__ui">
-            <nav className="tabs" aria-label="Parcours">
+            <nav className="tabs" aria-label={ui.nav}>
               <button type="button" aria-current="true">
-                Résidence
+                {ui.tabs[0]}
               </button>
-              <Link href={`/${locale}/solutions/home-care`}>Domicile</Link>
-              <Link href={`/${locale}/solutions/recovery`}>Recovery</Link>
+              <Link href={`/${locale}/solutions/home-care`}>{ui.tabs[1]}</Link>
+              <Link href={`/${locale}/solutions/recovery`}>{ui.tabs[2]}</Link>
             </nav>
             <svg className="traces" aria-hidden="true" />
             <div className="cards" />
@@ -123,7 +190,7 @@ export function ParcoursHero({ locale }: { locale: string }) {
               </div>
             </div>
             <a className="skip" href="#contenu">
-              Passer
+              {ui.skip}
             </a>
           </div>
         </div>
