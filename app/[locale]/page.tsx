@@ -2,6 +2,7 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { locales } from "@/lib/i18n";
 import { homeGraph, jsonLd } from "@/lib/structured-data";
 import { Hero } from "@/components/marketing/hero";
+import { ParcoursHero } from "@/components/marketing/parcours/parcours-hero";
 import { StatDivider } from "@/components/marketing/sections/stats/stat-divider";
 import { HowItWorks } from "@/components/marketing/sections/how-it-works/how-it-works";
 import { PourQui } from "@/components/marketing/sections/pour-qui/pour-qui";
@@ -18,11 +19,7 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export default async function HomePage({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
 
@@ -38,10 +35,13 @@ export default async function HomePage({
               locale,
               title: tMeta("title"),
               description: tMeta("description"),
-            }),
+            })
           ),
         }}
       />
+      <ParcoursHero locale={locale} />
+      {/* Target of the parcours "Passer" link: the regular home page starts here. */}
+      <div id="contenu" />
       <Hero locale={locale} />
       <StatDivider statKey="s0" surface="muted" />
       <HowItWorks />
