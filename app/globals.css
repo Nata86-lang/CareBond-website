@@ -459,13 +459,16 @@
     /* Prevent horizontal scroll caused by any rogue overflowing element
        on narrow viewports. Belt-and-suspenders alongside per-section
        fixes — keeps the page from looking broken if a future component
-       slips a wide element through review. */
-    overflow-x: hidden;
+       slips a wide element through review.
+       `clip`, not `hidden`: `hidden` turns <body> into a scroll container,
+       which silently breaks every `position: sticky` element (the header
+       stopped sticking, and the home parcours could not pin). */
+    overflow-x: clip;
   }
   body {
     @apply bg-background text-foreground antialiased;
     font-family: var(--font-sans);
-    overflow-x: hidden;
+    overflow-x: clip;
   }
 }
 
